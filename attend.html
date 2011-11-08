@@ -91,10 +91,8 @@
                   <input class="btn primary" type="submit" name="submit" value="Submit">
                 </div>
             </form>
-            <!-- hidden iframe to open our response -->
-            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='/scaleconf/attend-success';}">
-
-              </p>
+            
+            </p>
           </div>
       </div>
 
@@ -106,6 +104,25 @@
       </footer>
 
     </div> <!-- /container -->
+
+    <!-- Validation - unfortunately no server side validation for google docs that is nice. -->
+    <!-- Forms that fail server side validation will just get thrown out -->
+
+    <script type='text/javascript'>
+
+        submitted=false;
+        function validate_email() {
+            failed = false;
+            username_field = document.getElementById('entry_0')
+            email_field    = document.getElementById('entry_1')
+            if (email_field.value == "")    { email_field.setAttribute('style','background:#fee'); failed=true; }
+            if (username_field.value == "") { username_field.setAttribute('style','background:#fee'); failed=true; }
+            if (failed == false) { window.location='/scaleconf/attend-success'; }
+        }
+    </script>
+
+    <!-- hidden iframe to open our response -->
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){validate_email()}">
 
   </body>
 </html>
