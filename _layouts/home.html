@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}{{ page.title_suffix }}</title>
+    <meta name="description" content="Scaleconf is a web scalability conference about working and building for highly scalable websites. International experts will be talking about principles from the devops movement as well as some trending technologies and methodologies.">
+    {% if page.meta-description %}
+        <meta name="description" content="{{ page.meta-description }}" />
+    {% endif %}
+    <meta name="author" content="@vhata, @nuknad">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+        body { padding-top: 60px; }
+        .alignright { text-align: right;}
+    </style>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <a class="brand" href="/">ScaleConf</a>
+          <ul class="nav">
+            {% for link in site.navigation %}
+              {% assign current = nil %}
+              {% if page.url == link.url or page.layout == link.layout %}
+                {% assign current = 'active' %}
+              {% endif %}
+              <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+        {{ content }}
+
+      <footer>
+          <p class='row'>
+            <span class='span5'> &copy; ScaleConf 2011</span>
+            <span class='span11 alignright'><a href='/contact-us.html'>contact us</a> </span>
+          </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
+
