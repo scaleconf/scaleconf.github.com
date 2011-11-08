@@ -1,0 +1,15 @@
+markdown: rdiscount
+pygments: true
+navigation:
+- text: 
+  url: 
+- url: /schedule.html
+  text: Schedule
+- url: /speakers.html
+  text: Speakers
+- url: /sponsors.html
+  text: Sponsors
+- url: /location.html
+  text: Location
+- url: /attend.html
+  text: Attend
