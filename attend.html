@@ -57,15 +57,15 @@
                   Registration is unfortunately not open yet. The numbers will be limited, so stay posted for an update as to when registration will open. 
               </div>
               <p>
-              If you'd like to get updated when registration opens, fill your details in below and we'll let you know when early bird registration opens. <br/>
-              <span style='font-size:0.9em; color:#888;'>Your details will not be used for any other reason other than to email you when ScaleConf registration opens</span>
+                  If you'd like to get updated when registration opens, fill your details in below and we'll let you know when early bird registration opens. <br/>
+                  <span style='font-size:0.9em; color:#888;'>Your details will not be used for any other reason other than to email you when ScaleConf registration opens</span>
               </p>
 
               <!-- original google frame -->
               <!-- iframe src="https://docs.google.com/a/scaleconf.org/spreadsheet/embeddedform?formkey=dGdhNmMxaFdiM2RKZF9LUVNNR2x1MEE6MQ" width="760" height="1021" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe-->
               
               <p>
-              <form action="https://docs.google.com/a/scaleconf.org/spreadsheet/formResponse?formkey=dGdhNmMxaFdiM2RKZF9LUVNNR2x1MEE6MQ&amp;embedded=true&amp;ifq" method="POST" id="ss-form" target="_blank">
+              <form action="https://docs.google.com/a/scaleconf.org/spreadsheet/formResponse?formkey=dGdhNmMxaFdiM2RKZF9LUVNNR2x1MEE6MQ&amp;embedded=true&amp;ifq" method="POST" id="ss-form" target='hidden_iframe' onsubmit='submitted=true'>
                 <fieldset>
                   <label class="ss-q-title" for="entry_0">Name* </label>
                   <input class='input' type="text" name="entry.0.single" value="" class="ss-q-short" id="entry_0">
@@ -90,7 +90,10 @@
                 <div class="actions">
                   <input class="btn primary" type="submit" name="submit" value="Submit">
                 </div>
-              </form>
+            </form>
+            <!-- hidden iframe to open our response -->
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='/scaleconf/attend-success';}">
+
               </p>
           </div>
       </div>
