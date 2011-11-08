@@ -3,13 +3,13 @@ pygments: true
 navigation:
 - text: 
   url: 
-- url: /schedule.html
+- url: /schedule
   text: Schedule
-- url: /speakers.html
+- url: /speakers
   text: Speakers
-- url: /sponsors.html
+- url: /sponsors
   text: Sponsors
-- url: /location.html
+- url: /location
   text: Location
-- url: /attend.html
+- url: /attend
   text: Attend
