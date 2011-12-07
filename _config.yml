@@ -3,6 +3,8 @@ pygments: true
 navigation:
 - text: 
   url: 
+- url: /details
+  text: Details
 - url: /speakers
   text: Speakers
 - url: /sponsors
