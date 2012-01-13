@@ -7,6 +7,8 @@ navigation:
   text: Details
 - url: /speakers
   text: Speakers
+- url: /schedule
+  text: Schedule
 - url: /sponsors
   text: Sponsors
 - url: /location
