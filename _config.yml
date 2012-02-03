@@ -13,3 +13,5 @@ navigation:
   text: Sponsors
 - url: /location
   text: Location
+- url: /feedback-form
+  text: Feedback
