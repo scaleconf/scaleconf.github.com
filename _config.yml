@@ -1,5 +1,14 @@
 markdown: rdiscount
 pygments: true
+navigation:
+- text:
+  url:
+- url: /details
+  text: Details
+- url: /location
+  text: Location
+- url: /attend
+  text: Attend
 2012navigation:
 - text: 
   url: /2012/
