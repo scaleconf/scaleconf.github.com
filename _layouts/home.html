@@ -54,7 +54,7 @@
                       {% if page.url == link.url %}
                       {% assign current = 'active' %}
                       {% endif %}
-                      <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
+                      <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a><!-- {{ page.url }} - {{ link.url }} --></li>
                       {% endfor %}
                   </ul>
                   <ul class="nav pull-right">
