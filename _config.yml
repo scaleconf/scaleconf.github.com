@@ -3,8 +3,6 @@ pygments: true
 navigation:
 - text:
   url:
-- url: /details
-  text: Details
 - url: /location
   text: Location
 - url: /attend
