@@ -1,63 +1,73 @@
 ---
 layout: page
 title: Attend
-meta-description: Scaleconf Signup
+meta-description: Attend ScaleConf, a conference focusing on web scalability
 ---
-    <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
-          <h1>Signup for ScaleConf 2012</h1>
+          <h1>Attend</h1>
+          <br/><br/>
+          <p>
+              Registration isn&#8217;t open just yet. But numbers will be limited, so stay posted for an update as to when we do start taking Early Bird registrations.
+          </p>
       </div>
 
       <div class="row">
           <div class='span16'>
-              <div class='alert-message block-message info' style='background: #D8E8C2; border-color: #B6D193;'>
-                  <p>
-                  Tickets are <strong>sold out</strong> for this conference.  Follow us on twitter to hear about future events!
-                  </p>
-                  <p>
-                  <a href="https://twitter.com/scaleconf" class="twitter-follow-button" data-show-count="false">Follow @scaleconf</a>
-                  <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
-                  </p>
-              </div>
-          </div>
-      </div>
-
-
-      <div class="row">
-          <div class='span-two-thirds'>
               <p>
-              <b>
-                The fee for the conference is R1250.00 via EFT*, or $160 via
-                other payment methods (we've been fortunate with sponsorship
-                and attendance and so we didn't need to increase on the
-                early-bird price too much!).
-              </b>
-                Part of every ticket will also be going to a charity (still to be
-                decided - email us if you are really passionate about any charity
-                in particular).
+                  If you'd like to receive an email notification when registration opens and other details are finalised, fill in your contact details below. <br/>
+                  <span style='font-size:0.9em; color:#888;'>Your details will not be used for any other reason than to email you when ScaleConf registration opens and other details are finalised.</span>
               </p>
 
-              <p>The ticket includes entrance, lunch on both days, great speakers, and the opportunity to network with others in the industry.</p>
-          </div>
-          <div class='span-one-third'>
+              <!-- original google frame -->
+              <!-- iframe src="https://docs.google.com/a/scaleconf.org/spreadsheet/embeddedform?formkey=FIXME" width="760" height="1021" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe-->
+
               <p>
-              The venue for the conference is the beautiful Kirstenbosch gardens in Cape Town, South Africa. Attendees will be given a boutique picnic lunch to enjoy in the gardens. 
-          </div>
-      </div>
-      <div class="row">
-          <div class='span16'>
-              <br/>
-              <a class='btn success' href='http://scaleconf.eventbrite.com/'>Pay Now at Eventbrite &raquo;</a> <br/>
-              </p>
+              <form action="https://docs.google.com/a/scaleconf.org/spreadsheet/formResponse?formkey=FIXME&amp;embedded=true&amp;ifq" method="POST" id="ss-form" target='hidden_iframe' onsubmit='submitted=true'>
+                <fieldset>
+                  <label class="ss-q-title" for="entry_0">Name* </label>
+                  <input class='input' type="text" name="entry.0.single" value="" class="ss-q-short" id="entry_0">
+                </fieldset>
+                <fieldset>
+                  <label class="ss-q-title" for="entry_1">Email* </label>
+                  <input class='input' type="text" name="entry.1.single" value="" class="ss-q-short" id="entry_1">
+                </fieldset>
+                <fieldset>
+                  <label class="ss-q-title" for="entry_3">Company </label>
+                  <input class='input' type="text" name="entry.3.single" value="" class="ss-q-short" id="entry_3">
+                </fieldset>
+                <fieldset>
+                  <label class="ss-q-title" for="entry_4">Twitter Alias </label>
+                  <input class='input' type="text" name="entry.4.single" value="" class="ss-q-short" id="entry_4">
+                </fieldset>
+                <fieldset>
+                  <label class="ss-q-title" for="entry_5">Github Username </label>
+                  <input class='input' type="text" name="entry.5.single" value="" class="ss-q-short" id="entry_5">
+                </fieldset>
+                <fieldset>
+                <div class="actions">
+                  <input class="btn primary" type="submit" name="submit" value="Submit">
+                </div>
+            </form>
+            </p>
           </div>
       </div>
 
-      <div class="row">
-          <div class='span9'>
-              <br/>
-              <p style='font-style:italic; font-size:12px; color:#555;'>* To pay via EFT, please follow the link to eventbrite, and click on "Show other payment options" under the "Order Now" button.</p>
-              <p style='font-style:italic; font-size:12px; color:#555;'>** We want to make this conference as accessible as possible and so there will be a limited stock of cost price tickets available. If you would like to attend ScaleConf and cannot afford a ticket, please write to us with motivation to <a href='mailto:payments@scaleconf.org'>payments@scaleconf.org</a></p>
-              <p style='font-size:12px; color:#555; font-style:italic;'>*** We are using eventbrite as our payment processor, and the organising beneficiary for ScaleConf is Lessfuss. If you would like more information on lessfuss, please visit <a href='http://lessfuss.co.za/'>lessfuss.co.za</a>.
-              If you have any problems at all with payment, please email <a href='mailto:info@scaleconf.org'>info@scaleconf.org</a> and we will help you out!</p>
-          </div>
-      </div>
+    <!-- Validation - unfortunately no server side validation for google docs that is nice. -->
+    <!-- Forms that fail server side validation will just get thrown out -->
+
+    <script type='text/javascript'>
+
+        submitted=false;
+        function validate_email() {
+            failed = false;
+            username_field = document.getElementById('entry_0')
+            email_field    = document.getElementById('entry_1')
+            if (email_field.value == "")    { email_field.setAttribute('style','background:#fee'); failed=true; }
+            if (username_field.value == "") { username_field.setAttribute('style','background:#fee'); failed=true; }
+            if (failed == false) { window.location='/attend-success'; }
+        }
+    </script>
+
+    <!-- hidden iframe to open our response -->
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){validate_email()}">
+

@@ -44,39 +44,36 @@
 
   <body>
 
-      <div class="navbar navbar-fixed-top">
-          <div class="navbar-inner">
-              <div class="container">
-                  <a class="brand" href="/">ScaleConf</a>
-                  <ul class="nav nav-pills">
-                      {% for link in site.navigation %}
-                      {% assign current = nil %}
-                      {% if page.url == link.longurl %}
-                      {% assign current = 'active' %}
-                      {% endif %}
-                      <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
-                      {% endfor %}
-                  </ul>
-                  <ul class="nav pull-right">
-                      <li><a href="/2012">[ScaleConf 2012 ->]</a></li>
-                  </ul>
-              </div>
-          </div>
+    <div class="topbar">
+      <div class="fill">
+          <div class="container">
+          <a class="brand" href="/2012/">ScaleConf</a>
+          <ul class="nav">
+            {% for link in site.2012navigation %}
+              {% assign current = nil %}
+              {% if page.url == link.url or page.layout == link.layout %}
+                {% assign current = 'active' %}
+              {% endif %}
+              <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
+    </div>
 
-      <div class="container">
+    <div class="container">
 
-          {{ content }}
+        {{ content }}
 
-          <footer>
+      <footer>
           <p class='row'>
-          <span class='span4'> &copy; ScaleConf 2012</span>
-          <span class='span4 aligncenter'> <a href="https://github.com/scaleconf/scaleconf.github.com/">Pull requests</a> on this site are welcome!</span>
-          <span class='span4 alignright'><a href='/contact-us'>contact us</a> </span>
+            <span class='span5'> &copy; ScaleConf 2012</span>
+            <span class='span6 aligncenter'> <a href="https://github.com/scaleconf/scaleconf.github.com/">Pull requests</a> on this site are welcome!</span>
+            <span class='span5 alignright'><a href='/contact-us'>contact us</a> </span>
           </p>
-          </footer>
+      </footer>
 
-      </div> <!-- /container -->
+    </div> <!-- /container -->
 
   </body>
 </html>
