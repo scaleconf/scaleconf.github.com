@@ -2,7 +2,7 @@ markdown: rdiscount
 pygments: true
 2012navigation:
 - text: 
-  url: 
+  url: /2012/
 - url: /2012/details
   text: Details
 - url: /2012/speakers
