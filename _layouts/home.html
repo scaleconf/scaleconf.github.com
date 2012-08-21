@@ -51,11 +51,14 @@
                   <ul class="nav nav-pills">
                       {% for link in site.navigation %}
                       {% assign current = nil %}
-                      {% if page.url == link.url or page.layout == link.layout %}
+                      {% if page.url == link.url %}
                       {% assign current = 'active' %}
                       {% endif %}
                       <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
                       {% endfor %}
+                  </ul>
+                  <ul class="nav pull-right">
+                      <li><a href="/2012">[ScaleConf 2012 ->]</a></li>
                   </ul>
               </div>
           </div>
