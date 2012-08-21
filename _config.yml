@@ -2,10 +2,13 @@ markdown: rdiscount
 pygments: true
 navigation:
 - text:
+  longurl:
   url:
 - url: /location
+  longurl: /location.html
   text: Location
 - url: /attend
+  longurl: /attend.html
   text: Attend
 2012navigation:
 - text: 

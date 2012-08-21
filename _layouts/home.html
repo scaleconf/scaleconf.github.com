@@ -51,10 +51,10 @@
                   <ul class="nav nav-pills">
                       {% for link in site.navigation %}
                       {% assign current = nil %}
-                      {% if page.url == link.url %}
+                      {% if page.url == link.longurl %}
                       {% assign current = 'active' %}
                       {% endif %}
-                      <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a><!-- {{ page.url }} - {{ link.url }} --></li>
+                      <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
                       {% endfor %}
                   </ul>
                   <ul class="nav pull-right">
