@@ -16,12 +16,7 @@
 
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-        body { padding-top: 60px; }
-        .alignright { text-align: right;}
-        .aligncenter { text-align: center;}
-        .bg1 { background:#f5f5f5;}
-    </style>
+    <link href="css/scaleconf.css" rel="stylesheet">
 
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -43,22 +38,21 @@
   </head>
 
   <body>
-
       <div class="navbar navbar-fixed-top">
           <div class="navbar-inner">
               <div class="container">
-                  <a class="brand" href="/">ScaleConf</a>
+                  <a class="brand" style='padding:19px 20px;' href="/">ScaleConf</a>
                   <ul class="nav nav-pills">
                       {% for link in site.navigation %}
                       {% assign current = nil %}
                       {% if page.url == link.longurl %}
                       {% assign current = 'active' %}
                       {% endif %}
-                      <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
+                      <li class="{{ current }}"><a href="{{ link.url }}" style='padding:19px 10px;'>{{ link.text }}</a></li>
                       {% endfor %}
                   </ul>
                   <ul class="nav pull-right">
-                      <li><a href="/2012">[ScaleConf 2012 ->]</a></li>
+                      <li><a href="http://twitter.com/#!/scaleconf/"><img src='/images/twitter_button.png'/></a></li>
                   </ul>
               </div>
           </div>
