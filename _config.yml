@@ -1,17 +1,27 @@
 markdown: rdiscount
 pygments: true
 navigation:
-- text: 
-  url: 
-- url: /details
-  text: Details
-- url: /speakers
-  text: Speakers
-- url: /schedule
-  text: Schedule
-- url: /sponsors
-  text: Sponsors
+- text:
+  longurl:
+  url:
 - url: /location
+  longurl: /location.html
   text: Location
-- url: /feedback-form
+- url: /attend
+  longurl: /attend.html
+  text: Attend
+2012navigation:
+- text: 
+  url: /2012/
+- url: /2012/details
+  text: Details
+- url: /2012/speakers
+  text: Speakers
+- url: /2012/schedule
+  text: Schedule
+- url: /2012/sponsors
+  text: Sponsors
+- url: /2012/location
+  text: Location
+- url: /2012/feedback-form
   text: Feedback
