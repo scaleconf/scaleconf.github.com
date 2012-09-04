@@ -1,5 +1,37 @@
-body { padding-top: 80px; }
+body { padding-top: 60px; }
 .alignright { text-align: right;}
 .aligncenter { text-align: center;}
 .bg1 { background:#f5f5f5;}
-footer { border-top:dashed 1px #888; padding-top:10px; margin-top:15px; }
+.bigtext { font-size: 16px; }
+.herotext { font-size: 26px; font-style:italic; font-family: sans-serif; line-height:1.4em; text-align:justify; }
+footer { border-top:dashed 1px #888; padding-top:10px; margin-top:35px; }
+div.navbar-alt-inner {
+    min-height:50px;
+    padding-left:20px;
+    padding-right:20px;
+    background-image:-moz-linear-gradient(top, #444, #333);
+    background-image:-ms-linear-gradient(top, #444, #333);
+    background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#444), to(#333));
+    background-image:-webkit-linear-gradient(top, #444, #333);
+    background-image:-o-linear-gradient(top, #444, #333);
+    background-image:linear-gradient(top, #444, #333);
+    background-repeat:repeat-x;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#444', endColorstr='#333', GradientType=0);
+    -webkit-box-shadow:0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow:0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+    box-shadow:0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+}
+div.navbar-alt-inner .container { width:940px; }
+div.navbar-alt-inner p { color: #ddd; display:inline-block; font-size: 12px; padding: 8px 12px 8px 0; margin-top:8px;}
+div.navbar-alt-inner p span { color:#fff; font-weight:bold;}
+div.navbar-alt-inner input { margin:0 0 0 10px; }
+
+p.rambling { color:#ccc; border: solid 1px #eee; font-weight: bold; font-size: 16px; }
+div.picture-block { border: solid 1px #eee; }
+div.picture-block h2 { background: #555; padding:8px; color: #fff; }
+div.picture-block p { padding:8px; color: #222; }
+
+div.call-to-arms { padding:60px 0px; min-height: 430px; }
+div.call-to-arms div.row { padding-bottom:35px; }
+div.call-to-arms h2 { font-family:Jura; }
+div.call-to-arms a.calling { margin:10px 0 0 0; }
