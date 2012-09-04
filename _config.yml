@@ -6,10 +6,10 @@ navigation:
   url:
 - url: /location
   longurl: /location.html
-  text: Location
-- url: /attend
-  longurl: /attend.html
-  text: Attend
+  text: Venue
+- url: /
+  longurl: /
+  text: Programme
 2012navigation:
 - text: 
   url: /2012/

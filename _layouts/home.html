@@ -3,9 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}{{ page.title_suffix }}</title>
-    <meta name="description" content="ScaleConf is a web scalability conference about working and building for highly scalable websites. International experts will be talking about principles from the devops movement as well as some trending technologies and methodologies.">
+    <meta 
+        name="description" 
+        content="ScaleConf is a web scalability conference about working and building for highly scalable websites. 
+                 International experts will be talking about principles from the devops movement as well as some 
+                 trending technologies and methodologies."
+    >
     {% if page.meta-description %}
-        <meta name="description" content="{{ page.meta-description }}" />
+    <meta name="description" content="{{ page.meta-description }}" />
     {% endif %}
     <meta name="author" content="@vhata, @nuknad">
 
@@ -14,15 +19,10 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/scaleconf.css" rel="stylesheet">
-
-    <!-- Le fav and touch icons -->
+    <link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
     <script type="text/javascript">
           var _gaq = _gaq || [];
@@ -52,25 +52,27 @@
                       {% endfor %}
                   </ul>
                   <ul class="nav pull-right">
-                      <li><a href="http://twitter.com/#!/scaleconf/"><img src='/images/twitter_button.png'/></a></li>
+                      <li><a style="padding-right:2px;" href="http://twitter.com/#!/scaleconf/"><img src='/images/twitter_button.png'/></a></li>
                   </ul>
               </div>
           </div>
       </div>
 
-      <div class="container">
+      {{ content }}
 
-          {{ content }}
+      <footer>
+        <div class='container'>
+        <p class='row'>
+        <span class='span8'>
+                &copy; ScaleConf 2012 
+        </span>
+        <span class='span4 alignright'>
+                <a href="https://github.com/scaleconf/scaleconf.github.com/">pull requests</a> on this site are welcome!
+        </span>
+        </p>
+        </div>
+      </footer>
 
-          <footer>
-          <p class='row'>
-          <span class='span4'> &copy; ScaleConf 2012</span>
-          <span class='span4 aligncenter'> <a href="https://github.com/scaleconf/scaleconf.github.com/">Pull requests</a> on this site are welcome!</span>
-          <span class='span4 alignright'><a href='/contact-us'>contact us</a> </span>
-          </p>
-          </footer>
-
-      </div> <!-- /container -->
 
   </body>
 </html>
