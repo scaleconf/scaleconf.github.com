@@ -4,7 +4,13 @@ body { padding-top: 60px; }
 .bg1 { background:#f5f5f5;}
 .bigtext { font-size: 16px; }
 .herotext { font-size: 26px; font-style:italic; font-family: sans-serif; line-height:1.4em; text-align:justify; }
-footer { border-top:dashed 1px #888; padding-top:10px; margin-top:35px; }
+footer { border-top:dashed 1px #888; padding-top:10px; position:fixed; bottom:0; width:100%; background:#F7F7F7; }
+div.navbar a.brand {
+    padding: 20px 20px;
+    font-family: tahoma;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
 div.navbar-alt-inner {
     min-height:50px;
     padding-left:20px;
@@ -33,5 +39,27 @@ div.picture-block p { padding:8px; color: #222; }
 
 div.call-to-arms { padding:60px 0px; min-height: 430px; }
 div.call-to-arms div.row { padding-bottom:35px; }
-div.call-to-arms h2 { font-family:Jura; }
+div.call-to-arms h2 { font-family:Geneva; }
 div.call-to-arms a.calling { margin:10px 0 0 0; }
+
+div.package { 
+    width:300px;
+    height:400px;
+    -webkit-box-shadow:0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow:0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+    box-shadow:0px 0px 9px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+    display: inline-block;
+    margin:0 0 10px 15px;
+    vertical-align:top;
+    position:relative;
+}
+
+div.package.first { margin-left: 0; }
+
+div.package h1 { background:#555; color:#4F4; padding:10px; font-family:courier; font-weight:100; font-size:24px; border-bottom:solid 2px #333;}
+div.package h2 { color:#000; font-size:14px; padding: 0 10px; }
+div.package p.package-cost  { margin:0; position:absolute; bottom:0; width:100%; padding:10px 0; text-align:right; background:#FFFFF5;}
+div.package p.package-cost span  { padding:10px; color:#000; padding:10px; font-weight:bold; }
+div.package p  { color:#777; padding:10px; background:#fafafa; }
+div.package ul { padding: 0 10px; list-style-type:circle;}
+div.package ul li { line-height:1.7em; }

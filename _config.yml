@@ -1,15 +1,9 @@
 markdown: rdiscount
 pygments: true
 navigation:
-- text:
-  longurl:
-  url:
-- url: /location
-  longurl: /location.html
-  text: Venue
-- url: /
-  longurl: /
-  text: Programme
+- text: 
+  longurl: 
+  url: 
 2012navigation:
 - text: 
   url: /2012/
