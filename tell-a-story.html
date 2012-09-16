@@ -1,0 +1,96 @@
+---
+layout: page
+title: Tell a story 
+meta-description: Speak at ScaleConf, a conference focusing on web scalability
+---
+<div class='container'>
+
+    <div class="row" style='padding-top:50px;'>
+        <div class='span8'>
+            <div class='row'>
+                <div class='span2'>
+                    <img src='/images/man-smoking.png'/>
+                </div>
+                <div class='span6'>
+                    <p class='herotext'>
+                        If you want to take the bull by the horns and share your experience, please take some time to
+                        to put together a quick email with some details about what you would like to talk about.
+                        Once done, please make sure it reaches us at <b>podium@scaleconf.org</b>
+                    </p>
+                </div>
+            </div>
+
+            <!-- not sure a form is the best way for us
+            <div class='row'>
+                <div class='span8 form'>
+
+                    <form id="speaker-form" class="paper-form form-horizontal"
+                          action="https://docs.google.com/a/scaleconf.org/spreadsheet/formResponse?formkey=FIXME&amp;embedded=true&amp;ifq"
+                          method="POST" target='hidden_iframe' onsubmit='submitted=true'>
+                        <legend>Speaker Submission Form</legend>
+                        <fieldset class='control-group'>
+                            <label class="ss-q-short control-label" for="entry_0">Name</label>
+                            <div class='controls'>
+                                <input class='span4' type="text" name="name" value="" class="ss-q-short" id="entry_0">
+                            </div>
+                        </fieldset>
+                        <fieldset class='control-group'>
+                            <label class="ss-q-short control-label" for="entry_0">Email</label>
+                            <div class='controls'>
+                                <input class='span4' type="text" name="name" value="" class="ss-q-short" id="entry_0">
+                            </div>
+                        </fieldset>
+                        <fieldset class='control-group'>
+                            <label class="ss-q-short control-label" for="entry_0">Company</label>
+                            <div class='controls'>
+                                <input class='span4' type="text" name="name" value="" class="ss-q-short" id="entry_0">
+                            </div>
+                        </fieldset>
+                        <fieldset class='control-group'>
+                            <label class="ss-q-short control-label" for="entry_0">Talk Description</label>
+                            <div class='controls'>
+                                <textarea class='span4' rows=5 type="text" name="name" value="" class="ss-q-short" id="entry_0"></textarea>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            -->
+        </div>
+        <div class='span4'>
+            <div style='min-height:300px; margin:0 0 0 30px; padding:0 20px; color:#eee; border-left:solid 1px #eee;'>
+            <h2>whats in it for you</h2>
+            <p style='color:#777; font-size:17px;line-height:1.3em;'>
+                Firstly, you get the awesome prize of making South Africa a better place! 
+                By spreading your experiences you will be helping a lot of people think
+                and approach problems differently than they might have previously. You
+                might help expose new technologies, or maybe a new approach that hasn't
+                been on their radar. It's also an opportunity to showcase yourself in the
+                community, giving yourself and your company prestige in a fast growing market.
+            </p>
+        </div>
+        </div>
+    </div>
+
+</div>
+
+
+    <!-- Validation - unfortunately no server side validation for google docs that is nice. -->
+    <!-- Forms that fail server side validation will just get thrown out -->
+
+    <script type='text/javascript'>
+
+        submitted=false;
+        function validate_email() {
+            failed = false;
+            username_field = document.getElementById('entry_0')
+            email_field    = document.getElementById('entry_1')
+            if (email_field.value == "")    { email_field.setAttribute('style','background:#fee'); failed=true; }
+            if (username_field.value == "") { username_field.setAttribute('style','background:#fee'); failed=true; }
+            if (failed == false) { window.location='/attend-success'; }
+        }
+    </script>
+
+    <!-- hidden iframe to open our response -->
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){validate_email()}">
+
