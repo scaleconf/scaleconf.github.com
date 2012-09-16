@@ -41,7 +41,7 @@
       <div class="navbar navbar-fixed-top">
           <div class="navbar-inner">
               <div class="container">
-                  <a class="brand" style='padding:19px 20px;' href="/">ScaleConf</a>
+                  <a class="brand" href="/">SCALECONF</a>
                   <ul class="nav nav-pills">
                       {% for link in site.navigation %}
                       {% assign current = nil %}
@@ -57,19 +57,29 @@
               </div>
           </div>
       </div>
+      
+      <div class="navbar">
+          <div class="navbar-alt-inner">
+              <div class="container">
+                  <div class='pull-right'>
+                      <p><span>Email me when tickets go on sale:</span></p><input type='text'/>
+                  </div>
+              </div>
+          </div>
+      </div>
 
       {{ content }}
 
       <footer>
         <div class='container'>
-        <p class='row'>
-        <span class='span8'>
-                &copy; ScaleConf 2012 
-        </span>
-        <span class='span4 alignright'>
-                <a href="https://github.com/scaleconf/scaleconf.github.com/">pull requests</a> on this site are welcome!
-        </span>
-        </p>
+            <p class='row'>
+                <span class='span8'>
+                        &copy; ScaleConf 2012 
+                </span>
+                <span class='span4 alignright'>
+                        <a href="https://github.com/scaleconf/scaleconf.github.com/">pull requests</a> on this site are welcome!
+                </span>
+            </p>
         </div>
       </footer>
 
