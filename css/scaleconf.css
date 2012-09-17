@@ -3,7 +3,9 @@ body { padding: 60px 0 60px 0; }
 .aligncenter { text-align: center;}
 .bg1 { background:#f5f5f5;}
 .bigtext { font-size: 16px; }
-.herotext { font-size: 26px; font-style:italic; font-family: sans-serif; line-height:1.4em; text-align:justify; }
+.herotext { font-size: 26px; line-height:1.4em; text-align:left; padding:0 10px 10px 10px; color:#555;}
+.herotext b { color:#A71616; font-weight:bold; }
+h1.red { color:#A71616; }
 footer { border-top:dashed 1px #888; padding-top:10px; position:fixed; bottom:0; width:100%; background:#F7F7F7; }
 div.navbar a.brand {
     padding: 20px 20px;
@@ -39,7 +41,6 @@ div.picture-block p { padding:8px; color: #222; }
 
 div.call-to-arms { padding:60px 0px; min-height: 430px; }
 div.call-to-arms div.row { padding-bottom:35px; }
-div.call-to-arms h2 { font-family:Geneva; }
 div.call-to-arms a.calling { margin:10px 0 0 0; }
 
 div.package { 
@@ -57,7 +58,7 @@ div.package {
 div.package.first { margin-left: 0; }
 
 div.package h1 { background:#555; color:#4F4; padding:10px; font-family:courier; font-weight:100; font-size:24px; border-bottom:solid 2px #333;}
-div.package h1.tiny { font-family: geneva; font-size: 16px; color:#fff; }
+div.package h1.tiny { font-family:geneva; font-size: 16px; color:#fff; }
 div.package h2 { color:#000; font-size:14px; padding: 0 10px; }
 div.package p.package-cost  { margin:0; position:absolute; bottom:0; width:100%; padding:10px 0; text-align:right; background:#FFFFF5;}
 div.package p.package-cost span  { padding:10px; color:#000; padding:10px; font-weight:bold; }
