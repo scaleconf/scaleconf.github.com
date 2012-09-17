@@ -1,4 +1,4 @@
-body { padding-top: 60px; }
+body { padding: 60px 0 60px 0; }
 .alignright { text-align: right;}
 .aligncenter { text-align: center;}
 .bg1 { background:#f5f5f5;}
@@ -44,12 +44,12 @@ div.call-to-arms a.calling { margin:10px 0 0 0; }
 
 div.package { 
     width:300px;
-    height:400px;
+    height:450px;
     -webkit-box-shadow:0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
     -moz-box-shadow:0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
     box-shadow:0px 0px 9px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
     display: inline-block;
-    margin:0 0 10px 15px;
+    margin:15px 0 0 15px;
     vertical-align:top;
     position:relative;
 }
@@ -57,6 +57,7 @@ div.package {
 div.package.first { margin-left: 0; }
 
 div.package h1 { background:#555; color:#4F4; padding:10px; font-family:courier; font-weight:100; font-size:24px; border-bottom:solid 2px #333;}
+div.package h1.tiny { font-family: geneva; font-size: 16px; color:#fff; }
 div.package h2 { color:#000; font-size:14px; padding: 0 10px; }
 div.package p.package-cost  { margin:0; position:absolute; bottom:0; width:100%; padding:10px 0; text-align:right; background:#FFFFF5;}
 div.package p.package-cost span  { padding:10px; color:#000; padding:10px; font-weight:bold; }
