@@ -60,7 +60,7 @@ div.package.first { margin-left: 0; }
 div.package h1 { background:#555; color:#4F4; padding:10px; font-family:courier; font-weight:100; font-size:24px; border-bottom:solid 2px #333;}
 div.package h1.tiny { font-family:geneva; font-size: 16px; color:#fff; }
 div.package h2 { color:#000; font-size:14px; padding: 0 10px; }
-div.package p.package-cost  { margin:0; position:absolute; bottom:0; width:100%; padding:10px 0; text-align:right; background:#FFFFF5;}
+div.package p.package-cost  { margin:0; position:absolute; bottom:0; width:100%; padding:10px 0; text-align:right; background:#fafafa;}
 div.package p.package-cost span  { padding:10px; color:#000; padding:10px; font-weight:bold; }
 div.package p  { color:#777; padding:10px; background:#fafafa; }
 div.package ul { padding: 0 10px; list-style-type:circle;}
