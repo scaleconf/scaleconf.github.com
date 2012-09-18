@@ -8,7 +8,7 @@ meta-description: Speak at ScaleConf, a conference focusing on web scalability
         <div class='span8'>
             <div class='row'>
                 <div class='span2'>
-                    <img src='/images/man-smoking.png'/>
+                    <img src='/images/tall-microphone.png'/>
                 </div>
                 <div class='span6'>
                     <h1 class='red' style='padding:0 0 20px 10px; '>Speakers</h1>
@@ -37,63 +37,3 @@ meta-description: Speak at ScaleConf, a conference focusing on web scalability
 </div>
 
 
-<!-- Validation - unfortunately no server side validation for google docs that is nice. -->
-<!-- Forms that fail server side validation will just get thrown out -->
-
-<!--
-<script type='text/javascript'>
-
-    submitted=false;
-    function validate_email() {
-        failed = false;
-        username_field = document.getElementById('entry_0')
-        email_field    = document.getElementById('entry_1')
-        if (email_field.value == "")    { email_field.setAttribute('style','background:#fee'); failed=true; }
-        if (username_field.value == "") { username_field.setAttribute('style','background:#fee'); failed=true; }
-        if (failed == false) { window.location='/attend-success'; }
-    }
-
-</script>
--->
-
-<!-- hidden iframe to open our response -->
-<!--
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){validate_email()}"/>
--->
-
-<!-- not sure a form is the best way for us
-<div class='row'>
-    <div class='span8 form'>
-
-        <form id="speaker-form" class="paper-form form-horizontal"
-                action="https://docs.google.com/a/scaleconf.org/spreadsheet/formResponse?formkey=FIXME&amp;embedded=true&amp;ifq"
-                method="POST" target='hidden_iframe' onsubmit='submitted=true'>
-            <legend>Speaker Submission Form</legend>
-            <fieldset class='control-group'>
-                <label class="ss-q-short control-label" for="entry_0">Name</label>
-                <div class='controls'>
-                    <input class='span4' type="text" name="name" value="" class="ss-q-short" id="entry_0">
-                </div>
-            </fieldset>
-            <fieldset class='control-group'>
-                <label class="ss-q-short control-label" for="entry_0">Email</label>
-                <div class='controls'>
-                    <input class='span4' type="text" name="name" value="" class="ss-q-short" id="entry_0">
-                </div>
-            </fieldset>
-            <fieldset class='control-group'>
-                <label class="ss-q-short control-label" for="entry_0">Company</label>
-                <div class='controls'>
-                    <input class='span4' type="text" name="name" value="" class="ss-q-short" id="entry_0">
-                </div>
-            </fieldset>
-            <fieldset class='control-group'>
-                <label class="ss-q-short control-label" for="entry_0">Talk Description</label>
-                <div class='controls'>
-                    <textarea class='span4' rows=5 type="text" name="name" value="" class="ss-q-short" id="entry_0"></textarea>
-                </div>
-            </fieldset>
-        </form>
-    </div>
-</div>
--->

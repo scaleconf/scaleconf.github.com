@@ -62,7 +62,12 @@
           <div class="navbar-alt-inner">
               <div class="container">
                   <div class='pull-right'>
-                      <p><span>Email me when tickets go on sale:</span></p><input type='text'/>
+                      <form id="speaker-form" class="paper-form form-horizontal" style='margin:0;'
+                            action="https://docs.google.com/a/scaleconf.org/spreadsheet/formResponse?formkey=dHBkbjNacmZTZGYzZWlEMldjVmd3ZFE6MQ&embedded=true&ifq&submit=Submit"
+                            method="POST" target='hidden_iframe' onsubmit='submitted=true'>
+                            <p><span>Email me when tickets go on sale:</span></p>
+                            <input type='text' id='emailaddress' name='entry.0.single' placeholder='joe.bloggs@internet.com'/>
+                      </form>
                   </div>
               </div>
           </div>
@@ -84,6 +89,21 @@
       </footer>
 
 
-  </body>
+      <script type='text/javascript'>
+
+          submitted=false;
+          function validate_email() {
+              failed = false;
+              email_field  = document.getElementById('emailaddress')
+              if (email_field.value == "")    { email_field.setAttribute('style','background:#fee'); failed=true; }
+              if (failed == false) { window.location='/attend-success'; }
+          }
+
+      </script>
+
+      <!-- hidden iframe to open our response which we basically discard. -->
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){validate_email()}"/>
+
+    </body>
 </html>
 
