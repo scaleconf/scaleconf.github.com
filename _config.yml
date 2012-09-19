@@ -4,6 +4,10 @@ navigation:
 - text: 
   longurl: 
   url: 
+- text: Speakers
+  url: /tell-a-story
+- text: Sponsors
+  url: /sponsor-packages
 2012navigation:
 - text: 
   url: /2012/
