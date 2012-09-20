@@ -8,6 +8,8 @@ navigation:
   url: /tell-a-story
 - text: Sponsors
   url: /sponsor-packages
+- text: 2012 Report
+  url: /report-2012
 2012navigation:
 - text: 
   url: /2012/
