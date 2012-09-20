@@ -3,10 +3,24 @@ body { padding: 60px 0 60px 0; }
 .aligncenter { text-align: center;}
 .bg1 { background:#f5f5f5;}
 .bigtext { font-size: 16px; }
-.herotext { font-size: 26px; line-height:1.4em; text-align:left; padding:0 10px 10px 10px; color:#555;}
+.herotext { font-size: 26px; line-height:1.4em; text-align:left; padding:0 10px 10px 0px; color:#555;}
 .herotext b { color:#A71616; font-weight:bold; }
 .red { color:#A71616; }
 
+/* over-ride the bootstrap navbar colors */
+
+div.navbar .navbar-inner{background-color:##389643;
+    background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#389643), color-stop(90%, #389643), to(#306F44));
+    background-image:-webkit-linear-gradient(#389643, #389643 90%, #306F44);
+    background-image:-moz-linear-gradient(top, #389643, #389643 90%, #306F44);
+    background-image:-ms-linear-gradient(#389643, #389643 90%, #306F44);
+    background-image:-o-linear-gradient(#389643, #389643 90%, #306F44);
+    background-image:linear-gradient(#389643, #389643 90%, #306F44);
+    background-repeat:no-repeat;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#389643', endColorstr='#306F44', GradientType=0);
+}
+
+/* custom button instead of bootstrap std */
 /* courtesy of http://charliepark.org/bootstrap_buttons/ */
 .btn-custom {
   background-color: hsl(0, 68%, 39%) !important;
@@ -28,12 +42,15 @@ body { padding: 60px 0 60px 0; }
 }
 
 footer { border-top:dashed 1px #888; padding-top:10px; position:fixed; bottom:0; width:100%; background:#F7F7F7; }
+
 div.navbar a.brand {
     padding: 20px 20px;
     font-family: tahoma;
     font-weight: bold;
     letter-spacing: 0.05em;
 }
+
+/* where we put the email form */
 div.navbar-alt-inner {
     min-height:50px;
     padding-left:20px;
@@ -56,17 +73,20 @@ div.navbar-alt-inner p { color: #ddd; display:inline-block; font-size: 12px; pad
 div.navbar-alt-inner p span { color:#fff; font-weight:bold;}
 div.navbar-alt-inner input { margin:0 0 0 10px; }
 
-p.rambling { color:#ccc; border: solid 1px #eee; font-weight: bold; font-size: 16px; }
+/* speaker blocks */
 div.picture-block { border: solid 1px #eee; }
 div.picture-block h2 { background: #555; padding:8px; color: #fff; }
 div.picture-block p { padding:8px; color: #222; }
 
+/* home page actions */
 div.calling { padding-top:50px; }
 div.calling-card { margin-bottom: 20px; padding:10px; background:#fafafa; box-shadow: 0 0 15px #fafafa; border-radius:15px; }
 div.calling-card img { display:inline-block; }
 div.calling-card div { display:inline-block; padding:0px 20px; vertical-align:top; text-align:middle; }
 div.calling-card div h2 { margin-top:5px; padding:0; color:# }
 div.calling-card div a { margin-top:10px; }
+
+/* sponsorship packages */
 div.package { 
     width:300px;
     height:450px;
@@ -90,3 +110,10 @@ div.package p.package-cost span  { padding:10px; color:#000; padding:10px; font-
 div.package p  { color:#777; padding:10px; background:#fafafa; }
 div.package ul { padding: 0 10px; list-style-type:circle;}
 div.package ul li { line-height:1.7em; }
+
+/* report styles */
+div.report { background:#444; margin-top:20px; padding:30px; border-radius:15px;}
+p.report { font-size:30px; color:#ccc; line-height:1.4em; padding:15px 0;}
+p.report b { font-weight:bold; color:#d06F44; }
+
+
