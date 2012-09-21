@@ -1,9 +1,6 @@
 markdown: rdiscount
 pygments: true
 navigation:
-- text: 
-  longurl: 
-  url: 
 - text: Speakers
   url: /tell-a-story
 - text: Sponsors
