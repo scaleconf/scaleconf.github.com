@@ -1,4 +1,4 @@
-body { padding: 150px 0 60px 0; }
+body { padding: 200px 0 60px 0; }
 .alignright { text-align: right;}
 .aligncenter { text-align: center;}
 .bg1 { background:#f5f5f5;}
@@ -86,7 +86,7 @@ div.picture-block h2 { background: #555; padding:8px; color: #fff; }
 div.picture-block p { padding:8px; color: #222; }
 
 /* home page actions */
-div.calling { margin-top:50px; background:#fafafa; box-shadow: 0 0 15px #fafafa; border-radius:15px;}
+div.calling { background:#fafafa; box-shadow: 0 0 15px #fafafa; border-radius:15px;}
 div.calling-card { margin-bottom: 20px; padding:10px; }
 div.calling-card img { display:inline-block; }
 div.calling-card div { display:inline-block; padding:0px 20px; vertical-align:top; text-align:middle; }
