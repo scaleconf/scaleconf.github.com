@@ -6,6 +6,7 @@ body { padding: 200px 0 60px 0; }
 .herotext { font-size: 26px; line-height:1.4em; text-align:left; padding:0 10px 10px 0px; color:#555;}
 .herotext b { color:#204E5E; font-weight:bold; }
 .red { color:#A71616; }
+a { color:#ED7B31;}
 
 /* over-ride the bootstrap navbar colors */
 
@@ -86,8 +87,8 @@ div.picture-block h2 { background: #555; padding:8px; color: #fff; }
 div.picture-block p { padding:8px; color: #222; }
 
 /* home page actions */
-div.calling { background:#fafafa; box-shadow: 0 0 15px #fafafa; border-radius:15px;}
-div.calling-card { margin-bottom: 20px; padding:10px; }
+div.calling { background:#f7f7f7; box-shadow: 0 0 15px #fafafa; border-radius:15px;}
+div.calling-card { margin: 10px 0 0 20px; padding:10px; }
 div.calling-card img { display:inline-block; }
 div.calling-card div { display:inline-block; padding:0px 20px; vertical-align:top; text-align:middle; }
 div.calling-card div h2 { margin-top:5px; padding:0; color:#333; }
@@ -119,8 +120,8 @@ div.package ul { padding: 0 10px; list-style-type:circle;}
 div.package ul li { line-height:1.7em; }
 
 /* report styles */
-div.report { background:#444; margin-top:20px; padding:30px; border-radius:15px;}
-p.report { font-size:30px; color:#ccc; line-height:1.4em; padding:15px 0;}
+div.report { background:#333; margin-top:20px; padding:15px 30px; border-radius:15px;}
+p.report { font-size:20px; color:#ccc; line-height:1.4em; padding:10px 0;}
 p.report b { font-weight:bold; color:#d06F44; }
 
 
