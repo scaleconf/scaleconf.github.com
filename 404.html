@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>ScaleConf - A web scalability conference in South Africa</title>
+    <title>404 | Scaleconf</title>
     <meta 
         name="description" 
         content="ScaleConf is a web scalability conference about working and building for highly scalable websites. 
@@ -10,7 +10,7 @@
                  trending technologies and methodologies."
     >
     
-    <meta name="description" content="ScaleConf is a web scalability conference about working and building for highly scalable websites. International experts will be talking about principles from the devops movement as well as some trending technologies and methodologies." />
+    <meta name="description" content="404" />
     
     <meta name="author" content="@vhata, @nuknad">
 
@@ -41,39 +41,56 @@
       <div class="navbar navbar-fixed-top">
           <div class="navbar-inner">
               <div class="container">
-                  <a class="brand" href="/">SCALECONF</a>
-                  <ul class="nav nav-pills">
-                      <li class=""><a href="" style='padding:19px 10px;'></a></li>
-                  </ul>
+                  <a class="brand" href="/"></a>
                   <ul class="nav pull-right">
-                      <li><a style="padding-right:2px;" href="http://twitter.com/#!/scaleconf/"><img src='/images/twitter_button.png'/></a></li>
+                      <li><a style="padding-right:5px;" href="/contact-us"><img src='/images/envelope.png'/></a></li>
+                      <li><a style="padding-right:2px;" href="http://twitter.com/scaleconf/"><img src='/images/twitter_button.png'/></a></li>
                   </ul>
               </div>
+                <div class="navbar-alt-inner">
+                    <div class="container">
+                        <ul class="nav nav-pills">
+                            
+                            
+                            
+                            <li class=""><a href="/" style='padding:13px 20px 0 0;'>Home</a></li>
+                            
+                            
+                            
+                            <li class=""><a href="/tell-a-story" style='padding:13px 20px 0 0;'>Speakers</a></li>
+                            
+                            
+                            
+                            <li class=""><a href="/sponsor-packages" style='padding:13px 20px 0 0;'>Sponsors</a></li>
+                            
+                            
+                            
+                            <li class=""><a href="/report-2012" style='padding:13px 20px 0 0;'>2012 Report</a></li>
+                            
+                        </ul>
+                        <div class='pull-right'>
+                            <form id="speaker-form" class="paper-form form-horizontal" style='margin:0;'
+                                    action="https://docs.google.com/a/scaleconf.org/spreadsheet/formResponse?formkey=dHBkbjNacmZTZGYzZWlEMldjVmd3ZFE6MQ&embedded=true&ifq&submit=Submit"
+                                    method="POST" target='hidden_iframe' onsubmit='submitted=true'>
+                                    <p><span>Email me when tickets go on sale:</span></p>
+                                    <input type='text' id='emailaddress' name='entry.0.single' placeholder='joe.bloggs@internet.com'/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
           </div>
       </div>
+      
 
-      <div class="navbar">
-          <div class="navbar-alt-inner">
-              <div class="container">
-                  <div class='pull-right'>
-                      <form id="speaker-form" class="paper-form form-horizontal" style='margin:0;'
-                          action="https://docs.google.com/a/scaleconf.org/spreadsheet/formResponse?formkey=dHBkbjNacmZTZGYzZWlEMldjVmd3ZFE6MQ&embedded=true&ifq&submit=Submit"
-                          method="POST" target='hidden_iframe' onsubmit='submitted=true'>
-                          <p><span>Email me when tickets go on sale:</span></p>
-                          <input type='text' id='emailaddress' name='entry.0.single' placeholder='joe.bloggs@internet.com'/>
-                      </form>
-                  </div>
-              </div>
-          </div>
-      </div>
+      <div class='container'>
+    <h1>Page not found</h1>
+    <p class='herotext' style="padding:20px 0 30px 0; width:600px;">
+        Sorry, we couldn't find that page. 
+    </p>
 
-      <div class="container">
-          <div class="row">
-              <p class='herotext'>
-              <b>Page not found.</b>
-              </p>
-          </div>
-      </div>
+</div>
+
 
       <footer>
         <div class='container'>
@@ -91,7 +108,9 @@
         </div>
       </footer>
 
+
       <script type='text/javascript'>
+
           submitted=false;
           function validate_email() {
               failed = false;
@@ -99,10 +118,12 @@
               if (email_field.value == "")    { email_field.setAttribute('style','background:#fee'); failed=true; }
               if (failed == false) { window.location='/attend-success'; }
           }
+
       </script>
 
       <!-- hidden iframe to open our response which we basically discard. -->
       <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){validate_email()}"/>
+
     </body>
 </html>
 
