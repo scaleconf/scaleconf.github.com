@@ -108,6 +108,7 @@ div.package {
 
 div.package.smaller { 
     width:300px;
+    height:440px;
 }
 
 div.package.first { margin-left: 0; }
