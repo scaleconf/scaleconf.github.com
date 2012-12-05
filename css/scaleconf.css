@@ -102,8 +102,6 @@ div.calling-card div a { margin-top:10px; }
 
 /* sponsorship packages */
 div.package { 
-    width:300px;
-    height:400px;
     -webkit-box-shadow:0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
     -moz-box-shadow:0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
     box-shadow:0px 0px 9px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
@@ -111,6 +109,12 @@ div.package {
     margin:15px 0 0 15px;
     vertical-align:top;
     position:relative;
+    height:400px;
+}
+
+div.package.smaller { 
+    width:300px;
+    height:440px;
 }
 
 div.package.first { margin-left: 0; }
