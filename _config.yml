@@ -1,14 +1,16 @@
 markdown: rdiscount
 pygments: true
 navigation:
-- text: Home 
-  url: /
 - text: Speakers
-  url: /tell-a-story
+  url: speakers
+- text: Workshops
+  url: workshops
+- text: Venue
+  url: venue
 - text: Sponsors
-  url: /sponsor-packages
-- text: 2012 Report
-  url: /report-2012
+  url: sponsors
+- text: Contact
+  url: contact
 2012navigation:
 - text: 
   url: /2012/
