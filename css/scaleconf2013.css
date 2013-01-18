@@ -1,800 +1,807 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-body {	
-	background-color: #0a3542;
-	color:#7d7d7d;
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
-	font-size: 13px;
+body {
+    background-color: #0a3542;
+    color:#7d7d7d;
+    font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 
 p {
-	line-height: 18px;	
+    line-height: 18px;
 }
 
 
 #wrapper {
-	background-color: #fff;
-	width: 1024px;
-	margin-left: auto;
-	margin-right: auto;	
+    background-color: #fff;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #header {
-	background-color: #0a3542;	
-	width: 1024px;
-	overflow: hidden;
+    background-color: #0a3542;
+    width: 1024px;
+    overflow: hidden;
 }
 
 #logo {
-	margin-top: 10px;
-	width: 454px;	
-	float: left;
+    margin-top: 10px;
+    width: 454px;
+    float: left;
 }
 
 #logo span {
-	display: none;	
+    display: none;
 }
 
 #ticket-banner {
-	margin-top: 30px;
-	width: 357px;
-	margin-left: 675px;		
+    margin-top: 30px;
+    width: 357px;
+    margin-left: 675px;
 }
 
 .white-stripe {
-	height: 3px;
-	background-color: #fff;	
-	margin-top: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin-top: 30px;
 }
 
 
 .white-stripe span {
-	display: none;
+    display: none;
 }
 
 #main-nav {
-	background-color: #204e5e;	
+    background-color: #204e5e;
 }
 
 #main-nav ul.nav-items {
-	display: inline-block;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-left: 0px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
 }
 
 #main-nav ul.nav-items li {
-	display: inline-block;
-	border-right: dashed 1px #59c9e1;
-	text-align: center;
+    display: inline-block;
+    border-right: dashed 1px #59c9e1;
+    text-align: center;
 }
 
 #main-nav ul.nav-items li:last-child {
-	border-right: none;
+    border-right: none;
 }
 
 #main-nav ul.nav-items li:last-child img {
-	padding-left:4px;
+    padding-left:4px;
     vertical-align:top;
 }
 
 
 #main-nav ul.nav-items li a:link, #main-nav ul.nav-items li a:visited {
-	text-decoration: none;
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	font-size: 15px;
-	color: #fff;
-	width: 167px;
+    text-decoration: none;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    width: 167px;
     display:block;
     padding:18px 0 20px 0;
 }
 
 #main-nav ul.nav-items li a:hover {
-	color: #59c9e1;
-	text-decoration: none;
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	font-size: 15px;
+    color: #59c9e1;
+    text-decoration: none;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 #page-content {
-	margin-top: 20px;	
+    margin-top: 20px;
 }
 
 .inline {
-	display: inline-block;	
+    display: inline-block;
 }
 
 #footer {
-	margin-top: 40px;	
+    margin-top: 40px;
 }
 
 #footer ul {
-	background-color: #59c9e1;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	text-align: center;
+    background-color: #59c9e1;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
 }
 
 #footer li {
-	display: inline-block;	
-	color: #204e5e;
-	list-style: none;
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	text-align: center;
-	padding-right: 4px;
+    display: inline-block;
+    color: #204e5e;
+    list-style: none;
+    font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-right: 4px;
 }
 
 #footer li a:link, #footer li a:visited {
-	text-decoration: none;
-	color: #204e5e;
+    text-decoration: none;
+    color: #204e5e;
 }
 
 #footer li a:hover {
-	text-decoration: none;
-	color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 /**HOME PAGE */
 
-#page-content #page-heading-home h1 {	
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	font-weight: normal;
-	color: #59c9e1;
-	margin-bottom: 10px;
-	margin-left: 50px;
-	font-size: 37px;
-	margin-top: 0px;
+#page-content #page-heading-home h1 {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #59c9e1;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 37px;
+    margin-top: 0px;
 }
 
 #page-heading-home h1 span.slogan {
-	color: #204e5e;	
-	
+    color: #204e5e;
+
 }
 
 #page-content .top-content {
-	overflow: hidden;
-	margin-top: 40px;	
+    overflow: hidden;
+    margin-top: 40px;
 }
 
 #page-content .top-content #intro {
-	width: 415px;
-	margin-left: 50px;
-	float: left;
+    width: 415px;
+    margin-left: 50px;
+    float: left;
 }
 
 #page-content .top-content #intro {
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
-	font-weight: normal;
-	margin-left: 50px;
+    font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-left: 50px;
 }
 
 #intro p {
-	font-size: 19px;
-	line-height: 25px;
+    font-size: 19px;
+    line-height: 25px;
 }
 
 #intro span.intro-bold {
-	color:#204e5e;	 	
-	
+    color:#204e5e;
+
 }
 
 span.bolder {
-	font-weight: bold;	
+    font-weight: bold;
 }
 
 .top-content #summary {
-	width: 446px;	
-	margin-left: 496px;
-	background-image: url(images/bluet.png);
-	padding: 11px 15px 0px 15px;
-	margin-top: 30px;	
-	
+    width: 446px;
+    margin-left: 496px;
+    background-image: url(images/bluet.png);
+    padding: 11px 15px 0px 15px;
+    margin-top: 30px;
+
 }
-	
-#page-content h2 {	
-	font-family: Quicksand, "Droid Sans", Arial, Helvetica, sans-serif;
-	font-weight: normal;
-	font-size: 20px;
-	color: #204e5e;	
-	margin-top: 0px;
+
+#page-content h2 {
+    font-family: Quicksand, "Droid Sans", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #204e5e;
+    margin-top: 0px;
 }
 
 .top-content #summary ul {
-	padding-left: 0px;
+    padding-left: 0px;
 
 }
 
 .top-content #summary li {
-	list-style: none;
-	padding-bottom: 12px;
-	font-size: 14px;
+    list-style: none;
+    padding-bottom: 12px;
+    font-size: 14px;
 }
 
 
 .top-content #summary li p {
-	width: 400px;
-	margin: 0px;
+    width: 400px;
+    margin: 0px;
 }
 
 .top-content #summary li img {
-	vertical-align: top;
-	padding-right: 15px;
+    vertical-align: top;
+    padding-right: 15px;
 }
 
 .bottom-content {
-	overflow: hidden;
-	margin-top: 30px;
+    overflow: hidden;
+    margin-top: 30px;
 }
-	
-	
+
+
 .bottom-content #location {
-	background-image: url(images/bluet.png);
-	width: 284px;
-	float: left;
-	margin-left: 50px;	
+    background-image: url(images/bluet.png);
+    width: 284px;
+    float: left;
+    margin-left: 50px;
 }
 
 .bottom-content #location p {
-	padding: 9px;
-	margin: 0px;
+    padding: 9px;
+    margin: 0px;
 }
-		
+
 .bottom-content #location h2 {
-	color: #204e5e;
-	margin-bottom: 0px;
-	padding-left: 9px;
-	padding-top: 9px;
+    color: #204e5e;
+    margin-bottom: 0px;
+    padding-left: 9px;
+    padding-top: 9px;
 }
-		
+
 .bottom-content #speakers {
-	width: 575px;
-	background-color: #f5f5f6;
-	margin-left: 372px;
-	padding: 12px;	
+    width: 575px;
+    background-color: #f5f5f6;
+    margin-left: 372px;
+    padding: 12px;
 }
 
 .bottom-content #speakers h2 {
-	margin-bottom: 0px;		
+    margin-bottom: 0px;
 }
-		
+
 .bottom-content #speakers ul {
-	list-style: none;	
-	padding-right: 37px;	
-	display: inline-block;
-	padding-left: 0px;
-	margin-bottom: 0px;
+    list-style: none;
+    padding-right: 15px;
+    display: inline-block;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    vertical-align:top;
 }
 
 .bottom-content #speakers li {
-	margin-bottom: 20px;		
+    margin-bottom: 20px;
 }
 
 .bottom-content #speakers li p {
-	display: inline-block;
-	vertical-align: top;
-	width: 179px;	
-	margin-top: 0px;	
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 80px;
+    margin-top: 0px;
 }
 
 .bottom-content #speakers li img {
-	padding-right: 9px;
+    padding-right: 9px;
 }
 
 .bottom-content #speakers ul li span.quote {
-	font-family: Quicksand, Arial, Helvetica, sans-serif;		
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
 
 .bottom-content #speaker-bottom {
-	padding-top: 15px;
-	padding-bottom: 13px;	
+    padding-top: 15px;
+    padding-bottom: 13px;
 }
 
 .button {
-	background-color: #f7941d;
-	width: 130px;
-	text-align: center;
-	margin-left: 389px;	
-	padding: 1px;		
+    background-color: #f7941d;
+    width: 130px;
+    text-align: center;
+    margin-left: 389px;
+    padding: 1px;
 }
 
 .bottom-content a:link, .bottom-content a:hover, .bottom-content a:visited {
-	text-decoration: none;
-	color: #f7941d;
+    text-decoration: none;
+    color: #f7941d;
 }
-	
+
 .button a:link, .button a:hover, .button a:visited {
-	font-size: 12px;
-	text-decoration: none;
-	color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
 }
-	
+
 .bottom-content #speakers #description p{
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	width: 290px;
-	float: left;
-	margin-top: 0px;
-	padding-left: 4px;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 290px;
+    float: left;
+    margin-top: 0px;
+    padding-left: 4px;
 }
 
 #page-content #sponsors {
-	margin-left: 50px;
-	margin-top: 40px;	
+    margin-left: 50px;
+    margin-top: 40px;
 }
 
 #page-content #sponsors h2 {
-	font-size: 16px;
+    font-size: 16px;
 }
 
-#page-content #sponsors ul{	
-	padding-left: 0px;
+#page-content #sponsors ul{
+    padding-left: 0px;
 }
 
-#page-content #sponsors ul li {	
-	display: inline-block;
-	margin-right: 200px;
+#page-content #sponsors ul li {
+    display: inline-block;
+    margin-right: 200px;
 }
 
 #page-content #sponsors a:link, #page-content #sponsors a:hover, #page-content #sponsors a:visited {
-	text-decoration: none;
-	color: #f7941d;
-	font-weight: bold;
+    text-decoration: none;
+    color: #f7941d;
+    font-weight: bold;
 }
-	
-/**SPEAKER PAGE */	
+
+/**SPEAKER PAGE */
 
 #page-content #page-heading h1 {
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	font-weight: normal;
-	font-size: 28px;
-	color: #59c9e1;
-	margin-bottom: 15px;
-	margin-top: 40px;
-	margin-left: 28px;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    color: #59c9e1;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    margin-left: 28px;
 }
 
 #page-content ul#speakers-section {
-	display: inline-block;		
-	padding-left: 0px;
-	margin-left: 28px;
+    display: inline-block;
+    padding-left: 0px;
+    margin-left: 28px;
 }
 
 #page-content li.box {
-	display: inline-block;
-	list-style: none;	
-	margin-bottom: 20px;
-	margin-right: 20px;	
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    vertical-align:top;
 }
 
 #page-content .speaker-box {
-	background-color: #f5f5f6;	
-	width: 275px;
-	padding: 15px;
+    background-color: #f5f5f6;
+    width: 275px;
+    height: 330px;
+    padding: 15px;
+}
+
+#page-content .speaker-box img.profile {
+    width: 78px;
+    height: 90px;
 }
 
 .caption {
-	display: inline-block;
-	vertical-align: top;	
-	padding-left: 7px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 7px;
 }
 
 .caption ul {
-	padding-left: 0px;
-	margin: 0px;
-	margin-top: 3px;
+    padding-left: 0px;
+    margin: 0px;
+    margin-top: 3px;
 }
 
 .caption li {
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	list-style: none;
-	padding-bottom: 14px;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding-bottom: 14px;
 }
 
 .caption li.twitter  {
-	list-style: none;
-	padding-bottom: 0px;
+    list-style: none;
+    padding-bottom: 0px;
 }
 
 .caption li.twitter a:link, .caption li.twitter a:visited, .caption li.twitter a:hover   {
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	text-decoration: none;
-	font-size: 16px;
-	color: #204e5e;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: #204e5e;
 }
 
 .caption li.twitter img {
-	padding-right: 5px;	
+    padding-right: 5px;
 }
 
 
 #page-content .speaker-box .caption p {
-	margin: 0px;	
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
 
 #page-content .speaker-box p span.name {
-	font-size: 16px;
-	color: #59c9e1;	
+    font-size: 16px;
+    color: #59c9e1;
 }
 
 #page-content .speaker-box p span.company {
-	font-size: 14px;	
+    font-size: 14px;
 }
 
 #page-content .speaker-box p span.title {
-	font-size: 14px;	
+    font-size: 14px;
 }
 
 #page-content .bio p span.highlight {
-	font-weight: bold;
-	color: #f7941d;		
+    font-weight: bold;
+    color: #f7941d;
 }
-	
-		
+
+
 /**VENUE PAGE */
 
 #page-content .top-images ul {
-	margin-left: 89px;
-	padding-left: 0px;
-	margin-top: 40px;
-	
+    margin-left: 89px;
+    padding-left: 0px;
+    margin-top: 40px;
+
 }
 
 #page-content .top-images ul li {
-	display: inline-block;
-	list-style: none;
-	padding-right: 10px;
+    display: inline-block;
+    list-style: none;
+    padding-right: 10px;
 }
 
 #page-content #below-images {
-	overflow: hidden;	
+    overflow: hidden;
 }
 
 #page-content #below-images #kirstenbosch-text {
-	width: 355px;
-	margin-left: 89px;
-	float: left;
+    width: 355px;
+    margin-left: 89px;
+    float: left;
 }
 
 #page-content #below-images #kirstenbosch-text h1{
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	font-weight: normal;
-	font-size: 28px;
-	color: #59c9e1;
-	margin-top: 15px;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    color: #59c9e1;
+    margin-top: 15px;
 }
 
 #page-content #below-images #kirstenbosch-text #extrainfo-box {
-	background-color: #f5f5f6;
-	padding: 7px;	
+    background-color: #f5f5f6;
+    padding: 7px;
 }
 
 #page-content #below-images #kirstenbosch-text #extrainfo-box p {
-	margin: 0px;	
+    margin: 0px;
 }
 
 #page-content #below-images #google-maps {
-	margin-left: 497px;
+    margin-left: 497px;
 }
 
 #page-content #below-images #google-maps .map-heading {
-	background-color: #0a3542;
-	width: 435px;
+    background-color: #0a3542;
+    width: 435px;
 }
 
 #page-content #below-images #google-maps .map-heading p {
-	font-family: Quicksand, Arial, Helvetica, sans-serif;	
-	color: #fff;
-	font-size: 20px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	padding-left: 7px;
-	margin-bottom: 0px;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    margin-bottom: 0px;
 }
 
 
 /**SPONSORS PAGE */
 
 #page-content #page-heading h1.center {
-	text-align: center;
-	margin-left: 0px;
-	margin-bottom: 0px;
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 0px;
 }
 
 
 #page-content ul.tier {
-	text-align: center;
-	padding-left: 0px;
-	border-bottom: 1px dashed #999;
+    text-align: center;
+    padding-left: 0px;
+    border-bottom: 1px dashed #999;
 }
 
 #page-content ul.tier p span.company {
-	color: #f7941d;
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	font-size: 14px;
+    color: #f7941d;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 #page-content ul#top-tier li {
-	list-style: none;
-	width: 300px;
-	display: inline-block;	
-	padding: 20px;
+    list-style: none;
+    width: 300px;
+    display: inline-block;
+    padding: 20px;
 }
 
 
 #page-content ul#top-tier li p {
-	text-align: left;
+    text-align: left;
 }
 
 #page-content ul#second-tier li {
-	list-style: none;
-	width: 200px;
-	display: inline-block;	
-	padding: 15px;	
+    list-style: none;
+    width: 200px;
+    display: inline-block;
+    padding: 15px;
 }
 
 #page-content ul#second-tier li p {
-	text-align: left;
+    text-align: left;
 }
 
 #page-content ul#third-tier li {
-	list-style: none;
-	width: 140px;
-	display: inline-block;	
-	padding: 25px;
+    list-style: none;
+    width: 140px;
+    display: inline-block;
+    padding: 25px;
 }
 
 
 /**CONTACT PAGE */
 
 #page-content #contact-page {
-	overflow: hidden;	
-	margin-top: 35px;
+    overflow: hidden;
+    margin-top: 35px;
 }
 #page-content #contact-details {
-	margin-left: 28px;
-	width: 200px;
-	float: left;
+    margin-left: 28px;
+    width: 200px;
+    float: left;
 }
 
 #page-content #contact-details p {
-	font-size: 14px;	
+    font-size: 14px;
 }
 
 #page-content #contact-page #contact-image {
-	margin-left: 270px;	
+    margin-left: 270px;
 }
 
 
 #page-content #page-heading h1.contact {
-	margin-left: 0px;
-	margin-top: 0px;		
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 #page-content #contact-details h2 {
-	margin-bottom: 0px;	
-	margin-top: 26px;
-	color: #f7941d;
+    margin-bottom: 0px;
+    margin-top: 26px;
+    color: #f7941d;
 }
 
 #page-content #contact-details a:link, #page-content #contact-page a:hover, #page-content #contact-page a:visited  {
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	color:  #7d7d7d;
-	text-decoration: none;
-	font-size: 17px;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    color:  #7d7d7d;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 #page-content #contact-details p.details {
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	color:  #7d7d7d;
-	font-size: 16px;
-	margin-top: 2px;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    color:  #7d7d7d;
+    font-size: 16px;
+    margin-top: 2px;
 }
 
 #page-content #contact-details p.details img {
-	vertical-align: bottom;
+    vertical-align: bottom;
 }
 
 
 /**SCHEDULE PAGE */
 
 #page-content #schedule-page {
-	margin-left: 28px;	
+    margin-left: 28px;
 }
 
 #page-content #schedule-page #page-heading-schedule h1  {
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	font-weight: normal;
-	font-size: 28px;
-	color: #59c9e1;
-	margin-top: 40px;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    color: #59c9e1;
+    margin-top: 40px;
 }
 
 #page-content #schedule-page #intro-schedule {
-	margin-bottom: 50px;	
+    margin-bottom: 50px;
 }
 
 #page-content #schedule-page #intro-schedule a:link, #page-content #schedule-page #intro-schedule a:hover, #page-content #schedule-page #intro-schedule a:visited {
-	text-decoration: none;	
-	color:#f7941d;	
+    text-decoration: none;
+    color:#f7941d;
 }
 
 #page-content #schedule-page #intro-schedule p {
-	font-size: 14px;	
+    font-size: 14px;
 }
 
 #page-content #schedule-page h2 {
-	margin-bottom: 6px;		
+    margin-bottom: 6px;
 }
 
 table {
-	text-align: left;
-	margin-bottom: 50px;
+    text-align: left;
+    margin-bottom: 50px;
 }
 
 
 table th {
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	font-size: 15px;
-	color: #204e5e;	
-	font-weight: normal;
-	background-color: #B9E7F3;
-	line-height: 25px;
-	padding:10px;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #204e5e;
+    font-weight: normal;
+    background-color: #B9E7F3;
+    line-height: 25px;
+    padding:10px;
 }
 
 tbody {
-	background-color: #F0EDED;	
+    background-color: #F0EDED;
 }
 
 tbody td {
-	width: 300px;	
-	line-height: 18px;
-	vertical-align: top;
-	padding: 10px;
+    width: 300px;
+    line-height: 18px;
+    vertical-align: top;
+    padding: 10px;
 }
 
 tbody td.time, th.time {
-	width: 150px;	
+    width: 150px;
 }
 
 tbody td.event, th.event {
-	width: 200px;	
+    width: 200px;
 }
 
 tbody td.descr, th.descr {
-	width: 400px;		
+    width: 400px;
 }
 
 tbody td.event img {
-	padding-right: 6px;	
+    padding-right: 6px;
 }
-	
+
 tbody td.event span.speaker a:link, tbody td.event span.speaker a:hover, tbody td.event span.speaker a:visited {
-	color: #204e5e;
-	text-decoration: none;		
+    color: #204e5e;
+    text-decoration: none;
 }
 
 tbody td.descr span.descr-heading {
-	font-size: 14px;
-	color:#204e5e; 	
+    font-size: 14px;
+    color:#204e5e;
 }
 
 tbody td p {
-	margin-bottom: 0px;		
+    margin-bottom: 0px;
 }
 
 /**PURCHASE PAGE */
 
 #purchase-pg #page-heading h1 {
-	margin-left: 0px;	
-	margin-top: 20px;
-	margin-bottom: 2px;	
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 2px;
 }
 
 #page-content #purchase-pg #purchase-content h2 {
-	color: #f7941d;		
+    color: #f7941d;
 }
 
 #purchase-pg #page-heading p.intro {
-	font-size: 14px;
-	margin-top: 5px;
-	line-height: 19px;	
-	margin-bottom: 30px;
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 19px;
+    margin-bottom: 30px;
 }
 
 #page-content #purchase-pg #conference {
-	padding: 14px;	
-	background-color: #F0EDED;
+    padding: 14px;
+    background-color: #F0EDED;
 }
 
 #page-content #purchase-pg #workshops {
-	padding: 14px;	
-	background-color: #F0EDED;
-	margin-top: 10px;
+    padding: 14px;
+    background-color: #F0EDED;
+    margin-top: 10px;
 }
 
 #page-content #purchase-pg #workshops a:link, #page-content #purchase-pg #workshops a:hover, #page-content #purchase-pg #workshops a:visited {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 
 #page-content #purchase-pg {
-	overflow: hidden;	
-	margin-left: 28px;
+    overflow: hidden;
+    margin-left: 28px;
 }
 
 #page-content p.points {
-	font-size: 14px;
-	color: #333;		
+    font-size: 14px;
+    color: #333;
 }
 
 #page-content #purchase-pg span.highlight {
-	color: #204e5e;
-	font-weight: bold;		
+    color: #204e5e;
+    font-weight: bold;
 }
 
 #page-content #purchase-content {
-	width: 535px;	
-	float: left;	
+    width: 535px;
+    float: left;
 }
 
 #page-content #purchase-boxes {
-	width: 300px;
-	margin-left: 580px;
+    width: 300px;
+    margin-left: 580px;
 }
 
 #page-content #purchase-boxes #earlybird {
-	background-color:  #B9E7F3;
-	padding: 10px;
-	margin-bottom: 10px;
+    background-color:  #B9E7F3;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 #page-content #purchase-boxes h2:last-child {
-	margin-bottom: 0px;	
+    margin-bottom: 0px;
 }
 
 #page-content #purchase-boxes #extra-info  {
-	margin-top: 18px;	
+    margin-top: 18px;
 }
 
 #page-content #purchase-boxes #extra-info ul {
-	padding-left: 0px;
-	
+    padding-left: 0px;
+
 }
 
 #page-content #purchase-boxes #extra-info li {
-	list-style: none;	
-	padding-bottom: 22px;
+    list-style: none;
+    padding-bottom: 22px;
 }
 
 #page-content #purchase-boxes a:link, #page-content #purchase-boxes a:hover, #page-content #purchase-boxes a:visited {
-	text-decoration: none;
-	color:#f7941d;
+    text-decoration: none;
+    color:#f7941d;
 }
 
 #page-content #purchase-boxes #extra-info li p {
-	margin: 0px;	
+    margin: 0px;
 }
 
 #page-content #payment {
-	margin-left: 28px;
-	border-top: 1px dashed #999;
-	padding-top: 27px;
-	margin-right: 120px;	
+    margin-left: 28px;
+    border-top: 1px dashed #999;
+    padding-top: 27px;
+    margin-right: 120px;
 }
 
 #page-content #payment iframe {
-	margin-left: -12px;	
+    margin-left: -12px;
 }
 
 /**WORKSHOP PAGE */
 
 
 #page-content #page-heading h1.workshops {
-	margin-left: 0px;	
-	
+    margin-left: 0px;
 }
