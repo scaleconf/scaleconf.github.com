@@ -2,15 +2,15 @@ markdown: rdiscount
 pygments: true
 navigation:
 - text: Speakers
-  url: speakers
+  url: speakers.html
 - text: Workshops
-  url: workshops
+  url: workshops.html
 - text: Venue
-  url: venue
+  url: venue.html
 - text: Sponsors
-  url: sponsors
+  url: sponsors.html
 - text: Contact
-  url: contact
+  url: contact.html
 2012navigation:
 - text: 
   url: /2012/
