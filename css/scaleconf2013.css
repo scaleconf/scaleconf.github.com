@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* basic website styles */
+
 body {
     background-color: #0a3542;
     color:#7d7d7d;
@@ -13,18 +15,19 @@ p {
     margin: 0 0 12px;
 }
 
-p.area-intro {
+p.padded {
     margin:15px 0 26px 0;
 }
 
-#wrapper {
+/* LAYOUT TEMPLATES */
+
+#fixed-width-page {
     background-color: #fff;
     width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
+    margin:0 auto;
 }
 
-#header {
+#site-header {
     background-color: #0a3542;
     width: 1024px;
     overflow: hidden;
@@ -37,9 +40,7 @@ p.area-intro {
     float: left;
 }
 
-#logo span {
-    display: none;
-}
+#logo span { display: none; }
 
 #ticket-banner {
     margin-top: 30px;
@@ -47,16 +48,54 @@ p.area-intro {
     margin-left: 675px;
 }
 
-.white-stripe {
+.white-seperator {
     height: 3px;
     background-color: #fff;
     margin-top: 30px;
+    display:block;
 }
 
+/* LAYOUT TEMPLATES - navigation */
 
-.white-stripe span {
-    display: none;
+ul#site-navigation {
+    background-color: #204e5e;
+    display: inline-block;
+    margin: 0 0 0 0;
+    padding-left: 0px;
 }
+
+ul#site-navigation li {
+    display: inline-block;
+    border-right: dashed 1px #59c9e1;
+    text-align: center;
+}
+
+ul#site-navigation li.active {
+    background-color: #305e6e;
+}
+
+ul#site-navigation li:last-child {
+    border-right: none;
+}
+
+ul#site-navigation li#twitter img {
+    padding-left:4px;
+    vertical-align:top;
+}
+
+ul#site-navigation li a {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    width: 167px;
+    display:block;
+    padding:18px 0 20px 0;
+}
+
+ul#site-navigation li a:hover { color: #59c9e1; }
+
+/* SHARED: Workshop and Conference Schedule */
 
 div.day-schedule {
     margin: 22px 0 10px 0;
@@ -68,48 +107,6 @@ div.day-schedule table {
     border-color: gray;
 }
 
-#main-nav {
-    background-color: #204e5e;
-}
-
-#main-nav ul.nav-items {
-    display: inline-block;
-    margin: 0 0 0 0;
-    padding-left: 0px;
-}
-
-#main-nav ul.nav-items li {
-    display: inline-block;
-    border-right: dashed 1px #59c9e1;
-    text-align: center;
-}
-
-#main-nav ul.nav-items li:last-child {
-    border-right: none;
-}
-
-#main-nav ul.nav-items li:last-child img {
-    padding-left:4px;
-    vertical-align:top;
-}
-
-
-#main-nav ul.nav-items li a:link, #main-nav ul.nav-items li a:visited {
-    text-decoration: none;
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: #fff;
-    width: 167px;
-    display:block;
-    padding:18px 0 20px 0;
-}
-
-#main-nav ul.nav-items li a:hover {
-    color: #59c9e1;
-    text-decoration: none;
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
-    font-size: 15px;
-}
 
 #page-content {
     margin-top: 20px;
@@ -485,17 +482,17 @@ span.bolder {
     padding-right: 10px;
 }
 
-#page-content #below-images {
+#page-content #venue-info {
     overflow: hidden;
 }
 
-#page-content #below-images #kirstenbosch-text {
+#page-content #venue-info #kirstenbosch-text {
     width: 355px;
     margin: 22px 0 0 89px;
     float: left;
 }
 
-#page-content #below-images #kirstenbosch-text h1{
+#page-content #venue-info #kirstenbosch-text h1{
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 28px;
@@ -503,26 +500,26 @@ span.bolder {
     padding: 0 0 15px 0;
 }
 
-#page-content #below-images #kirstenbosch-text #extrainfo-box {
+#page-content #venue-info #kirstenbosch-text #extrainfo-box {
     background-color: #f5f5f6;
     padding: 7px;
 }
 
-#page-content #below-images #kirstenbosch-text #extrainfo-box p {
+#page-content #venue-info #kirstenbosch-text #extrainfo-box p {
     margin: 0px;
 }
 
-#page-content #below-images #google-maps {
+#page-content #venue-info #venue-map {
     margin: 27px 0 0 497px;
 
 }
 
-#page-content #below-images #google-maps .map-heading {
+#page-content #venue-info #venue-map .map-heading {
     background-color: #0a3542;
     width: 435px;
 }
 
-#page-content #below-images #google-maps .map-heading p {
+#page-content #venue-info #venue-map .map-heading p {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     color: #fff;
     font-size: 20px;
@@ -544,40 +541,38 @@ span.bolder {
 
 #page-content ul.tier {
     text-align: center;
-    padding-left: 0px;
     border-bottom: 1px dashed #999;
-    margin: 0;
+    padding: 0;
+    margin: 10px 0 10px 0;
 }
 
-#page-content ul.tier p span.company {
+#page-content ul.tier li {
+    display: inline-block;
+}
+
+#page-content ul.tier li p {
+    text-align: left;
+    padding: 10px 0 0 0;
+}
+
+#page-content ul.tier li p span.company {
     color: #f7941d;
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
-#page-content ul.tier p {
-    text-align: left;
-    padding: 10px 0;
-}
-
 #page-content ul#top-tier li {
-    list-style: none;
     width: 300px;
-    display: inline-block;
     padding: 20px;
 }
 
 #page-content ul#second-tier li {
-    list-style: none;
     width: 200px;
-    display: inline-block;
     padding: 15px;
 }
 
 #page-content ul#third-tier li {
-    list-style: none;
     width: 140px;
-    display: inline-block;
     padding: 25px;
 }
 
@@ -636,7 +631,7 @@ span.bolder {
 /**SCHEDULE PAGE */
 
 #page-content #schedule-page {
-    margin-left: 28px;
+    margin: 0 40px;
 }
 
 #page-content #schedule-page #page-heading-schedule h1  {
@@ -729,10 +724,6 @@ tbody td p {
     margin-bottom: 2px;
 }
 
-#page-content #purchase-pg #purchase-content h2 {
-    color: #f7941d;
-}
-
 #purchase-pg #page-heading p.intro {
     font-size: 14px;
     margin-top: 5px;
@@ -755,25 +746,28 @@ tbody td p {
     text-decoration: none;
 }
 
-
 #page-content #purchase-pg {
     overflow: hidden;
     margin-left: 28px;
 }
 
-#page-content p.points {
+#page-content div.purchase-info p {
     font-size: 14px;
     color: #333;
 }
 
-#page-content #purchase-pg span.highlight {
+#page-content #purchase-pg b {
     color: #204e5e;
     font-weight: bold;
 }
 
-#page-content #purchase-content {
+#page-content #purchase-info {
     width: 535px;
     float: left;
+}
+
+#page-content #purchase-pg #purchase-info h2 {
+    color: #f7941d;
 }
 
 #page-content #purchase-boxes {
@@ -815,18 +809,17 @@ tbody td p {
     margin: 0px;
 }
 
-#page-content #payment {
+#page-content #quicket {
     border-top: 1px dashed #999;
     padding-top: 27px;
     margin: 20px 120px 0 28px;
 }
 
-#page-content #payment iframe {
+#page-content #quicket iframe {
     margin-left: -12px;
 }
 
 /**WORKSHOP PAGE */
-
 
 #page-content #page-heading h1.workshops {
     margin-left: 0px;

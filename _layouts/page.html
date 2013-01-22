@@ -21,8 +21,8 @@
 </head>
 
 <body>
-    <div id="wrapper">
-        <div id="header">
+    <div id="fixed-width-page">
+        <div id="site-header">
             <div id="logo">
                 <a href="index.html"> <span> Scaleconf 2013 </span> <img src="images/logo.png"  alt="logo"/></a>
             </div>
@@ -31,22 +31,18 @@
                 <a href="purchase"><img src="images/ticket-banner.png" /></a>
             </div>
             
-            <div class="white-stripe">
-                <span>content</span>
-            </div>
+            <div class="white-seperator"> </div>
             
-            <div id="main-nav">
-                <ul class="nav-items">
-                    {% for link in site.navigation %}
-                    {% assign current = nil %}
-                    {% if page.url == link.longurl %}
-                    {% assign current = 'active' %}
+            <ul id="site-navigation">
+                {% for link in site.navigation %}
+                    {% assign current = 'inactive' %}
+                    {% if page.url == link.url %}
+                        {% assign current = 'active' %}
                     {% endif %}
-                    <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
-                    {% endfor %}
-                    <li id="twitter"><a href="https://twitter.com/scaleconf" target="_blank">Follow us <img src="images/twitter.png"/></a></li>
-                </ul>
-            </div>
+                <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
+                {% endfor %}
+                <li id="twitter"><a href="https://twitter.com/scaleconf" target="_blank">Follow us <img src="images/twitter.png"/></a></li>
+            </ul>
             
         </div>
         
