@@ -10,8 +10,12 @@ body {
 
 p {
     line-height: 18px;
+    margin: 0 0 12px;
 }
 
+p.area-intro {
+    margin:15px 0 26px 0;
+}
 
 #wrapper {
     background-color: #fff;
@@ -24,6 +28,7 @@ p {
     background-color: #0a3542;
     width: 1024px;
     overflow: hidden;
+    margin-top: 8px;
 }
 
 #logo {
@@ -53,14 +58,23 @@ p {
     display: none;
 }
 
+div.day-schedule {
+    margin: 22px 0 10px 0;
+}
+
+div.day-schedule table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
 #main-nav {
     background-color: #204e5e;
 }
 
 #main-nav ul.nav-items {
     display: inline-block;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0 0 0 0;
     padding-left: 0px;
 }
 
@@ -114,6 +128,7 @@ p {
     padding-top: 8px;
     padding-bottom: 8px;
     text-align: center;
+    margin: 0;
 }
 
 #footer li {
@@ -146,6 +161,7 @@ p {
     margin-left: 50px;
     font-size: 37px;
     margin-top: 0px;
+    line-height:45px;
 }
 
 #page-heading-home h1 span.slogan {
@@ -173,6 +189,7 @@ p {
 #intro p {
     font-size: 19px;
     line-height: 25px;
+    margin:19px 0 19px 0;
 }
 
 #intro span.intro-bold {
@@ -187,7 +204,7 @@ span.bolder {
 .top-content #summary {
     width: 446px;
     margin-left: 496px;
-    background-image: url(images/bluet.png);
+    background-image: url(/images/bluet.png);
     padding: 11px 15px 0px 15px;
     margin-top: 30px;
 
@@ -198,11 +215,13 @@ span.bolder {
     font-weight: normal;
     font-size: 20px;
     color: #204e5e;
-    margin-top: 0px;
+    margin: 3px 0 13px 0;
+    line-height:1em;
 }
 
 .top-content #summary ul {
     padding-left: 0px;
+    margin: 19px 0 0 0;
 
 }
 
@@ -230,7 +249,7 @@ span.bolder {
 
 
 .bottom-content #location {
-    background-image: url(images/bluet.png);
+    background-image: url(/images/bluet.png);
     width: 284px;
     float: left;
     margin-left: 50px;
@@ -261,10 +280,10 @@ span.bolder {
 
 .bottom-content #speakers ul {
     list-style: none;
-    padding-right: 15px;
+    padding-right: 21px;
     display: inline-block;
     padding-left: 0px;
-    margin-bottom: 0px;
+    margin: 0;
     vertical-align:top;
 }
 
@@ -293,6 +312,11 @@ span.bolder {
     padding-bottom: 13px;
 }
 
+.bottom-content a:link, .bottom-content a:hover, .bottom-content a:visited {
+    text-decoration: none;
+    color: #f7941d;
+}
+
 .button {
     background-color: #f7941d;
     width: 130px;
@@ -301,9 +325,8 @@ span.bolder {
     padding: 1px;
 }
 
-.bottom-content a:link, .bottom-content a:hover, .bottom-content a:visited {
-    text-decoration: none;
-    color: #f7941d;
+.button p {
+    margin: 10px 0;
 }
 
 .button a:link, .button a:hover, .button a:visited {
@@ -332,6 +355,7 @@ span.bolder {
 
 #page-content #sponsors ul{
     padding-left: 0px;
+    margin: 0;
 }
 
 #page-content #sponsors ul li {
@@ -360,7 +384,7 @@ span.bolder {
 #page-content ul#speakers-section {
     display: inline-block;
     padding-left: 0px;
-    margin-left: 28px;
+    margin: 16px 0 0 28px;
 }
 
 #page-content li.box {
@@ -436,6 +460,10 @@ span.bolder {
     font-size: 14px;
 }
 
+#page-content .bio {
+    margin: 14px 0;
+}
+
 #page-content .bio p span.highlight {
     font-weight: bold;
     color: #f7941d;
@@ -463,7 +491,7 @@ span.bolder {
 
 #page-content #below-images #kirstenbosch-text {
     width: 355px;
-    margin-left: 89px;
+    margin: 22px 0 0 89px;
     float: left;
 }
 
@@ -472,7 +500,7 @@ span.bolder {
     font-weight: normal;
     font-size: 28px;
     color: #59c9e1;
-    margin-top: 15px;
+    padding: 0 0 15px 0;
 }
 
 #page-content #below-images #kirstenbosch-text #extrainfo-box {
@@ -485,7 +513,8 @@ span.bolder {
 }
 
 #page-content #below-images #google-maps {
-    margin-left: 497px;
+    margin: 27px 0 0 497px;
+
 }
 
 #page-content #below-images #google-maps .map-heading {
@@ -509,7 +538,7 @@ span.bolder {
 #page-content #page-heading h1.center {
     text-align: center;
     margin-left: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
 }
 
 
@@ -517,12 +546,18 @@ span.bolder {
     text-align: center;
     padding-left: 0px;
     border-bottom: 1px dashed #999;
+    margin: 0;
 }
 
 #page-content ul.tier p span.company {
     color: #f7941d;
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-size: 14px;
+}
+
+#page-content ul.tier p {
+    text-align: left;
+    padding: 10px 0;
 }
 
 #page-content ul#top-tier li {
@@ -532,20 +567,11 @@ span.bolder {
     padding: 20px;
 }
 
-
-#page-content ul#top-tier li p {
-    text-align: left;
-}
-
 #page-content ul#second-tier li {
     list-style: none;
     width: 200px;
     display: inline-block;
     padding: 15px;
-}
-
-#page-content ul#second-tier li p {
-    text-align: left;
 }
 
 #page-content ul#third-tier li {
@@ -640,7 +666,7 @@ span.bolder {
 
 table {
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -752,7 +778,7 @@ tbody td p {
 
 #page-content #purchase-boxes {
     width: 300px;
-    margin-left: 580px;
+    margin: 20px 0 0 580px;
 }
 
 #page-content #purchase-boxes #earlybird {
@@ -771,6 +797,7 @@ tbody td p {
 
 #page-content #purchase-boxes #extra-info ul {
     padding-left: 0px;
+    margin: 0;
 
 }
 
@@ -789,10 +816,9 @@ tbody td p {
 }
 
 #page-content #payment {
-    margin-left: 28px;
     border-top: 1px dashed #999;
     padding-top: 27px;
-    margin-right: 120px;
+    margin: 20px 120px 0 28px;
 }
 
 #page-content #payment iframe {
