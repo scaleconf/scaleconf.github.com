@@ -10,14 +10,43 @@ body {
     font-size: 13px;
 }
 
+h2 {
+    font-family: Quicksand, "Droid Sans", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #204e5e;
+    margin: 3px 0 13px 0;
+    line-height:1em;
+}
+
 p {
     line-height: 18px;
     margin: 0 0 12px;
 }
 
-p.padded {
-    margin:15px 0 26px 0;
+p.padded { margin:15px 0 26px 0; }
+p.inline { display: inline-block; }
+span.bolder { font-weight: bold; }
+span.quote { font-family: Quicksand, Arial, Helvetica, sans-serif; }
+
+div.button {
+    background-color: #f7941d;
+    width: 130px;
+    text-align: center;
+    margin-left: 389px;
+    padding: 1px;
 }
+
+div.button p {
+    margin: 10px 0;
+}
+
+div.button a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
 
 /* LAYOUT TEMPLATES */
 
@@ -31,7 +60,7 @@ p.padded {
     background-color: #0a3542;
     width: 1024px;
     overflow: hidden;
-    margin-top: 8px;
+    margin: 8px 0 20px 0;
 }
 
 #logo {
@@ -60,7 +89,7 @@ p.padded {
 ul#site-navigation {
     background-color: #204e5e;
     display: inline-block;
-    margin: 0 0 0 0;
+    margin: 0;
     padding-left: 0px;
 }
 
@@ -95,187 +124,199 @@ ul#site-navigation li a {
 
 ul#site-navigation li a:hover { color: #59c9e1; }
 
+/* SITE FOOTER */
+
+#footer { margin-top: 40px; }
+
+#footer ul {
+    text-align: center;
+    background-color: #59c9e1;
+    padding: 8px 0;
+    margin: 0;
+}
+
+#footer ul li {
+    display: inline-block;
+    color: #204e5e;
+    list-style: none;
+    font-size: 12px;
+    text-align: center;
+    padding: 0 3px;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: #204e5e;
+}
+
+#footer ul li a:hover { color: #fff; }
+
 /* SHARED: Workshop and Conference Schedule */
 
+/* div containing heading and table for a day of the schedule */
 div.day-schedule {
     margin: 22px 0 10px 0;
 }
 
 div.day-schedule table {
+    text-align: left;
+    margin-bottom: 30px;
     border-collapse: separate;
     border-spacing: 2px;
     border-color: gray;
 }
 
 
-#page-content {
-    margin-top: 20px;
-}
-
-.inline {
-    display: inline-block;
-}
-
-#footer {
-    margin-top: 40px;
-}
-
-#footer ul {
-    background-color: #59c9e1;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    text-align: center;
-    margin: 0;
-}
-
-#footer li {
-    display: inline-block;
-    color: #204e5e;
-    list-style: none;
-    font-family: "Droid Sans", Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    text-align: center;
-    padding-right: 4px;
-}
-
-#footer li a:link, #footer li a:visited {
-    text-decoration: none;
-    color: #204e5e;
-}
-
-#footer li a:hover {
-    text-decoration: none;
-    color: #fff;
-}
-
-/**HOME PAGE */
-
-#page-content #page-heading-home h1 {
+div.day-schedule table th {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    color: #59c9e1;
-    margin-bottom: 10px;
-    margin-left: 50px;
-    font-size: 37px;
-    margin-top: 0px;
-    line-height:45px;
-}
-
-#page-heading-home h1 span.slogan {
+    font-size: 15px;
     color: #204e5e;
-
+    font-weight: normal;
+    background-color: #B9E7F3;
+    line-height: 25px;
+    padding:10px;
 }
 
-#page-content .top-content {
+div.day-schedule table tbody {
+    background-color: #F0EDED;
+}
+
+div.day-schedule table tbody td {
+    width: 300px;
+    line-height: 18px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+div.day-schedule table th.time,
+div.day-schedule table tbody td.time{
+    width: 150px;
+}
+
+div.day-schedule table th.event,
+div.day-schedule table tbody td.event{
+    width: 200px;
+}
+
+div.day-schedule table th.descr,
+div.day-schedule table tbody td.descr {
+    width: 400px;
+}
+
+div.day-schedule table tbody td.event img {
+    padding-right: 6px;
+}
+
+div.day-schedule table tbody td.event span.speaker a {
+    color: #204e5e;
+    text-decoration: none;
+}
+
+div.day-schedule table tbody td.descr span.descr-heading {
+    font-size: 14px;
+    color:#204e5e;
+}
+
+div.day-schedule table tbody td p {
+    margin-bottom: 0px;
+}
+
+/** HOME PAGE */
+
+#top-content {
     overflow: hidden;
     margin-top: 40px;
 }
 
-#page-content .top-content #intro {
+#top-content h1 {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    color: #59c9e1;
+    font-size: 37px;
+    margin: 0 0 10px 50px;
+    line-height:45px;
+}
+
+#top-content h1 span { color: #204e5e; }
+
+#top-content #mission {
     width: 415px;
     margin-left: 50px;
     float: left;
 }
 
-#page-content .top-content #intro {
-    font-family: "Droid Sans", Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    margin-left: 50px;
-}
-
-#intro p {
+#top-content #mission p {
     font-size: 19px;
     line-height: 25px;
     margin:19px 0 19px 0;
 }
 
-#intro span.intro-bold {
-    color:#204e5e;
+#top-content #mission p.date-venue { color:#204e5e; }
 
-}
-
-span.bolder {
-    font-weight: bold;
-}
-
-.top-content #summary {
+#top-content #target-audience {
     width: 446px;
     margin-left: 496px;
     background-image: url(/images/bluet.png);
     padding: 11px 15px 0px 15px;
     margin-top: 30px;
-
 }
 
-#page-content h2 {
-    font-family: Quicksand, "Droid Sans", Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    font-size: 20px;
-    color: #204e5e;
-    margin: 3px 0 13px 0;
-    line-height:1em;
-}
-
-.top-content #summary ul {
+#top-content #target-audience ul {
     padding-left: 0px;
     margin: 19px 0 0 0;
-
 }
 
-.top-content #summary li {
+#top-content #target-audience ul li {
     list-style: none;
     padding-bottom: 12px;
     font-size: 14px;
 }
 
-
-.top-content #summary li p {
+#top-content #target-audience ul li p {
     width: 400px;
     margin: 0px;
 }
 
-.top-content #summary li img {
+#top-content #target-audience ul li img {
     vertical-align: top;
     padding-right: 15px;
 }
 
-.bottom-content {
+#bottom-content {
     overflow: hidden;
     margin-top: 30px;
 }
 
-
-.bottom-content #location {
+#bottom-content #location {
     background-image: url(/images/bluet.png);
     width: 284px;
     float: left;
     margin-left: 50px;
 }
 
-.bottom-content #location p {
+#bottom-content #location p {
     padding: 9px;
     margin: 0px;
 }
 
-.bottom-content #location h2 {
+#bottom-content #location h2 {
     color: #204e5e;
     margin-bottom: 0px;
     padding-left: 9px;
     padding-top: 9px;
 }
 
-.bottom-content #speakers {
+#bottom-content #speakers {
     width: 575px;
     background-color: #f5f5f6;
     margin-left: 372px;
     padding: 12px;
 }
 
-.bottom-content #speakers h2 {
+#bottom-content #speakers h2 {
     margin-bottom: 0px;
 }
 
-.bottom-content #speakers ul {
+#bottom-content #speakers ul {
     list-style: none;
     padding-right: 21px;
     display: inline-block;
@@ -284,11 +325,11 @@ span.bolder {
     vertical-align:top;
 }
 
-.bottom-content #speakers li {
+#bottom-content #speakers li {
     margin-bottom: 20px;
 }
 
-.bottom-content #speakers li p {
+#bottom-content #speakers li p {
     display: inline-block;
     vertical-align: top;
     width: 200px;
@@ -296,43 +337,21 @@ span.bolder {
     margin-top: 0px;
 }
 
-.bottom-content #speakers li img {
+#bottom-content #speakers li img {
     padding-right: 9px;
 }
 
-.bottom-content #speakers ul li span.quote {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
-}
-
-.bottom-content #speaker-bottom {
+#bottom-content #speaker-bottom {
     padding-top: 15px;
     padding-bottom: 13px;
 }
 
-.bottom-content a:link, .bottom-content a:hover, .bottom-content a:visited {
+#bottom-content a {
     text-decoration: none;
     color: #f7941d;
 }
 
-.button {
-    background-color: #f7941d;
-    width: 130px;
-    text-align: center;
-    margin-left: 389px;
-    padding: 1px;
-}
-
-.button p {
-    margin: 10px 0;
-}
-
-.button a:link, .button a:hover, .button a:visited {
-    font-size: 12px;
-    text-decoration: none;
-    color: #fff;
-}
-
-.bottom-content #speakers #description p{
+#bottom-content #speakers #description p {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-size: 16px;
     width: 290px;
@@ -341,34 +360,34 @@ span.bolder {
     padding-left: 4px;
 }
 
-#page-content #sponsors {
+#sponsors {
     margin-left: 50px;
     margin-top: 40px;
 }
 
-#page-content #sponsors h2 {
+#sponsors h2 {
     font-size: 16px;
 }
 
-#page-content #sponsors ul{
+#sponsors ul{
     padding-left: 0px;
     margin: 0;
 }
 
-#page-content #sponsors ul li {
+#sponsors ul li {
     display: inline-block;
     margin-right: 200px;
 }
 
-#page-content #sponsors a:link, #page-content #sponsors a:hover, #page-content #sponsors a:visited {
+#sponsors a:link, #sponsors a:hover, #sponsors a:visited {
     text-decoration: none;
     color: #f7941d;
     font-weight: bold;
 }
 
-/**SPEAKER PAGE */
+/** SPEAKER PAGE @ */
 
-#page-content #page-heading h1 {
+#page-heading h1 {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 28px;
@@ -378,13 +397,13 @@ span.bolder {
     margin-left: 28px;
 }
 
-#page-content ul#speakers-section {
+ul#speakers-section {
     display: inline-block;
     padding-left: 0px;
     margin: 16px 0 0 28px;
 }
 
-#page-content li.box {
+li.box {
     display: inline-block;
     list-style: none;
     margin-bottom: 20px;
@@ -392,14 +411,14 @@ span.bolder {
     vertical-align:top;
 }
 
-#page-content .speaker-box {
+.speaker-box {
     background-color: #f5f5f6;
     width: 275px;
     height: 330px;
     padding: 15px;
 }
 
-#page-content .speaker-box img.profile {
+.speaker-box img.profile {
     width: 78px;
     height: 90px;
 }
@@ -439,29 +458,29 @@ span.bolder {
 }
 
 
-#page-content .speaker-box .caption p {
+.speaker-box .caption p {
     margin: 0px;
     font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
 
-#page-content .speaker-box p span.name {
+.speaker-box p span.name {
     font-size: 16px;
     color: #59c9e1;
 }
 
-#page-content .speaker-box p span.company {
+.speaker-box p span.company {
     font-size: 14px;
 }
 
-#page-content .speaker-box p span.title {
+.speaker-box p span.title {
     font-size: 14px;
 }
 
-#page-content .bio {
+.bio {
     margin: 14px 0;
 }
 
-#page-content .bio p span.highlight {
+.bio p span.highlight {
     font-weight: bold;
     color: #f7941d;
 }
@@ -469,30 +488,30 @@ span.bolder {
 
 /**VENUE PAGE */
 
-#page-content .top-images ul {
+.top-images ul {
     margin-left: 89px;
     padding-left: 0px;
     margin-top: 40px;
 
 }
 
-#page-content .top-images ul li {
+.top-images ul li {
     display: inline-block;
     list-style: none;
     padding-right: 10px;
 }
 
-#page-content #venue-info {
+#venue-info {
     overflow: hidden;
 }
 
-#page-content #venue-info #kirstenbosch-text {
+#venue-info #kirstenbosch-text {
     width: 355px;
     margin: 22px 0 0 89px;
     float: left;
 }
 
-#page-content #venue-info #kirstenbosch-text h1{
+#venue-info #kirstenbosch-text h1{
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 28px;
@@ -500,26 +519,26 @@ span.bolder {
     padding: 0 0 15px 0;
 }
 
-#page-content #venue-info #kirstenbosch-text #extrainfo-box {
+#venue-info #kirstenbosch-text #extrainfo-box {
     background-color: #f5f5f6;
     padding: 7px;
 }
 
-#page-content #venue-info #kirstenbosch-text #extrainfo-box p {
+#venue-info #kirstenbosch-text #extrainfo-box p {
     margin: 0px;
 }
 
-#page-content #venue-info #venue-map {
+#venue-info #venue-map {
     margin: 27px 0 0 497px;
 
 }
 
-#page-content #venue-info #venue-map .map-heading {
+#venue-info #venue-map .map-heading {
     background-color: #0a3542;
     width: 435px;
 }
 
-#page-content #venue-info #venue-map .map-heading p {
+#venue-info #venue-map .map-heading p {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     color: #fff;
     font-size: 20px;
@@ -532,46 +551,46 @@ span.bolder {
 
 /**SPONSORS PAGE */
 
-#page-content #page-heading h1.center {
+#page-heading h1.center {
     text-align: center;
     margin-left: 0px;
     margin-bottom: 15px;
 }
 
 
-#page-content ul.tier {
+ul.tier {
     text-align: center;
     border-bottom: 1px dashed #999;
     padding: 0;
     margin: 10px 0 10px 0;
 }
 
-#page-content ul.tier li {
+ul.tier li {
     display: inline-block;
 }
 
-#page-content ul.tier li p {
+ul.tier li p {
     text-align: left;
     padding: 10px 0 0 0;
 }
 
-#page-content ul.tier li p span.company {
+ul.tier li p span.company {
     color: #f7941d;
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
-#page-content ul#top-tier li {
+ul#top-tier li {
     width: 300px;
     padding: 20px;
 }
 
-#page-content ul#second-tier li {
+ul#second-tier li {
     width: 200px;
     padding: 15px;
 }
 
-#page-content ul#third-tier li {
+ul#third-tier li {
     width: 140px;
     padding: 25px;
 }
@@ -579,62 +598,62 @@ span.bolder {
 
 /**CONTACT PAGE */
 
-#page-content #contact-page {
+#contact-page {
     overflow: hidden;
     margin-top: 35px;
 }
-#page-content #contact-details {
+#contact-details {
     margin-left: 28px;
     width: 200px;
     float: left;
 }
 
-#page-content #contact-details p {
+#contact-details p {
     font-size: 14px;
 }
 
-#page-content #contact-page #contact-image {
+#contact-page #contact-image {
     margin-left: 270px;
 }
 
 
-#page-content #page-heading h1.contact {
+#page-heading h1.contact {
     margin-left: 0px;
     margin-top: 0px;
 }
 
-#page-content #contact-details h2 {
+#contact-details h2 {
     margin-bottom: 0px;
     margin-top: 26px;
     color: #f7941d;
 }
 
-#page-content #contact-details a:link, #page-content #contact-page a:hover, #page-content #contact-page a:visited  {
+#contact-details a:link, #contact-page a:hover, #contact-page a:visited  {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     color:  #7d7d7d;
     text-decoration: none;
     font-size: 17px;
 }
 
-#page-content #contact-details p.details {
+#contact-details p.details {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     color:  #7d7d7d;
     font-size: 16px;
     margin-top: 2px;
 }
 
-#page-content #contact-details p.details img {
+#contact-details p.details img {
     vertical-align: bottom;
 }
 
 
 /**SCHEDULE PAGE */
 
-#page-content #schedule-page {
+#schedule-page {
     margin: 0 40px;
 }
 
-#page-content #schedule-page #page-heading-schedule h1  {
+#schedule-page #page-heading-schedule h1  {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 28px;
@@ -642,79 +661,23 @@ span.bolder {
     margin-top: 40px;
 }
 
-#page-content #schedule-page #intro-schedule {
+#schedule-page #intro-schedule {
     margin-bottom: 50px;
 }
 
-#page-content #schedule-page #intro-schedule a:link, #page-content #schedule-page #intro-schedule a:hover, #page-content #schedule-page #intro-schedule a:visited {
+#schedule-page #intro-schedule a:link, #schedule-page #intro-schedule a:hover, #schedule-page #intro-schedule a:visited {
     text-decoration: none;
     color:#f7941d;
 }
 
-#page-content #schedule-page #intro-schedule p {
+#schedule-page #intro-schedule p {
     font-size: 14px;
 }
 
-#page-content #schedule-page h2 {
+#schedule-page h2 {
     margin-bottom: 6px;
 }
 
-table {
-    text-align: left;
-    margin-bottom: 30px;
-}
-
-
-table th {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: #204e5e;
-    font-weight: normal;
-    background-color: #B9E7F3;
-    line-height: 25px;
-    padding:10px;
-}
-
-tbody {
-    background-color: #F0EDED;
-}
-
-tbody td {
-    width: 300px;
-    line-height: 18px;
-    vertical-align: top;
-    padding: 10px;
-}
-
-tbody td.time, th.time {
-    width: 150px;
-}
-
-tbody td.event, th.event {
-    width: 200px;
-}
-
-tbody td.descr, th.descr {
-    width: 400px;
-}
-
-tbody td.event img {
-    padding-right: 6px;
-}
-
-tbody td.event span.speaker a:link, tbody td.event span.speaker a:hover, tbody td.event span.speaker a:visited {
-    color: #204e5e;
-    text-decoration: none;
-}
-
-tbody td.descr span.descr-heading {
-    font-size: 14px;
-    color:#204e5e;
-}
-
-tbody td p {
-    margin-bottom: 0px;
-}
 
 /**PURCHASE PAGE */
 
@@ -731,96 +694,96 @@ tbody td p {
     margin-bottom: 30px;
 }
 
-#page-content #purchase-pg #conference {
+#purchase-pg #conference {
     padding: 14px;
     background-color: #F0EDED;
 }
 
-#page-content #purchase-pg #workshops {
+#purchase-pg #workshops {
     padding: 14px;
     background-color: #F0EDED;
     margin-top: 10px;
 }
 
-#page-content #purchase-pg #workshops a:link, #page-content #purchase-pg #workshops a:hover, #page-content #purchase-pg #workshops a:visited {
+#purchase-pg #workshops a:link, #purchase-pg #workshops a:hover, #purchase-pg #workshops a:visited {
     text-decoration: none;
 }
 
-#page-content #purchase-pg {
+#purchase-pg {
     overflow: hidden;
     margin-left: 28px;
 }
 
-#page-content div.purchase-info p {
+div.purchase-info p {
     font-size: 14px;
     color: #333;
 }
 
-#page-content #purchase-pg b {
+#purchase-pg b {
     color: #204e5e;
     font-weight: bold;
 }
 
-#page-content #purchase-info {
+#purchase-info {
     width: 535px;
     float: left;
 }
 
-#page-content #purchase-pg #purchase-info h2 {
+#purchase-pg #purchase-info h2 {
     color: #f7941d;
 }
 
-#page-content #purchase-boxes {
+#purchase-boxes {
     width: 300px;
     margin: 20px 0 0 580px;
 }
 
-#page-content #purchase-boxes #earlybird {
+#purchase-boxes #earlybird {
     background-color:  #B9E7F3;
     padding: 10px;
     margin-bottom: 10px;
 }
 
-#page-content #purchase-boxes h2:last-child {
+#purchase-boxes h2:last-child {
     margin-bottom: 0px;
 }
 
-#page-content #purchase-boxes #extra-info  {
+#purchase-boxes #extra-info  {
     margin-top: 18px;
 }
 
-#page-content #purchase-boxes #extra-info ul {
+#purchase-boxes #extra-info ul {
     padding-left: 0px;
     margin: 0;
 
 }
 
-#page-content #purchase-boxes #extra-info li {
+#purchase-boxes #extra-info li {
     list-style: none;
     padding-bottom: 22px;
 }
 
-#page-content #purchase-boxes a:link, #page-content #purchase-boxes a:hover, #page-content #purchase-boxes a:visited {
+#purchase-boxes a:link, #purchase-boxes a:hover, #purchase-boxes a:visited {
     text-decoration: none;
     color:#f7941d;
 }
 
-#page-content #purchase-boxes #extra-info li p {
+#purchase-boxes #extra-info li p {
     margin: 0px;
 }
 
-#page-content #quicket {
+#quicket {
     border-top: 1px dashed #999;
     padding-top: 27px;
     margin: 20px 120px 0 28px;
 }
 
-#page-content #quicket iframe {
+#quicket iframe {
     margin-left: -12px;
 }
 
 /**WORKSHOP PAGE */
 
-#page-content #page-heading h1.workshops {
+#page-heading h1.workshops {
     margin-left: 0px;
 }
