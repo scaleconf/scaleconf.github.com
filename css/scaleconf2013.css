@@ -37,11 +37,9 @@ div.button {
     padding: 1px;
 }
 
-div.button p {
-    margin: 10px 0;
-}
-
 div.button a {
+    display:block;
+    margin: 10px 0;
     font-size: 12px;
     text-decoration: none;
     color: #fff;
@@ -344,11 +342,6 @@ div.day-schedule table tbody td p {
 #bottom-content #speaker-bottom {
     padding-top: 15px;
     padding-bottom: 13px;
-}
-
-#bottom-content a {
-    text-decoration: none;
-    color: #f7941d;
 }
 
 #bottom-content #speakers #description p {
