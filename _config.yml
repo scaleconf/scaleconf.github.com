@@ -1,16 +1,24 @@
+# text: menu item text
+# url: link passed to browser. Specified relative so that testing can be done locally
+# longurl: link calculated by browser, used for matching active page
 markdown: rdiscount
 pygments: true
 navigation:
 - text: Speakers
-  url: /speakers.html
+  url: speakers.html
+  longurl: /speakers.html
 - text: Workshops
-  url: /workshops.html
+  url: workshops.html
+  longurl: /workshops.html
 - text: Venue
-  url: /venue.html
+  url: venue.html
+  longurl: /venue.html
 - text: Sponsors
-  url: /sponsors.html
+  url: sponsors.html
+  longurl: /sponsors.html
 - text: Contact
-  url: /contact.html
+  url: contact.html
+  longurl: /contact.html
 2012navigation:
 - text: 
   url: /2012/

@@ -36,7 +36,7 @@
             <ul id="site-navigation">
                 {% for link in site.navigation %}
                     {% assign current = 'inactive' %}
-                    {% if page.url == link.url %}
+                    {% if page.url == link.longurl %}
                         {% assign current = 'active' %}
                     {% endif %}
                 <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
