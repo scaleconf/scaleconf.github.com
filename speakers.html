@@ -10,13 +10,13 @@ title: Speakers
 
     {% for speaker in site.speakers %} 
     <li class="box">
-        <a href="/speakers/{{ speaker.name | downcase }}_{{ speaker.surname | downcase }}">
+        <a href="/speakers/{{ speaker.name | downcase | replace:' ','_' }}">
             <div class="speaker-box">
-                <img class="profile" src="/images/speakers/{{ speaker.name | downcase }}_{{ speaker.surname | downcase }}.medium.jpg" />
+                <img class="profile" src="/images/speakers/{{ speaker.name | downcase | replace:' ','_' '}}.medium.jpg" />
                 <div class="caption">
                     <ul>
                         <li>
-                            <p><span class="name">{{ speaker.name }} {{ speaker.surname }}</span></p>
+                            <p><span class="name">{{ speaker.name }}</span></p>
                             <p><span class="company">{{ speaker.company }}</p>
                             <p><span class="title">{{ speaker.title }}</span></p> <br/>
                         </li>

@@ -27,41 +27,31 @@ navigation:
 - url: /2012/feedback-form
   text: Feedback
 speakers:
-- name: Daniel
-  surname: Fiske
+- name: Daniel Fiske
   company: Rightshift
-- name: Daniel
-  surname: Schauenberg
   title: CEO and Founder
+- name: Daniel Schauenberg
   company: Etsy
   title: Software Engineer
-- name: Mike
-  surname: Jones
+- name: Mike Jones
   company: Western Cape Labs
   title: Jack of all trades
-- name: Miles
-  surname: Ward
+- name: Miles Ward
   company: Amazon
   title: Evangelist
-- name: David
-  surname: Tinker
+- name: David Tinker
   company: Brandseye
   title: Title
-- name: Neil
-  surname: Blakey-Milner
+- name: Neil Blakey-Milner
   company: Facebook
   title: Production Engineer
-- name: RI
-  surname: Pienaar
+- name: RI Pienaar
   company: PuppetLabs
   title: Developer
-- name: Robert
-  surname: Stuttaford
+- name: Robert Stuttaford
   company: Cognician
-- name: Dave
-  surname: Humby
+- name: Dave Humby
   company: Nomanini
   title: CTO
-- name: Kenny
-  surname: Gryp
+- name: Kenny Gryp
   company: Percona
