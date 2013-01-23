@@ -33,7 +33,6 @@ div.button {
     background-color: #f7941d;
     width: 130px;
     text-align: center;
-    margin-left: 389px;
     padding: 1px;
 }
 
@@ -153,7 +152,7 @@ ul#site-navigation li a:hover { color: #59c9e1; }
 
 /* div containing heading and table for a day of the schedule */
 div.day-schedule {
-    margin: 22px 0 10px 0;
+    margin: 40px 0 10px 0;
 }
 
 div.day-schedule table {
@@ -232,6 +231,7 @@ div.day-schedule table tbody td p {
     font-size: 37px;
     margin: 0 0 10px 50px;
     line-height:45px;
+	font-weight: normal;
 }
 
 #top-content h1 span { color: #204e5e; }
@@ -289,6 +289,7 @@ div.day-schedule table tbody td p {
     width: 284px;
     float: left;
     margin-left: 50px;
+	padding-bottom: 5px;
 }
 
 #bottom-content #location p {
@@ -300,7 +301,7 @@ div.day-schedule table tbody td p {
     color: #204e5e;
     margin-bottom: 0px;
     padding-left: 9px;
-    padding-top: 9px;
+    padding-top: 15px;
 }
 
 #bottom-content #speakers {
@@ -324,7 +325,7 @@ div.day-schedule table tbody td p {
 }
 
 #bottom-content #speakers li {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 #bottom-content #speakers li p {
@@ -340,7 +341,7 @@ div.day-schedule table tbody td p {
 }
 
 #bottom-content #speaker-bottom {
-    padding-top: 15px;
+    padding-top: 5px;
     padding-bottom: 13px;
 }
 
@@ -407,7 +408,6 @@ li.box {
 .speaker-box {
     background-color: #f5f5f6;
     width: 275px;
-    height: 330px;
     padding: 15px;
 }
 
@@ -469,6 +469,11 @@ li.box {
     font-size: 14px;
 }
 
+.speaker-box p span.talk {
+    font-size: 13px;
+	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+}
+
 .bio {
     margin: 14px 0;
 }
@@ -476,6 +481,150 @@ li.box {
 .bio p span.highlight {
     font-weight: bold;
     color: #f7941d;
+}
+
+/**SPEAKER INFO PAGE */
+
+#speaker-info {
+	overflow: hidden;
+	margin-top: 40px;		
+}
+
+ul#speaker-list {
+	font-size: 14px;
+	margin-left: 20px;	
+}
+
+ul#speaker-list li {
+	list-style: none;
+	padding-bottom: 15px;	
+}
+
+ul#speaker-details {
+	margin: 0px;
+	margin-top: 20px;	
+	margin-bottom: 20px;
+}
+
+ul#speaker-details span.highlighted {
+	color: #f7941d;
+}
+
+ul#speaker-details span.grey {
+	color: #7d7d7d;
+}
+
+#right-column {
+	margin-left: 265px;	
+	width: 650px;	
+}
+
+#left-column {
+	float: left;	
+	background-color: #f5f5f6;
+	margin-left: 30px;
+}
+
+#left-column h1 {
+	font-family: Quicksand, Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	color: #59c9e1;
+	font-weight: normal;
+	padding: 18px;
+	}
+
+#right-column #speaker-details li {
+	font-family: Quicksand, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #59c9e1;
+	list-style: none;
+	margin: 0px;
+	padding-bottom: 10px;
+	
+}
+
+#right-column #bio {
+	margin-bottom: 25px;	
+}
+
+#right-column h4 {
+	margin-bottom: 5px;	
+}
+
+#right-column #talk {
+	margin-bottom: 25px;
+}
+
+/**SPONSOR INFO PAGE */
+
+#sponsor-info {
+	overflow: hidden;
+	margin-top: 40px;		
+}
+
+ul#sponsor-list {
+	font-size: 14px;
+	margin-left: 20px;	
+}
+
+ul#sponsor-list li {
+	list-style: none;
+	padding-bottom: 15px;	
+}
+
+ul#sponsor-details {
+	margin: 0px;
+	margin-top: 20px;	
+	margin-bottom: 20px;
+}
+
+ul#sponsor-details span.highlighted {
+	color: #f7941d;
+}
+
+ul#sponsor-details span.grey {
+	color: #7d7d7d;
+}
+
+#right-column {
+	margin-left: 265px;	
+	width: 650px;	
+}
+
+#left-column {
+	float: left;	
+	background-color: #f5f5f6;
+	margin-left: 30px;
+}
+
+#left-column h1 {
+	font-family: Quicksand, Arial, Helvetica, sans-serif;
+	font-size: 23px;
+	color: #59c9e1;
+	font-weight: normal;
+	padding: 18px;
+	}
+
+#right-column #sponsor-details li {
+	font-family: Quicksand, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #59c9e1;
+	list-style: none;
+	margin: 0px;
+	padding-bottom: 10px;
+	
+}
+
+#right-column #bio {
+	margin-bottom: 25px;	
+}
+
+#right-column h4 {
+	margin-bottom: 5px;	
+}
+
+#right-column #talk {
+	margin-bottom: 25px;
 }
 
 
