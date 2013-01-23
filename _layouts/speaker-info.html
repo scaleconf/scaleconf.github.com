@@ -1,0 +1,53 @@
+---
+layout: page
+---
+<div id="speaker-info">
+    <div id="left-column">
+        <h1>Speaker Bios</h1>
+        
+        <ul id="speaker-list">
+            <li><a href="#">Daniel Fiske</a></li>
+            <li><a href="#">Daniel Schauenberg</li></a></li>
+            <li><a href="#">Mike Jones</a></li>
+            <li><a href="#">Miles Ward</a></li>
+            <li><a href="#">David Tinker</a></li>
+            <li><a href="#">Neil Blakey-Milner</a></li>
+            <li><a href="#">RI Pienaar</a></li>
+            <li><a href="#">Robert Stuttaford</a></li>
+            <li><a href="#">Dave Humby</a></li>
+            <li><a href="#">Kenny Gryp</a></li>
+            <li><a href="#">TBC</a></li>
+            <li><a href="#">TBC</a></li>
+        </ul>
+    </div>
+    
+    <div id="right-column">
+        <div id="pic">
+            <img class="profile" src="/images/speakers/{{ page.name }}_{{ page.surname }}_large.jpg" alt="{{ page.name }} {{ page.surname }}"/>
+        </div>
+        
+        <ul id="speaker-details">
+            <li>{{ page.name }} {{ page.surname }}<span class="grey">•</span> <span class="highlighted">{{ page.company }}: {{ page.title }}</span> </li>
+            <!--li class="twitter"><p><img src="/images/twitter-small.png" /><a href="#">@coda</a></p></li-->   
+        </ul>
+        
+        
+        <div id="bio">
+        	<h4>Speaker Bio</h4>
+            <p><strong>{{ page.name }} {{ page.surname }}</strong> {{ page.bio }}
+           </p>
+        </div>
+        
+        <div id="talk">
+        	<h4>Conference Talk</h4>
+            <p> {{ page.abstract }}
+           </p>
+        </div>
+        
+        <div id="talk-details">
+            <p><h4>Scheduled time:</h4> {{ page.scheduled_day }}, {{ page.scheduled_time }} </p> 
+        </div>   
+        
+    </div>
+</div>
+	
