@@ -490,7 +490,7 @@ a:hover div.speaker-box {
 
 ul#speaker-list {
     font-size: 14px;
-    margin-left: 20px;    
+    margin-left: 0;    
 }
 
 ul#speaker-list li {
@@ -513,7 +513,7 @@ ul#speaker-details span.grey {
 }
 
 #right-column {
-    margin-left: 350px;    
+    margin-left: 300px;    
     width: 650px;    
 }
 
@@ -521,7 +521,7 @@ ul#speaker-details span.grey {
     float: left;    
     background-color: #f5f5f6;
     margin-left: 30px;
-    width:215px;
+    width:200px;
 }
 
 #left-column h1 {
@@ -563,7 +563,7 @@ ul#speaker-details span.grey {
 
 ul#sponsor-list {
     font-size: 14px;
-    margin-left: 20px;    
+    margin: 0;
 }
 
 ul#sponsor-list li {
@@ -585,15 +585,11 @@ ul#sponsor-details span.grey {
     color: #7d7d7d;
 }
 
-#right-column {
-    margin-left: 265px;    
-    width: 650px;    
-}
-
 #left-column {
     float: left;    
     background-color: #f5f5f6;
     margin-left: 30px;
+    padding: 18px;
 }
 
 #left-column h1 {
@@ -601,8 +597,14 @@ ul#sponsor-details span.grey {
     font-size: 23px;
     color: #59c9e1;
     font-weight: normal;
-    padding: 18px;
-    }
+    padding: 18px 0;
+}
+
+#left-column h1.sponsor-level {
+    font-size: 23px;
+    color: #59c9e1;
+    padding: 0 0 10px 0;
+}
 
 #right-column #sponsor-details li {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
@@ -625,7 +627,6 @@ ul#sponsor-details span.grey {
 #right-column #talk {
     margin-bottom: 25px;
 }
-
 
 /**VENUE PAGE */
 
