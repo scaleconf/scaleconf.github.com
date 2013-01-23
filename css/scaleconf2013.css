@@ -231,7 +231,7 @@ div.day-schedule table tbody td p {
     font-size: 37px;
     margin: 0 0 10px 50px;
     line-height:45px;
-	font-weight: normal;
+    font-weight: normal;
 }
 
 #top-content h1 span { color: #204e5e; }
@@ -289,7 +289,7 @@ div.day-schedule table tbody td p {
     width: 284px;
     float: left;
     margin-left: 50px;
-	padding-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 #bottom-content #location p {
@@ -484,146 +484,146 @@ a:hover div.speaker-box {
 /**SPEAKER INFO PAGE */
 
 #speaker-info {
-	overflow: hidden;
-	margin-top: 40px;		
+    overflow: hidden;
+    margin-top: 40px;        
 }
 
 ul#speaker-list {
-	font-size: 14px;
-	margin-left: 20px;	
+    font-size: 14px;
+    margin-left: 20px;    
 }
 
 ul#speaker-list li {
-	list-style: none;
-	padding-bottom: 15px;	
+    list-style: none;
+    padding-bottom: 15px;    
 }
 
 ul#speaker-details {
-	margin: 0px;
-	margin-top: 20px;	
-	margin-bottom: 20px;
+    margin: 0px;
+    margin-top: 20px;    
+    margin-bottom: 20px;
 }
 
 ul#speaker-details span.highlighted {
-	color: #f7941d;
+    color: #f7941d;
 }
 
 ul#speaker-details span.grey {
-	color: #7d7d7d;
+    color: #7d7d7d;
 }
 
 #right-column {
-	margin-left: 350px;	
-	width: 650px;	
+    margin-left: 350px;    
+    width: 650px;    
 }
 
 #left-column {
-	float: left;	
-	background-color: #f5f5f6;
-	margin-left: 30px;
+    float: left;    
+    background-color: #f5f5f6;
+    margin-left: 30px;
     width:215px;
 }
 
 #left-column h1 {
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	font-size: 23px;
-	color: #59c9e1;
-	font-weight: normal;
-	padding: 18px;
-	}
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: #59c9e1;
+    font-weight: normal;
+    padding: 18px;
+    }
 
 #right-column #speaker-details li {
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	font-size: 20px;
-	color: #59c9e1;
-	list-style: none;
-	margin: 0px;
-	padding-bottom: 10px;
-	
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #59c9e1;
+    list-style: none;
+    margin: 0px;
+    padding-bottom: 10px;
+    
 }
 
 #right-column #bio {
-	margin-bottom: 25px;	
+    margin-bottom: 25px;    
 }
 
 #right-column h4 {
-	margin-bottom: 5px;	
+    margin-bottom: 5px;    
 }
 
 #right-column #talk {
-	margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 /**SPONSOR INFO PAGE */
 
 #sponsor-info {
-	overflow: hidden;
-	margin-top: 40px;		
+    overflow: hidden;
+    margin-top: 40px;        
 }
 
 ul#sponsor-list {
-	font-size: 14px;
-	margin-left: 20px;	
+    font-size: 14px;
+    margin-left: 20px;    
 }
 
 ul#sponsor-list li {
-	list-style: none;
-	padding-bottom: 15px;	
+    list-style: none;
+    padding-bottom: 15px;    
 }
 
 ul#sponsor-details {
-	margin: 0px;
-	margin-top: 20px;	
-	margin-bottom: 20px;
+    margin: 0px;
+    margin-top: 20px;    
+    margin-bottom: 20px;
 }
 
 ul#sponsor-details span.highlighted {
-	color: #f7941d;
+    color: #f7941d;
 }
 
 ul#sponsor-details span.grey {
-	color: #7d7d7d;
+    color: #7d7d7d;
 }
 
 #right-column {
-	margin-left: 265px;	
-	width: 650px;	
+    margin-left: 265px;    
+    width: 650px;    
 }
 
 #left-column {
-	float: left;	
-	background-color: #f5f5f6;
-	margin-left: 30px;
+    float: left;    
+    background-color: #f5f5f6;
+    margin-left: 30px;
 }
 
 #left-column h1 {
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	font-size: 23px;
-	color: #59c9e1;
-	font-weight: normal;
-	padding: 18px;
-	}
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: #59c9e1;
+    font-weight: normal;
+    padding: 18px;
+    }
 
 #right-column #sponsor-details li {
-	font-family: Quicksand, Arial, Helvetica, sans-serif;
-	font-size: 20px;
-	color: #59c9e1;
-	list-style: none;
-	margin: 0px;
-	padding-bottom: 10px;
-	
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #59c9e1;
+    list-style: none;
+    margin: 0px;
+    padding-bottom: 10px;
+    
 }
 
 #right-column #bio {
-	margin-bottom: 25px;	
+    margin-bottom: 25px;    
 }
 
 #right-column h4 {
-	margin-bottom: 5px;	
+    margin-bottom: 5px;    
 }
 
 #right-column #talk {
-	margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 
