@@ -106,8 +106,30 @@ title: Home
 <div id="sponsors">
     <h2>THANKS TO OUR <a href='/sponsors'>SPONSORS</a>:</h2>
     <ul>
-        <li><a href="#"><img src="/images/logo1ph.png" /></a></li>
-        <li><a href="#"><img src="/images/logo2ph.png" /></a></li>
-        <li><a href="#"><img src="/images/logo3ph.png" /></a></li>
+        {% for sponsor in site.sponsors.gold %}
+        <li>
+            <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.gold.jpg" />
+            </a>   
+        </li>
+        {% endfor %}
+    </ul>
+    <ul>
+        {% for sponsor in site.sponsors.silver %}
+        <li>
+            <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.silver.jpg" />
+            </a>   
+        </li>
+        {% endfor %}
+    </ul>
+    <ul>
+        {% for sponsor in site.sponsors.bronze %}
+        <li>
+            <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.bronze.jpg" />
+            </a>   
+        </li>
+        {% endfor %}
     </ul>
 </div>

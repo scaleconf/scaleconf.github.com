@@ -365,12 +365,12 @@ div.day-schedule table tbody td p {
 
 #sponsors ul{
     padding-left: 0px;
-    margin: 0;
+    margin: 25px 0;
 }
 
 #sponsors ul li {
     display: inline-block;
-    margin-right: 200px;
+    margin-right: 20px;
 }
 
 #sponsors a:link, #sponsors a:hover, #sponsors a:visited {
