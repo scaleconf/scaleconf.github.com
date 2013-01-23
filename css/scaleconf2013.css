@@ -498,18 +498,20 @@ ul#speaker-list li {
     padding-bottom: 15px;    
 }
 
-ul#speaker-details {
-    margin: 0px;
-    margin-top: 20px;    
-    margin-bottom: 20px;
-}
-
-ul#speaker-details span.highlighted {
+p#speaker-details span.highlighted {
     color: #f7941d;
 }
 
-ul#speaker-details span.grey {
+p#speaker-details span.grey {
     color: #7d7d7d;
+}
+
+p.twitter {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: #204e5e;
+    margin: 0 0 20px 0;
 }
 
 #right-column {
@@ -532,14 +534,13 @@ ul#speaker-details span.grey {
     padding: 18px;
     }
 
-#right-column #speaker-details li {
+#right-column p#speaker-details {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #59c9e1;
     list-style: none;
     margin: 0px;
-    padding: 10px;
-    
+    padding: 20px 0;
 }
 
 #right-column #bio {

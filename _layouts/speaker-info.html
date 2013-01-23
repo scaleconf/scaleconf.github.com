@@ -17,28 +17,23 @@ layout: page
             <img class="profile" src="/images/speakers/{{ page.name | downcase | replace:' ','_' }}.large.jpg" alt="{{ page.name }}"/>
         </div>
         
-        <ul id="speaker-details">
-            <li>{{ page.name }} {{ page.surname }}<span class="grey">•</span> <span class="highlighted">{{ page.company }}: {{ page.role }}</span> </li>
-            {% if page.twitter != nil %}
-            <li class="twitter"><p><img src="/images/twitter-small.png" /><a href="https://twitter.com/{{ page.twitter }}" target='_blank'>@{{ page.twitter }}</a></p></li> 
-            {% endif %}
-        </ul>
+        <p id="speaker-details">
+            {{ page.name }} {{ page.surname }}
+            <span class="grey">•</span>
+            <span class="highlighted">{{ page.company }}: {{ page.role }}</span>
+        </p>
+        {% if page.twitter != nil %}
+        <p class="twitter">
+            <img src="/images/twitter-small.png" />
+            <a href="https://twitter.com/{{ page.twitter }}" target='_blank'>@{{ page.twitter }}</a>
+        </p> 
+        {% endif %}
         
-        <div id="bio">
-            <h4>Speaker Bio</h4>
-            <p><strong>{{ page.name }} {{ page.surname }}</strong> {{ page.bio }}
-           </p>
-        </div>
-        
-        <div id="talk">
-            <h4>Conference Talk</h4>
-            <p> {{ page.abstract }}
-           </p>
-        </div>
-        
-        <div id="talk-details">
-            <p><h4>Scheduled time:</h4> {{ page.scheduled_day }}, {{ page.scheduled_time }} </p> 
-        </div>   
+        <h4>Speaker Bio</h4>
+        <p><strong>{{ page.name }} {{ page.surname }}</strong> {{ page.bio }} </p>
+        <h4>Conference Talk</h4>
+        <p> {{ page.abstract }} </p>
+        <p><h4>Scheduled time:</h4> {{ page.scheduled_day }}, {{ page.scheduled_time }} </p> 
         
     </div>
 </div>
