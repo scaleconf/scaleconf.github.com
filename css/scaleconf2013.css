@@ -311,6 +311,10 @@ div.day-schedule table tbody td p {
     padding: 12px;
 }
 
+#bottom-content #speakers a {
+    text-decoration: none;
+}
+
 #bottom-content #speakers h2 {
     margin-bottom: 0px;
 }
