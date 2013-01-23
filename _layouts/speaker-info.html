@@ -6,40 +6,32 @@ layout: page
         <h1>Speaker Bios</h1>
         
         <ul id="speaker-list">
-            <li><a href="#">Daniel Fiske</a></li>
-            <li><a href="#">Daniel Schauenberg</li></a></li>
-            <li><a href="#">Mike Jones</a></li>
-            <li><a href="#">Miles Ward</a></li>
-            <li><a href="#">David Tinker</a></li>
-            <li><a href="#">Neil Blakey-Milner</a></li>
-            <li><a href="#">RI Pienaar</a></li>
-            <li><a href="#">Robert Stuttaford</a></li>
-            <li><a href="#">Dave Humby</a></li>
-            <li><a href="#">Kenny Gryp</a></li>
-            <li><a href="#">TBC</a></li>
-            <li><a href="#">TBC</a></li>
+            {% for speaker in site.speakers %}
+            <li><a href="/speakers/{{ speaker.name | downcase }}_{{ speaker.surname | downcase }}">{{ speaker.name }} {{ speaker.surname }}</a></li>
+            {% endfor %}
         </ul>
     </div>
     
     <div id="right-column">
         <div id="pic">
-            <img class="profile" src="/images/speakers/{{ page.name }}_{{ page.surname }}_large.jpg" alt="{{ page.name }} {{ page.surname }}"/>
+            <img class="profile" src="/images/speakers/{{ page.name }}_{{ page.surname }}.large.jpg" alt="{{ page.name }} {{ page.surname }}"/>
         </div>
         
         <ul id="speaker-details">
             <li>{{ page.name }} {{ page.surname }}<span class="grey">•</span> <span class="highlighted">{{ page.company }}: {{ page.title }}</span> </li>
-            <!--li class="twitter"><p><img src="/images/twitter-small.png" /><a href="#">@coda</a></p></li-->   
+            {% if page.twitter != nil %}
+            <li class="twitter"><p><img src="/images/twitter-small.png" /><a href="https://twitter.com/{{ page.twitter }}" target='_blank'>@{{ page.twitter }}</a></p></li> 
+            {% endif %}
         </ul>
         
-        
         <div id="bio">
-        	<h4>Speaker Bio</h4>
+            <h4>Speaker Bio</h4>
             <p><strong>{{ page.name }} {{ page.surname }}</strong> {{ page.bio }}
            </p>
         </div>
         
         <div id="talk">
-        	<h4>Conference Talk</h4>
+            <h4>Conference Talk</h4>
             <p> {{ page.abstract }}
            </p>
         </div>
@@ -50,4 +42,4 @@ layout: page
         
     </div>
 </div>
-	
+    

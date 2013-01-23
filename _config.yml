@@ -26,3 +26,42 @@ navigation:
   text: Location
 - url: /2012/feedback-form
   text: Feedback
+speakers:
+- name: Daniel
+  surname: Fiske
+  company: Rightshift
+- name: Daniel
+  surname: Schauenberg
+  title: CEO and Founder
+  company: Etsy
+  title: Software Engineer
+- name: Mike
+  surname: Jones
+  company: Western Cape Labs
+  title: Jack of all trades
+- name: Miles
+  surname: Ward
+  company: Amazon
+  title: Evangelist
+- name: David
+  surname: Tinker
+  company: Brandseye
+  title: Title
+- name: Neil
+  surname: Blakey-Milner
+  company: Facebook
+  title: Production Engineer
+- name: RI
+  surname: Pienaar
+  company: PuppetLabs
+  title: Developer
+- name: Robert
+  surname: Stuttaford
+  company: Cognician
+- name: Dave
+  surname: Humby
+  company: Nomanini
+  title: CTO
+- name: Kenny
+  surname: Gryp
+  company: Percona
