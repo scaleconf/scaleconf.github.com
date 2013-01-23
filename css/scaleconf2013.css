@@ -450,6 +450,9 @@ li.box {
     padding-right: 5px;
 }
 
+a:hover div.speaker-box {
+    background: #ddd;
+}
 
 .speaker-box .caption p {
     margin: 0px;
@@ -467,11 +470,6 @@ li.box {
 
 .speaker-box p span.title {
     font-size: 14px;
-}
-
-.speaker-box p span.talk {
-    font-size: 13px;
-	font-family: "Droid Sans", Arial, Helvetica, sans-serif;
 }
 
 .bio {
