@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/scaleconf2013.css" rel="stylesheet" type="text/css">
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/css/scaleconf2013.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
     <title>ScaleConf - {{ page.title }}</title>
@@ -24,11 +24,11 @@
     <div id="fixed-width-page">
         <div id="site-header">
             <div id="logo">
-                <a href="index.html"> <span> Scaleconf 2013 </span> <img src="/images/logo.png"  alt="logo"/></a>
+                <a href="/index.html"> <span> Scaleconf 2013 </span> <img src="/images/logo.png"  alt="logo"/></a>
             </div>
             
             <div id="ticket-banner">
-                <a href="purchase"><img src="/images/ticket-banner.png" /></a>
+                <a href="/purchase"><img src="/images/ticket-banner.png" /></a>
             </div>
             
             <div class="white-seperator"> </div>
@@ -36,12 +36,12 @@
             <ul id="site-navigation">
                 {% for link in site.navigation %}
                     {% assign current = 'inactive' %}
-                    {% if page.url == link.longurl %}
+                    {% if page.url == link.url %}
                         {% assign current = 'active' %}
                     {% endif %}
                 <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
                 {% endfor %}
-                <li id="twitter"><a href="https://twitter.com/scaleconf" target="_blank">Follow us <img src="images/twitter.png"/></a></li>
+                <li id="twitter"><a href="https://twitter.com/scaleconf" target="_blank">Follow us <img src="/images/twitter.png"/></a></li>
             </ul>
         </div>
         
@@ -51,7 +51,7 @@
                <ul>
                 <li>&copy;SCALECONF 2013 |</li>
                 <li><a href='https://github.com/scaleconf/scaleconf.github.com'><b>Pull requests</b></a> on this site are welcome |</li>
-                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="/contact.html">Contact us</a></li>
             </ul>
         </div>   
    </div>
