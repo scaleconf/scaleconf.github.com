@@ -7,59 +7,49 @@ title: Sponsors
 </div>
 
 <ul id="top-tier" class="tier">
-        <li>
-        <a href="/sponsor-info">
-            <img src="/images/goldsponsor-ph2.jpg" />
-         </a>   
-            <p>
-                <span class="company"> <a href="#">NAME OF COMPANY</a></span> <br/>
-                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh
-                vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            </p>  
-        </li>
-
+    {% for sponsor in site.sponsors.gold %}
     <li>
-    	<a href="/sponsor-info">
-        	<img src="/images/goldsponsor-ph2.jpg" />
-        </a>    
+        <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
+            <img src="/images/goldsponsor-ph2.jpg" />
+        </a>   
         <p>
-            <span class="company"><a href="#"> NAME OF COMPANY </a> </span> <br/>
-            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh
-            vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+            <span class="company"> <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></span> <br/>
+            {{ sponsor.about }}
         </p>  
-    </li>    
+    </li>
+    {% endfor %}
 </ul>    
 
 <ul id="second-tier" class="tier">
+    {% for sponsor in site.sponsors.silver %}
     <li>
-    	<a href="#">
-        	<img src="/images/silversponsor-ph.jpg" />
-        </a>    
+        <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
+            <img src="/images/silversponsor-ph.jpg" />
+        </a>   
+        <p>
+            <span class="company"> <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></span> <br/>
+        </p>  
     </li>
-    
-     <li>
-    	<a href="#">
-        	<img src="/images/silversponsor-ph.jpg" />
-        </a>    
-    </li>
-    
-     <li>
-    	<a href="#">
-        	<img src="/images/silversponsor-ph.jpg" />
-        </a>    
-    </li>
-    
-     <li>
-    	<a href="#">
-        	<img src="/images/silversponsor-ph.jpg" />
-        </a>    
-    </li>  
+    {% endfor %}
 </ul>    
-
 
 <ul id="third-tier" class="tier">
-    <li><a href="#"><img src="/images/bronzesponsor-ph.jpg" /></a></li>
-    <li><a href="#"><img src="/images/bronzesponsor-ph.jpg" /></a></li>  
-    <li><a href="#"><img src="/images/bronzesponsor-ph.jpg" /></a></li>  
-    <li><a href="#"><img src="/images/bronzesponsor-ph.jpg" /></a></li>      
+    {% for sponsor in site.sponsors.bronze %}
+    <li>
+        <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
+            <img src="/images/bronzesponsor-ph.jpg" />
+        </a>   
+    </li>
+    {% endfor %}
 </ul>    
+
+<ul id="third-tier" class="tier">
+    {% for sponsor in site.sponsors.event %}
+    <li>
+        <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
+            <img src="/images/bronzesponsor-ph.jpg" />
+        </a>   
+    </li>
+    {% endfor %}
+</ul>    
+

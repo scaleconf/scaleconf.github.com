@@ -1,0 +1,54 @@
+---
+layout: page
+---
+<div id="sponsor-info">
+    <div id="left-column">
+        <h1 class='sponsor-level'>Gold Sponsors</h1>
+        <ul id="sponsor-list">
+            {% for sponsor in site.sponsors.gold %}
+            <li><a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></li>
+            {% endfor %}
+        </ul>
+        <h1 class='sponsor-level'>Silver Sponsors</h1>
+        <ul id="sponsor-list">
+            {% for sponsor in site.sponsors.silver %}
+            <li><a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></li>
+            {% endfor %}
+        </ul>
+        <h1 class='sponsor-level'>Bronze Sponsors</h1>
+        <ul id="sponsor-list">
+            {% for sponsor in site.sponsors.bronze %}
+            <li><a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></li>
+            {% endfor %}
+        </ul>
+        <h1 class='sponsor-level'>Other Sponsors</h1>
+        <ul id="sponsor-list">
+            {% for sponsor in site.sponsors.event %}
+            <li><a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    
+    <div id="right-column">
+        <div id="pic">
+            <img class="profile" src="/images/sponsors/{{ page.name | downcase | replace:' ','_' }}.large.jpg" />
+        </div>
+        
+        <ul id="sponsor-details">
+            <li>{{ page.level }} SPONSOR<span class="grey"> • </span> <span class="highlighted">{{ page.name }}</span> </li>
+            {% if page.twitter %}
+            <li class="twitter"><p><img src="/images/twitter-small.png" /><a href="https://twitter.com/{{ page.twitter }}">@{{ page.twitter }}</a></p></li>
+            {% endif %}
+        </ul>
+        
+        <div id="bio">
+            {% for section in page.sections %}
+            <h4>{{ section.heading }}</h4>
+            <p>
+                {{ section.text }}
+           </p>
+           {% endfor %}
+        </div> 
+    </div>
+</div>
+    

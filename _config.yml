@@ -55,3 +55,23 @@ speakers:
   title: CTO
 - name: Kenny Gryp
   company: Percona
+sponsors:
+  gold:
+    - name: Microsoft Azure
+      about: A rock-solid cloud platform for blue-sky thinking
+    - name: RightShift
+      about: Online Gambling and Casino 
+  silver:
+    - name: Amazon
+  bronze:
+    - name: Basho
+    - name: Clickatell
+    - name: Brandseye
+  event:
+    - name: Github
+    - name: Key Connections
+    - name: RSAWeb
+
+
+
+
