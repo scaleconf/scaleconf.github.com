@@ -27,10 +27,6 @@ navigation:
 - url: /2012/feedback-form
   text: Feedback
 speakers:
-- name: Daniel Fiske
-  company: Rightshift
-  title: CEO and Founder
-  country: SA
   quote: Massively scalable systems for the gaming and gambling sectors 
 - name: Daniel Schauenberg
   company: Etsy
@@ -47,6 +43,14 @@ speakers:
   title: Evangelist
   country: USA
   quote: A decade of experience building global-scale analysis infrastructures
+- name: Daniel Fiske
+  company: Rightshift
+  title: CEO and Founder
+  country: SA
+- name: Dietrich Featherston
+  company: Boundary
+  title: Software Engineer
+  country: USA
 - name: David Tinker
   company: Brandseye
   title: Title
