@@ -582,17 +582,17 @@ ul#sponsor-list li {
     padding-bottom: 15px;    
 }
 
-ul#sponsor-details {
+p#sponsor-details {
     margin: 0px;
     margin-top: 20px;    
     margin-bottom: 20px;
 }
 
-ul#sponsor-details span.highlighted {
+p#sponsor-details span.highlighted {
     color: #f7941d;
 }
 
-ul#sponsor-details span.grey {
+p#sponsor-details span.grey {
     color: #7d7d7d;
 }
 
@@ -617,14 +617,13 @@ ul#sponsor-details span.grey {
     padding: 0 0 10px 0;
 }
 
-#right-column #sponsor-details li {
+#right-column p#sponsor-details {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #59c9e1;
     list-style: none;
     margin: 0px;
-    padding-bottom: 10px;
-    
+    padding: 20px 0;
 }
 
 #right-column #bio {

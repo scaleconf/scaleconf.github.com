@@ -34,12 +34,15 @@ layout: page
             <img class="profile" src="/images/sponsors/{{ page.name | downcase | replace:' ','_' }}.large.jpg" />
         </div>
         
-        <ul id="sponsor-details">
-            <li>{{ page.level }} SPONSOR<span class="grey"> • </span> <span class="highlighted">{{ page.name }}</span> </li>
-            {% if page.twitter %}
-            <li class="twitter"><p><img src="/images/twitter-small.png" /><a href="https://twitter.com/{{ page.twitter }}">@{{ page.twitter }}</a></p></li>
-            {% endif %}
-        </ul>
+        <p id="sponsor-details">
+            {{ page.level }} SPONSOR<span class="grey"> • </span> <span class="highlighted">{{ page.name }}</span>
+        </p>
+        {% if page.twitter != nil %}
+        <p class="twitter">
+            <img src="/images/twitter-small.png" />
+            <a href="https://twitter.com/{{ page.twitter }}" target='_blank'>@{{ page.twitter }}</a>
+        </p> 
+        {% endif %}
         
         <div id="bio">
             <p class='tagline'>{{ page.tagline }}</p>
