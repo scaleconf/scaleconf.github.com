@@ -11,45 +11,45 @@ title: Sponsors
     <li>
         <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
             <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.gold.jpg" />
-        </a>   
+        </a>
         <p>
             <span class="company"> <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></span> <br/>
             {{ sponsor.about }}
-        </p>  
+        </p>
     </li>
     {% endfor %}
-</ul>    
+</ul>
 
 <ul id="second-tier" class="tier">
     {% for sponsor in site.sponsors.silver %}
     <li>
         <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
             <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.silver.jpg" />
-        </a>   
+        </a>
         <p>
             <span class="company"> <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></span> <br/>
-        </p>  
+        </p>
     </li>
     {% endfor %}
-</ul>    
+</ul>
 
 <ul id="third-tier" class="tier">
     {% for sponsor in site.sponsors.bronze %}
     <li>
         <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
             <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.bronze.jpg" />
-        </a>   
+        </a>
     </li>
     {% endfor %}
-</ul>    
+</ul>
 
 <ul id="third-tier" class="tier">
     {% for sponsor in site.sponsors.event %}
     <li>
         <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
             <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.event.jpg" />
-        </a>   
+        </a>
     </li>
     {% endfor %}
-</ul>    
+</ul>
 

@@ -4,19 +4,19 @@ layout: page
 <div id="speaker-info">
     <div id="left-column">
         <h1 class='sponsor-level'>Speaker Bios</h1>
-        
+
         <ul id="speaker-list">
             {% for speaker in site.speakers %}
             <li><a href="/speakers/{{ speaker.name | downcase | replace:' ','_' }}">{{ speaker.name }}</a></li>
             {% endfor %}
         </ul>
     </div>
-    
+
     <div id="right-column">
         <div id="pic">
             <img class="profile" src="/images/speakers/{{ page.name | downcase | replace:' ','_' }}.large.jpg" alt="{{ page.name }}"/>
         </div>
-        
+
         <p id="speaker-details">
             {{ page.name }} {{ page.surname }}
             <span class="grey">•</span>
@@ -26,15 +26,15 @@ layout: page
         <p class="twitter">
             <img src="/images/twitter-small.png" />
             <a href="https://twitter.com/{{ page.twitter }}" target='_blank'>@{{ page.twitter }}</a>
-        </p> 
+        </p>
         {% endif %}
-        
+
         <h4>Speaker Bio</h4>
         <p><strong>{{ page.name }} {{ page.surname }}</strong> {{ page.bio }} </p>
         <h4>Conference Talk</h4>
         <p> {{ page.abstract }} </p>
-        <p><h4>Scheduled time:</h4> {{ page.scheduled_day }}, {{ page.scheduled_time }} </p> 
-        
+        <p><h4>Scheduled time:</h4> {{ page.scheduled_day }}, {{ page.scheduled_time }} </p>
+
     </div>
 </div>
-    
+
