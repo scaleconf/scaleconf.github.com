@@ -12,7 +12,7 @@ navigation:
 - text: Contact
   url: /contact
 2012navigation:
-- text: 
+- text:
   url: /2012/
 - url: /2012/details
   text: Details
@@ -27,7 +27,7 @@ navigation:
 - url: /2012/feedback-form
   text: Feedback
 speakers:
-  quote: Massively scalable systems for the gaming and gambling sectors 
+  quote: Massively scalable systems for the gaming and gambling sectors
 - name: Daniel Schauenberg
   company: Etsy
   title: Software Engineer
@@ -78,7 +78,7 @@ sponsors:
     - name: Windows Azure
       about: A rock-solid cloud platform for blue-sky thinking
     - name: RightShift
-      about: Online Gambling and Casino 
+      about: Online Gambling and Casino
   silver:
     - name: Amazon
     - name: 2Go

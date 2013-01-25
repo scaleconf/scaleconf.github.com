@@ -28,12 +28,12 @@ layout: page
             {% endfor %}
         </ul>
     </div>
-    
+
     <div id="right-column">
         <div id="pic">
             <img class="profile" src="/images/sponsors/{{ page.name | downcase | replace:' ','_' }}.large.jpg" />
         </div>
-        
+
         <p id="sponsor-details">
             {{ page.level }} SPONSOR<span class="grey"> • </span> <span class="highlighted">{{ page.name }}</span>
         </p>
@@ -41,9 +41,9 @@ layout: page
         <p class="twitter">
             <img src="/images/twitter-small.png" />
             <a href="https://twitter.com/{{ page.twitter }}" target='_blank'>@{{ page.twitter }}</a>
-        </p> 
+        </p>
         {% endif %}
-        
+
         <div id="bio">
             <p class='tagline'>{{ page.tagline }}</p>
             {% for section in page.sections %}
@@ -52,7 +52,7 @@ layout: page
                 {{ section.text }}
            </p>
            {% endfor %}
-        </div> 
+        </div>
     </div>
 </div>
-    
+

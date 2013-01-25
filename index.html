@@ -43,7 +43,7 @@ title: Home
         <p>
             The conference itself is being held at the Kirstenbosch Botanical Gardens, a beautiful and serene setting.
         </p>
-        
+
          <p>
             The conference itself is being held at the Kirstenbosch Botanical Gardens
         </p>
@@ -69,7 +69,7 @@ title: Home
             </li>
             {% endfor %}
         </ul>
-        
+
         <ul>
             {% for speaker in site.speakers limit:2 offset:2 %}
             <li>
@@ -100,7 +100,7 @@ title: Home
         <li>
             <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
                 <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.gold.jpg" />
-            </a>   
+            </a>
         </li>
         {% endfor %}
     </ul>
@@ -109,7 +109,7 @@ title: Home
         <li>
             <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
                 <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.silver.jpg" />
-            </a>   
+            </a>
         </li>
         {% endfor %}
     </ul>
@@ -118,7 +118,7 @@ title: Home
         <li>
             <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
                 <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.bronze.jpg" />
-            </a>   
+            </a>
         </li>
         {% endfor %}
     </ul>

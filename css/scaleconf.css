@@ -101,7 +101,7 @@ div.calling-card div h2 { margin-top:5px; padding:0; color:#333; }
 div.calling-card div a { margin-top:10px; }
 
 /* sponsorship packages */
-div.package { 
+div.package {
     -webkit-box-shadow:0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
     -moz-box-shadow:0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
     box-shadow:0px 0px 9px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
@@ -112,7 +112,7 @@ div.package {
     height:400px;
 }
 
-div.package.smaller { 
+div.package.smaller {
     width:300px;
     height:440px;
 }
