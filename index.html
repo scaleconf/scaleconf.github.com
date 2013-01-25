@@ -95,7 +95,7 @@ title: Home
 
 <div id="sponsors">
     <h2>THANKS TO OUR <a href='/sponsors'>SPONSORS</a>:</h2>
-    <ul>
+    <ul id="gold-sponsors">
         {% for sponsor in site.sponsors.gold %}
         <li>
             <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
@@ -104,7 +104,7 @@ title: Home
         </li>
         {% endfor %}
     </ul>
-    <ul>
+    <ul id="silver-sponsors">
         {% for sponsor in site.sponsors.silver %}
         <li>
             <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
@@ -113,7 +113,7 @@ title: Home
         </li>
         {% endfor %}
     </ul>
-    <ul>
+    <ul id="bronze-sponsors">
         {% for sponsor in site.sponsors.bronze %}
         <li>
             <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">

@@ -383,6 +383,10 @@ div.day-schedule table tbody td p {
     font-weight: bold;
 }
 
+#sponsors ul#gold-sponsors {
+    float: left;
+}
+
 /** SPEAKER PAGE @ */
 
 #page-heading h1 {
