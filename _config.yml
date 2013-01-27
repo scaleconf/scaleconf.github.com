@@ -27,7 +27,6 @@ navigation:
 - url: /2012/feedback-form
   text: Feedback
 speakers:
-  quote: Massively scalable systems for the gaming and gambling sectors
 - name: Daniel Schauenberg
   company: Etsy
   title: Software Engineer
@@ -47,6 +46,7 @@ speakers:
   company: Rightshift
   title: CEO and Founder
   country: SA
+  quote: Massively scalable systems for the gaming and gambling sectors
 - name: Dietrich Featherston
   company: Boundary
   title: Software Engineer
