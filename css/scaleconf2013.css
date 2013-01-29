@@ -755,27 +755,30 @@ ul#third-tier li {
 /**CONTACT PAGE */
 
 #contact-page {
-    overflow: hidden;
-    margin-top: 35px;
+    overflow: hidden; 
+	background-image: url(/images/tablemountain_contact.jpg);
+	background-repeat: no-repeat;
+	height: 545px;
+	margin-top:-20px;
+	margin-bottom: -40px;
 }
 #contact-details {
     margin-left: 28px;
-    width: 200px;
+    width: 208px;
     float: left;
+	margin-top: 27px;
+	background-color: rgba(255,255,255,0.20);
+	padding: 18px;
 }
 
 #contact-details p {
     font-size: 14px;
 }
 
-#contact-page #contact-image {
-    margin-left: 270px;
-}
-
-
 #page-heading h1.contact {
     margin-left: 0px;
     margin-top: 0px;
+	color: #FFF;
 }
 
 #contact-details h2 {
@@ -784,16 +787,21 @@ ul#third-tier li {
     color: #f7941d;
 }
 
+#contact-details h2#general {
+	margin-top: 63px;	
+	
+}
+
 #contact-details a:link, #contact-page a:hover, #contact-page a:visited  {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
-    color:  #7d7d7d;
+    color:  #fff;
     text-decoration: none;
     font-size: 17px;
 }
 
 #contact-details p.details {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
-    color:  #7d7d7d;
+    color: #FFF;
     font-size: 16px;
     margin-top: 2px;
 }
