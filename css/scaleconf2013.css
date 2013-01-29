@@ -571,8 +571,9 @@ p.twitter {
 }
 
 #sponsor-info p.tagline {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+	line-height: 20px;
     margin: 10px 0 20px 0;
 }
 
@@ -584,6 +585,11 @@ ul#sponsor-list {
 ul#sponsor-list li {
     list-style: none;
     padding-bottom: 15px;
+}
+
+#bio p {
+	margin-bottom: 20px;	
+	
 }
 
 p#sponsor-details {
@@ -627,6 +633,7 @@ p#sponsor-details span.grey {
     color: #59c9e1;
     list-style: none;
     margin: 0px;
+	margin-top: 26px;
     padding: 20px 0;
 }
 

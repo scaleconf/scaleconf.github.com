@@ -12,10 +12,6 @@ title: Sponsors
         <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
             <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.gold.jpg" />
         </a>
-        <p>
-            <span class="company"> <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></span> <br/>
-            {{ sponsor.about }}
-        </p>
     </li>
     {% endfor %}
 </ul>
@@ -26,9 +22,6 @@ title: Sponsors
         <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
             <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.silver.jpg" />
         </a>
-        <p>
-            <span class="company"> <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></span> <br/>
-        </p>
     </li>
     {% endfor %}
 </ul>
