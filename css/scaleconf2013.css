@@ -551,6 +551,11 @@ p.twitter {
     padding: 20px 0;
 }
 
+#speaker-bio p {
+	margin-bottom: 20px;	
+	
+}
+
 #right-column #bio {
     margin-bottom: 25px;
 }

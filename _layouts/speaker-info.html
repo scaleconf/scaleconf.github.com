@@ -28,12 +28,14 @@ layout: page
             <a href="https://twitter.com/{{ page.twitter }}" target='_blank'>@{{ page.twitter }}</a>
         </p>
         {% endif %}
-
-        <h4>Speaker Bio</h4>
-        <p><strong>{{ page.name }} {{ page.surname }}</strong> {{ page.bio }} </p>
-        <h4>Conference Talk</h4>
-        <p> {{ page.abstract }} </p>
-        <p><h4>Scheduled time:</h4> {{ page.scheduled_day }}, {{ page.scheduled_time }} </p>
+		
+        <div id="speaker-bio">	
+            <h4>Speaker Bio</h4>
+            <p><strong>{{ page.name }} {{ page.surname }}</strong> {{ page.bio }} </p>
+            <h4>Conference Talk</h4>
+            <p> {{ page.abstract }} </p>
+            <p><h4>Scheduled time:</h4> {{ page.scheduled_day }}, {{ page.scheduled_time }} </p>
+        </div>
 
     </div>
 </div>
