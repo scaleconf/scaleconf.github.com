@@ -387,6 +387,11 @@ div.day-schedule table tbody td p {
     float: left;
 }
 
+#sponsors ul a {
+    display: block;
+    max-width: 150px;
+}
+
 /** SPEAKER PAGE @ */
 
 #page-heading h1 {
