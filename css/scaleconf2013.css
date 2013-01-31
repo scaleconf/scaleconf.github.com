@@ -197,7 +197,12 @@ div.day-schedule table tbody td.event{
 
 div.day-schedule table th.descr,
 div.day-schedule table tbody td.descr {
-    width: 400px;
+    width: 700px;
+}
+
+div.day-schedule table th.cost,
+div.day-schedule table tbody td.cost {
+    width: 100px;
 }
 
 div.day-schedule table tbody td.event img {
