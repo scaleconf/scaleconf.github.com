@@ -27,14 +27,6 @@ navigation:
 - url: /2012/feedback-form
   text: Feedback
 speakers:
-- name: Beat Schwegler
-  company: Microsoft
-  title: Director, Platform Strategy Group
-  country: Switzerland
-- name: Dale Humby
-  company: Nomanini
-  title: CTO
-  country: SA
 - name: Daniel Fiske
   company: RightShift
   title: CEO and Founder
@@ -45,17 +37,11 @@ speakers:
   title: Software Engineer
   country: USA
   quote: Automation, documentation and simplicity are his usual tools
-- name: David Tinker
-  company: Brandseye
-  title: Lead Engineer
-  country: SA
 - name: Dietrich Featherston
   company: Boundary
   title: Software Engineer
   country: USA
-- name: Kenny Gryp
-  company: Percona
-  country: USA
+  quote: Dropped out of school to build an awesome analytics database which powers Boundary
 - name: Mike Jones
   company: Western Cape Labs
   title: Jack of all trades
@@ -66,6 +52,18 @@ speakers:
   title: Evangelist
   country: USA
   quote: A decade of experience building global-scale analysis infrastructures
+- name: Beat Schwegler
+  company: Microsoft
+  title: Director, Platform Strategy Group
+  country: Switzerland
+- name: David Tinker
+  company: Brandseye
+  title: Lead Engineer
+  country: SA
+- name: Dale Humby
+  company: Nomanini
+  title: CTO
+  country: SA
 - name: Neil Blakey-Milner
   company: Facebook
   title: Production Engineer
@@ -78,6 +76,9 @@ speakers:
   title: CTO
   company: Cognician
   country: SA
+- name: Kenny Gryp
+  company: Percona
+  country: USA
 sponsors:
   gold:
     - name: 2go
@@ -94,4 +95,3 @@ sponsors:
   event:
     - name: Github
     - name: Key Connections
-    - name: RSAWeb
