@@ -70,19 +70,21 @@ speakers:
   company: Nomanini
   title: CTO
   country: SA
+- name: Beat Schwegler
+  company: Microsoft
+  title: Director Cloud Evangelism
+  country: Switzerland
 - name: Kenny Gryp
   company: Percona
   country: USA
 sponsors:
   gold:
-    - name: Windows Azure
-      about: A rock-solid cloud platform for blue-sky thinking
+    - name: 2go
+      about: Free mobile messaging serving millions of users
     - name: RightShift
       about: Social Gaming
   silver:
     - name: Amazon
-    - name: 2Go
-    - name: Praekelt
     - name: RSAWeb
   bronze:
     - name: Basho
@@ -91,7 +93,3 @@ sponsors:
     - name: Github
     - name: Key Connections
     - name: RSAWeb
-
-
-
-
