@@ -52,7 +52,7 @@ title: Home
         </p>
 
         <ul>
-            {% for speaker in site.speakers limit:3 offset:0 %}
+            {% for speaker in site.speakers limit:7 offset:0 %} {% if speaker.quote %}  
             <li>
                 <a href="/speakers/{{ speaker.name | downcase | replace:' ','_' }}" alt="/speakers/{{ speaker.name | downcase | replace:' ','_' }}">
                     <img src="/images/speakers/{{ speaker.name | downcase | replace:' ','_' }}.small.jpg" alt="{{ speaker.name }}" />
@@ -63,11 +63,11 @@ title: Home
                     </p>
                 </a>
             </li>
-            {% endfor %}
+            {% endif %} {% endfor %}
         </ul>
 
         <ul>
-            {% for speaker in site.speakers limit:2 offset:3 %}
+            {% for speaker in site.speakers offset:7 %} {% if speaker.quote %}
             <li>
                 <a href="/speakers/{{ speaker.name | downcase | replace:' ','_' }}" alt="/speakers/{{ speaker.name | downcase | replace:' ','_' }}">
                     <img src="/images/speakers/{{ speaker.name | downcase | replace:' ','_' }}.small.jpg" alt="{{ speaker.name }}" />
@@ -78,7 +78,7 @@ title: Home
                     </p>
                 </a>
             </li>
-            {% endfor %}
+            {% endif %} {% endfor %}
             
             <li id="more-speakers">
                 <a class="textlink" href="/speakers">Checkout all speakers &raquo; </a>
