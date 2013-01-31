@@ -309,6 +309,22 @@ div.day-schedule table tbody td p {
     padding-top: 15px;
 }
 
+#bottom-content #speakers li#more-speakers img {
+    padding: 0;
+}
+
+#bottom-content #speakers li#more-speakers a {
+    float:right;
+}
+
+#bottom-content #speakers li#more-speakers a.textlink {
+    clear:left;
+    width:100%;
+    text-align:right;
+    padding:10px 0;
+    font-size:14px;
+}
+
 #bottom-content #speakers {
     width: 575px;
     background-color: #f5f5f6;

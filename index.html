@@ -52,7 +52,7 @@ title: Home
         </p>
 
         <ul>
-            {% for speaker in site.speakers limit:2 offset:0 %}
+            {% for speaker in site.speakers limit:3 offset:0 %}
             <li>
                 <a href="/speakers/{{ speaker.name | downcase | replace:' ','_' }}" alt="/speakers/{{ speaker.name | downcase | replace:' ','_' }}">
                     <img src="/images/speakers/{{ speaker.name | downcase | replace:' ','_' }}.small.jpg" alt="{{ speaker.name }}" />
@@ -67,7 +67,7 @@ title: Home
         </ul>
 
         <ul>
-            {% for speaker in site.speakers limit:2 offset:2 %}
+            {% for speaker in site.speakers limit:2 offset:3 %}
             <li>
                 <a href="/speakers/{{ speaker.name | downcase | replace:' ','_' }}" alt="/speakers/{{ speaker.name | downcase | replace:' ','_' }}">
                     <img src="/images/speakers/{{ speaker.name | downcase | replace:' ','_' }}.small.jpg" alt="{{ speaker.name }}" />
@@ -79,13 +79,19 @@ title: Home
                 </a>
             </li>
             {% endfor %}
+            
+            <li id="more-speakers">
+                <a class="textlink" href="/speakers">Checkout all speakers &raquo; </a>
+                <div>
+                    {% for speaker in site.speakers limit:5 offset:5 %}
+                    <a href="/speakers/{{ speaker.name | downcase | replace:' ','_' }}" alt="/speakers/{{ speaker.name | downcase | replace:' ','_' }}">
+                        <img src="/images/speakers/{{ speaker.name | downcase | replace:' ','_' }}.small.jpg" alt="{{ speaker.name }}"/>
+                    </a>
+                    {% endfor %}
+                </div>
+            </li>
         </ul>
 
-        <div id="speaker-bottom">
-            <div class="button">
-                <a href="/speakers">SEE MORE SPEAKERS </a>
-            </div>
-        </div>
     </div>
 </div>
 
