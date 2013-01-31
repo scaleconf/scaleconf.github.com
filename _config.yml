@@ -53,7 +53,7 @@ speakers:
   country: USA
 - name: David Tinker
   company: Brandseye
-  title: Title
+  title: Lead Engineer
   country: SA
 - name: Neil Blakey-Milner
   company: Facebook
@@ -64,6 +64,7 @@ speakers:
   title: Developer
   country: UK
 - name: Robert Stuttaford
+  title: CTO
   company: Cognician
   country: SA
 - name: Dale Humby
@@ -72,7 +73,7 @@ speakers:
   country: SA
 - name: Beat Schwegler
   company: Microsoft
-  title: Director Cloud Evangelism
+  title: Director, Platform Strategy Group
   country: Switzerland
 - name: Kenny Gryp
   company: Percona
