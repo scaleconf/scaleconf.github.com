@@ -380,17 +380,13 @@ div.day-schedule table tbody td p {
 }
 
 #sponsors {
-    margin-left: 50px;
     margin-top: 40px;
-}
-
-#sponsors h2 {
-    font-size: 16px;
 }
 
 #sponsors ul{
     padding-left: 0px;
     margin: 25px 0;
+    text-align:center;
 }
 
 #sponsors ul li {
@@ -402,10 +398,6 @@ div.day-schedule table tbody td p {
     text-decoration: none;
     color: #f7941d;
     font-weight: bold;
-}
-
-#sponsors ul#gold-sponsors {
-    float: left;
 }
 
 #sponsors ul a {

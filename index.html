@@ -96,30 +96,25 @@ title: Home
 </div>
 
 <div id="sponsors">
-    <h2>THANKS TO OUR <a href='/sponsors'>SPONSORS</a>:</h2>
-    <ul id="gold-sponsors">
+    <ul>
         {% for sponsor in site.sponsors.gold %}
         <li>
             <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
-                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.gold.png" />
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" />
             </a>
         </li>
         {% endfor %}
-    </ul>
-    <ul id="silver-sponsors">
         {% for sponsor in site.sponsors.silver %}
         <li>
             <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
-                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.silver.png" />
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" />
             </a>
         </li>
         {% endfor %}
-    </ul>
-    <ul id="bronze-sponsors">
         {% for sponsor in site.sponsors.bronze %}
         <li>
             <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
-                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.bronze.png" />
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" />
             </a>
         </li>
         {% endfor %}
