@@ -6,7 +6,11 @@
     <link href="/css/scaleconf2013.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-    <title>ScaleConf - {{ page.title }}</title>
+    {% if page.name %}
+    <title>ScaleConf - {{ page.name }}</title>
+    {% else %}
+    <title>ScaleConf - {{ page.title }} </title>
+    {% endif %}
     <!-- google analytics -->
     <script type="text/javascript">
           var _gaq = _gaq || [];
