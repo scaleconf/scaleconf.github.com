@@ -319,3 +319,24 @@ sponsors:
   event:
     - name: Github
     - name: Key Connections
+programme:
+  - day: Wednesday Evening, 17th April
+    schedule:
+      - time: 7:00 pm - 11:00 pm
+        event: Pre-conference drinks
+        description: The opening event will be sponsored by GitHub, at a venue to be announced. This will be a chance to socialize and network with the speakers, organizers, and fellow conference attendees.
+  - day: Thursday, 18th April
+    schedule:
+      - time: 8:00 am - 9:00 am
+        event: Registration
+        description: Tea and coffee will be served.
+      - time: 9:00 am - 9:30 am
+        event: Introduction and Welcome
+        description: Welcome
+      - time: 9:30 am - 10:15 am
+        speaker: daniel_schauenberg
+      - time: 10:15 am - 10:25 am
+        event: Changeover & pee break
+      - time: 10:25 am - 11:10 am
+        speaker: dale_humby
+
