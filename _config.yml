@@ -300,7 +300,7 @@ speakers:
         common data handling concerns when scaling web applications, so that
         scaling is far more simple to reason about and accomplish.
 
-all_speakers: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, dietrich_featherston, kenny_gryp, mike_jones, miles_ward, neil_blakey_milner, ri_pienaar, robert_stuttaford ]
+all_speakers: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, dietrich_featherston, mike_jones, miles_ward, neil_blakey_milner, ri_pienaar, robert_stuttaford ]
 highlighted: [ daniel_fiske, mike_jones, daniel_schauenberg, miles_ward, dietrich_featherston ]
 nonhighlighted: [ neil_blakey_milner, robert_stuttaford, david_tinker, beat_schwegler, dale_humby ]
 sponsors:
