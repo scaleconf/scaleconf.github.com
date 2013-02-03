@@ -748,41 +748,14 @@ p#sponsor-details span.grey {
 
 ul.tier {
     text-align: center;
-    border-bottom: 1px dashed #999;
     padding: 0;
-    margin: 10px 0 10px 0;
+    margin: 25px 0 15px 0;
 }
 
 ul.tier li {
     display: inline-block;
+    padding:20px 30px;
 }
-
-ul.tier li p {
-    text-align: left;
-    padding: 10px 0 0 0;
-}
-
-ul.tier li p span.company {
-    color: #f7941d;
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-ul#top-tier li {
-    width: 300px;
-    padding: 20px;
-}
-
-ul#second-tier li {
-    width: 200px;
-    padding: 15px;
-}
-
-ul#third-tier li {
-    width: 200px;
-    padding: 25px;
-}
-
 
 /**CONTACT PAGE */
 
