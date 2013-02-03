@@ -7,7 +7,7 @@ layout: page
 
         <ul id="speaker-list">
             {% for speaker in site.all_speakers %}
-            <li><a href="/speakers/{{ speaker[0] }}">{{ speaker[1].name }}</a></li>
+            <li><a href="/speakers/{{ speaker }}">{{ site.speakers[speaker].name }}</a></li>
             {% endfor %}
         </ul>
     </div>

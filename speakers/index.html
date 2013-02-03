@@ -9,15 +9,15 @@ name: Speakers
 <ul id="speakers-section">
     {% for speaker in site.all_speakers %}
     <li class="box">
-        <a href="/speakers/{{ speaker[0] }}">
+        <a href="/speakers/{{ speaker }}">
             <div class="speaker-box">
-                <img class="profile" src="/images/speakers/{{ speaker[0] }}.medium.jpg" />
+                <img class="profile" src="/images/speakers/{{ speaker }}.medium.jpg" />
                 <div class="caption">
                     <ul>
                         <li>
-                            <p><span class="name">{{ speaker[1].name }}</span></p>
-                            <p><span class="company">{{ speaker[1].company }}</p>
-                            <p><span class="title">{{ speaker[1].role }}</span></p> <br/>
+                            <p><span class="name">{{ site.speakers[speaker].name }}</span></p>
+                            <p><span class="company">{{ site.speakers[speaker].company }}</p>
+                            <p><span class="title">{{ site.speakers[speaker].role }}</span></p> <br/>
                         </li>
                     </ul>
                 </div>
