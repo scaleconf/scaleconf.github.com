@@ -88,7 +88,7 @@ ul#site-navigation {
     background-color: #204e5e;
     display: inline-block;
     margin: 0;
-    padding-left: 0px;
+    padding: 0;
 }
 
 ul#site-navigation li {
@@ -101,8 +101,9 @@ ul#site-navigation li.active {
     background-color: #305e6e;
 }
 
-ul#site-navigation li:last-child {
-    border-right: none;
+ul#site-navigation li:first-child {
+    border-left: dashed 1px #59c9e1;
+    width: 170px;
 }
 
 ul#site-navigation li#twitter img {
@@ -112,10 +113,10 @@ ul#site-navigation li#twitter img {
 
 ul#site-navigation li a {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
     color: #fff;
-    width: 167.3px;
+    width: 166px;
     display:block;
     padding:18px 0 20px 0;
 }
@@ -361,7 +362,7 @@ div.day-schedule table tbody td p {
 #bottom-content #speakers li p {
     display: inline-block;
     vertical-align: top;
-    width: 210px;
+    width: 208px;
     height: 80px;
     margin-top: 0px;
 }
