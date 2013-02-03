@@ -29,59 +29,279 @@ navigation:
 - url: /2012/feedback-form
   text: Feedback
 speakers:
-- name: Beat Schwegler
-  company: Microsoft
-  title: Platform Strategy<br />Group Director
-  country: Switzerland
-- name: Dale Humby
-  company: Nomanini
-  title: CTO
-  country: SA
-- name: Daniel Fiske
-  company: RightShift
-  title: CEO and Founder
-  country: SA
-  quote: Massively scalable systems for the gaming and gambling sectors
-- name: Daniel Schauenberg
-  company: Etsy
-  title: Software Engineer
-  country: USA
-  quote: Automation, documentation and simplicity are his usual tools
-- name: David Tinker
-  company: Brandseye
-  title: Lead Engineer
-  country: SA
-- name: Dietrich Featherston
-  company: Boundary
-  title: Software Engineer
-  country: USA
-  quote: Dropped out of school to build an awesome analytics database which powers Boundary
-- name: Kenny Gryp
-  title: Engineer
-  company: Percona
-  country: USA
-- name: Mike Jones
-  company: Western Cape Labs
-  title: Jack of all trades
-  country: SA
-  quote: I started out with nothing and I still have most of it left
-- name: Miles Ward
-  company: Amazon
-  title: Evangelist
-  country: USA
-  quote: A decade of experience building global-scale analysis infrastructures
-- name: Neil Blakey-Milner
-  company: Facebook
-  title: Production Engineer
-  country: USA
-- name: R.I. Pienaar
-  company: PuppetLabs
-  title: Developer
-  country: UK
-- name: Robert Stuttaford
-  title: CTO
-  company: Cognician
-  country: SA
+  beat_schwegler:
+    name: Beat Schwegler
+    company: Microsoft
+    role: Director, Platform Strategy Group
+    country: Switzerland
+    twitter: cloudbeatsch
+    bio: >
+        is part of Microsoft’s Platform Strategy Group which is developing the
+        strategies relating to platform services and service-based applications. He
+        started to focus on cloud computing in 2008 and just loves the
+        opportunities it provides to businesses of all sizes. In his 10 years at
+        Microsoft, Beat was responsible for cloud platform adoption among
+        developers in Western Europe and provided advice on software strategy and
+        architecture across Europe, the Middle East and Africa. Before joining
+        Microsoft, he was an independent architect and developer and was involved
+        in a wide variety of projects, ranging from real-time building control
+        systems, best-selling shrink-wrapped products to large-scale CRM and ERP
+        systems.
+    title:
+    abstract: >
+        Coming soon
+
+  dale_humby:
+    name: Dale Humby
+    company: Nomanini
+    role: CTO
+    country: SA
+    twitter: dalehumby
+    bio: coming soon
+    title:
+    abstract: Coming soon
+
+  daniel_fiske:
+    name: Daniel Fiske
+    company: RightShift
+    role: CTO and Founder
+    country: SA
+    quote: Massively scalable systems for the gaming and gambling sectors
+    twitter:
+    bio: >
+        has spent more than 15 years designing and building massively
+        scalable systems for the gaming and gambling sectors. He began in 1997 as a
+        software developer for one of the world’s first online casino groups, and
+        in 2005 co-founded RightShift as a multiplayer FPS tournament business that
+        later pivoted into social gaming in 2008 and (several apps later) launched
+        Clickfun Casino in 2011.</p>
+        <p>Bootstrapped entirely by the founders without any external funding, Daniel
+        and his team have built out proprietary infrastructure capable of
+        supporting millions of users. This experience together with his background
+        in real money gaming gives Daniel a unique understanding of the overall
+        gaming market and a perspective on the rapid convergence of social and real
+        money gaming that few others are likely to have.
+    title: Tales from the trenches
+    abstract: >
+        The story of how RightShift scaled its business and architecture to
+        successfully compete in the competitive social casino arena with their
+        flagship Clickfun Casino product. Daniel shares first-hand insight into
+        scaling a modern business and high-volume platform and is as much an
+        enlightening tale of getting things right as a cautionary tale of what not
+        to do.
+
+  daniel_schauenberg:
+    name: Daniel Schauenberg
+    company: Etsy
+    role: Software Engineer
+    country: USA
+    quote: Automation, documentation and simplicity are his usual tools
+    twitter: mrtazz
+    bio: >
+        is a Software Engineer in Etsy's infrastructure and development tools
+        team. Automation, documentation and simplicity are his usual tools for
+        improving the status quo. He previously worked in systems and network
+        administration, on connecting chemical plants to IT systems and as an embedded
+        systems networking engineer. Things he thoroughly enjoys when not writing code
+        include coffee, breakfast, TV shows and basketball.
+    title: Scaling Deployment at Etsy
+    abstract: >
+        At Etsy we have over 100 engineers deploying more than 40 times a day. This
+        culture of continuously deploying small change sets enables us to build and
+        release robust features all while serving over a billion page views per month.
+        In order to make sure we can keep up this pace, we have development and
+        deployment infrastructure in place that makes it comfortable and simple to
+        make changes. So simple that as an engineer at Etsy you deploy the site on
+        your first day - even if you're a dog.
+        </p>
+        <p>
+        But how is it possible to deploy so frequently among so many engineers and yet
+        maintain a stable system? To answer this I give a high-level overview of the
+        basic application structure to introduce the specific architecture we have at
+        Etsy and how our development environment is set up. For development, every
+        engineer gets their own VM with the full application stack configured. This
+        makes it easy to get started and puts every developer in the same, familiar
+        setup. This is a crucial part in removing confusion and ambiguity about how to
+        work on and deploy changes.
+        </p>
+        <p>
+        For the actual deployment we use a oner-button deploy system - Deployinator -
+        which we developed and opensourced. We integrated our system tightly with our
+        company-wide IRC server and a set of tools we built to foster confidence,
+        fast feedback and easy communication and collaboration between engineers. A
+        detailed overview will be given on how the system works, how we use it and
+        what problems we had to solve while making sure everyone can deploy as easily
+        and fast as possible.
+        </p>
+        <p>
+        The central source of confidence in our development process is our CI system.
+        We have developed an easy way for developers to run tests on the CI cluster
+        while developing to test changes before going into the deploy pipeline.
+        Additionally tests are run on deploy and initiated by engineers with a tool
+        called 'try' across 200 build machines. Our cluster setup is explained along
+        with what problems we hit with an ever-growing codebase and number of
+        engineers, and how we made our current setup fast.
+        </p>
+        <p>
+        Continuous Deployment and the ability to quickly make changes are crucial for
+        moving fast and iterating on products. Our deployment system works very well
+        and is keeping up with the demands of a growing site and team. After attending
+        this talk you will understand exactly how we approach Continuous Deployment
+        and Continuous Integration at Etsy and get insight into what went wrong along
+        the way and how we fixed it.
+
+  david_tinker:
+    name: David Tinker
+    company: Brandseye
+    role: Lead Engineer
+    country: SA
+    twitter: david_tinker
+    bio: >
+        is Lead Engineer at BrandsEye, the online brand monitoring
+        and analysis software. BrandsEye processes large volumes (3 million+) of
+        tweets and other brand mentions every day, contextualising and annotating
+        them with sentiment, credibility and so forth.
+    abstract: >
+        The BrandsEye team have spent the last year or so transitioning from a
+        single monolithic application with serious performance issues into a
+        loosely coupled collection of applications able to handle very much
+        higher volumes at far greater reliability. The new system uses a lot of
+        interesting technology (RabbitMQ, Redis, MongoDB, MySQL, Postgresql,
+        Grails, Java, etc.) to solve various real-world problems. In this talk
+        David goes into detail on the challenges and learnings encountered
+        along the way.
+
+  dietrich_featherston:
+    name: Dietrich Featherston
+    company: Boundary
+    role: Software Engineer
+    country: USA
+    quote: Dropped out of school to build an awesome analytics database which powers Boundary
+    twitter: d2fn
+    website: http://d2fn.com
+    bio: >
+        is an engineer who dropped out of grad school to
+        build the <a href='https://vimeo.com/42902962'>analytics database</a>
+        powering Boundary. He has spent the last 12 years of his career
+        focused on making complex information accessible to humans and
+        has written a handful of query languages in that time. When he
+        is not busy shipping code, it can be assumed that Dietrich is
+        hiding somewhere along the
+        <a href='http://en.wikipedia.org/wiki/Current_River_(Missouri)'>Current River</a>.
+    abstract: Coming soon
+
+  kenny_gryp:
+    name: Kenny Gryp
+    company: Percona
+    role: Engineer
+    country: USA
+    bio: coming soon
+    abstract: Coming soon
+
+  mike_jones:
+    name: Mike Jones
+    company: Western Cape Labs
+    role: Jack of all trades
+    country: SA
+    quote: I started out with nothing and I still have most of it left
+    twitter: imsickofmaps
+    bio: >
+        works at Western Cape Labs, which he helped form in 2012. He calls himself
+        a "jack of all trades, master of some", which really just means he has to
+        make his own coffee (and likes to shout "MARKETING" randomly at
+        conferences). Born and raised in London, but now resident in Cape Town with
+        his growing family, he appreciates all that the city has to offer as an
+        awesome place to build a socially valuable business.
+    title: I started out with nothing and I've still got most of it left
+    abstract: >
+        It has never been easy to turn your ideas into a real scalable business, but
+        these days, with the rise of the tech incubator, it seems like it's
+        something that everyone is meant to be doing. This talk hopes to provide
+        some insight based on real-world experience from someone who has tried and
+        failed a number of times, and in 2012 decided to try again right here in
+        Cape Town.  Inspired by last year's ScaleConf, we'll hear how On The Way (a
+        service run by Western Cape Labs) went in six months from an idea to a
+        thing you'd hopefully happily send your mum to.
+
+  miles_ward:
+    name: Miles Ward
+    company: Amazon
+    role: Evangelist
+    country: USA
+    quote: A decade of experience building global-scale analysis infrastructures
+    twitter: milesward
+    bio: >
+        is a three-time technology startup entrepreneur with a decade of experience
+        building global-scale analysis infrastructures. Miles has been at Amazon
+        Web Services since 2010 and is responsible for designing and developing AWS
+        Solution Architectures relating to big data and social analytics,
+        multi-tiered storage, HA and DR approaches for RDBMS systems, and cost
+        optimisation.
+    title: >
+        Little teams with big results: NASA/JPL and Obama for America via AWS
+    abstract: >
+        In 2012 two small teams set about delivering on massive expectations, on
+        "failure-is-not-an-option" projects, with extraordinarily limited time and
+        resources. Both teams nailed it: every space geek in the world saw the Mars
+        Curiosity Rover's first images live from Amazon S3 and Cloudfront and
+        watched an HD live-stream of the event, and the 170+ custom applications on
+        AWS powering the radical Obama for America campaign played no small part in
+        helping President Obama win his bid for re-election.  Miles Ward, your
+        presenter, worked embedded with these teams during the design, development,
+        testing, deployment and operational phases of these projects, and can relay
+        a few critical insights about the use of cloud at this scale.  100,000 WCU
+        DynamoDB tables; replicating 27TB across the continent; 60+ terabit/s of
+        live-streamed video; over a billion dollars in processed donations;
+        hundreds of instances, 528,000 IOPS, oh my!
+
+  neil_blakey_milner:
+    name: Neil Blakey-Milner
+    company: Facebook
+    role: Production Engineering Manager
+    country: USA
+    twitter: nxsy
+    bio: >
+        is a Production Engineering Manager at Facebook, and previously was an early employee and lead engineer at KnowledgeTree and Yola.
+    abstract: Coming soon
+
+  ri_pienaar:
+    name: R.I. Pienaar
+    company: PuppetLabs
+    role: Senior Developer
+    country: UK
+    twitter: ripienaar
+    bio: >
+        coming soon
+    abstract: >
+        Coming soon
+
+  robert_stuttaford:
+    name: Robert Stuttaford
+    company: Cognician
+    role: CTO
+    country: SA
+    twitter: RobStuttaford
+    bio: >
+        is the CTO at Cognician, a local tech startup working on
+        improving people's thinking. Now, going into its fourth year with a brand
+        new, completely re-imagined technology stack, Cognician is providing value
+        as a digital platform for self-coaching, performance support and much, much
+        more.</p>
+        <p>Robert has been coding for 15 years and is still not dead. Having worked in
+        all facets of web development for a wide variety of use cases and people,
+        he is happily astonished at how much fun he's still having, thanks in no
+        small part to the Clojure language and its philosophy and community.
+    title: Cognician's new architecture with Clojure and Datomic
+    abstract:
+        Robert will tour through Cognician's new architecture and ops
+        infrastructure, which leverages the many advantages of Clojure - such as
+        functional programming, immutable data and deep Java interop - and Datomic,
+        a new database engine from the creator of Clojure, which solves many of the
+        common data handling concerns when scaling web applications, so that
+        scaling is far more simple to reason about and accomplish.
+
+highlighted: [ daniel_fiske, mike_jones, daniel_schauenberg, miles_ward, dietrich_featherston ]
+nonhighlighted: [ neil_blakey_milner, robert_stuttaford, david_tinker, beat_schwegler, dale_humby ]
 sponsors:
   gold:
     - name: 2go

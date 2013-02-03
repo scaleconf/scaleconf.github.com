@@ -56,10 +56,11 @@ title: Home
         </p>
 
         <ul>
-            {% for speaker in site.speakers limit:7 offset:0 %} {% if speaker.quote %}
+            {% for sp in site.highlighted %}
+            {% assign speaker = site.speakers[sp] %}
             <li>
-                <a href="/speakers/{{ speaker.name | downcase | replace:' ','_' }}" alt="/speakers/{{ speaker.name | downcase | replace:' ','_' }}">
-                    <img src="/images/speakers/{{ speaker.name | downcase | replace:' ','_' }}.small.jpg" alt="{{ speaker.name }}" />
+                <a href="/speakers/{{ sp }}" alt="/speakers/{{ sp }}">
+                    <img src="/images/speakers/{{ sp }}.small.jpg" alt="{{ site.speakers[sp].name }}" />
                     <p>
                         <span class="bolder">{{ speaker.name }}</span>
                         <br/>{{ speaker.company }}, {{ speaker.country }}<br/>
@@ -67,31 +68,19 @@ title: Home
                     </p>
                 </a>
             </li>
-            {% endif %} {% endfor %}
+        {% if forloop.index == 3 %}
         </ul>
-
         <ul>
-            {% for speaker in site.speakers offset:7 %} {% if speaker.quote %}
-            <li>
-                <a href="/speakers/{{ speaker.name | downcase | replace:' ','_' }}" alt="/speakers/{{ speaker.name | downcase | replace:' ','_' }}">
-                    <img src="/images/speakers/{{ speaker.name | downcase | replace:' ','_' }}.small.jpg" alt="{{ speaker.name }}" />
-                    <p>
-                        <span class="bolder">{{ speaker.name }}</span>
-                        <br/>{{ speaker.company }}, {{ speaker.country }}<br/>
-                        <span class="quote"> {{ speaker.quote }} </span>
-                    </p>
-                </a>
-            </li>
-            {% endif %} {% endfor %}
-
+        {% endif %}
+            {% endfor %}
             <li id="more-speakers">
                 <a class="textlink" href="/speakers">Checkout all speakers &raquo; </a>
                 <div>
-                    {% for speaker in site.speakers limit:10 %} {% if speaker.quote == nil %}
-                    <a href="/speakers/{{ speaker.name | downcase | replace:' ','_' }}" alt="/speakers/{{ speaker.name | downcase | replace:' ','_' }}">
-                        <img src="/images/speakers/{{ speaker.name | downcase | replace:' ','_' }}.small.jpg" alt="{{ speaker.name }}"/>
+                    {% for speaker in site.nonhighlighted %}
+                    <a href="/speakers/{{ speaker }}" alt="/speakers/{{ speaker }}">
+                        <img src="/images/speakers/{{ speaker }}.small.jpg" alt="{{ site.speakers[speaker].name }}"/>
                     </a>
-                    {% endif %} {% endfor %}
+                    {% endfor %}
                 </div>
             </li>
         </ul>

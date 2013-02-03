@@ -7,35 +7,35 @@ layout: page
 
         <ul id="speaker-list">
             {% for speaker in site.speakers %}
-            <li><a href="/speakers/{{ speaker.name | downcase | replace:' ','_' }}">{{ speaker.name }}</a></li>
+            <li><a href="/speakers/{{ speaker[0] }}">{{ speaker[1].name }}</a></li>
             {% endfor %}
         </ul>
     </div>
-
+    {% assign speaker = site.speakers[page.name] %}
     <div id="right-column">
         <div id="pic">
-            <img class="profile" src="/images/speakers/{{ page.name | downcase | replace:' ','_' }}.large.jpg" alt="{{ page.name }}"/>
+            <img class="profile" src="/images/speakers/{{ page.name }}.large.jpg" alt="{{ speaker.name }}"/>
         </div>
 
         <p id="speaker-details">
-            {{ page.name }} {{ page.surname }}
+        {{ speaker.name }}
             <span class="grey">•</span>
-            <span class="highlighted">{{ page.company }}: {{ page.role }}</span>
+            <span class="highlighted">{{ speaker.company }}: {{ speaker.role }}</span>
         </p>
-        {% if page.twitter != nil %}
+        {% if speaker.twitter != nil %}
         <p class="twitter">
-            <a href="https://twitter.com/{{ page.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ page.twitter }}</a>
+            <a href="https://twitter.com/{{ speaker.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ speaker.twitter }}</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </p>
         {% endif %}
 
         <div id="speaker-bio">
             <h4>Bio</h4>
-            <p><strong>{{ page.name }} {{ page.surname }}</strong> {{ page.bio }} </p>
+            <p><strong>{{ speaker.name }}</strong> {{ speaker.bio }} </p>
             <h4>Conference Talk</h4>
             <p> 
-                <strong> {{ page.title }} </strong> <br/>
-                {{ page.abstract }}
+                <strong> {{ speaker.title }} </strong> <br/>
+                {{ speaker.abstract }}
             </p>
         </div>
 

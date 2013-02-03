@@ -7,18 +7,17 @@ title: Speakers
 </div>
 
 <ul id="speakers-section">
-
     {% for speaker in site.speakers %}
     <li class="box">
-        <a href="/speakers/{{ speaker.name | downcase | replace:' ','_' }}">
+        <a href="/speakers/{{ speaker[0] }}">
             <div class="speaker-box">
-                <img class="profile" src="/images/speakers/{{ speaker.name | downcase | replace:' ','_' '}}.medium.jpg" />
+                <img class="profile" src="/images/speakers/{{ speaker[0] }}.medium.jpg" />
                 <div class="caption">
                     <ul>
                         <li>
-                            <p><span class="name">{{ speaker.name }}</span></p>
-                            <p><span class="company">{{ speaker.company }}</p>
-                            <p><span class="title">{{ speaker.title }}</span></p> <br/>
+                            <p><span class="name">{{ speaker[1].name }}</span></p>
+                            <p><span class="company">{{ speaker[1].company }}</p>
+                            <p><span class="title">{{ speaker[1].role }}</span></p> <br/>
                         </li>
                     </ul>
                 </div>
