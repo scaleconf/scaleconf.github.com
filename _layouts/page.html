@@ -6,11 +6,13 @@
     <link href="/css/scaleconf2013.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-    {% if page.name %}
-    <title>ScaleConf - {{ page.name }}</title>
+    <title>ScaleConf -
+    {% if site.speakers[page.name] != nil %}
+        {{ site.speakers[page.name].name }}
     {% else %}
-    <title>ScaleConf - {{ page.title }} </title>
+        {{ page.name }}
     {% endif %}
+    </title>
     <!-- google analytics -->
     <script type="text/javascript">
           var _gaq = _gaq || [];
