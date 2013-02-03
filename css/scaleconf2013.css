@@ -458,7 +458,7 @@ li.box {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     list-style: none;
     height: 90px;
-
+    width: 180px;
 }
 
 .caption li.twitter  {
