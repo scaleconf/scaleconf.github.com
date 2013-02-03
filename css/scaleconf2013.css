@@ -58,7 +58,7 @@ div.button a {
     background-color: #0a3542;
     width: 1024px;
     overflow: hidden;
-    margin: 8px 0 20px 0;
+    margin: 8px 0 0 0;
 }
 
 #logo {
@@ -769,12 +769,13 @@ ul.tier li {
 	margin-bottom: -40px;
 }
 #contact-details {
-    margin-left: 28px;
+    margin-left: 10px;
     width: 208px;
     float: left;
-	margin-top: 27px;
-	background-color: rgba(255,255,255,0.20);
-	padding: 18px;
+	margin-top: 30px;
+	background-color: rgba(225,225,225,0.4);
+	padding: 28px;
+    height:450px;
 }
 
 #contact-details p {
