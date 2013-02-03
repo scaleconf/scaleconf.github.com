@@ -843,12 +843,6 @@ ul.tier li {
 
 /**PURCHASE PAGE */
 
-#purchase-pg #page-heading h1 {
-    margin-left: 0px;
-    margin-top: 20px;
-    margin-bottom: 2px;
-}
-
 #purchase-pg #page-heading p.intro {
     font-size: 14px;
     margin-top: 5px;
