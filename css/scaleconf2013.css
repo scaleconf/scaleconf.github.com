@@ -413,15 +413,16 @@ div.day-schedule table tbody td p {
     font-weight: normal;
     font-size: 28px;
     color: #59c9e1;
-    margin-bottom: 15px;
-    margin-top: 40px;
-    margin-left: 28px;
+    margin: 40px 0 15px 0;
 }
 
-ul#speakers-section {
-    display: inline-block;
+div#speakers-section {
     padding-left: 0px;
     margin: 16px 0 0 28px;
+}
+
+div#speakers-section ul {
+    margin: 0;
 }
 
 li.box {
@@ -820,14 +821,6 @@ ul.tier li {
 
 #schedule-page {
     margin: 0 40px;
-}
-
-#schedule-page #page-heading-schedule h1  {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    font-size: 28px;
-    color: #59c9e1;
-    margin-top: 40px;
 }
 
 #schedule-page #intro-schedule {
