@@ -392,7 +392,7 @@ div.day-schedule table tbody td p {
 
 #sponsors ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin: 0 22px;
 }
 
 #sponsors a:link, #sponsors a:hover, #sponsors a:visited {
