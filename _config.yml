@@ -342,22 +342,22 @@ programme:
       - time: 11:10 am - 11:40 am
         event: Mid-morning tea & coffee with scones and biscuits
       - time: 11:40 am - 12:25 am
-        speaker: XXXX
+        speaker: daniel_fiske
       - time: 12:25 am - 12:30 am
         event: Five minutes of Zen
       - time: 12:30 am - 1:45 pm
         event: Lunch
         description:
       - time: 1:45 pm - 2:30 pm
-        speaker: XXXX
+        speaker: neil_blakey_milner
       - time: 2:30 pm - 3:00 pm
         event: Afternoon tea & coffee with biscuits
       - time: 3:00 pm - 3:45 pm
-        speaker: XXXX
+        speaker: beat_schwegler
       - time: 3:45 pm - 4:00 pm
         event: Changeover & pee break
       - time: 4:00 pm - 4:45 pm
-        speaker: XXXX
+        speaker: ri_pienaar
   - day: Thursday evening, 18th April
     schedule:
       - time: 6:00 pm - 11:00 pm
@@ -372,30 +372,30 @@ programme:
         event: Words of Wisdom
         description: 2go drop some science
       - time: 9:30 am - 10:15 am
-        speaker: XXXX
+        speaker: mike_jones
       - time: 10:15 am - 10:25 am
         event: Changeover & pee break
       - time: 10:25 am - 11:10 am
-        speaker: XXXX
+        speaker: dietrich_featherston
       - time: 11:10 am - 11:40 am
         event: Mid-morning tea & coffee with scones and biscuits
       - time: 11:40 am - 12:25 am
-        speaker: XXXX
+        speaker: robert_stuttaford
       - time: 12:25 am - 12:30 am
         event: Five minutes of Zen
       - time: 12:30 am - 1:45 pm
         event: Lunch
         description:
       - time: 1:45 pm - 2:30 pm
-        speaker: XXXX
+        speaker: david_tinker
       - time: 2:30 pm - 3:00 pm
         event: Afternoon tea & coffee with biscuits
       - time: 3:00 pm - 3:45 pm
-        speaker: XXXX
+        speaker: miles_ward
       - time: 3:45 pm - 4:00 pm
         event: Changeover & pee break
       - time: 4:00 pm - 4:45 pm
-        speaker: XXXX
+        speaker: kenny_gryp
   - day: Friday evening, 19th April
     schedule:
       - time: 6:00 pm - 11:00 pm
