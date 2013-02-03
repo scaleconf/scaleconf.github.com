@@ -3,6 +3,8 @@ pygments: true
 navigation:
 - text: Speakers
   url: /speakers
+- text: Schedule
+  url: /schedule
 - text: Workshops
   url: /workshops
 - text: Venue
