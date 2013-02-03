@@ -179,6 +179,10 @@ div.day-schedule table tbody {
     background-color: #F0EDED;
 }
 
+div.day-schedule table tbody tr.speaker {
+    background:rgb(224, 231, 233);
+}
+
 div.day-schedule table tbody td {
     width: 300px;
     line-height: 18px;

@@ -28,28 +28,32 @@ name: Schedule
                 </tr>
 
                 {% for event in day.schedule %}
-                <tr>
+                {% if event.speaker != nil %}
+                <tr class='speaker'>
                     <td class="time">{{ event.time | upcase }}</td>
                     <td class="event">
-                        {% if event.speaker != nil %}
                         <img src="/images/bullet-schedule.png" />
                         <span class="speaker">
                             <a href="/speakers/{{ event.speaker }}">
                                 {{ site.speakers[event.speaker].name }}
                             </a>
                         </span>
-                        {% else %}
-                        {{ event.event }}
-                        {% endif %}
                     </td>
                     <td class="descr">
-                        {% if event.speaker != nil %}
                         {{ site.speakers[event.speaker].title }}
-                        {% else %}
-                        {{ event.description }}
-                        {% endif %}
                     </td>
                 </tr>
+                {% else %}
+                <tr>
+                    <td class="time">{{ event.time | upcase }}</td>
+                    <td class="event">
+                        {{ event.event }}
+                    </td>
+                    <td class="descr">
+                        {{ event.description }}
+                    </td>
+                </tr>
+                {% endif %}
                 {% endfor %}
             </tbody>
         </table>
