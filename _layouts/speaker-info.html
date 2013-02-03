@@ -6,7 +6,7 @@ layout: page
         <h1 class='sponsor-level'>Speakers</h1>
 
         <ul id="speaker-list">
-            {% for speaker in site.speakers %}
+            {% for speaker in site.all_speakers %}
             <li><a href="/speakers/{{ speaker[0] }}">{{ speaker[1].name }}</a></li>
             {% endfor %}
         </ul>
