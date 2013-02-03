@@ -26,6 +26,7 @@ p {
 
 p.padded { margin:15px 0 26px 0; }
 p.inline { display: inline-block; }
+p.two-column { display: inline-block; width:440px; vertical-align: top; padding-right: 20px; }
 span.bolder { font-weight: bold; }
 span.quote { font-family: Quicksand, Arial, Helvetica, sans-serif; }
 
