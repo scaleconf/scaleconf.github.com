@@ -4,12 +4,15 @@
 /* basic website styles */
 
 body {
+    margin:0;
     background-color: #0a3542;
     color:#7d7d7d;
     font-family: "Droid Sans", Arial, Helvetica, sans-serif;
     font-size: 13px;
+    line-height:18px;
 }
-
+h1,h2,h3,h4,h5,h6{margin:0;font-family:geneva,sans-serif;font-weight:bold;color:#317eac;text-rendering:optimizelegibility;}
+h1 {line-height:36px;}
 h2 {
     font-family: Quicksand, "Droid Sans", Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -18,11 +21,15 @@ h2 {
     margin: 3px 0 13px 0;
     line-height:1em;
 }
+h4 {font-size:14px;}
 
 p {
     line-height: 18px;
     margin: 0 0 12px;
 }
+img {max-width:100%; vertical-align:middle; border:0;}
+ul {padding:0; margin:0 0 9px 25px}
+a {color:#204e5e; text-decoration:none;}
 
 p.padded { margin:15px 0 26px 0; }
 p.inline { display: inline-block; }
@@ -51,7 +58,7 @@ div.button a {
 #fixed-width-page {
     background-color: #fff;
     width: 1024px;
-    margin:0 auto;
+    margin:8px auto 0;
 }
 
 #site-header {
