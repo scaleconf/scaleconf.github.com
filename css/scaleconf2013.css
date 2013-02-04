@@ -7,11 +7,13 @@ body {
     background-color: #0a3542;
     color:#7d7d7d;
     font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 1px;
     font-size: 13px;
 }
 
 h2 {
     font-family: Quicksand, "Droid Sans", Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 1px;
     font-weight: normal;
     font-size: 20px;
     color: #204e5e;
@@ -603,6 +605,7 @@ p.twitter {
 
 #sponsor-info p.tagline {
     font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 1px;
     font-size: 16px;
 	line-height: 20px;
     margin: 10px 0 20px 0;
