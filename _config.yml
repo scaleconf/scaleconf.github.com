@@ -362,7 +362,7 @@ programme:
         speaker: beat_schwegler
       - time: 4:00 pm - 4:15 pm
         event: Break
-        event: A quick changeover & pee-break
+        description: A quick changeover & pee-break
       - time: 4:15 pm - 5:00 pm
         speaker: ri_pienaar
   - day: Thursday evening, 18th April
@@ -392,7 +392,7 @@ programme:
         speaker: robert_stuttaford
       - time: 12:30 am - 1:45 pm
         event: Lunch
-        description:
+        description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens.
       - time: 1:45 pm - 2:30 pm
         speaker: david_tinker
       - time: 2:30 pm - 3:00 pm
