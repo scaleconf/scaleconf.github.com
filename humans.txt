@@ -1,26 +1,13 @@
-/* TEAM */
-	Jonathan Hitchcock
-	info@scaleconf.org
-	Twitter: @vhata
-	
-	Duncan Phillips
-	Twitter: @nuknad
-	
-	Vanessa Berger
-	Twitter: @van_berger
+/* TEAM - Email us at: info@scaleconf.org */
+	Jonathan Hitchcock    @vhata
+	Duncan Phillips       @nuknad
+	Vanessa Berger        @van_berger
 
 /* THANKS */
-  Jennifer Poole
-  Twitter: @fireenjn
-
-  Shaun O'Connell
-  Twitter: @ndorfin
-  
-  Russell Cloran
-  Twitter: @rcloran
-  
-  Stefano Rivera
-  Twitter: @stefanorivera
+	Jennifer Poole        @fireenjn
+	Shaun O'Connell       @ndorfin
+	Russell Cloran        @rcloran
+	Stefano Rivera        @stefanorivera
 
 /* SITE */
 	Language:English
