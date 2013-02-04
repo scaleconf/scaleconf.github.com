@@ -17,23 +17,23 @@ name: Home
         <h2>Included in your ticket:</h2>
         <ul>
             <li>
-                <img src="/images/bullet.png" alt="bullet" />
+                <img src="/images/bullet.png" alt="">
                 <p class="inline">7 international speakers sharing unique experiences.</p>
             </li>
             <li>
-                <img src="/images/bullet.png" alt="bullet" />
+                <img src="/images/bullet.png" alt="">
                 <p class="inline">5 African speakers sharing local perspectives and solutions.</p>
             </li>
             <li>
-                <img src="/images/bullet.png" alt="bullet" />
+                <img src="/images/bullet.png" alt="">
                 <p class="inline">Lunch every day, and refreshments throughout the event.</p>
             </li>
             <li>
-                <img src="/images/bullet.png" alt="bullet" />
+                <img src="/images/bullet.png" alt="">
                 <p class="inline">Evening events to network and meet like-minded people.</p>
             </li>
             <li>
-                <img src="/images/bullet.png" alt="bullet" />
+                <img src="/images/bullet.png" alt="">
                 <p class="inline">Free workshops, and time to build and hack with new technologies and people.</p>
             </li>
         </ul>
@@ -42,7 +42,7 @@ name: Home
 
 <div id="bottom-content">
     <div id="location" class="extra-info">
-        <img src="/images/cape_town_istock.small.jpg" alt="Cape Town" />
+        <img src="/images/cape_town_istock.small.jpg" alt="Cape Town">
         <a href="/venue"><h2>OUR LOCATION</h2></a>
         <p>
             <span class="bolder">CAPE TOWN, SOUTH AFRICA:</span>
@@ -63,11 +63,11 @@ name: Home
             {% for sp in site.highlighted %}
             {% assign speaker = site.speakers[sp] %}
             <li>
-                <a href="/speakers/{{ sp }}" alt="/speakers/{{ sp }}">
-                    <img src="/images/speakers/{{ sp }}.small.jpg" alt="{{ site.speakers[sp].name }}" />
+                <a href="/speakers/{{ sp }}">
+                    <img src="/images/speakers/{{ sp }}.small.jpg" alt="{{ site.speakers[sp].name }}">
                     <p>
                         <span class="bolder">{{ speaker.name }}</span>
-                        <br/>{{ speaker.company }}, {{ speaker.country }}<br/>
+                        <br>{{ speaker.company }}, {{ speaker.country }}<br>
                         <span class="quote"> {{ speaker.quote }} </span>
                     </p>
                 </a>
@@ -81,8 +81,8 @@ name: Home
                 <a class="textlink" href="/speakers">Checkout all speakers &raquo; </a>
                 <div>
                     {% for speaker in site.nonhighlighted %}
-                    <a href="/speakers/{{ speaker }}" alt="/speakers/{{ speaker }}">
-                        <img src="/images/speakers/{{ speaker }}.small.jpg" alt="{{ site.speakers[speaker].name }}"/>
+                    <a href="/speakers/{{ speaker }}">
+                        <img src="/images/speakers/{{ speaker }}.small.jpg" alt="{{ site.speakers[speaker].name }}">
                     </a>
                     {% endfor %}
                 </div>
@@ -97,21 +97,21 @@ name: Home
         {% for sponsor in site.sponsors.gold %}
         <li>
             <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
-                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" />
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" alt="">
             </a>
         </li>
         {% endfor %}
         {% for sponsor in site.sponsors.silver %}
         <li>
             <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
-                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" />
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" alt="">
             </a>
         </li>
         {% endfor %}
         {% for sponsor in site.sponsors.bronze %}
         <li>
             <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
-                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" />
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" alt="">
             </a>
         </li>
         {% endfor %}
