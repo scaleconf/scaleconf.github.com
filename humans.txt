@@ -1,0 +1,21 @@
+/* TEAM */
+	Jonathan Hitchcock
+	info@scaleconf.org
+	Twitter: @vhata
+	
+	Duncan Phillips
+	Twitter: @nuknad
+	
+	Vanessa Berger
+	Twitter: @van_berger
+
+/* THANKS */
+  Jennifer Poole
+  Twitter: @fireenjn
+
+  Shaun O'Connell
+  Twitter: @ndorfin
+
+/* SITE */
+	Language:English
+	Doctype:HTML5
