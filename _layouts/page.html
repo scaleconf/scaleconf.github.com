@@ -9,10 +9,15 @@
 			{{ page.name }}
 		{% endif %}
 		</title>
-		<!--link href="/css/bootstrap.css" rel="stylesheet"-->
 		<link href="/css/scaleconf2013.css" rel="stylesheet">
-		<link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-		<link href="http://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<!--[if gt IE 8]><!-->
+		<link href="/css/webfonts_base64.css" rel="stylesheet">
+		<!--><![endif]-->
+		<!--[if lt IE 9]>
+		<link href="/css/webfonts.css" rel="stylesheet">
+		<![endif]-->
+		<!--link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+		<link href="http://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"-->
 	</head>
 	<body>
 		<div id="fixed-width-page">

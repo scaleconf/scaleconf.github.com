@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'DroidSans';
+    src:url('fonts/DroidSans.eot');
+    src:url('fonts/DroidSans.eot?#iefix') format('embedded-opentype'),
+        url('fonts/DroidSans.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face {
+    font-family:'DroidSansBold';
+    src:url('fonts/DroidSans_Bold.eot');
+    src:url('fonts/DroidSans_Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/DroidSans_Bold.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Quicksand';
+    src:url('fonts/Quicksand_Book.eot');
+    src:url('fonts/Quicksand_Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Quicksand_Book.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+}
+

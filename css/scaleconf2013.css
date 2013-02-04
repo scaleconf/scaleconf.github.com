@@ -7,14 +7,14 @@ body {
     margin:0;
     background-color: #0a3542;
     color:#7d7d7d;
-    font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+    font-family: "DroidSans", "Droid Sans", Arial, Helvetica, sans-serif;
     font-size: 13px;
     line-height:18px;
 }
 h1,h2,h3,h4,h5,h6{margin:0;font-family:geneva,sans-serif;font-weight:bold;color:#317eac;text-rendering:optimizelegibility;}
 h1 {line-height:36px;}
 h2 {
-    font-family: Quicksand, "Droid Sans", Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", "DroidSans", "Droid Sans", Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 20px;
     color: #204e5e;
@@ -34,7 +34,8 @@ a {color:#204e5e; text-decoration:none;}
 p.padded { margin:15px 0 26px 0; }
 p.inline { display: inline-block; }
 p.two-column { display: inline-block; width:440px; vertical-align: top; padding-right: 20px; }
-span.bolder { font-weight: bold; }
+span.bolder { font-family:"DroidSansBold";}
+h1 > span.bolder {font-family:"Quicksand", "DroidSans", "Droid Sans", Arial, Helvetica, sans-serif; font-weight:bold;}
 span.quote { font-family: Arial, Helvetica, sans-serif; }
 
 div.button {
@@ -52,7 +53,7 @@ div.button a {
     color: #fff;
 }
 
-
+.extra-info {background-color:#c7eaf4;}
 /* LAYOUT TEMPLATES */
 
 #fixed-width-page {
@@ -119,7 +120,7 @@ ul#site-navigation li#twitter img {
 }
 
 ul#site-navigation li a {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-decoration: none;
     color: #fff;
@@ -174,7 +175,7 @@ div.day-schedule table {
 
 
 div.day-schedule table th {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #204e5e;
     font-weight: normal;
@@ -244,7 +245,7 @@ div.day-schedule table tbody td p {
 }
 
 #top-content h1 {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     color: #59c9e1;
     font-size: 37px;
     margin: 0 0 10px 50px;
@@ -271,7 +272,6 @@ div.day-schedule table tbody td p {
 #top-content #target-audience {
     width: 446px;
     margin-left: 496px;
-    background-image: url(/images/bluet.png);
     padding: 11px 15px 15px 15px;
     margin-top: 30px;
 }
@@ -303,7 +303,6 @@ div.day-schedule table tbody td p {
 }
 
 #bottom-content #location {
-    background-image: url(/images/bluet.png);
     width: 284px;
     float: left;
     margin-left: 50px;
@@ -384,7 +383,7 @@ div.day-schedule table tbody td p {
 }
 
 #bottom-content #speakers #description p {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     font-size: 16px;
     width: 290px;
     float: left;
@@ -421,7 +420,7 @@ div.day-schedule table tbody td p {
 /** SPEAKER PAGE @ */
 
 #page-heading h1 {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 28px;
     color: #59c9e1;
@@ -469,7 +468,7 @@ li.box {
 }
 
 .caption li {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     list-style: none;
     height: 90px;
     width: 180px;
@@ -481,7 +480,7 @@ li.box {
 }
 
 .caption li.twitter a:link, .caption li.twitter a:visited, .caption li.twitter a:hover   {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: 16px;
     color: #204e5e;
@@ -496,8 +495,8 @@ a:hover div.speaker-box {
 }
 
 .speaker-box .caption p {
-    margin: 0px;
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
 }
 
 .speaker-box p span.name {
@@ -548,7 +547,7 @@ p#speaker-details span.grey {
 }
 
 p.twitter {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: 16px;
     color: #204e5e;
@@ -568,7 +567,7 @@ p.twitter {
 }
 
 #left-column h1 {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     font-size: 23px;
     color: #59c9e1;
     font-weight: normal;
@@ -576,7 +575,7 @@ p.twitter {
     }
 
 #right-column p#speaker-details {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #59c9e1;
     list-style: none;
@@ -609,7 +608,7 @@ p.twitter {
 }
 
 #sponsor-info p.tagline {
-    font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+    font-family: "DroidSans", "Droid Sans", Arial, Helvetica, sans-serif;
     font-size: 16px;
 	line-height: 20px;
     margin: 10px 0 20px 0;
@@ -652,7 +651,7 @@ p#sponsor-details span.grey {
 }
 
 #left-column h1 {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     font-size: 23px;
     color: #59c9e1;
     font-weight: normal;
@@ -666,7 +665,7 @@ p#sponsor-details span.grey {
 }
 
 #right-column p#sponsor-details {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #59c9e1;
     list-style: none;
@@ -713,7 +712,7 @@ p#sponsor-details span.grey {
 }
 
 #venue-info #kirstenbosch-text h1{
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: 28px;
     color: #59c9e1;
@@ -740,7 +739,7 @@ p#sponsor-details span.grey {
 }
 
 #venue-info #venue-map .map-heading p {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     color: #fff;
     font-size: 20px;
     padding-top: 7px;
@@ -812,14 +811,14 @@ ul.tier li {
 }
 
 #contact-details a:link, #contact-page a:hover, #contact-page a:visited  {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     color:  #fff;
     text-decoration: none;
     font-size: 17px;
 }
 
 #contact-details p.details {
-    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
     color: #FFF;
     font-size: 16px;
     margin-top: 2px;
@@ -889,8 +888,9 @@ div.purchase-info p {
 }
 
 #purchase-pg b {
+    font-family:"DroidSansBold";
     color: #204e5e;
-    font-weight: bold;
+    font-weight:normal;
 }
 
 #purchase-info {
