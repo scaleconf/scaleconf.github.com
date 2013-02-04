@@ -15,6 +15,12 @@
 
   Shaun O'Connell
   Twitter: @ndorfin
+  
+  Russell Cloran
+  Twitter: @rcloran
+  
+  Stefano Rivera
+  Twitter: @stefanorivera
 
 /* SITE */
 	Language:English
