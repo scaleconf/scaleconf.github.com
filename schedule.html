@@ -1,0 +1,63 @@
+---
+layout: page
+name: Schedule
+---
+
+<div id="schedule-page">
+    <div id="page-heading">
+        <h1>Conference Schedule</h1>
+    </div>
+
+    <div id="intro-schedule">
+        <p><b>This is a provisional schedule and may change as we finalise things.</b> </p>
+        <p>If you're looking for the workshop schedule, please see the <a href='/workshops'>workshops schedule</a>.</p>
+    </div>
+
+    <div class='day-schedule'>
+
+        {% for day in site.programme %}
+
+        <h2>{{ day.day | upcase }}</h2>
+
+        <table>
+            <tbody>
+                <tr>
+                    <th class="time">TIME</th>
+                    <th class="event">EVENT</th>
+                    <th class="descr">DESCRIPTION</th>
+                </tr>
+
+                {% for event in day.schedule %}
+                {% if event.speaker != nil %}
+                <tr class='speaker'>
+                    <td class="time">{{ event.time | upcase }}</td>
+                    <td class="event">
+                        <img src="/images/bullet-schedule.png" />
+                        <span class="speaker">
+                            <a href="/speakers/{{ event.speaker }}">
+                                {{ site.speakers[event.speaker].name }}
+                            </a>
+                        </span>
+                    </td>
+                    <td class="descr">
+                        {{ site.speakers[event.speaker].title }}
+                    </td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td class="time">{{ event.time | upcase }}</td>
+                    <td class="event">
+                        {{ event.event }}
+                    </td>
+                    <td class="descr">
+                        {{ event.description }}
+                    </td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+
+        {% endfor %}
+    </div>
+</div>

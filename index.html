@@ -1,74 +1,119 @@
 ---
-layout: home
-title: ScaleConf - A web scalability conference in South Africa
-meta-description: ScaleConf is a web scalability conference about working and building for highly scalable websites. International experts will be talking about principles from the devops movement as well as some trending technologies and methodologies.
+layout: page
+name: Home
 ---
 
-<div class="container">
+<div id="top-content">
 
-    <div class="row">
-        <!-- Hero Column -->
-        <div class="span7">
-            <!-- font shows numbers with massive letter spacing. fixed for this case -->
-            <h1>ScaleConf <span style='letter-spacing:-4px;;'>2013</span></h1>
-            <h5 id=wherewhen>APRIL 18TH-19TH 2013, CAPE TOWN</h5>
-            <br/>
-            <p class='herotext' style='width:500px;'>
-                <b>Scaling code and architecture is a unique challenge that pushes us to our limits.</b>
-            </p>
-            <p class='herotext'>
-                ScaleConf brings international and local experts together to talk about their experience
-                building sites and services that can handle the rigors of today's internet.
-            </p>
+    <h1>SCALECONF 2013:<span class="slogan"> BUILT TO SCALE</span></h1>
 
-        </div>    
-        <!-- Call to Action Column -->
-        <div class="span4 offset1 calling">
-            <!-- Engineers -->
-            <!-- ~ Attend -->
-
-            <!-- Speakers -->
-            <div class="row">
-                <div class="span4 calling-card">
-                    <img src='/images/microphone.png' width='90px' height='90px'/>
-                    <div>
-                        <h2>Speakers</h2>
-                        <a href='/tell-a-story' class='btn btn-custom'> share your stories</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Sponsors -->
-            <div class="row">
-                <div class="span4 calling-card">
-                    <img src='/images/world.png' weight='90px' height='90px'/>
-                    <div>
-                        <h2>Sponsors</h2>
-                        <a href='/sponsor-packages' class='btn btn-custom'> see our packages</a>
-                    </div>
-                </div>
-            </div>
-            <!-- 2012 -->
-            <div class="row">
-                <div class="span4 calling-card">
-                    <img src='/images/report.png' weight='90px' height='90px'/>
-                    <div>
-                        <h2>Report-back</h2>
-                        <a href='/report-2012' class='btn btn-custom'>ScaleConf 2012</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Charity or Previous year -->
-            <!--
-            <div class="row">
-                <div class="span2" style='font-size:16px;'>
-                    <img src='/images/holding_hands.jpeg'/>
-                </div>
-                <div class="span2" style='font-size:16px;'>
-                    <h2 style='line-height:0.9em;'>charity</h2>
-                    <a href='/charity' class='btn btn-warning calling'> how we gave back</a>
-                </div>
-            </div>
-            -->
-        </div>    
+    <div id="mission">
+        <p class='date-venue'>April 18-19 2013: Cape Town, South Africa. </p>
+        <p>Scaling code and architecture is a unique challenge that pushes us to our limits.</p>
+        <p>ScaleConf brings international and local experts together to talk about their experience building sites and services that can handle the rigours of today's internet. </p>
     </div>
+
+    <div id="target-audience">
+        <h2>Included in your ticket:</h2>
+        <ul>
+            <li>
+                <img src="/images/bullet.png" alt="bullet" />
+                <p class="inline">7 international speakers sharing unique experiences.</p>
+            </li>
+            <li>
+                <img src="/images/bullet.png" alt="bullet" />
+                <p class="inline">5 African speakers sharing local perspectives and solutions.</p>
+            </li>
+            <li>
+                <img src="/images/bullet.png" alt="bullet" />
+                <p class="inline">Lunch every day, and refreshments throughout the event.</p>
+            </li>
+            <li>
+                <img src="/images/bullet.png" alt="bullet" />
+                <p class="inline">Evening events to network and meet like-minded people.</p>
+            </li>
+            <li>
+                <img src="/images/bullet.png" alt="bullet" />
+                <p class="inline">Free workshops, and time to build and hack with new technologies and people.</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div id="bottom-content">
+    <div id="location">
+        <img src="/images/cape_town_istock.jpg" alt="Cape Town" />
+        <a href="/venue"><h2>OUR LOCATION</h2></a>
+        <p>
+            <span class="bolder">CAPE TOWN, SOUTH AFRICA:</span>
+            Set against the scenic backdrop of Table Mountain, Cape Town has easy access to beaches, scenic hikes, winelands, and a buzzing culture.
+        </p>
+        <p>
+            The conference itself is being held at the Kirstenbosch Botanical Gardens, a beautiful and serene setting.
+        </p>
+    </div>
+
+    <div id="speakers">
+        <h2>OUR SPEAKERS </h2>
+        <p class='padded'>
+            With a mixture of African and international speakers, ScaleConf brings a diversity of experience and perspecitve to the stage. The speakers are engineers, and their aim is to share their experience, thoughts and war stories so that we may learn.
+        </p>
+
+        <ul>
+            {% for sp in site.highlighted %}
+            {% assign speaker = site.speakers[sp] %}
+            <li>
+                <a href="/speakers/{{ sp }}" alt="/speakers/{{ sp }}">
+                    <img src="/images/speakers/{{ sp }}.small.jpg" alt="{{ site.speakers[sp].name }}" />
+                    <p>
+                        <span class="bolder">{{ speaker.name }}</span>
+                        <br/>{{ speaker.company }}, {{ speaker.country }}<br/>
+                        <span class="quote"> {{ speaker.quote }} </span>
+                    </p>
+                </a>
+            </li>
+        {% if forloop.index == 3 %}
+        </ul>
+        <ul>
+        {% endif %}
+            {% endfor %}
+            <li id="more-speakers">
+                <a class="textlink" href="/speakers">Checkout all speakers &raquo; </a>
+                <div>
+                    {% for speaker in site.nonhighlighted %}
+                    <a href="/speakers/{{ speaker }}" alt="/speakers/{{ speaker }}">
+                        <img src="/images/speakers/{{ speaker }}.small.jpg" alt="{{ site.speakers[speaker].name }}"/>
+                    </a>
+                    {% endfor %}
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+<div id="sponsors">
+    <ul>
+        {% for sponsor in site.sponsors.gold %}
+        <li>
+            <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" />
+            </a>
+        </li>
+        {% endfor %}
+        {% for sponsor in site.sponsors.silver %}
+        <li>
+            <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" />
+            </a>
+        </li>
+        {% endfor %}
+        {% for sponsor in site.sponsors.bronze %}
+        <li>
+            <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" />
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
