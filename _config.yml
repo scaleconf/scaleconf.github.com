@@ -47,7 +47,7 @@ speakers:
         in a wide variety of projects, ranging from real-time building control
         systems, best-selling shrink-wrapped products to large-scale CRM and ERP
         systems.
-    title:
+    title: Scaling on Windows Azure
     abstract: >
         Coming soon
 
@@ -58,7 +58,7 @@ speakers:
     country: SA
     twitter: dalehumby
     bio: coming soon
-    title:
+    title: How Nomanini enables entrepreneurs in South Africa
     abstract: Coming soon
 
   daniel_fiske:
@@ -161,6 +161,7 @@ speakers:
         and analysis software. BrandsEye processes large volumes (3 million+) of
         tweets and other brand mentions every day, contextualising and annotating
         them with sentiment, credibility and so forth.
+    title: Transitioning your architecture to scale
     abstract: >
         The BrandsEye team have spent the last year or so transitioning from a
         single monolithic application with serious performance issues into a
@@ -188,6 +189,7 @@ speakers:
         is not busy shipping code, it can be assumed that Dietrich is
         hiding somewhere along the
         <a href='http://en.wikipedia.org/wiki/Current_River_(Missouri)'>Current River</a>.
+    title: Insights into NoSQL at Boundary.com
     abstract: Coming soon
 
   kenny_gryp:
@@ -196,6 +198,7 @@ speakers:
     role: Engineer
     country: USA
     bio: coming soon
+    title: High-Performance MySQL
     abstract: Coming soon
 
   mike_jones:
@@ -260,6 +263,7 @@ speakers:
     role: Production Engineering Manager
     country: USA
     twitter: nxsy
+    title: Scaling at Facebook
     bio: >
         is a Production Engineering Manager at Facebook, and previously was an early employee and lead engineer at KnowledgeTree and Yola.
     abstract: Coming soon
@@ -272,6 +276,7 @@ speakers:
     twitter: ripienaar
     bio: >
         coming soon
+    title: What DevOps isn't
     abstract: >
         Coming soon
 
