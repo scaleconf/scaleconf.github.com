@@ -1,0 +1,14 @@
+/* TEAM - Email us at: info@scaleconf.org */
+	Jonathan Hitchcock    @vhata
+	Duncan Phillips       @nuknad
+	Vanessa Berger        @van_berger
+
+/* THANKS */
+	Jennifer Poole        @fireenjn
+	Shaun O'Connell       @ndorfin
+	Russell Cloran        @rcloran
+	Stefano Rivera        @stefanorivera
+
+/* SITE */
+	Language:English
+	Doctype:HTML5

@@ -1,78 +1,63 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="/css/scaleconf2013.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-    <style type="text/css">
-        HTML.safari.win {
-            -webkit-text-stroke: 1px transparent;
-        }
-        HTML.chrome.win {
-            -webkit-text-stroke: 0.4px;
-        }
-    </style>
-    <script type="text/javascript" charset="utf-8">
-        function css_browser_selector(u){var ua=u.toLowerCase(),is=function(t){return ua.indexOf(t)>-1},g='gecko',w='webkit',s='safari',o='opera',m='mobile',h=document.documentElement,b=[(!(/opera|webtv/i.test(ua))&&/msie\s(\d)/.test(ua))?('ie ie'+RegExp.$1):is('firefox/2')?g+' ff2':is('firefox/3.5')?g+' ff3 ff3_5':is('firefox/3.6')?g+' ff3 ff3_6':is('firefox/3')?g+' ff3':is('gecko/')?g:is('opera')?o+(/version\/(\d+)/.test(ua)?' '+o+RegExp.$1:(/opera(\s|\/)(\d+)/.test(ua)?' '+o+RegExp.$2:'')):is('konqueror')?'konqueror':is('blackberry')?m+' blackberry':is('android')?m+' android':is('chrome')?w+' chrome':is('iron')?w+' iron':is('applewebkit/')?w+' '+s+(/version\/(\d+)/.test(ua)?' '+s+RegExp.$1:''):is('mozilla/')?g:'',is('j2me')?m+' j2me':is('iphone')?m+' iphone':is('ipod')?m+' ipod':is('ipad')?m+' ipad':is('mac')?'mac':is('darwin')?'mac':is('webtv')?'webtv':is('win')?'win'+(is('windows nt 6.0')?' vista':''):is('freebsd')?'freebsd':(is('x11')||is('linux'))?'linux':'','js']; c = b.join(' '); h.className += ' '+c; return c;}; css_browser_selector(navigator.userAgent);
-    </script>
-    <script src="http://github.com/rafaelp/css_browser_selector/raw/master/css_browser_selector.js"></script>
-    <title>ScaleConf -
-    {% if site.speakers[page.name] != nil %}
-        {{ site.speakers[page.name].name }}
-    {% else %}
-        {{ page.name }}
-    {% endif %}
-    </title>
-    <!-- google analytics -->
-    <script type="text/javascript">
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-26903495-1']);
-          _gaq.push(['_trackPageview']);
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-    </script>
-</head>
-
-<body>
-    <div id="fixed-width-page">
-        <div id="site-header">
-            <div id="logo">
-                <a href="/"> <span> Scaleconf 2013 </span> <img src="/images/logo.png"  alt="logo"/></a>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ScaleConf -
+        {% if site.speakers[page.name] != nil %}
+            {{ site.speakers[page.name].name }}
+        {% else %}
+            {{ page.name }}
+        {% endif %}
+        </title>
+        <link href="/css/scaleconf2013.css" rel="stylesheet">
+        <!--[if gt IE 8]><!-->
+        <link href="/css/webfonts_base64.css" rel="stylesheet">
+        <!--<![endif]-->
+        <!--[if lt IE 9]>
+        <link href="/css/webfonts.css" rel="stylesheet">
+        <![endif]-->
+        <!--link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"-->
+    </head>
+    <body>
+        <div id="fixed-width-page">
+            <div id="site-header">
+                <div id="logo">
+                    <a href="/"> <span> Scaleconf 2013 </span> <img src="/images/logo.png"  alt="logo"/></a>
+                </div>
+                <div id="ticket-banner">
+                    <a href="/purchase"><img src="/images/ticket-banner.png" alt=""></a>
+                </div>
+                <div class="white-separator"> </div>
+                <ul id="site-navigation">
+                    {% for link in site.navigation %}
+                        {% assign current = 'inactive' %}
+                        {% if page.url == link.url %}
+                            {% assign current = 'active' %}
+                        {% endif %}
+                    <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
+                    {% endfor %}
+                </ul>
             </div>
-
-            <div id="ticket-banner">
-                <a href="/purchase"><img src="/images/ticket-banner.png" /></a>
+            {{ content }}
+            <div id="footer">
+                <ul>
+                    <li>&copy;SCALECONF 2013 |</li>
+                    <li><a href='https://github.com/scaleconf/scaleconf.github.com'><b>Pull requests</b></a> on this site are welcome |</li>
+                    <li><a href="/contact">Contact us</a></li>
+                </ul>
             </div>
-
-            <div class="white-separator"> </div>
-
-            <ul id="site-navigation">
-                {% for link in site.navigation %}
-                    {% assign current = 'inactive' %}
-                    {% if page.url == link.url %}
-                        {% assign current = 'active' %}
-                    {% endif %}
-                <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
-                {% endfor %}
-            </ul>
         </div>
-
-        {{ content }}
-
-        <div id="footer">
-               <ul>
-                <li>&copy;SCALECONF 2013 |</li>
-                <li><a href='https://github.com/scaleconf/scaleconf.github.com'><b>Pull requests</b></a> on this site are welcome |</li>
-                <li><a href="/contact">Contact us</a></li>
-            </ul>
-        </div>
-   </div>
-</div>
-</body>
+        <script>
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-26903495-1']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </body>
 </html>
 
