@@ -192,15 +192,6 @@ speakers:
     title: Insights into NoSQL at Boundary.com
     abstract: Coming soon
 
-  kenny_gryp:
-    name: Kenny Gryp
-    company: Percona
-    role: Engineer
-    country: USA
-    bio: coming soon
-    title: High-Performance MySQL
-    abstract: Coming soon
-
   mike_jones:
     name: Mike Jones
     company: Western Cape Labs
@@ -404,7 +395,8 @@ programme:
         event: Break
         description: A quick changeover & pee-break
       - time: 4:00 pm - 4:45 pm
-        speaker: kenny_gryp
+        event: Speaker
+        description: Speaker to be confirmed
   - day: Friday evening, 19th April
     schedule:
       - time: 6:00 pm - 11:00 pm
