@@ -11,8 +11,8 @@ navigation:
   url: /venue
 - text: Sponsors
   url: /sponsors
-- text: Contact
-  url: /contact
+- text: About
+  url: /about
 2012navigation:
 - text:
   url: /2012/
