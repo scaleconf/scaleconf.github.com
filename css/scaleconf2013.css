@@ -581,8 +581,8 @@ p.twitter {
 }
 
 #speaker-bio p {
-	margin-bottom: 20px;	
-	
+    margin-bottom: 20px;    
+    
 }
 
 #right-column #bio {
@@ -607,7 +607,7 @@ p.twitter {
 #sponsor-info p.tagline {
     font-family: "DroidSans", "Droid Sans", Arial, Helvetica, sans-serif;
     font-size: 16px;
-	line-height: 20px;
+    line-height: 20px;
     margin: 10px 0 20px 0;
 }
 
@@ -622,8 +622,8 @@ ul#sponsor-list li {
 }
 
 #bio p {
-	margin-bottom: 20px;	
-	
+    margin-bottom: 20px;    
+    
 }
 
 p#sponsor-details {
@@ -667,7 +667,7 @@ p#sponsor-details span.grey {
     color: #59c9e1;
     list-style: none;
     margin: 0px;
-	margin-top: 26px;
+    margin-top: 26px;
     padding: 20px 0;
 }
 
@@ -775,19 +775,19 @@ ul.tier li {
 
 #contact-page {
     overflow: hidden; 
-	background-image: url(/images/tablemountain_contact.jpg);
-	background-repeat: no-repeat;
-	height: 545px;
-	margin-top:-20px;
-	margin-bottom: -40px;
+    background-image: url(/images/tablemountain_contact.jpg);
+    background-repeat: no-repeat;
+    height: 545px;
+    margin-top:-20px;
+    margin-bottom: -40px;
 }
 #contact-details {
     margin-left: 10px;
     width: 208px;
     float: left;
-	margin-top: 30px;
-	background-color: rgba(225,225,225,0.4);
-	padding: 28px;
+    margin-top: 30px;
+    background-color: rgba(225,225,225,0.4);
+    padding: 28px;
     height:450px;
 }
 
@@ -798,7 +798,7 @@ ul.tier li {
 #page-heading h1.contact {
     margin-left: 0px;
     margin-top: 0px;
-	color: #FFF;
+    color: #FFF;
 }
 
 #contact-details h2 {
@@ -808,8 +808,8 @@ ul.tier li {
 }
 
 #contact-details h2#general {
-	margin-top: 63px;	
-	
+    margin-top: 63px;    
+    
 }
 
 #contact-details a:link, #contact-page a:hover, #contact-page a:visited  {
@@ -964,54 +964,54 @@ div.purchase-info p {
 
 /**ABOUT PAGE */
 #about-pg {
-	overflow: hidden;	
-	margin-top: 40px;
+    overflow: hidden;    
+    margin-top: 40px;
 }
 
 #about-pg h1 {
-	font-family: Quicksand, Arial, Helvetica, sans-serif;	
-	font-weight: normal;
-	color: #59c9e1;
-	margin-bottom: 10px;	
+    font-family: Quicksand, Arial, Helvetica, sans-serif;    
+    font-weight: normal;
+    color: #59c9e1;
+    margin-bottom: 10px;    
 }
 
 #about-pg #left-column-about {
-	width: 500px;
-	float: left;
-	margin-left: 40px;
+    width: 500px;
+    float: left;
+    margin-left: 40px;
 }
 
 #about-pg #right-column-about {
-	margin-left: 615px;
-	width: 293px;
-	background-color: #c7eaf4;
-	padding: 20px;
+    margin-left: 615px;
+    width: 293px;
+    background-color: #c7eaf4;
+    padding: 20px;
 }
 
 #about-pg #left-column-about #thanks {
-	background-color: #f5f5f6;	
-	padding-bottom: 3px;
-	margin-top: 40px;
+    background-color: #f5f5f6;    
+    padding-bottom: 3px;
+    margin-top: 40px;
 }
 
 #about-pg #left-column-about #thanks h2 {
-	background-color: #f7941d;
-	color: #fff;	
-	padding: 8px;
+    background-color: #f7941d;
+    color: #fff;    
+    padding: 8px;
 }
 
 #about-pg #left-column-about #thanks p {
-	margin: 0px;
+    margin: 0px;
 }
 
 #about-pg #left-column-about #thanks ul {
-	margin-left: 8px;	
+    margin-left: 8px;    
     padding:0 5px;
 }
 
 #about-pg #left-column-about #thanks li {
-	margin: 10px 0 10px 20px;
-	list-style: none;
+    margin: 10px 0 10px 20px;
+    list-style: none;
     padding:0 15px 10px 0px;
     list-style: square;
 }
@@ -1023,29 +1023,29 @@ div.purchase-info p {
 }
 
 #about-pg #right-column-about img.profile {
-	border: 3px solid #fff;	
+    border: 3px solid #fff;    
 }
 
 #about-pg #right-column-about .organiser {
-	margin-bottom: 20px;	
-	border-bottom: 1px dashed #999;
+    margin-bottom: 20px;    
+    border-bottom: 1px dashed #999;
 }
 
 #about-pg #right-column-about .organiser p.name {
-	margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 #about-pg #right-column-about .organiser p.twitter{
-	padding-top: 6px;	
+    padding-top: 6px;    
 }
 
 #about-pg #right-column-about #contact {
-	background-color: #0a3542;
-	padding: 8px;
+    background-color: #0a3542;
+    padding: 8px;
 }
 
 #about-pg #contact h2 {
-	color: #fff;
-	margin-bottom:0px;	
+    color: #fff;
+    margin-bottom:0px;    
 }
 
