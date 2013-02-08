@@ -22,7 +22,7 @@ h2 {
     line-height:1em;
 }
 h4 {font-size:14px;}
-
+h4.padded { padding: 10px 0 5px 0; }
 p {
     line-height: 18px;
     margin: 0 0 12px;
@@ -1006,11 +1006,20 @@ div.purchase-info p {
 
 #about-pg #left-column-about #thanks ul {
 	margin-left: 8px;	
+    padding:0 5px;
 }
 
 #about-pg #left-column-about #thanks li {
-	margin-bottom: 10px;
+	margin: 10px 0 10px 20px;
 	list-style: none;
+    padding:0 15px 10px 0px;
+    list-style: square;
+}
+
+#about-pg #left-column-about #thanks li p.name-title {
+    color: #000;
+    margin-top: 0;
+    padding:0;
 }
 
 #about-pg #right-column-about img.profile {
