@@ -97,21 +97,18 @@ ul#site-navigation {
     display: inline-block;
     margin: 0;
     padding: 0;
+    width:1023px;
+    border-right: dashed 1px #59c9e1;
 }
 
 ul#site-navigation li {
     display: inline-block;
-    border-right: dashed 1px #59c9e1;
+    border-left: dashed 1px #59c9e1;
     text-align: center;
 }
 
 ul#site-navigation li.active {
     background-color: #305e6e;
-}
-
-ul#site-navigation li:first-child {
-    border-left: dashed 1px #59c9e1;
-    width: 170px;
 }
 
 ul#site-navigation li#twitter img {
