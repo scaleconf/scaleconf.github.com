@@ -130,13 +130,15 @@ ul#site-navigation li a:hover { color: #59c9e1; }
 
 /* SITE FOOTER */
 
-#footer { margin-top: 40px; }
+#footer {
+    margin-top: 40px;
+    background-color: #59c9e1;
+}
 
 #footer ul {
-    text-align: center;
-    background-color: #59c9e1;
-    padding: 8px 0;
+    padding: 25px 0 20px 0;
     margin: 0;
+    text-align: center;
 }
 
 #footer ul li {
@@ -144,16 +146,32 @@ ul#site-navigation li a:hover { color: #59c9e1; }
     color: #204e5e;
     list-style: none;
     font-size: 12px;
-    text-align: center;
-    padding: 0 3px;
+    padding: 0px 20px;
+    height:70px;
+    vertical-align: top;
+    text-align: left;
 }
+
+#footer ul li h1 { font-size: 14px; padding:0 0 10px 0; line-height: 1em; font-weight: bold; color:#204e5e; }
+#footer ul li p { margin: 0;}
 
 #footer ul li a {
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+    
+#footer ul li h1 a {
     color: #204e5e;
 }
 
 #footer ul li a:hover { color: #fff; }
+
+#footer li#siliconcape { width: 170px; }
+#footer li#siliconcape img { float:left; margin-right:15px; }
+#footer li#siliconcape p { padding: 3px 0 0 0; }
+
+#footer #copyright { text-align:center; color: #444; padding: 10px 0; background: #c7eaf4;}
 
 /* SHARED: Workshop and Conference Schedule */
 
