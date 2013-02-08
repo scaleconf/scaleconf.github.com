@@ -321,7 +321,6 @@ div.day-schedule table tbody td p {
     width: 284px;
     float: left;
     margin-left: 50px;
-    padding-bottom: 5px;
 }
 
 #bottom-content #location p {
@@ -334,6 +333,27 @@ div.day-schedule table tbody td p {
     margin-bottom: 0px;
     padding-left: 9px;
     padding-top: 15px;
+}
+
+#bottom-content #location #twitter-follow-us {
+    background: #FFF;
+    padding: 30px 0 0 0;
+}
+
+#bottom-content #location #twitter-follow-us img { float: left; margin-right: 10px;}
+#bottom-content #location #twitter-follow-us p.follow-us {
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 0;
+}
+#bottom-content #location #twitter-follow-us p.handle {
+    font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    padding: 5px;
+}
+
+#bottom-content #location #twitter-follow-us p.handle a {
+    color: #59c9e1;
 }
 
 #bottom-content #speakers li#more-speakers img {
