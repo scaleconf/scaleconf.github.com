@@ -910,7 +910,7 @@ div.purchase-info p {
 #purchase-boxes #earlybird {
     background-color:  #B9E7F3;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 44px;
 }
 
 #purchase-boxes h2:last-child {
@@ -920,6 +920,7 @@ div.purchase-info p {
 #purchase-boxes #extra-info  {
     margin-top: 18px;
 }
+
 
 #purchase-boxes #extra-info ul {
     padding-left: 0px;
@@ -956,3 +957,83 @@ div.purchase-info p {
 #page-heading h1.workshops {
     margin-left: 0px;
 }
+
+
+/**ABOUT PAGE */
+#about-pg {
+	overflow: hidden;	
+	margin-top: 40px;
+}
+
+#about-pg h1 {
+	font-family: Quicksand, Arial, Helvetica, sans-serif;	
+	font-weight: normal;
+	color: #59c9e1;
+	margin-bottom: 10px;	
+}
+
+#about-pg #left-column-about {
+	width: 500px;
+	float: left;
+	margin-left: 40px;
+}
+
+#about-pg #right-column-about {
+	margin-left: 600px;
+	width: 293px;
+	background-color: #c7eaf4;
+	padding: 10px;
+}
+
+#about-pg #left-column-about #thanks {
+	background-color: #f5f5f6;	
+	padding-bottom: 3px;
+	margin-top: 40px;
+}
+
+#about-pg #left-column-about #thanks h2 {
+	background-color: #f7941d;
+	color: #fff;	
+	padding: 8px;
+}
+
+#about-pg #left-column-about #thanks p {
+	margin: 0px;
+}
+
+#about-pg #left-column-about #thanks ul {
+	margin-left: 8px;	
+}
+
+#about-pg #left-column-about #thanks li {
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+#about-pg #right-column-about img.profile {
+	border: 3px solid #fff;	
+}
+
+#about-pg #right-column-about .organiser {
+	margin-bottom: 20px;	
+	border-bottom: 1px dashed #999;
+}
+
+#about-pg #right-column-about .organiser p.name {
+	margin-bottom: 0px;
+}
+
+#about-pg #right-column-about .organiser p.twitter{
+	padding-top: 6px;	
+}
+
+#about-pg #right-column-about #contact {
+	background-color: #0a3542;
+	padding: 8px;
+}
+
+#about-pg #contact h2 {
+	color: #fff;
+	margin-bottom:0px;	
+}
+
