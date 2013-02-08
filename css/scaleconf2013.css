@@ -1033,7 +1033,7 @@ div.purchase-info p {
 
 #about-pg #left-column-about #thanks {
     background-color: #f5f5f6;    
-    padding-bottom: 3px;
+    padding: 0;
     margin-top: 40px;
 }
 
