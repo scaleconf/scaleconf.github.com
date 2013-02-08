@@ -458,6 +458,11 @@ li.box {
     padding-left: 7px;
 }
 
+.caption.below {
+    display: block;
+    padding-left: 0px;
+}
+
 .caption ul {
     padding-left: 0px;
     margin: 0px;
