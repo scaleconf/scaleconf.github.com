@@ -764,9 +764,14 @@ ul.tier {
     margin: 25px 0 15px 0;
 }
 
+ul.tier li:hover {
+    border: dashed 1px #ccc;
+}
+
 ul.tier li {
     display: inline-block;
     padding:20px 30px;
+    border: dashed 1px #fff;
 }
 
 /**CONTACT PAGE */
