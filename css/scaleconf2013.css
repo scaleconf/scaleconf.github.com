@@ -887,6 +887,7 @@ ul.tier li {
 div.purchase-info p {
     font-size: 14px;
     color: #333;
+    vertical-align:top;
 }
 
 #purchase-pg b {
