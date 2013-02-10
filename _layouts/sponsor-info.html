@@ -37,12 +37,9 @@ layout: page
         <p id="sponsor-details">
             {{ page.level }} SPONSOR<span class="grey"> • </span> <span class="highlighted">{{ page.name }}</span>
         </p>
-        {% if page.twitter != nil %}
-        <p class="twitter">
-            <img src="/images/twitter-small.png" />
-            <a href="https://twitter.com/{{ page.twitter }}" target='_blank'>@{{ page.twitter }}</a>
+        <p>
+            <a href="{{ page.website }}">{{ page.website }}</a>
         </p>
-        {% endif %}
 
         <div id="bio">
             <p class='tagline'>{{ page.tagline }}</p>
