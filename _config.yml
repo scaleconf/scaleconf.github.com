@@ -57,9 +57,38 @@ speakers:
     role: CTO
     country: SA
     twitter: dalehumby
-    bio: coming soon
-    title: How Nomanini enables entrepreneurs in South Africa
-    abstract: Coming soon
+    bio: >
+        Dale Humby is CTO of Nomanini, a Cape Town based startup that has
+        developed a low cost, mobile point-of-sale terminal and the technology
+        ecosystem for it to operate in informal markets. His genesis is as an
+        electro-mechanical engineer developing sophisticated remote monitoring
+        systems in his own start-up business, joining Nomanini at its inception
+        in 2011 along with his staff.
+        </p>
+        <p>
+        Dale is passionate about the processes of product development,
+        continuous improvement, the motivation and management of people as well
+        as the complex and challenging mechanism of implementing continuous
+        delivery across hardware, firmware and software, all in an Agile
+        context.
+        </p>
+        <p>
+        Like his peers in Nomanini, Dale is driven by the twin goals of
+        powering the needs of the micro-entrepreneur in Africa and the
+        satisfaction of a job well done.
+    title: >
+        Scaling and Reliable Deployment of Hardware, Firmware and Software into the complex African micro-entrepreneurial market.
+    abstract: >
+        Nomanini's target market, mostly micro-entrepreneurs, rely on the
+        Nomanini solution for their livelihood. Therefore Nomanini has to
+        surmount the difficulties of building a scalable, repeatedly
+        deliverable hardware, firmware and back-end software solution capable
+        of processing millions of financial transactions in the technically
+        difficult African environment.
+        </p>
+        <p>
+        In his talk Dale discusses these challenges and reflects on solutions,
+        lessons learned and future improvements.
 
   daniel_fiske:
     name: Daniel Fiske
