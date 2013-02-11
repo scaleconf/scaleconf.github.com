@@ -101,6 +101,8 @@ name: Home
             </a>
         </li>
         {% endfor %}
+    </ul>
+    <ul>
         {% for sponsor in site.sponsors.silver %}
         <li>
             <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
@@ -108,6 +110,8 @@ name: Home
             </a>
         </li>
         {% endfor %}
+    </ul>
+    <ul>
         {% for sponsor in site.sponsors.bronze %}
         <li>
             <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
