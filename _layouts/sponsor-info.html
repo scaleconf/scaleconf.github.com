@@ -35,7 +35,7 @@ layout: page
         </div>
 
         <p id="sponsor-details">
-            {{ page.level }} SPONSOR<span class="grey"> • </span> <span class="highlighted">{{ page.name }}</span>
+            {{ page.level | upcase }} SPONSOR<span class="grey"> • </span> <span class="highlighted">{{ page.name }}</span>
         </p>
         <p>
             <a href="{{ page.website }}">{{ page.website }}</a>
