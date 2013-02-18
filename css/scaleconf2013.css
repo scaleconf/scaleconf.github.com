@@ -340,6 +340,8 @@ div.day-schedule table tbody td p {
     padding: 30px 0 0 0;
 }
 
+div#twitter-share-button { float:right; padding:2px 28px;}
+
 #bottom-content #location #twitter-follow-us img { float: left; margin-right: 10px;}
 #bottom-content #location #twitter-follow-us p.follow-us {
     font-family: "Quicksand", Arial, Helvetica, sans-serif;
