@@ -331,11 +331,12 @@ speakers:
     role: Barefoot Astronomer
     country: SA
     bio: >
-        started out life as an astronomer, used to be an engineer, now trying
-        to avoid managerial tasks. Currently in charge of scientific computing
-        for the MeerKAT radio telescope (www.ska.ac.za). I spend a significant
-        amount of my coding time trying to avoid writing C, and the rest of the
-        time trying to use sys._getframe() in ways that annoy my colleagues.
+        started out life as an astronomer, used to be an engineer, and is now
+        trying to avoid managerial tasks. Currently in charge of scientific
+        computing for the MeerKAT radio telescope (www.ska.ac.za), he spends a
+        significant amount of his coding time trying to avoid writing C, and
+        the rest of the time trying to use sys._getframe() in ways that annoy
+        his colleagues.
     title: Coming soon
     abstract: Coming soon
 
