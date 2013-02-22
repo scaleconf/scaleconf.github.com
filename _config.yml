@@ -325,7 +325,21 @@ speakers:
         common data-handling concerns when scaling web applications, so that
         scaling is far more simple to reason about and accomplish.
 
-all_speakers: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, dietrich_featherston, mike_jones, miles_ward, neil_blakey_milner, ri_pienaar, robert_stuttaford ]
+  simon_ratcliffe:
+    name: Simon Ratcliffe
+    company: SKA
+    role: Barefoot Astronomer
+    country: SA
+    bio: >
+        started out life as an astronomer, used to be an engineer, now trying
+        to avoid managerial tasks. Currently in charge of scientific computing
+        for the MeerKAT radio telescope (www.ska.ac.za). I spend a significant
+        amount of my coding time trying to avoid writing C, and the rest of the
+        time trying to use sys._getframe() in ways that annoy my colleagues.
+    title: Coming soon
+    abstract: Coming soon
+
+all_speakers: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, dietrich_featherston, mike_jones, miles_ward, neil_blakey_milner, ri_pienaar, robert_stuttaford, simon_ratcliffe ]
 highlighted: [ daniel_fiske, mike_jones, daniel_schauenberg, miles_ward, dietrich_featherston ]
 nonhighlighted: [ neil_blakey_milner, robert_stuttaford, david_tinker, beat_schwegler, dale_humby ]
 sponsors:
@@ -425,8 +439,7 @@ programme:
         event: Break
         description: A quick changeover & pee-break
       - time: 4:00 pm - 4:45 pm
-        event: Speaker
-        description: Speaker to be confirmed
+        speaker: simon_ratcliffe
   - day: Friday evening, 19th April
     schedule:
       - time: 6:00 pm - 11:00 pm
