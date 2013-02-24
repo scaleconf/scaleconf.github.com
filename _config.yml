@@ -249,7 +249,7 @@ speakers:
   miles_ward:
     name: Miles Ward
     company: Amazon
-    role: Evangelist
+    role: Solutions Architect
     country: USA
     quote: A decade of experience building global-scale analysis infrastructures
     twitter: milesward
