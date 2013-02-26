@@ -242,9 +242,10 @@ speakers:
         something that everyone is meant to be doing. This talk hopes to provide
         some insight based on real-world experience from someone who has tried and
         failed a number of times, and in 2012 decided to try again right here in
-        Cape Town.  Inspired by last year's ScaleConf, he'll tell us how On The Way (a
-        service run by Western Cape Labs) went in six months from an idea to a
-        thing you'd hopefully happily send your mum to.
+        Cape Town.  Inspired by last year's ScaleConf, he'll tell us how
+        <a href="http://ontheway.co.za/">On The Way</a> (a service run by
+        Western Cape Labs) went in six months from an idea to a thing you'd
+        hopefully happily send your mum to.
 
   miles_ward:
     name: Miles Ward
