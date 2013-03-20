@@ -224,6 +224,10 @@ div.day-schedule table tbody td.event{
     width: 250px;
 }
 
+div.day-schedule table tbody td.event p.title{
+    padding-bottom:6px;
+}
+
 div.day-schedule table th.descr,
 div.day-schedule table tbody td.descr {
     width: 700px;
