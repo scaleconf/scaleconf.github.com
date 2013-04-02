@@ -285,10 +285,17 @@ speakers:
     role: Production Engineering Manager
     country: USA
     twitter: nxsy
-    title: Scaling at Facebook
+    title: Operating at Scale
     bio: >
-        is a Production Engineering Manager at Facebook, and previously was an early employee and lead engineer at KnowledgeTree and Yola.
-    abstract: Coming soon
+        is a Production Engineer in Facebook's Core Systems team where he tries
+        to make the infrastructure that powers Facebook's infrastructure more
+        reliable and operationally efficient.  Previously he was an early
+        employee and lead engineer at South African startups KnowledgeTree and
+        Yola.
+    abstract: >
+        Lessons learned and approaches taken in scaling Facebook, keeping
+        product development fast and a billion people who use Facebook every
+        month happy with the reliability and performance of the site.
 
   ri_pienaar:
     name: R.I. Pienaar
