@@ -374,7 +374,7 @@ programme:
     schedule:
       - time: 7:00 pm - 11:00 pm
         event: Pre-conference drinks
-        description: The opening event will be sponsored by GitHub, at a venue to be announced. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
+        description: The opening event will be sponsored by GitHub, at <a href="http://goo.gl/maps/LYb9c">JC's Brasserie</a> in Gardens. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
   - day: Thursday, 18th April
     schedule:
       - time: 8:00 am - 9:00 am
@@ -414,7 +414,7 @@ programme:
     schedule:
       - time: 6:00 pm - 11:00 pm
         event: Party
-        description: RightShift are sponsoring the evening event, which will include pizza and drinks at a venue to be announced
+        description: KeyConnections are sponsoring the evening event, which will include pizza and drinks at <a href="http://goo.gl/maps/mtE2q">Forrester's Arms</a> in Newlands
   - day: Friday, 19th April
     schedule:
       - time: 8:30 am - 9:00 am
@@ -454,4 +454,4 @@ programme:
     schedule:
       - time: 6:00 pm - 11:00 pm
         event: Party
-        description: Closing party with pizza and beer provided, sponsored by KeyConnections
+        description: Closing party at <a href="http://goo.gl/maps/qWmJG">Banana Jam</a> in Kenilworth, with pizza and beer sponsored by RightShift
