@@ -202,26 +202,6 @@ speakers:
         David goes into detail on the challenges and learnings encountered
         along the way.
 
-  dietrich_featherston:
-    name: Dietrich Featherston
-    company: Boundary
-    role: Software Engineer
-    country: USA
-    quote: Dropped out of school to build an awesome analytics database which powers Boundary
-    twitter: d2fn
-    website: http://d2fn.com
-    bio: >
-        is an engineer who dropped out of grad school to
-        build the <a href='https://vimeo.com/42902962'>analytics database</a>
-        powering Boundary. He has spent the last 12 years of his career
-        focused on making complex information accessible to humans and
-        has written a handful of query languages in that time. When he
-        is not busy shipping code, it can be assumed that Dietrich is
-        hiding somewhere along the
-        <a href='http://en.wikipedia.org/wiki/Current_River_(Missouri)'>Current River</a>.
-    title: Insights into NoSQL at Boundary.com
-    abstract: Coming soon
-
   mike_jones:
     name: Mike Jones
     company: Western Cape Labs
@@ -297,18 +277,6 @@ speakers:
         product development fast and a billion people who use Facebook every
         month happy with the reliability and performance of the site.
 
-  ri_pienaar:
-    name: R.I. Pienaar
-    company: PuppetLabs
-    role: Senior Developer
-    country: UK
-    twitter: ripienaar
-    bio: >
-        coming soon
-    title: What DevOps isn't
-    abstract: >
-        Coming soon
-
   robert_stuttaford:
     name: Robert Stuttaford
     company: Cognician
@@ -364,9 +332,43 @@ speakers:
         of astronomy.
         </p>
 
-all_speakers: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, dietrich_featherston, mike_jones, miles_ward, neil_blakey_milner, ri_pienaar, robert_stuttaford, simon_ratcliffe ]
-highlighted: [ daniel_fiske, mike_jones, daniel_schauenberg, miles_ward, dietrich_featherston ]
-nonhighlighted: [ neil_blakey_milner, robert_stuttaford, david_tinker, beat_schwegler, dale_humby ]
+  patrick_turley:
+    name: Patrick Turley
+    company: ThoughtWorks
+    role: Lead Consultant and Software Developer
+    country: SA
+    bio: >
+        is a Lead Consultant and Software Developer from the ThoughtWorks
+        Johannesburg office. He focuses on helping IT organizations become
+        nimble and reactive in meeting their customers' needs through pragmatic
+        improvements to the way software is developed and taken into
+        production. Patrick has worked in 10+ programming languages
+        professionally with over a dozen different clients.  He specializes in
+        agile engineering practices and modern software development techniques.
+        Patrick has worked in many different statically typed languages, but
+        his current passion is with dynamically typed languages like Ruby and
+        Python.  In his spare time Patrick enjoys playing the drums and
+        harmonica.
+    title: A Mixed Tape for Scaling Software Testing
+    abstract: >
+        Patrick Turley, an ex radio DJ now software developer will take us
+        through the evolution of scaling testing on a software project as he
+        has seen it over dozens of enterprise software projects.  He will
+        discuss techniques and tools for different languages, all projected
+        through a mixed tape that he made for this conference.
+
+  peter_lockhart:
+    name: Peter Lockhart
+    company: 2go
+    role: Product Guy
+    country: SA
+    bio: coming soon
+    title: coming soon
+    abstract:
+
+all_speakers: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
+highlighted: [ daniel_fiske, mike_jones, daniel_schauenberg, miles_ward, dale_humby ]
+nonhighlighted: [ neil_blakey_milner, robert_stuttaford, david_tinker, beat_schwegler, david_tinker ]
 sponsors:
   gold:
     - name: 2go
@@ -425,7 +427,7 @@ programme:
         event: Break
         description: A quick changeover & pee-break
       - time: 4:15 pm - 5:00 pm
-        speaker: ri_pienaar
+        speaker: patrick_turley
   - day: Thursday evening, 18th April
     schedule:
       - time: 5:00 pm - 11:00 pm
@@ -436,22 +438,19 @@ programme:
       - time: 8:30 am - 9:00 am
         event: Arrival
         description: Tea and coffee will be served
-      - time: 9:00 am - 9:30 am
-        event: The state of scaling
-        description: A representative from 2go will talk briefly on where things are for scalability in Africa
-      - time: 9:30 am - 10:15 am
-        speaker: mike_jones
-      - time: 10:15 am - 10:25 am
+      - time: 9:15 am - 10:00 am
+        speaker: peter_lockhart
+      - time: 10:00 am - 10:10 am
         event: Break
         description: A quick changeover & pee-break
-      - time: 10:25 am - 11:10 am
-        speaker: dietrich_featherston
-      - time: 11:10 am - 11:40 am
+      - time: 10:10 am - 10:55 am
+        speaker: mike_jones
+      - time: 10:55 am - 11:25 am
         event: Break
         description: Mid-morning tea & coffee with scones and biscuits
-      - time: 11:40 am - 12:25 am
+      - time: 11:25 am - 12:10 am
         speaker: robert_stuttaford
-      - time: 12:30 am - 1:45 pm
+      - time: 12:15 am - 1:45 pm
         event: Lunch
         description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
       - time: 1:45 pm - 2:30 pm
