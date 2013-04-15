@@ -214,6 +214,10 @@ div.day-schedule table tbody td {
     padding: 10px;
 }
 
+div.day-schedule table tbody td b {
+    color: #2d2d2d;
+}
+
 div.day-schedule table th.time,
 div.day-schedule table tbody td.time{
     width: 150px;
