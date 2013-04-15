@@ -346,8 +346,23 @@ speakers:
         significant amount of his coding time trying to avoid writing C, and
         the rest of the time trying to use sys._getframe() in ways that annoy
         his colleagues.
-    title: Coming soon
-    abstract: Coming soon
+    title: Scale at the Square Kilometer Array
+    abstract: >
+        <p>
+        Astronomy is one of the most scale obsessed of all the sciences.
+        From our earliest attempts to understand the size of our planet through
+        solar observations, through to our current appreciation of the ultimate
+        scale of the universe, it constantly redefines our notion of "big".
+        </p>
+        <p>
+        This escalation in scale can also be seen in our observational
+        instruments, particularly in the field of radio astronomy. We are
+        entering an epoch of massive expansion in observational capacity, which
+        over the next 10 years we will see an 8 order of magnitude increase in
+        the data volume being generated. This talk will focus on these
+        instruments, their challenges, and what they will mean to the science
+        of astronomy.
+        </p>
 
 all_speakers: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, dietrich_featherston, mike_jones, miles_ward, neil_blakey_milner, ri_pienaar, robert_stuttaford, simon_ratcliffe ]
 highlighted: [ daniel_fiske, mike_jones, daniel_schauenberg, miles_ward, dietrich_featherston ]
