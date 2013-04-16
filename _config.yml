@@ -183,11 +183,11 @@ speakers:
   david_tinker:
     name: David Tinker
     company: BrandsEye
-    role: Lead Engineer
+    role: CTO
     country: SA
     twitter: david_tinker
     bio: >
-        is Lead Engineer at BrandsEye, the online brand monitoring
+        is CTO at BrandsEye, the online brand monitoring
         and analysis software. BrandsEye processes large volumes (3 million+) of
         tweets and other brand mentions every day, contextualising and annotating
         them with sentiment, credibility and so forth.
