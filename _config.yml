@@ -360,11 +360,26 @@ speakers:
   peter_lockhart:
     name: Peter Lockhart
     company: 2go
-    role: Product Guy
+    role: Product and Business Strategy
     country: SA
-    bio: coming soon
-    title: coming soon
-    abstract:
+    bio: >
+        is responsible for product strategy, business development and general
+        getting-things-done at 2go Interactive. His background is in the ISP
+        industry, networking, internet security and systems architecture. His
+        interests lie in producing excellent products and in growing great
+        companies.
+        </p>
+        <p>
+        Founded in 2008, 2go has grown to more than 10 million active users
+        across Africa, principally South Africa and Nigeria. As a mobile social
+        network with 30,000 new registrations each day, scaling is the
+        principle challenge of running 2go - both in terms of technology and
+        growing a self-funded startup.
+    title: Lessons learned from a successful African startup: scaling technology and people
+    abstract: >
+        Lessons learned while scaling one of Africa's largest social networks
+        without funding and with no sleep: what we've done well (and done
+        badly); what we've learnt and what we still need to learn.
 
 all_speakers: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
 highlighted: [ daniel_fiske, mike_jones, daniel_schauenberg, miles_ward, robert_stuttaford ]
