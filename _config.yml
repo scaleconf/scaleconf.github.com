@@ -90,6 +90,7 @@ speakers:
         <p>
         In his talk Dale discusses these challenges and reflects on solutions,
         lessons learned and future improvements.
+    slides: https://speakerdeck.com/dalehumby/scalability-and-hardware-at-nomanini
 
   daniel_fiske:
     name: Daniel Fiske
@@ -179,6 +180,7 @@ speakers:
         this talk you will understand exactly how we approach Continuous Deployment
         and Continuous Integration at Etsy and get insight into what went wrong along
         the way and how we fixed it.
+    slides: https://speakerdeck.com/mrtazz/scaling-deployment-at-etsy
 
   david_tinker:
     name: David Tinker
@@ -201,6 +203,7 @@ speakers:
         Grails, Java, etc.) to solve various real-world problems. In this talk
         David goes into detail on the challenges and learnings encountered
         along the way.
+    slides: http://www.slideshare.net/davidtinker/transitioning-your-architecture-to-scale
 
   mike_jones:
     name: Mike Jones
@@ -227,6 +230,7 @@ speakers:
         <a href="http://ontheway.co.za/">On The Way</a> (a service run by
         Western Cape Labs) went in six months from an idea to a thing you'd
         hopefully happily send your mum to.
+    slides: https://speakerdeck.com/imsickofmaps/scaleconf-2013-i-started-out-with-nothing-and-ive-still-got-most-of-it-left
 
   miles_ward:
     name: Miles Ward
@@ -301,6 +305,7 @@ speakers:
         a new database engine from the creator of Clojure, which solves many of the
         common data-handling concerns when scaling web applications, so that
         scaling is far more simple to reason about and accomplish.
+    slides: https://speakerdeck.com/robertstuttaford/cognicians-new-architecture-with-clojure-and-datomic
 
   simon_ratcliffe:
     name: Simon Ratcliffe

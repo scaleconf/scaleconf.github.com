@@ -35,6 +35,9 @@ layout: page
             <h4>Conference Talk</h4>
             <p>
                 <strong> {{ speaker.title }} </strong> <br/>
+                {% if speaker.slides != nil  %}
+                <a href="{{ speaker.slides }}">Slides</a> <br />
+                {% endif %}
                 {{ speaker.abstract }}
             </p>
         </div>
