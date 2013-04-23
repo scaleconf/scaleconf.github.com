@@ -32,12 +32,13 @@ layout: page
         <div id="speaker-bio">
             <h4>Bio</h4>
             <p><strong>{{ speaker.name }}</strong> {{ speaker.bio }} </p>
-            <h4>Conference Talk</h4>
+            <h4>Conference Talk
+                {% if speaker.slides != nil  %}
+                <a href="{{ speaker.slides }}"> - Slides</a> <br />
+                {% endif %}
+            </h4>
             <p>
                 <strong> {{ speaker.title }} </strong> <br/>
-                {% if speaker.slides != nil  %}
-                <a href="{{ speaker.slides }}">Slides</a> <br />
-                {% endif %}
                 {{ speaker.abstract }}
             </p>
         </div>
