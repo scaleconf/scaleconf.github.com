@@ -52,6 +52,8 @@ speakers:
         The Windows Azure architecture is based on scale-out and offers different
         scale-units to build large systems. In this session, we will discuss the
         capabilities for compute, distributed caching, storage and big data.
+    slides: http://www.slideshare.net/cloudbeatsch/scale-conf-2013-scaling-on-windows-azure
+
   dale_humby:
     name: Dale Humby
     company: Nomanini
