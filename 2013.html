@@ -1,0 +1,132 @@
+---
+layout: page
+name: 2013 Home
+---
+
+<div id="top-content">
+
+    <div id='twitter-share-button'>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://scaleconf.org" data-text="ScaleConf 2013 tickets are on sale!" data-via="scaleconf" data-size="large">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+
+    <h1>SCALECONF 2013:<span class="slogan"> BUILT TO SCALE</span></h1>
+
+    <div id="mission">
+        <p class='date-venue'>April 18-19 2013: Cape Town, South Africa. </p>
+        <p>Scaling code and architecture is a unique challenge that pushes us to our limits.</p>
+        <p>ScaleConf brings international and local experts together to talk about their experience building sites and services that can handle the rigours of today's internet. </p>
+    </div>
+
+    <div id="target-audience" class="extra-info">
+        <h2>Included in your ticket:</h2>
+        <ul>
+            <li>
+                <img src="/images/bullet.png" alt="">
+                <p class="inline">7 international speakers sharing unique experiences.</p>
+            </li>
+            <li>
+                <img src="/images/bullet.png" alt="">
+                <p class="inline">5 African speakers sharing local perspectives and solutions.</p>
+            </li>
+            <li>
+                <img src="/images/bullet.png" alt="">
+                <p class="inline">Lunch every day, and refreshments throughout the event.</p>
+            </li>
+            <li>
+                <img src="/images/bullet.png" alt="">
+                <p class="inline">Evening events to network and meet like-minded people.</p>
+            </li>
+            <li>
+                <img src="/images/bullet.png" alt="">
+                <p class="inline">Free workshops, and time to build and hack with new technologies and people.</p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div id="bottom-content">
+    <div id="location" class="extra-info">
+        <img src="/images/cape_town_istock.small.jpg" alt="Cape Town">
+        <a href="/venue"><h2>OUR LOCATION</h2></a>
+        <p>
+            <span class="bolder">CAPE TOWN, SOUTH AFRICA:</span>
+            Set against the scenic backdrop of Table Mountain, Cape Town has easy access to beaches, scenic hikes, winelands, and a buzzing culture.
+        </p>
+        <p>
+            The conference itself is being held at the Kirstenbosch Botanical Gardens, a beautiful and serene setting.
+        </p>
+
+        <div id='twitter-follow-us'>
+            <img src="/images/twitter_bird.png" alt="">
+            <p class='follow-us'>FOLLOW US</p>
+            <p class='handle'><a href='https://twitter.com/scaleconf' target=_blank>@scaleconf</a></p>
+        </div>
+    </div>
+
+    <div id="speakers">
+        <h2>OUR SPEAKERS </h2>
+        <p class='padded'>
+            With a mixture of African and international speakers, ScaleConf brings a diversity of experience and perspecitve to the stage. The speakers are engineers, and their aim is to share their experience, thoughts and war stories so that we may learn.
+        </p>
+
+        <ul>
+            {% for sp in site.highlighted %}
+            {% assign speaker = site.speakers[sp] %}
+            <li>
+                <a href="/speakers/{{ sp }}">
+                    <img src="/images/speakers/{{ sp }}.small.jpg" alt="{{ site.speakers[sp].name }}">
+                    <p>
+                        <span class="bolder">{{ speaker.name }}</span>
+                        <br>{{ speaker.company }}, {{ speaker.country }}<br>
+                        <span class="quote"> {{ speaker.quote }} </span>
+                    </p>
+                </a>
+            </li>
+        {% if forloop.index == 3 %}
+        </ul>
+        <ul>
+        {% endif %}
+            {% endfor %}
+            <li id="more-speakers">
+                <a class="textlink" href="/speakers">Check out all speakers &raquo; </a>
+                <div>
+                    {% for speaker in site.nonhighlighted %}
+                    <a href="/speakers/{{ speaker }}">
+                        <img src="/images/speakers/{{ speaker }}.small.jpg" alt="{{ site.speakers[speaker].name }}">
+                    </a>
+                    {% endfor %}
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+<div id="sponsors">
+    <ul>
+        {% for sponsor in site.sponsors.gold %}
+        <li>
+            <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" alt="">
+            </a>
+        </li>
+        {% endfor %}
+        {% for sponsor in site.sponsors.silver %}
+        <li>
+            <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" alt="">
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+    <ul>
+        {% for sponsor in site.sponsors.bronze %}
+        <li>
+            <a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">
+                <img src="/images/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}.small.png" alt="">
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
