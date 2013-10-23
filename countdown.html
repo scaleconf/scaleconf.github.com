@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Countdown</title>
+    </head>
+    <body>
+        <h1>Conference Countdown:</h1>
+        <p>Weeks to conference: <span id='weeks-to-conference'></span></p>
+        <p>Days to conference: <span id='days-to-conference'></span></p>
+
+        <script type='text/javascript'>
+            var conference_date = (new Date(2014, 4, 10)).getTime();
+            var days_to_conference = (conference_date - Date.now())  / (1000 * 60 * 60 * 24)
+            var weeks_to_conference = days_to_conference / 7;
+            document.getElementById('days-to-conference').innerText = Math.floor(days_to_conference).toString();
+            document.getElementById('weeks-to-conference').innerText = Math.floor(weeks_to_conference).toString();
+        </script>
+    </body>
+</html>
