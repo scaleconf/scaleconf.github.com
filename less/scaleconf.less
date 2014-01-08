@@ -1,0 +1,359 @@
+// New styles for scaleconf 2014
+
+// structure
+div.black
+{
+    color: @black;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+ul.scaleconf-heads li
+{
+    padding: 5px 0px 5px 35px;
+    vertical-align: middle;
+    line-height: 20px; 
+    background-image: url(../img/layout/bullet.png);
+    background-position: 0px;
+    background-repeat: no-repeat;
+}
+ul.scaleconf-heads
+{
+    margin-left: 13px;
+}
+div.padded
+{
+    padding-top: 60px;
+}
+div.padded-header
+{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.nav-justified {
+    margin-top: 20px;
+    background-color: @ScaleConfGreenBlue;
+    border-left: dashed 1px #59c9e1;
+    border-right: dashed 1px #59c9e1;
+    font-family: @font-family-sans-serif;
+}
+.nav-justified > li > a {
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: @white;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    border-left: dashed 1px #59c9e1;
+    background-color: @ScaleConfGreenBlue; /* Old browsers */
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+    background-color: @ScaleConfMenuSelected;
+    color: @ScaleConfFooterBlue;
+}
+.nav-justified > li:first-child > a {
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+}
+.nav>li>a:hover, .nav>li>a:focus
+{
+    background-color: transparent;
+    color: @ScaleConfFooterBlue;
+}
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-right: dashed 1px #59c9e1;
+    border-left: dashed 1px #59c9e1;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+div.footer .dl-horizontal dt
+{
+    width: 75px;
+}
+div.footer .dl-horizontal dd
+{
+    margin-left: 85px;
+    font-size: 11px;
+}
+
+div.footer a:link, div.footer a:hover, div.footer a:active, div.footer a:visited
+{
+    color: @white;
+}
+
+
+// ------------------------ content design & fonts
+a:link, a:hover, a:active, a:visited
+{
+    text-decoration: none;
+}
+body
+{
+    font-family: @font-family-serif;
+}
+h1
+{
+    font-family: @font-family-sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    color: #59c9e1;
+    margin: 40px 0px 15px 0px;
+}
+h1.caps-home
+{
+    text-transform: uppercase;
+    font-size: 37px;
+}
+.caps
+{
+    text-transform: uppercase;
+}
+span.text-color-greenblue
+{
+    color: @ScaleConfGreenBlue;
+}
+
+div.paragraph-home p
+{
+    font-size: 18px;
+}
+
+h2
+{
+    font-family: @font-family-sans-serif;
+    font-weight: normal;    
+    font-size: 20px;
+    color: @ScaleConfGreenBlue;
+    margin: 3px 0 13px 0;
+    line-height: 1em;
+}
+h2.thanks
+{
+    background-color: #f7941d;
+    color: @white;
+    padding: 8px;
+}
+h2.map
+{
+    background-color: @ScaleConfBackground;
+    color: @white;
+    padding: 8px;
+    margin-bottom: 0px;
+}
+h3
+{
+    font-family: @font-family-sans-serif;
+    font-weight: normal;
+    color: @ScaleConfFooterBlue;
+    margin: 0px 0px 7px 0px;
+    line-height: 36px;
+    font-size: 28px;
+}
+span.orange
+{
+    color: #f7941d;
+}
+span.gray
+{
+    color: @gray;
+}
+
+div.center-text .navbar-text
+{
+    text-align: center;
+    width: 97%;
+}
+
+h3.speaker
+{
+    font-family: @font-family-sans-serif;
+    font-weight: normal;
+    color: @ScaleConfFooterBlue;
+    margin: 0px 0px 3px 0px;
+    line-height: 22px;
+    font-size: 16px;
+}
+h3.speaker-detail
+{
+    font-family: @font-family-sans-serif;
+    font-weight: normal;
+    color: @ScaleConfFooterBlue;
+    margin: 25px 0px 10px 0px;
+    line-height: 22px;
+    font-size: 22px;
+}
+h4
+{
+    margin: 25px 0px 4px 0px;
+    font-family: geneva,sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: @ScaleConfGreenBlueHeading;
+    text-rendering: optimizelegibility;
+}
+ul.list-inline li.box
+{
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    vertical-align: top;
+    background-color: #f5f5f6;
+    padding: 15px;
+    width: 97%;
+    font-size: 14px;
+    font-family: @font-family-sans-serif;
+}
+ul.list-inline li.box:hover
+{
+    background-color: #dddddd;
+}
+ul.speakers-list li
+{
+    padding: 5px 0px 5px 0px;
+}
+h3.speaker-detail-heading
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+// ---------------------------------- layout coloring
+div.white-background
+{
+    background-color: @white;
+    padding: 0px 30px 20px 30px;
+}
+div.footer
+{
+    background-color: @ScaleConfFooterBlue;
+    padding: 10px 10px 10px 10px;
+    color: @ScaleConfGreenBlue;
+    font-size: 13px;
+}
+div.copyright
+{
+    background-color: @ScaleConfCopyrightBlue;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+div.right-column-nomargin
+{
+    background-color: @ScaleConfCopyrightBlue;
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
+}
+div.right-column
+{
+    background-color: @ScaleConfCopyrightBlue;
+    padding: 20px;
+    margin: 35px 0px 20px 0px;
+}
+div.right-column-nobg
+{
+    padding: 20px;
+    margin: 35px 0px 20px 0px;
+}
+
+div.left-column-nomargin
+{
+    background-color: @ScaleConfColumnGray;
+    padding: 0px 20px 20px 20px;
+    margin: 42px 0px 20px 0px;
+}
+
+div.thanks
+{
+    background-color: #f5f5f6;
+    padding: 0;
+    margin: 30px 7px 20px 0px;
+}
+div.map
+{
+    padding: 0px;
+    margin: 0px 7px 20px 0px;
+}
+
+div.organiser
+{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #999;
+}
+div.bio
+{
+    margin: 14px 0;
+}
+img.profile
+{
+    border: 3px solid @white;
+}
+p.twitter
+{
+    margin-top: 25px;
+}
+
+div.gutter-padding-left
+{
+    padding-left: 5px;
+}
+div.gutter-padding-right
+{
+    padding-right: 5px;
+}
+
+div.gray-background
+{
+    background-color: #f5f5f6;
+    padding: 20px 20px 20px 20px;
+}
+
+.pull-left-margin
+{
+    float: left;
+    margin-right: 5px;
+}
+
+div.padding-extra
+{
+    padding-bottom: 17px;
+}
+div.pull-right-margin
+{
+    padding-right: 30px;
+    float: right;
+}
+
+ul.padding-area li
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ul.padding-area
+{
+    margin: 20px 0px 20px 0px;
+}
