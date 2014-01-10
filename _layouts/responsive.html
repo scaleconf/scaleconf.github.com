@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ScaleConf -
+        {% if site.speakers[page.name] != nil %}
+            {{ site.speakers[page.name].name }}
+        {% else %}
+            {{ page.name }}
+        {% endif %}
+        </title>
+<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container center-text">
+                        <p class="navbar-text"><strong>Tickets will go on sale in early December 2013.</strong> <br />Keep an eye on @scaleconf for announcements.</p></div>
+    </div>
+    
+	<div class="container padded">
+    	<!-- logo -->
+    	<a "href=/index.html"><img src="/img/branding/logo.png" class="img-responsive" /></a>
+    	<!-- logo end -->
+        <div class="row">
+        <div class="masthead">
+            <ul class="nav nav-justified">
+              <li class="active"><a href="/index.html">Home</a></li>
+              <li><a href="/speaker.html">Speakers</a></li>
+              <li><a href="/schedule.html">Schedule</a></li>
+              <li><a href="/workshops.html">Workshops</a></li>
+              <li><a href="/venue.html">Venue</a></li>
+              <li><a href="/sponsors.html">Sponsors</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="/videos.html">Videos</a></li>
+            </ul>
+      	</div>
+        </div>
+        
+        {{ content }}
+    	
+        
+		<div class="row footer">
+        <div class="col-lg-2">
+            </div>
+			<div class="col-lg-2">
+			
+            <dl>
+            <dt>Contact us</dt>
+			<dd><a href="mailto:info@scaleconf.org">info@scaleconf.org</a></dd>
+			<dd><a href="mailto:payments@scaleconf.org">payments@scaleconf.org</a></dd>
+            </dl>
+            
+            </div>
+            <div class="col-lg-2">
+            
+            <dl>
+            <dt>Follow Us</dt>
+			<dd>Lanyrd | ScaleConf 2013</dd>
+			<dd>Twitter | @scaleconf</dd>
+            </dl>
+            
+            </div>
+            <div class="col-lg-2">
+            
+            <dl>
+            <dt>Github</dt>
+            <dd>Pull requests on <br />
+this site are welcome</dd>
+			</dl>
+            
+            </div>
+            <div class="col-lg-2">
+			
+                <dl class="dl-horizontal">
+  <dt><a href="http://www.siliconcape.com/" target="_blank"><img src="/img/partners/siliconcape-partner.png" /></a></dt>
+  <dd>Proudly part of the <a href="http://www.siliconcape.com/" target="_blank">
+           	Silicon Cape Initiative</a></dd>
+</dl>
+     </li>       
+ </ul>            
+           
+			</div>
+
+
+            
+
+            <div class="col-lg-2">
+            </div>
+            
+        </div>
+        <div class="row copyright">
+            <div class="col-lg-12">&copy; SCALECONF 2014</div>
+        </div>
+	</div>
+
+</body>
+</html>
