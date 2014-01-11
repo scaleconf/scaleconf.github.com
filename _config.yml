@@ -9,6 +9,8 @@ navigation:
   url: /schedule
 - text: Workshops
   url: /workshops
+- text: Tickets
+  url: /purchase
 - text: Venue
   url: /venue
 - text: Sponsors
