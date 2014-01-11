@@ -1,14 +1,16 @@
 /* TEAM - Email us at: info@scaleconf.org */
-	Jonathan Hitchcock    @vhata
-	Duncan Phillips       @nuknad
-	Vanessa Berger        @van_berger
+    Jonathan Hitchcock    @vhata
+    Duncan Phillips       @nuknad
+    Jennifer Poole        @fireenjn
+    Marije Pierson        @marijep
+    Mike Jones            @imsickofmaps    
 
 /* THANKS */
-	Jennifer Poole        @fireenjn
-	Shaun O'Connell       @ndorfin
-	Russell Cloran        @rcloran
-	Stefano Rivera        @stefanorivera
+    Shaun O'Connell       @ndorfin
+    Russell Cloran        @rcloran
+    Stefano Rivera        @stefanorivera
+    Vanessa Berger        @van_berger
 
 /* SITE */
-	Language:English
-	Doctype:HTML5
+    Language:English
+    Doctype:HTML5
