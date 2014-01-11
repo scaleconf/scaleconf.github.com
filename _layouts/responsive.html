@@ -27,14 +27,14 @@
         <div class="row">
         <div class="masthead">
             <ul class="nav nav-justified">
-              <li class="active"><a href="/index.html">Home</a></li>
-              <li><a href="/speaker.html">Speakers</a></li>
-              <li><a href="/schedule.html">Schedule</a></li>
-              <li><a href="/workshops.html">Workshops</a></li>
-              <li><a href="/venue.html">Venue</a></li>
-              <li><a href="/sponsors.html">Sponsors</a></li>
-              <li><a href="/about.html">About</a></li>
-              <li><a href="/videos.html">Videos</a></li>
+              {% for link in site.navigation %}
+                  {% assign current = 'inactive' %}
+                  {% if page.url == link.url %}
+                      {% assign current = 'active' %}
+                  {% endif %}
+              <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
+              {% endfor %}
+  
             </ul>
       	</div>
         </div>

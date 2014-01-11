@@ -1,6 +1,8 @@
 markdown: rdiscount
 pygments: true
 navigation:
+- text: Home
+  url: /
 - text: Speakers
   url: /speakers
 - text: Schedule
@@ -13,22 +15,9 @@ navigation:
   url: /sponsors
 - text: About
   url: /about
-2012navigation:
-- text:
-  url: /2012/
-- url: /2012/details
-  text: Details
-- url: /2012/speakers
-  text: Speakers
-- url: /2012/schedule
-  text: Schedule
-- url: /2012/sponsors
-  text: Sponsors
-- url: /2012/location
-  text: Location
-- url: /2012/feedback-form
-  text: Feedback
-speakers:
+- text: Videos
+  url: /videos
+speakers_archive:
   beat_schwegler:
     name: Beat Schwegler
     company: Microsoft
