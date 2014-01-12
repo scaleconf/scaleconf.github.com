@@ -379,6 +379,7 @@ speakers_archive:
         without funding and with no sleep: what we've done well (and done
         badly); what we've learnt and what we still need to learn.
 
+
 all_speakers: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
 highlighted: [ daniel_fiske, mike_jones, daniel_schauenberg, miles_ward, robert_stuttaford ]
 nonhighlighted: [ neil_blakey_milner, david_tinker, beat_schwegler, patrick_turley, dale_humby ]
@@ -401,12 +402,12 @@ sponsors:
     - name: Github
     - name: Key Connections
 programme:
-  - day: Wednesday Evening, 17th April
+  - day: Wednesday Evening, 9th April
     schedule:
       - time: 6:00 pm - 11:00 pm
         event: Pre-conference drinks
-        description: The opening event will be sponsored by GitHub, at <a href="http://goo.gl/maps/LYb9c">JC's Brasserie</a> in Gardens. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
-  - day: Thursday, 18th April
+        description: The opening event will be a sponsored drinks event in the city. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
+  - day: Thursday, 10th April
     schedule:
       - time: 8:00 am - 9:00 am
         event: Registration
@@ -415,74 +416,73 @@ programme:
         event: Opening
         description: A quick welcome and introduction to the conference before we get going
       - time: 9:30 am - 10:15 am
-        speaker: daniel_schauenberg
+        speaker: tbc
       - time: 10:15 am - 10:25 am
         event: Break
         description: A quick changeover & pee-break
       - time: 10:25 am - 11:10 am
-        speaker: dale_humby
+        speaker: tbc
       - time: 11:10 am - 11:40 am
         event: Break
         description: Mid-morning tea & coffee with scones and biscuits
       - time: 11:40 am - 12:25 am
-        speaker: daniel_fiske
+        speaker: tbc
       - time: 12:30 am - 2:00 pm
         event: Lunch
         description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
       - time: 2:00 pm - 2:45 pm
-        speaker: neil_blakey_milner
+        speaker: tbc
       - time: 2:45 pm - 3:15 pm
         event: Break
         description: Afternoon tea & coffee with biscuits
       - time: 3:15 pm - 4:00 pm
-        speaker: beat_schwegler
+        speaker: tbc
       - time: 4:00 pm - 4:15 pm
         event: Break
         description: A quick changeover & pee-break
       - time: 4:15 pm - 5:00 pm
-        speaker: patrick_turley
-  - day: Thursday evening, 18th April
+        speaker: tbc
+  - day: Thursday evening, 11th April
     schedule:
       - time: 5:00 pm - 11:00 pm
         event: Party
-        description: KeyConnections are sponsoring the evening event, which will include pizza and drinks at <a href="http://goo.gl/maps/mtE2q">Forrester's Arms</a> in Newlands
-  - day: Friday, 19th April
+        description: A sponsored evening event, which will include food and drinks at a local eatery
+  - day: Friday, 12th April
     schedule:
       - time: 8:30 am - 9:00 am
         event: Arrival
         description: Tea and coffee will be served
       - time: 9:15 am - 10:00 am
-        speaker: peter_lockhart
+        speaker: tbc
       - time: 10:00 am - 10:10 am
         event: Break
         description: A quick changeover & pee-break
       - time: 10:10 am - 10:55 am
-        speaker: mike_jones
+        speaker: tbc
       - time: 10:55 am - 11:25 am
         event: Break
         description: Mid-morning tea & coffee with scones and biscuits
       - time: 11:25 am - 12:10 am
-        speaker: robert_stuttaford
+        speaker: tbc
       - time: 12:15 am - 1:45 pm
         event: Lunch
         description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
       - time: 1:45 pm - 2:30 pm
-        speaker: david_tinker
+        speaker: tbc
       - time: 2:30 pm - 3:00 pm
         event: Break
         description: Afternoon tea & coffee with biscuits
       - time: 3:00 pm - 3:45 pm
-        speaker: miles_ward
+        speaker: tbc
       - time: 3:45 pm - 4:00 pm
         event: Break
         description: A quick changeover & pee-break
       - time: 4:00 pm - 4:45 pm
-        speaker: simon_ratcliffe
+        speaker: tbc
   - day: Friday evening, 19th April
     schedule:
       - time: 5:00 pm - 11:00 pm
         event: Party
         description: >
-            Closing party at <a href="http://goo.gl/maps/Ob5UK">Trenchtown</a>
-            in Observatory, with pizza and beer sponsored by RightShift.  
+            Closing party, with food and beer sponsored.  
 

@@ -1,17 +1,18 @@
 ---
-layout: page
+layout: responsive
 name: Schedule
 ---
 
-<div id="schedule-page">
-    <div id="page-heading">
+<div class="row white-background">
+    <div class="col-md-12">
         <h1>Conference Schedule</h1>
     </div>
-
-    <div id="intro-schedule">
-        <p><b>This is a provisional schedule and may change as we finalise things.</b> </p>
+</div>
+<div class="row white-background">
+    <div class="col-xs-12 col-md-12">
+        <p><strong>This is a limited provisional schedule to give you an understanding of the way days will flow. It is subject to change and will be updated as soon as speakers are confirmed.</strong></p>
         <p>If you're looking for the workshop schedule, please see the <a href='/workshops'>workshops schedule</a>.</p>
-        <p>
+        <!-- <p>
         The schedule is available as a Google Calendar in the following formats:
         <a href="http://www.google.com/calendar/feeds/scaleconf.org_hfo4nf8f0o2e736iebc7d3o344%40group.calendar.google.com/public/basic">
             <img src="https://www.google.com/calendar/images/xml.gif" alt="XML" title="XML" />
@@ -22,46 +23,54 @@ name: Schedule
         <a href="http://www.google.com/calendar/embed?src=scaleconf.org_hfo4nf8f0o2e736iebc7d3o344%40group.calendar.google.com&ctz=Africa/Johannesburg">
             <img src="https://www.google.com/calendar/images/html.gif" alt="HTML" title="HTML" />
         </a>
-        </p>
-    </div>
+        </p> -->
 
-    <div class='day-schedule'>
+
 
         {% for day in site.programme %}
 
         <h2>{{ day.day | upcase }}</h2>
 
-        <table>
-            <tbody>
+        <table class="table table-bordered">
+            <thead>
                 <tr>
-                    <th class="time">TIME</th>
-                    <th class="event">EVENT</th>
-                    <th class="descr">DESCRIPTION</th>
+                    <th style="width:15%">TIME</th>
+                    <th style="width:15%">EVENT</th>
+                    <th style="width:70%">DESCRIPTION</th>
                 </tr>
-
+            </thead>
+            <tbody>
                 {% for event in day.schedule %}
                 {% if event.speaker != nil %}
                 <tr class='speaker'>
-                    <td class="time">{{ event.time | upcase }}</td>
-                    <td class="event">
-                        <img src="/images/bullet-schedule.png" />
+                    <td style="width:15%">{{ event.time | upcase }}</td>
+                    <td style="width:15%">
+                        <img src="/img/layout/bullet.png" />
                         <span class="speaker">
+                            {% if event.speaker != 'tbc' %}
                             <a href="/speakers/{{ event.speaker }}">
                                 {{ site.speakers[event.speaker].name }}
                             </a>
+                            {% else %}
+                            TBC
+                            {% endif %}
                         </span>
                     </td>
-                    <td class="descr">
-                        {{ site.speakers[event.speaker].title }}
+                    <td style="width:70%">
+                        {% if event.speaker != 'tbc' %}
+                            {{ site.speakers[event.speaker].title }}
+                        {% else %}
+                            Coming soon...
+                        {% endif %}
                     </td>
                 </tr>
                 {% else %}
                 <tr>
-                    <td class="time">{{ event.time | upcase }}</td>
-                    <td class="event">
+                    <td style="width:15%">{{ event.time | upcase }}</td>
+                    <td style="width:15%">
                         {{ event.event }}
                     </td>
-                    <td class="descr">
+                    <td style="width:70%">
                         {{ event.description }}
                     </td>
                 </tr>
