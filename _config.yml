@@ -19,7 +19,7 @@ navigation:
   url: /about
 - text: Videos
   url: /videos
-speakers_archive:
+speakers:
   beat_schwegler:
     name: Beat Schwegler
     company: Microsoft
@@ -380,9 +380,10 @@ speakers_archive:
         badly); what we've learnt and what we still need to learn.
 
 
-all_speakers: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
-highlighted: [ daniel_fiske, mike_jones, daniel_schauenberg, miles_ward, robert_stuttaford ]
-nonhighlighted: [ neil_blakey_milner, david_tinker, beat_schwegler, patrick_turley, dale_humby ]
+all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
+all_speakers: [  ]
+highlighted: [  ]
+nonhighlighted: [  ]
 sponsors:
   gold:
     - name: 2go
