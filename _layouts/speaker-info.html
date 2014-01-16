@@ -1,20 +1,25 @@
 ---
-layout: page
+layout: responsive
 ---
-<div id="speaker-info">
-    <div id="left-column">
-        <h1 class='sponsor-level'>Speakers</h1>
+{% assign speaker = site.speakers[page.name] %}
+<div class="row white-background">
+    <div class="col-md-12">
+        <h1>Speaker - {{ speaker.name }}</h1>
+    </div>
+</div>
+<div class="row white-background">
+    <div class="col-xs-12 col-md-12">
 
-        <ul id="speaker-list">
+
+       <!--  <ul id="speaker-list">
             {% for speaker in site.all_speakers %}
             <li><a href="/speakers/{{ speaker }}">{{ site.speakers[speaker].name }}</a></li>
             {% endfor %}
-        </ul>
-    </div>
-    {% assign speaker = site.speakers[page.name] %}
-    <div id="right-column">
+        </ul> -->
+    
+
         <div id="pic">
-            <img class="profile" src="/images/speakers/{{ page.name }}.large.jpg" alt="{{ speaker.name }}"/>
+            <img class="profile" src="/img/speakers/{{ page.name }}.large.jpg" alt="{{ speaker.name }}"/>
         </div>
 
         <p id="speaker-details">
