@@ -6,19 +6,19 @@ navigation:
 - text: Speakers
   url: /speakers
 - text: Schedule
-  url: /schedule.html
+  url: /schedule
 - text: Workshops
-  url: /workshops.html
+  url: /workshops
 - text: Tickets
-  url: /purchase.html
+  url: /purchase
 - text: Venue
-  url: /venue.html
+  url: /venue
 - text: Sponsors
   url: /sponsors
 - text: About
-  url: /about.html
+  url: /about
 - text: Videos
-  url: /videos.html
+  url: /videos
 speakers:
   beat_schwegler:
     name: Beat Schwegler
