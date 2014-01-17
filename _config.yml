@@ -44,6 +44,7 @@ speakers:
         scale-units to build large systems. In this session, we will discuss the
         capabilities for compute, distributed caching, storage and big data.
     slides: http://www.slideshare.net/cloudbeatsch/scale-conf-2013-scaling-on-windows-azure
+    video: hnH9sTRWcR8
 
   dale_humby:
     name: Dale Humby
@@ -84,6 +85,7 @@ speakers:
         In his talk Dale discusses these challenges and reflects on solutions,
         lessons learned and future improvements.
     slides: https://speakerdeck.com/dalehumby/scalability-and-hardware-at-nomanini
+    video: wmMofn2dKhA
 
   daniel_fiske:
     name: Daniel Fiske
@@ -113,6 +115,7 @@ speakers:
         scaling a modern business and high-volume platform and is as much an
         enlightening tale of getting things right as a cautionary tale of what not
         to do.
+    video: -iH1YZ27qE0
 
   daniel_schauenberg:
     name: Daniel Schauenberg
@@ -174,6 +177,7 @@ speakers:
         and Continuous Integration at Etsy and get insight into what went wrong along
         the way and how we fixed it.
     slides: https://speakerdeck.com/mrtazz/scaling-deployment-at-etsy
+    video: AwOG65UGAH4
 
   david_tinker:
     name: David Tinker
@@ -197,6 +201,7 @@ speakers:
         David goes into detail on the challenges and learnings encountered
         along the way.
     slides: http://www.slideshare.net/davidtinker/transitioning-your-architecture-to-scale
+    video: A4cPkKW74pk
 
   mike_jones:
     name: Mike Jones
@@ -224,6 +229,7 @@ speakers:
         Western Cape Labs) went in six months from an idea to a thing you'd
         hopefully happily send your mum to.
     slides: https://speakerdeck.com/imsickofmaps/scaleconf-2013-i-started-out-with-nothing-and-ive-still-got-most-of-it-left
+    video: gVpxSTSPwfM
 
   miles_ward:
     name: Miles Ward
@@ -255,6 +261,7 @@ speakers:
         DynamoDB tables; replicating 27TB across the continent; 60+ terabit/s of
         live-streamed video; over a billion dollars in processed donations;
         hundreds of instances, 528,000 IOPS, oh my!
+    video: hR-oiZqJ88M
 
   neil_blakey_milner:
     name: Neil Blakey-Milner
@@ -299,6 +306,7 @@ speakers:
         common data-handling concerns when scaling web applications, so that
         scaling is far more simple to reason about and accomplish.
     slides: https://speakerdeck.com/robertstuttaford/cognicians-new-architecture-with-clojure-and-datomic
+    video: KlDJy3yXVsc
 
   simon_ratcliffe:
     name: Simon Ratcliffe
@@ -329,6 +337,7 @@ speakers:
         instruments, their challenges, and what they will mean to the science
         of astronomy.
         </p>
+    video: -aSe5HMCo6A
 
   patrick_turley:
     name: Patrick Turley
@@ -354,6 +363,7 @@ speakers:
         has seen it over dozens of enterprise software projects.  He will
         discuss techniques and tools for different languages, all projected
         through a mixed tape that he made for this conference.
+    video: tFWF2dSrF5w
 
   peter_lockhart:
     name: Peter Lockhart
@@ -378,6 +388,7 @@ speakers:
         Lessons learned while scaling one of Africa's largest social networks
         without funding and with no sleep: what we've done well (and done
         badly); what we've learnt and what we still need to learn.
+    video: oNSfK0jDU3w
 
 
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]

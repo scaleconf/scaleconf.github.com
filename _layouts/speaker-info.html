@@ -39,13 +39,16 @@ layout: responsive
             <p><strong>{{ speaker.name }}</strong> {{ speaker.bio }} </p>
             <h4>Conference Talk
                 {% if speaker.slides != nil  %}
-                <a href="{{ speaker.slides }}"> - Slides</a> <br />
+                <a href="{{ speaker.slides }}"> - Slides</a>
                 {% endif %}
             </h4>
             <p>
                 <strong> {{ speaker.title }} </strong> <br/>
                 {{ speaker.abstract }}
             </p>
+            {% if speaker.video != nil  %}
+                <iframe width="560" height="315" src="//www.youtube.com/embed/{{ speaker.video }}" frameborder="0" allowfullscreen></iframe>
+                {% endif %}
         </div>
 
     </div>
