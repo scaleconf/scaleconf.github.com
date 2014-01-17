@@ -1,33 +1,24 @@
 markdown: rdiscount
 pygments: true
 navigation:
+- text: Home
+  url: /
 - text: Speakers
   url: /speakers
 - text: Schedule
   url: /schedule
 - text: Workshops
   url: /workshops
+- text: Tickets
+  url: /purchase
 - text: Venue
   url: /venue
 - text: Sponsors
   url: /sponsors
 - text: About
   url: /about
-2012navigation:
-- text:
-  url: /2012/
-- url: /2012/details
-  text: Details
-- url: /2012/speakers
-  text: Speakers
-- url: /2012/schedule
-  text: Schedule
-- url: /2012/sponsors
-  text: Sponsors
-- url: /2012/location
-  text: Location
-- url: /2012/feedback-form
-  text: Feedback
+- text: Videos
+  url: /videos
 speakers:
   beat_schwegler:
     name: Beat Schwegler
@@ -53,6 +44,7 @@ speakers:
         scale-units to build large systems. In this session, we will discuss the
         capabilities for compute, distributed caching, storage and big data.
     slides: http://www.slideshare.net/cloudbeatsch/scale-conf-2013-scaling-on-windows-azure
+    video: hnH9sTRWcR8
 
   dale_humby:
     name: Dale Humby
@@ -93,6 +85,7 @@ speakers:
         In his talk Dale discusses these challenges and reflects on solutions,
         lessons learned and future improvements.
     slides: https://speakerdeck.com/dalehumby/scalability-and-hardware-at-nomanini
+    video: wmMofn2dKhA
 
   daniel_fiske:
     name: Daniel Fiske
@@ -122,6 +115,7 @@ speakers:
         scaling a modern business and high-volume platform and is as much an
         enlightening tale of getting things right as a cautionary tale of what not
         to do.
+    video: -iH1YZ27qE0
 
   daniel_schauenberg:
     name: Daniel Schauenberg
@@ -183,6 +177,7 @@ speakers:
         and Continuous Integration at Etsy and get insight into what went wrong along
         the way and how we fixed it.
     slides: https://speakerdeck.com/mrtazz/scaling-deployment-at-etsy
+    video: AwOG65UGAH4
 
   david_tinker:
     name: David Tinker
@@ -206,6 +201,7 @@ speakers:
         David goes into detail on the challenges and learnings encountered
         along the way.
     slides: http://www.slideshare.net/davidtinker/transitioning-your-architecture-to-scale
+    video: A4cPkKW74pk
 
   mike_jones:
     name: Mike Jones
@@ -233,6 +229,7 @@ speakers:
         Western Cape Labs) went in six months from an idea to a thing you'd
         hopefully happily send your mum to.
     slides: https://speakerdeck.com/imsickofmaps/scaleconf-2013-i-started-out-with-nothing-and-ive-still-got-most-of-it-left
+    video: gVpxSTSPwfM
 
   miles_ward:
     name: Miles Ward
@@ -264,6 +261,7 @@ speakers:
         DynamoDB tables; replicating 27TB across the continent; 60+ terabit/s of
         live-streamed video; over a billion dollars in processed donations;
         hundreds of instances, 528,000 IOPS, oh my!
+    video: hR-oiZqJ88M
 
   neil_blakey_milner:
     name: Neil Blakey-Milner
@@ -308,6 +306,7 @@ speakers:
         common data-handling concerns when scaling web applications, so that
         scaling is far more simple to reason about and accomplish.
     slides: https://speakerdeck.com/robertstuttaford/cognicians-new-architecture-with-clojure-and-datomic
+    video: KlDJy3yXVsc
 
   simon_ratcliffe:
     name: Simon Ratcliffe
@@ -338,6 +337,7 @@ speakers:
         instruments, their challenges, and what they will mean to the science
         of astronomy.
         </p>
+    video: -aSe5HMCo6A
 
   patrick_turley:
     name: Patrick Turley
@@ -363,6 +363,7 @@ speakers:
         has seen it over dozens of enterprise software projects.  He will
         discuss techniques and tools for different languages, all projected
         through a mixed tape that he made for this conference.
+    video: tFWF2dSrF5w
 
   peter_lockhart:
     name: Peter Lockhart
@@ -387,10 +388,13 @@ speakers:
         Lessons learned while scaling one of Africa's largest social networks
         without funding and with no sleep: what we've done well (and done
         badly); what we've learnt and what we still need to learn.
+    video: oNSfK0jDU3w
 
-all_speakers: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
-highlighted: [ daniel_fiske, mike_jones, daniel_schauenberg, miles_ward, robert_stuttaford ]
-nonhighlighted: [ neil_blakey_milner, david_tinker, beat_schwegler, patrick_turley, dale_humby ]
+
+all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
+all_speakers: [  ]
+highlighted: [  ]
+nonhighlighted: [  ]
 sponsors:
   gold:
     - name: 2go
@@ -410,12 +414,12 @@ sponsors:
     - name: Github
     - name: Key Connections
 programme:
-  - day: Wednesday Evening, 17th April
+  - day: Wednesday Evening, 9th April
     schedule:
       - time: 6:00 pm - 11:00 pm
         event: Pre-conference drinks
-        description: The opening event will be sponsored by GitHub, at <a href="http://goo.gl/maps/LYb9c">JC's Brasserie</a> in Gardens. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
-  - day: Thursday, 18th April
+        description: The opening event will be a sponsored drinks event in the city. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
+  - day: Thursday, 10th April
     schedule:
       - time: 8:00 am - 9:00 am
         event: Registration
@@ -424,74 +428,73 @@ programme:
         event: Opening
         description: A quick welcome and introduction to the conference before we get going
       - time: 9:30 am - 10:15 am
-        speaker: daniel_schauenberg
+        speaker: tbc
       - time: 10:15 am - 10:25 am
         event: Break
         description: A quick changeover & pee-break
       - time: 10:25 am - 11:10 am
-        speaker: dale_humby
+        speaker: tbc
       - time: 11:10 am - 11:40 am
         event: Break
         description: Mid-morning tea & coffee with scones and biscuits
       - time: 11:40 am - 12:25 am
-        speaker: daniel_fiske
+        speaker: tbc
       - time: 12:30 am - 2:00 pm
         event: Lunch
         description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
       - time: 2:00 pm - 2:45 pm
-        speaker: neil_blakey_milner
+        speaker: tbc
       - time: 2:45 pm - 3:15 pm
         event: Break
         description: Afternoon tea & coffee with biscuits
       - time: 3:15 pm - 4:00 pm
-        speaker: beat_schwegler
+        speaker: tbc
       - time: 4:00 pm - 4:15 pm
         event: Break
         description: A quick changeover & pee-break
       - time: 4:15 pm - 5:00 pm
-        speaker: patrick_turley
-  - day: Thursday evening, 18th April
+        speaker: tbc
+  - day: Thursday evening, 11th April
     schedule:
       - time: 5:00 pm - 11:00 pm
         event: Party
-        description: KeyConnections are sponsoring the evening event, which will include pizza and drinks at <a href="http://goo.gl/maps/mtE2q">Forrester's Arms</a> in Newlands
-  - day: Friday, 19th April
+        description: A sponsored evening event, which will include food and drinks at a local eatery
+  - day: Friday, 12th April
     schedule:
       - time: 8:30 am - 9:00 am
         event: Arrival
         description: Tea and coffee will be served
       - time: 9:15 am - 10:00 am
-        speaker: peter_lockhart
+        speaker: tbc
       - time: 10:00 am - 10:10 am
         event: Break
         description: A quick changeover & pee-break
       - time: 10:10 am - 10:55 am
-        speaker: mike_jones
+        speaker: tbc
       - time: 10:55 am - 11:25 am
         event: Break
         description: Mid-morning tea & coffee with scones and biscuits
       - time: 11:25 am - 12:10 am
-        speaker: robert_stuttaford
+        speaker: tbc
       - time: 12:15 am - 1:45 pm
         event: Lunch
         description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
       - time: 1:45 pm - 2:30 pm
-        speaker: david_tinker
+        speaker: tbc
       - time: 2:30 pm - 3:00 pm
         event: Break
         description: Afternoon tea & coffee with biscuits
       - time: 3:00 pm - 3:45 pm
-        speaker: miles_ward
+        speaker: tbc
       - time: 3:45 pm - 4:00 pm
         event: Break
         description: A quick changeover & pee-break
       - time: 4:00 pm - 4:45 pm
-        speaker: simon_ratcliffe
+        speaker: tbc
   - day: Friday evening, 19th April
     schedule:
       - time: 5:00 pm - 11:00 pm
         event: Party
         description: >
-            Closing party at <a href="http://goo.gl/maps/Ob5UK">Trenchtown</a>
-            in Observatory, with pizza and beer sponsored by RightShift.  
+            Closing party, with food and beer sponsored.  
 
