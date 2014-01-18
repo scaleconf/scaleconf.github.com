@@ -1,29 +1,26 @@
 ---
 layout: responsive
-name: Speakers
+name: Video Archive
 ---
 
 <div class="row white-background">
     <div class="col-md-12">
-        <h1>Speakers:</h1>
+        <h1>Videos</h1>
     </div>
 </div>
 <div class="row white-background">
-    <div class="col-md-12">
+    <div class="col-xs-12 col-md-12">
         <p>
-            We are currently accepting proposals for talks. If you would like to give a presentation, please submit your proposal using <a href="https://docs.google.com/forms/d/1gdB_3A7t7pdqYHXob46_4svGnLsphJHJfAsqM81dcXM/viewform?embedded=true">this form</a>. The presentation slots will be 45 minutes long, including questions. More information on submitting a talk is found <a href="/speak">here</a>.
-        </p>
-
-        <p>
-            Previous speakers with videos and slides can be found <a href="/videos">here</a>.
-        </p>
+            Now preparing for its third year, ScaleConf has been fortunate to have some great speakers
+            deliver awesome talks. 
+        </p>  
     </div>
 </div>
 
 <div class="row white-background">
     <div class="col-xs-12 col-md-4">
         <ul class="list-inline">
-            {% for speaker in site.all_speakers %}
+            {% for speaker in site.all_speakers_archive %}
             <li class="box">
                 <a href="/speakers/{{ speaker }}">
                 <div class="row">
