@@ -454,12 +454,12 @@ programme:
         description: A quick changeover & pee-break
       - time: 4:15 pm - 5:00 pm
         speaker: tbc
-  - day: Thursday evening, 11th April
+  - day: Thursday evening, 10th April
     schedule:
       - time: 5:00 pm - 11:00 pm
         event: Party
         description: A sponsored evening event, which will include food and drinks at a local eatery
-  - day: Friday, 12th April
+  - day: Friday, 11th April
     schedule:
       - time: 8:30 am - 9:00 am
         event: Arrival
@@ -491,7 +491,7 @@ programme:
         description: A quick changeover & pee-break
       - time: 4:00 pm - 4:45 pm
         speaker: tbc
-  - day: Friday evening, 19th April
+  - day: Friday evening, 11th April
     schedule:
       - time: 5:00 pm - 11:00 pm
         event: Party
