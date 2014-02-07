@@ -20,6 +20,18 @@ navigation:
 - text: Videos
   url: /videos
 speakers:
+  aslam_khan:
+    bio: >
+        is an African software developer, by birth, by choice
+        and for life.  He believes that all of software is just design and values code
+        as an expression of design. The same goes for architecture too - it''s all design.
+        The one thing he has learnt, though, is that design is hard, very, very hard,
+        because achieving a harmonious balance is difficult.  The same with scalability
+        - it throws us into extreme states, way off balance.  That is the challenge
+        - finding a new equilibrium.  You can read his blog at http://f3yourmind.net
+    company: Still Point Software
+    name: Aslam Khan
+
   beat_schwegler:
     name: Beat Schwegler
     company: Microsoft
@@ -45,6 +57,35 @@ speakers:
         capabilities for compute, distributed caching, storage and big data.
     slides: http://www.slideshare.net/cloudbeatsch/scale-conf-2013-scaling-on-windows-azure
     video: hnH9sTRWcR8
+
+  beat_schwegler_2014:
+    bio: >
+        is part of Microsoft's technical evangelism and development
+        team (ted), where he architects, designs, codes and delivers leading edge
+        apps and services to showcase the Microsoft platform, with a special
+        focus on cloud. He started to focus on cloud computing in 2008 and just loves
+        the opportunities it provides to businesses of all sizes.  Before joining
+        Microsoft, he was an independent architect and developer and was involved
+        in a wide variety of projects, ranging from real-time building control systems,
+        best-selling shrink-wrapped products to large scale CRM and ERP systems.
+    twitter: cloudbeatsch
+    company: Microsoft
+    name: Beat Schwegler
+    title: Scaling push notifications to millions of devices
+
+  chris_bray: {bio: '', company: Facebook, name: Chris Bray, role: 'Production Engineer', title: ''}
+  
+  clinton_gormley:
+    bio: >
+        was the first user of Elasticsearch and wrote the Perl
+        API back in 2010. When Elasticsearch formed a company in 2012, he joined as a
+        consultant and the maintainer of the Perl modules. Now Clinton spends a lot of his time
+        designing the user interfaces and writing about Elasticsearch, and is currently
+        working on a book about it with O'Reilly Publishers. He studied medicine at
+        UCT in Cape Town and now lives in Barcelona.
+    company: Elasticsearch
+    name: Clinton Gormley
+    title: Scaling real time search and analytics with Elasticsearch
 
   dale_humby:
     name: Dale Humby
@@ -86,6 +127,18 @@ speakers:
         lessons learned and future improvements.
     slides: https://speakerdeck.com/dalehumby/scalability-and-hardware-at-nomanini
     video: wmMofn2dKhA
+
+  deon_moolman: 
+    bio: >
+        is a senior software developer at Yuppiechef.co.za, the
+        leading e-commerce store in South Africa. He is a technology enthusiast, loves
+        programming concepts and languages and has spent 14 years in development on
+        websites, mobile applications, payment switches, warehouse systems, desktop
+        software and development tooling. Occasionally spotted with an Arduino in the
+        one hand and soldering iron in the other.
+    company: Yuppie Chef
+    name: Deon Moolman
+    title: On a scale of one
 
   daniel_fiske:
     name: Daniel Fiske
@@ -281,6 +334,16 @@ speakers:
         product development fast and a billion people who use Facebook every
         month happy with the reliability and performance of the site.
 
+  niklas_gustavsson:
+    bio: >
+        is a backend engineer at Spotify, open
+        source hacker, mountain biker and father of two awesome kids. At Spotify, he
+        mostly works on the audio pipeline. Niklas keeps a badly updated blog at http://protocol7.com
+    company: Spotify
+    name: Niklas Gustavsson
+    title: Optimizing playback at Spotify
+    twitter: protocol7
+
   robert_stuttaford:
     name: Robert Stuttaford
     company: Cognician
@@ -392,7 +455,7 @@ speakers:
 
 
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
-all_speakers: [  ]
+all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014 ]
 highlighted: [  ]
 nonhighlighted: [  ]
 sponsors:
