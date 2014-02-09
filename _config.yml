@@ -485,8 +485,8 @@ speakers:
 
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
 all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014 ]
-highlighted: [  ]
-nonhighlighted: [  ]
+highlighted: [ niklas_gustavsson, deon_moolman ]
+nonhighlighted: [ aslam_khan, chris_bray, clinton_gormley, beat_schwegler_2014 ]
 sponsors:
   gold:
     - name: 2go

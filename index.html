@@ -65,29 +65,28 @@ name: Home
                     <h2>SPEAK AT SCALECONF</h2>
                      
                     <p>We are currently accepting proposals for talks. If you would like to give a presentation, please submit your proposal using this form. The presentation slots will be 45 minutes long, including questions. <a href="/speak">More information on submitting a talk</a>.</p>
-                    <br><br>
-                    <h2>PREVIOUS HIGHLIGHTS</h2>
-                    With a mixture of African and international speakers, the previous conferences have brought a diversity of experience and perspective to the stage. Meet the engineers who've shared their war stories.
-                     <br><br>
-                     
+                    <br>
+                    <h2>HIGHLIGHTS</h2>
+                    <p>With a mixture of African and international speakers, we're bringing a diversity of experience and perspective to the stage. Meet the engineers who will share their war stories.</p>
                     <div class="row padding-extra">
-                        <a href="/speakers/daniel_schauenberg">
+                    {% for speaker in site.highlighted %}
+                        <a href="/speakers/{{ speaker }}">
                             <div class="col-xs-6 col-md-6">
-                                <img src="/img/speakers/daniel_schauenberg.small.jpg" class="img-responsive profile pull-left-margin"><strong>Daniel Schauenberg</strong><br />
-                                Etsy, USA<br />
-                                Automation, documentation and simplicity are his usual tools
+                                <img src="/img/speakers/{{ speaker }}.small.jpg" class="img-responsive profile pull-left-margin"><strong>{{ site.speakers[speaker].name }} </strong><br />
+                                {{ site.speakers[speaker].company }}<br />
+                                {{ site.speakers[speaker].title }}
                             </div>
                         </a>
-                        <a href="/speakers/dale_humby">
-                            <div class="col-xs-6 col-md-6">
-                                <img src="/img/speakers/dale_humby.small.jpg" class="img-responsive profile pull-left-margin"> <strong>Dale Humby</strong><br />Nomanini, SA<br />
-                            Passionate about the processes of product development
-                            </div>
-                        </a>
+                    {% endfor %}
                     </div>
                     <div class="row padding-extra">
                         <div class="col-xs-12 col-md-12">
-                            <a href="/videos" class="pull-right"> >> Full list of previous speakers</a>
+                            <a href="/speakers" class="pull-right"> >> Full list of speakers</a>
+                        </div>
+                    </div>
+                    <div class="row padding-extra">
+                        <div class="col-xs-12 col-md-12">
+                            <a href="/videos" class="pull-right"> >> Previous speakers</a>
                         </div>
                     </div>
                 </div>
