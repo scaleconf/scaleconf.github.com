@@ -59,6 +59,18 @@ speakers:
     video: hnH9sTRWcR8
 
   beat_schwegler_2014:
+    name: Beat Schwegler
+    company: Microsoft
+    title: Scaling push notifications to millions of devices
+    abstract: >
+        Sending  notifications to millions of devices is quite challenging. Using
+        native push notification services comes with the burdens of different APIs per
+        platform, the need to manage the individual device registrations, the
+        complexity of message personalization, and the need to massively scale when
+        sending millions of notifications simultaneously. Notification hubs take a
+        different approach: they're based on pub/sub and designed to elastically
+        scale. They provide message templates for personalization and a single API
+        across iOS, Android and Windows. 
     bio: >
         is part of Microsoft's technical evangelism and development
         team (ted), where he architects, designs, codes and delivers leading edge
@@ -69,13 +81,21 @@ speakers:
         in a wide variety of projects, ranging from real-time building control systems,
         best-selling shrink-wrapped products to large scale CRM and ERP systems.
     twitter: cloudbeatsch
-    company: Microsoft
-    name: Beat Schwegler
-    title: Scaling push notifications to millions of devices
 
   chris_bray: {bio: '', company: Facebook, name: Chris Bray, role: 'Production Engineer', title: ''}
   
   clinton_gormley:
+    name: Clinton Gormley
+    company: Elasticsearch
+    title: Scaling real time search and analytics with Elasticsearch
+    abstract: >
+        A look at the elements required by
+        Elasticsearch to turn a simple inverted index into an auto-clustering,
+        horizontally scalable real time search and analytics engine. The talk will
+        start from first principles, explaining how an inverted index works, how to
+        make an inverted index suitable for real time search, how to scale that out,
+        how to add reliability and failover to the cluster, and design patterns to use
+        the cluster most efficiently
     bio: >
         was the first user of Elasticsearch and wrote the Perl
         API back in 2010. When Elasticsearch formed a company in 2012, he joined as a
@@ -83,9 +103,6 @@ speakers:
         designing the user interfaces and writing about Elasticsearch, and is currently
         working on a book about it with O'Reilly Publishers. He studied medicine at
         UCT in Cape Town and now lives in Barcelona.
-    company: Elasticsearch
-    name: Clinton Gormley
-    title: Scaling real time search and analytics with Elasticsearch
 
   dale_humby:
     name: Dale Humby
@@ -129,6 +146,13 @@ speakers:
     video: wmMofn2dKhA
 
   deon_moolman: 
+    name: Deon Moolman
+    company: Yuppie Chef
+    title: On a scale of one
+    abstract: >
+        An architectural look at where Yuppiechef has come from and how we're dealing
+        with our scaling requirements &mdash; what worked and, more entertainingly, what
+        crashed and burned.
     bio: >
         is a senior software developer at Yuppiechef.co.za, the
         leading e-commerce store in South Africa. He is a technology enthusiast, loves
@@ -136,9 +160,6 @@ speakers:
         websites, mobile applications, payment switches, warehouse systems, desktop
         software and development tooling. Occasionally spotted with an Arduino in the
         one hand and soldering iron in the other.
-    company: Yuppie Chef
-    name: Deon Moolman
-    title: On a scale of one
 
   daniel_fiske:
     name: Daniel Fiske
@@ -335,13 +356,21 @@ speakers:
         month happy with the reliability and performance of the site.
 
   niklas_gustavsson:
+    name: Niklas Gustavsson
+    company: Spotify
+    title: Optimizing playback at Spotify
+    abstract: >
+        Spotify instantly streams music to more than 24 million users, on many
+        different platforms, from a catalogue of more than 20 million songs. What goes
+        into doing this? And what are challenges to maintain this with an ever growing
+        user base, in many new places around the world? In this talk, we'll describe
+        how the audio playback pipeline at Spotify is built and optimized. It will
+        cover a wide range of areas involved, from how the clients work to the storage
+        solutions that backs it all.
     bio: >
         is a backend engineer at Spotify, open
         source hacker, mountain biker and father of two awesome kids. At Spotify, he
         mostly works on the audio pipeline. Niklas keeps a badly updated blog at http://protocol7.com
-    company: Spotify
-    name: Niklas Gustavsson
-    title: Optimizing playback at Spotify
     twitter: protocol7
 
   robert_stuttaford:
@@ -456,8 +485,8 @@ speakers:
 
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
 all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014 ]
-highlighted: [  ]
-nonhighlighted: [  ]
+highlighted: [ niklas_gustavsson, deon_moolman ]
+nonhighlighted: [ aslam_khan, chris_bray, clinton_gormley, beat_schwegler_2014 ]
 sponsors:
   gold:
     - name: 2go
