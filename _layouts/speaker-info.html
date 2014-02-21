@@ -24,11 +24,11 @@ layout: responsive
 
         <p id="speaker-details">
         {{ speaker.name }}
-            <span class="grey">•</span>
             <span class="highlighted">
                 {% if speaker.company != nil %}
-                {{ speaker.company }}:
-                {% endif %}
+                <span class="grey">•</span>
+                {{ speaker.company }}
+                {% endif %}:
                 {{ speaker.role }}</span>
         </p>
         {% if speaker.twitter != nil %}
