@@ -491,23 +491,26 @@ speakers_3: [ clinton_gormley, beat_schwegler_2014 ]
 highlighted: [ niklas_gustavsson, deon_moolman ]
 nonhighlighted: [ aslam_khan, chris_bray, clinton_gormley, beat_schwegler_2014 ]
 sponsors:
-  gold:
-    - name: 2go
-      about: Free mobile messaging serving millions of users
-    - name: RightShift
-      about: Social Gaming
-  silver:
-    - name: Amazon
-    - name: Microsoft
-    - name: Praekelt
-    - name: RSAWeb
-  bronze:
-    - name: Basho
-    - name: Brandseye
+  baseline:
+    - name: Rackspace
+    - name: Facebook
     - name: Google
+    - name: Amazon
+    - name: Oracle
+  spotlight:
+    - name: Facebook
+      about: Making the world more open and connected
+    - name: Google
+      about: Organizing the world’s information and making it universally accessible and useful
+  presence:
+    - name: Amazon
+  coffee:
+    - name: Elasticsearch
+  student:
+    - name: 
   event:
-    - name: Github
-    - name: Key Connections
+    - name: Facebook
+    - name: Amazon
 programme:
   - day: Wednesday Evening, 9th April
     schedule:
