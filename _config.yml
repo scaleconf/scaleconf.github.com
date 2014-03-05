@@ -488,8 +488,8 @@ all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton
 speakers_1: [ niklas_gustavsson, aslam_khan ]
 speakers_2: [ chris_bray, deon_moolman ]
 speakers_3: [ clinton_gormley, beat_schwegler_2014 ]
-highlighted: [ niklas_gustavsson, deon_moolman ]
-nonhighlighted: [ aslam_khan, chris_bray, clinton_gormley, beat_schwegler_2014 ]
+highlighted: [ niklas_gustavsson, deon_moolman, clinton_gormley, chris_bray ]
+nonhighlighted: [ aslam_khan, beat_schwegler_2014 ]
 sponsors:
   gold:
     - name: 2go
