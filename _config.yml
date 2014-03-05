@@ -506,9 +506,11 @@ sponsors:
     - name: Amazon
   coffee:
     - name: Elasticsearch
+    - name: Mxit
   student:
     - name: 
   event:
+    - name: Key Connections
     - name: Facebook
     - name: Amazon
 programme:
