@@ -277,6 +277,20 @@ speakers:
     slides: http://www.slideshare.net/davidtinker/transitioning-your-architecture-to-scale
     video: A4cPkKW74pk
 
+  krzyszlof_debski:
+    name: Krzyszlof Debski
+    company: Allegro
+    role: IT Architect
+    bio: >
+        is a technical enthusiast, software engineer and product
+        owner of Service Bootstrap developed in Allegro. Gained
+        software experience in the biggest Polish web companies –
+        Onet.pl and Allegro.pl. He has a lot of experience in
+        designing and building modern, scalable web systems.
+        He is open to all new technologies an programming languages,
+        and he has no fear to work on legacy systems and rewrite
+        them in modern way.
+
   mike_jones:
     name: Mike Jones
     company: Western Cape Labs
@@ -484,8 +498,8 @@ speakers:
 
 
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
-all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014 ]
-speakers_1: [ niklas_gustavsson, aslam_khan ]
+all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzyszlof_debski ]
+speakers_1: [ niklas_gustavsson, aslam_khan, krzyszlof_debski ]
 speakers_2: [ chris_bray, deon_moolman ]
 speakers_3: [ clinton_gormley, beat_schwegler_2014 ]
 highlighted: [ niklas_gustavsson, deon_moolman, clinton_gormley, chris_bray ]
