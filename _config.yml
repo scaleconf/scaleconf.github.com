@@ -532,8 +532,6 @@ all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauen
 all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzyszlof_debski, shai_rosenfeld ]
 speakers_1: [ niklas_gustavsson, aslam_khan, krzyszlof_debski ]
 speakers_2: [ chris_bray, deon_moolman, shai_rosenfeld ]
-all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, shai_rosenfeld ]
-all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014 ]
 speakers_3: [ clinton_gormley, beat_schwegler_2014 ]
 highlighted: [ niklas_gustavsson, deon_moolman, clinton_gormley, chris_bray ]
 nonhighlighted: [ aslam_khan, beat_schwegler_2014 ]
