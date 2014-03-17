@@ -21,6 +21,9 @@ navigation:
   url: /videos
 speakers:
   aslam_khan:
+    name: Aslam Khan
+    role: Software Developer
+    twitter: aslamkhn
     bio: >
         is an African software developer, by birth, by choice
         and for life.  He believes that all of software is just design and values code
@@ -29,8 +32,6 @@ speakers:
         because achieving a harmonious balance is difficult.  The same with scalability
         - it throws us into extreme states, way off balance.  That is the challenge
         - finding a new equilibrium.  You can read his blog at http://f3yourmind.net
-    company:
-    name: Aslam Khan
 
   beat_schwegler:
     name: Beat Schwegler
@@ -87,6 +88,14 @@ speakers:
   clinton_gormley:
     name: Clinton Gormley
     company: Elasticsearch
+    role: Developer
+    bio: >
+        was the first user of Elasticsearch and wrote the Perl
+        API back in 2010. When Elasticsearch formed a company in 2012, he joined as a
+        consultant and the maintainer of the Perl modules. Now Clinton spends a lot of his time
+        designing the user interfaces and writing about Elasticsearch, and is currently
+        working on a book about it with O'Reilly Publishers. He studied medicine at
+        UCT in Cape Town and now lives in Barcelona.
     title: Scaling real time search and analytics with Elasticsearch
     abstract: >
         A look at the elements required by
@@ -96,13 +105,6 @@ speakers:
         make an inverted index suitable for real time search, how to scale that out,
         how to add reliability and failover to the cluster, and design patterns to use
         the cluster most efficiently
-    bio: >
-        was the first user of Elasticsearch and wrote the Perl
-        API back in 2010. When Elasticsearch formed a company in 2012, he joined as a
-        consultant and the maintainer of the Perl modules. Now Clinton spends a lot of his time
-        designing the user interfaces and writing about Elasticsearch, and is currently
-        working on a book about it with O'Reilly Publishers. He studied medicine at
-        UCT in Cape Town and now lives in Barcelona.
 
   dale_humby:
     name: Dale Humby
@@ -146,6 +148,11 @@ speakers:
     video: wmMofn2dKhA
 
   deon_moolman: 
+    name: Deon Moolman
+    company: Yuppiechef
+    role: Senior Software Developer
+    twitter: CmdrDats
+    blog: http://www.yuppiechef.com/technology-and-development.htm
     bio: >
         is a senior software developer at Yuppiechef.co.za, the
         leading e-commerce store in South Africa. He is a technology enthusiast, loves
@@ -153,8 +160,6 @@ speakers:
         websites, mobile applications, payment switches, warehouse systems, desktop
         software and development tooling. Occasionally spotted with an Arduino in the
         one hand and soldering iron in the other.
-    company: Yuppiechef
-    name: Deon Moolman
     title: On a scale of one
     abstract: >
         An architectural look at where Yuppiechef has come from and how we're dealing
