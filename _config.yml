@@ -277,6 +277,20 @@ speakers:
     slides: http://www.slideshare.net/davidtinker/transitioning-your-architecture-to-scale
     video: A4cPkKW74pk
 
+  dustin_whittle:
+    name: Dustin Whittle
+    company: AppDynamics
+    role: Developer Evangelist
+    twitter: dustinwhittle
+    blog: http://dustinwhittle.com/
+    bio: >
+        is a Developer Evangelist at AppDynamics where he focuses on helping organisations
+        manage application performance. Before joining AppDynamics, Dustin was CTO at
+        Kwarter, a consultant at SensioLabs, and developer evangelist at Yahoo!. He has
+        experience building and leading engineering teams and working with developers and
+        partners to scale to meet demand. When Dustin isn't working he enjoys flying,
+        sailing, diving, golfing, and travelling around the world.
+
   krzyszlof_debski:
     name: Krzyszlof Debski
     company: Allegro
@@ -529,10 +543,10 @@ speakers:
 
 
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
-all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzyszlof_debski, shai_rosenfeld ]
+all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzyszlof_debski, shai_rosenfeld, dustin_whittle ]
 speakers_1: [ niklas_gustavsson, aslam_khan, krzyszlof_debski ]
 speakers_2: [ chris_bray, deon_moolman, shai_rosenfeld ]
-speakers_3: [ clinton_gormley, beat_schwegler_2014 ]
+speakers_3: [ clinton_gormley, beat_schwegler_2014, dustin_whittle ]
 highlighted: [ niklas_gustavsson, deon_moolman, clinton_gormley, chris_bray ]
 nonhighlighted: [ aslam_khan, beat_schwegler_2014 ]
 sponsors:
