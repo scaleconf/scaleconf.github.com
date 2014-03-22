@@ -21,6 +21,9 @@ navigation:
   url: /videos
 speakers:
   aslam_khan:
+    name: Aslam Khan
+    role: Software Developer
+    twitter: aslamkhn
     bio: >
         is an African software developer, by birth, by choice
         and for life.  He believes that all of software is just design and values code
@@ -29,8 +32,6 @@ speakers:
         because achieving a harmonious balance is difficult.  The same with scalability
         - it throws us into extreme states, way off balance.  That is the challenge
         - finding a new equilibrium.  You can read his blog at http://f3yourmind.net
-    company:
-    name: Aslam Khan
 
   beat_schwegler:
     name: Beat Schwegler
@@ -87,6 +88,14 @@ speakers:
   clinton_gormley:
     name: Clinton Gormley
     company: Elasticsearch
+    role: Developer
+    bio: >
+        was the first user of Elasticsearch and wrote the Perl
+        API back in 2010. When Elasticsearch formed a company in 2012, he joined as a
+        consultant and the maintainer of the Perl modules. Now Clinton spends a lot of his time
+        designing the user interfaces and writing about Elasticsearch, and is currently
+        working on a book about it with O'Reilly Publishers. He studied medicine at
+        UCT in Cape Town and now lives in Barcelona.
     title: Scaling real time search and analytics with Elasticsearch
     abstract: >
         A look at the elements required by
@@ -96,13 +105,6 @@ speakers:
         make an inverted index suitable for real time search, how to scale that out,
         how to add reliability and failover to the cluster, and design patterns to use
         the cluster most efficiently
-    bio: >
-        was the first user of Elasticsearch and wrote the Perl
-        API back in 2010. When Elasticsearch formed a company in 2012, he joined as a
-        consultant and the maintainer of the Perl modules. Now Clinton spends a lot of his time
-        designing the user interfaces and writing about Elasticsearch, and is currently
-        working on a book about it with O'Reilly Publishers. He studied medicine at
-        UCT in Cape Town and now lives in Barcelona.
 
   dale_humby:
     name: Dale Humby
@@ -146,6 +148,11 @@ speakers:
     video: wmMofn2dKhA
 
   deon_moolman: 
+    name: Deon Moolman
+    company: Yuppiechef
+    role: Senior Software Developer
+    twitter: CmdrDats
+    blog: http://www.yuppiechef.com/technology-and-development.htm
     bio: >
         is a senior software developer at Yuppiechef.co.za, the
         leading e-commerce store in South Africa. He is a technology enthusiast, loves
@@ -153,8 +160,6 @@ speakers:
         websites, mobile applications, payment switches, warehouse systems, desktop
         software and development tooling. Occasionally spotted with an Arduino in the
         one hand and soldering iron in the other.
-    company: Yuppiechef
-    name: Deon Moolman
     title: On a scale of one
     abstract: >
         An architectural look at where Yuppiechef has come from and how we're dealing
@@ -276,6 +281,34 @@ speakers:
         along the way.
     slides: http://www.slideshare.net/davidtinker/transitioning-your-architecture-to-scale
     video: A4cPkKW74pk
+
+  dustin_whittle:
+    name: Dustin Whittle
+    company: AppDynamics
+    role: Developer Evangelist
+    twitter: dustinwhittle
+    blog: http://dustinwhittle.com/
+    bio: >
+        is a Developer Evangelist at AppDynamics where he focuses on helping organisations
+        manage application performance. Before joining AppDynamics, Dustin was CTO at
+        Kwarter, a consultant at SensioLabs, and developer evangelist at Yahoo!. He has
+        experience building and leading engineering teams and working with developers and
+        partners to scale to meet demand. When Dustin isn't working he enjoys flying,
+        sailing, diving, golfing, and travelling around the world.
+
+  krzysztof_debski:
+    name: Krzysztof Debski
+    company: Allegro
+    role: IT Architect
+    bio: >
+        is a technical enthusiast, software engineer and product
+        owner of Service Bootstrap developed in Allegro. Gained
+        software experience in the biggest Polish web companies –
+        Onet.pl and Allegro.pl. He has a lot of experience in
+        designing and building modern, scalable web systems.
+        He is open to all new technologies an programming languages,
+        and he has no fear to work on legacy systems and rewrite
+        them in modern way.
 
   mike_jones:
     name: Mike Jones
@@ -400,6 +433,37 @@ speakers:
     slides: https://speakerdeck.com/robertstuttaford/cognicians-new-architecture-with-clojure-and-datomic
     video: KlDJy3yXVsc
 
+  shai_rosenfeld:
+    name: Shai Rosenfeld
+    company: EngineYard
+    twitter: shaiguitar
+    blog: http://shairosenfeld.com/
+    bio: >
+        is always excited when there is something new to learn, and
+        hence has seemed to have found his fit doing technology.
+        He started out playing with Ruby and Rails over 8 years ago.
+        After helping scale and support some of the largest Ruby production
+        systems around, he moved on to engineering in one of the leading
+        Platform as a Services (PaaS) companies. Shai enjoys solving problems,
+        facing new challenges and playing jazz standards when he's not finding
+        out something new on his laptop.
+    title: Such Blocking, Very Concurrency, Wow
+    abstract: >
+        Concurrency is fundamentally at the base of scaling. How do you manage
+        to do more things at once? Well, you do them at the same time. This opens
+        a huge can of worms though, because every different approach to how you do
+        this has disadvantages, weaknesses, problems and tradeoffs. I will go
+        through some approaches to concurrency that I've come across, speak of
+        common building blocks and issues that these approaches all share. I'll
+        be mentioning things like the c10k problem, threads, actors, evented
+        programming, interacting with IO, futures/promises, coroutines and more.
+
+        Far from being a world-renowned expert on the matter, I will attempt to dissect
+        these patterns and styles because I want to understand why they "scale,"
+        problems you can run across, and when (pun intended!) it can drive you crazy.
+        Hopefully by the end you will find it somewhat easier to understand and grasp,
+        and have a newly driven passion to dig in further.
+
   simon_ratcliffe:
     name: Simon Ratcliffe
     company: SKA
@@ -484,12 +548,12 @@ speakers:
 
 
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
-all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014 ]
-speakers_1: [ niklas_gustavsson, aslam_khan ]
-speakers_2: [ chris_bray, deon_moolman ]
-speakers_3: [ clinton_gormley, beat_schwegler_2014 ]
-highlighted: [ niklas_gustavsson, deon_moolman ]
-nonhighlighted: [ aslam_khan, chris_bray, clinton_gormley, beat_schwegler_2014 ]
+all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle ]
+speakers_1: [ niklas_gustavsson, aslam_khan, krzysztof_debski ]
+speakers_2: [ chris_bray, deon_moolman, shai_rosenfeld ]
+speakers_3: [ clinton_gormley, beat_schwegler_2014, dustin_whittle ]
+highlighted: [ niklas_gustavsson, deon_moolman, clinton_gormley, chris_bray ]
+nonhighlighted: [ aslam_khan, beat_schwegler_2014 ]
 sponsors:
   baseline:
     - name: Rackspace
