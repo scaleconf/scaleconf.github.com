@@ -9,7 +9,8 @@
         <p>Days to conference: <span id='days-to-conference'></span></p>
 
         <script type='text/javascript'>
-            var conference_date = (new Date(2014, 4, 10)).getTime();
+            // months are 0 indexed
+            var conference_date = (new Date(2014, 3, 10)).getTime();
             var days_to_conference = (conference_date - Date.now())  / (1000 * 60 * 60 * 24)
             var weeks_to_conference = days_to_conference / 7;
             document.getElementById('days-to-conference').innerText = Math.floor(days_to_conference).toString();
