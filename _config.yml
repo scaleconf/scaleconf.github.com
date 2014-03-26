@@ -20,6 +20,52 @@ navigation:
 - text: Videos
   url: /videos
 speakers:
+  zabil_cheriya_maliackal:
+    name: Zabil Cheriya Maliackal
+    company: ThroughtWorks
+    role: Agile consultant
+    country: SA
+    bio: >
+        <p>Currently at ThoughtWorks, Zabil works as an Agile consultant with a focus on 
+        using the right set of technologies and tools as the enabler for successful 
+        delivery of large-scale projects. He was also a part of Thoughtworks Social 
+        Impact programme where he contributed to many open source projects like 
+        RapidFTR and OpenMRS. His career as a consultant spans 15 years on various 
+        technologies and processes-related web development, Enterprise systems and 
+        Agile practices. He is currently based in the ThoughtWorks Johannesburg office. 
+        When he is not a self-confessed lazy programmer, he is an avid runner and climber.</p>
+    title: Offloading the Rendering of your View to your Clients
+    abstract: >
+        <p>Performance improvements in modern browsers coupled with the acceptance of javascript 
+        as a first class language gives us a compelling platform to move a bulk of what used 
+        to be done earlier on the server side to the client. This allows the distribution of 
+        processing power and removing some obvious bottlenecks on the server side. This talk 
+        aims to share our experience with the advantages of using this approach along with its 
+        limitations. We talk about single page web applications, client side consumption of 
+        RESTful services, performance gotchas, single code base for designers and developers 
+        and its effect on building a portable client and scalable server code.</p>
+
+  simbarashe_nyatsa:
+    name: Simbarashe Nyatsa
+    company: ThroughtWorks
+    role: Software Developer
+    country: SA
+    bio: >
+        <p>Simba is a software developer at ThoughtWorks, based in the Johannesburg office. He has 
+        contributed to educational software in South Africa that visualises Matric results across 
+        the country. With 7 months experience in software development, Simba is keen to learn and 
+        enjoys working with technology that makes a difference in society. He is also an avid 
+        gamer with a thirst for general knowledge.</p>
+    abstract: >
+        <p>Performance improvements in modern browsers coupled with the acceptance of javascript 
+        as a first class language gives us a compelling platform to move a bulk of what used 
+        to be done earlier on the server side to the client. This allows the distribution of 
+        processing power and removing some obvious bottlenecks on the server side. This talk 
+        aims to share our experience with the advantages of using this approach along with its 
+        limitations. We talk about single page web applications, client side consumption of 
+        RESTful services, performance gotchas, single code base for designers and developers 
+        and its effect on building a portable client and scalable server code.</p>
+
   aslam_khan:
     name: Aslam Khan
     role: Software Developer
@@ -547,11 +593,13 @@ speakers:
     video: oNSfK0jDU3w
 
 
+
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
-all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle ]
+all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa ]
 speakers_1: [ niklas_gustavsson, aslam_khan, krzysztof_debski ]
 speakers_2: [ chris_bray, deon_moolman, shai_rosenfeld ]
 speakers_3: [ clinton_gormley, beat_schwegler_2014, dustin_whittle ]
+speakers_4: [ zabil_cheriya_maliackal, simbarashe_nyatsa ]
 highlighted: [ niklas_gustavsson, deon_moolman, clinton_gormley, chris_bray ]
 nonhighlighted: [ aslam_khan, beat_schwegler_2014 ]
 sponsors:
