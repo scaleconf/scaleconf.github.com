@@ -4,46 +4,37 @@ layout: responsive
 {% assign speaker = site.speakers[page.name] %}
 <div class="row white-background">
     <div class="col-md-12">
-        <h1>Speaker - {{ speaker.name }}</h1>
+        <h1>{{ speaker.name }}</h1>
     </div>
 </div>
 <div class="row white-background">
-    <div class="col-xs-12 col-md-12">
-
-
-       <!--  <ul id="speaker-list">
-            {% for speaker in site.all_speakers %}
-            <li><a href="/speakers/{{ speaker }}">{{ site.speakers[speaker].name }}</a></li>
-            {% endfor %}
-        </ul> -->
-    
-
-        <div id="pic">
-            <img class="profile" src="/img/speakers/{{ page.name }}.large.jpg" alt="{{ speaker.name }}"/>
-        </div>
-
+    <div class="col-xs-12 col-md-8">
+        <img class="img-responsive img-thumbnail pull-left" style="margin-right: 20px" src="/img/speakers/{{ page.name }}.large.jpg" alt="{{ speaker.name }}"/> 
         <p id="speaker-details">
-        {{ speaker.name }}
             <span class="highlighted">
                 {% if speaker.company != nil %}
-                <span class="grey">•</span>
                 {{ speaker.company }}
-                {% endif %}:
-                {{ speaker.role }}</span>
+                {% endif %}
+                {% if speaker.role != nil %}
+                : {{ speaker.role }}
+                {% endif %}
+            </span>
         </p>
+        <div id="speaker-bio">
+            <p><strong>{{ speaker.name }}</strong> {{ speaker.bio }} </p>
+        </div>
         {% if speaker.twitter != nil %}
         <p class="twitter">
             <a href="https://twitter.com/{{ speaker.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ speaker.twitter }}</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </p>
         {% endif %}
-
-        <div id="speaker-bio">
-            <h4>Bio</h4>
-            <p><strong>{{ speaker.name }}</strong> {{ speaker.bio }} </p>
-            <h4>Conference Talk
-                {% if speaker.slides != nil  %}
-                <a href="{{ speaker.slides }}"> - Slides</a>
+    </div>
+</div>
+<div class="row white-background">
+    <div class="col-xs-12 col-md-8">
+            <h4>{% if speaker.slides != nil  %}
+                <a href="{{ speaker.slides }}">Slides</a>
                 {% endif %}
             </h4>
             <p>
@@ -53,8 +44,5 @@ layout: responsive
             {% if speaker.video != nil  %}
                 <iframe width="560" height="315" src="//www.youtube.com/embed/{{ speaker.video }}" frameborder="0" allowfullscreen></iframe>
                 {% endif %}
-        </div>
-
     </div>
 </div>
-
