@@ -1,42 +1,22 @@
 ---
-layout: page
+layout: responsive
 ---
-<div id="sponsor-info">
-    <div id="left-column">
-        <h1 class='sponsor-level'>Gold Sponsors</h1>
-        <ul id="sponsor-list">
-            {% for sponsor in site.sponsors.gold %}
-            <li><a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></li>
-            {% endfor %}
-        </ul>
-        <h1 class='sponsor-level'>Silver Sponsors</h1>
-        <ul id="sponsor-list">
-            {% for sponsor in site.sponsors.silver %}
-            <li><a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></li>
-            {% endfor %}
-        </ul>
-        <h1 class='sponsor-level'>Bronze Sponsors</h1>
-        <ul id="sponsor-list">
-            {% for sponsor in site.sponsors.bronze %}
-            <li><a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></li>
-            {% endfor %}
-        </ul>
-        <h1 class='sponsor-level'>Other Sponsors</h1>
-        <ul id="sponsor-list">
-            {% for sponsor in site.sponsors.event %}
-            <li><a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></li>
-            {% endfor %}
-        </ul>
+<div class="row white-background">
+    <div class="col-md-12">
+        <h1>{{ page.name }}</h1>
     </div>
+</div>
+<div class="row white-background">
+    <div class="col-xs-12 col-md-12">
 
-    <div id="right-column">
         <div id="pic">
-            <img class="profile" src="/images/sponsors/{{ page.name | downcase | replace:' ','_' }}.large.png" />
+            <img class="profile" src="/img/sponsors/{{ page.name }}.large.png" alt="{{ page.name }}"/>
         </div>
 
         <p id="sponsor-details">
-            {{ page.level | upcase }} SPONSOR<span class="grey"> • </span> <span class="highlighted">{{ page.name }}</span>
+        {{ sponsor.name }}
         </p>
+
         <p>
             <a href="{{ page.website }}">{{ page.website }}</a>
         </p>
@@ -50,6 +30,7 @@ layout: page
            </p>
            {% endfor %}
         </div>
+
     </div>
 </div>
 
