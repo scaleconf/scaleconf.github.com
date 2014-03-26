@@ -1,0 +1,73 @@
+---
+layout: responsive
+---
+{% assign speaker_one = site.speakers[page.name_one] %}
+{% assign speaker_two = site.speakers[page.name_two] %}
+<div class="row white-background">
+    <div class="col-md-12">
+        <h1>{{ speaker_one.name }} &amp; {{ speaker_two.name }}</h1>
+    </div>
+</div>
+<div class="row white-background">
+    <div class="col-xs-12 col-md-8">
+        <img class="img-responsive img-thumbnail pull-left" style="margin-right: 20px" src="/img/speakers/{{ page.name_one }}.large.jpg" alt="{{ speaker_one.name }}"/> 
+        <p id="speaker-details">
+            <span class="highlighted">
+                {% if speaker_one.company != nil %}
+                {{ speaker_one.company }}
+                {% endif %}
+                {% if speaker_one.role != nil %}
+                : {{ speaker_one.role }}
+                {% endif %}
+            </span>
+        </p>
+        <div id="speaker-bio">
+            <p><strong>{{ speaker_one.name }}</strong> {{ speaker_one.bio }} </p>
+        </div>
+        {% if speaker_one.twitter != nil %}
+        <p class="twitter">
+            <a href="https://twitter.com/{{ speaker_one.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ speaker_one.twitter }}</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </p>
+        {% endif %}
+    </div>
+</div>
+<div class="row white-background">
+    <div class="col-xs-12 col-md-8">
+        <img class="img-responsive img-thumbnail pull-left" style="margin-right: 20px" src="/img/speakers/{{ page.name_two }}.large.jpg" alt="{{ speaker_two.name }}"/> 
+        <p id="speaker-details">
+            <span class="highlighted">
+                {% if speaker_two.company != nil %}
+                {{ speaker_two.company }}
+                {% endif %}
+                {% if speaker_two.role != nil %}
+                : {{ speaker_two.role }}
+                {% endif %}
+            </span>
+        </p>
+        <div id="speaker-bio">
+            <p><strong>{{ speaker_two.name }}</strong> {{ speaker_two.bio }} </p>
+        </div>
+        {% if speaker_two.twitter != nil %}
+        <p class="twitter">
+            <a href="https://twitter.com/{{ speaker_two.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ speaker_two.twitter }}</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </p>
+        {% endif %}
+    </div>
+</div>
+<div class="row white-background">
+    <div class="col-xs-12 col-md-8">
+            <h4>{% if speaker_one.slides != nil  %}
+                <a href="{{ speaker_one.slides }}">Slides</a>
+                {% endif %}
+            </h4>
+            <p>
+                <strong> {{ speaker_one.title }} </strong> <br/>
+                {{ speaker_one.abstract }}
+            </p>
+            {% if speaker_one.video != nil  %}
+                <iframe width="560" height="315" src="//www.youtube.com/embed/{{ speaker_one.video }}" frameborder="0" allowfullscreen></iframe>
+                {% endif %}
+    </div>
+</div>
