@@ -20,6 +20,50 @@ navigation:
 - text: Videos
   url: /videos
 speakers:
+  simon_cross:
+    name: Simon Cross
+    company: Praekelt
+    role: Lead Developer
+    country: SA
+    bio: >
+        Simon enjoys exploring details and finding ways to make the world a better place. 
+        From a childhood filled with weekends on the rocky beaches of South Africa’s west 
+        coast and fortuitous early access to the GW-BASIC reference manual, he made his way 
+        through high school and into academia, where he spent a lot of time learning details 
+        like quantum mechanics and general relativity. Somehow he completed an MSc in Applied 
+        Mathematics, despite discovering the wonders of Linux and open-source software in 
+        the middle. Since leaving academia, Simon has written code for a variety of commercial 
+        and scientific projects ranging from online newspapers to petrochemical companies and 
+        from bioinformatics to radio astronomy. In his spare time Simon contributes to and 
+        maintains a number of open source software projects, writes the odd computer game 
+        or two, engages in old-fashioned pen-and-paper gaming and tries to get out to the 
+        swimming pool or squash court every now and then. Simon is currently the lead 
+        developer of Vumi, a scalable mobile messaging platform developed by the Praekelt 
+        Foundation and recently organized the first two PyConZA conferences.
+    title: Coming soon
+    abstract: >
+        Coming soon
+
+  wim_godden:
+    name: Wim Godden
+    company: Cu.be
+    role: Lead Architect
+    country: SA
+    bio: >
+        Wim Godden has been working with open source technologies since 1997 and has been 
+        involved in open source projects such as OpenX and PHPCompatibility.
+        Next to web development, he's worked with a wide range of technologies (from database 
+        clusters to Internet backbone design) and focuses a lot of his time on high-scalability 
+        projects and on coaching/training PHP engineers.
+    title: Caching and Tuning fun for high scalability
+    abstract: >
+        Caching has been a 'hot' topic for a few years. But caching takes more than merely taking 
+        data and putting it in a cache : the right caching techniques can improve performance and 
+        reduce load significantly. But we'll also look at some major pitfalls, showing that 
+        caching the wrong way can bring down your site. If you're looking for a clear explanation 
+        about various caching techniques and tools like Memcached, Nginx and Varnish, as well as 
+        ways to deploy them in an efficient way, this talk is for you.
+
   zabil_cheriya_maliackal:
     name: Zabil Cheriya Maliackal
     company: ThoughtWorks
@@ -595,11 +639,12 @@ speakers:
 
 
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
-all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa ]
+all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden ]
 speakers_1: [ niklas_gustavsson, aslam_khan, krzysztof_debski ]
 speakers_2: [ chris_bray, deon_moolman, shai_rosenfeld ]
 speakers_3: [ clinton_gormley, beat_schwegler_2014, dustin_whittle ]
-speakers_4: [ zabil_cheriya_maliackal, simbarashe_nyatsa ]
+speakers_4: [ zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross ]
+speakers_5: [ wim_godden ]
 highlighted: [ niklas_gustavsson, deon_moolman, clinton_gormley, chris_bray ]
 nonhighlighted: [ aslam_khan, beat_schwegler_2014 ]
 sponsors:

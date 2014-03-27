@@ -21,10 +21,10 @@ name: Speakers
 </div>
 
 <div class="row white-background">
-    <div class="col-xs-12 col-md-4">
-        <ul class="list-inline">
-            {% for speaker in site.speakers_1 %}
-            <li class="box">
+    {% for speaker in site.speakers_1 %}
+    <div class="col-xs-12 col-md-3">
+            
+            <div class="box">
                 <a href="/speakers/{{ speaker }}">
                 <div class="row">
                     <div class="col-xs-5 col-md-5 gutter-padding-right">
@@ -37,14 +37,15 @@ name: Speakers
                     </div>
                 </div>
                 </a>
-            </li>
-            {% endfor %}
-        </ul>
+            </div>
     </div>
-    <div class="col-xs-12 col-md-4">
-        <ul class="list-inline"> 
-            {% for speaker in site.speakers_2 %}
-            <li class="box">
+    {% endfor %}
+</div>
+<div class="row white-background">
+    {% for speaker in site.speakers_2 %}
+    <div class="col-xs-12 col-md-3">
+            
+            <div class="box">
                 <a href="/speakers/{{ speaker }}">
                 <div class="row">
                     <div class="col-xs-5 col-md-5 gutter-padding-right">
@@ -57,14 +58,15 @@ name: Speakers
                     </div>
                 </div>
                 </a>
-            </li>
-            {% endfor %}
-        </ul>
+            </div>
     </div>
-    <div class="col-xs-12 col-md-4">
-        <ul class="list-inline"> 
-            {% for speaker in site.speakers_3 %}
-            <li class="box">
+    {% endfor %}
+</div>
+<div class="row white-background">
+    {% for speaker in site.speakers_3 %}
+    <div class="col-xs-12 col-md-3">
+            
+            <div class="box">
                 <a href="/speakers/{{ speaker }}">
                 <div class="row">
                     <div class="col-xs-5 col-md-5 gutter-padding-right">
@@ -77,14 +79,15 @@ name: Speakers
                     </div>
                 </div>
                 </a>
-            </li>
-            {% endfor %}
-        </ul>
+            </div>
     </div>
-   <div class="col-xs-12 col-md-4">
-        <ul class="list-inline"> 
-            {% for speaker in site.speakers_4 %}
-            <li class="box">
+    {% endfor %}
+</div>
+<div class="row white-background">
+    {% for speaker in site.speakers_4 %}
+    <div class="col-xs-12 col-md-3">
+            
+            <div class="box">
                 <a href="/speakers/{{ speaker }}">
                 <div class="row">
                     <div class="col-xs-5 col-md-5 gutter-padding-right">
@@ -97,8 +100,28 @@ name: Speakers
                     </div>
                 </div>
                 </a>
-            </li>
-            {% endfor %}
-        </ul>
+            </div>
     </div>
+    {% endfor %}
+</div>
+<div class="row white-background">
+    {% for speaker in site.speakers_5 %}
+    <div class="col-xs-12 col-md-3">
+            
+            <div class="box">
+                <a href="/speakers/{{ speaker }}">
+                <div class="row">
+                    <div class="col-xs-5 col-md-5 gutter-padding-right">
+                        <img src="/img/speakers/{{ speaker }}.medium.jpg" class="img-responsive profile"> 
+                    </div>
+                    <div class="col-xs-7 col-md-7 gutter-padding-left">
+                        <h3 class="speaker">{{ site.speakers[speaker].name }}</h3>
+                        {{ site.speakers[speaker].company }}<br />
+                        {{ site.speakers[speaker].role }}
+                    </div>
+                </div>
+                </a>
+            </div>
+    </div>
+    {% endfor %}
 </div>
