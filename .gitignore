@@ -3,3 +3,4 @@ _site/
 .*.swo
 *~
 *.DS_Store
+.ruby-version
