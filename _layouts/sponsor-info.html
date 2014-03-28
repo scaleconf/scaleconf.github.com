@@ -1,55 +1,18 @@
 ---
-layout: page
+layout: responsive
 ---
-<div id="sponsor-info">
-    <div id="left-column">
-        <h1 class='sponsor-level'>Gold Sponsors</h1>
-        <ul id="sponsor-list">
-            {% for sponsor in site.sponsors.gold %}
-            <li><a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></li>
-            {% endfor %}
-        </ul>
-        <h1 class='sponsor-level'>Silver Sponsors</h1>
-        <ul id="sponsor-list">
-            {% for sponsor in site.sponsors.silver %}
-            <li><a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></li>
-            {% endfor %}
-        </ul>
-        <h1 class='sponsor-level'>Bronze Sponsors</h1>
-        <ul id="sponsor-list">
-            {% for sponsor in site.sponsors.bronze %}
-            <li><a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></li>
-            {% endfor %}
-        </ul>
-        <h1 class='sponsor-level'>Other Sponsors</h1>
-        <ul id="sponsor-list">
-            {% for sponsor in site.sponsors.event %}
-            <li><a href="/sponsors/{{ sponsor.name | downcase | replace:' ','_' }}">{{ sponsor.name }}</a></li>
-            {% endfor %}
-        </ul>
-    </div>
-
-    <div id="right-column">
-        <div id="pic">
-            <img class="profile" src="/images/sponsors/{{ page.name | downcase | replace:' ','_' }}.large.png" />
-        </div>
-
-        <p id="sponsor-details">
-            {{ page.level | upcase }} SPONSOR<span class="grey"> • </span> <span class="highlighted">{{ page.name }}</span>
-        </p>
-        <p>
-            <a href="{{ page.website }}">{{ page.website }}</a>
-        </p>
-
-        <div id="bio">
-            <p class='tagline'>{{ page.tagline }}</p>
-            {% for section in page.sections %}
-            <h4>{{ section.heading }}</h4>
-            <p>
-                {{ section.text }}
-           </p>
-           {% endfor %}
-        </div>
+{% assign sponsor = site.sponsors[page.name] %}
+<div class="row white-background">
+    <div class="col-md-12">
     </div>
 </div>
-
+<div class="row white-background">
+    <div class="col-xs-12 col-md-8">
+        <img class="img-responsive pull-left" style="margin-right: 20px;" src="/img/sponsors/{{ page.name }}.large.png" alt="{{ sponsor.name }}"/>
+    </div>
+</div>
+<div class="row white-background">
+    <div class="col-xs-12 col-md-8 sponsor-text">
+        <p> {{ sponsor.website_text }} </p>
+    </div>
+</div>
