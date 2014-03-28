@@ -64,6 +64,10 @@ speakers:
         about various caching techniques and tools like Memcached, Nginx and Varnish, as well as 
         ways to deploy them in an efficient way, this talk is for you.
 
+  zabil_and_simba:
+    name: Zabil Maliackal and Simba Nyatsanga
+    title: Offloading the Rendering of your View to your Clients
+
   zabil_cheriya_maliackal:
     name: Zabil Cheriya Maliackal
     company: ThoughtWorks
@@ -729,32 +733,32 @@ programme:
         event: Opening
         description: A quick welcome and introduction to the conference before we get going
       - time: 9:30 am - 10:15 am
-        speaker: tbc
+        speaker: niklas_gustavsson
       - time: 10:15 am - 10:25 am
         event: Break
         description: A quick changeover & pee-break
       - time: 10:25 am - 11:10 am
-        speaker: tbc
+        speaker: wim_godden
       - time: 11:10 am - 11:40 am
         event: Break
         description: Mid-morning tea & coffee with scones and biscuits
       - time: 11:40 am - 12:25 am
-        speaker: tbc
+        speaker: beat_schwegler_2014
       - time: 12:30 am - 2:00 pm
         event: Lunch
         description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
       - time: 2:00 pm - 2:45 pm
-        speaker: tbc
+        speaker: krzysztof_debski
       - time: 2:45 pm - 3:15 pm
         event: Break
         description: Afternoon tea & coffee with biscuits
       - time: 3:15 pm - 4:00 pm
-        speaker: tbc
+        speaker: simon_cross
       - time: 4:00 pm - 4:15 pm
         event: Break
         description: A quick changeover & pee-break
       - time: 4:15 pm - 5:00 pm
-        speaker: tbc
+        speaker: clinton_gormley
   - day: Thursday evening, 10th April
     schedule:
       - time: 5:00 pm - 11:00 pm
@@ -766,32 +770,32 @@ programme:
         event: Arrival
         description: Tea and coffee will be served
       - time: 9:15 am - 10:00 am
-        speaker: tbc
+        speaker: shai_rosenfeld
       - time: 10:00 am - 10:10 am
         event: Break
         description: A quick changeover & pee-break
       - time: 10:10 am - 10:55 am
-        speaker: tbc
+        speaker: deon_moolman
       - time: 10:55 am - 11:25 am
         event: Break
         description: Mid-morning tea & coffee with scones and biscuits
       - time: 11:25 am - 12:10 am
-        speaker: tbc
+        speaker: chris_bray
       - time: 12:15 am - 1:45 pm
         event: Lunch
         description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
       - time: 1:45 pm - 2:30 pm
-        speaker: tbc
+        speaker: dustin_whittle
       - time: 2:30 pm - 3:00 pm
         event: Break
         description: Afternoon tea & coffee with biscuits
       - time: 3:00 pm - 3:45 pm
-        speaker: tbc
+        speaker: zabil_and_simba
       - time: 3:45 pm - 4:00 pm
         event: Break
         description: A quick changeover & pee-break
       - time: 4:00 pm - 4:45 pm
-        speaker: tbc
+        speaker: aslam_khan
   - day: Friday evening, 11th April
     schedule:
       - time: 5:00 pm - 11:00 pm
