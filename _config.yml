@@ -399,6 +399,32 @@ speakers:
         He is open to all new technologies an programming languages,
         and he has no fear to work on legacy systems and rewrite
         them in modern way.
+    title: Let's build a solid base for a scale.
+    abstract: >
+        Creating fast, reliable and easy to develop systems is not the easiest task.
+        If you add the fact that thousands of companies use your system as a core business
+        platform on a daily basis, it becomes challenging.
+        </p>
+        <p>
+        Add a flavour of a scalability and millions of users and it moves on to exciting.
+        How can we prepare a system that might be affected by scalability issues
+        everywhere, even in the simplest component?
+        </p>
+        <p>
+        The answer is to dive deep into the world of services.
+        We decided to prepare a strong base on top of which we can build our
+        system. Our choice was to start with the Java stack.
+        We've gathered all the cool stuff from open source projects to create a bootstrap
+        to let our developers create scalable services really fast.
+        </p>
+        <p>
+        In this talk I would like to focus on the choices we made, and the
+        ecosystem we built over our services.  It is not only about the code we
+        write, but also the tools that make our life easier.  We will look at
+        frameworks to provide REST services, and see how to make them auto
+        discoverable.  We will also discuss tools to let us monitor and manage
+        all the instancesi we run.  If you want to create or upgrade your service
+        to scale it is the best place to start.
 
   mike_jones:
     name: Mike Jones
