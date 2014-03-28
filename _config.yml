@@ -112,6 +112,7 @@ speakers:
 
   aslam_khan:
     name: Aslam Khan
+    company: Role
     role: Software Developer
     twitter: aslamkhn
     bio: >
@@ -122,6 +123,23 @@ speakers:
         because achieving a harmonious balance is difficult.  The same with scalability
         - it throws us into extreme states, way off balance.  That is the challenge
         - finding a new equilibrium.  You can read his blog at http://f3yourmind.net
+    title: Puppet for Human Beings (not!)
+    abstract: >
+        We can make servers look alike with Puppet, Chef, Ansible and most
+        probably other machinery that we are going to invent.  And it makes us
+        happy, because we like conformity and consistency.  Life is easier like
+        that, we believe or hope.  Yet, at ScaleConf 2013, I noticed that every
+        company that told their story increases people proportional to
+        increases in servers.  How did that work out?  Did we make all people
+        the same - like our servers? Do we want that in the first instance?
+        And if we don't want clones, what do we want? How do we scale a culture
+        if value diversity?  Which emerges first - consistency in values, or
+        consistency in technology? What is the tail that is wagging a body?  I
+        will explore these and other challenges - the really tough stuff that
+        continuous delivery pipelines don't solve.  I hope you will help me
+        answer those questions?  I believe that when we understand this, we can
+        achieve scale and balance. That's what I'm after - equilibrium at
+        scale.
 
   beat_schwegler:
     name: Beat Schwegler
