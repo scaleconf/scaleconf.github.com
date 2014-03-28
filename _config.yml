@@ -26,19 +26,19 @@ speakers:
     role: Lead Developer
     country: SA
     bio: >
-        Simon enjoys exploring details and finding ways to make the world a better place. 
-        From a childhood filled with weekends on the rocky beaches of South Africa’s west 
-        coast and fortuitous early access to the GW-BASIC reference manual, he made his way 
-        through high school and into academia, where he spent a lot of time learning details 
-        like quantum mechanics and general relativity. Somehow he completed an MSc in Applied 
-        Mathematics, despite discovering the wonders of Linux and open-source software in 
-        the middle. Since leaving academia, Simon has written code for a variety of commercial 
-        and scientific projects ranging from online newspapers to petrochemical companies and 
-        from bioinformatics to radio astronomy. In his spare time Simon contributes to and 
-        maintains a number of open source software projects, writes the odd computer game 
-        or two, engages in old-fashioned pen-and-paper gaming and tries to get out to the 
-        swimming pool or squash court every now and then. Simon is currently the lead 
-        developer of Vumi, a scalable mobile messaging platform developed by the Praekelt 
+        Simon enjoys exploring details and finding ways to make the world a better place.
+        From a childhood filled with weekends on the rocky beaches of South Africa’s west
+        coast and fortuitous early access to the GW-BASIC reference manual, he made his way
+        through high school and into academia, where he spent a lot of time learning details
+        like quantum mechanics and general relativity. Somehow he completed an MSc in Applied
+        Mathematics, despite discovering the wonders of Linux and open-source software in
+        the middle. Since leaving academia, Simon has written code for a variety of commercial
+        and scientific projects ranging from online newspapers to petrochemical companies and
+        from bioinformatics to radio astronomy. In his spare time Simon contributes to and
+        maintains a number of open source software projects, writes the odd computer game
+        or two, engages in old-fashioned pen-and-paper gaming and tries to get out to the
+        swimming pool or squash court every now and then. Simon is currently the lead
+        developer of Vumi, a scalable mobile messaging platform developed by the Praekelt
         Foundation and recently organized the first two PyConZA conferences.
     title: Coming soon
     abstract: >
@@ -50,18 +50,18 @@ speakers:
     role: Lead Architect
     country: SA
     bio: >
-        Wim Godden has been working with open source technologies since 1997 and has been 
+        Wim Godden has been working with open source technologies since 1997 and has been
         involved in open source projects such as OpenX and PHPCompatibility.
-        Next to web development, he's worked with a wide range of technologies (from database 
-        clusters to Internet backbone design) and focuses a lot of his time on high-scalability 
+        Next to web development, he's worked with a wide range of technologies (from database
+        clusters to Internet backbone design) and focuses a lot of his time on high-scalability
         projects and on coaching/training PHP engineers.
     title: Caching and Tuning fun for high scalability
     abstract: >
-        Caching has been a 'hot' topic for a few years. But caching takes more than merely taking 
-        data and putting it in a cache : the right caching techniques can improve performance and 
-        reduce load significantly. But we'll also look at some major pitfalls, showing that 
-        caching the wrong way can bring down your site. If you're looking for a clear explanation 
-        about various caching techniques and tools like Memcached, Nginx and Varnish, as well as 
+        Caching has been a 'hot' topic for a few years. But caching takes more than merely taking
+        data and putting it in a cache : the right caching techniques can improve performance and
+        reduce load significantly. But we'll also look at some major pitfalls, showing that
+        caching the wrong way can bring down your site. If you're looking for a clear explanation
+        about various caching techniques and tools like Memcached, Nginx and Varnish, as well as
         ways to deploy them in an efficient way, this talk is for you.
 
   zabil_and_simba:
@@ -74,23 +74,23 @@ speakers:
     role: Agile consultant
     country: SA
     bio: >
-        Currently at ThoughtWorks, Zabil works as an Agile consultant with a focus on 
-        using the right set of technologies and tools as the enabler for successful 
-        delivery of large-scale projects. He was also a part of Thoughtworks Social 
-        Impact programme where he contributed to many open source projects like 
-        RapidFTR and OpenMRS. His career as a consultant spans 15 years on various 
-        technologies and processes-related web development, Enterprise systems and 
-        Agile practices. He is currently based in the ThoughtWorks Johannesburg office. 
+        Currently at ThoughtWorks, Zabil works as an Agile consultant with a focus on
+        using the right set of technologies and tools as the enabler for successful
+        delivery of large-scale projects. He was also a part of Thoughtworks Social
+        Impact programme where he contributed to many open source projects like
+        RapidFTR and OpenMRS. His career as a consultant spans 15 years on various
+        technologies and processes-related web development, Enterprise systems and
+        Agile practices. He is currently based in the ThoughtWorks Johannesburg office.
         When he is not a self-confessed lazy programmer, he is an avid runner and climber.
     title: Offloading the Rendering of your View to your Clients
     abstract: >
-        Performance improvements in modern browsers coupled with the acceptance of javascript 
-        as a first class language gives us a compelling platform to move a bulk of what used 
-        to be done earlier on the server side to the client. This allows the distribution of 
-        processing power and removing some obvious bottlenecks on the server side. This talk 
-        aims to share our experience with the advantages of using this approach along with its 
-        limitations. We talk about single page web applications, client side consumption of 
-        RESTful services, performance gotchas, single code base for designers and developers 
+        Performance improvements in modern browsers coupled with the acceptance of javascript
+        as a first class language gives us a compelling platform to move a bulk of what used
+        to be done earlier on the server side to the client. This allows the distribution of
+        processing power and removing some obvious bottlenecks on the server side. This talk
+        aims to share our experience with the advantages of using this approach along with its
+        limitations. We talk about single page web applications, client side consumption of
+        RESTful services, performance gotchas, single code base for designers and developers
         and its effect on building a portable client and scalable server code.
 
   simbarashe_nyatsa:
@@ -99,19 +99,19 @@ speakers:
     role: Software Developer
     country: SA
     bio: >
-        Simba is a software developer at ThoughtWorks, based in the Johannesburg office. He has 
-        contributed to educational software in South Africa that visualises Matric results across 
-        the country. With 7 months experience in software development, Simba is keen to learn and 
-        enjoys working with technology that makes a difference in society. He is also an avid 
+        Simba is a software developer at ThoughtWorks, based in the Johannesburg office. He has
+        contributed to educational software in South Africa that visualises Matric results across
+        the country. With 7 months experience in software development, Simba is keen to learn and
+        enjoys working with technology that makes a difference in society. He is also an avid
         gamer with a thirst for general knowledge.
     abstract: >
-        Performance improvements in modern browsers coupled with the acceptance of javascript 
-        as a first class language gives us a compelling platform to move a bulk of what used 
-        to be done earlier on the server side to the client. This allows the distribution of 
-        processing power and removing some obvious bottlenecks on the server side. This talk 
-        aims to share our experience with the advantages of using this approach along with its 
-        limitations. We talk about single page web applications, client side consumption of 
-        RESTful services, performance gotchas, single code base for designers and developers 
+        Performance improvements in modern browsers coupled with the acceptance of javascript
+        as a first class language gives us a compelling platform to move a bulk of what used
+        to be done earlier on the server side to the client. This allows the distribution of
+        processing power and removing some obvious bottlenecks on the server side. This talk
+        aims to share our experience with the advantages of using this approach along with its
+        limitations. We talk about single page web applications, client side consumption of
+        RESTful services, performance gotchas, single code base for designers and developers
         and its effect on building a portable client and scalable server code.
 
   aslam_khan:
@@ -193,7 +193,7 @@ speakers:
         sending millions of notifications simultaneously. Notification hubs take a
         different approach: they're based on pub/sub and designed to elastically
         scale. They provide message templates for personalization and a single API
-        across iOS, Android and Windows. 
+        across iOS, Android and Windows.
 
   chris_bray: {bio: '', company: Facebook, name: Chris Bray, role: 'Production Engineer', title: ''}
 
@@ -259,7 +259,7 @@ speakers:
     slides: https://speakerdeck.com/dalehumby/scalability-and-hardware-at-nomanini
     video: wmMofn2dKhA
 
-  deon_moolman: 
+  deon_moolman:
     name: Deon Moolman
     company: Yuppiechef
     role: Senior Software Developer
@@ -696,28 +696,172 @@ speakers_5: [ wim_godden ]
 highlighted: [ niklas_gustavsson, deon_moolman, clinton_gormley, chris_bray ]
 nonhighlighted: [ aslam_khan, beat_schwegler_2014 ]
 sponsors:
-  baseline:
-    - name: Rackspace
-    - name: Facebook
-    - name: Google
-    - name: Amazon
-    - name: Oracle
-  spotlight:
-    - name: Facebook
-      about: Making the world more open and connected
-    - name: Google
-      about: Organizing the world’s information and making it universally accessible and useful
-  presence:
-    - name: Amazon
-  coffee:
-    - name: Elasticsearch
-    - name: Mxit
-  student:
-    - name: 
-  event:
-    - name: Key Connections
-    - name: Facebook
-    - name: Amazon
+  praekelt:
+    website_text: >
+      Praekelt Foundation builds open source, scalable mobile technologies and solutions to improve the health and wellbeing of people living in poverty. Our programmes have reached over 50 million people across 15 countries in sub-Saharan Africa
+  '2go':
+    website_text: >
+      2go is a mobile messenger that allows you to communicate for free with your
+      friends. It is a network of millions of people where you can setup your
+      profile, meet new people, talk to friends, share files and pictures!
+      </p>
+      <p>
+      2go allows you to communicate with your friends for free. 2go does require a
+      network connection which your mobile operator charges you a small amount
+      for, but this costs much less than it would cost to send an SMS.
+      </p>
+      <p>
+      With your mobile phone, visit <a href='http://wap.2go.im'>wap.2go.im</a>
+      where you will need to fill in a very simple registration form. Your phone
+      will then download the 2go application and you can begin chatting!
+  amazon:
+    website_text: >
+      Amazon has a thriving technical centre in Cape Town! This is the centre
+      where <a href='http://ec2.amazonaws.com/'>Amazon Elastic Compute Cloud
+      (Amazon EC2)</a> was first created in 2005. In 2006 the Cape Town team
+      launched <a href='http://ec2.amazonaws.com/'>Amazon EC2</a>. In 2012,
+      Amazon started building an <a href='http://aws.amazon.com/premiumsupport/'>
+      AWS Support</a> group based in Cape Town.
+      </p>
+      <p>
+      In addition, our Kumo Development team owns the services and user
+      interfaces required to deliver various AWS Support features to our
+      customers. The team builds applications that encompass a variety of
+      technical areas such as Information Retrieval, Data Mining, and building
+      scalable systems that close the last mile gap with AWS Customers like
+      Netflix. An example application is
+      <a href='https://aws.amazon.com/premiumsupport/trustedadvisor/'>AWS Trusted
+      Advisor</a> which performs data mining for customers and gives precise
+      recommendation on cost optimization, security, fault tolerance and
+      performance. In this team you will work across all AWS Customers from big &
+      diverse enterprises to small customers as they move their infrastructure to
+      the cloud. You will get firsthand experience interacting across all AWS
+      services such as EC2, RDS, S3, Redshift, DynamoDB and others. Being an
+      innovative solution in the industry, first of its kind for cloud computing,
+      complex AWS Services and immense amounts of data makes our problems very
+      challenging.
+      </p>
+      <p>
+      The Cape Town <a href='http://aws.amazon.com/premiumsupport/'>AWS
+      Support</a> team provides global technical support to external customers,
+      helping them build mission-critical applications using AWS services such as
+      EC2, S3 and RDS.
+      </p>
+      <p>
+      The Amazon Development Centre in Cape Town, South Africa is seeking a
+      number of talented software engineers, system engineers, technical managers
+      and team leads who can work in an environment that is technically
+      demanding, agile and believes in delivering high quality products to our
+      customers. You will be surrounded by people that are wickedly smart and
+      passionate about cloud computing..  If you are interested in any of these
+      vacancies, please go to the <a
+      href='http://www.adccpt.co.za/?page_id=19'>Job opportunities</a> page.
+  elasticsearch:
+    website_text: >
+      Elasticsearch is on a mission to make massive amounts of data usable for
+      businesses everywhere by delivering the world’s most advanced search and
+      analytics engine available. With a laser focus on achieving the best user
+      experience imaginable, the Elasticsearch ELK stack - comprised of
+      Elasticsearch, Logstash, and Kibana - has become one of the most popular
+      and rapidly growing open source solutions in the market. To learn more,
+      visit <a href='http://elasticsearch.com'>elasticsearch.com</a>.
+  facebook:
+    website_text: >
+      Founded in 2004, Facebook’s mission is to make the world more open and
+      connected. People use Facebook to stay connected with friends and family, to
+      discover what’s going on in the world, and to share and express what matters
+      to them.
+      </p>
+      <p>
+      Connecting everyone, understanding the world, and building the knowledge
+      economy are huge technical challenges. Engineers at Facebook move fast and
+      push code everyday to build infrastructure and products that provide global,
+      real-time, and interconnected services for the 1.2 billion people who visit
+      Facebook every month.
+  google:
+    website_text: >
+      Google’s innovative search technologies connect millions of people around
+      the world with information every day. Founded in 1998 by Stanford Ph.D.
+      students Larry Page and Sergey Brin, Google today is a top web property in
+      all major global markets. Google's mission in Africa is to make the internet
+      an integral part of everyday life in Africa, by increasing its relevance and
+      usefulness, eliminating access barriers for potential users, and developing
+      products that are meaningful for the countries in the region. Google is
+      headquartered in Silicon Valley with offices throughout the Americas,
+      Europe, Africa and Asia.
+      </p>
+      <p>
+      For more information, visit <a href='http://developers.google.com'>
+      developers.google.com</a>, and follow us on
+      <a href='https://plus.google.com/+GoogleDevelopers'>Google+</a>
+  hetzner:
+    website_text: >
+      At Hetzner South Africa we are passionate about web hosting – it’s our
+      core business and it’s what we do best. By consistently delivering
+      excellent service and cost effective web hosting, dedicated servers and
+      custom hosting solutions, Hetzner has exponentially grown its market
+      share, making it the leading web hosting company in South Africa.
+      </p>
+      <p>
+      Inspired by our brand promise ‘Trusted in Hosting’, we focus on providing
+      efficient, sustainable business models, quality service and customer
+      satisfaction. A key contributor to our success is our people. We aim for
+      our teams to manage themselves rather than rely on several layers of
+      hierarchy. We want to give our people the freedom to explore, innovate and
+      create. We recognise that our customers expect reliability and good value
+      from us and it remains our ongoing commitment to earn and retain their
+      trust.
+  key_connections:
+    website_text: >
+  mxit:
+    website_text: >
+      Mxit is a South African-created mobile social network. It has
+      7.4 million monthly active users, of which 6.5 million are in South
+      Africa. It works on over 8,000 different handsets and mobile devices,
+      including tablets. Mxit also embraces the capabilities of each
+      platform to offer an immersive chat experience that feels native to
+      each one.  By acting as a gateway to functions not otherwise available
+      on feature phones, Mxit affordably bridges the gap between feature and
+      smart phones.  Mxit is based in Stellenbosch, South Africa.
+  oracle:
+    website_text: >
+      Oracle Cloud Development Centre - Cape Town
+      At the Oracle Cloud Development Centre in Cape Town, we build the
+      core technology on which all Oracle’s cloud offerings are based,
+      alongside our sister team in Santa Clara, Silicon Valley. Key focus
+      areas include scale, performance and reliability. Oracle is committed
+      to Cloud and we are growing an ace engineering team to accomplish our
+      ambitious cloud goals. If you're interested in joining out team,
+      please get in touch.
+      </p>
+      <p>
+      Contact Syed Suhaib - syed.suhaib@oracle.com
+  rackspace:
+    website_text: >
+  rsaweb:
+    website_text: >
+      Established in 2001, we have extensive industry experience. Our commitment
+      to customer service excellence and our in depth technical understanding,
+      allows us to retain partnerships with some of SA's leading brands from a
+      wide array of sectors.
+      </p>
+      <p>
+      We take pride in offering our clients the best in service and support, and
+      our SLA's ensure all clients absolute peace-of-mind, with a 24-hour
+      help-desk fully supporting and monitoring all services.
+      </p>
+      <p>
+      We have invested heavily in our infrastructure and have a strong presence
+      in South Africa and Internationally with data centres in Johannesburg and
+      Cape Town, and POPs (points of presence) in London, Europe and the USA.
+      </p>
+      <p>
+      We believe that great technology doesn't have to be complex and expensive;
+      our motto 'technology meets life' implies just that. We bridge the gap
+      between IT innovation and everyday life - and our team take pride in doing
+      this every day.
+
+
 programme:
   - day: Wednesday Evening, 9th April
     schedule:
@@ -801,5 +945,4 @@ programme:
       - time: 5:00 pm - 11:00 pm
         event: Party
         description: >
-            Closing party, with food and beer sponsored.  
-
+            Closing party, with food and beer sponsored.

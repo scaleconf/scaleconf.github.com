@@ -522,10 +522,10 @@ dd {
   .dl-horizontal dd:after {
     content: " ";
     /* 1 */
-  
+
     display: table;
     /* 2 */
-  
+
   }
   .dl-horizontal dd:after {
     clear: both;
@@ -534,10 +534,10 @@ dd {
   .dl-horizontal dd:after {
     content: " ";
     /* 1 */
-  
+
     display: table;
     /* 2 */
-  
+
   }
   .dl-horizontal dd:after {
     clear: both;
@@ -5386,6 +5386,9 @@ ul.scaleconf-heads li {
   background-image: url(../img/layout/bullet.png);
   background-position: 0px;
   background-repeat: no-repeat;
+}
+div.sponsor-text p {
+  font-size:1.1em;
 }
 ul.scaleconf-heads {
   margin-left: 13px;
