@@ -1,36 +1,18 @@
 ---
 layout: responsive
 ---
+{% assign sponsor = site.sponsors[page.name] %}
 <div class="row white-background">
     <div class="col-md-12">
-        <h1>{{ page.name }}</h1>
     </div>
 </div>
 <div class="row white-background">
-    <div class="col-xs-12 col-md-12">
-
-        <div id="pic">
-            <img class="profile" src="/img/sponsors/{{ page.name }}.large.png" alt="{{ page.name }}"/>
-        </div>
-
-        <p id="sponsor-details">
-        {{ sponsor.name }}
-        </p>
-
-        <p>
-            <a href="{{ page.website }}">{{ page.website }}</a>
-        </p>
-
-        <div id="bio">
-            <p class='tagline'>{{ page.tagline }}</p>
-            {% for section in page.sections %}
-            <h4>{{ section.heading }}</h4>
-            <p>
-                {{ section.text }}
-           </p>
-           {% endfor %}
-        </div>
-
+    <div class="col-xs-12 col-md-8">
+        <img class="img-responsive pull-left" style="margin-right: 20px;" src="/img/sponsors/{{ page.name }}.large.png" alt="{{ sponsor.name }}"/>
     </div>
 </div>
-
+<div class="row white-background">
+    <div class="col-xs-12 col-md-8 sponsor-text">
+        <p> {{ sponsor.website_text }} </p>
+    </div>
+</div>
