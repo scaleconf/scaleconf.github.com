@@ -195,7 +195,18 @@ speakers:
         scale. They provide message templates for personalization and a single API
         across iOS, Android and Windows.
 
-  chris_bray: {bio: '', company: Facebook, name: Chris Bray, role: 'Production Engineer', title: ''}
+  chris_bray:
+    bio: >
+        is a Production Engineer at Facebook. He works with large scale
+        software deployments running on, amongst other things, CentOS, Chef,
+        Python, designer drip coffee, Ruby, RedBull, vi, bash, cable ties and
+        duct tape, using a large infrastructure of Facebook's OpenCompute
+        hardware.
+    company: Facebook
+    name: Chris Bray
+    role: Production Engineer
+    title:
+    abstract:
 
   clinton_gormley:
     name: Clinton Gormley
