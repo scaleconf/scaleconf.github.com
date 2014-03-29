@@ -908,9 +908,9 @@ programme:
       - time: 11:10 am - 11:40 am
         event: Break
         description: Mid-morning tea & coffee with scones and biscuits
-      - time: 11:40 am - 12:25 am
+      - time: 11:40 am - 12:25 pm
         speaker: beat_schwegler_2014
-      - time: 12:30 am - 2:00 pm
+      - time: 12:30 pm - 2:00 pm
         event: Lunch
         description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
       - time: 2:00 pm - 2:45 pm
@@ -945,9 +945,9 @@ programme:
       - time: 10:55 am - 11:25 am
         event: Break
         description: Mid-morning tea & coffee with scones and biscuits
-      - time: 11:25 am - 12:10 am
+      - time: 11:25 am - 12:10 pm
         speaker: chris_bray
-      - time: 12:15 am - 1:45 pm
+      - time: 12:15 pm - 1:45 pm
         event: Lunch
         description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
       - time: 1:45 pm - 2:30 pm
