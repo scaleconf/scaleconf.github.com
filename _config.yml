@@ -205,8 +205,19 @@ speakers:
     company: Facebook
     name: Chris Bray
     role: Production Engineer
-    title:
-    abstract:
+    title: Looking back on “Look Back” videos
+    abstract: >
+        For Facebook’s 10 year anniversary, we produced over 700 million
+        personalized “look back” videos. Without any marketing or promotions
+        within Facebook, these videos were shared by hundreds of millions
+        of people in the first two days. To make this happen, we scanned
+        through billions of years of timelines and pre-rendered petabytes of
+        videos. I’ll talk about how the videos were rendered and the systems
+        used to scale it, how we managed to do this in just 3 weeks, including
+        a few days for the infrastructure just to compute and store the output,
+        and how Facebook's company culture enabled a group of relative
+        strangers to band together and iterate quickly on solutions for this
+        frankly herculean project.
 
   clinton_gormley:
     name: Clinton Gormley
