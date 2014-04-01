@@ -40,9 +40,30 @@ speakers:
         swimming pool or squash court every now and then. Simon is currently the lead
         developer of Vumi, a scalable mobile messaging platform developed by the Praekelt
         Foundation and recently organized the first two PyConZA conferences.
-    title: Coming soon
+    title: Scaling Happiness
     abstract: >
-        Coming soon
+        Simon and Ben will discuss their experience building Vumi, an open source mobile 
+        messaging platform that's built for scale. The talk will explore how to create an 
+        environment where team members can effectively build and manage a complex software 
+        product, while existing in a challenging client-driven services organization.
+
+  ben_adlard:
+    name: Ben Adlard
+    company: Praekelt
+    role: Product Owner
+    country: SA
+    bio: >
+        Ben Adlard creates environments that enable talented people to build cool stuff. 
+        Recently back in South Africa after a 14-year stint in the States, Ben now runs 
+        product for Vumi, an open source mobile messaging platform, owned by the Praekelt 
+        Foundation. When not on IRC, Ben's typically trying to keep up with his two (soon 
+        to be three!) kids.
+    title: Scaling Happiness
+    abstract: >
+        Simon and Ben will discuss their experience building Vumi, an open source mobile 
+        messaging platform that's built for scale. The talk will explore how to create an 
+        environment where team members can effectively build and manage a complex software 
+        product, while existing in a challenging client-driven services organization.
 
   wim_godden:
     name: Wim Godden
@@ -116,7 +137,6 @@ speakers:
 
   aslam_khan:
     name: Aslam Khan
-    company: Role
     role: Software Developer
     twitter: aslamkhn
     bio: >
@@ -709,12 +729,12 @@ speakers:
 
 
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
-all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden ]
+all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard ]
 speakers_1: [ niklas_gustavsson, aslam_khan, krzysztof_debski ]
 speakers_2: [ chris_bray, deon_moolman, shai_rosenfeld ]
 speakers_3: [ clinton_gormley, beat_schwegler_2014, dustin_whittle ]
 speakers_4: [ zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross ]
-speakers_5: [ wim_godden ]
+speakers_5: [ wim_godden, ben_adlard ]
 highlighted: [ niklas_gustavsson, deon_moolman, clinton_gormley, chris_bray ]
 nonhighlighted: [ aslam_khan, beat_schwegler_2014 ]
 sponsors:
