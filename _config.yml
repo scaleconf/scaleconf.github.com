@@ -572,7 +572,8 @@ speakers:
     bio: >
         is a backend engineer at Spotify, open
         source hacker, mountain biker and father of two awesome kids. At Spotify, he
-        mostly works on the audio pipeline. Niklas keeps a badly updated blog at http://protocol7.com
+        mostly works on the audio pipeline. Niklas keeps a badly updated blog at 
+        <a href="http://protocol7.com">http://protocol7.com</a>
     company: Spotify
     role: Backend Engineer
     name: Niklas Gustavsson
