@@ -316,9 +316,12 @@ speakers:
         one hand and soldering iron in the other.
     title: On a scale of one
     abstract: >
-        An architectural look at where Yuppiechef has come from and how we're dealing
-        with our scaling requirements &mdash; what worked and, more entertainingly, what
-        crashed and burned.
+        Yuppiechef delights people daily by delivering stunning products, handwritten 
+        cards and quality service. This is an architectural look at where Yuppiechef 
+        has come from and how we're dealing with rapid growth while still keeping our 
+        top-notch service levels. We'll explore some of our experiences and highlight 
+        a couple of key pieces that are helping us to scale with very limited resources.
+        
 
   daniel_fiske:
     name: Daniel Fiske
