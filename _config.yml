@@ -233,6 +233,8 @@ speakers:
     twitter: cloudbeatsch
     company: Microsoft
     name: Beat Schwegler
+    role: Director, Platform Strategy Group
+    country: Switzerland
     title: Scaling push notifications to millions of devices
     abstract: >
         Sending  notifications to millions of devices is quite challenging. Using
