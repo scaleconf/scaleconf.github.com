@@ -75,6 +75,10 @@ speakers:
         environment where team members can effectively build and manage a complex software 
         product, while existing in a challenging client-driven services organization.
 
+  simon_and_ben:
+    name: Simon Cross and Ben Adlard
+    title: Scaling Happiness
+
   ben_adlard:
     name: Ben Adlard
     company: Praekelt
@@ -985,12 +989,12 @@ programme:
         description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
       - time: 1:30 pm - 2:15 pm
         speaker: krzysztof_debski
-      - time: 2:15 pm - 2:35 pm
+      - time: 2:15 pm - 2:30 pm
         event: Break
         description: Afternoon tea & coffee with biscuits
-      - time: 2:35 pm - 3:20 pm
-        speaker: simon_cross
-      - time: 3:20 pm - 3:35 pm
+      - time: 2:30 pm - 3:15 pm
+        speaker: simon_and_ben
+      - time: 3:15 pm - 3:35 pm
         event: Break
         description: A quick changeover & pee-break
       - time: 3:35 pm - 4:20 pm
