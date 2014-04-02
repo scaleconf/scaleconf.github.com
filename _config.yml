@@ -20,6 +20,33 @@ navigation:
 - text: Videos
   url: /videos
 speakers:
+  craig_robinson:
+    name: Craig Robinson
+    company: Google
+    role: Senior Software Engineer
+    country: USA
+    bio: >
+        is Senior Software engineer on the Street View team at Google. After
+        finishing a PhD in control theory (with a fair dose of CS) he spent
+        some time developing <a
+        href="http://news.discovery.com/tech/videos/tech-green-light-for-robotic-roads.htm">wireless
+        vehicle to vehicle communication</a> applications for Mercedes-Benz
+        Research and Development.  In 2009 he joined Street View and started
+        work on estimating panorama location and orientation using onboard
+        sensors (GPS, IMU, laser, wheels), computer vision (feature matches,
+        loop closing), map matching and other hackery. He enjoys the fact that
+        it's a multi-dimensional project that is both enabled and challenged by
+        its scale. When he is not enjoying it, he goes running.
+    title: Street View Scale
+    abstract: >
+        Google Street View began with a single video camera hand held by Larry
+        Page. It launched in 2007 and covered 5 cities. Since then it has grown
+        to span 7 continents and over 50 countries with 5 million unique miles
+        driven and 20 petabytes of imagery captured. Collections now include
+        indoor, underwater, snowmobile, backpack and bicycle. The scaling up
+        has been a logistics and a software challenge and we will cover some of
+        the highlights, low lights, software architectures and lessons learned
+        in Street View and Google at large.
   simon_cross:
     name: Simon Cross
     company: Praekelt
