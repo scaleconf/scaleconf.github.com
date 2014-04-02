@@ -20,6 +20,33 @@ navigation:
 - text: Videos
   url: /videos
 speakers:
+  craig_robinson:
+    name: Craig Robinson
+    company: Google
+    role: Senior Software Engineer
+    country: USA
+    bio: >
+        is Senior Software engineer on the Street View team at Google. After
+        finishing a PhD in control theory (with a fair dose of CS) he spent
+        some time developing <a
+        href="http://news.discovery.com/tech/videos/tech-green-light-for-robotic-roads.htm">wireless
+        vehicle to vehicle communication</a> applications for Mercedes-Benz
+        Research and Development.  In 2009 he joined Street View and started
+        work on estimating panorama location and orientation using onboard
+        sensors (GPS, IMU, laser, wheels), computer vision (feature matches,
+        loop closing), map matching and other hackery. He enjoys the fact that
+        it's a multi-dimensional project that is both enabled and challenged by
+        its scale. When he is not enjoying it, he goes running.
+    title: Street View Scale
+    abstract: >
+        Google Street View began with a single video camera hand held by Larry
+        Page. It launched in 2007 and covered 5 cities. Since then it has grown
+        to span 7 continents and over 50 countries with 5 million unique miles
+        driven and 20 petabytes of imagery captured. Collections now include
+        indoor, underwater, snowmobile, backpack and bicycle. The scaling up
+        has been a logistics and a software challenge and we will cover some of
+        the highlights, low lights, software architectures and lessons learned
+        in Street View and Google at large.
   simon_cross:
     name: Simon Cross
     company: Praekelt
@@ -206,6 +233,8 @@ speakers:
     twitter: cloudbeatsch
     company: Microsoft
     name: Beat Schwegler
+    role: Director, Platform Strategy Group
+    country: Switzerland
     title: Scaling push notifications to millions of devices
     abstract: >
         Sending  notifications to millions of devices is quite challenging. Using
@@ -636,6 +665,7 @@ speakers:
   shai_rosenfeld:
     name: Shai Rosenfeld
     company: EngineYard
+    role: Engineer
     twitter: shaiguitar
     blog: http://shairosenfeld.com/
     bio: >
@@ -749,12 +779,12 @@ speakers:
 
 
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
-all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard ]
+all_speakers: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
 speakers_1: [ niklas_gustavsson, aslam_khan, krzysztof_debski ]
 speakers_2: [ chris_bray, deon_moolman, shai_rosenfeld ]
 speakers_3: [ clinton_gormley, beat_schwegler_2014, dustin_whittle ]
 speakers_4: [ zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross ]
-speakers_5: [ wim_godden, ben_adlard ]
+speakers_5: [ wim_godden, ben_adlard, craig_robinson ]
 highlighted: [ niklas_gustavsson, deon_moolman, clinton_gormley, chris_bray ]
 nonhighlighted: [ aslam_khan, beat_schwegler_2014 ]
 sponsors:
@@ -945,26 +975,28 @@ programme:
         description: A quick changeover & pee-break
       - time: 10:25 am - 11:10 am
         speaker: wim_godden
-      - time: 11:10 am - 11:40 am
+      - time: 11:10 am - 11:30 am
         event: Break
         description: Mid-morning tea & coffee with scones and biscuits
-      - time: 11:40 am - 12:25 pm
+      - time: 11:30 am - 12:15 pm
         speaker: beat_schwegler_2014
-      - time: 12:30 pm - 2:00 pm
+      - time: 12:15 pm - 1:30 pm
         event: Lunch
         description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
-      - time: 2:00 pm - 2:45 pm
+      - time: 1:30 pm - 2:15 pm
         speaker: krzysztof_debski
-      - time: 2:45 pm - 3:15 pm
+      - time: 2:15 pm - 2:35 pm
         event: Break
         description: Afternoon tea & coffee with biscuits
-      - time: 3:15 pm - 4:00 pm
+      - time: 2:35 pm - 3:20 pm
         speaker: simon_cross
-      - time: 4:00 pm - 4:15 pm
+      - time: 3:20 pm - 3:35 pm
         event: Break
         description: A quick changeover & pee-break
-      - time: 4:15 pm - 5:00 pm
+      - time: 3:35 pm - 4:20 pm
         speaker: clinton_gormley
+      - time: 4:20 pm - 5:05 pm
+        speaker: craig_robinson
   - day: Thursday evening, 10th April
     schedule:
       - time: 5:00 pm - 11:00 pm
@@ -987,21 +1019,24 @@ programme:
         description: Mid-morning tea & coffee with scones and biscuits
       - time: 11:25 am - 12:10 pm
         speaker: chris_bray
-      - time: 12:15 pm - 1:45 pm
+      - time: 12:15 pm - 1:30 pm
         event: Lunch
         description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
-      - time: 1:45 pm - 2:30 pm
+      - time: 1:30 pm - 2:15 pm
         speaker: dustin_whittle
-      - time: 2:30 pm - 3:00 pm
+      - time: 2:15 pm - 2:40 pm
         event: Break
         description: Afternoon tea & coffee with biscuits
-      - time: 3:00 pm - 3:45 pm
+      - time: 2:40 pm - 3:25 pm
         speaker: zabil_and_simba
-      - time: 3:45 pm - 4:00 pm
+      - time: 3:25 pm - 3:40 pm
         event: Break
         description: A quick changeover & pee-break
-      - time: 4:00 pm - 4:45 pm
+      - time: 3:40 pm - 4:25 pm
         speaker: aslam_khan
+      - time: 4:25 pm - 4:40 pm
+        event: Closing
+        description: Final remarks
   - day: Friday evening, 11th April
     schedule:
       - time: 5:00 pm - 11:00 pm
