@@ -1016,21 +1016,24 @@ programme:
         description: Mid-morning tea & coffee with scones and biscuits
       - time: 11:25 am - 12:10 pm
         speaker: chris_bray
-      - time: 12:15 pm - 1:45 pm
+      - time: 12:15 pm - 1:30 pm
         event: Lunch
         description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
-      - time: 1:45 pm - 2:30 pm
+      - time: 1:30 pm - 2:15 pm
         speaker: dustin_whittle
-      - time: 2:30 pm - 3:00 pm
+      - time: 2:15 pm - 2:40 pm
         event: Break
         description: Afternoon tea & coffee with biscuits
-      - time: 3:00 pm - 3:45 pm
+      - time: 2:40 pm - 3:25 pm
         speaker: zabil_and_simba
-      - time: 3:45 pm - 4:00 pm
+      - time: 3:25 pm - 3:40 pm
         event: Break
         description: A quick changeover & pee-break
-      - time: 4:00 pm - 4:45 pm
+      - time: 3:40 pm - 4:25 pm
         speaker: aslam_khan
+      - time: 4:25 pm - 4:40 pm
+        event: Closing
+        description: Final remarks
   - day: Friday evening, 11th April
     schedule:
       - time: 5:00 pm - 11:00 pm
