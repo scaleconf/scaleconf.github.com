@@ -70,9 +70,9 @@ speakers:
         Foundation and recently organized the first two PyConZA conferences.
     title: Scaling Happiness
     abstract: >
-        Simon and Ben will discuss their experience building Vumi, an open source mobile 
-        messaging platform that's built for scale. The talk will explore how to create an 
-        environment where team members can effectively build and manage a complex software 
+        Simon and Ben will discuss their experience building Vumi, an open source mobile
+        messaging platform that's built for scale. The talk will explore how to create an
+        environment where team members can effectively build and manage a complex software
         product, while existing in a challenging client-driven services organization.
 
   simon_and_ben:
@@ -85,16 +85,16 @@ speakers:
     role: Product Owner
     country: SA
     bio: >
-        creates environments that enable talented people to build cool stuff. 
-        Recently back in South Africa after a 14-year stint in the States, Ben now runs 
-        product for Vumi, an open source mobile messaging platform, owned by the Praekelt 
-        Foundation. When not on IRC, Ben's typically trying to keep up with his two (soon 
+        creates environments that enable talented people to build cool stuff.
+        Recently back in South Africa after a 14-year stint in the States, Ben now runs
+        product for Vumi, an open source mobile messaging platform, owned by the Praekelt
+        Foundation. When not on IRC, Ben's typically trying to keep up with his two (soon
         to be three!) kids.
     title: Scaling Happiness
     abstract: >
-        Simon and Ben will discuss their experience building Vumi, an open source mobile 
-        messaging platform that's built for scale. The talk will explore how to create an 
-        environment where team members can effectively build and manage a complex software 
+        Simon and Ben will discuss their experience building Vumi, an open source mobile
+        messaging platform that's built for scale. The talk will explore how to create an
+        environment where team members can effectively build and manage a complex software
         product, while existing in a challenging client-driven services organization.
 
   wim_godden:
@@ -351,12 +351,12 @@ speakers:
         one hand and soldering iron in the other.
     title: On a scale of one
     abstract: >
-        Yuppiechef delights people daily by delivering stunning products, handwritten 
-        cards and quality service. This is an architectural look at where Yuppiechef 
-        has come from and how we're dealing with rapid growth while still keeping our 
-        top-notch service levels. We'll explore some of our experiences and highlight 
+        Yuppiechef delights people daily by delivering stunning products, handwritten
+        cards and quality service. This is an architectural look at where Yuppiechef
+        has come from and how we're dealing with rapid growth while still keeping our
+        top-notch service levels. We'll explore some of our experiences and highlight
         a couple of key pieces that are helping us to scale with very limited resources.
-        
+
 
   daniel_fiske:
     name: Daniel Fiske
@@ -489,16 +489,16 @@ speakers:
         sailing, diving, golfing, and travelling around the world.
     title: Performance Testing Crash Course
     abstract: >
-        The performance of your application affects your business more than you might think. 
-        Top engineering organizations think of performance not as a nice-to-have, but as a 
-        crucial feature of their product. Those organizations understand that performance 
-        has a direct impact on user experience and, ultimately, their bottom line. Unfortunately, 
-        most engineering teams do not regularly test the performance and scalability of 
-        their infrastructure. Dustin Whittle shares the latest performance testing tools 
-        and insights into why your team should add performance testing to the development 
-        process. Learn how to evaluate performance and scalability on the server-side and 
-        the client-side with tools like Siege, Bees with Machine Guns, Google PageSpeed, 
-        WBench, and more. Take back an understanding of how to automate performance and 
+        The performance of your application affects your business more than you might think.
+        Top engineering organizations think of performance not as a nice-to-have, but as a
+        crucial feature of their product. Those organizations understand that performance
+        has a direct impact on user experience and, ultimately, their bottom line. Unfortunately,
+        most engineering teams do not regularly test the performance and scalability of
+        their infrastructure. Dustin Whittle shares the latest performance testing tools
+        and insights into why your team should add performance testing to the development
+        process. Learn how to evaluate performance and scalability on the server-side and
+        the client-side with tools like Siege, Bees with Machine Guns, Google PageSpeed,
+        WBench, and more. Take back an understanding of how to automate performance and
         load testing and evaluate the impact it has on performance and your business.
 
   krzysztof_debski:
@@ -623,7 +623,7 @@ speakers:
     bio: >
         is a backend engineer at Spotify, open
         source hacker, mountain biker and father of two awesome kids. At Spotify, he
-        mostly works on the audio pipeline. Niklas keeps a badly updated blog at 
+        mostly works on the audio pipeline. Niklas keeps a badly updated blog at
         <a href="http://protocol7.com">http://protocol7.com</a>
     company: Spotify
     role: Backend Engineer
@@ -909,16 +909,55 @@ sponsors:
       trust.
   key_connections:
     website_text: >
+      Key Connections is  a technology recruitment company that specialises in
+      placing developers throughout South Africa. We’re not like other “tech
+      recruiters” who don’t know the difference between "Java" and "JavaScript"!
+      </p>
+      <p>
+      We work with technology focused companies that treat their developers well, and
+      build cool stuff. We have placed developers in starts ups, SME's and some of the
+      world's largest tech companies.
+      </p>
+      <p>
+      If you’re looking to recruit a team of developers we’d love to hear from you.
+      </p>
+      <p>
+      We have clients looking for developers across all major programming languages.
+      <a href='http://jobs.keyconnections.co.za/keyconnections/Search/Results/All/1'>Check out some of our recent jobs.</a>
+      </p>
   mxit:
     website_text: >
-      Mxit is a South African-created mobile social network. It has
-      7.4 million monthly active users, of which 6.5 million are in South
-      Africa. It works on over 8,000 different handsets and mobile devices,
-      including tablets. Mxit also embraces the capabilities of each
-      platform to offer an immersive chat experience that feels native to
-      each one.  By acting as a gateway to functions not otherwise available
-      on feature phones, Mxit affordably bridges the gap between feature and
-      smart phones.  Mxit is based in Stellenbosch, South Africa.
+      <b>About Mxit</b>
+      Mxit is South Africa’s home-grown mobile social network. At Mxit, we know that
+      conversation is at  the heart of everything. When people share rich
+      conversations, they move forward – it’s how we  connect, discover and grow.
+      <p>
+      <b>Key features include:</b>
+      </p>
+      <p><i>Super Chat</i></p>
+      <p>
+      Mxit works on almost any phone and tablet, and is tailored to each device. This
+      way, you can  enjoy the richest chat and networking experience possible. Enhance
+      your profile with large cover  pictures, update your status and keep track of
+      your friends in Newsfeed, create multiple profiles  and easily switch between
+      them, and use our cool Backdrop feature to take pictures from your  Photo Stream
+      and drop them into a shared chat background.
+      </p>
+      <p><i>Group Chat</i></p>
+      <p>
+      </p>
+      Our new, more powerful Group Chat lets you speak to up to 50 people at once.
+      Your friends can  easily invite their friends to the chat too, introducing you
+      to more new people across almost every  type of phone. You can easily share
+      photos and sound clips, and with our Chat Tabs, switching  between multiple
+      conversations is so quick, you’ll never miss out.
+      </p>
+      <p><i>Chat Cards</i></p>
+      <p>
+      Super-charge your chat! Our unique Chat Cards allows you to grab web content,
+      drop in videos,  share music tracks or mix up your chat with jokes and pickup
+      lines to instantly spark new  conversations.
+      </p>
   oracle:
     website_text: >
       Oracle Cloud Development Centre - Cape Town
@@ -956,7 +995,72 @@ sponsors:
       our motto 'technology meets life' implies just that. We bridge the gap
       between IT innovation and everyday life - and our team take pride in doing
       this every day.
-
+  microsoft:
+    website_text: >
+      <p>
+      Tech Startups - Avoid Sleepless Nights with Microsoft BizSpark
+      </p>
+      <p>
+      At Microsoft we're big on business and being proudly South African. For decades
+      we've focused on becoming a strategic partner to the growth of this country by
+      championing sustainable development through technology. In the early days our
+      goal was to put a computer on every desk. Today we aim to change the lives of
+      millions by developing products and solutions that people love and businesses
+      need.
+      </p>
+      <p>
+      We firmly believe that access to education and opportunity is the foundation
+      upon which great nations are built. That's why we have invested in South Africa
+      by continually supporting its rapidly emerging SME sector. Individuals who are
+      brave enough to nurture their own creative ideas into platforms for job creation
+      and economic growth should be celebrated. They are the engines that keep our
+      country's economy ticking.
+      </p>
+      <p>
+      With this in mind, we'd like to introduce Microsoft BizSpark.
+      </p>
+      <p>
+      It is important to recognise the role technology startups play as significant
+      contributors to the small enterprise mix. In just a few years businesses of this
+      nature have revolutionised the way the world works by introducing services and
+      platforms that simply did not exist before.
+      </p>
+      <p>
+      To help drive this message forward Microsoft South Africa has initiated the
+      BizSpark programme, a supportive forum that aims to drive the founding and
+      growth of up to 600 technology start ups over the next three years.
+      </p>
+      <p>
+      With assistance from the Jobs Fund we are partnering with South Africa's most
+      inspiring technology SMEs to help facilitate their growth and development. It's
+      a 360° view that centres on you, the startup. BizSpark provides technology,
+      support and a community that is focused on how you work, how you view the world
+      and how you are getting out there to change it.
+      </p>
+      <p>
+      BizSpark offers a comprehensive array of the latest products that are aimed at facilitating growth. Participation gives members the equivalent of an MSDN subscription at no cost. This includes get access to over 900 products such as Windows Azure, Visual Studio, Windows Server and Windows 8. Everything you need to succeed, without the price tag.
+      The tools are just one aspect of the BizSpark approach. Members are also afforded access to Microsoft's Azure cloud platform - eradicating the restrictive costs often associated with hosting servers and purchasing storage capacity as a small business.
+      It's a package designed with technology start-ups in mind. Licensing and hosting fees can be difficult to honour when you're starting out. Microsoft would like to give you the tools needed to build a business without the sleepless nights.
+      Application to the Microsoft BizSpark programme is open to anyone, provided your business complies with certain expectations:
+      </p>
+      <p>
+      <ul>
+        <li>You must be actively engaged in development of a software- based product or service at the core of your current(or intended) business.  </li>
+        <li>The software must add significant and primary functionality to the integrated Microsoft software. You need to own the software you're developing, i.e. you cannot be licensing it.  </li>
+        <li>Your business must be privately held and have been in business for less than five years.  </li>
+        <li>You need to be bringing in less than R5 million in annual revenue. </li>
+      </ul>
+      </p>
+      <p>
+      We know that it's tough out there, but we're with you every step of the way.
+      </p>
+      <p>
+      To find out more visit the BizSpark Portal at <a href='www.bizsparksa.co.za'>www.bizsparksa.co.za</a>
+      </p>
+      <p>
+      To learn more about Microsoft Azure visit our website - <a href='http://aka.ms/azuresa'>aka.ms/azuresa</a>
+      </p>
+      <p>
 
 programme:
   - day: Wednesday Evening, 9th April
