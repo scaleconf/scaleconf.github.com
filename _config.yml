@@ -1065,9 +1065,9 @@ sponsors:
 programme:
   - day: Wednesday Evening, 9th April
     schedule:
-      - time: 6:00 pm - 11:00 pm
+      - time: 5:00 pm - 9:30 pm
         event: Pre-conference drinks
-        description: The opening event will be a sponsored drinks event in the city. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
+        description: Come join us for pre-conference drinks at <a href="http://www.wembleytap.co.za/">the Wembley Tap</a> in Gardens, sponsored by <a href="http://scaleconf.org/sponsors/key_connections">Key Connections</a>. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
   - day: Thursday, 10th April
     schedule:
       - time: 8:00 am - 9:00 am
@@ -1107,9 +1107,9 @@ programme:
         speaker: craig_robinson
   - day: Thursday evening, 10th April
     schedule:
-      - time: 5:00 pm - 11:00 pm
+      - time: 5:30 pm - 10:00 pm
         event: Party
-        description: A sponsored evening event, which will include food and drinks at a local eatery
+        description: Join us at <a href="http://forries.co.za/">the Forrester's Arms</a> for food and drinks, sponsored by <a href="http://scaleconf.org/sponsors/amazon">Amazon Web Services</a>.
   - day: Friday, 11th April
     schedule:
       - time: 8:30 am - 9:00 am
@@ -1150,4 +1150,4 @@ programme:
       - time: 5:00 pm - 11:00 pm
         event: Party
         description: >
-            Closing party, with food and beer sponsored.
+            Join us at the post-conference party at <a href="http://riverclub.co.za/">Player's Restaurant, at the River Club</a> for food and drinks, sponsored by <a href="http://scaleconf.org/sponsors/facebook">Facebook</a>.
