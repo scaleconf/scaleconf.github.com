@@ -1132,14 +1132,14 @@ programme:
         description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
       - time: 1:30 pm - 2:15 pm
         speaker: dustin_whittle
-      - time: 2:15 pm - 2:40 pm
-        event: Break
-        description: Afternoon tea & coffee with biscuits
-      - time: 2:40 pm - 3:25 pm
-        speaker: zabil_and_simba
-      - time: 3:25 pm - 3:40 pm
+      - time: 2:15 pm - 2:35 pm
         event: Break
         description: A quick changeover & pee-break
+      - time: 2:35 pm - 3:20 pm
+        speaker: zabil_and_simba
+      - time: 3:20 pm - 3:40 pm
+        event: Break
+        description: Afternoon tea & coffee with biscuits
       - time: 3:40 pm - 4:25 pm
         speaker: aslam_khan
       - time: 4:25 pm - 4:40 pm
