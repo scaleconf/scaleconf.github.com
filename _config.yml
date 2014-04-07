@@ -70,9 +70,9 @@ speakers:
         Foundation and recently organized the first two PyConZA conferences.
     title: Scaling Happiness
     abstract: >
-        Simon and Ben will discuss their experience building Vumi, an open source mobile 
-        messaging platform that's built for scale. The talk will explore how to create an 
-        environment where team members can effectively build and manage a complex software 
+        Simon and Ben will discuss their experience building Vumi, an open source mobile
+        messaging platform that's built for scale. The talk will explore how to create an
+        environment where team members can effectively build and manage a complex software
         product, while existing in a challenging client-driven services organization.
 
   simon_and_ben:
@@ -85,16 +85,16 @@ speakers:
     role: Product Owner
     country: SA
     bio: >
-        creates environments that enable talented people to build cool stuff. 
-        Recently back in South Africa after a 14-year stint in the States, Ben now runs 
-        product for Vumi, an open source mobile messaging platform, owned by the Praekelt 
-        Foundation. When not on IRC, Ben's typically trying to keep up with his two (soon 
+        creates environments that enable talented people to build cool stuff.
+        Recently back in South Africa after a 14-year stint in the States, Ben now runs
+        product for Vumi, an open source mobile messaging platform, owned by the Praekelt
+        Foundation. When not on IRC, Ben's typically trying to keep up with his two (soon
         to be three!) kids.
     title: Scaling Happiness
     abstract: >
-        Simon and Ben will discuss their experience building Vumi, an open source mobile 
-        messaging platform that's built for scale. The talk will explore how to create an 
-        environment where team members can effectively build and manage a complex software 
+        Simon and Ben will discuss their experience building Vumi, an open source mobile
+        messaging platform that's built for scale. The talk will explore how to create an
+        environment where team members can effectively build and manage a complex software
         product, while existing in a challenging client-driven services organization.
 
   wim_godden:
@@ -351,12 +351,12 @@ speakers:
         one hand and soldering iron in the other.
     title: On a scale of one
     abstract: >
-        Yuppiechef delights people daily by delivering stunning products, handwritten 
-        cards and quality service. This is an architectural look at where Yuppiechef 
-        has come from and how we're dealing with rapid growth while still keeping our 
-        top-notch service levels. We'll explore some of our experiences and highlight 
+        Yuppiechef delights people daily by delivering stunning products, handwritten
+        cards and quality service. This is an architectural look at where Yuppiechef
+        has come from and how we're dealing with rapid growth while still keeping our
+        top-notch service levels. We'll explore some of our experiences and highlight
         a couple of key pieces that are helping us to scale with very limited resources.
-        
+
 
   daniel_fiske:
     name: Daniel Fiske
@@ -489,16 +489,16 @@ speakers:
         sailing, diving, golfing, and travelling around the world.
     title: Performance Testing Crash Course
     abstract: >
-        The performance of your application affects your business more than you might think. 
-        Top engineering organizations think of performance not as a nice-to-have, but as a 
-        crucial feature of their product. Those organizations understand that performance 
-        has a direct impact on user experience and, ultimately, their bottom line. Unfortunately, 
-        most engineering teams do not regularly test the performance and scalability of 
-        their infrastructure. Dustin Whittle shares the latest performance testing tools 
-        and insights into why your team should add performance testing to the development 
-        process. Learn how to evaluate performance and scalability on the server-side and 
-        the client-side with tools like Siege, Bees with Machine Guns, Google PageSpeed, 
-        WBench, and more. Take back an understanding of how to automate performance and 
+        The performance of your application affects your business more than you might think.
+        Top engineering organizations think of performance not as a nice-to-have, but as a
+        crucial feature of their product. Those organizations understand that performance
+        has a direct impact on user experience and, ultimately, their bottom line. Unfortunately,
+        most engineering teams do not regularly test the performance and scalability of
+        their infrastructure. Dustin Whittle shares the latest performance testing tools
+        and insights into why your team should add performance testing to the development
+        process. Learn how to evaluate performance and scalability on the server-side and
+        the client-side with tools like Siege, Bees with Machine Guns, Google PageSpeed,
+        WBench, and more. Take back an understanding of how to automate performance and
         load testing and evaluate the impact it has on performance and your business.
 
   krzysztof_debski:
@@ -623,7 +623,7 @@ speakers:
     bio: >
         is a backend engineer at Spotify, open
         source hacker, mountain biker and father of two awesome kids. At Spotify, he
-        mostly works on the audio pipeline. Niklas keeps a badly updated blog at 
+        mostly works on the audio pipeline. Niklas keeps a badly updated blog at
         <a href="http://protocol7.com">http://protocol7.com</a>
     company: Spotify
     role: Backend Engineer
@@ -911,14 +911,37 @@ sponsors:
     website_text: >
   mxit:
     website_text: >
-      Mxit is a South African-created mobile social network. It has
-      7.4 million monthly active users, of which 6.5 million are in South
-      Africa. It works on over 8,000 different handsets and mobile devices,
-      including tablets. Mxit also embraces the capabilities of each
-      platform to offer an immersive chat experience that feels native to
-      each one.  By acting as a gateway to functions not otherwise available
-      on feature phones, Mxit affordably bridges the gap between feature and
-      smart phones.  Mxit is based in Stellenbosch, South Africa.
+      <b>About Mxit</b>
+      Mxit is South Africa’s home-grown mobile social network. At Mxit, we know that
+      conversation is at  the heart of everything. When people share rich
+      conversations, they move forward – it’s how we  connect, discover and grow.
+      <p>
+      <b>Key features include:</b>
+      </p>
+      <p><i>Super Chat</i></p>
+      <p>
+      Mxit works on almost any phone and tablet, and is tailored to each device. This
+      way, you can  enjoy the richest chat and networking experience possible. Enhance
+      your profile with large cover  pictures, update your status and keep track of
+      your friends in Newsfeed, create multiple profiles  and easily switch between
+      them, and use our cool Backdrop feature to take pictures from your  Photo Stream
+      and drop them into a shared chat background.
+      </p>
+      <p><i>Group Chat</i></p>
+      <p>
+      </p>
+      Our new, more powerful Group Chat lets you speak to up to 50 people at once.
+      Your friends can  easily invite their friends to the chat too, introducing you
+      to more new people across almost every  type of phone. You can easily share
+      photos and sound clips, and with our Chat Tabs, switching  between multiple
+      conversations is so quick, you’ll never miss out.
+      </p>
+      <p><i>Chat Cards</i></p>
+      <p>
+      Super-charge your chat! Our unique Chat Cards allows you to grab web content,
+      drop in videos,  share music tracks or mix up your chat with jokes and pickup
+      lines to instantly spark new  conversations.
+      </p>
   oracle:
     website_text: >
       Oracle Cloud Development Centre - Cape Town
