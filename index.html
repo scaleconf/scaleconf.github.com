@@ -82,9 +82,9 @@ name: Home
                     {% for speaker in site.highlighted %}
                         <a href="/speakers/{{ speaker }}">
                             <div class="col-xs-6 col-md-6">
-                                <img src="/img/speakers/{{ speaker }}.small.jpg" class="img-responsive profile pull-left-margin"><strong>{{ site.speakers[speaker].name }} </strong><br />
-                                {{ site.speakers[speaker].company }}<br />
-                                {{ site.speakers[speaker].title }}
+                                <img src="/img/speakers/{{ speaker }}.small.jpg" class="img-responsive profile pull-left-margin"><strong>{{ site.data.speakers[speaker].name }} </strong><br />
+                                {{ site.data.speakers[speaker].company }}<br />
+                                {{ site.data.speakers[speaker].title }}
                             </div>
                         </a>
                     {% endfor %}
