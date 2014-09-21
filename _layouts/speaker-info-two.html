@@ -1,8 +1,8 @@
 ---
 layout: responsive
 ---
-{% assign speaker_one = site.speakers[page.name_one] %}
-{% assign speaker_two = site.speakers[page.name_two] %}
+{% assign speaker_one = site.data.speakers[page.name_one] %}
+{% assign speaker_two = site.data.speakers[page.name_two] %}
 <div class="row white-background">
     <div class="col-md-12">
         <h1>{{ speaker_one.name }} &amp; {{ speaker_two.name }}</h1>
