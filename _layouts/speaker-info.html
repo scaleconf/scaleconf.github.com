@@ -1,7 +1,7 @@
 ---
 layout: responsive
 ---
-{% assign speaker = site.data.speakers[page.slug] %}
+{% assign speaker = site.data.speakers.bios.[page.slug] %}
 <div class="row white-background">
     <div class="col-md-12">
         <h1>{{ speaker.name }}</h1>

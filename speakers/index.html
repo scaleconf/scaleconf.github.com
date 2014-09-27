@@ -21,19 +21,20 @@ name: Speakers
 </div>
 
 <div class="row white-background">
-    {% for speaker in site.speakers_1 %}
+    {% for speaker in site.data.speakers.speakers_1 %}
+        {% assign bio = site.data.speakers.bios.[speaker] %}
     <div class="col-xs-12 col-md-3">
             
             <div class="box">
-                <a href="/speakers/{{ speaker }}">
+                <a href="/speakers/{{ speaker }}.html">
                 <div class="row">
                     <div class="col-xs-5 col-md-5 gutter-padding-right">
                         <img src="/img/speakers/{{ speaker }}.large.jpg" class="img-responsive profile"> 
                     </div>
                     <div class="col-xs-7 col-md-7 gutter-padding-left">
-                        <h3 class="speaker">{{ site.data.speakers[speaker].name }}</h3>
-                        {{ site.data.speakers[speaker].company }}<br />
-                        {{ site.data.speakers[speaker].role }}
+                        <h3 class="speaker">{{ bio.name }}</h3>
+                        {{ bio.company }}<br />
+                        {{ bio.role }}
                     </div>
                 </div>
                 </a>
@@ -42,19 +43,20 @@ name: Speakers
     {% endfor %}
 </div>
 <div class="row white-background">
-    {% for speaker in site.speakers_2 %}
+    {% for speaker in site.data.speakers.speakers_2 %}
+        {% assign bio = site.data.speakers.bios.[speaker] %}
     <div class="col-xs-12 col-md-3">
             
             <div class="box">
-                <a href="/speakers/{{ speaker }}">
+                <a href="/speakers/{{ speaker }}.html">
                 <div class="row">
                     <div class="col-xs-5 col-md-5 gutter-padding-right">
                         <img src="/img/speakers/{{ speaker }}.large.jpg" class="img-responsive profile"> 
                     </div>
                     <div class="col-xs-7 col-md-7 gutter-padding-left">
-                        <h3 class="speaker">{{ site.data.speakers[speaker].name }}</h3>
-                        {{ site.data.speakers[speaker].company }}<br />
-                        {{ site.data.speakers[speaker].role }}
+                        <h3 class="speaker">{{ bio.name }}</h3>
+                        {{ bio.company }}<br />
+                        {{ bio.role }}
                     </div>
                 </div>
                 </a>
@@ -63,19 +65,20 @@ name: Speakers
     {% endfor %}
 </div>
 <div class="row white-background">
-    {% for speaker in site.speakers_3 %}
+    {% for speaker in site.data.speakers.speakers_3 %}
+        {% assign bio = site.data.speakers.bios.[speaker] %}
     <div class="col-xs-12 col-md-3">
             
             <div class="box">
-                <a href="/speakers/{{ speaker }}">
+                <a href="/speakers/{{ speaker }}.html">
                 <div class="row">
                     <div class="col-xs-5 col-md-5 gutter-padding-right">
                         <img src="/img/speakers/{{ speaker }}.large.jpg" class="img-responsive profile"> 
                     </div>
                     <div class="col-xs-7 col-md-7 gutter-padding-left">
-                        <h3 class="speaker">{{ site.data.speakers[speaker].name }}</h3>
-                        {{ site.data.speakers[speaker].company }}<br />
-                        {{ site.data.speakers[speaker].role }}
+                        <h3 class="speaker">{{ bio.name }}</h3>
+                        {{ bio.company }}<br />
+                        {{ bio.role }}
                     </div>
                 </div>
                 </a>
@@ -84,19 +87,20 @@ name: Speakers
     {% endfor %}
 </div>
 <div class="row white-background">
-    {% for speaker in site.speakers_4 %}
+    {% for speaker in site.data.speakers.speakers_4 %}
+        {% assign bio = site.data.speakers.bios.[speaker] %}
     <div class="col-xs-12 col-md-3">
             
             <div class="box">
-                <a href="/speakers/{{ speaker }}">
+                <a href="/speakers/{{ speaker }}.html">
                 <div class="row">
                     <div class="col-xs-5 col-md-5 gutter-padding-right">
                         <img src="/img/speakers/{{ speaker }}.large.jpg" class="img-responsive profile"> 
                     </div>
                     <div class="col-xs-7 col-md-7 gutter-padding-left">
-                        <h3 class="speaker">{{ site.data.speakers[speaker].name }}</h3>
-                        {{ site.data.speakers[speaker].company }}<br />
-                        {{ site.data.speakers[speaker].role }}
+                        <h3 class="speaker">{{ bio.name }}</h3>
+                        {{ bio.company }}<br />
+                        {{ bio.role }}
                     </div>
                 </div>
                 </a>
@@ -105,19 +109,20 @@ name: Speakers
     {% endfor %}
 </div>
 <div class="row white-background">
-    {% for speaker in site.speakers_5 %}
+    {% for speaker in site.data.speakers.speakers_5 %}
+        {% assign bio = site.data.speakers.bios.[speaker] %}
     <div class="col-xs-12 col-md-3">
             
             <div class="box">
-                <a href="/speakers/{{ speaker }}">
+                <a href="/speakers/{{ speaker }}.html">
                 <div class="row">
                     <div class="col-xs-5 col-md-5 gutter-padding-right">
                         <img src="/img/speakers/{{ speaker }}.large.jpg" class="img-responsive profile"> 
                     </div>
                     <div class="col-xs-7 col-md-7 gutter-padding-left">
-                        <h3 class="speaker">{{ site.data.speakers[speaker].name }}</h3>
-                        {{ site.data.speakers[speaker].company }}<br />
-                        {{ site.data.speakers[speaker].role }}
+                        <h3 class="speaker">{{ bio.name }}</h3>
+                        {{ bio.company }}<br />
+                        {{ bio.role }}
                     </div>
                 </div>
                 </a>
