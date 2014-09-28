@@ -1,14 +1,14 @@
 ---
 layout: responsive
 ---
-{% assign sponsor = site.sponsors[page.name] %}
+{% assign sponsor = site.data.sponsors.profiles[page.slug] %}
 <div class="row white-background">
     <div class="col-md-12">
     </div>
 </div>
 <div class="row white-background">
     <div class="col-xs-12 col-md-8">
-        <img class="img-responsive pull-left" style="margin-right: 20px;" src="/img/sponsors/{{ page.name }}.large.png" alt="{{ sponsor.name }}"/>
+        <img class="img-responsive pull-left" style="margin-right: 20px;" src="/img/sponsors/{{ page.slug }}.large.png" alt="{{ sponsor.name }}"/>
     </div>
 </div>
 <div class="row white-background">

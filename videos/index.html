@@ -20,9 +20,9 @@ name: Video Archive
 <div class="row white-background">
     <div class="col-xs-12 col-md-4">
         <ul class="list-inline">
-            {% for speaker in site.all_speakers_archive %}
+            {% for speaker in site.data.speakers.all_speakers_archive %}
             <li class="box">
-                <a href="/speakers/{{ speaker }}">
+                <a href="/speakers/{{ speaker }}.html">
                 <div class="row">
                     <div class="col-xs-5 col-md-5 gutter-padding-right">
                         <img src="/img/speakers/{{ speaker }}.medium.jpg" class="img-responsive profile"> 

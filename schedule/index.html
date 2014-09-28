@@ -33,8 +33,7 @@ name: Schedule
             <img src="https://www.google.com/calendar/images/html.gif" alt="HTML" title="HTML" />
         </a>
         </p>
-
-        {% for day in site.programme %}
+        {% for day in site.data.schedule[site.year]programme %}
 
         <h2>{{ day.day | upcase }}</h2>
 
@@ -56,7 +55,7 @@ name: Schedule
                         <span class="speaker">
                             {% if event.speaker != 'tbc' %}
                             <a href="/speakers/{{ event.speaker }}">
-                                {{ site.speakers[event.speaker].name }}
+                                {{ site.data.speakers[event.speaker].name }}
                             </a>
                             {% else %}
                             TBC
@@ -65,7 +64,7 @@ name: Schedule
                     </td>
                     <td style="width:70%">
                         {% if event.speaker != 'tbc' %}
-                            {{ site.speakers[event.speaker].title }}
+                            {{ site.data.speakers[event.speaker].title }}
                         {% else %}
                             Coming soon...
                         {% endif %}

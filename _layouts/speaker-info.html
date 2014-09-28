@@ -1,7 +1,7 @@
 ---
 layout: responsive
 ---
-{% assign speaker = site.speakers[page.name] %}
+{% assign speaker = site.data.speakers.bios.[page.slug] %}
 <div class="row white-background">
     <div class="col-md-12">
         <h1>{{ speaker.name }}</h1>
@@ -9,7 +9,7 @@ layout: responsive
 </div>
 <div class="row white-background">
     <div class="col-xs-12 col-md-8">
-        <img class="img-responsive img-thumbnail pull-left" style="margin-right: 20px" src="/img/speakers/{{ page.name }}.large.jpg" alt="{{ speaker.name }}"/> 
+        <img class="img-responsive img-thumbnail pull-left" style="margin-right: 20px" src="/img/speakers/{{ page.slug }}.large.jpg" alt="{{ speaker.name }}"/> 
         <p id="speaker-details">
             <span class="highlighted">
                 {% if speaker.company != nil %}
