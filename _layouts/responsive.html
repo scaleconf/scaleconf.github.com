@@ -22,10 +22,10 @@
     
 	<div class="container">
         <div class="row">
-            <div style="padding-left: 150px; background-image: url('/img/branding/logo_heads_sml.png'); background-repeat: no-repeat; height: 150px"><a href="/index.html"><h1 class="logo" style="font-size: 60pt">SCALECONF</h1><h4>{{ site.data.schedule[site.year].dates}} | CAPE TOWN, SOUTH AFRICA</h4></a></div>
+            <a href="/index.html"><img src="/img/branding/logo_no_date.png" class="img-responsive" style="padding-top: 20px"></a>
         </div>
         <div class="row">
-        <div class="masthead">
+            <div class="masthead">
             <ul class="nav nav-justified">
               {% for link in site.navigation %}
                   {% assign current = 'inactive' %}
@@ -36,7 +36,7 @@
               {% endfor %}
   
             </ul>
-      	</div>
+            </div>
         </div>
         
         {{ content }}
