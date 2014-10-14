@@ -3,8 +3,8 @@ highlighter: pygments
 navigation:
 - text: Home
   url: /
-- text: Speakers
-  url: /speakers
+- text: Speak
+  url: /speak
 - text: Schedule
   url: /schedule
 - text: Workshops
@@ -13,8 +13,8 @@ navigation:
   url: /purchase
 - text: Venue
   url: /venue
-- text: Sponsors
-  url: /sponsors
+- text: Sponsor
+  url: /sponsors/packages.html
 - text: About
   url: /about
 - text: Videos
