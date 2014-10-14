@@ -19,13 +19,14 @@ name: Home
             
             <div class="col-xs-12 col-md-6">
                 <div class="paragraph-home">
-                    <!-- <p>
-                        <em>Scaling code and architecture is a unique challenge that pushes us to our limits.</em> 
-                    </p> -->
+                    <p>
+                        <em>{{ site.data.schedule[site.year].dates }} - Cape Town, South Africa</em> 
+                    </p>
                     <p>
                         Each year ScaleConf brings international and local experts together to talk about their experience building sites and services that can handle the rigours of today's internet.
                     </p>
-                    <p>The 2014 edition ran April 10-11 but sign up for future conference email updates (call for papers, tickets open, etc.)</p>
+                    <p>
+                        Back for the fourth time, the 2015 edition is planned to be bigger and better than ever. Sign up for future conference email updates (call for papers, tickets open, etc.)</p>
             <!-- Begin MailChimp Signup Form -->
                         <div id="mc_embed_signup">
                         <form action="http://scaleconf.us4.list-manage2.com/subscribe/post?u=662cd7d3342f0c5e7c3597fad&amp;id=46cfaf0931" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -76,8 +77,11 @@ name: Home
             </div>
             <div class="col-xs-12 col-md-8">
                 <div class="gray-background">
-                    <h2>HIGHLIGHTS</h2>
-                    <p>With a mixture of African and international speakers, we're bringing a diversity of experience and perspective to the stage. Meet the engineers who shared their war stories in 2014.</p>
+                    <h2>CALL FOR TALKS</h2>
+                    <p>We are currently accepting proposals for talks. If you would like to give a presentation, please submit your proposal using <a href="https://docs.google.com/forms/d/1gdB_3A7t7pdqYHXob46_4svGnLsphJHJfAsqM81dcXM/viewform?embedded=true">this form</a>. The presentation slots will be 45 minutes long, including questions. The presentations will be in English. <a href="/speak">More information here</a></p>
+                    <hr>
+                    <h2>PREVIOUS HIGHLIGHTS</h2>
+                    <p>With a mixture of African and international speakers, each year we bring a diversity of experience and perspective to the stage. Meet the engineers who shared their war stories in 2014.</p>
                     <div class="row padding-extra">
                     {% for speaker in site.data.speakers.highlighted %}
                         <a href="/speakers/{{ speaker }}.html">
@@ -89,12 +93,13 @@ name: Home
                         </a>
                     {% endfor %}
                     </div>
-                    <div class="row padding-extra">
+                    <!-- Ready for 2015 speakers once announced -->
+                    <!-- <div class="row padding-extra">
                         <div class="col-xs-12 col-md-12">
                             <span class="pull-right"><a href="/speakers/"> >> Full list of 2014's speakers</a> |
                             <a href="/videos">Previous speakers</a></span>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         
