@@ -11,31 +11,31 @@ name: Video Archive
 <div class="row white-background">
     <div class="col-xs-12 col-md-12">
         <p>
-            Now preparing for its third year, ScaleConf has been fortunate to have some great speakers
+            Now preparing for its fourth year, ScaleConf has been fortunate to have some great speakers
             deliver awesome talks. 
         </p>  
     </div>
 </div>
 
 <div class="row white-background">
-    <div class="col-xs-12 col-md-4">
-        <ul class="list-inline">
             {% for speaker in site.data.speakers.all_speakers_archive %}
-            <li class="box">
-                <a href="/speakers/{{ speaker }}.html">
-                <div class="row">
-                    <div class="col-xs-5 col-md-5 gutter-padding-right">
-                        <img src="/img/speakers/{{ speaker }}.medium.jpg" class="img-responsive profile"> 
+                {% assign bio = site.data.speakers.bios.[speaker] %}
+            <div class="col-xs-12 col-md-3">
+                    
+                    <div class="box">
+                        <a href="/speakers/{{ speaker }}.html">
+                        <div class="row">
+                            <div class="col-xs-5 col-md-5 gutter-padding-right">
+                                <img src="/img/speakers/{{ speaker }}.large.jpg" class="img-responsive profile"> 
+                            </div>
+                            <div class="col-xs-7 col-md-7 gutter-padding-left">
+                                <h3 class="speaker">{{ bio.name }}</h3>
+                                {{ bio.company }}<br />
+                                {{ bio.role }}
+                            </div>
+                        </div>
+                        </a>
                     </div>
-                    <div class="col-xs-7 col-md-7 gutter-padding-left">
-                        <h3 class="speaker">{{ site.speakers[speaker].name }}</h3>
-                        {{ site.speakers[speaker].company }}<br />
-                        {{ site.speakers[speaker].role }}
-                    </div>
-                </div>
-                </a>
-            </li>
+            </div>
             {% endfor %}
-        </ul>
-    </div>
 </div>
