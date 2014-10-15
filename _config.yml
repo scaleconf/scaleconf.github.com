@@ -19,4 +19,6 @@ navigation:
   url: /about
 - text: Videos
   url: /videos
+- text: Contact
+  url: /contact
 year: 2015
