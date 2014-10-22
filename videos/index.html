@@ -20,6 +20,7 @@ name: Video Archive
 <div class="row white-background">
             {% for speaker in site.data.speakers.all_speakers_archive %}
                 {% assign bio = site.data.speakers.bios.[speaker] %}
+                {% assign clearfix_lg = forloop.index | modulo: 4 %}
             <div class="col-xs-12 col-md-3">
 
                     <div class="box">
@@ -37,5 +38,8 @@ name: Video Archive
                         </a>
                     </div>
             </div>
+            {% if clearfix_lg == 0 %}
+            <div class="clearfix visible-lg-block"></div>
+            {% endif %}
             {% endfor %}
 </div>
