@@ -20,9 +20,13 @@ name: Speakers
     </div>
 </div>
 
+{% for speaker in site.data.speakers.speakers %}
+    {% assign bio = site.data.speakers.bios.[speaker] %}
+    {% assign newrow = forloop.index0 | modulo: 3 %}
+
+{% if newrow == 0 %}
 <div class="row white-background">
-    {% for speaker in site.data.speakers.speakers_1 %}
-        {% assign bio = site.data.speakers.bios.[speaker] %}
+{% endif %}
     <div class="col-xs-12 col-md-3">
 
             <div class="box">
@@ -40,93 +44,7 @@ name: Speakers
                 </a>
             </div>
     </div>
-    {% endfor %}
+{% if newrow == 2 or forloop.last %}
 </div>
-<div class="row white-background">
-    {% for speaker in site.data.speakers.speakers_2 %}
-        {% assign bio = site.data.speakers.bios.[speaker] %}
-    <div class="col-xs-12 col-md-3">
-
-            <div class="box">
-                <a href="/speakers/{{ speaker }}.html">
-                <div class="row">
-                    <div class="col-xs-5 col-md-5 gutter-padding-right">
-                        <img src="/img/speakers/{{ speaker }}.large.jpg" class="img-responsive profile"> 
-                    </div>
-                    <div class="col-xs-7 col-md-7 gutter-padding-left">
-                        <h3 class="speaker">{{ bio.name }}</h3>
-                        {{ bio.company }}<br />
-                        {{ bio.role }}
-                    </div>
-                </div>
-                </a>
-            </div>
-    </div>
-    {% endfor %}
-</div>
-<div class="row white-background">
-    {% for speaker in site.data.speakers.speakers_3 %}
-        {% assign bio = site.data.speakers.bios.[speaker] %}
-    <div class="col-xs-12 col-md-3">
-
-            <div class="box">
-                <a href="/speakers/{{ speaker }}.html">
-                <div class="row">
-                    <div class="col-xs-5 col-md-5 gutter-padding-right">
-                        <img src="/img/speakers/{{ speaker }}.large.jpg" class="img-responsive profile"> 
-                    </div>
-                    <div class="col-xs-7 col-md-7 gutter-padding-left">
-                        <h3 class="speaker">{{ bio.name }}</h3>
-                        {{ bio.company }}<br />
-                        {{ bio.role }}
-                    </div>
-                </div>
-                </a>
-            </div>
-    </div>
-    {% endfor %}
-</div>
-<div class="row white-background">
-    {% for speaker in site.data.speakers.speakers_4 %}
-        {% assign bio = site.data.speakers.bios.[speaker] %}
-    <div class="col-xs-12 col-md-3">
-
-            <div class="box">
-                <a href="/speakers/{{ speaker }}.html">
-                <div class="row">
-                    <div class="col-xs-5 col-md-5 gutter-padding-right">
-                        <img src="/img/speakers/{{ speaker }}.large.jpg" class="img-responsive profile"> 
-                    </div>
-                    <div class="col-xs-7 col-md-7 gutter-padding-left">
-                        <h3 class="speaker">{{ bio.name }}</h3>
-                        {{ bio.company }}<br />
-                        {{ bio.role }}
-                    </div>
-                </div>
-                </a>
-            </div>
-    </div>
-    {% endfor %}
-</div>
-<div class="row white-background">
-    {% for speaker in site.data.speakers.speakers_5 %}
-        {% assign bio = site.data.speakers.bios.[speaker] %}
-    <div class="col-xs-12 col-md-3">
-
-            <div class="box">
-                <a href="/speakers/{{ speaker }}.html">
-                <div class="row">
-                    <div class="col-xs-5 col-md-5 gutter-padding-right">
-                        <img src="/img/speakers/{{ speaker }}.large.jpg" class="img-responsive profile"> 
-                    </div>
-                    <div class="col-xs-7 col-md-7 gutter-padding-left">
-                        <h3 class="speaker">{{ bio.name }}</h3>
-                        {{ bio.company }}<br />
-                        {{ bio.role }}
-                    </div>
-                </div>
-                </a>
-            </div>
-    </div>
-    {% endfor %}
-</div>
+{% endif %}
+{% endfor %}
