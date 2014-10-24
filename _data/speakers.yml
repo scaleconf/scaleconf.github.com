@@ -33,6 +33,7 @@ bios:
             has been a logistics and a software challenge and we will cover some of
             the highlights, low lights, software architectures and lessons learned
             in Street View and Google at large.
+        video: ckjLnwFDcPA
 
     simon_cross:
         name: Simon Cross
@@ -65,6 +66,7 @@ bios:
     simon_and_ben:
         name: Simon Cross and Ben Adlard
         title: Scaling Happiness
+        video: mWVxbVYE5lQ
 
     ben_adlard:
         name: Ben Adlard
@@ -104,10 +106,12 @@ bios:
             caching the wrong way can bring down your site. If you're looking for a clear explanation
             about various caching techniques and tools like Memcached, Nginx and Varnish, as well as
             ways to deploy them in an efficient way, this talk is for you.
+        video: B6cWxyRnRR0
 
     zabil_and_simba:
         name: Zabil Maliackal and Simba Nyatsanga
         title: Offloading the Rendering of your View to your Clients
+        video: bfDo2p-8eoA
 
     zabil_cheriya_maliackal:
         name: Zabil Cheriya Maliackal
@@ -184,6 +188,7 @@ bios:
             answer those questions?  I believe that when we understand this, we can
             achieve scale and balance. That's what I'm after - equilibrium at
             scale.
+        video: HT_nGb9bxC0
 
     beat_schwegler:
         name: Beat Schwegler
@@ -236,6 +241,7 @@ bios:
             different approach: they're based on pub/sub and designed to elastically
             scale. They provide message templates for personalization and a single API
             across iOS, Android and Windows.
+        video: AbhWmWSTM7Y
 
     chris_bray:
         bio: >
@@ -281,6 +287,7 @@ bios:
             make an inverted index suitable for real time search, how to scale that out,
             how to add reliability and failover to the cluster, and design patterns to use
             the cluster most efficiently
+        video: o6lSeNatVFM
 
     dale_humby:
         name: Dale Humby
@@ -343,6 +350,7 @@ bios:
             has come from and how we're dealing with rapid growth while still keeping our
             top-notch service levels. We'll explore some of our experiences and highlight
             a couple of key pieces that are helping us to scale with very limited resources.
+        video: 7tGLSsKqGp0
 
 
     daniel_fiske:
@@ -487,6 +495,7 @@ bios:
             the client-side with tools like Siege, Bees with Machine Guns, Google PageSpeed,
             WBench, and more. Take back an understanding of how to automate performance and
             load testing and evaluate the impact it has on performance and your business.
+        video: gfleR-CFbAk
 
     krzysztof_debski:
         name: Krzysztof Debski
@@ -684,6 +693,7 @@ bios:
             problems you can run across, and when (pun intended!) it can drive you crazy.
             Hopefully by the end you will find it somewhat easier to understand and grasp,
             and have a newly driven passion to dig in further.
+        video: TlkXhpktX0E
 
     simon_ratcliffe:
         name: Simon Ratcliffe
