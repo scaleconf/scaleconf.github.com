@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>ScaleConf -
-            {% if site.speakers[page.name] != nil %}
-                {{ site.speakers[page.name].name }}
+            {% if site.data.speakers.bios[page.slug] != nil %}
+                {{ site.data.speakers.bios[page.slug].name }}
             {% else %}
-                {{ page.name }}
+                {{ page.title }}
             {% endif %}
     </title>
     <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" />
