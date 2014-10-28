@@ -8,6 +8,8 @@
     <title>ScaleConf -
             {% if site.data.speakers.bios[page.slug] != nil %}
                 {{ site.data.speakers.bios[page.slug].name }}
+            {% elsif site.data.speakers.bios[page.name_one] != nil and site.data.speakers.bios[page.name_two] != nil%}
+                {{site.data.speakers.bios[page.name_one].name}} &amp; {{site.data.speakers.bios[page.name_two].name}}
             {% else %}
                 {{ page.title }}
             {% endif %}
