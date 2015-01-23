@@ -1,6 +1,6 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
 2015: [ franz_struwig, mark_forrester, robert_elliot, willem_van_biljon, charity_majors, matty_cohen, albert_de-jongh, chris_oloff, sam_laing, karen_greves, jeanre_swanepoel, tim_park, shaunn_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou ]
-speakers: [ stephen_perelson, tim_park ]
+speakers: [ stephen_perelson, tim_park, matty_cohen ]
 highlighted: [  ]
 nonhighlighted: [  ]
 
@@ -108,10 +108,18 @@ bios:
         name: Matty Cohen
         company: WooThemes
         role: Chief Product Officer
-        country:
+        country: SA
         bio: >
-        title:
+            is the Chief Product Officer at WooThemes, a market leader in premium
+            WordPress products, helping folks to be successful in online business.
+            This means he manages the engineering team and a growing team of product
+            managers.
+        title: To 5 million... and beyond!
         abstract: >
+            Matty will explain the evolution of WooCommerce, the world's fastest
+            growing eCommerce platform, and how they managed to scale the product
+            to over 5 million downloads (and growing) with 3 engineers maintaining
+            the codebase.
 
     albert_de-jongh:
         name: Albert De Jongh
