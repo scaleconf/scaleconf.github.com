@@ -1,11 +1,207 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-2014: [ niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-speakers: [ niklas_gustavsson, aslam_khan, krzysztof_debski, chris_bray, deon_moolman, shai_rosenfeld, clinton_gormley, beat_schwegler_2014, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-highlighted: [ niklas_gustavsson, deon_moolman, clinton_gormley, chris_bray ]
-nonhighlighted: [ aslam_khan, beat_schwegler_2014 ]
-
+2015: [ franz_struwig, mark_forrester, robert_elliot, willem_van_biljon, charity_majors, matty_cohen, albert_de-jongh, chris_oloff, sam_laing, karen_greves, jeanre_swanepoel, tim_park, shaunn_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou ]
+speakers: [ stephen_perelson, tim_park ]
+highlighted: [  ]
+nonhighlighted: [  ]
 
 bios:
+    stephen_perelson:
+        name: Stephen Perelson
+        company: Mxit
+        role: Senior Web Engineer
+        country: SA
+        bio: >
+            is a senior software developer at Mxit working on internal tools and
+            Web services. He has limited his career options by choosing to work
+            remotely. Fortunately, he doesn't know this. He has worked as an IT
+            lecturer at the Nelson Mandela Metropolitan University and has contracted
+            to local government where he helped make sense of financial data. He
+            was also employed by a failed startup, which just so happened to be
+            the best career path he ever took.
+        title: Growing a Web platform to 15 million pageviews on a shoestring
+        abstract: >
+            Launch is a Web based service that enables the rapid development and
+            hosting of Mxit applications. The capacity for scaling was achieved
+            through changes to code, data, and infrastructure during Launch's
+            development and maintenance. Stephen will share his experiences refactoring
+            Launch, a large PHP, AngularJS and MongoDB based Web site, to ensure
+            reasonable performance and reliability at scale. Topics will cover
+            caching, domain specific tricks, MongoDB, and strategically lowering
+            administrative load by using AWS services.
+
+bios:
+    tim_park:
+        name: Tim Park
+        company: Microsoft
+        role: Principal Software Engineer
+        country: ?
+        bio: >
+            is a principal software engineer at Microsoft, working with customers
+            and our Microsoft Azure product teams to prove out scenarios on the
+            Microsoft cloud that have never been done elsewhere and use that
+            experience to drive improvements in our products and outboard key open
+            source platforms to Azure. Before Microsoft, Tim worked at Nest Labs,
+            an internet of things startup that has reenvisioned the thermostat for
+            the digital era. There he worked on much of the infrastructure that
+            made remote control of the millions of thermostats in Nest's device
+            fleet possible.
+        title: Scaling "Things"
+        abstract: >
+            For the past four decades computing has been driven by the spiral of
+            faster, cheaper, and smaller but has stayed within the lines of "screen
+            and an input device". Tim will talk about how computing will start to
+            be infused into the everyday things as look out over the next decade
+            and how we will need to build and scale systems to enable this computing
+            based on context. He'll draw on his experience of working at Nest Labs
+            (an early Internet of Things startup) and with cloud services at
+            Microsoft to describe how they are building infrastructure as part of
+            Microsoft Azure that makes ingestion and processing of this extremely
+            high scale telemetry data possible and walk through a real world customer
+            architecture we are deploying to make this mode of computing a reality.
+
+    franz_struwig:
+        name: Franz Struwig
+        company: iKubu
+        role: Managing Director
+        country: SA
+        bio: >
+        title:
+        abstract: >
+
+    mark_forrester:
+        name: Mark Forrester
+        company: WooThemes
+        role: Co-Founder
+        country: SA
+        bio: >
+        title:
+        abstract: >
+
+    robert_elliot:
+        name: Robert Elliot
+        company: Graphflow
+        role: Co-Founder
+        country:
+        bio: >
+        title:
+        abstract: >
+
+    willem_van_biljon:
+        name: Willem Van Biljon
+        company: Takealot
+        role: Co-CEO
+        country: SA
+        bio: >
+        title:
+        abstract: >
+
+    charity_majors:
+        name: Charity Majors
+        company:
+        role: Production Engineering Manager
+        country:
+        bio: >
+        title:
+        abstract: >
+
+    matty_cohen:
+        name: Matty Cohen
+        company: WooThemes
+        role: Chief Product Officer
+        country:
+        bio: >
+        title:
+        abstract: >
+
+    albert_de-jongh:
+        name: Albert De Jongh
+        company: Visa
+        role:
+        country:
+        bio: >
+        title:
+        abstract: >
+
+    albert_and_chris:
+        name: Albert De Jongh and Chris Oloff
+        title:
+
+    chris_oloff:
+        name: Chris Oloff
+        company: Visa
+        role:
+        country:
+        bio: >
+        title:
+        abstract: >
+
+    sam_laing:
+        name: Sam Laing
+        company: Growing Agile
+        role:
+        country:
+        bio: >
+        title:
+        abstract: >
+
+    sam_and_karen:
+        name: Sam Laing and Karen Greves
+        title:
+
+    karen_greves:
+        name: Karen Greves
+        company: Growing Agile
+        role:
+        country:
+        bio: >
+        title:
+        abstract: >
+
+    jeanre_swanepoel:
+        name: Jeanre Swanepoel
+        company: Ikhasi Digital
+        role:
+        country:
+        bio: >
+        title:
+        abstract: >
+
+    shaunn_norris:
+        name: Shaunn Norris
+        company: Amazon Web Services
+        role:
+        country:
+        bio: >
+        title:
+        abstract: >
+
+    nick_pentreath:
+        name: Nick Pentreath
+        company: Graphflow
+        role: Co-Founder
+        country:
+        bio: >
+        title:
+        abstract: >
+
+    jeff_ferland:
+        name: Jeff Ferland
+        company: Facebook
+        role:
+        country: USA
+        bio: >
+        title:
+        abstract: >
+
+    maggie_zhou:
+        name: Maggie Zhou
+        company: Etsy
+        role:
+        country: USA
+        bio: >
+        title:
+        abstract: >
+
     craig_robinson:
         name: Craig Robinson
         company: Google
