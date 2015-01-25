@@ -1,13 +1,14 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
 2015: [ franz_struwig, mark_forrester, robert_elliot, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, sam_laing, karen_greves, jeanre_swanepoel, tim_park, shaunn_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou ]
-speakers: [ franz_struwig, mark_forrester, robert_elliot, willem_van_biljon, matty_cohen, sam_laing, karen_greves, jeanre_swanepoel, tim_park, shaunn_norris, stephen_perelson, nick_pentreath ]
-highlighted: [  ]
+speakers_business: [ franz_struwig, mark_forrester, robert_elliot, willem_van_biljon ]
+speakers_technology: [ matty_cohen, sam_laing, karen_greves, jeanre_swanepoel, tim_park, shaunn_norris, stephen_perelson, nick_pentreath ]
+highlighted: [ franz_struwig, willem_van_biljon, matty_cohen, stephen_perelson ]
 nonhighlighted: [  ]
 
 bios:
     stephen_perelson:
         name: Stephen Perelson
-        company: Mxit
+        company: Mxit 
         role: Senior Web Engineer
         country: SA
         bio: >
@@ -29,7 +30,6 @@ bios:
             caching, domain specific tricks, MongoDB, and strategically lowering
             administrative load by using AWS services.
 
-bios:
     tim_park:
         name: Tim Park
         company: Microsoft
