@@ -3,8 +3,8 @@ highlighter: pygments
 navigation:
 - text: Home
   url: /
-- text: Speak
-  url: /speak
+- text: Speakers
+  url: /speakers
 - text: Schedule
   url: /schedule
 - text: Workshops
