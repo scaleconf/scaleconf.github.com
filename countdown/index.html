@@ -13,8 +13,8 @@
             var conference_date = (new Date(2015, 3, 4)).getTime();
             var days_to_conference = (conference_date - Date.now())  / (1000 * 60 * 60 * 24)
             var weeks_to_conference = days_to_conference / 7;
-            document.getElementById('days-to-conference').innerText = Math.floor(days_to_conference).toString();
-            document.getElementById('weeks-to-conference').innerText = Math.floor(weeks_to_conference).toString();
+            document.getElementById('days-to-conference').textContent = Math.floor(days_to_conference).toString();
+            document.getElementById('weeks-to-conference').textContent = Math.floor(weeks_to_conference).toString();
         </script>
     </body>
 </html>
