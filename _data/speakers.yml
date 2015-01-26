@@ -36,28 +36,23 @@ bios:
         role: Principal Software Engineer
         country: USA
         bio: >
-            is a principal software engineer at Microsoft, working with customers
-            and our Microsoft Azure product teams to prove out scenarios on the
-            Microsoft cloud that have never been done elsewhere and use that
-            experience to drive improvements in our products and outboard key open
-            source platforms to Azure. Before Microsoft, Tim worked at Nest Labs,
-            an internet of things startup that has reenvisioned the thermostat for
-            the digital era. There he worked on much of the infrastructure that
-            made remote control of the millions of thermostats in Nest's device
-            fleet possible.
-        title: Scaling "Things"
+            Tim is a principal software engineer at Microsoft, working with customers and 
+            product teams to prove out scenarios on the Microsoft cloud that have never 
+            been done elsewhere and use that experience to drive improvements in our 
+            products. Before Microsoft, Tim worked on a number of the key pieces of 
+            infrastructure and applications at Nest Labs, an internet of things startup 
+            that re-envisioned the thermostat for the digital era.
+        title: From Screens to Context
         abstract: >
-            For the past four decades computing has been driven by the spiral of
-            faster, cheaper, and smaller but has stayed within the lines of "screen
-            and an input device". Tim will talk about how computing will start to
-            be infused into the everyday things as look out over the next decade
-            and how we will need to build and scale systems to enable this computing
-            based on context. He'll draw on his experience of working at Nest Labs
-            (an early Internet of Things startup) and with cloud services at
-            Microsoft to describe how they are building infrastructure as part of
-            Microsoft Azure that makes ingestion and processing of this extremely
-            high scale telemetry data possible and walk through a real world customer
-            architecture we are deploying to make this mode of computing a reality.
+            For the past four decades computing has been driven by the spiral of faster, 
+            cheaper, and smaller but has stayed within the lines of a "screen and an input 
+            device". Tim will talk about how computing is increasingly being infused into 
+            everything and that increasingly the user interface for this style of computing 
+            will be our use of our everyday things. He will talk about the impact of this 
+            on how we build and scale systems and draw on his experience of working at 
+            Nest Labs (an early Internet of Things startup) and in cloud services at 
+            Microsoft to describe how to ingest and process extremely high scale telemetry 
+            data and ground the discussion by walking through a real world customer scenario.
 
     franz_struwig:
         name: Franz Struwig
