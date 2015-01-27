@@ -56,13 +56,14 @@ bios:
 
     franz_struwig:
         name: Franz Struwig
-        company: iKubu
-        role: Managing Director
+        company: Garmin
+        role: Senior Manager
         country: SA
         bio: >
-            is passionate about people, technology and business. Combining these elements 
-            have allowed him to establish iKubu: a tech development company with an incredible
-            culture that recently sold to Garmin. 
+            is passionate about people, technology and business. As an Engineer and an MBA, 
+            he was privileged to be a part of establishing iKubu – a radar and computer vision 
+            company with a heart. After crowdfunding the world’s first bicycle radar called 
+            Backtracker in 2014, iKubu was acquired by Garmin. He's still learning and growing!
         title: Business Day Interview
         abstract: > 
             At iKubu they help people see what they can't, using computer vision and 
