@@ -8,7 +8,7 @@ nonhighlighted: [  ]
 bios:
     stephen_perelson:
         name: Stephen Perelson
-        company: Mxit 
+        company: Mxit
         role: Senior Web Engineer
         country: SA
         bio: >
@@ -36,22 +36,22 @@ bios:
         role: Principal Software Engineer
         country: USA
         bio: >
-            Tim is a principal software engineer at Microsoft, working with customers and 
-            product teams to prove out scenarios on the Microsoft cloud that have never 
-            been done elsewhere and use that experience to drive improvements in our 
-            products. Before Microsoft, Tim worked on a number of the key pieces of 
-            infrastructure and applications at Nest Labs, an internet of things startup 
+            Tim is a principal software engineer at Microsoft, working with customers and
+            product teams to prove out scenarios on the Microsoft cloud that have never
+            been done elsewhere and use that experience to drive improvements in our
+            products. Before Microsoft, Tim worked on a number of the key pieces of
+            infrastructure and applications at Nest Labs, an internet of things startup
             that re-envisioned the thermostat for the digital era.
         title: From Screens to Context
         abstract: >
-            For the past four decades computing has been driven by the spiral of faster, 
-            cheaper, and smaller but has stayed within the lines of a "screen and an input 
-            device". Tim will talk about how computing is increasingly being infused into 
-            everything and that increasingly the user interface for this style of computing 
-            will be our use of our everyday things. He will talk about the impact of this 
-            on how we build and scale systems and draw on his experience of working at 
-            Nest Labs (an early Internet of Things startup) and in cloud services at 
-            Microsoft to describe how to ingest and process extremely high scale telemetry 
+            For the past four decades computing has been driven by the spiral of faster,
+            cheaper, and smaller but has stayed within the lines of a "screen and an input
+            device". Tim will talk about how computing is increasingly being infused into
+            everything and that increasingly the user interface for this style of computing
+            will be our use of our everyday things. He will talk about the impact of this
+            on how we build and scale systems and draw on his experience of working at
+            Nest Labs (an early Internet of Things startup) and in cloud services at
+            Microsoft to describe how to ingest and process extremely high scale telemetry
             data and ground the discussion by walking through a real world customer scenario.
 
     franz_struwig:
@@ -60,15 +60,15 @@ bios:
         role: Senior Manager
         country: SA
         bio: >
-            is passionate about people, technology and business. As an Engineer and an MBA, 
-            he was privileged to be a part of establishing iKubu – a radar and computer vision 
-            company with a heart. After crowdfunding the world’s first bicycle radar called 
+            is passionate about people, technology and business. As an Engineer and an MBA,
+            he was privileged to be a part of establishing iKubu – a radar and computer vision
+            company with a heart. After crowdfunding the world’s first bicycle radar called
             Backtracker in 2014, iKubu was acquired by Garmin. He's still learning and growing!
         title: Business Day Interview
-        abstract: > 
-            At iKubu they help people see what they can't, using computer vision and 
-            radar systems. We'll be talking Franz about the journey iKubu has been on over the 
-            last seven years from inception, growth to sale and what it took to realise the 
+        abstract: >
+            At iKubu they help people see what they can't, using computer vision and
+            radar systems. We'll be talking Franz about the journey iKubu has been on over the
+            last seven years from inception, growth to sale and what it took to realise the
             potential of a group of highly skilled engineers.
 
     mark_forrester:
@@ -76,16 +76,16 @@ bios:
         company: WooThemes
         role: Co-Founder
         country: SA
-        bio: > 
-            is a web designer turned online entrepreneur, now managing an international 
-            team spanning 16 countries, dedicated to helping businesses succeed through innovative 
-            WordPress themes and plugins. Proudly a Capetonian, husband, and dad. Avid sports 
+        bio: >
+            is a web designer turned online entrepreneur, now managing an international
+            team spanning 16 countries, dedicated to helping businesses succeed through innovative
+            WordPress themes and plugins. Proudly a Capetonian, husband, and dad. Avid sports
             fan and wannabe surfer.
         title: Business Day Interview
-        abstract: > 
+        abstract: >
             WooThemes is not just any old WordPress theme maker. They are responsible for
              WooCommerce - the fastest growing ecommerce platform online. We'll be talking to Mark
-             about where his creative inspiration comes from, how he has applied that to helping 
+             about where his creative inspiration comes from, how he has applied that to helping
              shape and manage the organisation and navigating the twists and turns of a maturing platform.
 
     robert_elliott:
@@ -93,15 +93,15 @@ bios:
         company: Graphflow
         role: Co-Founder
         country: SA
-        bio: > 
-            is passionate about user experiences at the confluence of ecommerce, design and data science. 
-            He obsesses over flow, usability and simplicity. Pirate of Good Hope. 
+        bio: >
+            is passionate about user experiences at the confluence of ecommerce, design and data science.
+            He obsesses over flow, usability and simplicity. Pirate of Good Hope.
         title: Business Day Interview
-        abstract: > 
-            Graphflow are passionate about small business and believe that even the smallest store 
-            should have access to the same technology the big guys are using. They created a tool that allows 
-            them to get the edge over the competition by plugging into the power of Machine Learning and 
-            Big Data technologies. We'll be talking to Rob about product ideation and realisation in the context 
+        abstract: >
+            Graphflow are passionate about small business and believe that even the smallest store
+            should have access to the same technology the big guys are using. They created a tool that allows
+            them to get the edge over the competition by plugging into the power of Machine Learning and
+            Big Data technologies. We'll be talking to Rob about product ideation and realisation in the context
             of a small but expert team and the experience of being part of a local incubator.
 
     willem_van_biljon:
@@ -109,16 +109,16 @@ bios:
         company: Takealot
         role: Co-CEO and Chief Technology Officer
         country: SA
-        bio: > 
-            is a seasoned technology entrepreneur, Van Biljon co-founded Mosaic Software, the creators of the 
+        bio: >
+            is a seasoned technology entrepreneur, Van Biljon co-founded Mosaic Software, the creators of the
             Postilion payment system, and was one of the leaders that built Amazon’s EC2 cloud service and Nimbula.
-            In June 2014 he joined South Africa’s fastest growing online retailer takealot.com as 
+            In June 2014 he joined South Africa’s fastest growing online retailer takealot.com as
             Co-CEO and Chief Technology Officer.
         title: Business Day Interview
-        abstract: > 
-            Willem brings a unique perspective to ScaleConf given his vast experience in companies small 
+        abstract: >
+            Willem brings a unique perspective to ScaleConf given his vast experience in companies small
             and large. We'll be talking to him about his multi-decade journey in the industry and getting his
-            thoughts on the challenges and joys of growing of technology business both in South Africa 
+            thoughts on the challenges and joys of growing of technology business both in South Africa
             and internationally.
 
     charity_majors:
@@ -126,18 +126,18 @@ bios:
         company: Parse / Facebook
         role: Production Engineering Manager
         country: USA
-        bio: > 
+        bio: >
             Charity is happily building out the next generation of mobile backends as a service at Parse.
             She enjoys free software, free speech and single malt scotch.
         title: >
             Upgrade your database: without losing your data, your perf or your mind
-        abstract: > 
-            Upgrading databases can be terrifying and perilous, and for good reason: you can totally 
-            screw yourself! Every workload is unique and standardized test suites will never give you 
-            enough information to evaluate how an upgrade will perform for your query set. We will talk 
-            about how paranoid you should be about various types of workloads and upgrades, how to balance 
-            risk vs engineering effort, and how to safely execute the most challenging upgrades by capturing 
-            and replaying real production workloads. The principles apply to any db, but we’ll go 
+        abstract: >
+            Upgrading databases can be terrifying and perilous, and for good reason: you can totally
+            screw yourself! Every workload is unique and standardized test suites will never give you
+            enough information to evaluate how an upgrade will perform for your query set. We will talk
+            about how paranoid you should be about various types of workloads and upgrades, how to balance
+            risk vs engineering effort, and how to safely execute the most challenging upgrades by capturing
+            and replaying real production workloads. The principles apply to any db, but we’ll go
             particularly deep into war stories and tooling options for MongoDB and MySQL.
 
     matty_cohen:
@@ -159,37 +159,37 @@ bios:
 
     albert_de-jongh:
         name: Albert De Jongh
-        company: 
+        company:
         role:
         country: SA
-        bio: > 
+        bio: >
         title: Banana for Scale
-        abstract: > 
-            Heavily loaded transaction processing systems, struggling clients...  Albert and 
-            Chris have been faced with scaling challenges like these, and would like to share their 
-            experience. They will present some lessons learnt and they’ll explain why bananas were 
+        abstract: >
+            Heavily loaded transaction processing systems, struggling clients...  Albert and
+            Chris have been faced with scaling challenges like these, and would like to share their
+            experience. They will present some lessons learnt and they’ll explain why bananas were
             not suitable for scale.
 
     albert_and_chris:
         name: Albert De Jongh and Chris Oloff
         title: Banana for Scale
-        abstract: > 
-            Heavily loaded transaction processing systems, struggling clients...  Albert and 
-            Chris have been faced with scaling challenges like these, and would like to share their 
-            experience. They will present some lessons learnt and they’ll explain why bananas were 
+        abstract: >
+            Heavily loaded transaction processing systems, struggling clients...  Albert and
+            Chris have been faced with scaling challenges like these, and would like to share their
+            experience. They will present some lessons learnt and they’ll explain why bananas were
             not suitable for scale.
 
     chris_oloff:
         name: Chris Oloff
-        company: 
+        company:
         role:
         country: SA
         bio: >
         title: Banana for Scale
-        abstract: > 
-            Heavily loaded transaction processing systems, struggling clients...  Albert and 
-            Chris have been faced with scaling challenges like these, and would like to share their 
-            experience. They will present some lessons learnt and they’ll explain why bananas were 
+        abstract: >
+            Heavily loaded transaction processing systems, struggling clients...  Albert and
+            Chris have been faced with scaling challenges like these, and would like to share their
+            experience. They will present some lessons learnt and they’ll explain why bananas were
             not suitable for scale.
 
     sam_laing:
@@ -197,29 +197,29 @@ bios:
         company: Growing Agile
         role: Co-founder
         country: SA
-        bio: > 
-            works as a coach and trainer helping teams and individuals adopt agile and work more effectively. 
-            Although her background is as a software developer, she uses agile techniques with many different 
-            industries and teams. Her goal is to make the process from idea to execution more rewarding for 
+        bio: >
+            works as a coach and trainer helping teams and individuals adopt agile and work more effectively.
+            Although her background is as a software developer, she uses agile techniques with many different
+            industries and teams. Her goal is to make the process from idea to execution more rewarding for
             everyone involved.
         title: Scaling Learning
-        abstract: > 
-            To succeed in todays world you need to be continuously learning. Along with that comes 
-            the time pressure of todays world - so when and how are you learning? Sam and Karen have been 
-            doing in person training for many years and recently stepped into the world on online training. 
-            Training at scale. How do you make online training as valuable as in person training - is it 
-            possible? This talk is about their adventure into the online education world, what they 
+        abstract: >
+            To succeed in todays world you need to be continuously learning. Along with that comes
+            the time pressure of todays world - so when and how are you learning? Sam and Karen have been
+            doing in person training for many years and recently stepped into the world on online training.
+            Training at scale. How do you make online training as valuable as in person training - is it
+            possible? This talk is about their adventure into the online education world, what they
             learned, what surprised them and how it has affected their company.
 
     sam_and_karen:
         name: Sam Laing and Karen Greaves
         title: Scaling Learning
-        abstract: > 
-            To succeed in todays world you need to be continuously learning. Along with that comes 
-            the time pressure of todays world - so when and how are you learning? Sam and Karen have been 
-            doing in person training for many years and recently stepped into the world on online training. 
-            Training at scale. How do you make online training as valuable as in person training - is it 
-            possible? This talk is about their adventure into the online education world, what they 
+        abstract: >
+            To succeed in todays world you need to be continuously learning. Along with that comes
+            the time pressure of todays world - so when and how are you learning? Sam and Karen have been
+            doing in person training for many years and recently stepped into the world on online training.
+            Training at scale. How do you make online training as valuable as in person training - is it
+            possible? This talk is about their adventure into the online education world, what they
             learned, what surprised them and how it has affected their company.
 
     karen_greaves:
@@ -227,17 +227,17 @@ bios:
         company: Growing Agile
         role: Co-founder
         country: SA
-        bio: > 
-            believes the best way to engage people at work is to make sure they are having fun, making 
-            a difference, and getting better at the things they do. She helps people build great teams and 
+        bio: >
+            believes the best way to engage people at work is to make sure they are having fun, making
+            a difference, and getting better at the things they do. She helps people build great teams and
             deliver great software.
         title: Scaling Learning
-        abstract: >  
-            To succeed in todays world you need to be continuously learning. Along with that comes 
-            the time pressure of todays world - so when and how are you learning? Sam and Karen have been 
-            doing in person training for many years and recently stepped into the world on online training. 
-            Training at scale. How do you make online training as valuable as in person training - is it 
-            possible? This talk is about their adventure into the online education world, what they 
+        abstract: >
+            To succeed in todays world you need to be continuously learning. Along with that comes
+            the time pressure of todays world - so when and how are you learning? Sam and Karen have been
+            doing in person training for many years and recently stepped into the world on online training.
+            Training at scale. How do you make online training as valuable as in person training - is it
+            possible? This talk is about their adventure into the online education world, what they
             learned, what surprised them and how it has affected their company.
 
     jeanre_swanepoel:
@@ -245,17 +245,17 @@ bios:
         company: Ikhasi Digital
         role: Software Architect and Founder
         country: SA
-        bio: > 
-            is a software architect and the founder of Ikhasi Digital, a small software 
-            company based in Cape Town and Johannesburg, South Africa. He has over 10 years experience in 
-            software development and infrastructure management, with proficiency in Node.JS, Java, .NET, 
-            Ruby on Rails and Python. He brings experience in building large scale video streaming 
+        bio: >
+            is a software architect and the founder of Ikhasi Digital, a small software
+            company based in Cape Town and Johannesburg, South Africa. He has over 10 years experience in
+            software development and infrastructure management, with proficiency in Node.JS, Java, .NET,
+            Ruby on Rails and Python. He brings experience in building large scale video streaming
             applications, high volume realtime communication platforms and large e-commerce solutions.
         title: Scaling Product Development with Open Source Technologies
-        abstract: > 
-            Jeanre will be talking and demonstrating how they work as a development team on a daily 
-            basis with developers across the globe and no central offices. All the software that they use 
-            is free and open source. The talk will touch on: continuous integration and deployment, 
+        abstract: >
+            Jeanre will be talking and demonstrating how they work as a development team on a daily
+            basis with developers across the globe and no central offices. All the software that they use
+            is free and open source. The talk will touch on: continuous integration and deployment,
             infrastructure provisioning, auto scaling and finally team communication and collaboration.
 
     shaunn_norris:
@@ -263,37 +263,37 @@ bios:
         company: Amazon Web Services
         role: Head of Solutions Architecture - ASEAN
         country: Singapore
-        bio: > 
-            Shaun is Head of Solutions Architecture - ASEAN at Amazon Web Services and works with AWS 
+        bio: >
+            Shaun is Head of Solutions Architecture - ASEAN at Amazon Web Services and works with AWS
             customers in the ASEAN region. He has been in the IT industry for 16 years in technical and
-            management roles for a variety of e-commerce and IT security companies in Canada, UK, 
-            Switzerland and South Africa. More recently, Shaun led the AWS Premium Support team in 
-            Cape Town, South Africa prior to joining the AWS team in Singapore. Shaun is also a 
+            management roles for a variety of e-commerce and IT security companies in Canada, UK,
+            Switzerland and South Africa. More recently, Shaun led the AWS Premium Support team in
+            Cape Town, South Africa prior to joining the AWS team in Singapore. Shaun is also a
             certified Scrum Master and Project Management Professional.
         title: From Horses to Unicorns - Practical DevOps tools and tips on AWS
-        abstract: > 
+        abstract: >
 
     nick_pentreath:
         name: Nick Pentreath
         company: Graphflow
         role: Co-Founder
         country: SA
-        bio: > 
-            Nick is a cofounder of Graphflow, a big data and machine learning company focused on 
-            recommendations and customer intelligence. Nick has a background in financial markets, 
-            machine learning and software development. He has worked at Goldman Sachs and as a 
-            research scientist at online ad targeting startup Cognitive Match in London, and led 
-            the Data Science and Analytics team at Mxit, Africa’s largest social network. He is 
-            passionate about combining commercial focus with machine learning and cutting-edge 
+        bio: >
+            Nick is a cofounder of Graphflow, a big data and machine learning company focused on
+            recommendations and customer intelligence. Nick has a background in financial markets,
+            machine learning and software development. He has worked at Goldman Sachs and as a
+            research scientist at online ad targeting startup Cognitive Match in London, and led
+            the Data Science and Analytics team at Mxit, Africa’s largest social network. He is
+            passionate about combining commercial focus with machine learning and cutting-edge
             technology to build intelligent systems that learn from data to add value to the bottom line.
         title: Large Scale Data Processing
-        abstract: > 
-            This talk will give an overview of the MapReduce approach to large-scale data 
-            processing popularised by Apache Hadoop, and then move on to introduce the Apache 
+        abstract: >
+            This talk will give an overview of the MapReduce approach to large-scale data
+            processing popularised by Apache Hadoop, and then move on to introduce the Apache
             Spark project and the basics of working with Spark.
-            Apache Spark is a fast and general engine for large-scale, distributed data processing. 
-            It offers high-level APIs in Java, Scala and Python as well as a rich set of libraries 
-            including a SQL engine, stream processing, machine learning, and graph analytics. Spark 
+            Apache Spark is a fast and general engine for large-scale, distributed data processing.
+            It offers high-level APIs in Java, Scala and Python as well as a rich set of libraries
+            including a SQL engine, stream processing, machine learning, and graph analytics. Spark
             is currently one of the most exciting and fastest-growing Apache open source projects.
 
     jeff_ferland:
