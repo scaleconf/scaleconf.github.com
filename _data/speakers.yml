@@ -308,11 +308,16 @@ bios:
     maggie_zhou:
         name: Maggie Zhou
         company: Etsy
-        role:
+        role: Software Engineer
         country: USA
         bio: >
-        title:
+            works on the Core Platform team at Etsy where she builds infrastructure to manage scaling 
+            challenges in data storage and the web stack. She reads books, rides bicycles, and drinks 
+            too much coffee in Brooklyn NY.
+        title: Sharding Take Two, the Logical Edition
         abstract: >
+            In this talk, we'll go over the pains and perils of sharding databases and how we solved 
+            some of the problems in Etsy's second take on sharding, what we call logical sharding.
 
     craig_robinson:
         name: Craig Robinson
