@@ -311,7 +311,8 @@ bios:
         bio: >
             Jeff Ferland is a Production Engineer working on the messaging backend stack at Facebook 
             and a moderator for the Security StackExchange website.
-        title: Stalling Out: When Services Magically Stop Servicing Requests
+        title: >
+            Stalling Out: When Services Magically Stop Servicing Requests
         abstract: >
             Diagnosing and preventing service failure caused by internal resource starvation: something 
             that usually presents itself as “My service stopped working and I don’t know why, then 
