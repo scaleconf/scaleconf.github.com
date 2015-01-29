@@ -1,7 +1,7 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
 2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, sam_laing, karen_greves, jeanre_swanepoel, tim_park, shaunn_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou ]
 speakers_business: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon ]
-speakers_technology: [ matty_cohen, charity_majors, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaunn_norris, stephen_perelson, nick_pentreath ]
+speakers_technology: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaunn_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou ]
 highlighted: [ franz_struwig, willem_van_biljon, matty_cohen, stephen_perelson ]
 nonhighlighted: [  ]
 
@@ -157,12 +157,15 @@ bios:
             to over 5 million downloads (and growing) with 3 engineers maintaining
             the codebase.
 
-    albert_de-jongh:
+    albert_dejongh:
         name: Albert De Jongh
-        company: 
-        role:
+        company: Visa
+        role: Software Architect
         country: SA
         bio: > 
+            Albert de Jongh is a software architect at Visa, and has often found himself in war rooms 
+            about performance problems.  He has stared at way too many thread dumps, trying to make 
+            sense of things that just could not have happened.
         title: Banana for Scale
         abstract: > 
             Heavily loaded transaction processing systems, struggling clients...  Albert and 
@@ -181,10 +184,14 @@ bios:
 
     chris_oloff:
         name: Chris Oloff
-        company: 
-        role:
+        company: Uber5
+        role: Building stuff in software
         country: SA
         bio: >
+            Chris' goal is to write efficient and well-performing code for small and not-so-small-any-more 
+            challenges, since 1994, with existing or news teams. He gained experience in diverse industries 
+            like metals, money and energy, and is still learning daily. Chris holds an Honours Degree in 
+            Computer Science and Economics from the University of Mannheim, Germany.
         title: Banana for Scale
         abstract: > 
             Heavily loaded transaction processing systems, struggling clients...  Albert and 
@@ -299,11 +306,21 @@ bios:
     jeff_ferland:
         name: Jeff Ferland
         company: Facebook
-        role:
+        role: Production Engineer
         country: USA
         bio: >
-        title:
+            Jeff Ferland is a Production Engineer working on the messaging backend stack at Facebook 
+            and a moderator for the Security StackExchange website.
+        title: >
+            Stalling Out: When Services Magically Stop Servicing Requests
         abstract: >
+            Diagnosing and preventing service failure caused by internal resource starvation: something 
+            that usually presents itself as “My service stopped working and I don’t know why, then 
+            started working and I don’t know why.” With an emphasis on failure-mode behavior, this talk 
+            will cover interactions between threading, multiple shards hosted by a single instance, 
+            kernel memory allocation behaviors, and NUMA-related problems. The talk will include 
+            information to collect on a regular basis for post-mortem analysis and sharing production 
+            lessons with software engineering teams.
 
     maggie_zhou:
         name: Maggie Zhou
