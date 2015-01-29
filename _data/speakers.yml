@@ -306,11 +306,20 @@ bios:
     jeff_ferland:
         name: Jeff Ferland
         company: Facebook
-        role:
+        role: Production Engineer
         country: USA
         bio: >
-        title:
+            Jeff Ferland is a Production Engineer working on the messaging backend stack at Facebook 
+            and a moderator for the Security StackExchange website.
+        title: Stalling Out: When Services Magically Stop Servicing Requests
         abstract: >
+            Diagnosing and preventing service failure caused by internal resource starvation: something 
+            that usually presents itself as “My service stopped working and I don’t know why, then 
+            started working and I don’t know why.” With an emphasis on failure-mode behavior, this talk 
+            will cover interactions between threading, multiple shards hosted by a single instance, 
+            kernel memory allocation behaviors, and NUMA-related problems. The talk will include 
+            information to collect on a regular basis for post-mortem analysis and sharing production 
+            lessons with software engineering teams.
 
     maggie_zhou:
         name: Maggie Zhou
