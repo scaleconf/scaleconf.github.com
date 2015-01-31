@@ -1,12 +1,52 @@
 2015:
   dates: March 4-6 2015
   programme:
-    - day: Wednesday Evening, 9th April
+    - day: Wednesday, 4th March - The Business of Scale
       schedule:
-        - time: 5:00 pm - 9:30 pm
-          event: Pre-conference drinks
-          description: Come join us for pre-conference drinks at <a href="http://www.wembleytap.co.za/">the Wembley Tap</a> in Gardens, sponsored by <a href="http://scaleconf.org/sponsors/key_connections">Key Connections</a>. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
-    - day: Thursday, 10th April
+        - time: 8:00 am - 9:00 am
+          event: Registration
+          description: Tea and coffee will be served
+        - time: 9:00 am - 9:15 am
+          event: Opening
+          description: A quick welcome and introduction to the conference before we get going
+        - time: 9:30 am - 10:15 am
+          speaker: robert_elliott
+        - time: 10:15 am - 10:25 am
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 10:25 am - 11:10 am
+          speaker: franz_struwig
+        - time: 11:10 am - 11:30 am
+          event: Break
+          description: Mid-morning tea & coffee with scones and biscuits
+        - time: 11:30 am - 12:15 pm
+          speaker: charity_majors_business
+        - time: 12:15 pm - 1:45 pm
+          event: Lunch
+          description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
+        - time: 1:45 pm - 2:30 pm
+          speaker: willem_van_biljon
+        - time: 2:30 pm - 2:45 pm
+          event: Break
+          description: Afternoon tea & coffee with biscuits
+        - time: 2:45 pm - 3:30 pm
+          speaker: mark_forrester
+        - time: 3:30 pm - 3:40 pm
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 3:40 pm - 4:25 pm
+          speaker: paul_cartmel
+        - time: 4:25 pm - 4:35 pm
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 4:35 pm - 5:20 pm
+          speaker: TBC
+    - day: Wednesday evening, 4th March
+      schedule:
+        - time: 5:30 pm - 9:30 pm
+          event: Post-business / Pre-technology drinks
+          description: Come join us for post-business day / pre-technology days drinks at <a href="http://www.wembleytap.co.za/">the Wembley Tap</a> in Gardens, sponsored by <a href="http://scaleconf.org/sponsors/key_connections">Key Connections</a>. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
+    - day: Thursday, 5th March - The Technology of Scale (Day 1)
       schedule:
         - time: 8:00 am - 9:00 am
           event: Registration
@@ -46,7 +86,7 @@
         - time: 5:30 pm - 10:00 pm
           event: Party
           description: Join us at <a href="http://forries.co.za/">the Forrester&apos;s Arms</a> for food and drinks, sponsored by <a href="http://scaleconf.org/sponsors/amazon">Amazon Web Services</a>.
-    - day: Friday, 11th April
+    - day: Friday, 6th March - The Technology of Scale (Day 2)
       schedule:
         - time: 8:30 am - 9:00 am
           event: Arrival
