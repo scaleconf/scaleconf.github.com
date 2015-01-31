@@ -12,7 +12,7 @@ bios:
         role: Senior Web Engineer
         country: SA
         bio: >
-            is a senior software developer at Mxit working on internal tools and
+            Stephen is a senior software developer at Mxit working on internal tools and
             Web services. He has limited his career options by choosing to work
             remotely. Fortunately, he doesn't know this. He has worked as an IT
             lecturer at the Nelson Mandela Metropolitan University and has contracted
@@ -60,7 +60,7 @@ bios:
         role: Senior Manager
         country: SA
         bio: >
-            is passionate about people, technology and business. As an Engineer and an MBA, 
+            Franz is passionate about people, technology and business. As an Engineer and an MBA, 
             he was privileged to be a part of establishing iKubu – a radar and computer vision 
             company with a heart. After crowdfunding the world’s first bicycle radar called 
             Backtracker in 2014, iKubu was acquired by Garmin. He's still learning and growing!
@@ -77,7 +77,7 @@ bios:
         role: Co-Founder
         country: SA
         bio: > 
-            is a web designer turned online entrepreneur, now managing an international 
+            Mark is a web designer turned online entrepreneur, now managing an international 
             team spanning 16 countries, dedicated to helping businesses succeed through innovative 
             WordPress themes and plugins. Proudly a Capetonian, husband, and dad. Avid sports 
             fan and wannabe surfer.
@@ -94,7 +94,7 @@ bios:
         role: Co-Founder
         country: SA
         bio: > 
-            is passionate about user experiences at the confluence of ecommerce, design and data science. 
+            Robert is passionate about user experiences at the confluence of ecommerce, design and data science. 
             He obsesses over flow, usability and simplicity. Pirate of Good Hope. 
         title: Business Day Interview
         abstract: > 
@@ -110,7 +110,7 @@ bios:
         role: Co-CEO and Chief Technology Officer
         country: SA
         bio: > 
-            is a seasoned technology entrepreneur, Van Biljon co-founded Mosaic Software, the creators of the 
+            Willem is a seasoned technology entrepreneur, having co-founded Mosaic Software, the creators of the 
             Postilion payment system, and was one of the leaders that built Amazon’s EC2 cloud service and Nimbula.
             In June 2014 he joined South Africa’s fastest growing online retailer takealot.com as 
             Co-CEO and Chief Technology Officer.
@@ -162,7 +162,7 @@ bios:
         role: Chief Product Officer
         country: SA
         bio: >
-            is the Chief Product Officer at WooThemes, a market leader in premium
+            Matty is the Chief Product Officer at WooThemes, a market leader in premium
             WordPress products, helping folks to be successful in online business.
             This means he manages the engineering team and a growing team of product
             managers.
@@ -179,7 +179,7 @@ bios:
         role: Software Architect
         country: SA
         bio: > 
-            Albert de Jongh is a software architect at Visa, and has often found himself in war rooms 
+            Albert is a software architect at Visa, and has often found himself in war rooms 
             about performance problems.  He has stared at way too many thread dumps, trying to make 
             sense of things that just could not have happened.
         title: Banana for Scale
@@ -221,7 +221,7 @@ bios:
         role: Co-founder
         country: SA
         bio: > 
-            works as a coach and trainer helping teams and individuals adopt agile and work more effectively. 
+            Sam works as a coach and trainer helping teams and individuals adopt agile and work more effectively. 
             Although her background is as a software developer, she uses agile techniques with many different 
             industries and teams. Her goal is to make the process from idea to execution more rewarding for 
             everyone involved.
@@ -251,7 +251,7 @@ bios:
         role: Co-founder
         country: SA
         bio: > 
-            believes the best way to engage people at work is to make sure they are having fun, making 
+            Karen believes the best way to engage people at work is to make sure they are having fun, making 
             a difference, and getting better at the things they do. She helps people build great teams and 
             deliver great software.
         title: Scaling Learning
@@ -269,7 +269,7 @@ bios:
         role: Software Architect and Founder
         country: SA
         bio: > 
-            is a software architect and the founder of Ikhasi Digital, a small software 
+            Jeanre is a software architect and the founder of Ikhasi Digital, a small software 
             company based in Cape Town and Johannesburg, South Africa. He has over 10 years experience in 
             software development and infrastructure management, with proficiency in Node.JS, Java, .NET, 
             Ruby on Rails and Python. He brings experience in building large scale video streaming 
@@ -287,7 +287,7 @@ bios:
         role: Head of Solutions Architecture - ASEAN
         country: Singapore
         bio: > 
-            Shaun is Head of Solutions Architecture - ASEAN at Amazon Web Services and works with AWS 
+            Shaunn is Head of Solutions Architecture - ASEAN at Amazon Web Services and works with AWS 
             customers in the ASEAN region. He has been in the IT industry for 16 years in technical and
             management roles for a variety of e-commerce and IT security companies in Canada, UK, 
             Switzerland and South Africa. More recently, Shaun led the AWS Premium Support team in 
@@ -325,7 +325,7 @@ bios:
         role: Production Engineer
         country: USA
         bio: >
-            Jeff Ferland is a Production Engineer working on the messaging backend stack at Facebook 
+            Jeff is a Production Engineer working on the messaging backend stack at Facebook 
             and a moderator for the Security StackExchange website.
         title: >
             Stalling Out: When Services Magically Stop Servicing Requests
@@ -344,7 +344,7 @@ bios:
         role: Software Engineer
         country: USA
         bio: >
-            works on the Core Platform team at Etsy where she builds infrastructure to manage scaling 
+            Maggie works on the Core Platform team at Etsy where she builds infrastructure to manage scaling 
             challenges in data storage and the web stack. She reads books, rides bicycles, and drinks 
             too much coffee in Brooklyn NY.
         title: Sharding Take Two, the Logical Edition
@@ -358,7 +358,7 @@ bios:
         role: Senior Software Engineer
         country: USA
         bio: >
-            is Senior Software engineer on the Street View team at Google. After
+            Craig is Senior Software engineer on the Street View team at Google. After
             finishing a PhD in control theory (with a fair dose of CS) he spent
             some time developing <a
             href="http://news.discovery.com/tech/videos/tech-green-light-for-robotic-roads.htm">wireless
@@ -420,7 +420,7 @@ bios:
         role: Product Owner
         country: SA
         bio: >
-            creates environments that enable talented people to build cool stuff.
+            Ben creates environments that enable talented people to build cool stuff.
             Recently back in South Africa after a 14-year stint in the States, Ben now runs
             product for Vumi, an open source mobile messaging platform, owned by the Praekelt
             Foundation. When not on IRC, Ben's typically trying to keep up with his two (soon
@@ -439,7 +439,7 @@ bios:
         role: Lead Architect
         country: SA
         bio: >
-            has been working with open source technologies since 1997 and has been
+            Wim has been working with open source technologies since 1997 and has been
             involved in open source projects such as OpenX and PHPCompatibility.
             Next to web development, he's worked with a wide range of technologies (from database
             clusters to Internet backbone design) and focuses a lot of his time on high-scalability
@@ -465,7 +465,7 @@ bios:
         role: Agile consultant
         country: SA
         bio: >
-            works as an Agile consultant at ThoughtWorks with a focus on
+            Zabil works as an Agile consultant at ThoughtWorks with a focus on
             using the right set of technologies and tools as the enabler for successful
             delivery of large-scale projects. He was also a part of Thoughtworks Social
             Impact programme where he contributed to many open source projects like
@@ -490,7 +490,7 @@ bios:
         role: Software Developer
         country: SA
         bio: >
-            is a software developer at ThoughtWorks, based in the Johannesburg office. He has
+            Simba is a software developer at ThoughtWorks, based in the Johannesburg office. He has
             contributed to educational software in South Africa that visualises Matric results across
             the country. With 7 months experience in software development, Simba is keen to learn and
             enjoys working with technology that makes a difference in society. He is also an avid
@@ -510,7 +510,7 @@ bios:
         role: Software Developer
         twitter: aslamkhn
         bio: >
-            is an African software developer, by birth, by choice
+            Aslam is an African software developer, by birth, by choice
             and for life.  He believes that all of software is just design and values code
             as an expression of design. The same goes for architecture too - it''s all design.
             The one thing he has learnt, though, is that design is hard, very, very hard,
@@ -543,7 +543,7 @@ bios:
         country: Switzerland
         twitter: cloudbeatsch
         bio: >
-            is part of Microsoft’s Platform Strategy Group which is developing the
+            Beat is part of Microsoft’s Platform Strategy Group which is developing the
             strategies relating to platform services and service-based applications. He
             started to focus on cloud computing in 2008 and just loves the
             opportunities it provides to businesses of all sizes. In his 10 years at
@@ -564,7 +564,7 @@ bios:
 
     beat_schwegler_2014:
         bio: >
-            is part of Microsoft's technical evangelism and development
+            Beat is part of Microsoft's technical evangelism and development
             team (ted), where he architects, designs, codes and delivers leading edge
             apps and services to showcase the Microsoft platform, with a special
             focus on cloud. He started to focus on cloud computing in 2008 and just loves
@@ -591,7 +591,7 @@ bios:
 
     chris_bray:
         bio: >
-            is a Production Engineer at Facebook. He works with large scale
+            Chris is a Production Engineer at Facebook. He works with large scale
             software deployments running on, amongst other things, CentOS, Chef,
             Python, designer drip coffee, Ruby, RedBull, vi, bash, cable ties and
             duct tape, using a large infrastructure of Facebook's OpenCompute
@@ -618,7 +618,7 @@ bios:
         company: Elasticsearch
         role: Developer
         bio: >
-            was the first user of Elasticsearch and wrote the Perl
+            Clinton was the first user of Elasticsearch and wrote the Perl
             API back in 2010. When Elasticsearch formed a company in 2012, he joined as a
             consultant and the maintainer of the Perl modules. Now Clinton spends a lot of his time
             designing the user interfaces and writing about Elasticsearch, and is currently
@@ -642,7 +642,7 @@ bios:
         country: SA
         twitter: dalehumby
         bio: >
-            Dale Humby is CTO of Nomanini, a Cape Town based startup that has
+            Dale is CTO of Nomanini, a Cape Town based startup that has
             developed a low cost, mobile point-of-sale terminal and the technology
             ecosystem for it to operate in informal markets. His genesis is as an
             electro-mechanical engineer developing sophisticated remote monitoring
@@ -683,7 +683,7 @@ bios:
         twitter: CmdrDats
         blog: http://www.yuppiechef.com/technology-and-development.htm
         bio: >
-            is a senior software developer at Yuppiechef.co.za, the
+            Deon is a senior software developer at Yuppiechef.co.za, the
             leading e-commerce store in South Africa. He is a technology enthusiast, loves
             programming concepts and languages and has spent 14 years in development on
             websites, mobile applications, payment switches, warehouse systems, desktop
@@ -707,7 +707,7 @@ bios:
         quote: Massively scalable systems for the gaming and gambling sectors
         twitter:
         bio: >
-            has spent more than 15 years designing and building massively
+            Daniel has spent more than 15 years designing and building massively
             scalable systems for the gaming and gambling sectors. He began in 1997 as a
             software developer for one of the world’s first online casino groups, and
             in 2005 co-founded RightShift as a multiplayer FPS tournament business that
@@ -737,7 +737,7 @@ bios:
         quote: Automation, documentation and simplicity are his usual tools
         twitter: mrtazz
         bio: >
-            is a Software Engineer in Etsy's infrastructure and development tools
+            Daniel is a Software Engineer in Etsy's infrastructure and development tools
             team. Automation, documentation and simplicity are his usual tools for
             improving the status quo. He previously worked in systems and network
             administration, on connecting chemical plants to IT systems and as an embedded
@@ -798,7 +798,7 @@ bios:
         country: SA
         twitter: david_tinker
         bio: >
-            is CTO at BrandsEye, the online brand monitoring
+            David is CTO at BrandsEye, the online brand monitoring
             and analysis software. BrandsEye processes large volumes (3 million+) of
             tweets and other brand mentions every day, contextualising and annotating
             them with sentiment, credibility and so forth.
@@ -822,7 +822,7 @@ bios:
         twitter: dustinwhittle
         blog: http://dustinwhittle.com/
         bio: >
-            is a Developer Evangelist at AppDynamics where he focuses on helping organisations
+            Dustin is a Developer Evangelist at AppDynamics where he focuses on helping organisations
             manage application performance. Before joining AppDynamics, Dustin was CTO at
             Kwarter, a consultant at SensioLabs, and developer evangelist at Yahoo!. He has
             experience building and leading engineering teams and working with developers and
@@ -848,7 +848,7 @@ bios:
         company: Allegro
         role: IT Architect
         bio: >
-            is a technical enthusiast, software engineer and product
+            Krzysztof is a technical enthusiast, software engineer and product
             owner of Service Bootstrap developed in Allegro. Gained
             software experience in the biggest Polish web companies –
             Onet.pl and Allegro.pl. He has a lot of experience in
@@ -891,7 +891,7 @@ bios:
         quote: I started out with nothing and I still have most of it left
         twitter: imsickofmaps
         bio: >
-            works at Western Cape Labs, which he helped form in 2012. He calls himself
+            Mike works at Western Cape Labs, which he helped form in 2012. He calls himself
             a "jack of all trades, master of some", which really just means he has to
             make his own coffee (and likes to shout "MARKETING" randomly at
             conferences). Born and raised in London, but now resident in Cape Town with
@@ -919,7 +919,7 @@ bios:
         quote: A decade of experience building global-scale analysis infrastructures
         twitter: milesward
         bio: >
-            is a three-time technology startup entrepreneur with a decade of experience
+            Miles is a three-time technology startup entrepreneur with a decade of experience
             building global-scale analysis infrastructures. Miles has been at Amazon
             Web Services since 2010 and is responsible for designing and developing AWS
             Solution Architectures relating to big data and social analytics,
@@ -951,7 +951,7 @@ bios:
         twitter: nxsy
         title: Operating at Scale
         bio: >
-            is a Production Engineer in Facebook's Core Systems team where he tries
+            Neil is a Production Engineer in Facebook's Core Systems team where he tries
             to make the infrastructure that powers Facebook's infrastructure more
             reliable and operationally efficient.  Previously he was an early
             employee and lead engineer at South African startups KnowledgeTree and
@@ -963,7 +963,7 @@ bios:
 
     niklas_gustavsson:
         bio: >
-            is a backend engineer at Spotify, open
+            Niklas is a backend engineer at Spotify, open
             source hacker, mountain biker and father of two awesome kids. At Spotify, he
             mostly works on the audio pipeline. Niklas keeps a badly updated blog at
             <a href="http://protocol7.com">http://protocol7.com</a>
@@ -988,7 +988,7 @@ bios:
         country: SA
         twitter: RobStuttaford
         bio: >
-            is the CTO at Cognician, a local tech startup working on
+            Robert is the CTO at Cognician, a local tech startup working on
             improving people's thinking. Now, going into its fourth year with a brand
             new, completely re-imagined technology stack, Cognician is providing value
             as a digital platform for self-coaching, performance support and much, much
@@ -1015,7 +1015,7 @@ bios:
         twitter: shaiguitar
         blog: http://shairosenfeld.com/
         bio: >
-            is always excited when there is something new to learn, and
+            Shai is always excited when there is something new to learn, and
             hence has seemed to have found his fit doing technology.
             He started out playing with Ruby and Rails over 8 years ago.
             After helping scale and support some of the largest Ruby production
@@ -1047,7 +1047,7 @@ bios:
         role: Barefoot Astronomer
         country: SA
         bio: >
-            started out life as an astronomer, used to be an engineer, and is now
+            Simon started out life as an astronomer, used to be an engineer, and is now
             trying to avoid managerial tasks. Currently in charge of scientific
             computing for the MeerKAT radio telescope (www.ska.ac.za), he spends a
             significant amount of his coding time trying to avoid writing C, and
@@ -1078,7 +1078,7 @@ bios:
         role: Lead Consultant and Software Developer
         country: SA
         bio: >
-            is a Lead Consultant and Software Developer from the ThoughtWorks
+            Patrick is a Lead Consultant and Software Developer from the ThoughtWorks
             Johannesburg office. He focuses on helping IT organizations become
             nimble and reactive in meeting their customers' needs through pragmatic
             improvements to the way software is developed and taken into
@@ -1104,7 +1104,7 @@ bios:
         role: Product and Business Strategy
         country: SA
         bio: >
-            is responsible for product strategy, business development and general
+            Peter is responsible for product strategy, business development and general
             getting-things-done at 2go Interactive. His background is in the ISP
             industry, networking, internet security and systems architecture. His
             interests lie in producing excellent products and in growing great
