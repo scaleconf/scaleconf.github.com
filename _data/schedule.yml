@@ -1,6 +1,92 @@
 2015:
   dates: March 4-6 2015
   programme:
+    - day: Wednesday Evening, 9th April
+      schedule:
+        - time: 5:00 pm - 9:30 pm
+          event: Pre-conference drinks
+          description: Come join us for pre-conference drinks at <a href="http://www.wembleytap.co.za/">the Wembley Tap</a> in Gardens, sponsored by <a href="http://scaleconf.org/sponsors/key_connections">Key Connections</a>. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
+    - day: Thursday, 10th April
+      schedule:
+        - time: 8:00 am - 9:00 am
+          event: Registration
+          description: Tea and coffee will be served
+        - time: 9:00 am - 9:15 am
+          event: Opening
+          description: A quick welcome and introduction to the conference before we get going
+        - time: 9:30 am - 10:15 am
+          speaker: matty_cohen
+        - time: 10:15 am - 10:25 am
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 10:25 am - 11:10 am
+          speaker: jeff_ferland
+        - time: 11:10 am - 11:30 am
+          event: Break
+          description: Mid-morning tea & coffee with scones and biscuits
+        - time: 11:30 am - 12:15 pm
+          speaker: sam_and_karen
+        - time: 12:15 pm - 1:45 pm
+          event: Lunch
+          description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
+        - time: 1:45 pm - 2:30 pm
+          speaker: albert_and_chris
+        - time: 2:30 pm - 2:45 pm
+          event: Break
+          description: Afternoon tea & coffee with biscuits
+        - time: 2:45 pm - 3:30 pm
+          speaker: tim_park
+        - time: 3:30 pm - 3:50 pm
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 3:50 pm - 4:35 pm
+          speaker: TBC
+    - day: Thursday evening, 10th April
+      schedule:
+        - time: 5:30 pm - 10:00 pm
+          event: Party
+          description: Join us at <a href="http://forries.co.za/">the Forrester&apos;s Arms</a> for food and drinks, sponsored by <a href="http://scaleconf.org/sponsors/amazon">Amazon Web Services</a>.
+    - day: Friday, 11th April
+      schedule:
+        - time: 8:30 am - 9:00 am
+          event: Arrival
+          description: Tea and coffee will be served
+        - time: 9:15 am - 10:00 am
+          speaker: charity_majors
+        - time: 10:00 am - 10:10 am
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 10:10 am - 10:55 am
+          speaker: nick_pentreath
+        - time: 10:55 am - 11:25 am
+          event: Break
+          description: Mid-morning tea & coffee with scones and biscuits
+        - time: 11:25 am - 12:10 pm
+          speaker: maggie_zhou
+        - time: 12:15 pm - 1:30 pm
+          event: Lunch
+          description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
+        - time: 1:30 pm - 2:15 pm
+          speaker: shaunn_norris
+        - time: 2:15 pm - 2:30 pm
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 2:30 pm - 3:15 pm
+          speaker: stephen_perelson
+        - time: 3:15 pm - 3:40 pm
+          event: Break
+          description: Afternoon tea & coffee with biscuits
+        - time: 3:40 pm - 4:25 pm
+          speaker: jeanre_swanepoel
+        - time: 4:25 pm - 4:45 pm
+          event: Closing
+          description: Final remarks
+    - day: Friday evening, 11th April
+      schedule:
+        - time: 5:00 pm - 11:00 pm
+          event: Party
+          description: >
+              Join us at the post-conference party at <a href="http://riverclub.co.za/">Player's Restaurant, at the River Club</a> for food and drinks, sponsored by <a href="http://scaleconf.org/sponsors/facebook">Facebook</a>.
 2014:
   dates: April 10-11 2014
   programme:
