@@ -45,7 +45,7 @@
       schedule:
         - time: 5:30 pm - 9:30 pm
           event: Post-business / Pre-technology drinks
-          description: Come join us for post-business day / pre-technology days drinks at <a href="http://www.wembleytap.co.za/">the Wembley Tap</a> in Gardens, sponsored by <a href="http://scaleconf.org/sponsors/key_connections">Key Connections</a>. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
+          description: Come join us for post-business day / pre-technology days drinks at a local venue (TBC). This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees.
     - day: Thursday, 5th March - The Technology of Scale (Day 1)
       schedule:
         - time: 8:00 am - 9:00 am
@@ -68,7 +68,7 @@
           speaker: sam_and_karen
         - time: 12:15 pm - 1:45 pm
           event: Lunch
-          description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
+          description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
         - time: 1:45 pm - 2:30 pm
           speaker: albert_and_chris
         - time: 2:30 pm - 2:45 pm
@@ -85,7 +85,7 @@
       schedule:
         - time: 5:30 pm - 10:00 pm
           event: Party
-          description: Join us at <a href="http://forries.co.za/">the Forrester&apos;s Arms</a> for food and drinks, sponsored by <a href="http://scaleconf.org/sponsors/amazon">Amazon Web Services</a>.
+          description: Join us at a local venue (TBC) for sponsored food and drinks. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees.
     - day: Friday, 6th March - The Technology of Scale (Day 2)
       schedule:
         - time: 8:30 am - 9:00 am
@@ -105,7 +105,7 @@
           speaker: maggie_zhou
         - time: 12:15 pm - 1:30 pm
           event: Lunch
-          description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
+          description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
         - time: 1:30 pm - 2:15 pm
           speaker: shaunn_norris
         - time: 2:15 pm - 2:30 pm
@@ -126,7 +126,7 @@
         - time: 5:00 pm - 11:00 pm
           event: Party
           description: >
-              Join us at the post-conference party at <a href="http://riverclub.co.za/">Player's Restaurant, at the River Club</a> for food and drinks, sponsored by <a href="http://scaleconf.org/sponsors/facebook">Facebook</a>.
+              Join us at the post-conference party at a local restaurant, for sponsored food and drinks. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees.
 2014:
   dates: April 10-11 2014
   programme:
