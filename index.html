@@ -81,10 +81,10 @@ title: Home
                 <div class="gray-background">
                     <h2>HIGHLIGHTED SPEAKERS</h2>
                     <p>With a mixture of African and international speakers, each year we bring a diversity of experience and perspective to the stage. Meet the engineers and business leaders who will share their war stories in 2015.</p>
-                    <div class="row padding-extra">
+                    <div class="row padding-extra padding-extra-top">
                     {% for speaker in site.data.speakers.highlighted %}
                         <a href="/speakers/{{ speaker }}.html">
-                            <div class="col-xs-6 col-md-6">
+                            <div class="col-xs-6 col-md-6" style="padding-bottom:15px;">
                                 <img src="/img/speakers/{{ speaker }}.small.jpg" class="img-responsive profile pull-left-margin"><strong>{{ site.data.speakers.bios[speaker].name }} </strong><br />
                                 {{ site.data.speakers.bios[speaker].company }}<br />
                                 {{ site.data.speakers.bios[speaker].title }}
