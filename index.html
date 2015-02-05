@@ -26,8 +26,9 @@ title: Home
                         Each year ScaleConf brings international and local experts together to talk about their experience building sites and services that can handle the rigours of today's internet.
                     </p>
                     <p>
-                        Back for the fourth time, the 2015 edition is going to be bigger and better than ever. Sign up for future conference email updates</p>
-            <!-- Begin MailChimp Signup Form -->
+                        Back for the fourth time, the 2015 edition is going to be bigger and better than ever. We've got a third day with a focus on the scale of business, and a great lineup of speakers.</p>
+                        <!-- Begin MailChimp Signup Form -->
+                        <!-- disabled while tickets on sale
                         <div id="mc_embed_signup">
                         <form action="//scaleconf.us4.list-manage.com/subscribe/post?u=662cd7d3342f0c5e7c3597fad&amp;id=ceccb7bc0a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
@@ -42,6 +43,7 @@ title: Home
                         </form>
 
                         </div>
+                        -->
                         <!--End mc_embed_signup-->
                 </div>
             </div>
@@ -51,9 +53,8 @@ title: Home
                <li>International and African speakers sharing global and local experiences</li>
                <li>Lunch every day, and refreshments throughout the event</li>
                <li>Evening events to network and meet like-minded people</li>
-               <li>Free workshops, and time to build and hack with new technologies and people</li>
+               <li>Workshops, and time to build and hack with new technologies and people</li>
             </ul>
-            <a href="/purchase" class="btn btn-primary">Buy Tickets</a>
             </div>
         </div>
          <div class="row white-background">
@@ -79,10 +80,10 @@ title: Home
                 <div class="gray-background">
                     <h2>HIGHLIGHTED SPEAKERS</h2>
                     <p>With a mixture of African and international speakers, each year we bring a diversity of experience and perspective to the stage. Meet the engineers and business leaders who will share their war stories in 2015.</p>
-                    <div class="row padding-extra">
+                    <div class="row padding-extra padding-extra-top">
                     {% for speaker in site.data.speakers.highlighted %}
                         <a href="/speakers/{{ speaker }}.html">
-                            <div class="col-xs-6 col-md-6">
+                            <div class="col-xs-6 col-md-6" style="padding-bottom:15px;">
                                 <img src="/img/speakers/{{ speaker }}.small.jpg" class="img-responsive profile pull-left-margin"><strong>{{ site.data.speakers.bios[speaker].name }} </strong><br />
                                 {{ site.data.speakers.bios[speaker].company }}<br />
                                 {{ site.data.speakers.bios[speaker].title }}
