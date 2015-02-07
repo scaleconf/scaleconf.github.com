@@ -13,7 +13,7 @@ navigation:
   url: /purchase
 - text: Venue
   url: /venue
-- text: Sponsor
+- text: Sponsors
   url: /sponsors
 - text: About
   url: /about
