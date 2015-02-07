@@ -73,7 +73,7 @@ title: Schedule
                     <td style="width:15%">
                         <img src="/img/layout/bullet.png" />
                         <span class="speaker">
-                            {% if event.speaker != 'tbc' %}
+                            {% if event.speaker != 'TBC' %}
                             <a href="/speakers/{{ event.speaker }}.html">
                                 {{ site.data.speakers.bios[event.speaker].name }}
                             </a>
@@ -83,7 +83,7 @@ title: Schedule
                         </span>
                     </td>
                     <td style="width:70%">
-                        {% if event.speaker != 'tbc' %}
+                        {% if event.speaker != 'TBC' %}
                             {{ site.data.speakers.bios[event.speaker].title }}
                         {% else %}
                             Coming soon...
