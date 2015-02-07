@@ -1,4 +1,5 @@
 2014: ["praekelt", "2go", "amazon", "elasticsearch", "facebook", "google", "hetzner", "key_connections", "mxit", "oracle", "rackspace", "rsaweb", "microsoft"]
+2015: ["takealot", "google", "hetzner", "oracle", "2go"]
 profiles:
   praekelt:
     website_text: >
@@ -168,17 +169,28 @@ profiles:
       </p>
   oracle:
     website_text: >
-      Oracle Cloud Development Centre - Cape Town
-      At the Oracle Cloud Development Centre in Cape Town, we build the
-      core technology on which all Oracle’s cloud offerings are based,
-      alongside our sister team in Santa Clara, Silicon Valley. Key focus
-      areas include scale, performance and reliability. Oracle is committed
-      to Cloud and we are growing an ace engineering team to accomplish our
-      ambitious cloud goals. If you're interested in joining out team,
-      please get in touch.
-      </p>
+      <b>Oracle Cloud Development Centre - Cape Town</b>
       <p>
-      Contact Syed Suhaib - syed.suhaib@oracle.com
+      Oracle is committed to Cloud and at the Oracle Cloud Development Centre in Cape
+      Town.  We are growing an ace engineering team to accomplish our ambitious cloud
+      goals. The Oracle Cloud Infrastructure Management Services team designs and
+      develops the Infrastructure-as-a-Service platform that drives Oracle Cloud and
+      Oracle's Engineered Systems offerings.
+      </p><p>
+      At the Oracle Cloud Development Centre, we are tackling some of the most
+      interesting problems in tech today. Our team is comprised of highly skilled,
+      motivated software developers, that span from Cape Town to Silicon Valley, and
+      beyond.
+      </p><p>
+      Working at Oracle allows you be part of something big!  We offer visionary
+      leadership and innovation in a fast-paced, challenging, and always evolving
+      environment. We know talented individuals drive success, and when we find good
+      people we work hard to keep them. For that reason, Oracle invests in its talent,
+      from providing extensive training and professional development to ensuring our
+      employees enjoy excellent benefits and opportunities, from a flexible working
+      environment to health and medical benefits.
+      </p>
+      <p>Contact : <a href="mailto:dorian.wilson@oracle.com">Dorian Wilson</a></p>
   rackspace:
     website_text: >
   rsaweb:
@@ -203,6 +215,21 @@ profiles:
       our motto 'technology meets life' implies just that. We bridge the gap
       between IT innovation and everyday life - and our team take pride in doing
       this every day.
+  takealot:
+    website_text: >
+      <b><a href='http://www.takealot.com'>takealot.com</a>’s mission is to be the most customer-centric online shopping
+      destination in Africa. Our company is built around the simple concept that
+      the customer comes first.</b>
+      </p>
+      <p>
+      We recognise that our success hinges on our
+      ability to delight our customers with superior customer service. All of
+      our focus is dedicated to improving the customer experience, from the
+      moment you arrive on our website and place your order to the moment it
+      arrives at your door and any occasional hiccups that may occur during and
+      after delivery (We strive to be perfect but things do happen…). By
+      aligning ourselves to this philosophy, we believe takealot.com will be the
+      number one shopping destination across Africa.
   microsoft:
     website_text: >
       <b>
