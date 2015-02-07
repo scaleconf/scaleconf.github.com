@@ -5391,7 +5391,7 @@ div.sponsor-text p {
   font-size:1.1em;
 }
 img.sponsor-logo {
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 ul.scaleconf-heads {
   margin-left: 13px;
@@ -5673,6 +5673,9 @@ div.gray-background {
 }
 div.padding-extra {
   padding-bottom: 17px;
+}
+div.padding-extra-top {
+  padding-top: 17px;
 }
 div.pull-right-margin {
   padding-right: 30px;
