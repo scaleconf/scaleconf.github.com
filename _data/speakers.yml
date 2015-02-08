@@ -21,7 +21,8 @@ bios:
             Keeping an incredibly talented team close is his real goal – a talented team 
             sells itself. To achieve this he strives to make New Media Labs a place the team 
             want to spend their working life at. He sees employing people as an honour.
-        title: Business Day Interview
+        title: >
+            Business Day Interview: New Media Labs
         abstract: >
             While leading NML Paul has led his team through many twists and turns. We'll talk
             to him about growing a successful, independent consulting business with one eye (and
@@ -87,7 +88,8 @@ bios:
             he was privileged to be a part of establishing iKubu – a radar and computer vision 
             company with a heart. After crowdfunding the world’s first bicycle radar called 
             Backtracker in 2014, iKubu was acquired by Garmin. He's still learning and growing!
-        title: Business Day Interview
+        title: >
+            Business Day Interview: Garmin
         abstract: > 
             At iKubu they help people see what they can't, using computer vision and 
             radar systems. We'll be talking Franz about the journey iKubu has been on over the 
@@ -104,7 +106,8 @@ bios:
             team spanning 16 countries, dedicated to helping businesses succeed through innovative 
             WordPress themes and plugins. Proudly a Capetonian, husband, and dad. Avid sports 
             fan and wannabe surfer.
-        title: Business Day Interview
+        title: >
+            Business Day Interview: WooThemes
         abstract: > 
             WooThemes is not just any old WordPress theme maker. They are responsible for
              WooCommerce - the fastest growing ecommerce platform online. We'll be talking to Mark
@@ -119,7 +122,8 @@ bios:
         bio: > 
             Robert is passionate about user experiences at the confluence of ecommerce, design and data science. 
             He obsesses over flow, usability and simplicity. Pirate of Good Hope. 
-        title: Business Day Interview
+        title: >
+            Business Day Interview: Graphflow
         abstract: > 
             Graphflow are passionate about small business and believe that even the smallest store 
             should have access to the same technology the big guys are using. They created a tool that allows 
@@ -137,7 +141,8 @@ bios:
             Postilion payment system, and was one of the leaders that built Amazon’s EC2 cloud service and Nimbula.
             In June 2014 he joined South Africa’s fastest growing online retailer takealot.com as 
             Co-CEO and Chief Technology Officer.
-        title: Business Day Interview
+        title: >
+            Business Day Interview: Takealot
         abstract: > 
             Willem brings a unique perspective to ScaleConf given his vast experience in companies small 
             and large. We'll be talking to him about his multi-decade journey in the industry and getting his
@@ -172,7 +177,7 @@ bios:
             Charity is happily building out the next generation of mobile backends as a service at Parse.
             She enjoys free software, free speech and single malt scotch.
         title: >
-            Business Day Interview
+            Business Day Interview: Parse
         abstract: > 
             As a Production Engineering Manager at Parse, a mobile app platform for developers which is now a part 
             of Facebook, Charity has lived through the reality of the tiny-to-25-to-8000 person transition.
