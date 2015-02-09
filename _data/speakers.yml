@@ -1,7 +1,7 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, sam_laing, karen_greves, jeanre_swanepoel, tim_park, shaunn_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou, paul_cartmel ]
+2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, sam_laing, karen_greves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou, paul_cartmel ]
 speakers_business: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors_business, paul_cartmel ]
-speakers_technology: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaunn_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou ]
+speakers_technology: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou ]
 highlighted: [ franz_struwig, willem_van_biljon, matty_cohen, stephen_perelson ]
 nonhighlighted: [  ]
 
@@ -323,8 +323,8 @@ bios:
             is free and open source. The talk will touch on: continuous integration and deployment, 
             infrastructure provisioning, auto scaling and finally team communication and collaboration.
 
-    shaunn_norris:
-        name: Shaunn Norris
+    shaun_norris:
+        name: Shaun Norris
         company: Amazon Web Services
         role: Head of Solutions Architecture - ASEAN
         country: Singapore
