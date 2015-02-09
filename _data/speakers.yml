@@ -1,7 +1,7 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, sam_laing, karen_greves, jeanre_swanepoel, tim_park, shaunn_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou, paul_cartmel ]
+2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, sam_laing, karen_greves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou, paul_cartmel ]
 speakers_business: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors_business, paul_cartmel ]
-speakers_technology: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaunn_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou ]
+speakers_technology: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou ]
 highlighted: [ franz_struwig, willem_van_biljon, matty_cohen, stephen_perelson ]
 nonhighlighted: [  ]
 
@@ -11,6 +11,7 @@ bios:
         name: Paul Cartmel
         company: New Media Labs 
         role: Managing Director
+        twitter: PaulCartmel
         country: SA
         bio: >
             Paul is the Managing Director of New Media Labs. He has adopted the Jack Dorsey 
@@ -34,6 +35,7 @@ bios:
         name: Stephen Perelson
         company: Mxit 
         role: Senior Web Engineer
+        twitter: perelson
         country: SA
         bio: >
             Stephen is a senior software developer at Mxit working on internal tools and
@@ -58,6 +60,7 @@ bios:
         name: Tim Park
         company: Microsoft
         role: Principal Software Engineer
+        twitter: timpark
         country: USA
         bio: >
             Tim is a principal software engineer at Microsoft, working with customers and 
@@ -82,6 +85,7 @@ bios:
         name: Franz Struwig
         company: Garmin
         role: Senior Manager
+        twitter: fstruwig
         country: SA
         bio: >
             Franz is passionate about people, technology and business. As an Engineer and an MBA, 
@@ -101,6 +105,7 @@ bios:
         company: WooThemes
         role: Co-Founder
         country: SA
+        twitter: mark_forrester
         bio: > 
             Mark is a web designer turned online entrepreneur, now managing an international 
             team spanning 16 countries, dedicated to helping businesses succeed through innovative 
@@ -119,6 +124,7 @@ bios:
         company: Graphflow
         role: Co-Founder
         country: SA
+        twitter: greenafrican
         bio: > 
             Robert is passionate about user experiences at the confluence of ecommerce, design and data science. 
             He obsesses over flow, usability and simplicity. Pirate of Good Hope. 
@@ -154,6 +160,7 @@ bios:
         company: Parse / Facebook
         role: Production Engineering Manager
         country: USA
+        twitter: mipsytipsy
         bio: > 
             Charity is happily building out the next generation of mobile backends as a service at Parse.
             She enjoys free software, free speech and single malt scotch.
@@ -173,6 +180,7 @@ bios:
         company: Parse / Facebook
         role: Production Engineering Manager
         country: USA
+        twitter: mipsytipsy
         bio: > 
             Charity is happily building out the next generation of mobile backends as a service at Parse.
             She enjoys free software, free speech and single malt scotch.
@@ -189,6 +197,7 @@ bios:
         company: WooThemes
         role: Chief Product Officer
         country: SA
+        twitter: mattyza
         bio: >
             Matty is the Chief Product Officer at WooThemes, a market leader in premium
             WordPress products, helping folks to be successful in online business.
@@ -206,6 +215,7 @@ bios:
         company: Visa
         role: Software Architect
         country: SA
+        twitter: 
         bio: > 
             Albert is a software architect at Visa, and has often found himself in war rooms 
             about performance problems.  He has stared at way too many thread dumps, trying to make 
@@ -231,6 +241,7 @@ bios:
         company: Uber5
         role: Building stuff in software
         country: SA
+        twitter: chrisoloff
         bio: >
             Chris' goal is to write efficient and well-performing code for small and not-so-small-any-more 
             challenges, since 1994, with existing or news teams. He gained experience in diverse industries 
@@ -248,6 +259,7 @@ bios:
         company: Growing Agile
         role: Co-founder
         country: SA
+        twitter: samlaing
         bio: > 
             Sam works as a coach and trainer helping teams and individuals adopt agile and work more effectively. 
             Although her background is as a software developer, she uses agile techniques with many different 
@@ -278,6 +290,7 @@ bios:
         company: Growing Agile
         role: Co-founder
         country: SA
+        twitter: karen_greaves
         bio: > 
             Karen believes the best way to engage people at work is to make sure they are having fun, making 
             a difference, and getting better at the things they do. She helps people build great teams and 
@@ -296,6 +309,7 @@ bios:
         company: Ikhasi Digital
         role: Software Architect and Founder
         country: SA
+        twitter: jeanres
         bio: > 
             Jeanre is a software architect and the founder of Ikhasi Digital, a small software 
             company based in Cape Town and Johannesburg, South Africa. He has over 10 years experience in 
@@ -309,8 +323,8 @@ bios:
             is free and open source. The talk will touch on: continuous integration and deployment, 
             infrastructure provisioning, auto scaling and finally team communication and collaboration.
 
-    shaunn_norris:
-        name: Shaunn Norris
+    shaun_norris:
+        name: Shaun Norris
         company: Amazon Web Services
         role: Head of Solutions Architecture - ASEAN
         country: Singapore
@@ -329,6 +343,7 @@ bios:
         company: Graphflow
         role: Co-Founder
         country: SA
+        twitter: MLnick
         bio: > 
             Nick is a cofounder of Graphflow, a big data and machine learning company focused on 
             recommendations and customer intelligence. Nick has a background in financial markets, 
@@ -352,6 +367,7 @@ bios:
         company: Facebook
         role: Production Engineer
         country: USA
+        twitter: jbferland
         bio: >
             Jeff is a Production Engineer working on the messaging backend stack at Facebook 
             and a moderator for the Security StackExchange website.
@@ -371,11 +387,13 @@ bios:
         company: Etsy
         role: Software Engineer
         country: USA
+        twitter: zmagg
         bio: >
             Maggie works on the Core Platform team at Etsy where she builds infrastructure to manage scaling 
             challenges in data storage and the web stack. She reads books, rides bicycles, and drinks 
             too much coffee in Brooklyn NY.
-        title: Sharding Take Two, the Logical Edition
+        title: >
+            Sharding Take Two, the Logical Edition
         abstract: >
             In this talk, we'll go over the pains and perils of sharding databases and how we solved 
             some of the problems in Etsy's second take on sharding, what we call logical sharding.
