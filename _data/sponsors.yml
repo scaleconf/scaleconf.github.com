@@ -1,5 +1,5 @@
 2014: ["praekelt", "2go", "amazon", "elasticsearch", "facebook", "google", "hetzner", "key_connections", "mxit", "oracle", "rackspace", "rsaweb", "microsoft"]
-2015: ["takealot", "google", "rsaweb", "hetzner", "oracle", "2go", "ventureburn"]
+2015: ["takealot", "google", "rsaweb", "hetzner", "oracle", "2go", "ventureburn", "amazon", "key_connections"]
 profiles:
   ventureburn:
     website_text: >
