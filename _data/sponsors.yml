@@ -1,6 +1,14 @@
 2014: ["praekelt", "2go", "amazon", "elasticsearch", "facebook", "google", "hetzner", "key_connections", "mxit", "oracle", "rackspace", "rsaweb", "microsoft"]
-2015: ["takealot", "google", "hetzner", "oracle", "2go"]
+2015: ["takealot", "google", "rsaweb", "hetzner", "oracle", "2go", "ventureburn", "amazon", "key_connections"]
 profiles:
+  ventureburn:
+    website_text: >
+      Ventureburn is focused on telling the world’s startup news and tech 
+      entrepreneurs’ stories from the emerging market sector, covering 
+      everything from innovative new businesses and developments in 
+      ecommerce to helpful tips for starter entrepreneurs. For more 
+      information visit <a href='http://www.ventureburn.com'>www.ventureburn.com</a>, 
+      and follow us on twitter <a href='https://twitter.com/Ventureburn'>@Ventureburn</a>.
   praekelt:
     website_text: >
       Praekelt Foundation builds open source, scalable mobile technologies and solutions to improve the health and wellbeing of people living in poverty. Our programmes have reached over 50 million people across 15 countries in sub-Saharan Africa
@@ -215,6 +223,11 @@ profiles:
       our motto 'technology meets life' implies just that. We bridge the gap
       between IT innovation and everyday life - and our team take pride in doing
       this every day.
+      </p>
+      <p>
+      For more information, visit <a href='http://www.rsaweb.co.za/'>
+      rsaweb.co.za</a>, and follow us on Twitter 
+      <a href='https://twitter.com/RSAWEB'>@RSAWEB</a>
   takealot:
     website_text: >
       <b><a href='http://www.takealot.com'>takealot.com</a>’s mission is to be the most customer-centric online shopping
