@@ -20,17 +20,17 @@
           event: Break
           description: Mid-morning tea & coffee with scones and biscuits
         - time: 11:30 am - 12:15 pm
-          speaker: charity_majors_business
+          speaker: willem_van_biljon
         - time: 12:15 pm - 1:45 pm
           event: Lunch
-          description: A buffet lunch provided by Moyo and some time to chill in the Botanical Gardens
+          description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
         - time: 1:45 pm - 2:30 pm
-          speaker: willem_van_biljon
+          speaker: TBC
         - time: 2:30 pm - 2:45 pm
           event: Break
           description: Afternoon tea & coffee with biscuits
         - time: 2:45 pm - 3:30 pm
-          speaker: mark_forrester
+          speaker: charity_majors_business
         - time: 3:30 pm - 3:40 pm
           event: Break
           description: A quick changeover & pee-break
@@ -40,7 +40,7 @@
           event: Break
           description: A quick changeover & pee-break
         - time: 4:35 pm - 5:20 pm
-          speaker: TBC
+          speaker: mark_forrester
     - day: Wednesday evening, 4th March
       schedule:
         - time: 5:30 pm - 9:30 pm
