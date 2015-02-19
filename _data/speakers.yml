@@ -1,7 +1,7 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, sam_laing, karen_greves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou, paul_cartmel ]
+2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel ]
 speakers_business: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors_business, paul_cartmel ]
-speakers_technology: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, jeff_ferland, maggie_zhou ]
+speakers_technology: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou ]
 highlighted: [ franz_struwig, willem_van_biljon, matty_cohen, stephen_perelson ]
 nonhighlighted: [  ]
 
@@ -210,6 +210,18 @@ bios:
             to over 5 million downloads (and growing) with 3 engineers maintaining
             the codebase.
 
+    donovan_graham:
+        name: Donovan Graham
+        company: Samewave
+        role: Software Engineer
+        country: SA
+        bio: >
+            Donovan Graham is a full-stack engineer at samewave.com and a
+            humble technology enthusiast.  He is an agile and UX practitioner,
+            who has been a scrum master and product owner in previous lives.
+        title: Scaling your Front-end
+        abstract: 
+
     albert_dejongh:
         name: Albert De Jongh
         company: Visa
@@ -253,6 +265,77 @@ bios:
             Chris have been faced with scaling challenges like these, and would like to share their 
             experience. They will present some lessons learnt and they’ll explain why bananas were 
             not suitable for scale.
+    
+    alex_and_hiren:
+        name: Alex Koller and Hiren Patel
+        title: An AppDev approach to scale
+        abstract: >
+            Alex and Hiren share their experiences and ideas of building and
+            scaling the award-winning MyCiTi app, which helps users in Cape
+            Town use public transit. Alex and Hiren will walk you through the
+            challenges they faced, such as hacking NFC, overcoming twitter API
+            limits and preparing the solution for scale.
+
+    alex_koller:
+        name: Alex Koller
+        company: Google Cloud Platform
+        role: Developer
+        country: SA
+        bio: >
+            Alex is an Android developer devoted to understanding the bigger
+            picture behind the software he builds. He has led the development
+            of some of South Africa’s most successful apps (22seven, MyCiTi
+            Cape Town and BitX Bitcoin Wallet). When he’s not coding or
+            conceptualising, there is a good chance he will be talking to
+            others about Android development.
+            </p>
+            <p>
+            Before focusing on Android development, Alex co-founded and was
+            involved in various startups after studying Computer Science at
+            Rhodes University. He now lives in Cape Town and can usually be
+            found climbing a mountain.
+        title: An AppDev approach to scale
+        abstract: >
+            Alex and Hiren share their experiences and ideas of building and
+            scaling the award-winning MyCiTi app, which helps users in Cape
+            Town use public transit. Alex and Hiren will walk you through the
+            challenges they faced, such as hacking NFC, overcoming twitter API
+            limits and preparing the solution for scale.
+
+    hiren_patel:
+        name: Hiren Patel
+        company: Google Cloud Platform
+        role: GDE
+        country: SA
+        bio: >
+            Hiren is a software developer writing web apps and web clients
+            powered by the Google Cloud Platform. Formerly a systems
+            administrator in the linux/unix area for ten years, he transitioned
+            to a developer role, until moving onto using Google App Engine as
+            his platform of choice.
+            </p>
+            <p>
+            Hiren enjoys working with both web and android. He spends the
+            majority of his time using python on Google App Engine, but also
+            closely follows innovations in the rapidly changing cloud space,
+            including Google Compute Engine and Google Container Engine.
+            </p>
+            <p>
+            Hiren has run the Google Developer Group of Cape Town for several
+            years, inspiring the local community to use technology, and trying
+            to help local non-profit organisations along the way.
+            </p>
+            <p>
+            Hiren lives in Cape Town, South Africa, where he enjoys the
+            beautiful coast and the mountains, and hikes around the area
+            regularly.
+        title: An AppDev approach to scale
+        abstract: >
+            Alex and Hiren share their experiences and ideas of building and
+            scaling the award-winning MyCiTi app, which helps users in Cape
+            Town use public transit. Alex and Hiren will walk you through the
+            challenges they faced, such as hacking NFC, overcoming twitter API
+            limits and preparing the solution for scale.
 
     sam_laing:
         name: Sam Laing
