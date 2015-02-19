@@ -60,12 +60,12 @@
           event: Break
           description: A quick changeover & pee-break
         - time: 10:25 am - 11:10 am
-          speaker: jeff_ferland
+          speaker: alex_and_hiren
         - time: 11:10 am - 11:30 am
           event: Break
           description: Mid-morning tea & coffee with scones and biscuits
         - time: 11:30 am - 12:15 pm
-          speaker: sam_and_karen
+          speaker: donovan_graham
         - time: 12:15 pm - 1:45 pm
           event: Lunch
           description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
@@ -80,7 +80,7 @@
           event: Break
           description: A quick changeover & pee-break
         - time: 3:50 pm - 4:35 pm
-          speaker: TBC
+          speaker: sam_and_karen
     - day: Thursday evening, 10th April
       schedule:
         - time: 5:30 pm - 10:00 pm
