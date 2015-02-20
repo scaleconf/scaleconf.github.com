@@ -81,7 +81,7 @@
           description: A quick changeover & pee-break
         - time: 3:50 pm - 4:35 pm
           speaker: sam_and_karen
-    - day: Thursday evening, 10th April
+    - day: Thursday evening, 5th March
       schedule:
         - time: 5:30 pm - 10:00 pm
           event: Party
@@ -121,7 +121,7 @@
         - time: 4:25 pm - 4:45 pm
           event: Closing
           description: Final remarks
-    - day: Friday evening, 11th April
+    - day: Friday evening, 6th March
       schedule:
         - time: 5:00 pm - 11:00 pm
           event: Party
