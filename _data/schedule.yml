@@ -45,7 +45,12 @@
       schedule:
         - time: 5:30 pm - 9:30 pm
           event: Post-business / Pre-technology drinks
-          description: Come join us for post-business day / pre-technology days drinks at a local venue (TBC). This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees.
+          description: >
+            Come join us for post-business day / pre-technology days drinks at
+            <a href="http://www.wembleytap.co.za/">Wembley Tap</a>, sponsored by
+            <a href="http://scaleconf.org/sponsors/key_connections.html">Key Connections</a>.
+            This will be a chance to socialise and network with the speakers,
+            organisers, and fellow conference attendees.
     - day: Thursday, 5th March - The Technology of Scale (Day 1)
       schedule:
         - time: 8:00 am - 9:00 am
@@ -85,7 +90,10 @@
       schedule:
         - time: 5:30 pm - 10:00 pm
           event: Party
-          description: Join us at a local venue (TBC) for sponsored food and drinks. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees.
+          description: >
+            Join us for food and drinks at <a href="http://forries.co.za/">Forries</a>, sponsored by
+            <a href="http://scaleconf.org/sponsors/amazon.html">Amazon</a>. This will be a chance
+            to socialise and network with the speakers, organisers, and fellow conference attendees.
     - day: Friday, 6th March - The Technology of Scale (Day 2)
       schedule:
         - time: 8:30 am - 9:00 am
