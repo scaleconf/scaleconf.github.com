@@ -9,38 +9,36 @@
         - time: 9:00 am - 9:15 am
           event: Opening
           description: A quick welcome and introduction to the conference before we get going
-        - time: 9:30 am - 10:15 am
+        - time: 9:30 am - 10:20 am
           speaker: robert_elliott
-        - time: 10:15 am - 10:25 am
+        - time: 10:20 am - 10:30 am
           event: Break
           description: A quick changeover & pee-break
-        - time: 10:25 am - 11:10 am
+        - time: 10:30 am - 11:20 am
           speaker: franz_struwig
-        - time: 11:10 am - 11:30 am
+        - time: 11:20 am - 11:40 am
           event: Break
           description: Mid-morning tea & coffee with scones and biscuits
-        - time: 11:30 am - 12:15 pm
+        - time: 11:40 am - 12:30 pm
           speaker: mark_forrester
-        - time: 12:15 pm - 1:45 pm
+        - time: 12:30 pm - 1:50 pm
           event: Lunch
           description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
-        - time: 1:45 pm - 2:30 pm
+        - time: 1:50 pm - 2:40 pm
           speaker: willem_van_biljon
-        - time: 2:30 pm - 2:45 pm
+        - time: 2:40 pm - 3:00 pm
           event: Break
           description: Afternoon tea & coffee with biscuits
-        - time: 2:45 pm - 3:30 pm
+        - time: 3:00 pm - 3:50 pm
           speaker: charity_majors_business
-        - time: 3:30 pm - 3:40 pm
+        - time: 3:50 pm - 4:00 pm
           event: Break
           description: A quick changeover & pee-break
-        - time: 3:40 pm - 4:25 pm
+        - time: 4:00 pm - 4:50 pm
           speaker: paul_cartmel
-        - time: 4:25 pm - 4:35 pm
-          event: Break
-          description: A quick changeover & pee-break
-        - time: 4:35 pm - 5:20 pm
-          speaker: TBC
+        - time: 4:50 pm - 5:00 pm
+          event: Closing
+          description: Final remarks
     - day: Wednesday evening, 4th March
       schedule:
         - time: 5:30 pm - 9:30 pm
