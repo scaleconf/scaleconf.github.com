@@ -7,8 +7,6 @@ navigation:
   url: /speakers
 - text: Schedule
   url: /schedule
-- text: Workshops
-  url: /workshops
 - text: Tickets
   url: /purchase
 - text: Venue
