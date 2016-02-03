@@ -1,5 +1,5 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier, bethany_macri, michael_gorven, job_thomas ]
+speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier, bethany_macri, michael_gorven, job_thomas, sunil_shah, philip_norman ]
 speakers_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel ]
 speakers_2014: [ niklas_gustavsson, clinton_gormley, deon_moolman, chris_bray, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson, aslam_khan ]
 speakers_2013: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
@@ -22,6 +22,68 @@ nonhighlighted: [  ]
 #     abstract: >
 
 bios:
+    sunil_shah:
+        name: Sunil Shah
+        company: Mesosphere
+        role: Technical Lead
+        twitter: ssk2
+        country: USA
+        bio: >
+          Sunil Shah is a technical lead at Mesosphere, working on tools and
+          services around the Apache Mesos project to make the lives of
+          developers easier. Before joining Mesosphere, Sunil worked at
+          music recommendations service Last.fm and completed a Master's
+          program at UC Berkeley in EECS, working on real-time processing of
+          images collected from drones. When he's not flying drones around,
+          Sunil likes to cycle, camp, hike, ski and play a large drum.
+        title: >
+          Scaling Like Twitter With Apache Mesos
+        abstract: >
+          When Twitter was faced with the task of re-architecting their
+          backend away from a monolithic Ruby on Rails application to a
+          series of microservices, they turned to Apache Mesos. Mesos is an
+          open source cluster manager that was developed at UC Berkeley and
+          powers the backend of heavily trafficked services like Twitter,
+          Siri and others. Mesos has been proven to scale to tens of
+          thousands of nodes.
+
+          Using Mesos with container software like Docker and other open
+          source tools, you can easily deploy automated infrastructure that
+          scales with both your users and developers. In this presentation,
+          we will introduce and motivate the Apache Mesos project and
+          demonstrate common workflows for building and deploying applications
+          to a cluster of machines.
+
+    philip_norman:
+        name: Philip Norman
+        company: Mesosphere
+        role: Software Entwickler
+        twitter: philipnrmn
+        country: Germany
+        bio: >
+          Originally from London, Philip Norman now works out of Hamburg
+          developing scalable container tooling for Mesosphere. Previously,
+          Philip worked freelance in the web space on projects ranging from
+          experimental social networks to FinTech solutions. Philip likes to
+          relax by cycling, bouldering, and exploring the weirder corners of
+          North German cuisine.
+        title: >
+          Scaling Like Twitter With Apache Mesos
+        abstract: >
+          When Twitter was faced with the task of re-architecting their
+          backend away from a monolithic Ruby on Rails application to a
+          series of microservices, they turned to Apache Mesos. Mesos is an
+          open source cluster manager that was developed at UC Berkeley and
+          powers the backend of heavily trafficked services like Twitter,
+          Siri and others. Mesos has been proven to scale to tens of
+          thousands of nodes.
+
+          Using Mesos with container software like Docker and other open
+          source tools, you can easily deploy automated infrastructure that
+          scales with both your users and developers. In this presentation,
+          we will introduce and motivate the Apache Mesos project and
+          demonstrate common workflows for building and deploying applications
+
     job_thomas:
         name: Job Thomas
         company: Automattic
