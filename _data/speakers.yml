@@ -1,11 +1,11 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout ]
+speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier ]
 speakers_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel ]
 speakers_2014: [ niklas_gustavsson, clinton_gormley, deon_moolman, chris_bray, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson, aslam_khan ]
 speakers_2013: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
 speakers_business_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors_business, paul_cartmel ]
 speakers_technology_2015: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou ]
-highlighted: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout ]
+highlighted: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier ]
 nonhighlighted: [  ]
 
 # Template
@@ -20,7 +20,28 @@ nonhighlighted: [  ]
 #     title: >
 #
 #     abstract: >
+
 bios:
+    len_weincier:
+        name: Len Weincier
+        company: CloudAfrica
+        role: Founder
+        twitter: lenwnc
+        country: South Africa
+        bio: >
+          Len has built systems ranging from embedded devices to enterprise
+          scale big data systems. Coming from C and C++ via Java and JEE
+          through Ruby and now into Go and Node with bits of Clojure, he has
+           been around the programming block. He's trained many developers,
+           biz analysts and project managers over time and spoken at
+           many conferences.
+        title: >
+          FUD at scale
+        abstract: >
+          Fear, Uncertainty and Doubt can seriously limit your ability to
+          scale. Would you every build your own hardware? Would you build an
+          operating system? Lets take a look at the "other" barriers to scaling.
+
     bridget_kromhout:
         name: Bridget Kromhout
         company: Pivotal
