@@ -1,5 +1,5 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier, bethany_macri, michael_gorven ]
+speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier, bethany_macri, michael_gorven, job_thomas ]
 speakers_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel ]
 speakers_2014: [ niklas_gustavsson, clinton_gormley, deon_moolman, chris_bray, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson, aslam_khan ]
 speakers_2013: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
@@ -21,8 +21,34 @@ nonhighlighted: [  ]
 #
 #     abstract: >
 
-
 bios:
+    job_thomas:
+        name: Job Thomas
+        company: Automattic
+        role: Training and Education Manager
+        twitter: jobtex
+        country: South Africa
+        bio: >
+          Job Thomas is a Belgian who followed his South African wife to Cape
+          Town in 2013. He has worked as training manager at several NGOs and
+          as academic teaching staff at a few colleges before joining WooThemes
+          as Training and Education Manager focusing on proactive
+          support strategy.
+        title: >
+          Scaling Support by Educating Customers
+        abstract: >
+          Growing a business does not just imply selling more products and
+          getting more customers; one of the biggest challenges is supporting
+          that growing customer-base in handling their acquired products. With
+          growth comes an increase in potential errors, bugs, and struggles.
+          So how does a growing tech company scale support?
+
+          At WooThemes we get about 10,000 ticket submissions per month,
+          which stands in big contrast with the almost 500,000 visitors of
+          our public support resources. This talk will focus on finding a
+          good balance between providing a stable public resource and answering
+          urgent ticket requests, and the mistakes and wins we've
+          encountered along the way.
     michael_gorven:
         name: Michael Gorven
         company: Facebook/Instagram
