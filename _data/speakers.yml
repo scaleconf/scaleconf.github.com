@@ -1,11 +1,11 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker ]
+speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout ]
 speakers_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel ]
 speakers_2014: [ niklas_gustavsson, clinton_gormley, deon_moolman, chris_bray, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson, aslam_khan ]
 speakers_2013: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
 speakers_business_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors_business, paul_cartmel ]
 speakers_technology_2015: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou ]
-highlighted: [ damian_schenkelman, tyler_mcmullen, quinton_parker ]
+highlighted: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout ]
 nonhighlighted: [  ]
 
 # Template
@@ -20,8 +20,52 @@ nonhighlighted: [  ]
 #     title: >
 #
 #     abstract: >
-
 bios:
+    bridget_kromhout:
+        name: Bridget Kromhout
+        company: Pivotal
+        role: Principal Technologist
+        twitter:
+        country:
+        bio: >
+            Bridget Kromhout is a Principal Technologist for Cloud Foundry at
+            Pivotal. Her CS degree emphasis was in theory, but she now deals
+            with the concrete (if ‘cloud’ can be considered tangible). After
+            years in site reliability operations (most recently at DramaFever),
+            she traded in oncall for more travel. A frequent speaker at tech
+            conferences, she helps organize the AWS and devops meetups at home
+            in Minneapolis, serves on the program committee for Velocity, and
+            acts as a global core organizer for devopsdays. She podcasts at
+            Arrested DevOps, occasionally blogs at bridgetkromhout.com, and is
+            active in a Twitterverse near you.
+        title: >
+            Containers will not fix your broken culture (and other hard truths)
+        abstract: >
+            Containers will not fix your broken culture. Microservices won’t
+            prevent your two-pizza teams from needing to have conversations
+            with one another over that pizza. No amount of industrial-strength
+            job scheduling makes your organization immune to Conway’s Law.
+
+            Does this mean that devops has failed? Not in the slightest.
+            It means that while the unscrupulous might try to sell us devops,
+            we can’t buy it. We have to live it; change is a choice we make
+            every day, through our actions of listening empathetically and
+            acting compassionately.
+
+            Making thoughtful decisions about tools and architecture can help.
+            Containers prove to be a useful boundary object, and deconstructing
+            systems to human-scale allows us to comprehend their complexity.
+            We succeed when we share responsibility and have agency, when we
+            move past learned helplessness to active listening. But there is
+            no flowchart, no checklist, no shopping list of ticky boxes that
+            will make everything better. “Anyone who says differently is
+            selling something”, as The Princess Bride teaches us.
+
+            Part rant, part devops therapy, this talk will explain in the
+            nerdiest of terms why CAP theorem applies to human interactions
+            too, how oral tradition is like never writing state to disk, and
+            what we can do to avoid sadness as a service.
+
     quinton_parker:
         name: Quinton Parker
         company: Spree.co.za
