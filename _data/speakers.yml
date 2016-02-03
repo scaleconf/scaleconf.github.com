@@ -1,11 +1,11 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-speakers_2016: [ damian_schenkelman, tyler_mcmullen ]
+speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker ]
 speakers_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel ]
 speakers_2014: [ niklas_gustavsson, clinton_gormley, deon_moolman, chris_bray, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson, aslam_khan ]
 speakers_2013: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
 speakers_business_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors_business, paul_cartmel ]
 speakers_technology_2015: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou ]
-highlighted: [ damian_schenkelman, tyler_mcmullen ]
+highlighted: [ damian_schenkelman, tyler_mcmullen, quinton_parker ]
 nonhighlighted: [  ]
 
 # Template
@@ -22,6 +22,36 @@ nonhighlighted: [  ]
 #     abstract: >
 
 bios:
+    quinton_parker:
+        name: Quinton Parker
+        company: Spree.co.za
+        role: Solutions Architect
+        twitter: quintonparker
+        country: South Africa
+        bio: >
+            Quinton is a Solutions Architect for Spree.co.za but he's not the
+            hand-waiving box-drawing kind. He's the roll-up sleeves, write code
+            and ensure big ideas sensibly translates into practical and
+            real-world implementation kind of architect.
+            As a young under-priviledged developer he would spend many years
+            working on large-ish php/mysql applications. Today he sips the
+            Node.js koolaid, Elasticsearches all the things, and is a devout
+            varnishcache fanboy
+        title: >
+            The Strangler Pattern
+        abstract: >
+            If a large, complex, legacy (and monolith?) software system could
+            be thought of as a boeing and the users its passengers. This talk
+            is about a powerful (but not new) strategy to replace the jet
+            engines (performance) whilst simultaneously enabling more
+            passengers to embark mid-flight (scalability) without anybody
+            getting killed in the process (developers included).
+
+            This talk will showcase real-world and practical concepts,
+            pragmatic thinking, microservice adoption, silly mistakes, and
+            unusual software pattern mashups employed by Spree engineering
+            teams on our journey to a preferable ecommerce platform
+
     tyler_mcmullen:
         name: Tyler McMullen
         company: Fastly
