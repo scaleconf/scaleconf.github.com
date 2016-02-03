@@ -1,13 +1,50 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
+speakers_2016: [ damian_schenkelman ]
 speakers_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel ]
 speakers_2014: [ niklas_gustavsson, clinton_gormley, deon_moolman, chris_bray, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson, aslam_khan ]
 speakers_2013: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
-speakers_business: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors_business, paul_cartmel ]
-speakers_technology: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou ]
-highlighted: [ franz_struwig, willem_van_biljon, matty_cohen, stephen_perelson ]
+speakers_business_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors_business, paul_cartmel ]
+speakers_technology_2015: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou ]
+highlighted: [ damian_schenkelman ]
 nonhighlighted: [  ]
 
+# Template
+# slug
+#     name:
+#     company:
+#     role:
+#     twitter:
+#     country:
+#     bio: >
+#
+#     title: >
+#
+#     abstract: >
+
 bios:
+    damian_schenkelman:
+        name: Damian Schenkelman
+        company: Auth0
+        role: Engineer
+        twitter:
+        country: Argentina
+        bio: >
+            Damian is an engineer at Auth0 working on making the core
+            scalable and performant. He loves learning about distributed
+            systems, software performance and contributing to OSS.
+        title: >
+            The dirty secrets of building large, highly available, scalable HTTP APIs
+        abstract: >
+            When you first start building an API for a new product you mostly
+            focus on getting an MVP ready, with the goal shipping as soon as
+            possible so you can get feedback from customers. If you are lucky
+            enough, your product will be successful and you will have to start
+            worrying about things like authentication, authorization,
+            documentation, validation, rate limiting, geo-redundancy, and
+            no downtime deployments. In this talk I will go over some real
+            life examples of our experience evolving our APIs at Auth0 and
+            some of the tools we use for that.
+
 
     paul_cartmel:
         name: Paul Cartmel

@@ -24,10 +24,45 @@ title: Speakers
 
 <div class="row white-background">
     <div class="col-md-12">
+        <hr>
+        <h2>2016 - Technology of Scale</h2>
+    </div>
+</div>
+{% for speaker in site.data.speakers.speakers_2016 %}
+    {% assign bio = site.data.speakers.bios.[speaker] %}
+    {% assign newrow = forloop.index0 | modulo: 3 %}
+
+{% if newrow == 0 %}
+<div class="row white-background">
+{% endif %}
+    <div class="col-xs-12 col-md-3">
+
+            <div class="box">
+                <a href="/speakers/{{ speaker }}.html">
+                <div class="row">
+                    <div class="col-xs-5 col-md-5 gutter-padding-right">
+                        <img src="/img/speakers/{{ speaker }}.large.jpg" class="img-responsive profile">
+                    </div>
+                    <div class="col-xs-7 col-md-7 gutter-padding-left">
+                        <h3 class="speaker">{{ bio.name }}</h3>
+                        {{ bio.company }}<br />
+                        {{ bio.role }}
+                    </div>
+                </div>
+                </a>
+            </div>
+    </div>
+{% if newrow == 2 or forloop.last %}
+</div>
+{% endif %}
+{% endfor %}
+
+<div class="row white-background">
+    <div class="col-md-12">
         <h2>2015 - Business of Scale</h2>
     </div>
 </div>
-{% for speaker in site.data.speakers.speakers_business %}
+{% for speaker in site.data.speakers.speakers_business_2015 %}
     {% assign bio = site.data.speakers.bios.[speaker] %}
     {% assign newrow = forloop.index0 | modulo: 3 %}
 
@@ -62,7 +97,7 @@ title: Speakers
         <h2>2015 - Technology of Scale</h2>
     </div>
 </div>
-{% for speaker in site.data.speakers.speakers_technology %}
+{% for speaker in site.data.speakers.speakers_technology_2015 %}
     {% assign bio = site.data.speakers.bios.[speaker] %}
     {% assign newrow = forloop.index0 | modulo: 3 %}
 
