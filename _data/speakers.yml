@@ -28,6 +28,7 @@ bios:
         company: Mesosphere
         role: Technical Lead
         twitter: ssk2
+        github: ssk2
         country: USA
         bio: >
           Sunil Shah is a technical lead at Mesosphere, working on tools and
@@ -60,6 +61,7 @@ bios:
         company: Mesosphere
         role: Software Entwickler
         twitter: philipnrmn
+        github: philipnrmn
         country: Germany
         bio: >
           Originally from London, Philip Norman now works out of Hamburg
@@ -112,11 +114,13 @@ bios:
           good balance between providing a stable public resource and answering
           urgent ticket requests, and the mistakes and wins we've
           encountered along the way.
+
     michael_gorven:
         name: Michael Gorven
         company: Facebook/Instagram
         role: Production Engineer
         twitter: mgorven
+        github: mgorven
         country: USA
         bio: >
           Michael Gorven is a Production Engineer at Facebook,
@@ -153,6 +157,7 @@ bios:
         company: Etsy
         role: Software Engineer
         twitter: BethanyMacri
+        github: bmacri
         country: USA
         bio: >
           Bethany Macri is a Software Engineer on Etsy's Core Platform team.
@@ -181,6 +186,7 @@ bios:
         company: CloudAfrica
         role: Founder
         twitter: lenwnc
+        github: lenw
         country: South Africa
         bio: >
           Len has built systems ranging from embedded devices to enterprise
@@ -201,6 +207,7 @@ bios:
         company: Pivotal
         role: Principal Technologist
         twitter: bridgetkromhout
+        github: bridgetkromhout
         country: USA
         bio: >
             Bridget Kromhout is a Principal Technologist for Cloud Foundry at
@@ -246,6 +253,7 @@ bios:
         company: Spree.co.za
         role: Solutions Architect
         twitter: quintonparker
+        github: quintonparker
         country: South Africa
         bio: >
             Quinton is a Solutions Architect for Spree.co.za but he's not the
@@ -276,6 +284,7 @@ bios:
         company: Fastly
         role: CTO
         twitter: tbmcmullen
+        github: tyler
         country: USA
         bio: >
             Tyler McMullen is CTO at Fastly, where he’s responsible for the
