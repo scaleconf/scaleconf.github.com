@@ -168,27 +168,15 @@ bios:
           Nimbula. Michael grew up in Durban and holds a BSc in Electrical and
           Computer Engineering from the University of Cape Town. He currently
           lives in California with his wife and 2 year old son.
-          Talk title: Continuous deployment to millions of users 40 times a day
-          Talk abstract: Instagram deploys code 40 times a day to its fleet of
+        title: >
+          Continuous deployment to millions of users 40 times a day
+        abstract: >
+          Instagram deploys code 40 times a day to its fleet of
           thousands of webservers and userbase of 400M monthly active users
           automatically when engineers land changes. This talk describes the
           iterative approach we took to building this system, the problems we
           faced along the way, the solutions we implemented, and the key
           principles which enable this to work.
-        title: >
-          Continuous deployment to millions of users 40 times a day
-        abstract: >
-          Talk abstract: Instagram deploys code 40 times a day to its fleet of
-          thousands of webservers and userbase of 400M monthly active users
-          automatically when engineers land changes. This talk describes the
-          iterative approach we took to building this system, the problems we
-          faced along the way, the solutions we implemented, and the key
-          principles which enable this to work. These principles include a
-          reliable and fast test suite automatically run during code review
-          and before and after landing; an automated canary to detect
-          significant breakages before being widely deployed; good visibility
-          of and stop mechanisms for the automation; good site monitoring and
-          alarming; and a fast rollback mechanism.
 
     bethany_macri:
         name: Bethany Macri
