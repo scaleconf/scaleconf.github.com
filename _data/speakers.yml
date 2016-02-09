@@ -399,6 +399,7 @@ bios:
         company: Mxit
         role: Senior Web Engineer
         twitter: perelson
+        github: sperelson
         country: SA
         bio: >
             Stephen is a senior software developer at Mxit working on internal tools and
@@ -424,6 +425,7 @@ bios:
         company: Microsoft
         role: Principal Software Engineer
         twitter: timpark
+        github: timpark
         country: USA
         bio: >
             Tim is a principal software engineer at Microsoft, working with customers and
@@ -488,6 +490,7 @@ bios:
         role: Co-Founder
         country: SA
         twitter: greenafrican
+        github: greenafrican
         bio: >
             Robert is passionate about user experiences at the confluence of ecommerce, design and data science.
             He obsesses over flow, usability and simplicity. Pirate of Good Hope.
@@ -524,6 +527,7 @@ bios:
         role: Production Engineering Manager
         country: USA
         twitter: mipsytipsy
+        github: charity
         bio: >
             Charity is happily building out the next generation of mobile backends as a service at Parse.
             She enjoys free software, free speech and single malt scotch.
@@ -544,6 +548,7 @@ bios:
         role: Production Engineering Manager
         country: USA
         twitter: mipsytipsy
+        github: charity
         bio: >
             Charity is happily building out the next generation of mobile backends as a service at Parse.
             She enjoys free software, free speech and single malt scotch.
@@ -561,6 +566,7 @@ bios:
         role: Chief Product Officer
         country: SA
         twitter: mattyza
+        github: mattyza
         bio: >
             Matty is the Chief Product Officer at WooThemes, a market leader in premium
             WordPress products, helping folks to be successful in online business.
@@ -878,6 +884,7 @@ bios:
         company: Praekelt
         role: Lead Developer
         twitter: hodgestar
+        github: hodgestar
         country: SA
         bio: >
             Simon enjoys exploring details and finding ways to make the world a better place.
@@ -1173,6 +1180,7 @@ bios:
         company: Yuppiechef
         role: Senior Software Developer
         twitter: CmdrDats
+        github: CmdrDats
         blog: http://www.yuppiechef.com/technology-and-development.htm
         bio: >
             Deon is a senior software developer at Yuppiechef.co.za, the
@@ -1228,6 +1236,7 @@ bios:
         country: USA
         quote: Automation, documentation and simplicity are his usual tools
         twitter: mrtazz
+        github: mrtazz
         bio: >
             Daniel is a Software Engineer in Etsy's infrastructure and development tools
             team. Automation, documentation and simplicity are his usual tools for
@@ -1289,6 +1298,7 @@ bios:
         role: CTO
         country: SA
         twitter: david_tinker
+        github: davidtinker
         bio: >
             David is CTO at BrandsEye, the online brand monitoring
             and analysis software. BrandsEye processes large volumes (3 million+) of
@@ -1312,6 +1322,7 @@ bios:
         company: AppDynamics
         role: Developer Evangelist
         twitter: dustinwhittle
+        github: dustinwhittle
         blog: http://dustinwhittle.com/
         bio: >
             Dustin is a Developer Evangelist at AppDynamics where he focuses on helping organisations
@@ -1339,6 +1350,7 @@ bios:
         name: Krzysztof Debski
         company: Allegro
         role: IT Architect
+        github: kdebski
         bio: >
             Krzysztof is a technical enthusiast, software engineer and product
             owner of Service Bootstrap developed in Allegro. Gained
@@ -1382,6 +1394,7 @@ bios:
         country: SA
         quote: I started out with nothing and I still have most of it left
         twitter: imsickofmaps
+        github: imsickofmaps
         bio: >
             Mike works at Western Cape Labs, which he helped form in 2012. He calls himself
             a "jack of all trades, master of some", which really just means he has to
@@ -1410,6 +1423,7 @@ bios:
         country: USA
         quote: A decade of experience building global-scale analysis infrastructures
         twitter: milesward
+        github: milesward
         bio: >
             Miles is a three-time technology startup entrepreneur with a decade of experience
             building global-scale analysis infrastructures. Miles has been at Amazon
@@ -1441,6 +1455,7 @@ bios:
         role: Production Engineering Manager
         country: USA
         twitter: nxsy
+        github: nxsy
         title: Operating at Scale
         bio: >
             Neil is a Production Engineer in Facebook's Core Systems team where he tries
@@ -1464,6 +1479,7 @@ bios:
         name: Niklas Gustavsson
         title: Optimizing playback at Spotify
         twitter: protocol7
+        github: protocol7
         abstract: >
             Spotify instantly streams music to more than 24 million users, on many
             different platforms, from a catalogue of more than 20 million songs. What goes
@@ -1479,6 +1495,7 @@ bios:
         role: CTO
         country: SA
         twitter: RobStuttaford
+        github: robert-stuttaford
         bio: >
             Robert is the CTO at Cognician, a local tech startup working on
             improving people's thinking. Now, going into its fourth year with a brand
@@ -1568,6 +1585,7 @@ bios:
         name: Patrick Turley
         company: ThoughtWorks
         role: Lead Consultant and Software Developer
+        github: pturley
         country: SA
         bio: >
             Patrick is a Lead Consultant and Software Developer from the ThoughtWorks
