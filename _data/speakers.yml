@@ -204,7 +204,7 @@ bios:
           maintain high availability:
           <ol>
           <li>a four-year data migration project</li>
-          <li>writing a new API that allowed clients to fetch data concurrently, and
+          <li>writing a new API that allowed clients to fetch data concurrently, and</li>
           <li>scaling datasets infrastructure.</li>
           </ol>
           This talk will propose a model for scaling as well as discussing
