@@ -1,5 +1,4 @@
 markdown: rdiscount
-highlighter: pygments
 navigation:
 - text: Home
   url: /
