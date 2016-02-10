@@ -1,6 +1,6 @@
 2014: ["praekelt", "2go", "amazon", "elasticsearch", "facebook", "google", "hetzner", "key_connections", "mxit", "oracle", "rackspace", "rsaweb", "microsoft"]
 2015: ["takealot", "google", "rsaweb", "hetzner", "oracle", "2go", "ventureburn", "amazon", "key_connections"]
-2016: ["takealot", "google", "rsaweb", "hetzner", "oracle"]
+2016: ["takealot", "google", "rsaweb", "hetzner", "oracle", "offerzen"]
 profiles:
   ventureburn:
     website_text: >
@@ -175,6 +175,32 @@ profiles:
       Super-charge your chat! Our unique Chat Cards allows you to grab web content,
       drop in videos,  share music tracks or mix up your chat with jokes and pickup
       lines to instantly spark new  conversations.
+      </p>
+  offerzen:
+    website_text: >
+      <b>The best way to find your next software dev job</b>
+      <p>
+      As a developer you're in demand. We believe it should be easy for you to find a 
+      meaningful job that pays well. 
+      </p>
+      <p>
+      On <a href='https://www.offerzen.com/'>OfferZen</a> instead of applying for jobs, 
+      companies send you interview requests with upfront salary details. You decide 
+      which companies to interview with by comparing salary, the work you’ll be doing, 
+      learning opportunities, work environment, and perks that companies offer. 
+      </p>
+      <p>
+      We made <a href='https://www.offerzen.com/'>OfferZen</a> to be exactly what we would 
+      want:
+        <ul>
+          <li>No recruiters involved ever - deal directly with the company.</li>
+          <li>We manually approve all companies to make sure only awesome companies are 
+          hiring on OfferZen.</li>
+          <li>You get multiple interview requests with upfront salary info - so you can 
+          see what you’re worth.</li>
+          <li>Your email isn't shared with anyone - no spam ever.</li>
+          <li>Your profile is hidden from everyone except from companies we’ve approved.</li>
+          <li>Your current employer is blocked from seeing you.</li>
       </p>
   oracle:
     website_text: >
