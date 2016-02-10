@@ -1,5 +1,5 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier, bethany_macri, michael_gorven, job_thomas, sunil_shah, philip_norman, dewald_viljoen ]
+speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier, bethany_macri, michael_gorven, job_thomas, sunil_shah, philip_norman, dewald_viljoen, michael_needham ]
 speakers_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel ]
 speakers_2014: [ niklas_gustavsson, clinton_gormley, deon_moolman, chris_bray, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson, aslam_khan ]
 speakers_2013: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
@@ -23,6 +23,24 @@ nonhighlighted: [  ]
 #     abstract: >
 
 bios:
+    michael_needham:
+        name: Michael Needham
+        company: Amazon
+        role: Senior Manager of Solutions Architecture
+        twitter: smneedham
+        github: smneedham
+        country: South Africa
+        bio: >
+          Michael Needham is a Senior Manager of Solutions Architecture at Amazon Web Services for CIS, Russia, Middle East and Africa. In this role Michael is supporting internal teams and directly working with customers to successfully architect and run their applications at scale in the Amazon Web Services cloud, through best practice and lowering cost.
+
+          Michael has 19 years’ experience in IT working in the enterprise, mobile and online landscape in Africa, Asia and Europe. In various stages of his career he played a key role in shaping the platforms and technology that power some of the top online brands of Southern Africa, including a leading ISP, a leading news portal and related content verticals, mobile-first startups in Kenya and Nigeria and more recently online retail. Over a 10 year period, Michael also worked as technical due diligence lead on Nasper’s mergers and acquisitions team, supporting over $300 Mil of investments in emerging market eCommerce startups such as Flipkart (India), SimilarWeb (Israel), Konga (Nigeria), Souq (Middle East), PayProp (South Africa) and many more.
+        title: >
+          Talk title: Design patterns for product launch success
+        abstract: >
+          With more 'Unicorns' in the past 18 months than entire history of online 'Unicorns' the macroeconomic timing and techincal conditions for product disruption are high. This talk will focus on 5 design patterns for rapid launch of new products and cost efficient scale when success takes hold.
+
+          The more technical aspects of this talk will consider the serverless architecture paradigm (based on AWS Lambda) for low cost unit economics in your products and extremely high scale across global regions. It will touch on Jaws Open Source framework (now called Serverless) as a mechanism of dealing with the complexities of such deployments, a typical challenge in this space. This will lead in to an IOT theme demo using an Alexa assistant backed by Lambda to order some beer :)
+
     dewald_viljoen:
         name: Dewald Viljoen
         company: ThoughtWorks
@@ -31,34 +49,34 @@ bios:
         github: DewaldV
         country: South Africa
         bio: >
-          Dewald is a software developer and ThoughtWorker from Johannesburg. 
-          He believes that software has no value if it cannot get to the 
-          consumer and that close collaboration between operations and 
-          development and automating all the things is crucial to succeeding 
+          Dewald is a software developer and ThoughtWorker from Johannesburg.
+          He believes that software has no value if it cannot get to the
+          consumer and that close collaboration between operations and
+          development and automating all the things is crucial to succeeding
           at this goal.
         title: >
           Rapid, Reproducible Builds - Treating our build servers like production
         abstract: >
-          I'd like to talk to everyone about someone we often neglect. That 
-          someone keeps our code flowing into production, runs all those 
-          automated tests, does things that we might not even remember to 
+          I'd like to talk to everyone about someone we often neglect. That
+          someone keeps our code flowing into production, runs all those
+          automated tests, does things that we might not even remember to
           deploy to all our environments.
 
           That someone is our build servers.
 
-          They tirelessly work to get our changes to our end users and we do 
-          neglect them. We don't treat our build servers like production servers, 
-          we hack them, we play with them, we mess up the environments. We may 
-          have several agents with different runtimes and gems and patch levels 
+          They tirelessly work to get our changes to our end users and we do
+          neglect them. We don't treat our build servers like production servers,
+          we hack them, we play with them, we mess up the environments. We may
+          have several agents with different runtimes and gems and patch levels
           and who knows what.
 
           We can do better.
 
-          In this talk I'd like to take you through something I've been working 
-          on over the last couple of months: Containerising your build. The tool 
-          I'll be using for this is Docker, but it's achievable with any VM or 
-          container technology. I'll take you through going from a working build 
-          on local to building local inside a container and then to moving that 
+          In this talk I'd like to take you through something I've been working
+          on over the last couple of months: Containerising your build. The tool
+          I'll be using for this is Docker, but it's achievable with any VM or
+          container technology. I'll take you through going from a working build
+          on local to building local inside a container and then to moving that
           build to a build server, explaining what how and why as I go.
 
     sunil_shah:
