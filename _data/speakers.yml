@@ -201,9 +201,12 @@ bios:
           as its developers. In this talk, Bethany Macri, Core Platform
           Engineer at Etsy, will discuss three software projects that
           demonstrate how Etsy changed its infrastructure to scale and
-          maintain high availability: 1) a four-year data migration
-          project, 2) writing a new API that allowed clients to fetch
-          data concurrently and 3) establishing multiple data centers.
+          maintain high availability:
+          <ol>
+          <li>a four-year data migration project</li>
+          <li>writing a new API that allowed clients to fetch data concurrently, and</li>
+          <li>scaling datasets infrastructure.</li>
+          </ol>
           This talk will propose a model for scaling as well as discussing
           possible ways Etsy will continue to scale as it grows.
 
