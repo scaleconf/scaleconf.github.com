@@ -26,30 +26,25 @@ bios:
     michael_needham:
         name: Michael Needham
         company: Amazon Web Services
-        role: Senior Manager of Solutions Architecture
+        role: Senior Manager of Solutions Architecture - RMEA
         twitter: smneedham
         github: smneedham
         country: South Africa
         bio: >
-          Michael Needham is a Senior Manager of Solutions Architecture at
-          Amazon Web Services for CIS, Russia, Middle East and Africa. In this
-          role Michael is supporting internal teams and directly working with
-          customers to successfully architect and run their applications at
-          scale in the Amazon Web Services cloud, through best practice and
-          lowering cost.
+          In this role Michael is supporting internal teams and directly working 
+          with customers to successfully architect and run their applications at 
+          scale in the Amazon Web Services cloud.
 
-          Michael has 19 years’ experience in IT working in the enterprise,
-          mobile and online landscape in Africa, Asia and Europe. In various
-          stages of his career he played a key role in shaping the platforms
-          and technology that power some of the top online brands of Southern
-          Africa, including a leading ISP, a leading news portal and related
-          content verticals, mobile-first startups in Kenya and Nigeria and
-          more recently online retail. Over a 10 year period, Michael also
-          worked as technical due diligence lead on Nasper’s mergers and
-          acquisitions team, supporting over $300 Mil of investments in
-          emerging market eCommerce startups such as Flipkart (India),
-          SimilarWeb (Israel), Konga (Nigeria), Souq (Middle East),
-          PayProp (South Africa) and many more.
+          Michael has 19 years’ IT experience working in Africa, Asia and Europe. 
+          In various stages of his career he played a key role in shaping the 
+          platforms and technology that power some of the top online brands of 
+          Southern Africa, including a leading ISP, a breaking news portal, 
+          mobile-first startups in Kenya and Nigeria and more recently online 
+          retail. Over a 10 year period, Michael also worked as technical due 
+          diligence lead on Nasper’s mergers and acquisitions team, supporting 
+          over $300 Mil of investments in emerging market eCommerce startups such 
+          as Flipkart (India), SimilarWeb (Israel), Konga (Nigeria), Souq (Middle 
+            East), PayProp (South Africa) and many more.
         title: >
           Design patterns for product launch success
         abstract: >
@@ -65,7 +60,7 @@ bios:
           regions. It will touch on frameworks such as Jaws Open Source f
           ramework (now called Serverless) as a mechanism of dealing with the
           complexities of such deployments, a typical challenge in this space.
-          The final design pattern focuses on taking your products to new
+          The final design pattern focuses on scaling your products to new
           channels and will consider the IOT theme with a small example of a
           Lambda integration in to an Amazon Alexa for a simple beer
           ordering service :)
