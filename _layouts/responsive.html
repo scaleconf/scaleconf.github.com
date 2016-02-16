@@ -19,6 +19,7 @@
 </head>
 
 <body>
+   {% if site.tickets_for_sale %}
     <div class="banner" style="
             text-align: center;
             background: #fff;
@@ -31,6 +32,7 @@
             color: #222;">
                 <span style="color:#000;">Tickets now open! &nbsp; <a href="/purchase/" class="btn btn-primary">Buy Tickets</a></span>
     </div>
+    {% endif %}
 
     <div class="container">
         <div class="row">
