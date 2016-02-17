@@ -18,10 +18,3 @@ navigation:
 - text: Contact
   url: /contact
 year: 2016
-tickets_for_sale: false
-quicket_enable: true
-quicket_productid: 13990
-# the link under the waiting list for speakers/sponsors to buy tickets
-quicket_link_enable: true
-waiting_list_enable: true
-waiting_list_url: https://docs.google.com/forms/d/1WOB3UD0XMfljzwqoqvqIw36xnuDbPs0RcjZDG5_L_4o/viewform

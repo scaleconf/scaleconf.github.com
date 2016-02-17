@@ -1,0 +1,6 @@
+tickets_for_sale: true
+tickets_for_vip: true
+tickets_for_public: true
+
+quicket_productid: 13990
+waiting_list_url: https://docs.google.com/forms/d/1WOB3UD0XMfljzwqoqvqIw36xnuDbPs0RcjZDG5_L_4o/viewform
