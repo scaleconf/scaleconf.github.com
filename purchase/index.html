@@ -21,14 +21,24 @@ title: Purchase Tickets
                 <li>Evening events to network and meet like-minded people.</li>
                 <!-- <li>Free workshops, and time to build and hack with new technologies and people.</li> -->
             </ul>
+            {% if site.data.config.tickets_for_sale %}
             <p>
-            {% if site.quicket_enable %}<iframe src="https://www.quicket.co.za/embed.aspx?productid={{ site.quicket_productid }}&productname=scaleconf&embed=true&v=2" frameborder="0" scrolling="yes" width="100%" height="600"></iframe>{% endif %}
-            {% if site.waiting_list_enable %}<iframe src="{{ site.waiting_list_url }}?embedded=true" width="600" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>{% endif %}
+              {% if site.data.config.tickets_for_public %}
+              <iframe src="https://www.quicket.co.za/embed.aspx?productid={{ site.data.config.quicket_productid }}&productname=scaleconf&embed=true&v=2" frameborder="0" scrolling="yes" width="100%" height="600"></iframe>
+              {% else %}
+              <b>Tickets sold out! Add your name to the waiting list below:</b>
+              <iframe src="{{ site.data.config.waiting_list_url }}?embedded=true" width="600" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             </p>
-
-            {% if site.quicket_link_enable %}
-            <p>If you’re a sponsor or speaker that still needs to claim your assigned tickets <a href="https://www.quicket.co.za/events/{{ site.quicket_productid }}-scaleconf/#/">click here</a> and enter your promo code to unlock your ticket</p>
+                {% if site.data.config.tickets_for_vip %}
+              <p>
+              If you’re a sponsor or speaker that still needs to claim your assigned tickets <a href="https://www.quicket.co.za/events/{{ site.data.config.quicket_productid }}-scaleconf/#/">click here</a> and enter your promo code to unlock your ticket
+              </p>
+                {% endif %}
+              {% endif %}
+            {% else %}
+            <strong>Tickets are now closed for {{ site.year }}</strong> and the waitlist is over-subscribed. Get in quick next year!
             {% endif %}
+
 
         </div>
         <!-- <div class="well">
