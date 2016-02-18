@@ -24,7 +24,7 @@
      {% if site.data.config.tickets_for_public %}
         <span style="color:#000;">Tickets now open! &nbsp; <a href="/purchase/" class="btn btn-primary">Buy Tickets</a></span>
      {% else %}
-        <span style="color:#000;">Tickets are sold out! &nbsp; <a href="{{ site.waiting_list_url }}" class="btn btn-primary">Signup for the waiting list</a></span>
+        <span style="color:#000;">Tickets are sold out! &nbsp; <a href="{{ site.data.config.waiting_list_url }}" class="btn btn-primary">Signup for the waiting list</a></span>
      {% endif %}
     </div>
    {% endif %}
