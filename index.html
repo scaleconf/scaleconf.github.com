@@ -78,7 +78,9 @@ title: Home
                     <div class="row padding-extra">
                         <div class="col-xs-12 col-md-12">
                             <h2 class="pull-right"><a href="/speakers/"> More speakers &gt;&gt;</a></h2>
+                            {% if site.data.config.tickets_for_sale and site.data.config.tickets_for_public %}
                             <a href="/purchase" class="btn btn-primary">Buy tickets</a>
+                            {% endif %}
                         </div>
                     </div>
                 </div>

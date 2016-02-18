@@ -19,18 +19,15 @@
 </head>
 
 <body>
-    <div class="banner" style="
-            text-align: center;
-            background: #fff;
-            font-size: 19px;
-            line-height: 28px;
-            padding: 10px;
-            border-top: solid 2px #aaa;
-            border-bottom: solid 2px #aaa;
-            margin-top: 15px;
-            color: #222;">
-                <span style="color:#000;">Tickets now open! &nbsp; <a href="/purchase/" class="btn btn-primary">Buy Tickets</a></span>
+   {% if site.data.config.tickets_for_sale %}
+    <div class="banner" style="text-align: center; background: #fff; font-size: 19px; line-height: 28px; padding: 10px; border-top: solid 2px #aaa; border-bottom: solid 2px #aaa; margin-top: 15px; color: #222;">
+     {% if site.data.config.tickets_for_public %}
+        <span style="color:#000;">Tickets now open! &nbsp; <a href="/purchase/" class="btn btn-primary">Buy Tickets</a></span>
+     {% else %}
+        <span style="color:#000;">Tickets are sold out! &nbsp; <a href="{{ site.waiting_list_url }}" class="btn btn-primary">Signup for the waiting list</a></span>
+     {% endif %}
     </div>
+   {% endif %}
 
     <div class="container">
         <div class="row">
