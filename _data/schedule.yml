@@ -46,7 +46,7 @@
           description: A quick changeover & pee-break
         - time: 3:50 pm - 4:35 pm
           speaker: michael_needham
-    - day: Thursday evening, 5th March
+    - day: Thursday evening, 10th March
       schedule:
         - time: 5:30 pm - 10:00 pm
           event: Party
@@ -54,7 +54,7 @@
             Join us for food and drinks at <a href="http://forries.co.za/">Foresters Arms</a>, sponsored by
             <a href="http://scaleconf.org/sponsors/amazon.html">Amazon</a>. This will be a chance
             to socialise and network with the speakers, organisers, and fellow conference attendees.
-    - day: Friday, 6th March
+    - day: Friday, 11th March
       schedule:
         - time: 8:30 am - 9:00 am
           event: Arrival
@@ -86,7 +86,7 @@
           description: Afternoon tea & coffee with biscuits
         - time: 3:40 pm - 4:25 pm
           speaker: bridget_kromhout
-    - day: Friday evening, 6th March
+    - day: Friday evening, 11th March
       schedule:
         - time: 5:00 pm - 7:00 pm
           event: Drinks
