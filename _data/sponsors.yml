@@ -92,6 +92,16 @@ profiles:
       push code everyday to build infrastructure and products that provide global,
       real-time, and interconnected services for the 1.2 billion people who visit
       Facebook every month.
+  flickswitch:
+    website_text: >
+      Flickswitch lets you take control of your enterprise SIM cards. Managing large 
+      numbers of device and M2M SIMs does not need to be painful. Flickswitch gives 
+      you more control and helps you save on mobile expenditure across several African 
+      mobile networks. Flickswitch manage thousands of SIM cards every day.
+      </p>
+      <p>
+      For more information, visit <a href='http://www.flickswitch.co.za/'>
+      flickswitch.co.za</a>.
   google:
     website_text: >
       Google’s innovative search technologies connect millions of people around
@@ -107,7 +117,7 @@ profiles:
       <p>
       For more information, visit <a href='http://developers.google.com'>
       developers.google.com</a>, and follow us on
-      <a href='https://plus.google.com/+GoogleDevelopers'>Google+</a>
+      <a href='https://plus.google.com/+GoogleDevelopers'>Google+</a>.
   hetzner:
     website_text: >
       At Hetzner South Africa we are passionate about web hosting – it’s our

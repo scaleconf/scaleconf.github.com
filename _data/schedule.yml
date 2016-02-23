@@ -1,5 +1,99 @@
 2016:
   dates: March 10-11 2016
+  programme:
+    - day: Wednesday evening, 9th March
+      schedule:
+        - time: 5:30 pm - 9:30 pm
+          event: Pre-conference drinks
+          description: >
+            Come join us for pre-conference drinks at
+            <a href="https://www.facebook.com/dropkickmurphyscpt/">Dropkick Murphy's</a>, sponsored by
+            <a href="/sponsors/flickswitch.html">Flickswitch</a>.
+            This will be a chance to socialise and network with the speakers,
+            organisers, and fellow conference attendees.
+    - day: Thursday, 10th March
+      schedule:
+        - time: 8:00 am - 9:00 am
+          event: Registration
+          description: Tea and coffee will be served
+        - time: 9:00 am - 9:15 am
+          event: Opening
+          description: A quick welcome and introduction to the conference before we get going
+        - time: 9:30 am - 10:15 am
+          speaker: michael_gorven
+        - time: 10:15 am - 10:25 am
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 10:25 am - 11:10 am
+          speaker: bethany_macri
+        - time: 11:10 am - 11:30 am
+          event: Break
+          description: Mid-morning tea & coffee with scones and biscuits
+        - time: 11:30 am - 12:15 pm
+          speaker: sunil_and_philip
+        - time: 12:15 pm - 1:45 pm
+          event: Lunch
+          description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
+        - time: 1:45 pm - 2:30 pm
+          speaker: job_thomas
+        - time: 2:30 pm - 2:45 pm
+          event: Break
+          description: Afternoon tea & coffee with biscuits
+        - time: 2:45 pm - 3:30 pm
+          speaker: tyler_mcmullen
+        - time: 3:30 pm - 3:50 pm
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 3:50 pm - 4:35 pm
+          speaker: michael_needham
+    - day: Thursday evening, 10th March
+      schedule:
+        - time: 5:30 pm - 10:00 pm
+          event: Party
+          description: >
+            Join us for food and drinks at <a href="http://forries.co.za/">Foresters Arms</a>, sponsored by
+            <a href="/sponsors/amazon.html">Amazon</a>. This will be a chance
+            to socialise and network with the speakers, organisers, and fellow conference attendees.
+    - day: Friday, 11th March
+      schedule:
+        - time: 8:30 am - 9:00 am
+          event: Arrival
+          description: Tea and coffee will be served
+        - time: 9:15 am - 10:00 am
+          speaker: dewald_viljoen
+        - time: 10:00 am - 10:10 am
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 10:10 am - 10:55 am
+          speaker: quinton_parker
+        - time: 10:55 am - 11:25 am
+          event: Break
+          description: Mid-morning tea & coffee with scones and biscuits
+        - time: 11:25 am - 12:10 pm
+          speaker: damian_schenkelman
+        - time: 12:15 pm - 1:30 pm
+          event: Lunch
+          description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
+        - time: 1:30 pm - 2:15 pm
+          speaker: TBC
+        - time: 2:15 pm - 2:30 pm
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 2:30 pm - 3:15 pm
+          speaker: len_weincier
+        - time: 3:15 pm - 3:40 pm
+          event: Break
+          description: Afternoon tea & coffee with biscuits
+        - time: 3:40 pm - 4:25 pm
+          speaker: bridget_kromhout
+    - day: Friday evening, 11th March
+      schedule:
+        - time: 5:00 pm - 7:00 pm
+          event: Drinks
+          description: >
+              Join us at the post-conference party at Moyo at Kirstenbosch, for drinks sponsored
+              by <a href="http://www.facebook.com/">Facebook</a>. This will be a chance to socialise and
+              network with the speakers, organisers, and fellow conference attendees.
 2015:
   dates: March 4-6 2015
   programme:
@@ -48,7 +142,7 @@
           description: >
             Come join us for post-business day / pre-technology days drinks at
             <a href="http://www.wembleytap.co.za/">Wembley Tap</a>, sponsored by
-            <a href="http://scaleconf.org/sponsors/key_connections.html">Key Connections</a>.
+            <a href="/sponsors/key_connections.html">Key Connections</a>.
             This will be a chance to socialise and network with the speakers,
             organisers, and fellow conference attendees.
     - day: Thursday, 5th March - The Technology of Scale (Day 1)
@@ -92,7 +186,7 @@
           event: Party
           description: >
             Join us for food and drinks at <a href="http://forries.co.za/">Foresters Arms</a>, sponsored by
-            <a href="http://scaleconf.org/sponsors/amazon.html">Amazon</a>. This will be a chance
+            <a href="/sponsors/amazon.html">Amazon</a>. This will be a chance
             to socialise and network with the speakers, organisers, and fellow conference attendees.
     - day: Friday, 6th March - The Technology of Scale (Day 2)
       schedule:
@@ -142,7 +236,7 @@
       schedule:
         - time: 5:00 pm - 9:30 pm
           event: Pre-conference drinks
-          description: Come join us for pre-conference drinks at <a href="http://www.wembleytap.co.za/">the Wembley Tap</a> in Gardens, sponsored by <a href="http://scaleconf.org/sponsors/key_connections">Key Connections</a>. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
+          description: Come join us for pre-conference drinks at <a href="http://www.wembleytap.co.za/">the Wembley Tap</a> in Gardens, sponsored by <a href="/sponsors/key_connections">Key Connections</a>. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
     - day: Thursday, 10th April
       schedule:
         - time: 8:00 am - 9:00 am
@@ -184,7 +278,7 @@
       schedule:
         - time: 5:30 pm - 10:00 pm
           event: Party
-          description: Join us at <a href="http://forries.co.za/">the Forrester's Arms</a> for food and drinks, sponsored by <a href="http://scaleconf.org/sponsors/amazon">Amazon Web Services</a>.
+          description: Join us at <a href="http://forries.co.za/">the Forrester's Arms</a> for food and drinks, sponsored by <a href="/sponsors/amazon">Amazon Web Services</a>.
     - day: Friday, 11th April
       schedule:
         - time: 8:30 am - 9:00 am
@@ -225,4 +319,4 @@
         - time: 5:00 pm - 11:00 pm
           event: Party
           description: >
-              Join us at the post-conference party at <a href="http://riverclub.co.za/">Player's Restaurant, at the River Club</a> for food and drinks, sponsored by <a href="http://scaleconf.org/sponsors/facebook">Facebook</a>.
+              Join us at the post-conference party at <a href="http://riverclub.co.za/">Player's Restaurant, at the River Club</a> for food and drinks, sponsored by <a href="/sponsors/facebook">Facebook</a>.
