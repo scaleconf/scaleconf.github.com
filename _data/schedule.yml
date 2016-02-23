@@ -8,7 +8,7 @@
           description: >
             Come join us for pre-conference drinks at
             <a href="https://www.facebook.com/dropkickmurphyscpt/">Dropkick Murphy's</a>, sponsored by
-            <a href="http://scaleconf.org/sponsors/flickswitch.html">Flickswitch</a>.
+            <a href="/sponsors/flickswitch.html">Flickswitch</a>.
             This will be a chance to socialise and network with the speakers,
             organisers, and fellow conference attendees.
     - day: Thursday, 10th March
@@ -52,7 +52,7 @@
           event: Party
           description: >
             Join us for food and drinks at <a href="http://forries.co.za/">Foresters Arms</a>, sponsored by
-            <a href="http://scaleconf.org/sponsors/amazon.html">Amazon</a>. This will be a chance
+            <a href="/sponsors/amazon.html">Amazon</a>. This will be a chance
             to socialise and network with the speakers, organisers, and fellow conference attendees.
     - day: Friday, 11th March
       schedule:
@@ -91,8 +91,8 @@
         - time: 5:00 pm - 7:00 pm
           event: Drinks
           description: >
-              Join us at the post-conference party at Moyo at Kirstenbosch, for drinks sponsored 
-              by <a href="http://www.facebook.com/">Facebook</a>. This will be a chance to socialise and 
+              Join us at the post-conference party at Moyo at Kirstenbosch, for drinks sponsored
+              by <a href="http://www.facebook.com/">Facebook</a>. This will be a chance to socialise and
               network with the speakers, organisers, and fellow conference attendees.
 2015:
   dates: March 4-6 2015
@@ -142,7 +142,7 @@
           description: >
             Come join us for post-business day / pre-technology days drinks at
             <a href="http://www.wembleytap.co.za/">Wembley Tap</a>, sponsored by
-            <a href="http://scaleconf.org/sponsors/key_connections.html">Key Connections</a>.
+            <a href="/sponsors/key_connections.html">Key Connections</a>.
             This will be a chance to socialise and network with the speakers,
             organisers, and fellow conference attendees.
     - day: Thursday, 5th March - The Technology of Scale (Day 1)
@@ -186,7 +186,7 @@
           event: Party
           description: >
             Join us for food and drinks at <a href="http://forries.co.za/">Foresters Arms</a>, sponsored by
-            <a href="http://scaleconf.org/sponsors/amazon.html">Amazon</a>. This will be a chance
+            <a href="/sponsors/amazon.html">Amazon</a>. This will be a chance
             to socialise and network with the speakers, organisers, and fellow conference attendees.
     - day: Friday, 6th March - The Technology of Scale (Day 2)
       schedule:
@@ -236,7 +236,7 @@
       schedule:
         - time: 5:00 pm - 9:30 pm
           event: Pre-conference drinks
-          description: Come join us for pre-conference drinks at <a href="http://www.wembleytap.co.za/">the Wembley Tap</a> in Gardens, sponsored by <a href="http://scaleconf.org/sponsors/key_connections">Key Connections</a>. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
+          description: Come join us for pre-conference drinks at <a href="http://www.wembleytap.co.za/">the Wembley Tap</a> in Gardens, sponsored by <a href="/sponsors/key_connections">Key Connections</a>. This will be a chance to socialise and network with the speakers, organisers, and fellow conference attendees
     - day: Thursday, 10th April
       schedule:
         - time: 8:00 am - 9:00 am
@@ -278,7 +278,7 @@
       schedule:
         - time: 5:30 pm - 10:00 pm
           event: Party
-          description: Join us at <a href="http://forries.co.za/">the Forrester's Arms</a> for food and drinks, sponsored by <a href="http://scaleconf.org/sponsors/amazon">Amazon Web Services</a>.
+          description: Join us at <a href="http://forries.co.za/">the Forrester's Arms</a> for food and drinks, sponsored by <a href="/sponsors/amazon">Amazon Web Services</a>.
     - day: Friday, 11th April
       schedule:
         - time: 8:30 am - 9:00 am
@@ -319,4 +319,4 @@
         - time: 5:00 pm - 11:00 pm
           event: Party
           description: >
-              Join us at the post-conference party at <a href="http://riverclub.co.za/">Player's Restaurant, at the River Club</a> for food and drinks, sponsored by <a href="http://scaleconf.org/sponsors/facebook">Facebook</a>.
+              Join us at the post-conference party at <a href="http://riverclub.co.za/">Player's Restaurant, at the River Club</a> for food and drinks, sponsored by <a href="/sponsors/facebook">Facebook</a>.
