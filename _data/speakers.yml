@@ -57,8 +57,8 @@ bios:
           The more technical aspects of this talk will consider the serverless
           architecture paradigm (based on AWS Lambda) for low cost unit
           economics in your products and extremely high scale across global
-          regions. It will touch on frameworks such as Jaws Open Source f
-          ramework (now called Serverless) as a mechanism of dealing with the
+          regions. It will touch on frameworks such as Jaws Open Source framework
+          (now called Serverless) as a mechanism of dealing with the
           complexities of such deployments, a typical challenge in this space.
           The final design pattern focuses on scaling your products to new
           channels and will consider the IOT theme with a small example of a
