@@ -6,6 +6,22 @@ layout: responsive
     <div class="col-md-12">
         <h1>{{ speaker.name }}</h1>
     </div>
+    {% if speaker.twitter != nil %}
+    <div class="col-md-2">
+        <div class="twitter">
+            <a href="https://twitter.com/{{ speaker.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ speaker.twitter }}</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+    </div>
+    {% endif %}
+    {% if speaker.github != nil %}
+    <div class="col-md-2">
+        <div class="github">
+          <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+          <a class="github-button" href="https://github.com/{{ speaker.github }}" aria-label="Follow @{{ speaker.github }} on GitHub">Follow @{{ speaker.github }}</a>
+        </div>
+    </div>
+    {% endif %}
 </div>
 <div class="row white-background">
     <div class="col-xs-12 col-md-8">
@@ -23,18 +39,6 @@ layout: responsive
         <div id="speaker-bio">
             <p>{{ speaker.bio }} </p>
         </div>
-        {% if speaker.twitter != nil %}
-        <p class="twitter">
-            <a href="https://twitter.com/{{ speaker.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ speaker.twitter }}</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </p>
-        {% endif %}
-        {% if speaker.github != nil %}
-        <p class="github">
-          <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-          <a class="github-button" href="https://github.com/{{ speaker.github }}" aria-label="Follow @{{ speaker.github }} on GitHub">Follow @{{ speaker.github }}</a>
-        </p>
-        {% endif %}
     </div>
 </div>
 <div class="row white-background">
