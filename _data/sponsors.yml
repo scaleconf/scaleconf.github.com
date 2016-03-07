@@ -94,9 +94,9 @@ profiles:
       Facebook every month.
   flickswitch:
     website_text: >
-      Flickswitch lets you take control of your enterprise SIM cards. Managing large 
-      numbers of device and M2M SIMs does not need to be painful. Flickswitch gives 
-      you more control and helps you save on mobile expenditure across several African 
+      Flickswitch lets you take control of your enterprise SIM cards. Managing large
+      numbers of device and M2M SIMs does not need to be painful. Flickswitch gives
+      you more control and helps you save on mobile expenditure across several African
       mobile networks. Flickswitch manage thousands of SIM cards every day.
       </p>
       <p>
@@ -190,24 +190,24 @@ profiles:
     website_text: >
       <b>The best way to find your next software dev job</b>
       <p>
-      As a developer you're in demand. We believe it should be easy for you to find a 
-      meaningful job that pays well. 
+      As a developer you're in demand. We believe it should be easy for you to find a
+      meaningful job that pays well.
       </p>
       <p>
-      On <a href='https://www.offerzen.com/?utm_source=website&utm_medium=sponsor&utm_campaign=scaleconf16'>OfferZen</a> 
-      instead of applying for jobs, companies send you interview requests with upfront 
-      salary details. You decide which companies to interview with by comparing salary, 
-      the work you’ll be doing, learning opportunities, work environment, and perks that 
-      companies offer. 
+      On <a href='https://www.offerzen.com/?utm_source=website&utm_medium=sponsor&utm_campaign=scaleconf16'>OfferZen</a>
+      instead of applying for jobs, companies send you interview requests with upfront
+      salary details. You decide which companies to interview with by comparing salary,
+      the work you’ll be doing, learning opportunities, work environment, and perks that
+      companies offer.
       </p>
       <p>
-      We made <a href='https://www.offerzen.com/?utm_source=website&utm_medium=sponsor&utm_campaign=scaleconf16'>OfferZen</a> 
+      We made <a href='https://www.offerzen.com/?utm_source=website&utm_medium=sponsor&utm_campaign=scaleconf16'>OfferZen</a>
       to be exactly what we would want:
         <ul>
           <li>No recruiters involved ever - deal directly with the company.</li>
-          <li>We manually approve all companies to make sure only awesome companies are 
+          <li>We manually approve all companies to make sure only awesome companies are
           hiring on OfferZen.</li>
-          <li>You get multiple interview requests with upfront salary info - so you can 
+          <li>You get multiple interview requests with upfront salary info - so you can
           see what you’re worth.</li>
           <li>Your email isn't shared with anyone - no spam ever.</li>
           <li>Your profile is hidden from everyone except from companies we’ve approved.</li>
@@ -346,3 +346,21 @@ profiles:
       To learn more about Microsoft Azure visit our website - <a href='http://aka.ms/azuresa'>aka.ms/azuresa</a>
       </p>
       <p>
+  wonderland:
+    website_text: >
+      <b>
+      A design focused, creative studio with offices in Cape Town and London
+      </b>
+      <p>
+      We are innovative thinkers with a lust for the extraordinary. Wonderland Collective
+      was established with a vision of helping brands to execute on their ideas. Great
+      ideas are a good starting point, but impeccable execution on those ideas is what
+      brings them to life. We approach projects with a passion that takes us on a creative
+      journey with the brands we work with. Above all, we care.
+      </p>
+      <p>
+      During our discovery sessions we aim to understand what platforms best brings your ideas
+      to life, whether it be through branding, illustration, digital or experiential. We have
+      managed significant and complex projects, working internationally with clients in London,
+      Canada, Netherlands, Germany and Australia or locally in South Africa.
+      </p>
