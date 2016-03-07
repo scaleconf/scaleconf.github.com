@@ -1,5 +1,5 @@
-tickets_for_sale: true
-tickets_for_vip: true
+tickets_for_sale: false
+tickets_for_vip: false
 tickets_for_public: false
 
 quicket_productid: 13990
