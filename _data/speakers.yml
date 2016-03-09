@@ -1,5 +1,5 @@
 all_speakers_archive: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier, bethany_macri, michael_gorven, job_thomas, sunil_shah, philip_norman, dewald_viljoen, michael_needham ]
+speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier, bethany_macri, michael_gorven, job_thomas, sunil_shah, philip_norman, dewald_viljoen, michael_needham, jamie_hewland ]
 speakers_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel ]
 speakers_2014: [ niklas_gustavsson, clinton_gormley, deon_moolman, chris_bray, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson, aslam_khan ]
 speakers_2013: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
@@ -23,6 +23,48 @@ nonhighlighted: [  ]
 #     abstract: >
 
 bios:
+    jamie_hewland:
+        name: Jamie Hewland
+        company: Praekelt Foundation
+        role: Site Reliability Engineer
+        twitter: jayhewland
+        github: JayH5
+        country: South Africa
+        bio: >
+          Jamie is a software developer at Praekelt Foundation. He believes
+          that good user experience is important throughout the full software
+          stack — from the front end down to the lowest-level system code.
+          He studied Computer Science at UCT and did research on evolving
+          robotic teams.
+        title: >
+          Planting Seed
+        abstract: >
+          Open source tools from companies such as Mesosphere, CoreOS and
+          HashiCorp have made it possible for small teams to build scalable,
+          highly automated infrastructure on which to deploy applications.
+          Software container systems such as Docker have drastically simplified
+          the way these applications are packaged and executed.
+
+          Over the last 2 years, we've worked hard to update our infrastructure
+          from a complex set of manually-coordinated processes to an automated
+          system that deploys Docker containers to a cluster. We made this move
+          to reduce costs, scale further and make our software more portable.
+
+          We've used this new infrastructure to host hundreds of websites for
+          Facebook's Free Basics platform. Our new health software stack,
+          Seed, has pushed the requirements of the infrastructure even further.
+          We're working towards replicating this stack to deployments in
+          countries across the world.
+
+          The talk will cover some of the basic building blocks of cluster
+          orchestration systems such as consensus algorithms, distributed
+          key/value stores and resource allocation. We'll cover some of the
+          challenges in networking containers at scale and touch on some
+          solutions for persistent storage.
+
+          Finally, we'll look at how these problems and the available solutions
+          have shaped our infrastructure, the design trade-offs we made, and
+          what we're looking forward to in the future.
     michael_needham:
         name: Michael Needham
         company: Amazon Web Services
@@ -31,19 +73,19 @@ bios:
         github: smneedham
         country: South Africa
         bio: >
-          In this role Michael is supporting internal teams and directly working 
-          with customers to successfully architect and run their applications at 
+          In this role Michael is supporting internal teams and directly working
+          with customers to successfully architect and run their applications at
           scale in the Amazon Web Services cloud.
 
-          Michael has 19 years’ IT experience working in Africa, Asia and Europe. 
-          In various stages of his career he played a key role in shaping the 
-          platforms and technology that power some of the top online brands of 
-          Southern Africa, including a leading ISP, a breaking news portal, 
-          mobile-first startups in Kenya and Nigeria and more recently online 
-          retail. Over a 10 year period, Michael also worked as technical due 
-          diligence lead on Nasper’s mergers and acquisitions team, supporting 
-          over $300 Mil of investments in emerging market eCommerce startups such 
-          as Flipkart (India), SimilarWeb (Israel), Konga (Nigeria), Souq (Middle 
+          Michael has 19 years’ IT experience working in Africa, Asia and Europe.
+          In various stages of his career he played a key role in shaping the
+          platforms and technology that power some of the top online brands of
+          Southern Africa, including a leading ISP, a breaking news portal,
+          mobile-first startups in Kenya and Nigeria and more recently online
+          retail. Over a 10 year period, Michael also worked as technical due
+          diligence lead on Nasper’s mergers and acquisitions team, supporting
+          over $300 Mil of investments in emerging market eCommerce startups such
+          as Flipkart (India), SimilarWeb (Israel), Konga (Nigeria), Souq (Middle
             East), PayProp (South Africa) and many more.
         title: >
           Design patterns for product launch success
