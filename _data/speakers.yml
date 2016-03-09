@@ -44,24 +44,28 @@ bios:
           highly automated infrastructure on which to deploy applications.
           Software container systems such as Docker have drastically simplified
           the way these applications are packaged and executed.
-
+          </p>
+          <p>
           Over the last 2 years, we've worked hard to update our infrastructure
           from a complex set of manually-coordinated processes to an automated
           system that deploys Docker containers to a cluster. We made this move
           to reduce costs, scale further and make our software more portable.
-
+          </p>
+          <p>
           We've used this new infrastructure to host hundreds of websites for
           Facebook's Free Basics platform. Our new health software stack,
           Seed, has pushed the requirements of the infrastructure even further.
           We're working towards replicating this stack to deployments in
           countries across the world.
-
+          </p>
+          <p>
           The talk will cover some of the basic building blocks of cluster
           orchestration systems such as consensus algorithms, distributed
           key/value stores and resource allocation. We'll cover some of the
           challenges in networking containers at scale and touch on some
           solutions for persistent storage.
-
+          </p>
+          <p>
           Finally, we'll look at how these problems and the available solutions
           have shaped our infrastructure, the design trade-offs we made, and
           what we're looking forward to in the future.
@@ -76,7 +80,8 @@ bios:
           In this role Michael is supporting internal teams and directly working
           with customers to successfully architect and run their applications at
           scale in the Amazon Web Services cloud.
-
+          </p>
+          <p>
           Michael has 19 years’ IT experience working in Africa, Asia and Europe.
           In various stages of his career he played a key role in shaping the
           platforms and technology that power some of the top online brands of
@@ -95,7 +100,8 @@ bios:
           for product disruption are high. This talk will focus on 5 design
           patterns for rapid launch of new products and cost efficient scale
           when success takes hold.
-
+          </p>
+          <p>
           The more technical aspects of this talk will consider the serverless
           architecture paradigm (based on AWS Lambda) for low cost unit
           economics in your products and extremely high scale across global
@@ -127,17 +133,21 @@ bios:
           someone keeps our code flowing into production, runs all those
           automated tests, does things that we might not even remember to
           deploy to all our environments.
-
+          </p>
+          <p>
           That someone is our build servers.
-
+          </p>
+          <p>
           They tirelessly work to get our changes to our end users and we do
           neglect them. We don't treat our build servers like production servers,
           we hack them, we play with them, we mess up the environments. We may
           have several agents with different runtimes and gems and patch levels
           and who knows what.
-
+          </p>
+          <p>
           We can do better.
-
+          </p>
+          <p>
           In this talk I'd like to take you through something I've been working
           on over the last couple of months: Containerising your build. The tool
           I'll be using for this is Docker, but it's achievable with any VM or
@@ -170,7 +180,8 @@ bios:
           powers the backend of heavily trafficked services like Twitter,
           Siri and others. Mesos has been proven to scale to tens of
           thousands of nodes.
-
+          </p>
+          <p>
           Using Mesos with container software like Docker and other open
           source tools, you can easily deploy automated infrastructure that
           scales with both your users and developers. In this presentation,
@@ -189,7 +200,8 @@ bios:
           powers the backend of heavily trafficked services like Twitter,
           Siri and others. Mesos has been proven to scale to tens of
           thousands of nodes.
-
+          </p>
+          <p>
           Using Mesos with container software like Docker and other open
           source tools, you can easily deploy automated infrastructure that
           scales with both your users and developers. In this presentation,
@@ -221,7 +233,8 @@ bios:
           powers the backend of heavily trafficked services like Twitter,
           Siri and others. Mesos has been proven to scale to tens of
           thousands of nodes.
-
+          </p>
+          <p>
           Using Mesos with container software like Docker and other open
           source tools, you can easily deploy automated infrastructure that
           scales with both your users and developers. In this presentation,
@@ -248,7 +261,8 @@ bios:
           that growing customer-base in handling their acquired products. With
           growth comes an increase in potential errors, bugs, and struggles.
           So how does a growing tech company scale support?
-
+          </p>
+          <p>
           At WooThemes we get about 10,000 ticket submissions per month,
           which stands in big contrast with the almost 500,000 visitors of
           our public support resources. This talk will focus on finding a
@@ -359,13 +373,15 @@ bios:
             prevent your two-pizza teams from needing to have conversations
             with one another over that pizza. No amount of industrial-strength
             job scheduling makes your organization immune to Conway’s Law.
-
+            </p>
+            <p>
             Does this mean that devops has failed? Not in the slightest.
             It means that while the unscrupulous might try to sell us devops,
             we can’t buy it. We have to live it; change is a choice we make
             every day, through our actions of listening empathetically and
             acting compassionately.
-
+            </p>
+            <p>
             Making thoughtful decisions about tools and architecture can help.
             Containers prove to be a useful boundary object, and deconstructing
             systems to human-scale allows us to comprehend their complexity.
@@ -374,7 +390,8 @@ bios:
             no flowchart, no checklist, no shopping list of ticky boxes that
             will make everything better. “Anyone who says differently is
             selling something”, as The Princess Bride teaches us.
-
+            </p>
+            <p>
             Part rant, part devops therapy, this talk will explain in the
             nerdiest of terms why CAP theorem applies to human interactions
             too, how oral tradition is like never writing state to disk, and
@@ -405,7 +422,8 @@ bios:
             engines (performance) whilst simultaneously enabling more
             passengers to embark mid-flight (scalability) without anybody
             getting killed in the process (developers included).
-
+            </p>
+            <p>
             This talk will showcase real-world and practical concepts,
             pragmatic thinking, microservice adoption, silly mistakes, and
             unusual software pattern mashups employed by Spree engineering
@@ -440,12 +458,14 @@ bios:
             very useful technique, but only applies to certain problems. There
             are several factors that exist both in theory and practice that
             make efficient load balancing an exceptionally hard problem.
+            </p>
+            <p>
             For instance:
-
-            Poisson request arrival times
-            Exponentially distributed response latency
-            Oscillations when sharing data between multiple load balancers
-
+            <ul>
+            <li>Poisson request arrival times</li>
+            <li>Exponentially distributed response latency</li>
+            <li>Oscillations when sharing data between multiple load balancers</li>
+            </ul>
             Luckily, there are techniques and algorithms that have been
             developed that can make life better. I’ll walk through some of the
             ways that we can do better than “random,” “round-robin,” and naive
