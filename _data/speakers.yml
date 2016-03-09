@@ -373,15 +373,15 @@ bios:
             prevent your two-pizza teams from needing to have conversations
             with one another over that pizza. No amount of industrial-strength
             job scheduling makes your organization immune to Conway’s Law.
-          </p>
-          <p>
+            </p>
+            <p>
             Does this mean that devops has failed? Not in the slightest.
             It means that while the unscrupulous might try to sell us devops,
             we can’t buy it. We have to live it; change is a choice we make
             every day, through our actions of listening empathetically and
             acting compassionately.
-          </p>
-          <p>
+            </p>
+            <p>
             Making thoughtful decisions about tools and architecture can help.
             Containers prove to be a useful boundary object, and deconstructing
             systems to human-scale allows us to comprehend their complexity.
@@ -390,8 +390,8 @@ bios:
             no flowchart, no checklist, no shopping list of ticky boxes that
             will make everything better. “Anyone who says differently is
             selling something”, as The Princess Bride teaches us.
-          </p>
-          <p>
+            </p>
+            <p>
             Part rant, part devops therapy, this talk will explain in the
             nerdiest of terms why CAP theorem applies to human interactions
             too, how oral tradition is like never writing state to disk, and
@@ -422,8 +422,8 @@ bios:
             engines (performance) whilst simultaneously enabling more
             passengers to embark mid-flight (scalability) without anybody
             getting killed in the process (developers included).
-          </p>
-          <p>
+            </p>
+            <p>
             This talk will showcase real-world and practical concepts,
             pragmatic thinking, microservice adoption, silly mistakes, and
             unusual software pattern mashups employed by Spree engineering
@@ -458,8 +458,8 @@ bios:
             very useful technique, but only applies to certain problems. There
             are several factors that exist both in theory and practice that
             make efficient load balancing an exceptionally hard problem.
-          </p>
-          <p>
+            </p>
+            <p>
             For instance:
             <ul>
             <li>Poisson request arrival times</li>
