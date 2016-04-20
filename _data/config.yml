@@ -1,3 +1,4 @@
+conf_being_organised: false
 tickets_for_sale: false
 tickets_for_vip: false
 tickets_for_public: false
