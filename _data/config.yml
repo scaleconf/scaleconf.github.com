@@ -1,6 +1,9 @@
+conf_being_organised: false
 tickets_for_sale: false
 tickets_for_vip: false
 tickets_for_public: false
 
 quicket_productid: 13990
 waiting_list_url: https://docs.google.com/forms/d/1WOB3UD0XMfljzwqoqvqIw36xnuDbPs0RcjZDG5_L_4o/viewform
+
+dates: "TBC"
