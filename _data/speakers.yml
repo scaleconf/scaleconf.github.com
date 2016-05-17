@@ -69,6 +69,8 @@ bios:
           Finally, we'll look at how these problems and the available solutions
           have shaped our infrastructure, the design trade-offs we made, and
           what we're looking forward to in the future.
+        video: uWk8zCqvtyw
+
     michael_needham:
         name: Michael Needham
         company: Amazon Web Services
@@ -112,6 +114,7 @@ bios:
           channels and will consider the IOT theme with a small example of a
           Lambda integration in to an Amazon Alexa for a simple beer
           ordering service :)
+        video: Ha2s_K9_91k
 
     dewald_viljoen:
         name: Dewald Viljoen
@@ -154,6 +157,7 @@ bios:
           container technology. I'll take you through going from a working build
           on local to building local inside a container and then to moving that
           build to a build server, explaining what how and why as I go.
+        video: 1VitHrVkr94
 
     sunil_shah:
         name: Sunil Shah
@@ -208,6 +212,7 @@ bios:
           we will introduce and motivate the Apache Mesos project and
           demonstrate common workflows for building and deploying applications
           to a cluster of machines.
+        video: 3qVOlzPvGhQ
 
     philip_norman:
         name: Philip Norman
@@ -269,6 +274,7 @@ bios:
           good balance between providing a stable public resource and answering
           urgent ticket requests, and the mistakes and wins we've
           encountered along the way.
+        video: ZP1jImalXfU
 
     michael_gorven:
         name: Michael Gorven
@@ -326,6 +332,7 @@ bios:
           </ol>
           This talk will propose a model for scaling as well as discussing
           possible ways Etsy will continue to scale as it grows.
+        video: LfqyhM1LeIU
 
     len_weincier:
         name: Len Weincier
@@ -396,6 +403,7 @@ bios:
             nerdiest of terms why CAP theorem applies to human interactions
             too, how oral tradition is like never writing state to disk, and
             what we can do to avoid sadness as a service.
+        video: OEtRQSpoz18
 
     quinton_parker:
         name: Quinton Parker
@@ -428,6 +436,7 @@ bios:
             pragmatic thinking, microservice adoption, silly mistakes, and
             unusual software pattern mashups employed by Spree engineering
             teams on our journey to a preferable ecommerce platform
+        video: PAqhDkx8G8U
 
     tyler_mcmullen:
         name: Tyler McMullen
@@ -470,6 +479,7 @@ bios:
             developed that can make life better. I’ll walk through some of the
             ways that we can do better than “random,” “round-robin,” and naive
             “least-conns,” even with distributed load balancers.
+        video: kpvbOzHUakA
 
     damian_schenkelman:
         name: Damian Schenkelman
@@ -494,7 +504,7 @@ bios:
             no downtime deployments. In this talk I will go over some real
             life examples of our experience evolving our APIs at Auth0 and
             some of the tools we use for that.
-
+        video: OoA-gx-19tQ
 
     paul_cartmel:
         name: Paul Cartmel
@@ -545,6 +555,7 @@ bios:
             reasonable performance and reliability at scale. Topics will cover
             caching, domain specific tricks, MongoDB, and strategically lowering
             administrative load by using AWS services.
+        video: OZKGsp76cuw
 
     tim_park:
         name: Tim Park
@@ -571,6 +582,7 @@ bios:
             Nest Labs (an early Internet of Things startup) and in cloud services at
             Microsoft to describe how to ingest and process extremely high scale telemetry
             data and ground the discussion by walking through a real world customer scenario.
+        video: g9l-ZAt9gzI
 
     franz_struwig:
         name: Franz Struwig
@@ -590,6 +602,7 @@ bios:
             radar systems. We'll be talking Franz about the journey iKubu has been on over the
             last seven years from inception, growth to sale and what it took to realise the
             potential of a group of highly skilled engineers.
+        video: bIR07jLCYk8
 
     mark_forrester:
         name: Mark Forrester
@@ -606,9 +619,9 @@ bios:
             Business Day Interview: WooThemes
         abstract: >
             WooThemes is not just any old WordPress theme maker. They are responsible for
-             WooCommerce - the fastest growing ecommerce platform online. We'll be talking to Mark
-             about where his creative inspiration comes from, how he has applied that to helping
-             shape and manage the organisation and navigating the twists and turns of a maturing platform.
+            WooCommerce - the fastest growing ecommerce platform online. We'll be talking to Mark
+            about where his creative inspiration comes from, how he has applied that to helping
+            shape and manage the organisation and navigating the twists and turns of a maturing platform.
 
     robert_elliott:
         name: Robert Elliott
@@ -628,6 +641,7 @@ bios:
             them to get the edge over the competition by plugging into the power of Machine Learning and
             Big Data technologies. We'll be talking to Rob about product ideation and realisation in the context
             of a small but expert team and the experience of being part of a local incubator.
+        video: -pWb1a8EEhY
 
     willem_van_biljon:
         name: Willem Van Biljon
@@ -704,6 +718,7 @@ bios:
             growing eCommerce platform, and how they managed to scale the product
             to over 5 million downloads (and growing) with 3 engineers maintaining
             the codebase.
+        video: MghQAvLUMOc
 
     donovan_graham:
         name: Donovan Graham
@@ -716,6 +731,7 @@ bios:
             who has been a scrum master and product owner in previous lives.
         title: Scaling your Front-end
         abstract:
+        video: Zxsx1BkcdDk
 
     albert_dejongh:
         name: Albert De Jongh
@@ -742,6 +758,7 @@ bios:
             Chris have been faced with scaling challenges like these, and would like to share their
             experience. They will present some lessons learnt and they’ll explain why bananas were
             not suitable for scale.
+        video: zdWcudToUhk
 
     chris_oloff:
         name: Chris Oloff
@@ -770,6 +787,7 @@ bios:
             Town use public transit. Alex and Hiren will walk you through the
             challenges they faced, such as hacking NFC, overcoming twitter API
             limits and preparing the solution for scale.
+        video: B4Wrr_Iua_0
 
     alex_koller:
         name: Alex Koller
@@ -862,6 +880,7 @@ bios:
             Training at scale. How do you make online training as valuable as in person training - is it
             possible? This talk is about their adventure into the online education world, what they
             learned, what surprised them and how it has affected their company.
+        video: hebBsL3dWxc
 
     karen_greaves:
         name: Karen Greaves
@@ -900,6 +919,7 @@ bios:
             basis with developers across the globe and no central offices. All the software that they use
             is free and open source. The talk will touch on: continuous integration and deployment,
             infrastructure provisioning, auto scaling and finally team communication and collaboration.
+        video: N080Qi2Upzw
 
     shaun_norris:
         name: Shaun Norris
@@ -915,6 +935,7 @@ bios:
             certified Scrum Master and Project Management Professional.
         title: From Horses to Unicorns - Practical DevOps tools and tips on AWS
         abstract: >
+        video: uLVMPH3ejaI
 
     nick_pentreath:
         name: Nick Pentreath
@@ -939,6 +960,7 @@ bios:
             It offers high-level APIs in Java, Scala and Python as well as a rich set of libraries
             including a SQL engine, stream processing, machine learning, and graph analytics. Spark
             is currently one of the most exciting and fastest-growing Apache open source projects.
+        video: SCXk9lVj2gM
 
     jeff_ferland:
         name: Jeff Ferland
