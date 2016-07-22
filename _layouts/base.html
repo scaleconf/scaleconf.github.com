@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ScaleConf - {{ page.title }} </title>
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/scaleconf.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Quicksand:300,400,700' rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+
+    <div id="appbar">
+      <div style="float:right">
+        <ul>
+          <li><a href="/about">about</a></li>
+          <li><a href="/submit-talk">submit talk</a></li>
+          <li><a href="/speakers">speakers</a></li>
+          <li><a href="/sponsors">sponsors</a></li>
+        </ul>
+      </div>
+      <a href="/index.html">
+        <img src="/img/branding/logo_no_date.png" class="img-responsive">
+      </a>
+    </div>
+
+    {{ content }}
+
+    <div style='margin-top:50px; padding:10px; background:#fafafa; color:#888; text-align:center'>&copy; ScaleConf 2017</div>
+
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-26903495-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+          var ga = document.createElement('script'); ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+</body>
+</html>

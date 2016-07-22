@@ -1,104 +1,40 @@
 ---
-layout: responsive
+layout: base
 title: Sponsors
 ---
 
-<div class="row white-background">
-    <div class="col-md-12 text-center">
-        <h1>SPONSORS FOR 2016</h1>
-    </div>
+<!-- Sponsors -->
+
+<div class="row">
+  <div class="col-md-offset-3 col-md-6 text-center section">
+    <h1>Sponsors</h1>
+    <p class="big">
+      We would like to give a huge thank you to our sponsors.
+    </p>
+  </div>
 </div>
 
-<div class="row white-background">
-    <div class="col-xs-12 col-md-12 text-center">
-        <p>Without the support of our generous sponsors ScaleConf would be a vastly more
-            expensive conference for our attendees.</p>
+<!-- List of sponsors -->
+
+{% assign active_sponsors = site.data.sponsors.sponsors | where:"active", "true" | sort:"active_rank" %}
+
+{% for sponsor in active_sponsors %}
+
+<div class="row">
+  <div class="col-md-offset-3 col-md-6 section">
+    <div class="row text-center">
+      <img
+        src='/img/sponsors/{{ sponsor.name | slugify | replace: '-', '_' }}.large.png'
+        style='display:inline-block; vertical-align:top; max-height:80px; margin-top:40px;'/>
     </div>
+    <div class="row" style="margin-top:50px;">
+      <div class="col-md-offset-1 col-md-10">
+        <p>
+          {{ sponsor.website_text }}
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="row white-background">
-     <div class="col-xs-12 col-md-12 text-center">
-        <h3>Spotlight Sponsors</h3>
-    </div>
-</div>
-
-<div class="row white-background">
-    <div class="col-md-4">
-        <a href="/sponsors/google.html">
-            <img src="/img/sponsors/google.large.png" class="img-responsive" alt="Google" />
-        </a>
-    </div>
-    <div class="col-md-4">
-        <a href="/sponsors/takealot.html">
-            <img src="/img/sponsors/takealot.large.png" class="img-responsive" alt="Takealot" />
-        </a>
-    </div>
-    <div class="col-md-4">
-        <a href="/sponsors/amazon.html">
-            <img src="/img/sponsors/amazon.large.png" class="img-responsive" alt="Amazon" />
-        </a>
-    </div>
-</div>
-
-<div class="row white-background">
-     <div class="col-xs-12 col-md-12 text-center">
-        <h3>Spotlight Connectivity Partner</h3>
-    </div>
-</div>
-<div class="row white-background">
-    <div class="col-md-4 text-center">&nbsp;</div>
-    <div class="col-md-4">
-        <a href="/sponsors/rsaweb.html">
-            <img src="/img/sponsors/rsaweb.large.png" class="img-responsive" alt="RSAWEB" />
-        </a>
-    </div>
-    <div class="col-md-4 text-center">&nbsp;</div>
-</div>
-
-<div class="row white-background">
-     <div class="col-xs-12 col-md-12 text-center">
-        <h4>Other Sponsors</h4>
-    </div>
-</div>
-<div class="row white-background">
-    <div class="col-md-4 text-center">
-        <a href="/sponsors/hetzner.html">
-            <img src="/img/sponsors/hetzner.large.png" class="img-responsive" alt="Hetzner" />
-        </a>
-        <b>Coffee</b>
-    </div>
-    <div class="col-md-4 text-center">
-        <a href="/sponsors/oracle.html">
-            <img src="/img/sponsors/oracle.large.png" class="img-responsive" alt="Oracle" />
-        </a>
-    </div>
-    <div class="col-md-4 text-center">
-        <a href="/sponsors/offerzen.html">
-            <img src="/img/sponsors/offerzen.large.png" class="img-responsive" alt="OfferZen" />
-        </a>
-    </div>
-</div>
-<div class="row white-background">
-    <div class="col-md-4 text-center">
-        <a href="/sponsors/flickswitch.html">
-            <img src="/img/sponsors/flickswitch.large.png" class="img-responsive" alt="Flickswitch" />
-        </a>
-        <b>Event</b>
-    </div>
-    <div class="col-md-4 text-center">
-        <a href="/sponsors/facebook.html">
-            <img src="/img/sponsors/facebook.large.png" class="img-responsive" alt="Facebook" />
-        </a>
-        <b>Event</b>
-    </div>
-    <div class="col-md-4 text-center">
-        <a href="/sponsors/wonderland.html">
-            <img src="/img/sponsors/wonderland.large.png" class="img-responsive" alt="Wonderland" />
-        </a>
-        <b>T-shirts</b>
-    </div>
-</div>
-<div class="row white-background text-center">
-<p>&nbsp;</p>
-<p>For more information on sponsoring at ScaleConf, please get in touch at <a href='mailto:info@scaleconf.org'>info@scaleconf.org</a></p>
-</div>
+{% endfor %}

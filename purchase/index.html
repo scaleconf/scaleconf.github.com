@@ -1,102 +1,32 @@
 ---
-layout: responsive
+layout: base
 title: Purchase Tickets
 ---
-<div class="row white-background">
-    <div class="col-md-12">
-        <h1>Buy Tickets for ScaleConf</h1>
-    </div>
-</div>
-<div class="row white-background">
-    <div class="col-xs-12 col-md-8">
-        <div class="well">
-            <h2>Conference</h2>
-            <p><strong>Dates:</strong> {{site.data.config.dates }}</p>
-            <p><strong>Where:</strong> Kirstenbosch Botanical Gardens </p>
-            <p><strong>What's included in your ticket:</strong></p>
-            <ul class="list-unstyled scaleconf-heads">
-                <li>International speakers sharing unique experiences.</li>
-                <li>African speakers sharing local perspectives and solutions.</li>
-                <li>Lunch every day, and tea/coffee/refreshments throughout the event.</li>
-                <li>Evening events to network and meet like-minded people.</li>
-                <!-- <li>Free workshops, and time to build and hack with new technologies and people.</li> -->
-            </ul>
-            {% if site.data.config.conf_being_organised %}
-              {% if site.data.config.tickets_for_sale %}
-            <p>
-                {% if site.data.config.tickets_for_public %}
-              <iframe src="https://www.quicket.co.za/embed.aspx?productid={{ site.data.config.quicket_productid }}&productname=scaleconf&embed=true&v=2" frameborder="0" scrolling="yes" width="100%" height="600"></iframe>
-                {% else %}
-              <b>Tickets sold out! Add your name to the waiting list below:</b>
-              <iframe src="{{ site.data.config.waiting_list_url }}?embedded=true" width="600" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-            </p>
-                  {% if site.data.config.tickets_for_vip %}
-              <p>
-              If you’re a sponsor or speaker that still needs to claim your assigned tickets <a href="https://www.quicket.co.za/events/{{ site.data.config.quicket_productid }}-scaleconf/#/">click here</a> and enter your promo code to unlock your ticket
-              </p>
-                  {% endif %}
-                {% endif %}
-              {% else %}
-            <strong>Tickets are now closed for {{ site.year }}</strong> and the waitlist is over-subscribed. Get in quick next year!
-              {% endif %}
-            {% else %}
-            <strong>Ticket sales will be announced via email and Twitter.</strong> Sign up for future email updates:
-                <!-- Begin MailChimp Signup Form -->
-                <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-                <div id="mc_embed_signup">
-                    <form action="//scaleconf.us4.list-manage.com/subscribe/post?u=662cd7d3342f0c5e7c3597fad&amp;id=ceccb7bc0a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                            <h2>Sign up to be notified when tickets open</h2>
-                            <div class="mc-field-group">
-                                <label for="mce-EMAIL">Email Address</label>
-                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                            </div>
-                            <div id="mce-responses" class="clear">
-                                <div class="response" id="mce-error-response" style="display:none"></div>
-                                <div class="response" id="mce-success-response" style="display:none"></div>
-                            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;"><input type="text" name="b_662cd7d3342f0c5e7c3597fad_ceccb7bc0a" tabindex="-1" value=""></div>
-                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                        </div>
-                    </form>
-                </div>
-            {% endif %}
+<!--
 
+Buy Tickets for ScaleConf
 
-        </div>
-        <!-- <div class="well">
-            <h2>Workshops</h2>
-            <p><strong>Date:</strong> March 7-8, 2015 </p>
-            <p><strong>Where:</strong> To be confirmed </p>
-            <p><strong>Price: FREE </strong></p>
-            <p><strong>What's included in your ticket:</strong></p>
-            <p>
-                The workshops are informal hackathon-style workshops where
-                the engineers from various companies will be on hand to
-                walk you through getting started on their products.
-            </p>
-            <p>For more information, see the <a href='/workshops'>workshops</a> page.</p>
-        </div> -->
-    </div>
+Conference
 
-    <div class="col-xs-12 col-md-4 right-column">
-            <h2>Student and Discount tickets</h2>
-            <p>
-                If you wish to motivate for a discount on your ticket,
-                please drop us a mail at <a href='mailto:info@scaleconf.org'>info@scaleconf.org</a>.
-            </p>
+Dates: TBC
 
-            <h2>Payment Processor</h2>
-            <p>
-                ScaleConf is using Quicket as our payment processor, and the organising
-                beneficiary for ScaleConf is Lessfuss.
-            </p>
-            <!--
-            <p>
-                If you have any problems at all with payment,
-                please email <a href="mailto:info@scaleconf.org">info@scaleconf.org</a>
-                and we will assist you as soon as we can.
-            </p>
-            -->
-    </div>
-</div>
+Where: Kirstenbosch Botanical Gardens
+
+What's included in your ticket:
+
+International speakers sharing unique experiences.
+African speakers sharing local perspectives and solutions.
+Lunch every day, and tea/coffee/refreshments throughout the event.
+Evening events to network and meet like-minded people.
+Ticket sales will be announced via email and Twitter. Sign up for future email updates:
+Sign up to be notified when tickets open
+
+Student and Discount tickets
+
+If you wish to motivate for a discount on your ticket, please drop us a mail at info@scaleconf.org.
+
+Payment Processor
+
+ScaleConf is using Quicket as our payment processor, and the organising beneficiary for ScaleConf is Lessfuss.
+
+-->

@@ -1,113 +1,161 @@
 ---
-layout: responsive
+layout: base
 title: Home
 ---
 
-<div class="row white-background">
-                <div class="col-md-12">
-                <div class="pull-right">
-<div id='twitter-share-button'>
-       <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://scaleconf.org/" data-text="Looking forward to @scaleconf! Check out the talks" data-via="scaleconf" data-size="large">Tweet</a>
-       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<!-- About ScaleConf -->
+
+<div class="row">
+  <div class="col-md-offset-3 col-md-6 text-center section">
+    <h1>Technology and People</h1>
+    <p class="big">
+      Each year ScaleConf brings international and local experts
+      together to share their experience scaling websites and services
+      using modern technologies and philosophies.
+    </p>
+    <a class="btn btn-primary" a href="/about">Meet the team</a>
+  </div>
+</div>
+
+<!-- General Information -->
+
+<div class="row">
+  <div class="col-md-offset-3 col-md-6 section">
+    <div class="row text-center">
+      <h2>9th - 10th March 2017</h2>
     </div>
-                </div>
-                    <h1 class="caps-home">SCALECONF: <span class="text-color-greenblue">BUILT TO SCALE</span></h1>
-                </div>
+    <div class="row" style="margin-top:20px">
+      <div class="col-md-4">
+        <h3>Info</h3>
+        <p>9th-10th March 2017</p>
+        <p>Kirstenbosch Botanical Gardens</p>
+      </div>
+
+      <div class="col-md-4">
+        <h3>Sponsors</h3>
+        <p>If your company is looking to raise brand awareness or recruit
+        developers and operations engineers</p>
+        <p>Contact us for more information at <a href="mailto:info@scaleconf.org">info@scaleconf.org</a>.</p>
+      </div>
+
+      <div class="col-md-4">
+        <h3>Speakers</h3>
+        <p>If you have a story to tell, whether you're from South Africa or abroad</p>
+        <a href="/submit-talk" role="button" class="btn btn-primary">Submit a talk</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<!-- Tickets -->
+
+<div class="row" style="background:#f0f0f0; padding: 0px 0 10px; margin-top:-1px;">
+  <div class="col-md-offset-3 col-md-6 text-center section">
+    <h2>Tickets</h2>
+    <p class="big">
+      Register on our mailing list to be notified when tickets go on sale.
+    </p>
+    <div class='text-center'>
+      {% include mailing-list-signup.html %}
+    </div>
+  </div>
+</div>
+
+
+<!-- Previous Speakers -->
+
+{% assign landing_page_speakers = site.data.speakers | where:"landing_page", "true" %}
+
+<div class="row">
+  <div class="col-md-offset-3 col-md-6 section">
+    <div class="row text-center">
+      <h2>Previous Speakers</h2>
+      <p class="big">
+        With a mixture of African and international speakers, each year we bring
+        a diversity of experience and perspective to the stage. Meet the engineers
+        who have shared their war stories at previous events.
+      </p>
+    </div>
+    <div class="row">
+      {% for speaker in landing_page_speakers %}
+      <div class="col-md-4" style="height:100px; overflow-y:hidden">
+        <img src='/img/speakers/{{speaker.name | slugify | replace: '-', '_'}}.small.jpg' style='display:inline-block; vertical-align:top; margin-right:10px; border-radius:25px; height:50px;'/>
+        <div style='display:inline-block; width:60%'>
+          <p>
+            <b>{{ speaker.name }}</b><br/>
+            {{ speaker.company}}
+          </p>
         </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row text-center">
+      <a href="/speakers" role="button" class="btn btn-primary">Past speakers</a>
+    </div>
+  </div>
+</div>
 
-        <div class="row white-background">
+<!-- Sponsors -->
 
-            <div class="col-xs-12 col-md-6">
-                <div class="paragraph-home">
-                    <p>
-                        <em><!-- {{ site.data.schedule[site.year].dates }} - -->Located in Cape Town, South Africa</em>
-                    </p>
-                    <p>
-                        Each year ScaleConf brings international and local experts together to talk about their experience building sites and services that can handle the rigours of today's internet.
-                    </p>
-                    <p>
-                        We'll be back for the sixth time in March 2017!
-                    </p>
-                       <!-- Begin MailChimp Signup Form -->
-                        <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-                        <div id="mc_embed_signup">
-                            <form action="//scaleconf.us4.list-manage.com/subscribe/post?u=662cd7d3342f0c5e7c3597fad&amp;id=ceccb7bc0a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                <div id="mc_embed_signup_scroll">
-                                    <h2>Sign up to be notified about ScaleConf 2017</h2>
-                                    <div class="mc-field-group">
-                                        <label for="mce-EMAIL">Email Address</label>
-                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                                    </div>
-                                    <div id="mce-responses" class="clear">
-                                        <div class="response" id="mce-error-response" style="display:none"></div>
-                                        <div class="response" id="mce-success-response" style="display:none"></div>
-                                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_662cd7d3342f0c5e7c3597fad_ceccb7bc0a" tabindex="-1" value=""></div>
-                                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                                </div>
-                            </form>
-                        </div>
-                        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-                        <!--End mc_embed_signup-->
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-6 right-column-nomargin">
-            <h2>Our attendees enjoy:</h2>
-            <ul class="list-unstyled scaleconf-heads">
-               <li>International and African speakers sharing global and local experiences</li>
-               <li>Lunch every day, and refreshments throughout the event</li>
-               <li>Evening events to network and meet like-minded people</li>
-               <!-- li>Workshops, and time to build and hack with new technologies and people</li -->
-            </ul>
-            </div>
+{% assign landing_page_sponsors = site.data.sponsors.sponsors | where:"active", "true" | sort:"active_rank" %}
 
-            <!-- <div class="col-xs-12 col-md-6">
+<div class="row">
+  <div class="col-md-offset-3 col-md-6 text-center section">
+    <div class="row">
+      <h2>Sponsors for 2017</h2>
+      <p class="big">
+        Without the support of our generous sponsors ScaleConf would be a vastly
+        more expensive conference for our attendees.
+      </p>
+    </div>
+    <div class="row">
+      {% for sponsor in landing_page_sponsors %}
+      <div class="col-md-4" style="height:100px; overflow-y:hidden">
+        <img src='/img/sponsors/{{ sponsor.name | slugify | replace: '-', '_' }}.small.png' style='display:inline-block; vertical-align:top; width:90%;'/>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row text-center" style="margin-top:30px">
+      <a href="/sponsors" role="button" class="btn btn-primary">More information on sponsors</a>
+    </div>
+  </div>
+</div>
 
-            </div> -->
-        </div>
-         <div class="row white-background">
-            <div class="col-xs-12 col-md-12">
-                <div class="attendee-quote">
-                    <p class="center-text">
-                        "Had a fantastic #scaleconf, insightful talks, great people, beautiful venue" - <a href="https://twitter.com/henkjbrt/status/708353784477523968">Henk Joubert</a>
-                    </p>
-                </div>
-            </div>
-        </div>
 
-                <div class="row white-background">
+<!-- Contact Us -->
 
-            <div class="col-xs-12 col-md-4">
-            <img src="/img/layout/cape-town.jpg" class="img-responsive" />
-            <div class="right-column-nomargin">
-            <h2 class="caps">Our location</h2>
-            <strong class="caps">CAPE TOWN, SOUTH AFRICA:</strong> Set against the scenic backdrop of Table Mountain, Cape Town has easy access to beaches, scenic hikes, winelands, and a buzzing culture. The conference itself is held at the Kirstenbosch Botanical Gardens, a beautiful and serene setting.
-            </div>
-            </div>
-            <div class="col-xs-12 col-md-8">
-                <div class="gray-background">
-                    <h2>PREVIOUS SPEAKERS</h2>
-                    <p>With a mixture of African and international speakers, each year we bring a diversity of experience and perspective to the stage. Meet the engineers who have shared their war stories at previous events.</p>
-                    <div class="row padding-extra padding-extra-top">
-                    {% for speaker in site.data.speakers.highlighted %}
-                        <a href="/speakers/{{ speaker }}.html">
-                            <div class="col-xs-6 col-md-6" style="padding-bottom:15px;">
-                                <img src="/img/speakers/{{ speaker }}.small.jpg" class="img-responsive profile pull-left-margin"><strong>{{ site.data.speakers.bios[speaker].name }} </strong><br />
-                                {{ site.data.speakers.bios[speaker].company }}<br />
-                                {{ site.data.speakers.bios[speaker].title }}
-                            </div>
-                        </a>
-                    {% endfor %}
-                    </div>
-                    <div class="row padding-extra">
-                        <div class="col-xs-12 col-md-12">
-                            <h2 class="pull-right"><a href="/videos/"> Watch past talks &gt;&gt;</a></h2>
-                            {% if site.data.config.tickets_for_sale and site.data.config.tickets_for_public %}
-                            <a href="/purchase" class="btn btn-primary">Buy tickets</a>
-                            {% endif %}
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="row">
+  <div class="col-md-offset-3 col-md-6">
+    <div class="row text-center">
+      <h2>Get in touch</h2>
+      <p class="big">
+        For more information on sponsoring at ScaleConf, or if you would like to
+        ask any other questions, please get in touch with us via email, or find
+        us on social media.
+      </p>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Email</h3>
+        <p><a href='mailto:info@scaleconf.org'>info@scaleconf.org</a> for general queries</p>
+        <p><a href='mailto:payments@scaleconf.org'>payments@scaleconf.org</a> for payment related questions</p>
+      </div>
 
-        </div>
+      <div class="col-md-4">
+        <h3>Social Media</h3>
+        <p>Follow us on Twitter <a href="https://twitter.com/scaleconf">@scaleconf</a></p>
+        <p>Find us on <a href="https://www.facebook.com/scaleconf/">Facebook</a></p>
+      </div>
+
+      <div class="col-md-4">
+        <h3>Community</h2>
+        <p>This site is hosted on <a href='https://github.com/scaleconf/scaleconf.github.com'>Github</a>, please feel free tolook around and contribute.</p>
+        <p>We are also on <a href='http://lanyrd.com/series/scaleconf/'>Lanyrd</a> if you want to follow us there.</p>
+        <p><a href="/codeofconduct">code of conduct</a></p>
+      </div>
+    </div>
+  </div>
+</div>

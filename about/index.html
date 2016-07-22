@@ -1,138 +1,129 @@
 ---
-layout: responsive
+layout: base
 title: About
 ---
 
-        <div class="row white-background">
-            <div class="col-xs-12 col-md-8">
-            <h1>About ScaleConf</h1>
-           <p>ScaleConf is a two-day conference that brings together local and international experts to share their ideas on the problems faced by companies and individuals building and running services on the internet today.
-</p>
-<p>
-The presentations will cover the culture and methodologies used to architect and develop the strong foundations required to operate websites and services.
-   </p>
-   <h4>A brief history</h4>
-   <p>
-   Having attended various conferences in the Bay Area (notably CodeConf and DevOpsDays), Jonathan and Duncan found themselves wishing that there were more tech conferences of that calibre accessible locally. At dinner one evening in October 2011, they decided that they would have to hold one themselves, and since their areas of expertise revolved around DevOps and high availability, the idea of ScaleConf was born.
-</p>
-<p>
-With Duncan leaving to work for Facebook in February 2012, they only had two and a half months to make the idea a reality. Thanks to the expert help of Marije and Jen from Lessfuss, a bit of luck, and several willing speakers and sponsors, they organised the first conference, which was held on January 26 and 27, 2012. Many people soon began asking when it would happen again, and the second ScaleConf quickly sold out. Now it's an annual event – we're bringing ScaleConf back for the sixth time in 2017. Don't forget to check out other amazing international-level tech conferences which are becoming regular events in South Africa: <a href="http://www.jsinsa.com/" target="_blank">JSinSA</a>, <a href="http://rubyfuza.org/" target="_blank">rubyfuza</a>, <a href="http://phpsouthafrica.com/" target="_blank">PHP South Africa</a> and <a href="http://za.pycon.org/" target="_blank">PyConZA</a>.
-   </p>
+<!-- About ScaleConf -->
 
-   <div class="thanks row">
-     <h2 class="thanks">Special thanks to:</h2>
-     <div class="col-md-6 col-sm-6">
-     <h4>Website contributors:</h4>
-       <div class="black">
-         <ul>
-          <li>Shaun O'Connell - <a href="https://twitter.com/ndorfin" target="_blank">@ndorfin</a></li>
-          <li>Russell Cloran - <a href="https://twitter.com/rcloran" target="_blank">@rcloran</a></li>
-          <li>Stefano Rivera - <a href="https://twitter.com/stefanorivera" target="_blank">@stefanorivera</a></li>
-          <li>Vanessa Berger - <a href="https://twitter.com/van_berger" target="_blank">@van_berger</a></li>
-          <li>Adrian Moisey - <a href="https://twitter.com/adrianmoisey" target="_blank">@adrianmoisey</a></li>
-         </ul>
-       </div>
+<div class="row">
+  <div class="col-md-offset-3 col-md-6 text-center section">
+    <h1>Technology and People</h1>
+    <p class="big">
+      Each year ScaleConf brings international and local experts
+      together to share their experience scaling websites and services
+      using modern technologies and philosophies. The presentations will cover
+      the culture and methodologies used to architect and develop the strong
+      foundations required to operate websites and services.
+    </p>
+  </div>
+</div>
+
+<!-- History -->
+
+<div class="row">
+  <div class="col-md-offset-3 col-md-6 section">
+    <div class="row text-center">
+      <h2>Where it all started</h2>
     </div>
-    <div class="col-md-6 col-sm-6">
-     <h4>Minions (ScaleConf Helpers):</h4>
-       <div class="black">
-         <ul>
-          <li>Ben Meier - <a href="https://twitter.com/benmeier_" target="_blank">@benmeier_</a></li>
-          <li>Siobhan O'Donovan - <a href="https://twitter.com/justshiv_" target="_blank">@justshiv_</a></li>
-          <li>Calvin Brizzi - <a href="https://twitter.com/calvinbrizzi" target="_blank">@calvinbrizzi</a></li>
-          <li>Julia Lang - <a href="https://twitter.com/julia_melody" target="_blank">@julia_melody</a></li>
-          <li>Jacques Heunis - <a href="https://twitter.com/d3zmodos" target="_blank">@d3zmodos</a></li>
-         </ul>
-       </div>
-   </div>
-   </div>
-            </div>
-            <div class="col-xs-12 col-md-4 right-column">
-            <h3>Organisers</h3>
-    <div class="organiser">
-            <div class="row">
-            <div class="col-md-5 col-sm-5 col-xs-5">
-           <img src="/img/organisers/duncan.jpg" class="img-responsive profile">
-           </div>
-           <div class="col-md-7 col-sm-7 col-xs-7">
-           <strong>DUNCAN PHILLIPS</strong><br />
-           Engineer, Takealot
-        <p class="twitter">
-        <a href="https://twitter.com/nuknad" target="_blank">@nuknad</a>
+    <div class="row">
+      <div class='col-md-6'>
+        <p>
+          Having attended various conferences in the Bay Area (notably CodeConf
+          and Velocity), Jonathan and Duncan found themselves wishing that there
+          were more tech conferences of that calibre accessible locally.
         </p>
-        </div>
-        </div>
-<div class="bio">
-Duncan automates infrastructure so humans don't need to, and then builds tools for everything else.
+        <p>
+          At dinner one evening in October 2011, they decided that they would
+          have to hold one themselves, and since their areas of expertise
+          revolved around DevOps and high availability, the idea of ScaleConf
+          was born.
+        </p>
+      </div>
+      <div class='col-md-6'>
+        <p>
+          With Duncan leaving to work for Facebook in February 2012, they only
+          had two and a half months to make the idea a reality.
+        </p>
+        <p>
+          Thanks to the expert help of Marije and Jen from Lessfuss, a bit of luck,
+          and several willing speakers and sponsors, they organised the first
+          conference, which was held on January 26 and 27, 2012.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
+
+<!-- Team -->
+
+<div class="row">
+  <div class="col-md-offset-3 col-md-6 section">
+    <div class="row text-center">
+      <h2>Meet the team</h2>
+    </div>
+    {% for person in site.data.team.members %}
+    <div class="row nested-row">
+      <div class='col-md-2 text-center'>
+        <img src="/img/organisers/{{ person.name | slugify | replace: '-', '_'}}.jpg" style="display:inline-block; vertical-align:top; border-radius:40px; width:80px">
+      </div>
+      <div class='col-md-3'>
+        <p>
+          <strong>{{ person.name }}</strong> <br />
+          {{ person.title }} <br/>
+          {{ person.company }} <br/>
+          <a href="https://twitter.com/{{ person.twitter }}" target="_blank">@{{ person.twitter }}</a>
+        </p>
+      </div>
+      <div class='col-md-7'>
+        <p>{{ person.bio }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </div>
-    <div class="organiser">
-     <div class="row">
-            <div class="col-md-5 col-sm-5 col-xs-5">
-           <img src="/img/organisers/jonathan.jpg" class="img-responsive profile">
-           </div>
-           <div class="col-md-7 col-sm-7 col-xs-7">
-<strong>JONATHAN HITCHCOCK</strong><br />
-Production Engineer, Facebook
-<p class="twitter">
-<a href="https://twitter.com/vhata" target="_blank">@vhata</a>
-</p>
-     </div>
-        </div>
-<div class="bio">
-Jonathan has been involved in organising tech events and meetups for several years, and has an equal fervour for community building and for DevOps, high availability, automation, and the culture and mindset that supports these things.
+
+<!-- Thanks -->
+
+<div class="row">
+  <div class="col-md-offset-3 col-md-6 section">
+    <div class="row text-center">
+      <h2>Thanks</h2>
+      <p class="big">
+        ScaleConf is organized by a small team who all have regular day jobs. We
+        could not have made this conference without the help of all the people below.
+      </p>
+    </div>
+    <div class="row">
+      <div class='col-md-4'>
+        <h3>Website Contributers</h3>
+        <p>Shaun O'Connell</p>
+        <p>Russell Cloran</p>
+        <p>Stefano Rivera</p>
+        <p>Vanessa Berger</p>
+        <p>Adrian Moisey</p>
+      </div>
+      <div class='col-md-4'>
+        <h3>Minions</h3>
+        <p>Every year the minions help us run the show on the day.</p>
+        <p>Ben Meier</p>
+        <p>Siobhan O'Donovan</p>
+        <p>Calvin Brizzi</p>
+        <p>Jupa Lang</p>
+        <p>Jacques Heunis</p>
+      </div>
+      <div class='col-md-4'>
+        <h3>Community</h3>
+        <p>
+          Finally, a thanks to the community for supporting us. We would also
+          like to mention some other great conferences to look out for.
+        </p>
+        <p>
+          <a href="http://www.jsinsa.com/" target="_blank">JSinSA</a>,
+          <a href="http://rubyfuza.org/" target="_blank">rubyfuza</a>,
+          <a href="http://phpsouthafrica.com/" target="_blank">PHP South Africa</a>,
+          <a href="http://za.pycon.org/" target="_blank">PyConZA</a>.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-    <div class="organiser">
-     <div class="row">
-            <div class="col-md-5 col-sm-5 col-xs-5">
-           <img src="/img/organisers/marije.jpg" class="img-responsive profile">
-           </div>
-           <div class="col-md-7 col-sm-7 col-xs-7">
-<strong>MARIJE PIERSON</strong><br />
-Engineering &amp; Operations Manager, Yola.com
-<p class="twitter">
-<a href="https://twitter.com/marijep" target="_blank">@marijep</a>
-</p>
-     </div>
-        </div>
-<div class="bio">
-Works in tech, herding cats. A background of organising, admin, managing, conferencing, customer supporting and streamlining.
-</div>
-</div>
-    <div class="organiser">
-     <div class="row">
-            <div class="col-md-5 col-sm-5 col-xs-5">
-           <img src="/img/organisers/jen.jpg" class="img-responsive profile">
-           </div>
-           <div class="col-md-7 col-sm-7 col-xs-7">
-<strong>JENNIFER POOLE</strong><br />
-User Experience Designer, Deloitte Digital
-<p class="twitter">
-<a href="https://twitter.com/fireenjn" target="_blank">@fireenjn</a>
-</p>
-     </div>
-        </div>
-<div class="bio">
-Fascinated with the relationship between organisational structure, business strategy and product development, and the application of user-centred design to all three. Previously a researcher, adminner and editor.
-</div>
-</div>
-    <div class="organiser">
-     <div class="row">
-            <div class="col-md-5 col-sm-5 col-xs-5">
-           <img src="/img/organisers/mike.jpg" class="img-responsive profile">
-           </div>
-           <div class="col-md-7 col-sm-7 col-xs-7">
-                <strong>MIKE JONES</strong><br />
-                Director, Western Cape Labs
-                <p class="twitter">
-                <a href="https://twitter.com/imsickofmaps" target="_blank">@imsickofmaps</a>
-                </p>
-                </div>
-        </div>
-<div class="bio">
-Heckler, speaker, organiser. Fails to Get Stuff Done often but tries to make up for it with eventual consistency, hugs and high-fives.
-</div>
-</div>
-            </div>
-        </div>

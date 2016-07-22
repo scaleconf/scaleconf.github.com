@@ -1,0 +1,94 @@
+---
+layout: base
+---
+
+<!-- Speakers -->
+
+<div class="row">
+  <div class="col-md-offset-3 col-md-6 text-center section">
+    <h1>Speakers</h1>
+    <p class="big">
+      We would like to give a huge thank you to our speakers, they're the reason
+      we have this conference.
+    </p>
+  </div>
+</div>
+
+
+<!-- Year Options -->
+
+<div class="row">
+  <div class="col-md-offset-3 col-md-6 text-center section" style="padding-top:40px">
+    {% for year in site.data.config.years %}
+    {% if year == page.year %}
+    <a href="/speakers/{{ year }}" style="margin: 0 10px 0 10px"><b>{{ year }}</b></a>
+    {% else %}
+    <a href="/speakers/{{ year }}" style="margin: 0 10px 0 10px">   {{ year }}    </a>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<!-- List of speakers -->
+
+{% assign page_speakers = site.data.speakers | where:"year", page.year %}
+
+{% if page_speakers.size == 0 %}
+<div class="row">
+  <div class="col-md-offset-4 col-md-4 text-center section">
+    <p class="big">
+      We haven't confirmed speakers yet, check back here later.
+    </p>
+    <p>If you have a story to tell</p>
+    <a href="/submit-talk" role="button" class="btn btn-default">Submit a talk</a>
+  </div>
+</div>
+{% endif %}
+
+{% for speaker in page_speakers %}
+
+<div class="row">
+  <div class="col-md-offset-3 col-md-6 section">
+    <div class="row text-center">
+      <h2>{{ speaker.name }}</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-offset-3 col-md-6">
+        <div class="row nested-row">
+          <div class="col-md-4">
+            <img src='/img/speakers/{{speaker.name | slugify | replace: '-', '_'}}.large.jpg' style='display:inline-block; vertical-align:top; margin-right:10px; border-radius:40px; height:80px;'/>
+          </div>
+          <div class="col-md-8">
+            <p>
+              {{ speaker.role }} <br/>
+              {{ speaker.company }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row nested-row">
+      <div class="col-md-offset-2 col-md-8">
+        <p> {{ speaker.bio }} </p>
+      </div>
+    </div>
+    <div class="row nested-row">
+      <div class="col-md-offset-2 col-md-8">
+        <p>The title of the talk is <i>"{{ speaker.title }}"</i>.</p>
+      </div>
+    </div>
+    <div class="row nested-row">
+      <div class="col-md-offset-2 col-md-8" style="background:#eee; padding:15px;">
+        <p>{{ speaker.abstract}}</p>
+      </div>
+    </div>
+    {% if speaker.video %}
+    <div class="row nested-row">
+      <div class="col-md-offset-2 col-md-8">
+        <p>The video for this talk is <a target="_blank" href="http://youtube.com/{{speaker.video}}">available on youtube</a></p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
