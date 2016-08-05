@@ -7,7 +7,7 @@ title: Home
 
 <div class="row">
   <div class="col-md-offset-3 col-md-6 text-center section">
-    <h1>Technology and People</h1>
+    <h1>Welcome to ScaleConf</h1>
     <p class="big">
       Each year ScaleConf brings international and local experts
       together to share their experience scaling websites and services
@@ -22,20 +22,22 @@ title: Home
 <div class="row">
   <div class="col-md-offset-3 col-md-6 section">
     <div class="row text-center">
-      <h2>9th - 10th March 2017</h2>
+      <h2>Next Conference</h2>
     </div>
-    <div class="row" style="margin-top:20px">
+    <div class="row">
       <div class="col-md-4">
         <h3>Info</h3>
-        <p>9th-10th March 2017</p>
-        <p>Kirstenbosch Botanical Gardens</p>
+        <ul class='info-list'>
+          <li>9th-10th March 2017</li>
+          <li>Kirstenbosch Botanical Gardens, Cape Town, South Africa</li>
+        </ul>
       </div>
 
       <div class="col-md-4">
         <h3>Sponsors</h3>
         <p>If your company is looking to raise brand awareness or recruit
         developers and operations engineers</p>
-        <p>Contact us for more information at <a href="mailto:info@scaleconf.org">info@scaleconf.org</a>.</p>
+        <p><i>Contact us for more information at <a href="mailto:info@scaleconf.org">info@scaleconf.org</a>.</i></p>
       </div>
 
       <div class="col-md-4">
@@ -81,9 +83,9 @@ title: Home
     </div>
     <div class="row">
       {% for speaker in landing_page_speakers %}
-      <div class="col-md-4" style="height:100px; overflow-y:hidden">
+      <div class="col-md-4" style="height:110px; overflow-y:hidden">
         <img src='/img/speakers/{{speaker.name | slugify | replace: '-', '_'}}.small.jpg' style='display:inline-block; vertical-align:top; margin-right:10px; border-radius:25px; height:50px;'/>
-        <div style='display:inline-block; width:60%'>
+        <div style='display:inline-block; width:60%; padding-bottom:10px;'>
           <p>
             <b>{{ speaker.name }}</b><br/>
             {{ speaker.company}}
@@ -107,8 +109,7 @@ title: Home
     <div class="row">
       <h2>Sponsors for 2017</h2>
       <p class="big">
-        Without the support of our generous sponsors ScaleConf would be a vastly
-        more expensive conference for our attendees.
+        We would like to thank our generous sponsors, without which this conference would not happen.
       </p>
     </div>
     <div class="row">

@@ -3,27 +3,12 @@ layout: base
 title: About
 ---
 
-<!-- About ScaleConf -->
-
-<div class="row">
-  <div class="col-md-offset-3 col-md-6 text-center section">
-    <h1>Technology and People</h1>
-    <p class="big">
-      Each year ScaleConf brings international and local experts
-      together to share their experience scaling websites and services
-      using modern technologies and philosophies. The presentations will cover
-      the culture and methodologies used to architect and develop the strong
-      foundations required to operate websites and services.
-    </p>
-  </div>
-</div>
-
 <!-- History -->
 
 <div class="row">
   <div class="col-md-offset-3 col-md-6 section">
     <div class="row text-center">
-      <h2>Where it all started</h2>
+      <h1>Where it all started</h1>
     </div>
     <div class="row">
       <div class='col-md-6'>
@@ -62,7 +47,7 @@ title: About
       <h2>Meet the team</h2>
     </div>
     {% for person in site.data.team.members %}
-    <div class="row nested-row">
+    <div class="row nested-row" style="background:#f0f0f0; padding:20px 0; border-radius:5px">
       <div class='col-md-2 text-center'>
         <img src="/img/organisers/{{ person.name | slugify | replace: '-', '_'}}.jpg" style="display:inline-block; vertical-align:top; border-radius:40px; width:80px">
       </div>
@@ -75,7 +60,7 @@ title: About
         </p>
       </div>
       <div class='col-md-7'>
-        <p>{{ person.bio }}</p>
+        <p style="padding-right:10px;">{{ person.bio }}</p>
       </div>
     </div>
     {% endfor %}
@@ -87,7 +72,7 @@ title: About
 <div class="row">
   <div class="col-md-offset-3 col-md-6 section">
     <div class="row text-center">
-      <h2>Thanks</h2>
+      <h2>High Fives all around</h2>
       <p class="big">
         ScaleConf is organized by a small team who all have regular day jobs. We
         could not have made this conference without the help of all the people below.
@@ -96,20 +81,24 @@ title: About
     <div class="row">
       <div class='col-md-4'>
         <h3>Website Contributers</h3>
-        <p>Shaun O'Connell</p>
-        <p>Russell Cloran</p>
-        <p>Stefano Rivera</p>
-        <p>Vanessa Berger</p>
-        <p>Adrian Moisey</p>
+        <ul class='info-list'>
+          <li>Shaun O'Connell</li>
+          <li>Russell Cloran</li>
+          <li>Stefano Rivera</li>
+          <li>Vanessa Berger</li>
+          <li>Adrian Moisey</li>
+        </ul>
       </div>
       <div class='col-md-4'>
         <h3>Minions</h3>
         <p>Every year the minions help us run the show on the day.</p>
-        <p>Ben Meier</p>
-        <p>Siobhan O'Donovan</p>
-        <p>Calvin Brizzi</p>
-        <p>Jupa Lang</p>
-        <p>Jacques Heunis</p>
+        <ul class='info-list'>
+          <li>Ben Meier</li>
+          <li>Siobhan O'Donovan</li>
+          <li>Calvin Brizzi</li>
+          <li>Julia Lang</li>
+          <li>Jacques Heunis</li>
+        </ul>
       </div>
       <div class='col-md-4'>
         <h3>Community</h3>

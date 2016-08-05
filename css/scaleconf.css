@@ -9,12 +9,14 @@
 h1 {
   font-family: "Droid Sans";
   margin-top: 60px;
+  margin-bottom: 40px;
   font-size: 40px;
 }
 
 h2 {
   font-family: "Droid Sans";
   margin-top: 40px;
+  padding-bottom: 0;
   margin-bottom: 40px;
   font-size: 30px;
 }
@@ -22,6 +24,7 @@ h2 {
 h3 {
   font-family: "Droid Sans";
   margin-top: 20px;
+  padding-bottom: 0;
   font-size: 20px;
   font-weight: bold;
 }
@@ -35,13 +38,25 @@ div.section {
   border-bottom: solid 0.5px #eee;
 }
 
+body > div.row:last-child {
+  border-bottom: solid 5px #0ee;
+}
+
 /*
    after primary heading, we want a bigger
    font for a primary bold description
 */
 p.big {
   font-size: 20px;
-  margin: 40px 0 50px;
+  margin: 40px 0 30px;
+}
+
+/* info list is just a smaller list
+   with less padding on the left
+*/
+ul.info-list {
+  padding-left:20px;
+  list-style-type: circle;
 }
 
 /*
