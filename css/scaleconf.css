@@ -6,6 +6,9 @@
 
 /* common */
 
+html, body { height: 100%; }
+
+
 h1 {
   font-family: "Droid Sans";
   margin-top: 60px;
