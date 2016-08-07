@@ -35,7 +35,7 @@ sponsors:
       where you will need to fill in a very simple registration form. Your phone
       will then download the 2go application and you can begin chatting!
   - name: amazon
-    active: true
+    active: false
     active_rank: 2
     website_text: >
       Amazon has a thriving technical centre in Cape Town! This is the centre
@@ -88,7 +88,7 @@ sponsors:
       and rapidly growing open source solutions in the market. To learn more,
       visit <a href='http://elasticsearch.com'>elasticsearch.com</a>.
   - name: facebook
-    active: true
+    active: false
     website_text: >
       Founded in 2004, Facebook’s mission is to make the world more open and
       connected. People use Facebook to stay connected with friends and family, to
@@ -112,7 +112,7 @@ sponsors:
       For more information, visit <a href='http://www.flickswitch.co.za/'>
       flickswitch.co.za</a>.
   - name: google
-    active: true
+    active: false
     active_rank: 1
     website_text: >
       Google’s innovative search technologies connect millions of people around

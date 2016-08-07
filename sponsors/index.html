@@ -5,18 +5,24 @@ title: Sponsors
 
 <!-- Sponsors -->
 
+{% assign active_sponsors = site.data.sponsors.sponsors | where:"active", "true" | sort:"active_rank" %}
+
 <div class="row">
   <div class="col-md-offset-3 col-md-6 text-center section">
     <h1>Sponsors</h1>
+    {% if active_sponsors.size == 0 %}
+    <p class='big'>We have a number of sponsorship packages available to help
+      bring your organization into the spotlight.</p>
+    <p><i>Contact us for more information at <a href="mailto:info@scaleconf.org">info@scaleconf.org</a>.</i></p>
+    {% else %}
     <p class="big">
       We would like to give a huge thank you to our sponsors.
     </p>
+    {% endif %}
   </div>
 </div>
 
 <!-- List of sponsors -->
-
-{% assign active_sponsors = site.data.sponsors.sponsors | where:"active", "true" | sort:"active_rank" %}
 
 {% for sponsor in active_sponsors %}
 
