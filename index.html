@@ -3,6 +3,8 @@ layout: base
 title: Home
 ---
 
+{% assign sections = site.data.config.homepage_sections %}
+
 <!-- About ScaleConf -->
 
 <div class="row">
@@ -19,6 +21,7 @@ title: Home
 
 <!-- General Information -->
 
+{% if sections.upcoming_conference %}
 <div class="row">
   <div class="col-md-offset-3 col-md-6 section">
     <div class="row text-center">
@@ -48,12 +51,11 @@ title: Home
     </div>
   </div>
 </div>
-
-</div>
-
+{% endif %}
 
 <!-- Tickets -->
 
+{% if sections.tickets_notify %}
 <div class="row" style="background:#f0f0f0; padding: 0px 0 10px; margin-top:-1px;">
   <div class="col-md-offset-3 col-md-6 text-center section">
     <h2>Tickets</h2>
@@ -65,12 +67,12 @@ title: Home
     </div>
   </div>
 </div>
-
+{% endif %}
 
 <!-- Previous Speakers -->
 
+{% if sections.previous_speakers %}
 {% assign landing_page_speakers = site.data.speakers | where:"landing_page", "true" %}
-
 <div class="row">
   <div class="col-md-offset-3 col-md-6 section">
     <div class="row text-center">
@@ -99,11 +101,12 @@ title: Home
     </div>
   </div>
 </div>
+{% endif %}
 
 <!-- Sponsors -->
 
+{% if sections.sponsors %}
 {% assign landing_page_sponsors = site.data.sponsors.sponsors | where:"active", "true" | sort:"active_rank" %}
-
 <div class="row">
   <div class="col-md-offset-3 col-md-6 text-center section">
     <div class="row">
@@ -124,7 +127,7 @@ title: Home
     </div>
   </div>
 </div>
-
+{% endif %}
 
 <!-- Contact Us -->
 
