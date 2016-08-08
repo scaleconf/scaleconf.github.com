@@ -1,0 +1,101 @@
+
+/*
+  scaleconf colours:
+    dark_green #204e5e
+*/
+
+/* common */
+
+html, body { height: 100%; }
+
+
+h1 {
+  font-family: "Droid Sans";
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Droid Sans";
+  margin-top: 40px;
+  padding-bottom: 0;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "Droid Sans";
+  margin-top: 20px;
+  padding-bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+hr {
+  margin: 40px 0 20px;
+}
+
+div.section {
+  padding-bottom: 40px;
+  border-bottom: solid 0.5px #eee;
+}
+
+body > div.row:last-child {
+  border-bottom: solid 5px #0ee;
+}
+
+/*
+   after primary heading, we want a bigger
+   font for a primary bold description
+*/
+p.big {
+  font-size: 20px;
+  margin: 40px 0 30px;
+}
+
+/* info list is just a smaller list
+   with less padding on the left
+*/
+ul.info-list {
+  padding-left:20px;
+  list-style-type: circle;
+}
+
+/*
+  when we nest a row we want to add a bit of
+  margin so that it looks better. We add margin
+  just to bottom since all our elements control
+  spacing with margin on bottom.
+*/
+div.nested-row {
+  margin-bottom: 20px;
+}
+
+/* landing page */
+
+div#appbar {
+  background: #204e5e;
+  padding: 10px;
+}
+
+div#appbar img {
+  height: 50px;
+}
+
+div#appbar ul { margin-right: 20px; }
+
+div#appbar ul > li {
+  padding: 15px;
+  list-style: none;
+  display:inline-block;
+}
+
+div#appbar ul > li > a, div#appbar ul > li > a:visited{
+  text-decoration: none;
+  color: #fff;
+}
+
+div#appbar ul > li > a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+members:
+  - name: Duncan Phillips
+    title: DevOps Engineer
+    company: Takealot
+    twitter: nuknad
+    bio: >
+      Duncan automates infrastructure so humans don't need to, and then builds
+      tools for everything else.
+  - name: Jonathan Hitchcock
+    title: Production Engineer
+    company: Facebook
+    twitter: vhata
+    bio: >
+      Jonathan has been involved in organising tech events and meetups for
+      several years, and has an equal fervour for community building and for
+      DevOps, high availability, automation, and the culture and mindset that
+      supports these things.
+  - name: Marije Pearson
+    title: Engineering Manager
+    company: Yola
+    twitter: marijep
+    bio: >
+      Works in tech, herding cats. A background of organising, admin, managing,
+      conferencing, customer supporting and streamlining.
+  - name: Jennifer Poole
+    title: User Experience Designer
+    company: Deloitte Digital
+    twitter: fireenjn
+    bio: >
+      Fascinated with the relationship between organisational structure,
+      business strategy and product development, and the application of
+      user-centred design to all three. Previously a researcher, adminner
+      and editor.
+  - name: Mike Jones
+    title: Director
+    company: Western Cape Labs
+    twitter: imsickofmaps
+    bio: >
+      Heckler, speaker, organiser. Fails to Get Stuff Done often but tries to
+      make up for it with eventual consistency, hugs and high-fives.

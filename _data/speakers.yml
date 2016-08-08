@@ -1,12 +1,12 @@
-all_speakers_archive: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier, bethany_macri, michael_gorven, job_thomas, sunil_shah, philip_norman, dewald_viljoen, michael_needham, jamie_hewland, franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel, niklas_gustavsson, clinton_gormley, deon_moolman, chris_bray, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson, aslam_khan, beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier, bethany_macri, michael_gorven, job_thomas, sunil_shah, philip_norman, dewald_viljoen, michael_needham, jamie_hewland ]
-speakers_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel ]
-speakers_2014: [ niklas_gustavsson, clinton_gormley, deon_moolman, chris_bray, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson, aslam_khan ]
-speakers_2013: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
-speakers_business_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors_business, paul_cartmel ]
-speakers_technology_2015: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou ]
-highlighted: [ tyler_mcmullen, bridget_kromhout, quinton_parker, damian_schenkelman ]
-nonhighlighted: [  ]
+# all_speakers_archive: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier, bethany_macri, michael_gorven, job_thomas, sunil_shah, philip_norman, dewald_viljoen, michael_needham, jamie_hewland, franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel, niklas_gustavsson, clinton_gormley, deon_moolman, chris_bray, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson, aslam_khan, beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
+# speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier, bethany_macri, michael_gorven, job_thomas, sunil_shah, philip_norman, dewald_viljoen, michael_needham, jamie_hewland ]
+# speakers_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel ]
+# speakers_2014: [ niklas_gustavsson, clinton_gormley, deon_moolman, chris_bray, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson, aslam_khan ]
+# speakers_2013: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
+# speakers_business_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors_business, paul_cartmel ]
+# speakers_technology_2015: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou ]
+# highlighted: [ tyler_mcmullen, bridget_kromhout, quinton_parker, damian_schenkelman ]
+# nonhighlighted: [  ]
 
 # Template
 # slug:
@@ -22,1762 +22,1805 @@ nonhighlighted: [  ]
 #
 #     abstract: >
 
-bios:
-    jamie_hewland:
-        name: Jamie Hewland
-        company: Praekelt Foundation
-        role: Site Reliability Engineer
-        twitter: jayhewland
-        github: JayH5
-        country: South Africa
-        bio: >
-          Jamie is a software developer at Praekelt Foundation. He believes
-          that good user experience is important throughout the full software
-          stack — from the front end down to the lowest-level system code.
-          He studied Computer Science at UCT and did research on evolving
-          robotic teams.
-        title: >
-          Planting Seed
-        abstract: >
-          Open source tools from companies such as Mesosphere, CoreOS and
-          HashiCorp have made it possible for small teams to build scalable,
-          highly automated infrastructure on which to deploy applications.
-          Software container systems such as Docker have drastically simplified
-          the way these applications are packaged and executed.
-          </p>
-          <p>
-          Over the last 2 years, we've worked hard to update our infrastructure
-          from a complex set of manually-coordinated processes to an automated
-          system that deploys Docker containers to a cluster. We made this move
-          to reduce costs, scale further and make our software more portable.
-          </p>
-          <p>
-          We've used this new infrastructure to host hundreds of websites for
-          Facebook's Free Basics platform. Our new health software stack,
-          Seed, has pushed the requirements of the infrastructure even further.
-          We're working towards replicating this stack to deployments in
-          countries across the world.
-          </p>
-          <p>
-          The talk will cover some of the basic building blocks of cluster
-          orchestration systems such as consensus algorithms, distributed
-          key/value stores and resource allocation. We'll cover some of the
-          challenges in networking containers at scale and touch on some
-          solutions for persistent storage.
-          </p>
-          <p>
-          Finally, we'll look at how these problems and the available solutions
-          have shaped our infrastructure, the design trade-offs we made, and
-          what we're looking forward to in the future.
-        video: uWk8zCqvtyw
-
-    michael_needham:
-        name: Michael Needham
-        company: Amazon Web Services
-        role: Senior Manager of Solutions Architecture - RMEA
-        twitter: smneedham
-        github: smneedham
-        country: South Africa
-        bio: >
-          In this role Michael is supporting internal teams and directly working
-          with customers to successfully architect and run their applications at
-          scale in the Amazon Web Services cloud.
-          </p>
-          <p>
-          Michael has 19 years’ IT experience working in Africa, Asia and Europe.
-          In various stages of his career he played a key role in shaping the
-          platforms and technology that power some of the top online brands of
-          Southern Africa, including a leading ISP, a breaking news portal,
-          mobile-first startups in Kenya and Nigeria and more recently online
-          retail. Over a 10 year period, Michael also worked as technical due
-          diligence lead on Nasper’s mergers and acquisitions team, supporting
-          over $300 Mil of investments in emerging market eCommerce startups such
-          as Flipkart (India), SimilarWeb (Israel), Konga (Nigeria), Souq (Middle
-            East), PayProp (South Africa) and many more.
-        title: >
-          Design patterns for product launch success
-        abstract: >
-          With more 'Unicorns' in the past 18 months than entire history of
-          online 'Unicorns' the macroeconomic timing and techincal conditions
-          for product disruption are high. This talk will focus on 5 design
-          patterns for rapid launch of new products and cost efficient scale
-          when success takes hold.
-          </p>
-          <p>
-          The more technical aspects of this talk will consider the serverless
-          architecture paradigm (based on AWS Lambda) for low cost unit
-          economics in your products and extremely high scale across global
-          regions. It will touch on frameworks such as Jaws Open Source framework
-          (now called Serverless) as a mechanism of dealing with the
-          complexities of such deployments, a typical challenge in this space.
-          The final design pattern focuses on scaling your products to new
-          channels and will consider the IOT theme with a small example of a
-          Lambda integration in to an Amazon Alexa for a simple beer
-          ordering service :)
-        video: ozf5LaB6XZU
-
-    dewald_viljoen:
-        name: Dewald Viljoen
-        company: ThoughtWorks
-        role: Senior Software Developer
-        twitter: dewald_v
-        github: DewaldV
-        country: South Africa
-        bio: >
-          Dewald is a software developer and ThoughtWorker from Johannesburg.
-          He believes that software has no value if it cannot get to the
-          consumer and that close collaboration between operations and
-          development and automating all the things is crucial to succeeding
-          at this goal.
-        title: >
-          Rapid, Reproducible Builds - Treating our build servers like production
-        abstract: >
-          I'd like to talk to everyone about someone we often neglect. That
-          someone keeps our code flowing into production, runs all those
-          automated tests, does things that we might not even remember to
-          deploy to all our environments.
-          </p>
-          <p>
-          That someone is our build servers.
-          </p>
-          <p>
-          They tirelessly work to get our changes to our end users and we do
-          neglect them. We don't treat our build servers like production servers,
-          we hack them, we play with them, we mess up the environments. We may
-          have several agents with different runtimes and gems and patch levels
-          and who knows what.
-          </p>
-          <p>
-          We can do better.
-          </p>
-          <p>
-          In this talk I'd like to take you through something I've been working
-          on over the last couple of months: Containerising your build. The tool
-          I'll be using for this is Docker, but it's achievable with any VM or
-          container technology. I'll take you through going from a working build
-          on local to building local inside a container and then to moving that
-          build to a build server, explaining what how and why as I go.
-        video: 1VitHrVkr94
-
-    sunil_shah:
-        name: Sunil Shah
-        company: Mesosphere
-        role: Technical Lead
-        twitter: ssk2
-        github: ssk2
-        country: USA
-        bio: >
-          Sunil Shah is a technical lead at Mesosphere, working on tools and
-          services around the Apache Mesos project to make the lives of
-          developers easier. Before joining Mesosphere, Sunil worked at
-          music recommendations service Last.fm and completed a Master's
-          program at UC Berkeley in EECS, working on real-time processing of
-          images collected from drones. When he's not flying drones around,
-          Sunil likes to cycle, camp, hike, ski and play a large drum.
-        title: >
-          Scaling Like Twitter With Apache Mesos
-        abstract: >
-          When Twitter was faced with the task of re-architecting their
-          backend away from a monolithic Ruby on Rails application to a
-          series of microservices, they turned to Apache Mesos. Mesos is an
-          open source cluster manager that was developed at UC Berkeley and
-          powers the backend of heavily trafficked services like Twitter,
-          Siri and others. Mesos has been proven to scale to tens of
-          thousands of nodes.
-          </p>
-          <p>
-          Using Mesos with container software like Docker and other open
-          source tools, you can easily deploy automated infrastructure that
-          scales with both your users and developers. In this presentation,
-          we will introduce and motivate the Apache Mesos project and
-          demonstrate common workflows for building and deploying applications
-          to a cluster of machines.
-
-    sunil_and_philip:
-        name: Sunil Shah and Philip Norman
-        title: Scaling Like Twitter With Apache Mesos
-        abstract: >
-          When Twitter was faced with the task of re-architecting their
-          backend away from a monolithic Ruby on Rails application to a
-          series of microservices, they turned to Apache Mesos. Mesos is an
-          open source cluster manager that was developed at UC Berkeley and
-          powers the backend of heavily trafficked services like Twitter,
-          Siri and others. Mesos has been proven to scale to tens of
-          thousands of nodes.
-          </p>
-          <p>
-          Using Mesos with container software like Docker and other open
-          source tools, you can easily deploy automated infrastructure that
-          scales with both your users and developers. In this presentation,
-          we will introduce and motivate the Apache Mesos project and
-          demonstrate common workflows for building and deploying applications
-          to a cluster of machines.
-        video: 3qVOlzPvGhQ
-
-    philip_norman:
-        name: Philip Norman
-        company: Mesosphere
-        role: Software Entwickler
-        twitter: philipnrmn
-        github: philipnrmn
-        country: Germany
-        bio: >
-          Originally from London, Philip Norman now works out of Hamburg
-          developing scalable container tooling for Mesosphere. Previously,
-          Philip worked freelance in the web space on projects ranging from
-          experimental social networks to FinTech solutions. Philip likes to
-          relax by cycling, bouldering, and exploring the weirder corners of
-          North German cuisine.
-        title: >
-          Scaling Like Twitter With Apache Mesos
-        abstract: >
-          When Twitter was faced with the task of re-architecting their
-          backend away from a monolithic Ruby on Rails application to a
-          series of microservices, they turned to Apache Mesos. Mesos is an
-          open source cluster manager that was developed at UC Berkeley and
-          powers the backend of heavily trafficked services like Twitter,
-          Siri and others. Mesos has been proven to scale to tens of
-          thousands of nodes.
-          </p>
-          <p>
-          Using Mesos with container software like Docker and other open
-          source tools, you can easily deploy automated infrastructure that
-          scales with both your users and developers. In this presentation,
-          we will introduce and motivate the Apache Mesos project and
-          demonstrate common workflows for building and deploying applications
-
-    job_thomas:
-        name: Job Thomas
-        company: Automattic
-        role: Training and Education Manager
-        twitter: jobtex
-        country: South Africa
-        bio: >
-          Job Thomas is a Belgian who followed his South African wife to Cape
-          Town in 2013. He has worked as training manager at several NGOs and
-          as academic teaching staff at a few colleges before joining WooThemes
-          as Training and Education Manager focusing on proactive
-          support strategy.
-        title: >
-          Scaling Support by Educating Customers
-        abstract: >
-          Growing a business does not just imply selling more products and
-          getting more customers; one of the biggest challenges is supporting
-          that growing customer-base in handling their acquired products. With
-          growth comes an increase in potential errors, bugs, and struggles.
-          So how does a growing tech company scale support?
-          </p>
-          <p>
-          At WooThemes we get about 10,000 ticket submissions per month,
-          which stands in big contrast with the almost 500,000 visitors of
-          our public support resources. This talk will focus on finding a
-          good balance between providing a stable public resource and answering
-          urgent ticket requests, and the mistakes and wins we've
-          encountered along the way.
-        video: ZP1jImalXfU
-
-    michael_gorven:
-        name: Michael Gorven
-        company: Facebook/Instagram
-        role: Production Engineer
-        twitter: mgorven
-        github: mgorven
-        country: USA
-        bio: >
-          Michael Gorven is a Production Engineer at Facebook,
-          where he works on Instagram. He fixes things when they break, improves
-          the reliability of the system, helps engineer it to scale, and reverts
-          diffs. Previously he was an early employee at South African startup
-          Nimbula. Michael grew up in Durban and holds a BSc in Electrical and
-          Computer Engineering from the University of Cape Town. He currently
-          lives in California with his wife and 2 year old son.
-        title: >
-          Continuous deployment to millions of users 40 times a day
-        abstract: >
-          Instagram deploys code 40 times a day to its fleet of
-          thousands of webservers and userbase of 400M monthly active users
-          automatically when engineers land changes. This talk describes the
-          iterative approach we took to building this system, the problems we
-          faced along the way, the solutions we implemented, and the key
-          principles which enable this to work.
-
-    bethany_macri:
-        name: Bethany Macri
-        company: Etsy
-        role: Software Engineer
-        twitter: BethanyMacri
-        github: bmacri
-        country: USA
-        bio: >
-          Bethany Macri is a Software Engineer on Etsy's Core Platform team.
-          Bethany studied Literature in college, then taught herself how to
-          code and attended the Recurse Center before working for Etsy. She
-          is passionate about infrastructure and web operations, Mexican
-          food and theater.
-        title: >
-          Retrospective: Scaling Infrastructure at Etsy
-        abstract: >
-          Etsy is an online marketplace that connects people across the globe
-          to buy and sell handmade and vintage goods. Founded in 2005 in
-          Brooklyn, Etsy has grown rapidly. As a result, Etsy has need to
-          scale its infrastructure to serve its growing user-base as well
-          as its developers. In this talk, Bethany Macri, Core Platform
-          Engineer at Etsy, will discuss three software projects that
-          demonstrate how Etsy changed its infrastructure to scale and
-          maintain high availability:
-          <ol>
-          <li>a four-year data migration project</li>
-          <li>writing a new API that allowed clients to fetch data concurrently, and</li>
-          <li>scaling datasets infrastructure.</li>
-          </ol>
-          This talk will propose a model for scaling as well as discussing
-          possible ways Etsy will continue to scale as it grows.
-        video: LfqyhM1LeIU
-
-    len_weincier:
-        name: Len Weincier
-        company: CloudAfrica
-        role: Founder
-        twitter: lenwnc
-        github: lenw
-        country: South Africa
-        bio: >
-          Len has built systems ranging from embedded devices to enterprise
-          scale big data systems. Coming from C and C++ via Java and JEE
-          through Ruby and now into Go and Node with bits of Clojure, he has
-           been around the programming block. He's trained many developers,
-           biz analysts and project managers over time and spoken at
-           many conferences.
-        title: >
-          FUD at scale
-        abstract: >
-          Fear, Uncertainty and Doubt can seriously limit your ability to
-          scale. Would you ever build your own hardware? Would you build an
-          operating system? Lets take a look at the "other" barriers to scaling.
-        video: GbhtKaIyazk
-
-    bridget_kromhout:
-        name: Bridget Kromhout
-        company: Pivotal
-        role: Principal Technologist
-        twitter: bridgetkromhout
-        github: bridgetkromhout
-        country: USA
-        bio: >
-            Bridget Kromhout is a Principal Technologist for Cloud Foundry at
-            Pivotal. Her CS degree emphasis was in theory, but she now deals
-            with the concrete (if ‘cloud’ can be considered tangible). After
-            years in site reliability operations (most recently at DramaFever),
-            she traded in oncall for more travel. A frequent speaker at tech
-            conferences, she helps organize the AWS and devops meetups at home
-            in Minneapolis, serves on the program committee for Velocity, and
-            acts as a global core organizer for devopsdays. She podcasts at
-            Arrested DevOps, occasionally blogs at bridgetkromhout.com, and is
-            active in a Twitterverse near you.
-        title: >
-            Containers will not fix your broken culture (and other hard truths)
-        abstract: >
-            Containers will not fix your broken culture. Microservices won’t
-            prevent your two-pizza teams from needing to have conversations
-            with one another over that pizza. No amount of industrial-strength
-            job scheduling makes your organization immune to Conway’s Law.
-            </p>
-            <p>
-            Does this mean that devops has failed? Not in the slightest.
-            It means that while the unscrupulous might try to sell us devops,
-            we can’t buy it. We have to live it; change is a choice we make
-            every day, through our actions of listening empathetically and
-            acting compassionately.
-            </p>
-            <p>
-            Making thoughtful decisions about tools and architecture can help.
-            Containers prove to be a useful boundary object, and deconstructing
-            systems to human-scale allows us to comprehend their complexity.
-            We succeed when we share responsibility and have agency, when we
-            move past learned helplessness to active listening. But there is
-            no flowchart, no checklist, no shopping list of ticky boxes that
-            will make everything better. “Anyone who says differently is
-            selling something”, as The Princess Bride teaches us.
-            </p>
-            <p>
-            Part rant, part devops therapy, this talk will explain in the
-            nerdiest of terms why CAP theorem applies to human interactions
-            too, how oral tradition is like never writing state to disk, and
-            what we can do to avoid sadness as a service.
-        video: OEtRQSpoz18
-
-    quinton_parker:
-        name: Quinton Parker
-        company: Spree.co.za
-        role: Solutions Architect
-        twitter: quintonparker
-        github: quintonparker
-        country: South Africa
-        bio: >
-            Quinton is a Solutions Architect for Spree.co.za but he's not the
-            hand-waiving box-drawing kind. He's the roll-up sleeves, write code
-            and ensure big ideas sensibly translates into practical and
-            real-world implementation kind of architect.
-            As a young under-priviledged developer he would spend many years
-            working on large-ish php/mysql applications. Today he sips the
-            Node.js koolaid, Elasticsearches all the things, and is a devout
-            varnishcache fanboy
-        title: >
-            The Strangler Pattern
-        abstract: >
-            If a large, complex, legacy (and monolith?) software system could
-            be thought of as a boeing and the users its passengers. This talk
-            is about a powerful (but not new) strategy to replace the jet
-            engines (performance) whilst simultaneously enabling more
-            passengers to embark mid-flight (scalability) without anybody
-            getting killed in the process (developers included).
-            </p>
-            <p>
-            This talk will showcase real-world and practical concepts,
-            pragmatic thinking, microservice adoption, silly mistakes, and
-            unusual software pattern mashups employed by Spree engineering
-            teams on our journey to a preferable ecommerce platform
-        video: PAqhDkx8G8U
-
-    tyler_mcmullen:
-        name: Tyler McMullen
-        company: Fastly
-        role: CTO
-        twitter: tbmcmullen
-        github: tyler
-        country: USA
-        bio: >
-            Tyler McMullen is CTO at Fastly, where he’s responsible for the
-            system architecture and leads the company’s technology vision.
-            As part of the founding team, Tyler built the first versions of
-            Fastly’s Instant Purging system, API, and Real-time Analytics.
-            Before Fastly, Tyler worked on text analysis and recommendations
-            at Scribd. A self-described technology curmudgeon, he has
-            experience in everything from web design to kernel development,
-            and loathes all of it. Especially distributed systems.
-        title: >
-            Load Balancing is Impossible
-        abstract: >
-            Load balancing is something most of us assume is a solved problem.
-            But the idea that load balancing is "solved" could not be further
-            from the truth. If you use multiple load balancers, the problem is
-            even worse. Most of us use "random" or "round-robin" techniques,
-            which have certain advantages but are highly inefficient. Others
-            use more complex algorithms like "least-conns," which can be more
-            efficient but have horrific edge cases. "Consistent hashing" is a
-            very useful technique, but only applies to certain problems. There
-            are several factors that exist both in theory and practice that
-            make efficient load balancing an exceptionally hard problem.
-            </p>
-            <p>
-            For instance:
-            <ul>
-            <li>Poisson request arrival times</li>
-            <li>Exponentially distributed response latency</li>
-            <li>Oscillations when sharing data between multiple load balancers</li>
-            </ul>
-            Luckily, there are techniques and algorithms that have been
-            developed that can make life better. I’ll walk through some of the
-            ways that we can do better than “random,” “round-robin,” and naive
-            “least-conns,” even with distributed load balancers.
-        video: kpvbOzHUakA
-
-    damian_schenkelman:
-        name: Damian Schenkelman
-        company: Auth0
-        role: Engineer
-        twitter: dschenkelman
-        github: dschenkelman
-        country: Argentina
-        bio: >
-            Damian is an engineer at Auth0 working on making the core
-            scalable and performant. He loves learning about distributed
-            systems, software performance and contributing to OSS.
-        title: >
-            The dirty secrets of building large, highly available, scalable HTTP APIs
-        abstract: >
-            When you first start building an API for a new product you mostly
-            focus on getting an MVP ready, with the goal shipping as soon as
-            possible so you can get feedback from customers. If you are lucky
-            enough, your product will be successful and you will have to start
-            worrying about things like authentication, authorization,
-            documentation, validation, rate limiting, geo-redundancy, and
-            no downtime deployments. In this talk I will go over some real
-            life examples of our experience evolving our APIs at Auth0 and
-            some of the tools we use for that.
-        video: OoA-gx-19tQ
-
-    paul_cartmel:
-        name: Paul Cartmel
-        company: New Media Labs
-        role: Managing Director
-        twitter: PaulCartmel
-        country: SA
-        bio: >
-            Paul is the Managing Director of New Media Labs. He has adopted the Jack Dorsey
-            definition of CEO/MD – which makes him an editor. He edits their ideas, the
-            story they tell the public, their strategy and make sure it is on course.
-            Some would say a CEO controls the vision, but NML’s vision is a composite
-            of each individual that works there, so he just gets to edit it.
-            Keeping an incredibly talented team close is his real goal – a talented team
-            sells itself. To achieve this he strives to make New Media Labs a place the team
-            want to spend their working life at. He sees employing people as an honour.
-        title: >
-            Business Day Interview: New Media Labs
-        abstract: >
-            While leading NML Paul has led his team through many twists and turns. We'll talk
-            to him about growing a successful, independent consulting business with one eye (and
-            sometimes two) on productising the work they engage in. We'll touch on how he believes
-            you could structure a business to increase the probability of success and discuss the real
-            world impact internal decisions and external forces have shaped the road they've walked.
-
-    stephen_perelson:
-        name: Stephen Perelson
-        company: Mxit
-        role: Senior Web Engineer
-        twitter: perelson
-        github: sperelson
-        country: SA
-        bio: >
-            Stephen is a senior software developer at Mxit working on internal tools and
-            Web services. He has limited his career options by choosing to work
-            remotely. Fortunately, he doesn't know this. He has worked as an IT
-            lecturer at the Nelson Mandela Metropolitan University and has contracted
-            to local government where he helped make sense of financial data. He
-            was also employed by a failed startup, which just so happened to be
-            the best career path he ever took.
-        title: Growing a Web platform to 15 million pageviews on a shoestring
-        abstract: >
-            Launch is a Web based service that enables the rapid development and
-            hosting of Mxit applications. The capacity for scaling was achieved
-            through changes to code, data, and infrastructure during Launch's
-            development and maintenance. Stephen will share his experiences refactoring
-            Launch, a large PHP, AngularJS and MongoDB based Web site, to ensure
-            reasonable performance and reliability at scale. Topics will cover
-            caching, domain specific tricks, MongoDB, and strategically lowering
-            administrative load by using AWS services.
-        video: OZKGsp76cuw
-
-    tim_park:
-        name: Tim Park
-        company: Microsoft
-        role: Principal Software Engineer
-        twitter: timpark
-        github: timpark
-        country: USA
-        bio: >
-            Tim is a principal software engineer at Microsoft, working with customers and
-            product teams to prove out scenarios on the Microsoft cloud that have never
-            been done elsewhere and use that experience to drive improvements in our
-            products. Before Microsoft, Tim worked on a number of the key pieces of
-            infrastructure and applications at Nest Labs, an internet of things startup
-            that re-envisioned the thermostat for the digital era.
-        title: From Screens to Context
-        abstract: >
-            For the past four decades computing has been driven by the spiral of faster,
-            cheaper, and smaller but has stayed within the lines of a "screen and an input
-            device". Tim will talk about how computing is increasingly being infused into
-            everything and that increasingly the user interface for this style of computing
-            will be our use of our everyday things. He will talk about the impact of this
-            on how we build and scale systems and draw on his experience of working at
-            Nest Labs (an early Internet of Things startup) and in cloud services at
-            Microsoft to describe how to ingest and process extremely high scale telemetry
-            data and ground the discussion by walking through a real world customer scenario.
-        video: g9l-ZAt9gzI
-
-    franz_struwig:
-        name: Franz Struwig
-        company: Garmin
-        role: Senior Manager
-        twitter: fstruwig
-        country: SA
-        bio: >
-            Franz is passionate about people, technology and business. As an Engineer and an MBA,
-            he was privileged to be a part of establishing iKubu – a radar and computer vision
-            company with a heart. After crowdfunding the world’s first bicycle radar called
-            Backtracker in 2014, iKubu was acquired by Garmin. He's still learning and growing!
-        title: >
-            Business Day Interview: Garmin
-        abstract: >
-            At iKubu they help people see what they can't, using computer vision and
-            radar systems. We'll be talking Franz about the journey iKubu has been on over the
-            last seven years from inception, growth to sale and what it took to realise the
-            potential of a group of highly skilled engineers.
-        video: bIR07jLCYk8
-
-    mark_forrester:
-        name: Mark Forrester
-        company: WooThemes
-        role: Co-Founder
-        country: SA
-        twitter: mark_forrester
-        bio: >
-            Mark is a web designer turned online entrepreneur, now managing an international
-            team spanning 16 countries, dedicated to helping businesses succeed through innovative
-            WordPress themes and plugins. Proudly a Capetonian, husband, and dad. Avid sports
-            fan and wannabe surfer.
-        title: >
-            Business Day Interview: WooThemes
-        abstract: >
-            WooThemes is not just any old WordPress theme maker. They are responsible for
-            WooCommerce - the fastest growing ecommerce platform online. We'll be talking to Mark
-            about where his creative inspiration comes from, how he has applied that to helping
-            shape and manage the organisation and navigating the twists and turns of a maturing platform.
-
-    robert_elliott:
-        name: Robert Elliott
-        company: Graphflow
-        role: Co-Founder
-        country: SA
-        twitter: greenafrican
-        github: greenafrican
-        bio: >
-            Robert is passionate about user experiences at the confluence of ecommerce, design and data science.
-            He obsesses over flow, usability and simplicity. Pirate of Good Hope.
-        title: >
-            Business Day Interview: Graphflow
-        abstract: >
-            Graphflow are passionate about small business and believe that even the smallest store
-            should have access to the same technology the big guys are using. They created a tool that allows
-            them to get the edge over the competition by plugging into the power of Machine Learning and
-            Big Data technologies. We'll be talking to Rob about product ideation and realisation in the context
-            of a small but expert team and the experience of being part of a local incubator.
-        video: -pWb1a8EEhY
-
-    willem_van_biljon:
-        name: Willem Van Biljon
-        company: Takealot
-        role: Co-CEO and Chief Technology Officer
-        country: SA
-        bio: >
-            Willem is a seasoned technology entrepreneur, having co-founded Mosaic Software, the creators of the
-            Postilion payment system, and was one of the leaders that built Amazon’s EC2 cloud service and Nimbula.
-            In June 2014 he joined South Africa’s fastest growing online retailer takealot.com as
-            Co-CEO and Chief Technology Officer.
-        title: >
-            Business Day Interview: Takealot
-        abstract: >
-            Willem brings a unique perspective to ScaleConf given his vast experience in companies small
-            and large. We'll be talking to him about his multi-decade journey in the industry and getting his
-            thoughts on the challenges and joys of growing of technology business both in South Africa
-            and internationally.
-
-    charity_majors:
-        name: Charity Majors
-        company: Parse / Facebook
-        role: Production Engineering Manager
-        country: USA
-        twitter: mipsytipsy
-        github: charity
-        bio: >
-            Charity is happily building out the next generation of mobile backends as a service at Parse.
-            She enjoys free software, free speech and single malt scotch.
-        title: >
-            Upgrade your database: without losing your data, your perf or your mind
-        abstract: >
-            Upgrading databases can be terrifying and perilous, and for good reason: you can totally
-            screw yourself! Every workload is unique and standardized test suites will never give you
-            enough information to evaluate how an upgrade will perform for your query set. We will talk
-            about how paranoid you should be about various types of workloads and upgrades, how to balance
-            risk vs engineering effort, and how to safely execute the most challenging upgrades by capturing
-            and replaying real production workloads. The principles apply to any db, but we’ll go
-            particularly deep into war stories and tooling options for MongoDB and MySQL.
-
-    charity_majors_business:
-        name: Charity Majors
-        company: Parse / Facebook
-        role: Production Engineering Manager
-        country: USA
-        twitter: mipsytipsy
-        github: charity
-        bio: >
-            Charity is happily building out the next generation of mobile backends as a service at Parse.
-            She enjoys free software, free speech and single malt scotch.
-        title: >
-            Business Day Interview: Parse
-        abstract: >
-            As a Production Engineering Manager at Parse, a mobile app platform for developers which is now a part
-            of Facebook, Charity has lived through the reality of the tiny-to-25-to-8000 person transition.
-            We'll be dicussing her experience of being acquired, deploying large systems at scale and advice for
-            how to stay productive and work better with your team through those transitions.
-
-    matty_cohen:
-        name: Matty Cohen
-        company: WooThemes
-        role: Chief Product Officer
-        country: SA
-        twitter: mattyza
-        github: mattyza
-        bio: >
-            Matty is the Chief Product Officer at WooThemes, a market leader in premium
-            WordPress products, helping folks to be successful in online business.
-            This means he manages the engineering team and a growing team of product
-            managers.
-        title: To 5 million... and beyond!
-        abstract: >
-            Matty will explain the evolution of WooCommerce, the world's fastest
-            growing eCommerce platform, and how they managed to scale the product
-            to over 5 million downloads (and growing) with 3 engineers maintaining
-            the codebase.
-        video: MghQAvLUMOc
-
-    donovan_graham:
-        name: Donovan Graham
-        company: Samewave
-        role: Software Engineer
-        country: SA
-        bio: >
-            Donovan Graham is a full-stack engineer at samewave.com and a
-            humble technology enthusiast.  He is an agile and UX practitioner,
-            who has been a scrum master and product owner in previous lives.
-        title: Scaling your Front-end
-        abstract:
-        video: Zxsx1BkcdDk
-
-    albert_dejongh:
-        name: Albert De Jongh
-        company: Visa
-        role: Software Architect
-        country: SA
-        twitter:
-        bio: >
-            Albert is a software architect at Visa, and has often found himself in war rooms
-            about performance problems.  He has stared at way too many thread dumps, trying to make
-            sense of things that just could not have happened.
-        title: Banana for Scale
-        abstract: >
-            Heavily loaded transaction processing systems, struggling clients...  Albert and
-            Chris have been faced with scaling challenges like these, and would like to share their
-            experience. They will present some lessons learnt and they’ll explain why bananas were
-            not suitable for scale.
-
-    albert_and_chris:
-        name: Albert De Jongh and Chris Oloff
-        title: Banana for Scale
-        abstract: >
-            Heavily loaded transaction processing systems, struggling clients...  Albert and
-            Chris have been faced with scaling challenges like these, and would like to share their
-            experience. They will present some lessons learnt and they’ll explain why bananas were
-            not suitable for scale.
-        video: zdWcudToUhk
-
-    chris_oloff:
-        name: Chris Oloff
-        company: Uber5
-        role: Building stuff in software
-        country: SA
-        twitter: chrisoloff
-        bio: >
-            Chris' goal is to write efficient and well-performing code for small and not-so-small-any-more
-            challenges, since 1994, with existing or news teams. He gained experience in diverse industries
-            like metals, money and energy, and is still learning daily. Chris holds an Honours Degree in
-            Computer Science and Economics from the University of Mannheim, Germany.
-        title: Banana for Scale
-        abstract: >
-            Heavily loaded transaction processing systems, struggling clients...  Albert and
-            Chris have been faced with scaling challenges like these, and would like to share their
-            experience. They will present some lessons learnt and they’ll explain why bananas were
-            not suitable for scale.
-
-    alex_and_hiren:
-        name: Alex Koller and Hiren Patel
-        title: An AppDev approach to scale
-        abstract: >
-            Alex and Hiren share their experiences and ideas of building and
-            scaling the award-winning MyCiTi app, which helps users in Cape
-            Town use public transit. Alex and Hiren will walk you through the
-            challenges they faced, such as hacking NFC, overcoming twitter API
-            limits and preparing the solution for scale.
-        video: B4Wrr_Iua_0
-
-    alex_koller:
-        name: Alex Koller
-        company: Google Cloud Platform
-        role: Developer
-        country: SA
-        bio: >
-            Alex is an Android developer devoted to understanding the bigger
-            picture behind the software he builds. He has led the development
-            of some of South Africa’s most successful apps (22seven, MyCiTi
-            Cape Town and BitX Bitcoin Wallet). When he’s not coding or
-            conceptualising, there is a good chance he will be talking to
-            others about Android development.
-            </p>
-            <p>
-            Before focusing on Android development, Alex co-founded and was
-            involved in various startups after studying Computer Science at
-            Rhodes University. He now lives in Cape Town and can usually be
-            found climbing a mountain.
-        title: An AppDev approach to scale
-        abstract: >
-            Alex and Hiren share their experiences and ideas of building and
-            scaling the award-winning MyCiTi app, which helps users in Cape
-            Town use public transit. Alex and Hiren will walk you through the
-            challenges they faced, such as hacking NFC, overcoming twitter API
-            limits and preparing the solution for scale.
-
-    hiren_patel:
-        name: Hiren Patel
-        company: Google Cloud Platform
-        role: GDE
-        country: SA
-        bio: >
-            Hiren is a software developer writing web apps and web clients
-            powered by the Google Cloud Platform. Formerly a systems
-            administrator in the linux/unix area for ten years, he transitioned
-            to a developer role, until moving onto using Google App Engine as
-            his platform of choice.
-            </p>
-            <p>
-            Hiren enjoys working with both web and android. He spends the
-            majority of his time using python on Google App Engine, but also
-            closely follows innovations in the rapidly changing cloud space,
-            including Google Compute Engine and Google Container Engine.
-            </p>
-            <p>
-            Hiren has run the Google Developer Group of Cape Town for several
-            years, inspiring the local community to use technology, and trying
-            to help local non-profit organisations along the way.
-            </p>
-            <p>
-            Hiren lives in Cape Town, South Africa, where he enjoys the
-            beautiful coast and the mountains, and hikes around the area
-            regularly.
-        title: An AppDev approach to scale
-        abstract: >
-            Alex and Hiren share their experiences and ideas of building and
-            scaling the award-winning MyCiTi app, which helps users in Cape
-            Town use public transit. Alex and Hiren will walk you through the
-            challenges they faced, such as hacking NFC, overcoming twitter API
-            limits and preparing the solution for scale.
-
-    sam_laing:
-        name: Sam Laing
-        company: Growing Agile
-        role: Co-founder
-        country: SA
-        twitter: samlaing
-        bio: >
-            Sam works as a coach and trainer helping teams and individuals adopt agile and work more effectively.
-            Although her background is as a software developer, she uses agile techniques with many different
-            industries and teams. Her goal is to make the process from idea to execution more rewarding for
-            everyone involved.
-        title: Scaling Learning
-        abstract: >
-            To succeed in todays world you need to be continuously learning. Along with that comes
-            the time pressure of todays world - so when and how are you learning? Sam and Karen have been
-            doing in person training for many years and recently stepped into the world on online training.
-            Training at scale. How do you make online training as valuable as in person training - is it
-            possible? This talk is about their adventure into the online education world, what they
-            learned, what surprised them and how it has affected their company.
-
-    sam_and_karen:
-        name: Sam Laing and Karen Greaves
-        title: Scaling Learning
-        abstract: >
-            To succeed in todays world you need to be continuously learning. Along with that comes
-            the time pressure of todays world - so when and how are you learning? Sam and Karen have been
-            doing in person training for many years and recently stepped into the world on online training.
-            Training at scale. How do you make online training as valuable as in person training - is it
-            possible? This talk is about their adventure into the online education world, what they
-            learned, what surprised them and how it has affected their company.
-        video: hebBsL3dWxc
-
-    karen_greaves:
-        name: Karen Greaves
-        company: Growing Agile
-        role: Co-founder
-        country: SA
-        twitter: karen_greaves
-        bio: >
-            Karen believes the best way to engage people at work is to make sure they are having fun, making
-            a difference, and getting better at the things they do. She helps people build great teams and
-            deliver great software.
-        title: Scaling Learning
-        abstract: >
-            To succeed in todays world you need to be continuously learning. Along with that comes
-            the time pressure of todays world - so when and how are you learning? Sam and Karen have been
-            doing in person training for many years and recently stepped into the world on online training.
-            Training at scale. How do you make online training as valuable as in person training - is it
-            possible? This talk is about their adventure into the online education world, what they
-            learned, what surprised them and how it has affected their company.
-
-    jeanre_swanepoel:
-        name: Jeanre Swanepoel
-        company: Ikhasi Digital
-        role: Software Architect and Founder
-        country: SA
-        twitter: jeanres
-        bio: >
-            Jeanre is a software architect and the founder of Ikhasi Digital, a small software
-            company based in Cape Town and Johannesburg, South Africa. He has over 10 years experience in
-            software development and infrastructure management, with proficiency in Node.JS, Java, .NET,
-            Ruby on Rails and Python. He brings experience in building large scale video streaming
-            applications, high volume realtime communication platforms and large e-commerce solutions.
-        title: Scaling Product Development with Open Source Technologies
-        abstract: >
-            Jeanre will be talking and demonstrating how they work as a development team on a daily
-            basis with developers across the globe and no central offices. All the software that they use
-            is free and open source. The talk will touch on: continuous integration and deployment,
-            infrastructure provisioning, auto scaling and finally team communication and collaboration.
-        video: N080Qi2Upzw
-
-    shaun_norris:
-        name: Shaun Norris
-        company: Amazon Web Services
-        role: Head of Solutions Architecture - ASEAN
-        country: Singapore
-        bio: >
-            Shaunn is Head of Solutions Architecture - ASEAN at Amazon Web Services and works with AWS
-            customers in the ASEAN region. He has been in the IT industry for 16 years in technical and
-            management roles for a variety of e-commerce and IT security companies in Canada, UK,
-            Switzerland and South Africa. More recently, Shaun led the AWS Premium Support team in
-            Cape Town, South Africa prior to joining the AWS team in Singapore. Shaun is also a
-            certified Scrum Master and Project Management Professional.
-        title: From Horses to Unicorns - Practical DevOps tools and tips on AWS
-        abstract: >
-        video: uLVMPH3ejaI
-
-    nick_pentreath:
-        name: Nick Pentreath
-        company: Graphflow
-        role: Co-Founder
-        country: SA
-        twitter: MLnick
-        bio: >
-            Nick is a cofounder of Graphflow, a big data and machine learning company focused on
-            recommendations and customer intelligence. Nick has a background in financial markets,
-            machine learning and software development. He has worked at Goldman Sachs and as a
-            research scientist at online ad targeting startup Cognitive Match in London, and led
-            the Data Science and Analytics team at Mxit, Africa’s largest social network. He is
-            passionate about combining commercial focus with machine learning and cutting-edge
-            technology to build intelligent systems that learn from data to add value to the bottom line.
-        title: Large Scale Data Processing
-        abstract: >
-            This talk will give an overview of the MapReduce approach to large-scale data
-            processing popularised by Apache Hadoop, and then move on to introduce the Apache
-            Spark project and the basics of working with Spark.
-            Apache Spark is a fast and general engine for large-scale, distributed data processing.
-            It offers high-level APIs in Java, Scala and Python as well as a rich set of libraries
-            including a SQL engine, stream processing, machine learning, and graph analytics. Spark
-            is currently one of the most exciting and fastest-growing Apache open source projects.
-        video: SCXk9lVj2gM
-
-    jeff_ferland:
-        name: Jeff Ferland
-        company: Facebook
-        role: Production Engineer
-        country: USA
-        twitter: jbferland
-        bio: >
-            Jeff is a Production Engineer working on the messaging backend stack at Facebook
-            and a moderator for the Security StackExchange website.
-        title: >
-            Stalling Out: When Services Magically Stop Servicing Requests
-        abstract: >
-            Diagnosing and preventing service failure caused by internal resource starvation: something
-            that usually presents itself as “My service stopped working and I don’t know why, then
-            started working and I don’t know why.” With an emphasis on failure-mode behavior, this talk
-            will cover interactions between threading, multiple shards hosted by a single instance,
-            kernel memory allocation behaviors, and NUMA-related problems. The talk will include
-            information to collect on a regular basis for post-mortem analysis and sharing production
-            lessons with software engineering teams.
-
-    maggie_zhou:
-        name: Maggie Zhou
-        company: Etsy
-        role: Software Engineer
-        country: USA
-        twitter: zmagg
-        bio: >
-            Maggie works on the Core Platform team at Etsy where she builds infrastructure to manage scaling
-            challenges in data storage and the web stack. She reads books, rides bicycles, and drinks
-            too much coffee in Brooklyn NY.
-        title: >
-            Sharding Take Two, the Logical Edition
-        abstract: >
-            In this talk, we'll go over the pains and perils of sharding databases and how we solved
-            some of the problems in Etsy's second take on sharding, what we call logical sharding.
-
-    craig_robinson:
-        name: Craig Robinson
-        company: Google
-        role: Senior Software Engineer
-        country: USA
-        bio: >
-            Craig is Senior Software engineer on the Street View team at Google. After
-            finishing a PhD in control theory (with a fair dose of CS) he spent
-            some time developing <a
-            href="http://news.discovery.com/tech/videos/tech-green-light-for-robotic-roads.htm">wireless
-            vehicle to vehicle communication</a> applications for Mercedes-Benz
-            Research and Development.  In 2009 he joined Street View and started
-            work on estimating panorama location and orientation using onboard
-            sensors (GPS, IMU, laser, wheels), computer vision (feature matches,
-            loop closing), map matching and other hackery. He enjoys the fact that
-            it's a multi-dimensional project that is both enabled and challenged by
-            its scale. When he is not enjoying it, he goes running.
-        title: Street View Scale
-        abstract: >
-            Google Street View began with a single video camera hand held by Larry
-            Page. It launched in 2007 and covered 5 cities. Since then it has grown
-            to span 7 continents and over 50 countries with 5 million unique miles
-            driven and 20 petabytes of imagery captured. Collections now include
-            indoor, underwater, snowmobile, backpack and bicycle. The scaling up
-            has been a logistics and a software challenge and we will cover some of
-            the highlights, low lights, software architectures and lessons learned
-            in Street View and Google at large.
-        video: ckjLnwFDcPA
-
-    simon_cross:
-        name: Simon Cross
-        company: Praekelt
-        role: Lead Developer
-        twitter: hodgestar
-        github: hodgestar
-        country: SA
-        bio: >
-            Simon enjoys exploring details and finding ways to make the world a better place.
-            From a childhood filled with weekends on the rocky beaches of South Africa’s west
-            coast and fortuitous early access to the GW-BASIC reference manual, he made his way
-            through high school and into academia, where he spent a lot of time learning details
-            like quantum mechanics and general relativity. Somehow he completed an MSc in Applied
-            Mathematics, despite discovering the wonders of Linux and open-source software in
-            the middle. Since leaving academia, Simon has written code for a variety of commercial
-            and scientific projects ranging from online newspapers to petrochemical companies and
-            from bioinformatics to radio astronomy. In his spare time Simon contributes to and
-            maintains a number of open source software projects, writes the odd computer game
-            or two, engages in old-fashioned pen-and-paper gaming and tries to get out to the
-            swimming pool or squash court every now and then. Simon is currently the lead
-            developer of Vumi, a scalable mobile messaging platform developed by the Praekelt
-            Foundation and recently organized the first two PyConZA conferences.
-        title: Scaling Happiness
-        abstract: >
-            Simon and Ben will discuss their experience building Vumi, an open source mobile
-            messaging platform that's built for scale. The talk will explore how to create an
-            environment where team members can effectively build and manage a complex software
-            product, while existing in a challenging client-driven services organization.
-
-    simon_and_ben:
-        name: Simon Cross and Ben Adlard
-        title: Scaling Happiness
-        video: mWVxbVYE5lQ
-
-    ben_adlard:
-        name: Ben Adlard
-        company: Praekelt
-        role: Product Owner
-        country: SA
-        bio: >
-            Ben creates environments that enable talented people to build cool stuff.
-            Recently back in South Africa after a 14-year stint in the States, Ben now runs
-            product for Vumi, an open source mobile messaging platform, owned by the Praekelt
-            Foundation. When not on IRC, Ben's typically trying to keep up with his two (soon
-            to be three!) kids.
-        title: Scaling Happiness
-        abstract: >
-            Simon and Ben will discuss their experience building Vumi, an open source mobile
-            messaging platform that's built for scale. The talk will explore how to create an
-            environment where team members can effectively build and manage a complex software
-            product, while existing in a challenging client-driven services organization.
-
-    wim_godden:
-        name: Wim Godden
-        twitter: wimgtr
-        company: Cu.be
-        role: Lead Architect
-        country: SA
-        bio: >
-            Wim has been working with open source technologies since 1997 and has been
-            involved in open source projects such as OpenX and PHPCompatibility.
-            Next to web development, he's worked with a wide range of technologies (from database
-            clusters to Internet backbone design) and focuses a lot of his time on high-scalability
-            projects and on coaching/training PHP engineers.
-        title: Caching and Tuning fun for high scalability
-        abstract: >
-            Caching has been a 'hot' topic for a few years. But caching takes more than merely taking
-            data and putting it in a cache : the right caching techniques can improve performance and
-            reduce load significantly. But we'll also look at some major pitfalls, showing that
-            caching the wrong way can bring down your site. If you're looking for a clear explanation
-            about various caching techniques and tools like Memcached, Nginx and Varnish, as well as
-            ways to deploy them in an efficient way, this talk is for you.
-        video: B6cWxyRnRR0
-
-    zabil_and_simba:
-        name: Zabil Maliackal and Simba Nyatsanga
-        title: Offloading the Rendering of your View to your Clients
-        video: bfDo2p-8eoA
-
-    zabil_cheriya_maliackal:
-        name: Zabil Cheriya Maliackal
-        company: ThoughtWorks
-        role: Agile consultant
-        country: SA
-        bio: >
-            Zabil works as an Agile consultant at ThoughtWorks with a focus on
-            using the right set of technologies and tools as the enabler for successful
-            delivery of large-scale projects. He was also a part of Thoughtworks Social
-            Impact programme where he contributed to many open source projects like
-            RapidFTR and OpenMRS. His career as a consultant spans 15 years on various
-            technologies and processes-related web development, Enterprise systems and
-            Agile practices. He is currently based in the ThoughtWorks Johannesburg office.
-            When he is not a self-confessed lazy programmer, he is an avid runner and climber.
-        title: Offloading the Rendering of your View to your Clients
-        abstract: >
-            Performance improvements in modern browsers coupled with the acceptance of javascript
-            as a first class language gives us a compelling platform to move a bulk of what used
-            to be done earlier on the server side to the client. This allows the distribution of
-            processing power and removing some obvious bottlenecks on the server side. This talk
-            aims to share our experience with the advantages of using this approach along with its
-            limitations. We talk about single page web applications, client side consumption of
-            RESTful services, performance gotchas, single code base for designers and developers
-            and its effect on building a portable client and scalable server code.
-
-    simbarashe_nyatsa:
-        name: Simbarashe Nyatsa
-        company: ThoughtWorks
-        role: Software Developer
-        country: SA
-        bio: >
-            Simba is a software developer at ThoughtWorks, based in the Johannesburg office. He has
-            contributed to educational software in South Africa that visualises Matric results across
-            the country. With 7 months experience in software development, Simba is keen to learn and
-            enjoys working with technology that makes a difference in society. He is also an avid
-            gamer with a thirst for general knowledge.
-        abstract: >
-            Performance improvements in modern browsers coupled with the acceptance of javascript
-            as a first class language gives us a compelling platform to move a bulk of what used
-            to be done earlier on the server side to the client. This allows the distribution of
-            processing power and removing some obvious bottlenecks on the server side. This talk
-            aims to share our experience with the advantages of using this approach along with its
-            limitations. We talk about single page web applications, client side consumption of
-            RESTful services, performance gotchas, single code base for designers and developers
-            and its effect on building a portable client and scalable server code.
-
-    aslam_khan:
-        name: Aslam Khan
-        role: Software Developer
-        twitter: aslamkhn
-        bio: >
-            Aslam is an African software developer, by birth, by choice
-            and for life.  He believes that all of software is just design and values code
-            as an expression of design. The same goes for architecture too - it''s all design.
-            The one thing he has learnt, though, is that design is hard, very, very hard,
-            because achieving a harmonious balance is difficult.  The same with scalability
-            - it throws us into extreme states, way off balance.  That is the challenge
-            - finding a new equilibrium.  You can read his blog at http://f3yourmind.net
-        title: Puppet for Human Beings (not!)
-        abstract: >
-            We can make servers look alike with Puppet, Chef, Ansible and most
-            probably other machinery that we are going to invent.  And it makes us
-            happy, because we like conformity and consistency.  Life is easier like
-            that, we believe or hope.  Yet, at ScaleConf 2013, I noticed that every
-            company that told their story increases people proportional to
-            increases in servers.  How did that work out?  Did we make all people
-            the same - like our servers? Do we want that in the first instance?
-            And if we don't want clones, what do we want? How do we scale a culture
-            if value diversity?  Which emerges first - consistency in values, or
-            consistency in technology? What is the tail that is wagging a body?  I
-            will explore these and other challenges - the really tough stuff that
-            continuous delivery pipelines don't solve.  I hope you will help me
-            answer those questions?  I believe that when we understand this, we can
-            achieve scale and balance. That's what I'm after - equilibrium at
-            scale.
-        video: HT_nGb9bxC0
-
-    beat_schwegler:
-        name: Beat Schwegler
-        company: Microsoft
-        role: Director, Platform Strategy Group
-        country: Switzerland
-        twitter: cloudbeatsch
-        bio: >
-            Beat is part of Microsoft’s Platform Strategy Group which is developing the
-            strategies relating to platform services and service-based applications. He
-            started to focus on cloud computing in 2008 and just loves the
-            opportunities it provides to businesses of all sizes. In his 10 years at
-            Microsoft, Beat has been responsible for cloud platform adoption among
-            developers in Western Europe and provided advice on software strategy and
-            architecture across Europe, the Middle East and Africa. Before joining
-            Microsoft, he was an independent architect and developer and was involved
-            in a wide variety of projects, ranging from real-time building control
-            systems, best-selling shrink-wrapped products to large-scale CRM and ERP
-            systems.
-        title: Scaling on Windows Azure
-        abstract: >
-            The Windows Azure architecture is based on scale-out and offers different
-            scale-units to build large systems. In this session, we will discuss the
-            capabilities for compute, distributed caching, storage and big data.
-        slides: http://www.slideshare.net/cloudbeatsch/scale-conf-2013-scaling-on-windows-azure
-        video: hnH9sTRWcR8
-
-    beat_schwegler_2014:
-        bio: >
-            Beat is part of Microsoft's technical evangelism and development
-            team (ted), where he architects, designs, codes and delivers leading edge
-            apps and services to showcase the Microsoft platform, with a special
-            focus on cloud. He started to focus on cloud computing in 2008 and just loves
-            the opportunities it provides to businesses of all sizes.  Before joining
-            Microsoft, he was an independent architect and developer and was involved
-            in a wide variety of projects, ranging from real-time building control systems,
-            best-selling shrink-wrapped products to large scale CRM and ERP systems.
-        twitter: cloudbeatsch
-        company: Microsoft
-        name: Beat Schwegler
-        role: Director, Platform Strategy Group
-        country: Switzerland
-        title: Scaling push notifications to millions of devices
-        abstract: >
-            Sending  notifications to millions of devices is quite challenging. Using
-            native push notification services comes with the burdens of different APIs per
-            platform, the need to manage the individual device registrations, the
-            complexity of message personalization, and the need to massively scale when
-            sending millions of notifications simultaneously. Notification hubs take a
-            different approach: they're based on pub/sub and designed to elastically
-            scale. They provide message templates for personalization and a single API
-            across iOS, Android and Windows.
-        video: AbhWmWSTM7Y
-
-    chris_bray:
-        bio: >
-            Chris is a Production Engineer at Facebook. He works with large scale
-            software deployments running on, amongst other things, CentOS, Chef,
-            Python, designer drip coffee, Ruby, RedBull, vi, bash, cable ties and
-            duct tape, using a large infrastructure of Facebook's OpenCompute
-            hardware.
-        company: Facebook
-        name: Chris Bray
-        role: Production Engineer
-        title: Looking back on “Look Back” videos
-        abstract: >
-            For Facebook’s 10 year anniversary, we produced over 700 million
-            personalized “look back” videos. Without any marketing or promotions
-            within Facebook, these videos were shared by hundreds of millions
-            of people in the first two days. To make this happen, we scanned
-            through billions of years of timelines and pre-rendered petabytes of
-            videos. I’ll talk about how the videos were rendered and the systems
-            used to scale it, how we managed to do this in just 3 weeks, including
-            a few days for the infrastructure just to compute and store the output,
-            and how Facebook's company culture enabled a group of relative
-            strangers to band together and iterate quickly on solutions for this
-            frankly herculean project.
-
-    clinton_gormley:
-        name: Clinton Gormley
-        company: Elasticsearch
-        role: Developer
-        bio: >
-            Clinton was the first user of Elasticsearch and wrote the Perl
-            API back in 2010. When Elasticsearch formed a company in 2012, he joined as a
-            consultant and the maintainer of the Perl modules. Now Clinton spends a lot of his time
-            designing the user interfaces and writing about Elasticsearch, and is currently
-            working on a book about it with O'Reilly Publishers. He studied medicine at
-            UCT in Cape Town and now lives in Barcelona.
-        title: Scaling real time search and analytics with Elasticsearch
-        abstract: >
-            A look at the elements required by
-            Elasticsearch to turn a simple inverted index into an auto-clustering,
-            horizontally scalable real time search and analytics engine. The talk will
-            start from first principles, explaining how an inverted index works, how to
-            make an inverted index suitable for real time search, how to scale that out,
-            how to add reliability and failover to the cluster, and design patterns to use
-            the cluster most efficiently
-        video: o6lSeNatVFM
-
-    dale_humby:
-        name: Dale Humby
-        company: Nomanini
-        role: CTO
-        country: SA
-        twitter: dalehumby
-        bio: >
-            Dale is CTO of Nomanini, a Cape Town based startup that has
-            developed a low cost, mobile point-of-sale terminal and the technology
-            ecosystem for it to operate in informal markets. His genesis is as an
-            electro-mechanical engineer developing sophisticated remote monitoring
-            systems in his own start-up business, joining Nomanini at its inception
-            in 2011 along with his staff.
-            </p>
-            <p>
-            Dale is passionate about the processes of product development,
-            continuous improvement, the motivation and management of people as well
-            as the complex and challenging mechanism of implementing continuous
-            delivery across hardware, firmware and software, all in an Agile
-            context.
-            </p>
-            <p>
-            Like his peers in Nomanini, Dale is driven by the twin goals of
-            powering the needs of the micro-entrepreneur in Africa and the
-            satisfaction of a job well done.
-        title: >
-            Scaling and Reliable Deployment of Hardware, Firmware and Software into the complex African micro-entrepreneurial market.
-        abstract: >
-            Nomanini's target market, mostly micro-entrepreneurs, rely on the
-            Nomanini solution for their livelihood. Therefore Nomanini has to
-            surmount the difficulties of building a scalable, repeatedly
-            deliverable hardware, firmware and back-end software solution capable
-            of processing millions of financial transactions in the technically
-            difficult African environment.
-            </p>
-            <p>
-            In his talk Dale discusses these challenges and reflects on solutions,
-            lessons learned and future improvements.
-        slides: https://speakerdeck.com/dalehumby/scalability-and-hardware-at-nomanini
-        video: wmMofn2dKhA
-
-    deon_moolman:
-        name: Deon Moolman
-        company: Yuppiechef
-        role: Senior Software Developer
-        twitter: CmdrDats
-        github: CmdrDats
-        blog: http://www.yuppiechef.com/technology-and-development.htm
-        bio: >
-            Deon is a senior software developer at Yuppiechef.co.za, the
-            leading e-commerce store in South Africa. He is a technology enthusiast, loves
-            programming concepts and languages and has spent 14 years in development on
-            websites, mobile applications, payment switches, warehouse systems, desktop
-            software and development tooling. Occasionally spotted with an Arduino in the
-            one hand and soldering iron in the other.
-        title: On a scale of one
-        abstract: >
-            Yuppiechef delights people daily by delivering stunning products, handwritten
-            cards and quality service. This is an architectural look at where Yuppiechef
-            has come from and how we're dealing with rapid growth while still keeping our
-            top-notch service levels. We'll explore some of our experiences and highlight
-            a couple of key pieces that are helping us to scale with very limited resources.
-        video: 7tGLSsKqGp0
-
-
-    daniel_fiske:
-        name: Daniel Fiske
-        company: RightShift
-        role: CTO and Founder
-        country: SA
-        quote: Massively scalable systems for the gaming and gambling sectors
-        twitter:
-        bio: >
-            Daniel has spent more than 15 years designing and building massively
-            scalable systems for the gaming and gambling sectors. He began in 1997 as a
-            software developer for one of the world’s first online casino groups, and
-            in 2005 co-founded RightShift as a multiplayer FPS tournament business that
-            later pivoted into social gaming in 2008 and (several apps later) launched
-            Clickfun Casino in 2011.</p>
-            <p>Bootstrapped entirely by the founders without any external funding, Daniel
-            and his team have built out proprietary infrastructure capable of
-            supporting millions of users. This experience together with his background
-            in real money gaming gives Daniel a unique understanding of the overall
-            gaming market and a perspective on the rapid convergence of social and real
-            money gaming that few others are likely to have.
-        title: Tales from the trenches
-        abstract: >
-            The story of how RightShift scaled its business and architecture to
-            successfully compete in the competitive social casino arena with their
-            flagship Clickfun Casino product. Daniel shares first-hand insight into
-            scaling a modern business and high-volume platform and is as much an
-            enlightening tale of getting things right as a cautionary tale of what not
-            to do.
-        video: -iH1YZ27qE0
-
-    daniel_schauenberg:
-        name: Daniel Schauenberg
-        company: Etsy
-        role: Software Engineer
-        country: USA
-        quote: Automation, documentation and simplicity are his usual tools
-        twitter: mrtazz
-        github: mrtazz
-        bio: >
-            Daniel is a Software Engineer in Etsy's infrastructure and development tools
-            team. Automation, documentation and simplicity are his usual tools for
-            improving the status quo. He previously worked in systems and network
-            administration, on connecting chemical plants to IT systems and as an embedded
-            systems networking engineer. Things he thoroughly enjoys when not writing code
-            include coffee, breakfast, TV shows and basketball.
-        title: Scaling Deployment at Etsy
-        abstract: >
-            At Etsy we have over 100 engineers deploying more than 40 times a day. This
-            culture of continuously deploying small change sets enables us to build and
-            release robust features all while serving over a billion page views per month.
-            In order to make sure we can keep up this pace, we have development and
-            deployment infrastructure in place that makes it comfortable and simple to
-            make changes. So simple that as an engineer at Etsy you deploy the site on
-            your first day - even if you're a dog.
-            </p>
-            <p>
-            But how is it possible to deploy so frequently among so many engineers and yet
-            maintain a stable system? To answer this I give a high-level overview of the
-            basic application structure to introduce the specific architecture we have at
-            Etsy and how our development environment is set up. For development, every
-            engineer gets their own VM with the full application stack configured. This
-            makes it easy to get started and puts every developer in the same, familiar
-            setup. This is a crucial part in removing confusion and ambiguity about how to
-            work on and deploy changes.
-            </p>
-            <p>
-            For the actual deployment we use a one-button deploy system - Deployinator -
-            which we developed and opensourced. We integrated our system tightly with our
-            company-wide IRC server and a set of tools we built to foster confidence,
-            fast feedback and easy communication and collaboration between engineers. A
-            detailed overview will be given on how the system works, how we use it and
-            what problems we had to solve while making sure everyone can deploy as easily
-            and fast as possible.
-            </p>
-            <p>
-            The central source of confidence in our development process is our CI system.
-            We have developed an easy way for developers to run tests on the CI cluster
-            while developing to test changes before going into the deploy pipeline.
-            Additionally tests are run on deploy and initiated by engineers with a tool
-            called 'try' across 200 build machines. Our cluster setup is explained along
-            with what problems we hit with an ever-growing codebase and number of
-            engineers, and how we made our current setup fast.
-            </p>
-            <p>
-            Continuous Deployment and the ability to quickly make changes are crucial for
-            moving fast and iterating on products. Our deployment system works very well
-            and is keeping up with the demands of a growing site and team. After attending
-            this talk you will understand exactly how we approach Continuous Deployment
-            and Continuous Integration at Etsy and get insight into what went wrong along
-            the way and how we fixed it.
-        slides: https://speakerdeck.com/mrtazz/scaling-deployment-at-etsy
-        video: AwOG65UGAH4
-
-    david_tinker:
-        name: David Tinker
-        company: BrandsEye
-        role: CTO
-        country: SA
-        twitter: david_tinker
-        github: davidtinker
-        bio: >
-            David is CTO at BrandsEye, the online brand monitoring
-            and analysis software. BrandsEye processes large volumes (3 million+) of
-            tweets and other brand mentions every day, contextualising and annotating
-            them with sentiment, credibility and so forth.
-        title: Transitioning your architecture to scale
-        abstract: >
-            The BrandsEye team have spent the last year or so transitioning from a
-            single monolithic application with serious performance issues into a
-            loosely coupled collection of applications able to handle very much
-            higher volumes at far greater reliability. The new system uses a lot of
-            interesting technology (RabbitMQ, Redis, MongoDB, MySQL, Postgresql,
-            Grails, Java, etc.) to solve various real-world problems. In this talk
-            David goes into detail on the challenges and learnings encountered
-            along the way.
-        slides: http://www.slideshare.net/davidtinker/transitioning-your-architecture-to-scale
-        video: A4cPkKW74pk
-
-    dustin_whittle:
-        name: Dustin Whittle
-        company: AppDynamics
-        role: Developer Evangelist
-        twitter: dustinwhittle
-        github: dustinwhittle
-        blog: http://dustinwhittle.com/
-        bio: >
-            Dustin is a Developer Evangelist at AppDynamics where he focuses on helping organisations
-            manage application performance. Before joining AppDynamics, Dustin was CTO at
-            Kwarter, a consultant at SensioLabs, and developer evangelist at Yahoo!. He has
-            experience building and leading engineering teams and working with developers and
-            partners to scale to meet demand. When Dustin isn't working he enjoys flying,
-            sailing, diving, golfing, and travelling around the world.
-        title: Performance Testing Crash Course
-        abstract: >
-            The performance of your application affects your business more than you might think.
-            Top engineering organizations think of performance not as a nice-to-have, but as a
-            crucial feature of their product. Those organizations understand that performance
-            has a direct impact on user experience and, ultimately, their bottom line. Unfortunately,
-            most engineering teams do not regularly test the performance and scalability of
-            their infrastructure. Dustin Whittle shares the latest performance testing tools
-            and insights into why your team should add performance testing to the development
-            process. Learn how to evaluate performance and scalability on the server-side and
-            the client-side with tools like Siege, Bees with Machine Guns, Google PageSpeed,
-            WBench, and more. Take back an understanding of how to automate performance and
-            load testing and evaluate the impact it has on performance and your business.
-        video: gfleR-CFbAk
-
-    krzysztof_debski:
-        name: Krzysztof Debski
-        company: Allegro
-        role: IT Architect
-        github: kdebski
-        bio: >
-            Krzysztof is a technical enthusiast, software engineer and product
-            owner of Service Bootstrap developed in Allegro. Gained
-            software experience in the biggest Polish web companies –
-            Onet.pl and Allegro.pl. He has a lot of experience in
-            designing and building modern, scalable web systems.
-            He is open to all new technologies an programming languages,
-            and he has no fear to work on legacy systems and rewrite
-            them in modern way.
-        title: Let's build a solid base for a scale.
-        abstract: >
-            Creating fast, reliable and easy to develop systems is not the easiest task.
-            If you add the fact that thousands of companies use your system as a core business
-            platform on a daily basis, it becomes challenging.
-            </p>
-            <p>
-            Add a flavour of a scalability and millions of users and it moves on to exciting.
-            How can we prepare a system that might be affected by scalability issues
-            everywhere, even in the simplest component?
-            </p>
-            <p>
-            The answer is to dive deep into the world of services.
-            We decided to prepare a strong base on top of which we can build our
-            system. Our choice was to start with the Java stack.
-            We've gathered all the cool stuff from open source projects to create a bootstrap
-            to let our developers create scalable services really fast.
-            </p>
-            <p>
-            In this talk I would like to focus on the choices we made, and the
-            ecosystem we built over our services.  It is not only about the code we
-            write, but also the tools that make our life easier.  We will look at
-            frameworks to provide REST services, and see how to make them auto
-            discoverable.  We will also discuss tools to let us monitor and manage
-            all the instancesi we run.  If you want to create or upgrade your service
-            to scale it is the best place to start.
-
-    mike_jones:
-        name: Mike Jones
-        company: Western Cape Labs
-        role: Jack of all trades
-        country: SA
-        quote: I started out with nothing and I still have most of it left
-        twitter: imsickofmaps
-        github: imsickofmaps
-        bio: >
-            Mike works at Western Cape Labs, which he helped form in 2012. He calls himself
-            a "jack of all trades, master of some", which really just means he has to
-            make his own coffee (and likes to shout "MARKETING" randomly at
-            conferences). Born and raised in London, but now resident in Cape Town with
-            his growing family, he appreciates all that the city has to offer as an
-            awesome place to build a socially valuable business.
-        title: I started out with nothing and I've still got most of it left
-        abstract: >
-            It has never been easy to turn your ideas into a real scalable business, but
-            these days, with the rise of the tech incubator, it seems like it's
-            something that everyone is meant to be doing. This talk hopes to provide
-            some insight based on real-world experience from someone who has tried and
-            failed a number of times, and in 2012 decided to try again right here in
-            Cape Town.  Inspired by last year's ScaleConf, he'll tell us how
-            <a href="http://ontheway.co.za/">On The Way</a> (a service run by
-            Western Cape Labs) went in six months from an idea to a thing you'd
-            hopefully happily send your mum to.
-        slides: https://speakerdeck.com/imsickofmaps/scaleconf-2013-i-started-out-with-nothing-and-ive-still-got-most-of-it-left
-        video: gVpxSTSPwfM
-
-    miles_ward:
-        name: Miles Ward
-        company: Amazon
-        role: Solutions Architect
-        country: USA
-        quote: A decade of experience building global-scale analysis infrastructures
-        twitter: milesward
-        github: milesward
-        bio: >
-            Miles is a three-time technology startup entrepreneur with a decade of experience
-            building global-scale analysis infrastructures. Miles has been at Amazon
-            Web Services since 2010 and is responsible for designing and developing AWS
-            Solution Architectures relating to big data and social analytics,
-            multi-tiered storage, HA and DR approaches for RDBMS systems, and cost
-            optimisation.
-        title: >
-            Little teams with big results: NASA/JPL and Obama for America via AWS
-        abstract: >
-            In 2012 two small teams set about delivering on massive expectations, on
-            "failure-is-not-an-option" projects, with extraordinarily limited time and
-            resources. Both teams nailed it: every space geek in the world saw the Mars
-            Curiosity Rover's first images live from Amazon S3 and Cloudfront and
-            watched an HD live-stream of the event, and the 170+ custom applications on
-            AWS powering the radical Obama for America campaign played no small part in
-            helping President Obama win his bid for re-election.  Miles Ward, your
-            presenter, worked embedded within these teams during the design, development,
-            testing, deployment and operational phases of these projects, and can relay
-            a few critical insights about the use of cloud at this scale.  100,000 WCU
-            DynamoDB tables; replicating 27TB across the continent; 60+ terabit/s of
-            live-streamed video; over a billion dollars in processed donations;
-            hundreds of instances, 528,000 IOPS, oh my!
-        video: hR-oiZqJ88M
-
-    neil_blakey_milner:
-        name: Neil Blakey-Milner
-        company: Facebook
-        role: Production Engineering Manager
-        country: USA
-        twitter: nxsy
-        github: nxsy
-        title: Operating at Scale
-        bio: >
-            Neil is a Production Engineer in Facebook's Core Systems team where he tries
-            to make the infrastructure that powers Facebook's infrastructure more
-            reliable and operationally efficient.  Previously he was an early
-            employee and lead engineer at South African startups KnowledgeTree and
-            Yola.
-        abstract: >
-            Lessons learned and approaches taken in scaling Facebook, keeping
-            product development fast and a billion people who use Facebook every
-            month happy with the reliability and performance of the site.
-
-    niklas_gustavsson:
-        bio: >
-            Niklas is a backend engineer at Spotify, open
-            source hacker, mountain biker and father of two awesome kids. At Spotify, he
-            mostly works on the audio pipeline. Niklas keeps a badly updated blog at
-            <a href="http://protocol7.com">http://protocol7.com</a>
-        company: Spotify
-        role: Backend Engineer
-        name: Niklas Gustavsson
-        title: Optimizing playback at Spotify
-        twitter: protocol7
-        github: protocol7
-        abstract: >
-            Spotify instantly streams music to more than 24 million users, on many
-            different platforms, from a catalogue of more than 20 million songs. What goes
-            into doing this? And what are challenges to maintain this with an ever growing
-            user base, in many new places around the world? In this talk, we'll describe
-            how the audio playback pipeline at Spotify is built and optimized. It will
-            cover a wide range of areas involved, from how the clients work to the storage
-            solutions that backs it all.
-
-    robert_stuttaford:
-        name: Robert Stuttaford
-        company: Cognician
-        role: CTO
-        country: SA
-        twitter: RobStuttaford
-        github: robert-stuttaford
-        bio: >
-            Robert is the CTO at Cognician, a local tech startup working on
-            improving people's thinking. Now, going into its fourth year with a brand
-            new, completely re-imagined technology stack, Cognician is providing value
-            as a digital platform for self-coaching, performance support and much, much
-            more.</p>
-            <p>Robert has been coding for 15 years and is still not dead. Having worked in
-            all facets of web development for a wide variety of use cases and people,
-            he is happily astonished at how much fun he's still having, thanks in no
-            small part to the Clojure language and its philosophy and community.
-        title: Cognician's new architecture with Clojure and Datomic
-        abstract:
-            Robert will tour through Cognician's new architecture and ops
-            infrastructure, which leverages the many advantages of Clojure - such as
-            functional programming, immutable data and deep Java interop - and Datomic,
-            a new database engine from the creator of Clojure, which solves many of the
-            common data-handling concerns when scaling web applications, so that
-            scaling is far more simple to reason about and accomplish.
+jamie_hewland:
+    name: Jamie Hewland
+    company: Praekelt Foundation
+    role: Site Reliability Engineer
+    twitter: jayhewland
+    github: JayH5
+    country: South Africa
+    year: 2016
+    bio: >
+      Jamie is a software developer at Praekelt Foundation. He believes
+      that good user experience is important throughout the full software
+      stack — from the front end down to the lowest-level system code.
+      He studied Computer Science at UCT and did research on evolving
+      robotic teams.
+    title: >
+      Planting Seed
+    abstract: >
+      Open source tools from companies such as Mesosphere, CoreOS and
+      HashiCorp have made it possible for small teams to build scalable,
+      highly automated infrastructure on which to deploy applications.
+      Software container systems such as Docker have drastically simplified
+      the way these applications are packaged and executed.
+      </p>
+      <p>
+      Over the last 2 years, we've worked hard to update our infrastructure
+      from a complex set of manually-coordinated processes to an automated
+      system that deploys Docker containers to a cluster. We made this move
+      to reduce costs, scale further and make our software more portable.
+      </p>
+      <p>
+      We've used this new infrastructure to host hundreds of websites for
+      Facebook's Free Basics platform. Our new health software stack,
+      Seed, has pushed the requirements of the infrastructure even further.
+      We're working towards replicating this stack to deployments in
+      countries across the world.
+      </p>
+      <p>
+      The talk will cover some of the basic building blocks of cluster
+      orchestration systems such as consensus algorithms, distributed
+      key/value stores and resource allocation. We'll cover some of the
+      challenges in networking containers at scale and touch on some
+      solutions for persistent storage.
+      </p>
+      <p>
+      Finally, we'll look at how these problems and the available solutions
+      have shaped our infrastructure, the design trade-offs we made, and
+      what we're looking forward to in the future.
+    video: uWk8zCqvtyw
+
+michael_needham:
+    name: Michael Needham
+    company: Amazon Web Services
+    role: Senior Manager of Solutions Architecture - RMEA
+    twitter: smneedham
+    github: smneedham
+    country: South Africa
+    landing_page: true
+    year: 2016
+    bio: >
+      In this role Michael is supporting internal teams and directly working
+      with customers to successfully architect and run their applications at
+      scale in the Amazon Web Services cloud.
+      </p>
+      <p>
+      Michael has 19 years’ IT experience working in Africa, Asia and Europe.
+      In various stages of his career he played a key role in shaping the
+      platforms and technology that power some of the top online brands of
+      Southern Africa, including a leading ISP, a breaking news portal,
+      mobile-first startups in Kenya and Nigeria and more recently online
+      retail. Over a 10 year period, Michael also worked as technical due
+      diligence lead on Nasper’s mergers and acquisitions team, supporting
+      over $300 Mil of investments in emerging market eCommerce startups such
+      as Flipkart (India), SimilarWeb (Israel), Konga (Nigeria), Souq (Middle
+        East), PayProp (South Africa) and many more.
+    title: >
+      Design patterns for product launch success
+    abstract: >
+      With more 'Unicorns' in the past 18 months than entire history of
+      online 'Unicorns' the macroeconomic timing and techincal conditions
+      for product disruption are high. This talk will focus on 5 design
+      patterns for rapid launch of new products and cost efficient scale
+      when success takes hold.
+      </p>
+      <p>
+      The more technical aspects of this talk will consider the serverless
+      architecture paradigm (based on AWS Lambda) for low cost unit
+      economics in your products and extremely high scale across global
+      regions. It will touch on frameworks such as Jaws Open Source framework
+      (now called Serverless) as a mechanism of dealing with the
+      complexities of such deployments, a typical challenge in this space.
+      The final design pattern focuses on scaling your products to new
+      channels and will consider the IOT theme with a small example of a
+      Lambda integration in to an Amazon Alexa for a simple beer
+      ordering service :)
+    video: ozf5LaB6XZU
+
+dewald_viljoen:
+    name: Dewald Viljoen
+    company: ThoughtWorks
+    role: Senior Software Developer
+    twitter: dewald_v
+    github: DewaldV
+    country: South Africa
+    landing_page: true
+    year: 2016
+    bio: >
+      Dewald is a software developer and ThoughtWorker from Johannesburg.
+      He believes that software has no value if it cannot get to the
+      consumer and that close collaboration between operations and
+      development and automating all the things is crucial to succeeding
+      at this goal.
+    title: >
+      Rapid, Reproducible Builds - Treating our build servers like production
+    abstract: >
+      I'd like to talk to everyone about someone we often neglect. That
+      someone keeps our code flowing into production, runs all those
+      automated tests, does things that we might not even remember to
+      deploy to all our environments.
+      </p>
+      <p>
+      That someone is our build servers.
+      </p>
+      <p>
+      They tirelessly work to get our changes to our end users and we do
+      neglect them. We don't treat our build servers like production servers,
+      we hack them, we play with them, we mess up the environments. We may
+      have several agents with different runtimes and gems and patch levels
+      and who knows what.
+      </p>
+      <p>
+      We can do better.
+      </p>
+      <p>
+      In this talk I'd like to take you through something I've been working
+      on over the last couple of months: Containerising your build. The tool
+      I'll be using for this is Docker, but it's achievable with any VM or
+      container technology. I'll take you through going from a working build
+      on local to building local inside a container and then to moving that
+      build to a build server, explaining what how and why as I go.
+    video: 1VitHrVkr94
+
+sunil_shah:
+    name: Sunil Shah
+    company: Mesosphere
+    role: Technical Lead
+    twitter: ssk2
+    github: ssk2
+    country: USA
+    year: 2016
+    bio: >
+      Sunil Shah is a technical lead at Mesosphere, working on tools and
+      services around the Apache Mesos project to make the lives of
+      developers easier. Before joining Mesosphere, Sunil worked at
+      music recommendations service Last.fm and completed a Master's
+      program at UC Berkeley in EECS, working on real-time processing of
+      images collected from drones. When he's not flying drones around,
+      Sunil likes to cycle, camp, hike, ski and play a large drum.
+    title: >
+      Scaling Like Twitter With Apache Mesos
+    abstract: >
+      When Twitter was faced with the task of re-architecting their
+      backend away from a monolithic Ruby on Rails application to a
+      series of microservices, they turned to Apache Mesos. Mesos is an
+      open source cluster manager that was developed at UC Berkeley and
+      powers the backend of heavily trafficked services like Twitter,
+      Siri and others. Mesos has been proven to scale to tens of
+      thousands of nodes.
+      </p>
+      <p>
+      Using Mesos with container software like Docker and other open
+      source tools, you can easily deploy automated infrastructure that
+      scales with both your users and developers. In this presentation,
+      we will introduce and motivate the Apache Mesos project and
+      demonstrate common workflows for building and deploying applications
+      to a cluster of machines.
+    video: 3qVOlzPvGhQ
+
+philip_norman:
+    name: Philip Norman
+    company: Mesosphere
+    role: Software Entwickler
+    twitter: philipnrmn
+    github: philipnrmn
+    country: Germany
+    landing_page: true
+    year: 2016
+    bio: >
+      Originally from London, Philip Norman now works out of Hamburg
+      developing scalable container tooling for Mesosphere. Previously,
+      Philip worked freelance in the web space on projects ranging from
+      experimental social networks to FinTech solutions. Philip likes to
+      relax by cycling, bouldering, and exploring the weirder corners of
+      North German cuisine.
+    title: >
+      Scaling Like Twitter With Apache Mesos
+    abstract: >
+      When Twitter was faced with the task of re-architecting their
+      backend away from a monolithic Ruby on Rails application to a
+      series of microservices, they turned to Apache Mesos. Mesos is an
+      open source cluster manager that was developed at UC Berkeley and
+      powers the backend of heavily trafficked services like Twitter,
+      Siri and others. Mesos has been proven to scale to tens of
+      thousands of nodes.
+      </p>
+      <p>
+      Using Mesos with container software like Docker and other open
+      source tools, you can easily deploy automated infrastructure that
+      scales with both your users and developers. In this presentation,
+      we will introduce and motivate the Apache Mesos project and
+      demonstrate common workflows for building and deploying applications
+    video: 3qVOlzPvGhQ
+
+job_thomas:
+    name: Job Thomas
+    company: Automattic
+    role: Training and Education Manager
+    twitter: jobtex
+    country: South Africa
+    year: 2016
+    bio: >
+      Job Thomas is a Belgian who followed his South African wife to Cape
+      Town in 2013. He has worked as training manager at several NGOs and
+      as academic teaching staff at a few colleges before joining WooThemes
+      as Training and Education Manager focusing on proactive
+      support strategy.
+    title: >
+      Scaling Support by Educating Customers
+    abstract: >
+      Growing a business does not just imply selling more products and
+      getting more customers; one of the biggest challenges is supporting
+      that growing customer-base in handling their acquired products. With
+      growth comes an increase in potential errors, bugs, and struggles.
+      So how does a growing tech company scale support?
+      </p>
+      <p>
+      At WooThemes we get about 10,000 ticket submissions per month,
+      which stands in big contrast with the almost 500,000 visitors of
+      our public support resources. This talk will focus on finding a
+      good balance between providing a stable public resource and answering
+      urgent ticket requests, and the mistakes and wins we've
+      encountered along the way.
+    video: ZP1jImalXfU
+
+michael_gorven:
+    name: Michael Gorven
+    company: Facebook/Instagram
+    role: Production Engineer
+    twitter: mgorven
+    github: mgorven
+    country: USA
+    year: 2016
+    bio: >
+      Michael Gorven is a Production Engineer at Facebook,
+      where he works on Instagram. He fixes things when they break, improves
+      the reliability of the system, helps engineer it to scale, and reverts
+      diffs. Previously he was an early employee at South African startup
+      Nimbula. Michael grew up in Durban and holds a BSc in Electrical and
+      Computer Engineering from the University of Cape Town. He currently
+      lives in California with his wife and 2 year old son.
+    title: >
+      Continuous deployment to millions of users 40 times a day
+    abstract: >
+      Instagram deploys code 40 times a day to its fleet of
+      thousands of webservers and userbase of 400M monthly active users
+      automatically when engineers land changes. This talk describes the
+      iterative approach we took to building this system, the problems we
+      faced along the way, the solutions we implemented, and the key
+      principles which enable this to work.
+
+bethany_macri:
+    name: Bethany Macri
+    company: Etsy
+    role: Software Engineer
+    twitter: BethanyMacri
+    github: bmacri
+    country: USA
+    landing_page: true
+    year: 2016
+    bio: >
+      Bethany Macri is a Software Engineer on Etsy's Core Platform team.
+      Bethany studied Literature in college, then taught herself how to
+      code and attended the Recurse Center before working for Etsy. She
+      is passionate about infrastructure and web operations, Mexican
+      food and theater.
+    title: >
+      Retrospective: Scaling Infrastructure at Etsy
+    abstract: >
+      Etsy is an online marketplace that connects people across the globe
+      to buy and sell handmade and vintage goods. Founded in 2005 in
+      Brooklyn, Etsy has grown rapidly. As a result, Etsy has need to
+      scale its infrastructure to serve its growing user-base as well
+      as its developers. In this talk, Bethany Macri, Core Platform
+      Engineer at Etsy, will discuss three software projects that
+      demonstrate how Etsy changed its infrastructure to scale and
+      maintain high availability:
+      <ol>
+      <li>a four-year data migration project</li>
+      <li>writing a new API that allowed clients to fetch data concurrently, and</li>
+      <li>scaling datasets infrastructure.</li>
+      </ol>
+      This talk will propose a model for scaling as well as discussing
+      possible ways Etsy will continue to scale as it grows.
+    video: LfqyhM1LeIU
+
+len_weincier:
+    name: Len Weincier
+    company: CloudAfrica
+    role: Founder
+    twitter: lenwnc
+    github: lenw
+    country: South Africa
+    year: 2016
+    bio: >
+      Len has built systems ranging from embedded devices to enterprise
+      scale big data systems. Coming from C and C++ via Java and JEE
+      through Ruby and now into Go and Node with bits of Clojure, he has
+       been around the programming block. He's trained many developers,
+       biz analysts and project managers over time and spoken at
+       many conferences.
+    title: >
+      FUD at scale
+    abstract: >
+      Fear, Uncertainty and Doubt can seriously limit your ability to
+      scale. Would you ever build your own hardware? Would you build an
+      operating system? Lets take a look at the "other" barriers to scaling.
+    video: GbhtKaIyazk
+
+bridget_kromhout:
+    name: Bridget Kromhout
+    company: Pivotal
+    role: Principal Technologist
+    twitter: bridgetkromhout
+    github: bridgetkromhout
+    country: USA
+    year: 2016
+    bio: >
+        Bridget Kromhout is a Principal Technologist for Cloud Foundry at
+        Pivotal. Her CS degree emphasis was in theory, but she now deals
+        with the concrete (if ‘cloud’ can be considered tangible). After
+        years in site reliability operations (most recently at DramaFever),
+        she traded in oncall for more travel. A frequent speaker at tech
+        conferences, she helps organize the AWS and devops meetups at home
+        in Minneapolis, serves on the program committee for Velocity, and
+        acts as a global core organizer for devopsdays. She podcasts at
+        Arrested DevOps, occasionally blogs at bridgetkromhout.com, and is
+        active in a Twitterverse near you.
+    title: >
+        Containers will not fix your broken culture (and other hard truths)
+    abstract: >
+        Containers will not fix your broken culture. Microservices won’t
+        prevent your two-pizza teams from needing to have conversations
+        with one another over that pizza. No amount of industrial-strength
+        job scheduling makes your organization immune to Conway’s Law.
+        </p>
+        <p>
+        Does this mean that devops has failed? Not in the slightest.
+        It means that while the unscrupulous might try to sell us devops,
+        we can’t buy it. We have to live it; change is a choice we make
+        every day, through our actions of listening empathetically and
+        acting compassionately.
+        </p>
+        <p>
+        Making thoughtful decisions about tools and architecture can help.
+        Containers prove to be a useful boundary object, and deconstructing
+        systems to human-scale allows us to comprehend their complexity.
+        We succeed when we share responsibility and have agency, when we
+        move past learned helplessness to active listening. But there is
+        no flowchart, no checklist, no shopping list of ticky boxes that
+        will make everything better. “Anyone who says differently is
+        selling something”, as The Princess Bride teaches us.
+        </p>
+        <p>
+        Part rant, part devops therapy, this talk will explain in the
+        nerdiest of terms why CAP theorem applies to human interactions
+        too, how oral tradition is like never writing state to disk, and
+        what we can do to avoid sadness as a service.
+    video: OEtRQSpoz18
+
+quinton_parker:
+    name: Quinton Parker
+    company: Spree.co.za
+    role: Solutions Architect
+    twitter: quintonparker
+    github: quintonparker
+    country: South Africa
+    year: 2016
+    bio: >
+        Quinton is a Solutions Architect for Spree.co.za but he's not the
+        hand-waiving box-drawing kind. He's the roll-up sleeves, write code
+        and ensure big ideas sensibly translates into practical and
+        real-world implementation kind of architect.
+        As a young under-priviledged developer he would spend many years
+        working on large-ish php/mysql applications. Today he sips the
+        Node.js koolaid, Elasticsearches all the things, and is a devout
+        varnishcache fanboy
+    title: >
+        The Strangler Pattern
+    abstract: >
+        If a large, complex, legacy (and monolith?) software system could
+        be thought of as a boeing and the users its passengers. This talk
+        is about a powerful (but not new) strategy to replace the jet
+        engines (performance) whilst simultaneously enabling more
+        passengers to embark mid-flight (scalability) without anybody
+        getting killed in the process (developers included).
+        </p>
+        <p>
+        This talk will showcase real-world and practical concepts,
+        pragmatic thinking, microservice adoption, silly mistakes, and
+        unusual software pattern mashups employed by Spree engineering
+        teams on our journey to a preferable ecommerce platform
+    video: PAqhDkx8G8U
+
+tyler_mcmullen:
+    name: Tyler McMullen
+    company: Fastly
+    role: CTO
+    twitter: tbmcmullen
+    github: tyler
+    country: USA
+    landing_page: true
+    year: 2016
+    bio: >
+        Tyler McMullen is CTO at Fastly, where he’s responsible for the
+        system architecture and leads the company’s technology vision.
+        As part of the founding team, Tyler built the first versions of
+        Fastly’s Instant Purging system, API, and Real-time Analytics.
+        Before Fastly, Tyler worked on text analysis and recommendations
+        at Scribd. A self-described technology curmudgeon, he has
+        experience in everything from web design to kernel development,
+        and loathes all of it. Especially distributed systems.
+    title: >
+        Load Balancing is Impossible
+    abstract: >
+        Load balancing is something most of us assume is a solved problem.
+        But the idea that load balancing is "solved" could not be further
+        from the truth. If you use multiple load balancers, the problem is
+        even worse. Most of us use "random" or "round-robin" techniques,
+        which have certain advantages but are highly inefficient. Others
+        use more complex algorithms like "least-conns," which can be more
+        efficient but have horrific edge cases. "Consistent hashing" is a
+        very useful technique, but only applies to certain problems. There
+        are several factors that exist both in theory and practice that
+        make efficient load balancing an exceptionally hard problem.
+        </p>
+        <p>
+        For instance:
+        <ul>
+        <li>Poisson request arrival times</li>
+        <li>Exponentially distributed response latency</li>
+        <li>Oscillations when sharing data between multiple load balancers</li>
+        </ul>
+        Luckily, there are techniques and algorithms that have been
+        developed that can make life better. I’ll walk through some of the
+        ways that we can do better than “random,” “round-robin,” and naive
+        “least-conns,” even with distributed load balancers.
+    video: kpvbOzHUakA
+
+damian_schenkelman:
+    name: Damian Schenkelman
+    company: Auth0
+    role: Engineer
+    twitter: dschenkelman
+    github: dschenkelman
+    country: Argentina
+    year: 2016
+    bio: >
+        Damian is an engineer at Auth0 working on making the core
+        scalable and performant. He loves learning about distributed
+        systems, software performance and contributing to OSS.
+    title: >
+        The dirty secrets of building large, highly available, scalable HTTP APIs
+    abstract: >
+        When you first start building an API for a new product you mostly
+        focus on getting an MVP ready, with the goal shipping as soon as
+        possible so you can get feedback from customers. If you are lucky
+        enough, your product will be successful and you will have to start
+        worrying about things like authentication, authorization,
+        documentation, validation, rate limiting, geo-redundancy, and
+        no downtime deployments. In this talk I will go over some real
+        life examples of our experience evolving our APIs at Auth0 and
+        some of the tools we use for that.
+    video: OoA-gx-19tQ
+
+paul_cartmel:
+    name: Paul Cartmel
+    company: New Media Labs
+    role: Managing Director
+    twitter: PaulCartmel
+    country: SA
+    year: 2015
+    bio: >
+        Paul is the Managing Director of New Media Labs. He has adopted the Jack Dorsey
+        definition of CEO/MD – which makes him an editor. He edits their ideas, the
+        story they tell the public, their strategy and make sure it is on course.
+        Some would say a CEO controls the vision, but NML’s vision is a composite
+        of each individual that works there, so he just gets to edit it.
+        Keeping an incredibly talented team close is his real goal – a talented team
+        sells itself. To achieve this he strives to make New Media Labs a place the team
+        want to spend their working life at. He sees employing people as an honour.
+    title: >
+        Business Day Interview: New Media Labs
+    abstract: >
+        While leading NML Paul has led his team through many twists and turns. We'll talk
+        to him about growing a successful, independent consulting business with one eye (and
+        sometimes two) on productising the work they engage in. We'll touch on how he believes
+        you could structure a business to increase the probability of success and discuss the real
+        world impact internal decisions and external forces have shaped the road they've walked.
+
+stephen_perelson:
+    name: Stephen Perelson
+    company: Mxit
+    role: Senior Web Engineer
+    twitter: perelson
+    github: sperelson
+    country: SA
+    bio: >
+        Stephen is a senior software developer at Mxit working on internal tools and
+        Web services. He has limited his career options by choosing to work
+        remotely. Fortunately, he doesn't know this. He has worked as an IT
+        lecturer at the Nelson Mandela Metropolitan University and has contracted
+        to local government where he helped make sense of financial data. He
+        was also employed by a failed startup, which just so happened to be
+        the best career path he ever took.
+    title: Growing a Web platform to 15 million pageviews on a shoestring
+    abstract: >
+        Launch is a Web based service that enables the rapid development and
+        hosting of Mxit applications. The capacity for scaling was achieved
+        through changes to code, data, and infrastructure during Launch's
+        development and maintenance. Stephen will share his experiences refactoring
+        Launch, a large PHP, AngularJS and MongoDB based Web site, to ensure
+        reasonable performance and reliability at scale. Topics will cover
+        caching, domain specific tricks, MongoDB, and strategically lowering
+        administrative load by using AWS services.
+    video: OZKGsp76cuw
+
+tim_park:
+    name: Tim Park
+    company: Microsoft
+    role: Principal Software Engineer
+    twitter: timpark
+    github: timpark
+    country: USA
+    bio: >
+        Tim is a principal software engineer at Microsoft, working with customers and
+        product teams to prove out scenarios on the Microsoft cloud that have never
+        been done elsewhere and use that experience to drive improvements in our
+        products. Before Microsoft, Tim worked on a number of the key pieces of
+        infrastructure and applications at Nest Labs, an internet of things startup
+        that re-envisioned the thermostat for the digital era.
+    title: From Screens to Context
+    abstract: >
+        For the past four decades computing has been driven by the spiral of faster,
+        cheaper, and smaller but has stayed within the lines of a "screen and an input
+        device". Tim will talk about how computing is increasingly being infused into
+        everything and that increasingly the user interface for this style of computing
+        will be our use of our everyday things. He will talk about the impact of this
+        on how we build and scale systems and draw on his experience of working at
+        Nest Labs (an early Internet of Things startup) and in cloud services at
+        Microsoft to describe how to ingest and process extremely high scale telemetry
+        data and ground the discussion by walking through a real world customer scenario.
+    video: g9l-ZAt9gzI
+
+franz_struwig:
+    name: Franz Struwig
+    company: Garmin
+    role: Senior Manager
+    twitter: fstruwig
+    country: SA
+    year: 2015
+    bio: >
+        Franz is passionate about people, technology and business. As an Engineer and an MBA,
+        he was privileged to be a part of establishing iKubu – a radar and computer vision
+        company with a heart. After crowdfunding the world’s first bicycle radar called
+        Backtracker in 2014, iKubu was acquired by Garmin. He's still learning and growing!
+    title: >
+        Business Day Interview: Garmin
+    abstract: >
+        At iKubu they help people see what they can't, using computer vision and
+        radar systems. We'll be talking Franz about the journey iKubu has been on over the
+        last seven years from inception, growth to sale and what it took to realise the
+        potential of a group of highly skilled engineers.
+    video: bIR07jLCYk8
+
+mark_forrester:
+    name: Mark Forrester
+    company: WooThemes
+    role: Co-Founder
+    country: SA
+    twitter: mark_forrester
+    year: 2015
+    bio: >
+        Mark is a web designer turned online entrepreneur, now managing an international
+        team spanning 16 countries, dedicated to helping businesses succeed through innovative
+        WordPress themes and plugins. Proudly a Capetonian, husband, and dad. Avid sports
+        fan and wannabe surfer.
+    title: >
+        Business Day Interview: WooThemes
+    abstract: >
+        WooThemes is not just any old WordPress theme maker. They are responsible for
+        WooCommerce - the fastest growing ecommerce platform online. We'll be talking to Mark
+        about where his creative inspiration comes from, how he has applied that to helping
+        shape and manage the organisation and navigating the twists and turns of a maturing platform.
+
+robert_elliott:
+    name: Robert Elliott
+    company: Graphflow
+    role: Co-Founder
+    country: SA
+    twitter: greenafrican
+    github: greenafrican
+    year: 2015
+    bio: >
+        Robert is passionate about user experiences at the confluence of ecommerce, design and data science.
+        He obsesses over flow, usability and simplicity. Pirate of Good Hope.
+    title: >
+        Business Day Interview: Graphflow
+    abstract: >
+        Graphflow are passionate about small business and believe that even the smallest store
+        should have access to the same technology the big guys are using. They created a tool that allows
+        them to get the edge over the competition by plugging into the power of Machine Learning and
+        Big Data technologies. We'll be talking to Rob about product ideation and realisation in the context
+        of a small but expert team and the experience of being part of a local incubator.
+    video: -pWb1a8EEhY
+
+willem_van_biljon:
+    name: Willem Van Biljon
+    company: Takealot
+    role: Co-CEO and Chief Technology Officer
+    country: SA
+    year: 2015
+    bio: >
+        Willem is a seasoned technology entrepreneur, having co-founded Mosaic Software, the creators of the
+        Postilion payment system, and was one of the leaders that built Amazon’s EC2 cloud service and Nimbula.
+        In June 2014 he joined South Africa’s fastest growing online retailer takealot.com as
+        Co-CEO and Chief Technology Officer.
+    title: >
+        Business Day Interview: Takealot
+    abstract: >
+        Willem brings a unique perspective to ScaleConf given his vast experience in companies small
+        and large. We'll be talking to him about his multi-decade journey in the industry and getting his
+        thoughts on the challenges and joys of growing of technology business both in South Africa
+        and internationally.
+
+charity_majors:
+    name: Charity Majors
+    company: Parse / Facebook
+    role: Production Engineering Manager
+    country: USA
+    twitter: mipsytipsy
+    github: charity
+    year: 2015
+    bio: >
+        Charity is happily building out the next generation of mobile backends as a service at Parse.
+        She enjoys free software, free speech and single malt scotch.
+    title: >
+        Upgrade your database: without losing your data, your perf or your mind
+    abstract: >
+        Upgrading databases can be terrifying and perilous, and for good reason: you can totally
+        screw yourself! Every workload is unique and standardized test suites will never give you
+        enough information to evaluate how an upgrade will perform for your query set. We will talk
+        about how paranoid you should be about various types of workloads and upgrades, how to balance
+        risk vs engineering effort, and how to safely execute the most challenging upgrades by capturing
+        and replaying real production workloads. The principles apply to any db, but we’ll go
+        particularly deep into war stories and tooling options for MongoDB and MySQL.
+
+charity_majors_business:
+    name: Charity Majors
+    company: Parse / Facebook
+    role: Production Engineering Manager
+    country: USA
+    twitter: mipsytipsy
+    github: charity
+    bio: >
+        Charity is happily building out the next generation of mobile backends as a service at Parse.
+        She enjoys free software, free speech and single malt scotch.
+    title: >
+        Business Day Interview: Parse
+    abstract: >
+        As a Production Engineering Manager at Parse, a mobile app platform for developers which is now a part
+        of Facebook, Charity has lived through the reality of the tiny-to-25-to-8000 person transition.
+        We'll be dicussing her experience of being acquired, deploying large systems at scale and advice for
+        how to stay productive and work better with your team through those transitions.
+
+matty_cohen:
+    name: Matty Cohen
+    company: WooThemes
+    role: Chief Product Officer
+    country: SA
+    twitter: mattyza
+    github: mattyza
+    year: 2015
+    bio: >
+        Matty is the Chief Product Officer at WooThemes, a market leader in premium
+        WordPress products, helping folks to be successful in online business.
+        This means he manages the engineering team and a growing team of product
+        managers.
+    title: To 5 million... and beyond!
+    abstract: >
+        Matty will explain the evolution of WooCommerce, the world's fastest
+        growing eCommerce platform, and how they managed to scale the product
+        to over 5 million downloads (and growing) with 3 engineers maintaining
+        the codebase.
+    video: MghQAvLUMOc
+
+donovan_graham:
+    name: Donovan Graham
+    company: Samewave
+    role: Software Engineer
+    country: SA
+    year: 2015
+    bio: >
+        Donovan Graham is a full-stack engineer at samewave.com and a
+        humble technology enthusiast.  He is an agile and UX practitioner,
+        who has been a scrum master and product owner in previous lives.
+    title: Scaling your Front-end
+    abstract:
+    video: Zxsx1BkcdDk
+
+albert_dejongh:
+    name: Albert De Jongh
+    company: Visa
+    role: Software Architect
+    country: SA
+    twitter:
+    year: 2015
+    bio: >
+        Albert is a software architect at Visa, and has often found himself in war rooms
+        about performance problems.  He has stared at way too many thread dumps, trying to make
+        sense of things that just could not have happened.
+    title: Banana for Scale
+    abstract: >
+        Heavily loaded transaction processing systems, struggling clients...  Albert and
+        Chris have been faced with scaling challenges like these, and would like to share their
+        experience. They will present some lessons learnt and they’ll explain why bananas were
+        not suitable for scale.
+
+albert_and_chris:
+    name: Albert De Jongh and Chris Oloff
+    title: Banana for Scale
+    abstract: >
+        Heavily loaded transaction processing systems, struggling clients...  Albert and
+        Chris have been faced with scaling challenges like these, and would like to share their
+        experience. They will present some lessons learnt and they’ll explain why bananas were
+        not suitable for scale.
+    video: zdWcudToUhk
+
+chris_oloff:
+    name: Chris Oloff
+    company: Uber5
+    role: Building stuff in software
+    country: SA
+    twitter: chrisoloff
+    year: 2015
+    bio: >
+        Chris' goal is to write efficient and well-performing code for small and not-so-small-any-more
+        challenges, since 1994, with existing or news teams. He gained experience in diverse industries
+        like metals, money and energy, and is still learning daily. Chris holds an Honours Degree in
+        Computer Science and Economics from the University of Mannheim, Germany.
+    title: Banana for Scale
+    abstract: >
+        Heavily loaded transaction processing systems, struggling clients...  Albert and
+        Chris have been faced with scaling challenges like these, and would like to share their
+        experience. They will present some lessons learnt and they’ll explain why bananas were
+        not suitable for scale.
+
+alex_and_hiren:
+    name: Alex Koller and Hiren Patel
+    title: An AppDev approach to scale
+    abstract: >
+        Alex and Hiren share their experiences and ideas of building and
+        scaling the award-winning MyCiTi app, which helps users in Cape
+        Town use public transit. Alex and Hiren will walk you through the
+        challenges they faced, such as hacking NFC, overcoming twitter API
+        limits and preparing the solution for scale.
+    video: B4Wrr_Iua_0
+
+alex_koller:
+    name: Alex Koller
+    company: Google Cloud Platform
+    role: Developer
+    country: SA
+    year: 2015
+    bio: >
+        Alex is an Android developer devoted to understanding the bigger
+        picture behind the software he builds. He has led the development
+        of some of South Africa’s most successful apps (22seven, MyCiTi
+        Cape Town and BitX Bitcoin Wallet). When he’s not coding or
+        conceptualising, there is a good chance he will be talking to
+        others about Android development.
+        </p>
+        <p>
+        Before focusing on Android development, Alex co-founded and was
+        involved in various startups after studying Computer Science at
+        Rhodes University. He now lives in Cape Town and can usually be
+        found climbing a mountain.
+    title: An AppDev approach to scale
+    abstract: >
+        Alex and Hiren share their experiences and ideas of building and
+        scaling the award-winning MyCiTi app, which helps users in Cape
+        Town use public transit. Alex and Hiren will walk you through the
+        challenges they faced, such as hacking NFC, overcoming twitter API
+        limits and preparing the solution for scale.
+
+hiren_patel:
+    name: Hiren Patel
+    company: Google Cloud Platform
+    role: GDE
+    country: SA
+    year: 2015
+    bio: >
+        Hiren is a software developer writing web apps and web clients
+        powered by the Google Cloud Platform. Formerly a systems
+        administrator in the linux/unix area for ten years, he transitioned
+        to a developer role, until moving onto using Google App Engine as
+        his platform of choice.
+        </p>
+        <p>
+        Hiren enjoys working with both web and android. He spends the
+        majority of his time using python on Google App Engine, but also
+        closely follows innovations in the rapidly changing cloud space,
+        including Google Compute Engine and Google Container Engine.
+        </p>
+        <p>
+        Hiren has run the Google Developer Group of Cape Town for several
+        years, inspiring the local community to use technology, and trying
+        to help local non-profit organisations along the way.
+        </p>
+        <p>
+        Hiren lives in Cape Town, South Africa, where he enjoys the
+        beautiful coast and the mountains, and hikes around the area
+        regularly.
+    title: An AppDev approach to scale
+    abstract: >
+        Alex and Hiren share their experiences and ideas of building and
+        scaling the award-winning MyCiTi app, which helps users in Cape
+        Town use public transit. Alex and Hiren will walk you through the
+        challenges they faced, such as hacking NFC, overcoming twitter API
+        limits and preparing the solution for scale.
+
+sam_laing:
+    name: Sam Laing
+    company: Growing Agile
+    role: Co-founder
+    country: SA
+    twitter: samlaing
+    year: 2015
+    bio: >
+        Sam works as a coach and trainer helping teams and individuals adopt agile and work more effectively.
+        Although her background is as a software developer, she uses agile techniques with many different
+        industries and teams. Her goal is to make the process from idea to execution more rewarding for
+        everyone involved.
+    title: Scaling Learning
+    abstract: >
+        To succeed in todays world you need to be continuously learning. Along with that comes
+        the time pressure of todays world - so when and how are you learning? Sam and Karen have been
+        doing in person training for many years and recently stepped into the world on online training.
+        Training at scale. How do you make online training as valuable as in person training - is it
+        possible? This talk is about their adventure into the online education world, what they
+        learned, what surprised them and how it has affected their company.
+
+sam_and_karen:
+    name: Sam Laing and Karen Greaves
+    title: Scaling Learning
+    abstract: >
+        To succeed in todays world you need to be continuously learning. Along with that comes
+        the time pressure of todays world - so when and how are you learning? Sam and Karen have been
+        doing in person training for many years and recently stepped into the world on online training.
+        Training at scale. How do you make online training as valuable as in person training - is it
+        possible? This talk is about their adventure into the online education world, what they
+        learned, what surprised them and how it has affected their company.
+    video: hebBsL3dWxc
+
+karen_greaves:
+    name: Karen Greaves
+    company: Growing Agile
+    role: Co-founder
+    country: SA
+    twitter: karen_greaves
+    year: 2015
+    bio: >
+        Karen believes the best way to engage people at work is to make sure they are having fun, making
+        a difference, and getting better at the things they do. She helps people build great teams and
+        deliver great software.
+    title: Scaling Learning
+    abstract: >
+        To succeed in todays world you need to be continuously learning. Along with that comes
+        the time pressure of todays world - so when and how are you learning? Sam and Karen have been
+        doing in person training for many years and recently stepped into the world on online training.
+        Training at scale. How do you make online training as valuable as in person training - is it
+        possible? This talk is about their adventure into the online education world, what they
+        learned, what surprised them and how it has affected their company.
+
+jeanre_swanepoel:
+    name: Jeanre Swanepoel
+    company: Ikhasi Digital
+    role: Software Architect and Founder
+    country: SA
+    twitter: jeanres
+    bio: >
+        Jeanre is a software architect and the founder of Ikhasi Digital, a small software
+        company based in Cape Town and Johannesburg, South Africa. He has over 10 years experience in
+        software development and infrastructure management, with proficiency in Node.JS, Java, .NET,
+        Ruby on Rails and Python. He brings experience in building large scale video streaming
+        applications, high volume realtime communication platforms and large e-commerce solutions.
+    title: Scaling Product Development with Open Source Technologies
+    abstract: >
+        Jeanre will be talking and demonstrating how they work as a development team on a daily
+        basis with developers across the globe and no central offices. All the software that they use
+        is free and open source. The talk will touch on: continuous integration and deployment,
+        infrastructure provisioning, auto scaling and finally team communication and collaboration.
+    video: N080Qi2Upzw
+
+shaun_norris:
+    name: Shaun Norris
+    company: Amazon Web Services
+    role: Head of Solutions Architecture - ASEAN
+    country: Singapore
+    year: 2015
+    bio: >
+        Shaunn is Head of Solutions Architecture - ASEAN at Amazon Web Services and works with AWS
+        customers in the ASEAN region. He has been in the IT industry for 16 years in technical and
+        management roles for a variety of e-commerce and IT security companies in Canada, UK,
+        Switzerland and South Africa. More recently, Shaun led the AWS Premium Support team in
+        Cape Town, South Africa prior to joining the AWS team in Singapore. Shaun is also a
+        certified Scrum Master and Project Management Professional.
+    title: From Horses to Unicorns - Practical DevOps tools and tips on AWS
+    abstract: >
+    video: uLVMPH3ejaI
+
+nick_pentreath:
+    name: Nick Pentreath
+    company: Graphflow
+    role: Co-Founder
+    country: SA
+    twitter: MLnick
+    year: 2015
+    bio: >
+        Nick is a cofounder of Graphflow, a big data and machine learning company focused on
+        recommendations and customer intelligence. Nick has a background in financial markets,
+        machine learning and software development. He has worked at Goldman Sachs and as a
+        research scientist at online ad targeting startup Cognitive Match in London, and led
+        the Data Science and Analytics team at Mxit, Africa’s largest social network. He is
+        passionate about combining commercial focus with machine learning and cutting-edge
+        technology to build intelligent systems that learn from data to add value to the bottom line.
+    title: Large Scale Data Processing
+    abstract: >
+        This talk will give an overview of the MapReduce approach to large-scale data
+        processing popularised by Apache Hadoop, and then move on to introduce the Apache
+        Spark project and the basics of working with Spark.
+        Apache Spark is a fast and general engine for large-scale, distributed data processing.
+        It offers high-level APIs in Java, Scala and Python as well as a rich set of libraries
+        including a SQL engine, stream processing, machine learning, and graph analytics. Spark
+        is currently one of the most exciting and fastest-growing Apache open source projects.
+    video: SCXk9lVj2gM
+
+jeff_ferland:
+    name: Jeff Ferland
+    company: Facebook
+    role: Production Engineer
+    country: USA
+    twitter: jbferland
+    bio: >
+        Jeff is a Production Engineer working on the messaging backend stack at Facebook
+        and a moderator for the Security StackExchange website.
+    title: >
+        Stalling Out: When Services Magically Stop Servicing Requests
+    abstract: >
+        Diagnosing and preventing service failure caused by internal resource starvation: something
+        that usually presents itself as “My service stopped working and I don’t know why, then
+        started working and I don’t know why.” With an emphasis on failure-mode behavior, this talk
+        will cover interactions between threading, multiple shards hosted by a single instance,
+        kernel memory allocation behaviors, and NUMA-related problems. The talk will include
+        information to collect on a regular basis for post-mortem analysis and sharing production
+        lessons with software engineering teams.
+
+maggie_zhou:
+    name: Maggie Zhou
+    company: Etsy
+    role: Software Engineer
+    country: USA
+    twitter: zmagg
+    year: 2015
+    bio: >
+        Maggie works on the Core Platform team at Etsy where she builds infrastructure to manage scaling
+        challenges in data storage and the web stack. She reads books, rides bicycles, and drinks
+        too much coffee in Brooklyn NY.
+    title: >
+        Sharding Take Two, the Logical Edition
+    abstract: >
+        In this talk, we'll go over the pains and perils of sharding databases and how we solved
+        some of the problems in Etsy's second take on sharding, what we call logical sharding.
+
+craig_robinson:
+    name: Craig Robinson
+    company: Google
+    role: Senior Software Engineer
+    country: USA
+    year: 2014
+    bio: >
+        Craig is Senior Software engineer on the Street View team at Google. After
+        finishing a PhD in control theory (with a fair dose of CS) he spent
+        some time developing <a
+        href="http://news.discovery.com/tech/videos/tech-green-light-for-robotic-roads.htm">wireless
+        vehicle to vehicle communication</a> applications for Mercedes-Benz
+        Research and Development.  In 2009 he joined Street View and started
+        work on estimating panorama location and orientation using onboard
+        sensors (GPS, IMU, laser, wheels), computer vision (feature matches,
+        loop closing), map matching and other hackery. He enjoys the fact that
+        it's a multi-dimensional project that is both enabled and challenged by
+        its scale. When he is not enjoying it, he goes running.
+    title: Street View Scale
+    abstract: >
+        Google Street View began with a single video camera hand held by Larry
+        Page. It launched in 2007 and covered 5 cities. Since then it has grown
+        to span 7 continents and over 50 countries with 5 million unique miles
+        driven and 20 petabytes of imagery captured. Collections now include
+        indoor, underwater, snowmobile, backpack and bicycle. The scaling up
+        has been a logistics and a software challenge and we will cover some of
+        the highlights, low lights, software architectures and lessons learned
+        in Street View and Google at large.
+    video: ckjLnwFDcPA
+
+simon_cross:
+    name: Simon Cross
+    company: Praekelt
+    role: Lead Developer
+    twitter: hodgestar
+    github: hodgestar
+    country: SA
+    year: 2014
+    bio: >
+        Simon enjoys exploring details and finding ways to make the world a better place.
+        From a childhood filled with weekends on the rocky beaches of South Africa’s west
+        coast and fortuitous early access to the GW-BASIC reference manual, he made his way
+        through high school and into academia, where he spent a lot of time learning details
+        like quantum mechanics and general relativity. Somehow he completed an MSc in Applied
+        Mathematics, despite discovering the wonders of Linux and open-source software in
+        the middle. Since leaving academia, Simon has written code for a variety of commercial
+        and scientific projects ranging from online newspapers to petrochemical companies and
+        from bioinformatics to radio astronomy. In his spare time Simon contributes to and
+        maintains a number of open source software projects, writes the odd computer game
+        or two, engages in old-fashioned pen-and-paper gaming and tries to get out to the
+        swimming pool or squash court every now and then. Simon is currently the lead
+        developer of Vumi, a scalable mobile messaging platform developed by the Praekelt
+        Foundation and recently organized the first two PyConZA conferences.
+    title: Scaling Happiness
+    abstract: >
+        Simon and Ben will discuss their experience building Vumi, an open source mobile
+        messaging platform that's built for scale. The talk will explore how to create an
+        environment where team members can effectively build and manage a complex software
+        product, while existing in a challenging client-driven services organization.
+
+simon_and_ben:
+    name: Simon Cross and Ben Adlard
+    title: Scaling Happiness
+    video: mWVxbVYE5lQ
+
+ben_adlard:
+    name: Ben Adlard
+    company: Praekelt
+    role: Product Owner
+    country: SA
+    year: 2014
+    bio: >
+        Ben creates environments that enable talented people to build cool stuff.
+        Recently back in South Africa after a 14-year stint in the States, Ben now runs
+        product for Vumi, an open source mobile messaging platform, owned by the Praekelt
+        Foundation. When not on IRC, Ben's typically trying to keep up with his two (soon
+        to be three!) kids.
+    title: Scaling Happiness
+    abstract: >
+        Simon and Ben will discuss their experience building Vumi, an open source mobile
+        messaging platform that's built for scale. The talk will explore how to create an
+        environment where team members can effectively build and manage a complex software
+        product, while existing in a challenging client-driven services organization.
+
+wim_godden:
+    name: Wim Godden
+    twitter: wimgtr
+    company: Cu.be
+    role: Lead Architect
+    country: SA
+    year: 2014
+    bio: >
+        Wim has been working with open source technologies since 1997 and has been
+        involved in open source projects such as OpenX and PHPCompatibility.
+        Next to web development, he's worked with a wide range of technologies (from database
+        clusters to Internet backbone design) and focuses a lot of his time on high-scalability
+        projects and on coaching/training PHP engineers.
+    title: Caching and Tuning fun for high scalability
+    abstract: >
+        Caching has been a 'hot' topic for a few years. But caching takes more than merely taking
+        data and putting it in a cache : the right caching techniques can improve performance and
+        reduce load significantly. But we'll also look at some major pitfalls, showing that
+        caching the wrong way can bring down your site. If you're looking for a clear explanation
+        about various caching techniques and tools like Memcached, Nginx and Varnish, as well as
+        ways to deploy them in an efficient way, this talk is for you.
+    video: B6cWxyRnRR0
+
+zabil_and_simba:
+    name: Zabil Maliackal and Simba Nyatsanga
+    title: Offloading the Rendering of your View to your Clients
+    video: bfDo2p-8eoA
+
+zabil_cheriya_maliackal:
+    name: Zabil Cheriya Maliackal
+    company: ThoughtWorks
+    role: Agile consultant
+    country: SA
+    year: 2014
+    bio: >
+        Zabil works as an Agile consultant at ThoughtWorks with a focus on
+        using the right set of technologies and tools as the enabler for successful
+        delivery of large-scale projects. He was also a part of Thoughtworks Social
+        Impact programme where he contributed to many open source projects like
+        RapidFTR and OpenMRS. His career as a consultant spans 15 years on various
+        technologies and processes-related web development, Enterprise systems and
+        Agile practices. He is currently based in the ThoughtWorks Johannesburg office.
+        When he is not a self-confessed lazy programmer, he is an avid runner and climber.
+    title: Offloading the Rendering of your View to your Clients
+    abstract: >
+        Performance improvements in modern browsers coupled with the acceptance of javascript
+        as a first class language gives us a compelling platform to move a bulk of what used
+        to be done earlier on the server side to the client. This allows the distribution of
+        processing power and removing some obvious bottlenecks on the server side. This talk
+        aims to share our experience with the advantages of using this approach along with its
+        limitations. We talk about single page web applications, client side consumption of
+        RESTful services, performance gotchas, single code base for designers and developers
+        and its effect on building a portable client and scalable server code.
+
+simbarashe_nyatsa:
+    name: Simbarashe Nyatsa
+    company: ThoughtWorks
+    role: Software Developer
+    country: SA
+    year: 2014
+    bio: >
+        Simba is a software developer at ThoughtWorks, based in the Johannesburg office. He has
+        contributed to educational software in South Africa that visualises Matric results across
+        the country. With 7 months experience in software development, Simba is keen to learn and
+        enjoys working with technology that makes a difference in society. He is also an avid
+        gamer with a thirst for general knowledge.
+    abstract: >
+        Performance improvements in modern browsers coupled with the acceptance of javascript
+        as a first class language gives us a compelling platform to move a bulk of what used
+        to be done earlier on the server side to the client. This allows the distribution of
+        processing power and removing some obvious bottlenecks on the server side. This talk
+        aims to share our experience with the advantages of using this approach along with its
+        limitations. We talk about single page web applications, client side consumption of
+        RESTful services, performance gotchas, single code base for designers and developers
+        and its effect on building a portable client and scalable server code.
+
+aslam_khan:
+    name: Aslam Khan
+    role: Software Developer
+    twitter: aslamkhn
+    landing_page: true
+    year: 2014
+    bio: >
+        Aslam is an African software developer, by birth, by choice
+        and for life.  He believes that all of software is just design and values code
+        as an expression of design. The same goes for architecture too - it''s all design.
+        The one thing he has learnt, though, is that design is hard, very, very hard,
+        because achieving a harmonious balance is difficult.  The same with scalability
+        - it throws us into extreme states, way off balance.  That is the challenge
+        - finding a new equilibrium.  You can read his blog at http://f3yourmind.net
+    title: Puppet for Human Beings (not!)
+    abstract: >
+        We can make servers look alike with Puppet, Chef, Ansible and most
+        probably other machinery that we are going to invent.  And it makes us
+        happy, because we like conformity and consistency.  Life is easier like
+        that, we believe or hope.  Yet, at ScaleConf 2013, I noticed that every
+        company that told their story increases people proportional to
+        increases in servers.  How did that work out?  Did we make all people
+        the same - like our servers? Do we want that in the first instance?
+        And if we don't want clones, what do we want? How do we scale a culture
+        if value diversity?  Which emerges first - consistency in values, or
+        consistency in technology? What is the tail that is wagging a body?  I
+        will explore these and other challenges - the really tough stuff that
+        continuous delivery pipelines don't solve.  I hope you will help me
+        answer those questions?  I believe that when we understand this, we can
+        achieve scale and balance. That's what I'm after - equilibrium at
+        scale.
+    video: HT_nGb9bxC0
+
+beat_schwegler:
+    name: Beat Schwegler
+    company: Microsoft
+    role: Director, Platform Strategy Group
+    country: Switzerland
+    twitter: cloudbeatsch
+    year: 2013
+    bio: >
+        Beat is part of Microsoft’s Platform Strategy Group which is developing the
+        strategies relating to platform services and service-based applications. He
+        started to focus on cloud computing in 2008 and just loves the
+        opportunities it provides to businesses of all sizes. In his 10 years at
+        Microsoft, Beat has been responsible for cloud platform adoption among
+        developers in Western Europe and provided advice on software strategy and
+        architecture across Europe, the Middle East and Africa. Before joining
+        Microsoft, he was an independent architect and developer and was involved
+        in a wide variety of projects, ranging from real-time building control
+        systems, best-selling shrink-wrapped products to large-scale CRM and ERP
+        systems.
+    title: Scaling on Windows Azure
+    abstract: >
+        The Windows Azure architecture is based on scale-out and offers different
+        scale-units to build large systems. In this session, we will discuss the
+        capabilities for compute, distributed caching, storage and big data.
+    slides: http://www.slideshare.net/cloudbeatsch/scale-conf-2013-scaling-on-windows-azure
+    video: hnH9sTRWcR8
+
+beat_schwegler_2014:
+    bio: >
+        Beat is part of Microsoft's technical evangelism and development
+        team (ted), where he architects, designs, codes and delivers leading edge
+        apps and services to showcase the Microsoft platform, with a special
+        focus on cloud. He started to focus on cloud computing in 2008 and just loves
+        the opportunities it provides to businesses of all sizes.  Before joining
+        Microsoft, he was an independent architect and developer and was involved
+        in a wide variety of projects, ranging from real-time building control systems,
+        best-selling shrink-wrapped products to large scale CRM and ERP systems.
+    twitter: cloudbeatsch
+    company: Microsoft
+    name: Beat Schwegler
+    role: Director, Platform Strategy Group
+    year: 2014
+    country: Switzerland
+    title: Scaling push notifications to millions of devices
+    abstract: >
+        Sending  notifications to millions of devices is quite challenging. Using
+        native push notification services comes with the burdens of different APIs per
+        platform, the need to manage the individual device registrations, the
+        complexity of message personalization, and the need to massively scale when
+        sending millions of notifications simultaneously. Notification hubs take a
+        different approach: they're based on pub/sub and designed to elastically
+        scale. They provide message templates for personalization and a single API
+        across iOS, Android and Windows.
+    video: AbhWmWSTM7Y
+
+chris_bray:
+    bio: >
+        Chris is a Production Engineer at Facebook. He works with large scale
+        software deployments running on, amongst other things, CentOS, Chef,
+        Python, designer drip coffee, Ruby, RedBull, vi, bash, cable ties and
+        duct tape, using a large infrastructure of Facebook's OpenCompute
+        hardware.
+    company: Facebook
+    name: Chris Bray
+    role: Production Engineer
+    year: 2014
+    title: Looking back on “Look Back” videos
+    abstract: >
+        For Facebook’s 10 year anniversary, we produced over 700 million
+        personalized “look back” videos. Without any marketing or promotions
+        within Facebook, these videos were shared by hundreds of millions
+        of people in the first two days. To make this happen, we scanned
+        through billions of years of timelines and pre-rendered petabytes of
+        videos. I’ll talk about how the videos were rendered and the systems
+        used to scale it, how we managed to do this in just 3 weeks, including
+        a few days for the infrastructure just to compute and store the output,
+        and how Facebook's company culture enabled a group of relative
+        strangers to band together and iterate quickly on solutions for this
+        frankly herculean project.
+
+clinton_gormley:
+    name: Clinton Gormley
+    company: Elasticsearch
+    role: Developer
+    year: 2014
+    bio: >
+        Clinton was the first user of Elasticsearch and wrote the Perl
+        API back in 2010. When Elasticsearch formed a company in 2012, he joined as a
+        consultant and the maintainer of the Perl modules. Now Clinton spends a lot of his time
+        designing the user interfaces and writing about Elasticsearch, and is currently
+        working on a book about it with O'Reilly Publishers. He studied medicine at
+        UCT in Cape Town and now lives in Barcelona.
+    title: Scaling real time search and analytics with Elasticsearch
+    abstract: >
+        A look at the elements required by
+        Elasticsearch to turn a simple inverted index into an auto-clustering,
+        horizontally scalable real time search and analytics engine. The talk will
+        start from first principles, explaining how an inverted index works, how to
+        make an inverted index suitable for real time search, how to scale that out,
+        how to add reliability and failover to the cluster, and design patterns to use
+        the cluster most efficiently
+    video: o6lSeNatVFM
+
+dale_humby:
+    name: Dale Humby
+    company: Nomanini
+    role: CTO
+    country: SA
+    twitter: dalehumby
+    year: 2013
+    bio: >
+        Dale is CTO of Nomanini, a Cape Town based startup that has
+        developed a low cost, mobile point-of-sale terminal and the technology
+        ecosystem for it to operate in informal markets. His genesis is as an
+        electro-mechanical engineer developing sophisticated remote monitoring
+        systems in his own start-up business, joining Nomanini at its inception
+        in 2011 along with his staff.
+        </p>
+        <p>
+        Dale is passionate about the processes of product development,
+        continuous improvement, the motivation and management of people as well
+        as the complex and challenging mechanism of implementing continuous
+        delivery across hardware, firmware and software, all in an Agile
+        context.
+        </p>
+        <p>
+        Like his peers in Nomanini, Dale is driven by the twin goals of
+        powering the needs of the micro-entrepreneur in Africa and the
+        satisfaction of a job well done.
+    title: >
+        Scaling and Reliable Deployment of Hardware, Firmware and Software into the complex African micro-entrepreneurial market.
+    abstract: >
+        Nomanini's target market, mostly micro-entrepreneurs, rely on the
+        Nomanini solution for their livelihood. Therefore Nomanini has to
+        surmount the difficulties of building a scalable, repeatedly
+        deliverable hardware, firmware and back-end software solution capable
+        of processing millions of financial transactions in the technically
+        difficult African environment.
+        </p>
+        <p>
+        In his talk Dale discusses these challenges and reflects on solutions,
+        lessons learned and future improvements.
+    slides: https://speakerdeck.com/dalehumby/scalability-and-hardware-at-nomanini
+    video: wmMofn2dKhA
+
+deon_moolman:
+    name: Deon Moolman
+    company: Yuppiechef
+    role: Senior Software Developer
+    twitter: CmdrDats
+    github: CmdrDats
+    blog: http://www.yuppiechef.com/technology-and-development.htm
+    year: 2014
+    bio: >
+        Deon is a senior software developer at Yuppiechef.co.za, the
+        leading e-commerce store in South Africa. He is a technology enthusiast, loves
+        programming concepts and languages and has spent 14 years in development on
+        websites, mobile applications, payment switches, warehouse systems, desktop
+        software and development tooling. Occasionally spotted with an Arduino in the
+        one hand and soldering iron in the other.
+    title: On a scale of one
+    abstract: >
+        Yuppiechef delights people daily by delivering stunning products, handwritten
+        cards and quality service. This is an architectural look at where Yuppiechef
+        has come from and how we're dealing with rapid growth while still keeping our
+        top-notch service levels. We'll explore some of our experiences and highlight
+        a couple of key pieces that are helping us to scale with very limited resources.
+    video: 7tGLSsKqGp0
+
+
+daniel_fiske:
+    name: Daniel Fiske
+    company: RightShift
+    role: CTO and Founder
+    country: SA
+    quote: Massively scalable systems for the gaming and gambling sectors
+    twitter:
+    year: 2013
+    bio: >
+        Daniel has spent more than 15 years designing and building massively
+        scalable systems for the gaming and gambling sectors. He began in 1997 as a
+        software developer for one of the world’s first online casino groups, and
+        in 2005 co-founded RightShift as a multiplayer FPS tournament business that
+        later pivoted into social gaming in 2008 and (several apps later) launched
+        Clickfun Casino in 2011.</p>
+        <p>Bootstrapped entirely by the founders without any external funding, Daniel
+        and his team have built out proprietary infrastructure capable of
+        supporting millions of users. This experience together with his background
+        in real money gaming gives Daniel a unique understanding of the overall
+        gaming market and a perspective on the rapid convergence of social and real
+        money gaming that few others are likely to have.
+    title: Tales from the trenches
+    abstract: >
+        The story of how RightShift scaled its business and architecture to
+        successfully compete in the competitive social casino arena with their
+        flagship Clickfun Casino product. Daniel shares first-hand insight into
+        scaling a modern business and high-volume platform and is as much an
+        enlightening tale of getting things right as a cautionary tale of what not
+        to do.
+    video: -iH1YZ27qE0
+
+daniel_schauenberg:
+    name: Daniel Schauenberg
+    company: Etsy
+    role: Software Engineer
+    country: USA
+    quote: Automation, documentation and simplicity are his usual tools
+    twitter: mrtazz
+    github: mrtazz
+    year: 2013
+    bio: >
+        Daniel is a Software Engineer in Etsy's infrastructure and development tools
+        team. Automation, documentation and simplicity are his usual tools for
+        improving the status quo. He previously worked in systems and network
+        administration, on connecting chemical plants to IT systems and as an embedded
+        systems networking engineer. Things he thoroughly enjoys when not writing code
+        include coffee, breakfast, TV shows and basketball.
+    title: Scaling Deployment at Etsy
+    abstract: >
+        At Etsy we have over 100 engineers deploying more than 40 times a day. This
+        culture of continuously deploying small change sets enables us to build and
+        release robust features all while serving over a billion page views per month.
+        In order to make sure we can keep up this pace, we have development and
+        deployment infrastructure in place that makes it comfortable and simple to
+        make changes. So simple that as an engineer at Etsy you deploy the site on
+        your first day - even if you're a dog.
+        </p>
+        <p>
+        But how is it possible to deploy so frequently among so many engineers and yet
+        maintain a stable system? To answer this I give a high-level overview of the
+        basic application structure to introduce the specific architecture we have at
+        Etsy and how our development environment is set up. For development, every
+        engineer gets their own VM with the full application stack configured. This
+        makes it easy to get started and puts every developer in the same, familiar
+        setup. This is a crucial part in removing confusion and ambiguity about how to
+        work on and deploy changes.
+        </p>
+        <p>
+        For the actual deployment we use a one-button deploy system - Deployinator -
+        which we developed and opensourced. We integrated our system tightly with our
+        company-wide IRC server and a set of tools we built to foster confidence,
+        fast feedback and easy communication and collaboration between engineers. A
+        detailed overview will be given on how the system works, how we use it and
+        what problems we had to solve while making sure everyone can deploy as easily
+        and fast as possible.
+        </p>
+        <p>
+        The central source of confidence in our development process is our CI system.
+        We have developed an easy way for developers to run tests on the CI cluster
+        while developing to test changes before going into the deploy pipeline.
+        Additionally tests are run on deploy and initiated by engineers with a tool
+        called 'try' across 200 build machines. Our cluster setup is explained along
+        with what problems we hit with an ever-growing codebase and number of
+        engineers, and how we made our current setup fast.
+        </p>
+        <p>
+        Continuous Deployment and the ability to quickly make changes are crucial for
+        moving fast and iterating on products. Our deployment system works very well
+        and is keeping up with the demands of a growing site and team. After attending
+        this talk you will understand exactly how we approach Continuous Deployment
+        and Continuous Integration at Etsy and get insight into what went wrong along
+        the way and how we fixed it.
+    slides: https://speakerdeck.com/mrtazz/scaling-deployment-at-etsy
+    video: AwOG65UGAH4
+
+david_tinker:
+    name: David Tinker
+    company: BrandsEye
+    role: CTO
+    country: SA
+    twitter: david_tinker
+    github: davidtinker
+    year: 2013
+    bio: >
+        David is CTO at BrandsEye, the online brand monitoring
+        and analysis software. BrandsEye processes large volumes (3 million+) of
+        tweets and other brand mentions every day, contextualising and annotating
+        them with sentiment, credibility and so forth.
+    title: Transitioning your architecture to scale
+    abstract: >
+        The BrandsEye team have spent the last year or so transitioning from a
+        single monolithic application with serious performance issues into a
+        loosely coupled collection of applications able to handle very much
+        higher volumes at far greater reliability. The new system uses a lot of
+        interesting technology (RabbitMQ, Redis, MongoDB, MySQL, Postgresql,
+        Grails, Java, etc.) to solve various real-world problems. In this talk
+        David goes into detail on the challenges and learnings encountered
+        along the way.
+    slides: http://www.slideshare.net/davidtinker/transitioning-your-architecture-to-scale
+    video: A4cPkKW74pk
+
+dustin_whittle:
+    name: Dustin Whittle
+    company: AppDynamics
+    role: Developer Evangelist
+    twitter: dustinwhittle
+    github: dustinwhittle
+    blog: http://dustinwhittle.com/
+    year: 2013
+    bio: >
+        Dustin is a Developer Evangelist at AppDynamics where he focuses on helping organisations
+        manage application performance. Before joining AppDynamics, Dustin was CTO at
+        Kwarter, a consultant at SensioLabs, and developer evangelist at Yahoo!. He has
+        experience building and leading engineering teams and working with developers and
+        partners to scale to meet demand. When Dustin isn't working he enjoys flying,
+        sailing, diving, golfing, and travelling around the world.
+    title: Performance Testing Crash Course
+    abstract: >
+        The performance of your application affects your business more than you might think.
+        Top engineering organizations think of performance not as a nice-to-have, but as a
+        crucial feature of their product. Those organizations understand that performance
+        has a direct impact on user experience and, ultimately, their bottom line. Unfortunately,
+        most engineering teams do not regularly test the performance and scalability of
+        their infrastructure. Dustin Whittle shares the latest performance testing tools
+        and insights into why your team should add performance testing to the development
+        process. Learn how to evaluate performance and scalability on the server-side and
+        the client-side with tools like Siege, Bees with Machine Guns, Google PageSpeed,
+        WBench, and more. Take back an understanding of how to automate performance and
+        load testing and evaluate the impact it has on performance and your business.
+    video: gfleR-CFbAk
+
+krzysztof_debski:
+    name: Krzysztof Debski
+    company: Allegro
+    role: IT Architect
+    github: kdebski
+    year: 2013
+    bio: >
+        Krzysztof is a technical enthusiast, software engineer and product
+        owner of Service Bootstrap developed in Allegro. Gained
+        software experience in the biggest Polish web companies –
+        Onet.pl and Allegro.pl. He has a lot of experience in
+        designing and building modern, scalable web systems.
+        He is open to all new technologies an programming languages,
+        and he has no fear to work on legacy systems and rewrite
+        them in modern way.
+    title: Let's build a solid base for a scale.
+    abstract: >
+        Creating fast, reliable and easy to develop systems is not the easiest task.
+        If you add the fact that thousands of companies use your system as a core business
+        platform on a daily basis, it becomes challenging.
+        </p>
+        <p>
+        Add a flavour of a scalability and millions of users and it moves on to exciting.
+        How can we prepare a system that might be affected by scalability issues
+        everywhere, even in the simplest component?
+        </p>
+        <p>
+        The answer is to dive deep into the world of services.
+        We decided to prepare a strong base on top of which we can build our
+        system. Our choice was to start with the Java stack.
+        We've gathered all the cool stuff from open source projects to create a bootstrap
+        to let our developers create scalable services really fast.
+        </p>
+        <p>
+        In this talk I would like to focus on the choices we made, and the
+        ecosystem we built over our services.  It is not only about the code we
+        write, but also the tools that make our life easier.  We will look at
+        frameworks to provide REST services, and see how to make them auto
+        discoverable.  We will also discuss tools to let us monitor and manage
+        all the instancesi we run.  If you want to create or upgrade your service
+        to scale it is the best place to start.
+
+mike_jones:
+    name: Mike Jones
+    company: Western Cape Labs
+    role: Jack of all trades
+    country: SA
+    quote: I started out with nothing and I still have most of it left
+    twitter: imsickofmaps
+    github: imsickofmaps
+    year: 2013
+    bio: >
+        Mike works at Western Cape Labs, which he helped form in 2012. He calls himself
+        a "jack of all trades, master of some", which really just means he has to
+        make his own coffee (and likes to shout "MARKETING" randomly at
+        conferences). Born and raised in London, but now resident in Cape Town with
+        his growing family, he appreciates all that the city has to offer as an
+        awesome place to build a socially valuable business.
+    title: I started out with nothing and I've still got most of it left
+    abstract: >
+        It has never been easy to turn your ideas into a real scalable business, but
+        these days, with the rise of the tech incubator, it seems like it's
+        something that everyone is meant to be doing. This talk hopes to provide
+        some insight based on real-world experience from someone who has tried and
+        failed a number of times, and in 2012 decided to try again right here in
+        Cape Town.  Inspired by last year's ScaleConf, he'll tell us how
+        <a href="http://ontheway.co.za/">On The Way</a> (a service run by
+        Western Cape Labs) went in six months from an idea to a thing you'd
+        hopefully happily send your mum to.
+    slides: https://speakerdeck.com/imsickofmaps/scaleconf-2013-i-started-out-with-nothing-and-ive-still-got-most-of-it-left
+    video: gVpxSTSPwfM
+
+miles_ward:
+    name: Miles Ward
+    company: Amazon
+    role: Solutions Architect
+    country: USA
+    quote: A decade of experience building global-scale analysis infrastructures
+    twitter: milesward
+    github: milesward
+    year: 2013
+    bio: >
+        Miles is a three-time technology startup entrepreneur with a decade of experience
+        building global-scale analysis infrastructures. Miles has been at Amazon
+        Web Services since 2010 and is responsible for designing and developing AWS
+        Solution Architectures relating to big data and social analytics,
+        multi-tiered storage, HA and DR approaches for RDBMS systems, and cost
+        optimisation.
+    title: >
+        Little teams with big results: NASA/JPL and Obama for America via AWS
+    abstract: >
+        In 2012 two small teams set about delivering on massive expectations, on
+        "failure-is-not-an-option" projects, with extraordinarily limited time and
+        resources. Both teams nailed it: every space geek in the world saw the Mars
+        Curiosity Rover's first images live from Amazon S3 and Cloudfront and
+        watched an HD live-stream of the event, and the 170+ custom applications on
+        AWS powering the radical Obama for America campaign played no small part in
+        helping President Obama win his bid for re-election.  Miles Ward, your
+        presenter, worked embedded within these teams during the design, development,
+        testing, deployment and operational phases of these projects, and can relay
+        a few critical insights about the use of cloud at this scale.  100,000 WCU
+        DynamoDB tables; replicating 27TB across the continent; 60+ terabit/s of
+        live-streamed video; over a billion dollars in processed donations;
+        hundreds of instances, 528,000 IOPS, oh my!
+    video: hR-oiZqJ88M
+
+neil_blakey_milner:
+    name: Neil Blakey-Milner
+    company: Facebook
+    role: Production Engineering Manager
+    country: USA
+    twitter: nxsy
+    github: nxsy
+    title: Operating at Scale
+    year: 2013
+    bio: >
+        Neil is a Production Engineer in Facebook's Core Systems team where he tries
+        to make the infrastructure that powers Facebook's infrastructure more
+        reliable and operationally efficient.  Previously he was an early
+        employee and lead engineer at South African startups KnowledgeTree and
+        Yola.
+    abstract: >
+        Lessons learned and approaches taken in scaling Facebook, keeping
+        product development fast and a billion people who use Facebook every
+        month happy with the reliability and performance of the site.
+
+niklas_gustavsson:
+    bio: >
+        Niklas is a backend engineer at Spotify, open
+        source hacker, mountain biker and father of two awesome kids. At Spotify, he
+        mostly works on the audio pipeline. Niklas keeps a badly updated blog at
+        <a href="http://protocol7.com">http://protocol7.com</a>
+    company: Spotify
+    role: Backend Engineer
+    name: Niklas Gustavsson
+    title: Optimizing playback at Spotify
+    twitter: protocol7
+    github: protocol7
+    year: 2013
+    abstract: >
+        Spotify instantly streams music to more than 24 million users, on many
+        different platforms, from a catalogue of more than 20 million songs. What goes
+        into doing this? And what are challenges to maintain this with an ever growing
+        user base, in many new places around the world? In this talk, we'll describe
+        how the audio playback pipeline at Spotify is built and optimized. It will
+        cover a wide range of areas involved, from how the clients work to the storage
+        solutions that backs it all.
+
+robert_stuttaford:
+    name: Robert Stuttaford
+    company: Cognician
+    role: CTO
+    country: SA
+    twitter: RobStuttaford
+    github: robert-stuttaford
+    year: 2013
+    bio: >
+        Robert is the CTO at Cognician, a local tech startup working on
+        improving people's thinking. Now, going into its fourth year with a brand
+        new, completely re-imagined technology stack, Cognician is providing value
+        as a digital platform for self-coaching, performance support and much, much
+        more.</p>
+        <p>Robert has been coding for 15 years and is still not dead. Having worked in
+        all facets of web development for a wide variety of use cases and people,
+        he is happily astonished at how much fun he's still having, thanks in no
+        small part to the Clojure language and its philosophy and community.
+    title: Cognician's new architecture with Clojure and Datomic
+    abstract: >
+        Robert will tour through Cognician's new architecture and ops
+        infrastructure, which leverages the many advantages of Clojure - such as
+        functional programming, immutable data and deep Java interop - and Datomic,
+        a new database engine from the creator of Clojure, which solves many of the
+        common data-handling concerns when scaling web applications, so that
+        scaling is far more simple to reason about and accomplish.
         slides: https://speakerdeck.com/robertstuttaford/cognicians-new-architecture-with-clojure-and-datomic
         video: KlDJy3yXVsc
 
-    shai_rosenfeld:
-        name: Shai Rosenfeld
-        company: EngineYard
-        role: Engineer
-        twitter: shaiguitar
-        blog: http://shairosenfeld.com/
-        bio: >
-            Shai is always excited when there is something new to learn, and
-            hence has seemed to have found his fit doing technology.
-            He started out playing with Ruby and Rails over 8 years ago.
-            After helping scale and support some of the largest Ruby production
-            systems around, he moved on to engineering in one of the leading
-            Platform as a Services (PaaS) companies. Shai enjoys solving problems,
-            facing new challenges and playing jazz standards when he's not finding
-            out something new on his laptop.
-        title: Such Blocking, Very Concurrency, Wow
-        abstract: >
-            Concurrency is fundamentally at the base of scaling. How do you manage
-            to do more things at once? Well, you do them at the same time. This opens
-            a huge can of worms though, because every different approach to how you do
-            this has disadvantages, weaknesses, problems and tradeoffs. I will go
-            through some approaches to concurrency that I've come across, speak of
-            common building blocks and issues that these approaches all share. I'll
-            be mentioning things like the c10k problem, threads, actors, evented
-            programming, interacting with IO, futures/promises, coroutines and more.
+shai_rosenfeld:
+    name: Shai Rosenfeld
+    company: EngineYard
+    role: Engineer
+    twitter: shaiguitar
+    blog: http://shairosenfeld.com/
+    year: 2013
+    bio: >
+        Shai is always excited when there is something new to learn, and
+        hence has seemed to have found his fit doing technology.
+        He started out playing with Ruby and Rails over 8 years ago.
+        After helping scale and support some of the largest Ruby production
+        systems around, he moved on to engineering in one of the leading
+        Platform as a Services (PaaS) companies. Shai enjoys solving problems,
+        facing new challenges and playing jazz standards when he's not finding
+        out something new on his laptop.
+    title: Such Blocking, Very Concurrency, Wow
+    abstract: >
+        Concurrency is fundamentally at the base of scaling. How do you manage
+        to do more things at once? Well, you do them at the same time. This opens
+        a huge can of worms though, because every different approach to how you do
+        this has disadvantages, weaknesses, problems and tradeoffs. I will go
+        through some approaches to concurrency that I've come across, speak of
+        common building blocks and issues that these approaches all share. I'll
+        be mentioning things like the c10k problem, threads, actors, evented
+        programming, interacting with IO, futures/promises, coroutines and more.
 
-            Far from being a world-renowned expert on the matter, I will attempt to dissect
-            these patterns and styles because I want to understand why they "scale,"
-            problems you can run across, and when (pun intended!) it can drive you crazy.
-            Hopefully by the end you will find it somewhat easier to understand and grasp,
-            and have a newly driven passion to dig in further.
-        video: TlkXhpktX0E
+        Far from being a world-renowned expert on the matter, I will attempt to dissect
+        these patterns and styles because I want to understand why they "scale,"
+        problems you can run across, and when (pun intended!) it can drive you crazy.
+        Hopefully by the end you will find it somewhat easier to understand and grasp,
+        and have a newly driven passion to dig in further.
+    video: TlkXhpktX0E
 
-    simon_ratcliffe:
-        name: Simon Ratcliffe
-        company: SKA
-        role: Barefoot Astronomer
-        country: SA
-        bio: >
-            Simon started out life as an astronomer, used to be an engineer, and is now
-            trying to avoid managerial tasks. Currently in charge of scientific
-            computing for the MeerKAT radio telescope (www.ska.ac.za), he spends a
-            significant amount of his coding time trying to avoid writing C, and
-            the rest of the time trying to use sys._getframe() in ways that annoy
-            his colleagues.
-        title: Scale at the Square Kilometer Array
-        abstract: >
-            <p>
-            Astronomy is one of the most scale obsessed of all the sciences.
-            From our earliest attempts to understand the size of our planet through
-            solar observations, through to our current appreciation of the ultimate
-            scale of the universe, it constantly redefines our notion of "big".
-            </p>
-            <p>
-            This escalation in scale can also be seen in our observational
-            instruments, particularly in the field of radio astronomy. We are
-            entering an epoch of massive expansion in observational capacity, which
-            over the next 10 years we will see an 8 order of magnitude increase in
-            the data volume being generated. This talk will focus on these
-            instruments, their challenges, and what they will mean to the science
-            of astronomy.
-            </p>
-        video: -aSe5HMCo6A
+simon_ratcliffe:
+    name: Simon Ratcliffe
+    company: SKA
+    role: Barefoot Astronomer
+    country: SA
+    year: 2013
+    bio: >
+        Simon started out life as an astronomer, used to be an engineer, and is now
+        trying to avoid managerial tasks. Currently in charge of scientific
+        computing for the MeerKAT radio telescope (www.ska.ac.za), he spends a
+        significant amount of his coding time trying to avoid writing C, and
+        the rest of the time trying to use sys._getframe() in ways that annoy
+        his colleagues.
+    title: Scale at the Square Kilometer Array
+    abstract: >
+        <p>
+        Astronomy is one of the most scale obsessed of all the sciences.
+        From our earliest attempts to understand the size of our planet through
+        solar observations, through to our current appreciation of the ultimate
+        scale of the universe, it constantly redefines our notion of "big".
+        </p>
+        <p>
+        This escalation in scale can also be seen in our observational
+        instruments, particularly in the field of radio astronomy. We are
+        entering an epoch of massive expansion in observational capacity, which
+        over the next 10 years we will see an 8 order of magnitude increase in
+        the data volume being generated. This talk will focus on these
+        instruments, their challenges, and what they will mean to the science
+        of astronomy.
+        </p>
+    video: -aSe5HMCo6A
 
-    patrick_turley:
-        name: Patrick Turley
-        company: ThoughtWorks
-        role: Lead Consultant and Software Developer
-        github: pturley
-        country: SA
-        bio: >
-            Patrick is a Lead Consultant and Software Developer from the ThoughtWorks
-            Johannesburg office. He focuses on helping IT organizations become
-            nimble and reactive in meeting their customers' needs through pragmatic
-            improvements to the way software is developed and taken into
-            production. Patrick has worked in 10+ programming languages
-            professionally with over a dozen different clients.  He specializes in
-            agile engineering practices and modern software development techniques.
-            Patrick has worked in many different statically typed languages, but
-            his current passion is with dynamically typed languages like Ruby and
-            Python.  In his spare time Patrick enjoys playing the drums and
-            harmonica.
-        title: A Mixed Tape for Scaling Software Testing
-        abstract: >
-            Patrick Turley, an ex radio DJ now software developer will take us
-            through the evolution of scaling testing on a software project as he
-            has seen it over dozens of enterprise software projects.  He will
-            discuss techniques and tools for different languages, all projected
-            through a mixed tape that he made for this conference.
-        video: tFWF2dSrF5w
+patrick_turley:
+    name: Patrick Turley
+    company: ThoughtWorks
+    role: Lead Consultant and Software Developer
+    github: pturley
+    country: SA
+    year: 2013
+    bio: >
+        Patrick is a Lead Consultant and Software Developer from the ThoughtWorks
+        Johannesburg office. He focuses on helping IT organizations become
+        nimble and reactive in meeting their customers' needs through pragmatic
+        improvements to the way software is developed and taken into
+        production. Patrick has worked in 10+ programming languages
+        professionally with over a dozen different clients.  He specializes in
+        agile engineering practices and modern software development techniques.
+        Patrick has worked in many different statically typed languages, but
+        his current passion is with dynamically typed languages like Ruby and
+        Python.  In his spare time Patrick enjoys playing the drums and
+        harmonica.
+    title: A Mixed Tape for Scaling Software Testing
+    abstract: >
+        Patrick Turley, an ex radio DJ now software developer will take us
+        through the evolution of scaling testing on a software project as he
+        has seen it over dozens of enterprise software projects.  He will
+        discuss techniques and tools for different languages, all projected
+        through a mixed tape that he made for this conference.
+    video: tFWF2dSrF5w
 
-    peter_lockhart:
-        name: Peter Lockhart
-        company: 2go
-        role: Product and Business Strategy
-        country: SA
-        bio: >
-            Peter is responsible for product strategy, business development and general
-            getting-things-done at 2go Interactive. His background is in the ISP
-            industry, networking, internet security and systems architecture. His
-            interests lie in producing excellent products and in growing great
-            companies.
-            </p>
-            <p>
-            Founded in 2008, 2go has grown to more than 10 million active users
-            across Africa, principally South Africa and Nigeria. As a mobile social
-            network with 30,000 new registrations each day, scaling is the
-            principle challenge of running 2go - both in terms of technology and
-            growing a self-funded startup.
-        title: Lessons learned from a successful African startup&#58; scaling technology and people
-        abstract: >
-            Lessons learned while scaling one of Africa's largest social networks
-            without funding and with no sleep: what we've done well (and done
-            badly); what we've learnt and what we still need to learn.
-        video: oNSfK0jDU3w
+peter_lockhart:
+    name: Peter Lockhart
+    company: 2go
+    role: Product and Business Strategy
+    country: SA
+    year: 2013
+    bio: >
+        Peter is responsible for product strategy, business development and general
+        getting-things-done at 2go Interactive. His background is in the ISP
+        industry, networking, internet security and systems architecture. His
+        interests lie in producing excellent products and in growing great
+        companies.
+        </p>
+        <p>
+        Founded in 2008, 2go has grown to more than 10 million active users
+        across Africa, principally South Africa and Nigeria. As a mobile social
+        network with 30,000 new registrations each day, scaling is the
+        principle challenge of running 2go - both in terms of technology and
+        growing a self-funded startup.
+    title: Lessons learned from a successful African startup&#58; scaling technology and people
+    abstract: >
+        Lessons learned while scaling one of Africa's largest social networks
+        without funding and with no sleep: what we've done well (and done
+        badly); what we've learnt and what we still need to learn.
+    video: oNSfK0jDU3w
