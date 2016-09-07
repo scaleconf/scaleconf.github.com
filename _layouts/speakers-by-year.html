@@ -67,6 +67,12 @@ layout: base
                 <a href="https://twitter.com/{{ speaker.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ speaker.twitter }}</a>
               </p>
               {% endif %}
+              {% if speaker.github %}
+              <!-- Place this tag where you want the button to render. -->
+              <p>
+                <a class="github-button" href="https://github.com/{{ speaker.github }}" aria-label="Follow @{{ speaker.github}} on GitHub">Follow @{{ speaker.github }}</a>
+              </p>
+              {% endif %}
             </p>
           </div>
         </div>
