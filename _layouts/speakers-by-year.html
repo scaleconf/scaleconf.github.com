@@ -50,61 +50,89 @@ layout: base
 </div>
 {% endif %}
 
-{% for speaker in page_speakers %}
+<style type='text/css'>
+  .speaker-info.hidden { display:none }
+  .speaker-selector.selected { background: #eee }
+</style>
+
+<script type='text/javascript'>
+  function selectSpeaker(name) {
+    var speakers = document.getElementsByClassName('speaker-info');
+    for (var i = 0; i < speakers.length; i++) { speakers[i].classList.add('hidden') }
+    var speaker_selectors = document.getElementsByClassName('speaker-selector');
+    for (var i = 0; i < speaker_selectors.length; i++) { speaker_selectors[i].classList.remove('selected') }
+    document.getElementById(name).classList.remove('hidden')
+    document.getElementById('selector-' + name).classList.add('selected')
+  }
+</script>
 
 <div class="row">
-  <div class="col-md-offset-3 col-md-6 section">
-    <div class="row text-center">
-      <h2>{{ speaker.name }}</h2>
+
+  <div class="col-md-offset-2 col-md-2">
+    <div style='padding:40px 0'>
+    {% for speaker in page_speakers %}
+      <div class='speaker-selector' style='display:block; padding:5px; border-bottom:dashed 1px #eee;' id='selector-{{ speaker.name}}' onClick='selectSpeaker("{{ speaker.name }}")'>
+        <b>{{ speaker.name }}</b><br/>
+        {{ speaker.company}}
+      </div>
+    {% endfor %}
     </div>
-    <div class="row">
-      <div class="col-md-offset-3 col-md-6">
-        <div class="row nested-row">
-          <div class="col-md-4">
-            <img src='/img/speakers/{{speaker.name | slugify | replace: '-', '_'}}.large.jpg' style='display:inline-block; vertical-align:top; margin-right:10px; border-radius:40px; height:80px;'/>
-          </div>
-          <div class="col-md-8">
-            <p>
-              {{ speaker.role }} <br/>
-              {{ speaker.company }} <br/>
-              {% if speaker.twitter %}
+  </div>
+
+  <div class="col-md-7">
+    <!-- actual speaker info shown when speaker selected -->
+    {% for speaker in page_speakers %}
+    <div class='speaker-info hidden' id='{{ speaker.name }}'>
+      <div class="row text-center">
+        <h2>{{ speaker.name }}</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-1 col-md-11">
+          <div class="row nested-row">
+            <div class="col-md-4">
+              <img src='/img/speakers/{{speaker.name | slugify | replace: '-', '_'}}.large.jpg' style='display:inline-block; vertical-align:top; margin-right:10px; border-radius:40px; height:80px;'/>
+            </div>
+            <div class="col-md-8">
               <p>
-                <a href="https://twitter.com/{{ speaker.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ speaker.twitter }}</a>
+                {{ speaker.role }} <br/>
+                {{ speaker.company }} <br/>
+                {% if speaker.twitter %}
+                <p>
+                  <a href="https://twitter.com/{{ speaker.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ speaker.twitter }}</a>
+                </p>
+                {% endif %}
+                {% if speaker.github %}
+                <p>
+                  <a class="github-button" href="https://github.com/{{ speaker.github }}" aria-label="Follow @{{ speaker.github}} on GitHub">Follow @{{ speaker.github }}</a>
+                </p>
+                {% endif %}
               </p>
-              {% endif %}
-              {% if speaker.github %}
-              <!-- Place this tag where you want the button to render. -->
-              <p>
-                <a class="github-button" href="https://github.com/{{ speaker.github }}" aria-label="Follow @{{ speaker.github}} on GitHub">Follow @{{ speaker.github }}</a>
-              </p>
-              {% endif %}
-            </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row nested-row">
-      <div class="col-md-offset-2 col-md-8">
-        <p> {{ speaker.bio }} </p>
+      <div class="row nested-row">
+        <div class="col-md-offset-1 col-md-11">
+          <p> {{ speaker.bio }} </p>
+        </div>
       </div>
-    </div>
-    <div class="row nested-row">
-      <div class="col-md-offset-2 col-md-8">
-        <p>The title of the talk is <i>"{{ speaker.title }}"</i>.</p>
+      <div class="row nested-row">
+        <div class="col-md-offset-1 col-md-11">
+          <p>The title of the talk is <i>"{{ speaker.title }}"</i>.</p>
+        </div>
       </div>
-    </div>
-    <div class="row nested-row">
-      <div class="col-md-offset-2 col-md-8" style="background:#eee; padding:15px;">
-        <p>{{ speaker.abstract}}</p>
+      <div class="row nested-row">
+        <div class="col-md-offset-1 col-md-11" style="background:#eee; padding:15px;">
+          <p>{{ speaker.abstract}}</p>
+        </div>
       </div>
-    </div>
-    {% if speaker.video %}
-    <div class="row nested-row">
-      <div class="col-md-offset-2 col-md-8">
-        <p>The video for this talk is <a target="_blank" href="http://youtube.com/watch?v={{speaker.video}}">available on youtube</a></p>
+      {% if speaker.video %}
+      <div class="row nested-row">
+        <div class="col-md-offset-1 col-md-11">
+          <p>The video for this talk is <a target="_blank" href="http://youtube.com/watch?v={{speaker.video}}">available on youtube</a></p>
+        </div>
       </div>
+      {% endif %}
     </div>
-    {% endif %}
-  </div>
+    {% endfor %}
 </div>
-{% endfor %}
