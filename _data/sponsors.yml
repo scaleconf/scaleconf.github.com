@@ -198,7 +198,14 @@ sponsors:
       lines to instantly spark new  conversations.
       </p>
   - name: offerzen
+    active: true
+    active_rank: 1
     website_text: >
+      <p>More than 250 South African tech companies use OfferZen to hire software
+      developers. OfferZen flips the recruitment model around for developers.
+      Instead of applying for jobs, companies apply to you with upfront salary.
+      It’s free for devs - in fact you get R5000 if you take a job through us.
+      </p>
       <b>The best way to find your next software dev job</b>
       <p>
       As a developer you're in demand. We believe it should be easy for you to find a
@@ -225,6 +232,8 @@ sponsors:
           <li>Your current employer is blocked from seeing you.</li>
       </p>
   - name: oracle
+    active: true
+    active_rank: 1
     website_text: >
       <b>Oracle Cloud Development Centre - Cape Town</b>
       <p>
