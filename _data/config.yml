@@ -15,4 +15,4 @@ homepage_sections:
   upcoming_conference: true
   tickets_notify: true
   previous_speakers: true
-  sponsors: false
+  sponsors: true
