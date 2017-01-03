@@ -25,13 +25,12 @@ title: Sponsors
 <!-- List of sponsors -->
 
 {% for sponsor in active_sponsors %}
-
 <div class="row">
   <div class="col-md-offset-3 col-md-6 section">
     <div class="row text-center">
       <img
         src='/img/sponsors/{{ sponsor.name | slugify | replace: '-', '_' }}.large.png'
-        style='display:inline-block; vertical-align:top; max-height:80px; margin-top:40px;'/>
+        style='display:inline-block; vertical-align:top; width: 300px; margin-top:40px;'/>
     </div>
     <div class="row" style="margin-top:50px;">
       <div class="col-md-offset-1 col-md-10">

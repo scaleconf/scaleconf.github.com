@@ -34,8 +34,33 @@ sponsors:
       With your mobile phone, visit <a href='http://wap.2go.im'>wap.2go.im</a>
       where you will need to fill in a very simple registration form. Your phone
       will then download the 2go application and you can begin chatting!
+  - name: allan_gray
+    active: true
+    active_rank: 1
+    website_text: >
+      <b>Who are we?</b>
+      </p> <p>
+      We are first and foremost a financial service company, but we also see
+      ourselves as leading technologists.
+      </p> <p>
+      <b>What do we do?</b>
+      </p> <p>
+      We build software solutions that make our clients’ and our own lives easier.
+      </p> <p>
+      <b>What tech do we use?</b>
+      </p> <p>
+      Our environment contains a diverse range of technologies. The backend language
+      of choice at the moment is Scala and we are evaluating our front-end stack.
+      We are redoing our architecture and aiming to build Microservices hosted on
+      containers and exposing REST-like APIs.
+      We have traditionally been a .NET development shop however we have decided to
+      adopt a more open stack.
+      We generally look for full-stack developers who are tech agnostic and would
+      prefer to use the right tool for the job.
+      We use Agile best practices and frameworks such as Scrum, TDD, Continuous
+      Integration etc.
   - name: amazon
-    active: false
+    active: true
     active_rank: 2
     website_text: >
       Amazon has a thriving technical centre in Cape Town! This is the centre
@@ -146,13 +171,36 @@ sponsors:
       create. We recognise that our customers expect reliability and good value
       from us and it remains our ongoing commitment to earn and retain their
       trust.
+  - name: impact_radius
+    active: true
+    active_rank: 3
+    website_text: >
+      Impact Radius’ digital marketing platform enables significant improvement in the
+      return on global advertising spend for brands and agencies. The company provides
+      a fully-integrated suite of products for media attribution, performance
+      marketing, tag management and mobile analytics. Impact Radius provides a
+      singular view into the consumer journey, tracks cross-channel marketing efforts,
+      and delivers Big Data insights that drive revenue growth.
+      </p> <p>
+      Impact Radius was founded in 2008 by a team of Internet marketing and technology
+      experts who previously founded Commission Junction, Savings.com and LeadPoint.
+      </p> <p>
+      From the beginning, we disrupted the industry by moving away from the affiliate
+      network model, instead introducing a SaaS technology platform for performance
+      marketing professionals.
+      </p> <p>
+      We then set our sights on omnichannel marketing analytics, building the most
+      comprehensive digital marketing platform with multi-channel insights,
+      attribution modeling, tag management and automated workflows. We remain
+      committed to best-in-class technology, transparent data you can trust, and
+      unceasing innovation that delivers next-generation solutions to digital
+      marketers around the world.
   - name: key_connections
     website_text: >
       Key Connections is  a technology recruitment company that specialises in
       placing developers throughout South Africa. We’re not like other “tech
       recruiters” who don’t know the difference between "Java" and "JavaScript"!
-      </p>
-      <p>
+      </p> <p>
       We work with technology focused companies that treat their developers well, and
       build cool stuff. We have placed developers in starts ups, SME's and some of the
       world's largest tech companies.
