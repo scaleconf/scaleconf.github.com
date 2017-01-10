@@ -35,7 +35,7 @@ sponsors:
       where you will need to fill in a very simple registration form. Your phone
       will then download the 2go application and you can begin chatting!
   - name: allan_gray
-    active: true
+    active: false
     active_rank: 1
     website_text: >
       <b>Who are we?</b>
@@ -60,7 +60,7 @@ sponsors:
       We use Agile best practices and frameworks such as Scrum, TDD, Continuous
       Integration etc.
   - name: amazon
-    active: true
+    active: false
     active_rank: 2
     website_text: >
       Amazon has a thriving technical centre in Cape Town! This is the centre
