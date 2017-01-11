@@ -52,12 +52,12 @@ layout: base
 
 <div class="row">
 
-  <div class="col-lg-offset-3 col-lg-1 col-md-3">
+  <div class="col-lg-offset-3 col-lg-2 col-md-3">
     <div style='padding:40px 0' id="side-navigation">
     {% for speaker in page_speakers %}
       <a href="#{{speaker.name | slugify }}">
         <div class='speaker-selector' style='display:block; padding:5px; border-bottom:dashed 1px #eee;'>
-          <b>{{ speaker.name }}</b><br/>
+          <b>{{ speaker.name }} - {{ speaker.title }}</b><br/>
           {{ speaker.company}}
         </div>
       </a>
@@ -68,13 +68,13 @@ layout: base
   <div class="col-lg-5 col-md-9">
     <!-- actual speaker info shown when speaker selected -->
     {% for speaker in page_speakers %}
-    <div id='{{ speaker.name | slugify }}'>
-      <div class="row text-center">
-        <h2>{{ speaker.name }}</h2>
+    <div id='{{ speaker.name | slugify }}' class='col-md-10'>
+      <div class="row col-md-offset-1" style="border-top: solid 2px #fff;">
+        <h3>{{ speaker.name }} - {{ speaker.title }}</h3>
       </div>
       <div class="row">
-        <div class="col-md-offset-1 col-md-11">
-          <div class="row nested-row" style="border-bottom: solid 1px #ddd; padding: 10px 0 20px 0; ">
+        <div class="col-md-offset-1 col-md-12">
+          <div class="row nested-row">
             <div class="col-md-2">
               <img src='/img/speakers/{{speaker.name | slugify | replace: '-', '_'}}.large.jpg' style='display:inline-block; vertical-align:top; margin-right:10px; border-radius:40px; height:80px;'/>
             </div>
@@ -95,32 +95,23 @@ layout: base
                   <a class="github-button" href="https://github.com/{{ speaker.github }}" aria-label="Follow @{{ speaker.github}} on GitHub">Follow @{{ speaker.github }}</a>
                 </p>
                 {% endif %}
+                {% if speaker.video %}
+                <p>
+                  <a href="http://youtube.com/watch?v={{speaker.video}}"><img src="/img/layout/youtube.png" style='height:24px;' /> View on youtube</a>
+                </p>
+                {% endif %}
             </div>
           </div>
         </div>
       </div>
-      <div class="row nested-row">
-        <div class="col-md-offset-1 col-md-11">
-          <p> {{ speaker.bio }} </p>
+      <div class="row nested-row col-md-offset-1" style="border-bottom: solid 1px #ddd; padding: 10px 0 20px 0; ">
+        <div class="col-md-12">
+          <p> {{ speaker.abstract }} </p>
         </div>
-      </div>
-      <div class="row nested-row">
-        <div class="col-md-offset-1 col-md-11">
-          <p>The title of the talk is <i>"{{ speaker.title }}"</i>.</p>
-        </div>
-      </div>
-      <div class="row nested-row">
         <div class="col-md-offset-1 col-md-11" style="background:#eee; padding:15px;">
-          <p>{{ speaker.abstract}}</p>
+          <p>{{ speaker.bio}}</p>
         </div>
       </div>
-      {% if speaker.video %}
-      <div class="row nested-row">
-        <div class="col-md-offset-1 col-md-11">
-          <p>The video for this talk is <a target="_blank" href="http://youtube.com/watch?v={{speaker.video}}">available on youtube</a></p>
-        </div>
-      </div>
-      {% endif %}
     </div>
     {% endfor %}
 </div>
