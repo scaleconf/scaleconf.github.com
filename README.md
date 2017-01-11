@@ -35,9 +35,9 @@ You can then point your browser at your docker instance, on mac this is probably
 
 ### Sponsors
 
-Sponsors should be padding in such a way that the text is roughly consistent
+Sponsors should be padded in such a way that the text is roughly consistent
 in sizing. This isn't an exact science unfortunately, and just needs to be looked
-at in the context of other sponsors logo's to ensure that some aren't super small
+at in the context of other sponsors logos to ensure that some aren't super small
 because of the way their logo spacing works.
 
 To resize, I found it mostly easiest to just use image magick.
