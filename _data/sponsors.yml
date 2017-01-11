@@ -5,8 +5,8 @@
 sponsors:
   - name: ventureburn
     website_text: >
-      Ventureburn is focused on telling the world’s startup news and tech
-      entrepreneurs’ stories from the emerging market sector, covering
+      Ventureburn is focused on telling the world's startup news and tech
+      entrepreneurs' stories from the emerging market sector, covering
       everything from innovative new businesses and developments in
       ecommerce to helpful tips for starter entrepreneurs. For more
       information visit <a href='http://www.ventureburn.com'>www.ventureburn.com</a>,
@@ -45,7 +45,7 @@ sponsors:
       </p> <p>
       <b>What do we do?</b>
       </p> <p>
-      We build software solutions that make our clients’ and our own lives easier.
+      We build software solutions that make our clients' and our own lives easier.
       </p> <p>
       <b>What tech do we use?</b>
       </p> <p>
@@ -106,7 +106,7 @@ sponsors:
   - name: elasticsearch
     website_text: >
       Elasticsearch is on a mission to make massive amounts of data usable for
-      businesses everywhere by delivering the world’s most advanced search and
+      businesses everywhere by delivering the world's most advanced search and
       analytics engine available. With a laser focus on achieving the best user
       experience imaginable, the Elasticsearch ELK stack - comprised of
       Elasticsearch, Logstash, and Kibana - has become one of the most popular
@@ -115,9 +115,9 @@ sponsors:
   - name: facebook
     active: false
     website_text: >
-      Founded in 2004, Facebook’s mission is to make the world more open and
+      Founded in 2004, Facebook's mission is to make the world more open and
       connected. People use Facebook to stay connected with friends and family, to
-      discover what’s going on in the world, and to share and express what matters
+      discover what's going on in the world, and to share and express what matters
       to them.
       </p>
       <p>
@@ -140,7 +140,7 @@ sponsors:
     active: false
     active_rank: 1
     website_text: >
-      Google’s innovative search technologies connect millions of people around
+      Google's innovative search technologies connect millions of people around
       the world with information every day. Founded in 1998 by Stanford Ph.D.
       students Larry Page and Sergey Brin, Google today is a top web property in
       all major global markets. Google's mission in Africa is to make the internet
@@ -156,14 +156,14 @@ sponsors:
       <a href='https://plus.google.com/+GoogleDevelopers'>Google+</a>.
   - name: hetzner
     website_text: >
-      At Hetzner South Africa we are passionate about web hosting – it’s our
-      core business and it’s what we do best. By consistently delivering
+      At Hetzner South Africa we are passionate about web hosting – it's our
+      core business and it's what we do best. By consistently delivering
       excellent service and cost effective web hosting, dedicated servers and
       custom hosting solutions, Hetzner has exponentially grown its market
       share, making it the leading web hosting company in South Africa.
       </p>
       <p>
-      Inspired by our brand promise ‘Trusted in Hosting’, we focus on providing
+      Inspired by our brand promise ‘Trusted in Hosting', we focus on providing
       efficient, sustainable business models, quality service and customer
       satisfaction. A key contributor to our success is our people. We aim for
       our teams to manage themselves rather than rely on several layers of
@@ -175,7 +175,7 @@ sponsors:
     active: true
     active_rank: 3
     website_text: >
-      Impact Radius’ digital marketing platform enables significant improvement in the
+      Impact Radius' digital marketing platform enables significant improvement in the
       return on global advertising spend for brands and agencies. The company provides
       a fully-integrated suite of products for media attribution, performance
       marketing, tag management and mobile analytics. Impact Radius provides a
@@ -198,15 +198,15 @@ sponsors:
   - name: key_connections
     website_text: >
       Key Connections is  a technology recruitment company that specialises in
-      placing developers throughout South Africa. We’re not like other “tech
-      recruiters” who don’t know the difference between "Java" and "JavaScript"!
+      placing developers throughout South Africa. We're not like other “tech
+      recruiters” who don't know the difference between "Java" and "JavaScript"!
       </p> <p>
       We work with technology focused companies that treat their developers well, and
       build cool stuff. We have placed developers in starts ups, SME's and some of the
       world's largest tech companies.
       </p>
       <p>
-      If you’re looking to recruit a team of developers we’d love to hear from you.
+      If you're looking to recruit a team of developers we'd love to hear from you.
       </p>
       <p>
       We have clients looking for developers across all major programming languages.
@@ -215,9 +215,9 @@ sponsors:
   - name: mxit
     website_text: >
       <b>About Mxit</b>
-      Mxit is South Africa’s home-grown mobile social network. At Mxit, we know that
+      Mxit is South Africa's home-grown mobile social network. At Mxit, we know that
       conversation is at  the heart of everything. When people share rich
-      conversations, they move forward – it’s how we  connect, discover and grow.
+      conversations, they move forward – it's how we  connect, discover and grow.
       <p>
       <b>Key features include:</b>
       </p>
@@ -237,7 +237,7 @@ sponsors:
       Your friends can  easily invite their friends to the chat too, introducing you
       to more new people across almost every  type of phone. You can easily share
       photos and sound clips, and with our Chat Tabs, switching  between multiple
-      conversations is so quick, you’ll never miss out.
+      conversations is so quick, you'll never miss out.
       </p>
       <p><i>Chat Cards</i></p>
       <p>
@@ -252,7 +252,7 @@ sponsors:
       <p>More than 250 South African tech companies use OfferZen to hire software
       developers. OfferZen flips the recruitment model around for developers.
       Instead of applying for jobs, companies apply to you with upfront salary.
-      It’s free for devs - in fact you get R5000 if you take a job through us.
+      It's free for devs - in fact you get R5000 if you take a job through us.
       </p>
       <b>The best way to find your next software dev job</b>
       <p>
@@ -263,7 +263,7 @@ sponsors:
       On <a href='https://www.offerzen.com/?utm_source=website&utm_medium=sponsor&utm_campaign=scaleconf16'>OfferZen</a>
       instead of applying for jobs, companies send you interview requests with upfront
       salary details. You decide which companies to interview with by comparing salary,
-      the work you’ll be doing, learning opportunities, work environment, and perks that
+      the work you'll be doing, learning opportunities, work environment, and perks that
       companies offer.
       </p>
       <p>
@@ -274,9 +274,9 @@ sponsors:
           <li>We manually approve all companies to make sure only awesome companies are
           hiring on OfferZen.</li>
           <li>You get multiple interview requests with upfront salary info - so you can
-          see what you’re worth.</li>
+          see what you're worth.</li>
           <li>Your email isn't shared with anyone - no spam ever.</li>
-          <li>Your profile is hidden from everyone except from companies we’ve approved.</li>
+          <li>Your profile is hidden from everyone except from companies we've approved.</li>
           <li>Your current employer is blocked from seeing you.</li>
       </p>
   - name: oracle
@@ -317,7 +317,7 @@ sponsors:
       </p><p>
       With great commitment to customer service excellence and in-depth
       technical understanding, RSAWEB is able to retain partnerships with
-      some of South Africa’s leading brands, from a wide array of sectors.
+      some of South Africa's leading brands, from a wide array of sectors.
       RSAWEB takes pride in offering custom made solutions to clients as well
       as the best in service and support, providing Service-Level Agreements
       and a 24-hour helpdesk that fully supports and monitors all services,
@@ -335,7 +335,7 @@ sponsors:
       at <a href="https://www.facebook.com/RSAWEB">www.facebook.com/RSAWEB</a></p>
   - name: takealot
     website_text: >
-      <b><a href='http://www.takealot.com'>takealot.com</a>’s mission is to be the most customer-centric online shopping
+      <b><a href='http://www.takealot.com'>takealot.com</a>'s mission is to be the most customer-centric online shopping
       destination in Africa. Our company is built around the simple concept that
       the customer comes first.</b>
       </p>
