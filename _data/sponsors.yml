@@ -39,16 +39,21 @@ sponsors:
     active_rank: 1
     website_text: >
       <b>Who are we?</b>
-      </p> <p>
+      </p>
+      <p>
       We are first and foremost a financial service company, but we also see
       ourselves as leading technologists.
-      </p> <p>
+      </p>
+      <p>
       <b>What do we do?</b>
-      </p> <p>
+      </p>
+      <p>
       We build software solutions that make our clients' and our own lives easier.
-      </p> <p>
+      </p>
+      <p>
       <b>What tech do we use?</b>
-      </p> <p>
+      </p>
+      <p>
       Our environment contains a diverse range of technologies. The backend language
       of choice at the moment is Scala and we are evaluating our front-end stack.
       We are redoing our architecture and aiming to build Microservices hosted on
@@ -181,21 +186,25 @@ sponsors:
       marketing, tag management and mobile analytics. Impact Radius provides a
       singular view into the consumer journey, tracks cross-channel marketing efforts,
       and delivers Big Data insights that drive revenue growth.
-      </p> <p>
+      </p>
+      <p>
       Impact Radius was founded in 2008 by a team of Internet marketing and technology
       experts who previously founded Commission Junction, Savings.com and LeadPoint.
-      </p> <p>
+      </p>
+      <p>
       From the beginning, we disrupted the industry by moving away from the affiliate
       network model, instead introducing a SaaS technology platform for performance
       marketing professionals.
-      </p> <p>
+      </p>
+      <p>
       We then set our sights on omnichannel marketing analytics, building the most
       comprehensive digital marketing platform with multi-channel insights,
       attribution modeling, tag management and automated workflows. We remain
       committed to best-in-class technology, transparent data you can trust, and
       unceasing innovation that delivers next-generation solutions to digital
       marketers around the world.
-      </p> <p>
+      </p>
+      <p>
       We are actively growing our Cape Town team and we get excited about
       people who are passionate about technology. Please visit
       <a href="www.impactradius.com/careers-2/">our careers page</a>
@@ -206,7 +215,8 @@ sponsors:
       Key Connections is  a technology recruitment company that specialises in
       placing developers throughout South Africa. We're not like other “tech
       recruiters” who don't know the difference between "Java" and "JavaScript"!
-      </p> <p>
+      </p>
+      <p>
       We work with technology focused companies that treat their developers well, and
       build cool stuff. We have placed developers in starts ups, SME's and some of the
       world's largest tech companies.
@@ -217,38 +227,6 @@ sponsors:
       <p>
       We have clients looking for developers across all major programming languages.
       <a href='http://jobs.keyconnections.co.za/keyconnections/Search/Results/All/1'>Check out some of our recent jobs.</a>
-  - name: mxit
-    website_text: >
-      <b>About Mxit</b>
-      Mxit is South Africa's home-grown mobile social network. At Mxit, we know that
-      conversation is at  the heart of everything. When people share rich
-      conversations, they move forward – it's how we  connect, discover and grow.
-      <p>
-      <b>Key features include:</b>
-      </p>
-      <p><i>Super Chat</i></p>
-      <p>
-      Mxit works on almost any phone and tablet, and is tailored to each device. This
-      way, you can  enjoy the richest chat and networking experience possible. Enhance
-      your profile with large cover  pictures, update your status and keep track of
-      your friends in Newsfeed, create multiple profiles  and easily switch between
-      them, and use our cool Backdrop feature to take pictures from your  Photo Stream
-      and drop them into a shared chat background.
-      </p>
-      <p><i>Group Chat</i></p>
-      <p>
-      </p>
-      Our new, more powerful Group Chat lets you speak to up to 50 people at once.
-      Your friends can  easily invite their friends to the chat too, introducing you
-      to more new people across almost every  type of phone. You can easily share
-      photos and sound clips, and with our Chat Tabs, switching  between multiple
-      conversations is so quick, you'll never miss out.
-      </p>
-      <p><i>Chat Cards</i></p>
-      <p>
-      Super-charge your chat! Our unique Chat Cards allows you to grab web content,
-      drop in videos,  share music tracks or mix up your chat with jokes and pickup
-      lines to instantly spark new  conversations.
   - name: offerzen
     active: true
     active_rank: 1
@@ -257,13 +235,15 @@ sponsors:
       developers. OfferZen flips the recruitment model around for developers.
       Instead of applying for jobs, companies apply to you with upfront salary.
       It’s free for devs - in fact you get R5000 if you take a job through us.
-      </p> <p>
+      </p>
+      <p>
       Sign up today at <a href='https://www.offerzen.com/'>www.offerzen.com</a>
   - name: oracle
     active: true
     active_rank: 1
     website_text: >
       <b>Oracle Cloud Development Centre - Cape Town</b>
+      </p>
       <p>
       Oracle is committed to Cloud and at the
       <a href='http://www.oracle.com/us/dm/253340-wwmk12042041mpp011-se-2069148.html'>
@@ -272,12 +252,14 @@ sponsors:
       Infrastructure Management Services team designs and develops the
       Infrastructure-as-a-Service platform that drives Oracle Cloud and
       Oracle's Engineered Systems offerings.
-      </p><p>
+      </p>
+      <p>
       At the Oracle Cloud Development Centre, we are tackling some of the most
       interesting problems in tech today. Our team is comprised of highly skilled,
       motivated software developers, that span from Cape Town to Silicon Valley, and
       beyond.
-      </p><p>
+      </p>
+      <p>
       Working at Oracle allows you be part of something big!  We offer visionary
       leadership and innovation in a fast-paced, challenging, and always evolving
       environment. We know talented individuals drive success, and when we find good
@@ -294,7 +276,8 @@ sponsors:
       introducing new products including our latest offerings:
       <a href="http://www.rsaweb.co.za/hosting/flex-cloud/">Flex Cloud</a> and
       <a href="http://www.rsaweb.co.za/connectivity/fibre/">City Fibre</a>.
-      </p><p>
+      </p>
+      <p>
       With great commitment to customer service excellence and in-depth
       technical understanding, RSAWEB is able to retain partnerships with
       some of South Africa's leading brands, from a wide array of sectors.
@@ -302,17 +285,18 @@ sponsors:
       as the best in service and support, providing Service-Level Agreements
       and a 24-hour helpdesk that fully supports and monitors all services,
       ensuring all clients have absolute peace of mind.
-      </p><p>
+      </p>
+      <p>
       Having invested heavily in infrastructure, RSAWEB has built a strong
       presence in South Africa and internationally with data centres in
       Johannesburg and Cape Town, and POPs (points of presence) in London,
       Europe and the USA.
-      </p><p>
+      </p>
       <p>
       For more information, visit <a href='http://www.rsaweb.co.za/'>
       rsaweb.co.za</a>, or follow us on Twitter
       <a href='https://twitter.com/RSAWEB'>@RSAWEB</a>, and like us on Facebook
-      at <a href="https://www.facebook.com/RSAWEB">www.facebook.com/RSAWEB</a></p>
+      at <a href="https://www.facebook.com/RSAWEB">www.facebook.com/RSAWEB</a>
   - name: takealot
     website_text: >
       <b><a href='http://www.takealot.com'>takealot.com</a>'s mission is to be the most customer-centric online shopping
@@ -333,6 +317,7 @@ sponsors:
       <b>
       Tech Startups - Avoid Sleepless Nights with Microsoft BizSpark
       </b>
+      </p>
       <p>
       At Microsoft we're big on business and being proudly South African. For decades
       we've focused on becoming a strategic partner to the growth of this country by
@@ -392,13 +377,12 @@ sponsors:
       </p>
       <p>
       To learn more about Microsoft Azure visit our website - <a href='http://aka.ms/azuresa'>aka.ms/azuresa</a>
-      </p>
-      <p>
   - name: wonderland
     website_text: >
       <b>
       A design focused, creative studio with offices in Cape Town and London
       </b>
+      </p>
       <p>
       We are innovative thinkers with a lust for the extraordinary. Wonderland Collective
       was established with a vision of helping brands to execute on their ideas. Great
@@ -411,4 +395,3 @@ sponsors:
       to life, whether it be through branding, illustration, digital or experiential. We have
       managed significant and complex projects, working internationally with clients in London,
       Canada, Netherlands, Germany and Australia or locally in South Africa.
-      </p>
