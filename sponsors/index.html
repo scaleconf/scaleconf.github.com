@@ -31,6 +31,11 @@ title: Sponsors
       <img
         src='/img/sponsors/{{ sponsor.name | slugify | replace: '-', '_' }}.large.png'
         style='display:inline-block; vertical-align:top; width: 300px; margin-top:40px;'/>
+      {% if sponsor.second_logo %}
+      <img
+        src='/img/sponsors/{{ sponsor.second_logo | slugify | replace: '-', '_' }}.large.png'
+        style='display:inline-block; vertical-align:top; width: 300px; margin-top:40px;'/>
+      {% endif %}
     </div>
     <div class="row" style="margin-top:50px;">
       <div class="col-md-offset-1 col-md-10">
