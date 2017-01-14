@@ -265,10 +265,12 @@ sponsors:
     website_text: >
       <b>Oracle Cloud Development Centre - Cape Town</b>
       <p>
-      Oracle is committed to Cloud and at the Oracle Cloud Development Centre in Cape
-      Town.  We are growing an ace engineering team to accomplish our ambitious cloud
-      goals. The Oracle Cloud Infrastructure Management Services team designs and
-      develops the Infrastructure-as-a-Service platform that drives Oracle Cloud and
+      Oracle is committed to Cloud and at the
+      <a href='http://www.oracle.com/us/dm/253340-wwmk12042041mpp011-se-2069148.html'>
+      Oracle Cloud Development Centre in Cape Town</a>.  We are growing an ace
+      engineering team to accomplish our ambitious cloud goals. The Oracle Cloud
+      Infrastructure Management Services team designs and develops the
+      Infrastructure-as-a-Service platform that drives Oracle Cloud and
       Oracle's Engineered Systems offerings.
       </p><p>
       At the Oracle Cloud Development Centre, we are tackling some of the most
@@ -283,8 +285,6 @@ sponsors:
       from providing extensive training and professional development to ensuring our
       employees enjoy excellent benefits and opportunities, from a flexible working
       environment to health and medical benefits.
-      </p>
-      <p>Contact : <a href="mailto:dorian.wilson@oracle.com">Dorian Wilson</a></p>
   - name: rackspace
     website_text: ""
   - name: rsaweb
