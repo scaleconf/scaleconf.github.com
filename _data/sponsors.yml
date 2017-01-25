@@ -36,7 +36,7 @@ sponsors:
       will then download the 2go application and you can begin chatting!
   - name: allan_gray
     active: false
-    active_rank: 1
+    active_rank: 3
     website_text: >
       <b>Who are we?</b>
       </p>
@@ -142,7 +142,7 @@ sponsors:
       For more information, visit <a href='http://www.flickswitch.co.za/'>
       flickswitch.co.za</a>.
   - name: google
-    active: false
+    active: true
     active_rank: 1
     website_text: >
       Google's innovative search technologies connect millions of people around
@@ -230,7 +230,7 @@ sponsors:
       <a href='http://jobs.keyconnections.co.za/keyconnections/Search/Results/All/1'>Check out some of our recent jobs.</a>
   - name: offerzen
     active: true
-    active_rank: 1
+    active_rank: 2
     website_text: >
       More than 250 South African tech companies use OfferZen to hire software
       developers. OfferZen flips the recruitment model around for developers.
@@ -241,7 +241,7 @@ sponsors:
       Sign up today at <a href='https://www.offerzen.com/'>www.offerzen.com</a>
   - name: oracle
     active: true
-    active_rank: 1
+    active_rank: 2
     website_text: >
       <b>Oracle Cloud Development Centre - Cape Town</b>
       </p>
@@ -299,6 +299,8 @@ sponsors:
       <a href='https://twitter.com/RSAWEB'>@RSAWEB</a>, and like us on Facebook
       at <a href="https://www.facebook.com/RSAWEB">www.facebook.com/RSAWEB</a>
   - name: takealot
+    active: true
+    active_rank: 2
     website_text: >
       <b><a href='http://www.takealot.com'>takealot.com</a>'s mission is to be the most customer-centric online shopping
       destination in Africa. Our company is built around the simple concept that
