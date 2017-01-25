@@ -230,7 +230,7 @@ sponsors:
       <a href='http://jobs.keyconnections.co.za/keyconnections/Search/Results/All/1'>Check out some of our recent jobs.</a>
   - name: offerzen
     active: true
-    active_rank: 2
+    active_rank: 3
     website_text: >
       More than 250 South African tech companies use OfferZen to hire software
       developers. OfferZen flips the recruitment model around for developers.
@@ -241,7 +241,7 @@ sponsors:
       Sign up today at <a href='https://www.offerzen.com/'>www.offerzen.com</a>
   - name: oracle
     active: true
-    active_rank: 2
+    active_rank: 3
     website_text: >
       <b>Oracle Cloud Development Centre - Cape Town</b>
       </p>
