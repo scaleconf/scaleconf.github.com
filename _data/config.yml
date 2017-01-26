@@ -13,6 +13,7 @@ years:
 
 homepage_sections:
   upcoming_conference: true
-  tickets_notify: true
+  tickets_sell: true
+  tickets_notify: false
   previous_speakers: true
   sponsors: true

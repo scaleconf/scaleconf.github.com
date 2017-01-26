@@ -18,6 +18,8 @@
 
 <body>
 
+    {% assign sections = site.data.config.homepage_sections %}
+
     <div id="appbar">
       <div style="float:right">
         <ul>
@@ -26,6 +28,9 @@
           <li><a href="/speakers">speakers</a></li>
           <li><a href="/sponsors">sponsors</a></li>
           <li><a href="/about">history</a></li>
+          {% if sections.tickets_sell %}
+          <li><a href="/purchase" style="background:#418290; border-radius:2px; padding:11px; ">buy tickets</a></li>
+          {% endif %}
         </ul>
       </div>
       <a href="/index.html">
