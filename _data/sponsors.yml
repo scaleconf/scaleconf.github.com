@@ -35,7 +35,7 @@ sponsors:
       where you will need to fill in a very simple registration form. Your phone
       will then download the 2go application and you can begin chatting!
   - name: allan_gray
-    active: false
+    active: true
     active_rank: 3
     website_text: >
       <b>Who are we?</b>
