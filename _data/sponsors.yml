@@ -65,8 +65,8 @@ sponsors:
       We use Agile best practices and frameworks such as Scrum, TDD, Continuous
       Integration etc.
   - name: amazon
-    active: false
-    active_rank: 2
+    active: true
+    active_rank: 1
     website_text: >
       Amazon has a thriving technical centre in Cape Town! This is the centre
       where <a href='http://ec2.amazonaws.com/'>Amazon Elastic Compute Cloud
@@ -105,7 +105,7 @@ sponsors:
       and team leads who can work in an environment that is technically
       demanding, agile and believes in delivering high quality products to our
       customers. You will be surrounded by people that are wickedly smart and
-      passionate about cloud computing..  If you are interested in any of these
+      passionate about cloud computing. If you are interested in any of these
       vacancies, please go to the <a
       href='http://www.adccpt.co.za/?page_id=19'>Job opportunities</a> page.
   - name: elasticsearch
