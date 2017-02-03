@@ -52,7 +52,7 @@ layout: base
 
 {% for speaker in page_speakers %}
 
-<div class="row">
+<div class="row" id="{{speaker.name | slugify }}">
   <div class="col-md-offset-3 col-md-6 section">
     <div class="row text-center">
       <h2>{{ speaker.name }}</h2>

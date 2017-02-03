@@ -15,5 +15,6 @@ homepage_sections:
   upcoming_conference: true
   tickets_sell: true
   tickets_notify: false
-  previous_speakers: true
+  current_speakers: true
+  previous_speakers: false
   sponsors: true
