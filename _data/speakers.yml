@@ -1,26 +1,353 @@
-# all_speakers_archive: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier, bethany_macri, michael_gorven, job_thomas, sunil_shah, philip_norman, dewald_viljoen, michael_needham, jamie_hewland, franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel, niklas_gustavsson, clinton_gormley, deon_moolman, chris_bray, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson, aslam_khan, beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe, niklas_gustavsson, aslam_khan, chris_bray, deon_moolman, clinton_gormley, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson ]
-# speakers_2016: [ damian_schenkelman, tyler_mcmullen, quinton_parker, bridget_kromhout, len_weincier, bethany_macri, michael_gorven, job_thomas, sunil_shah, philip_norman, dewald_viljoen, michael_needham, jamie_hewland ]
-# speakers_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou, paul_cartmel ]
-# speakers_2014: [ niklas_gustavsson, clinton_gormley, deon_moolman, chris_bray, beat_schwegler_2014, krzysztof_debski, shai_rosenfeld, dustin_whittle, zabil_cheriya_maliackal, simbarashe_nyatsa, simon_cross, wim_godden, ben_adlard, craig_robinson, aslam_khan ]
-# speakers_2013: [ beat_schwegler, dale_humby, daniel_fiske, daniel_schauenberg, david_tinker, mike_jones, miles_ward, neil_blakey_milner, patrick_turley, peter_lockhart, robert_stuttaford, simon_ratcliffe ]
-# speakers_business_2015: [ franz_struwig, mark_forrester, robert_elliott, willem_van_biljon, charity_majors_business, paul_cartmel ]
-# speakers_technology_2015: [ charity_majors, matty_cohen, albert_dejongh, chris_oloff, donovan_graham, sam_laing, karen_greaves, jeanre_swanepoel, tim_park, shaun_norris, stephen_perelson, nick_pentreath, alex_koller, hiren_patel, maggie_zhou ]
-# highlighted: [ tyler_mcmullen, bridget_kromhout, quinton_parker, damian_schenkelman ]
-# nonhighlighted: [  ]
-
 # Template
-# slug:
-#     name:
-#     company:
-#     role:
-#     twitter:
-#     github:
-#     country:
-#     bio: >
-#
-#     title: >
-#
-#     abstract: >
+# <name>:
+    # name:
+    # company:
+    # role:
+    # twitter:
+    # github:
+    # country:
+    # year: 2017
+    # bio: >
+    #
+    # title: >
+    #
+    # abstract: >
+
+adrian_cole:
+    name: Adrian Cole
+    company: Pivotal
+    role:
+    twitter: adrianfcole
+    github: adriancole
+    country:
+    year: 2017
+    bio: >
+      Adrian is an active member of cloud interoperability circles. He is the
+      founder of a few popular open source projects, notably Apache jclouds and
+      Netflix feign. Recently, he’s focused on distributed tracing, particularly
+      in the OpenZipkin project. Adrian works at Pivotal in the Spring Cloud OSS
+      team.
+    title: >
+      How to Properly Blame Things for Causing Latency: An Introduction to
+      Distributed Tracing and Zipkin
+    abstract: >
+      Latency analysis is the act of blaming components for causing user
+      perceptible delay. In today's world of microservices, this can be
+      tricky as requests can fan out across polyglot components and even
+      data-centers. In many cases, the root source of latency isn't a
+      component, but rather a link between components.
+      </p><p>
+      This session will overview how to debug latency problems, using call
+      graphs created by Zipkin.  While we're at it, we'll discuss how the
+      model works, and how to safely trace production. We'll demo with an
+      example app you can download, using spring boot with spring cloud
+      sleuth. Finally, we'll overview the ecosystem, including tools to
+      trace other languages and frameworks.
+      </p><p>
+      When you leave, you'll at least know something about distributed
+      tracing, and hopefully be on your way to blaming things for causing
+      latency!
+
+abhishek_gahlot:
+    name: Abhishek gahlot
+    company: HackerRank
+    role: Software Engineer
+    github: abhishekgahlot
+    twitter: _abhishekgahlot
+    country:
+    year: 2017_disabled
+    bio: >
+      Software Engineer working on interesting problems at HackerRank.
+    title: >
+      Better Autocomplete
+    abstract: >
+      How we added a better live autocomplete on Hackerrank Codepair Realtime
+      Collaborative Editor. It uses websocket, cython, nodejs, tcp optimization
+      and geographical nearby location which provides low latency completion to
+      users coding in web browsers. It provides autocompletion of many languages
+      and performs very well for thousands of users. It has separate daemon for
+      multiple languages using socket to connect to each other.
+
+nina_schiff:
+    name: Nina Schiff
+    company: Facebook
+    role: Engineer
+    twitter:
+    github:
+    country: South Africa
+    year: 2017
+    bio: >
+      Nina is a software engineer at Facebook. She currently works on the
+      software powering Facebook's custom network switches. Before that she
+      worked on the container part of Facebook's deployment system. She's
+      originally from Cape Town, went to UCT and did her time at Amazon EC2
+      before making the move to the US. Her claim to fame is taking down
+      Facebook (and Instagram, Oculus and Messenger) for 30min. Good times.
+    title: >
+      Networking for the next billion
+    abstract: >
+      Facebook’s usage has grown to the point where it faces a unique problem - there
+      simply aren’t that many Internet-connected people left who aren’t already using
+      FB. This means that in order to continue the company’s mission of connecting the
+      world, we have to focus on how to bring the remaining 60% of the world onto the
+      Internet. This requires shifts in thinking, innovation in technology and above
+      all else, finding a way to scale this technology so that we can provide as much
+      to as many with the lowest cost. In this talk I’ll discuss how Facebook is using
+      a multifaceted approach to this problem. From terrestrial projects like
+      Terragraph and Ares, which focus on providing efficient, fast, cheap and
+      scalable WiFi for dense urban areas, to UAVs and satellites, like the Aquila
+      project, aimed at connecting rural communities not already reached by cellular
+      networks. And finally, to Facebook’s Fabric network topology and custom FBOSS
+      switches which help us to grow our networking capabilities along with our user
+      base. In this talk I will discuss how these projects have pushed the boundaries
+      of networking and the lessons learnt along the way.
+
+david_newman:
+    name: David Newman
+    company: Automattic
+    role: DevOps Engineer
+    twitter:
+    github:
+    country:
+    year: 2017
+    bio: >
+      DevOps/Systems engineer, currently working as the lead on the VIP Go
+      container-based hosting platform. Worked on a few other key projects at
+      Automattic, including the Jetpack Monitor service, the mShots website
+      thumbnail service, and the WP.com and Photon image serving services.
+      </p><p>
+      Previously a founding member and CTO of One Digital Media, the largest
+      digital signage company in Africa. Where I focused on developing and
+      maintaining a large network of Linux-based retail and signage systems
+      across Africa, with focuses on product R&D, production and software
+      development.
+    title: >
+      A Tale of 2 Systems
+    abstract: >
+      Give an overview of the infrastructure of WordPress.com, the largest
+      WordPress multi-site installation to date with over a billion database
+      tables. Detailing how we scale each component from DB sharding, request
+      caching, images, etc., as well as some focus on code deployment and DDoS
+      mitigation. With the second half of the talk covering our container-based
+      single instance WordPress hosting platform for VIP Clients.
+
+robert_fall:
+    name: Robert Fall
+    company: Allan Gray
+    role:
+    twitter:
+    github:
+    country: South Africa
+    year: 2017
+    bio: >
+      I've worked with technologies ranging from .NET to Ruby & Rails and most
+      recently ES6 front-ends and functional back ends in Scala & Haskell. While
+      I love the tools we use I'm driven more by the problems they solve.
+      </p><p>
+      I've ventured in and out of the developer community having presented at
+      the Cape Town Ruby Brigade, starting the Cape Town iOS meetup and more
+      recently presenting at the Cape Town React meetup. I've done some
+      nondescript open source work with one jQuery plugin gaining some momentum
+      for a brief time in 2010.
+      </p><p>
+      I've spent time in consultancies, start ups & traditional businesses
+      solving problems like automated fraud detection, appointment management,
+      eCommerce & education. For the last year I've been working at Allan Gray
+      as we re-imagine how we can use technology to better serve our clients.
+      I've been heavily involved with our new front end applications and
+      influencing culture in our new teams.
+      </p><p>
+      Buzzwords: Continuous Delivery, Docker Swarms, Spotify Model (Guilds &
+      Chapters), Microservices, Martin Fowler, Lean Methodology, UX & UI, Devops
+    title: >
+      Innovation at Scale: The Enterprise Renaissance
+    abstract: >
+      The financial giants are stirring from their slumber. The startup world is
+      making too much noise to ignore. But big ships are slow to turn. Can big
+      corporate innovate and what does it take? There's an enterprise
+      renaissance under way and this talk will be the red bus tour  through pain
+      point pass, the technique trenches and the anecdotal Alps.
+      </p><p>
+      This talk takes a look at how many of the modern tech company practices
+      are being applied in enterprises covering topics ranging from agile
+      culture to technical solutions, touching on legacy systems and docker
+      docker swarms co-existence. Code governance, communication and
+      collaboration in companies with a waterfall culture. What does it take to
+      create a space for innovation in companies of scale? It's mostly a
+      cultural talk with examples of how technologies can be used to change
+      culture. I won't be talking about scaling container clusters but rather
+      about how container clusters might be used to enable innovation at scale."
+
+izak_marais:
+    name: Izak Marais
+    company: Vastech
+    role: Software Engineer
+    twitter:
+    github:
+    country: South Africa
+    year: 2017
+    bio: >
+      Izak Marais is a software engineer at Vastech. Currently he works on the
+      distributed system described in the talk. His previous work at Vastech
+      included working on a scalable service monitoring solution. He received
+      his PhD in Electronic Engineering from Stellenbosch in 2008, but still
+      enjoys continuing to learn and improve himself.
+    title: >
+      Scaling to capture IP signals at multiple Gbps
+    abstract: >
+      In 2009, VASTech set out to build a system to monitor high-speed IP
+      channels.  Specifically, the system would capture every packet of interest
+      from multiple 10 Gbps signals.
+      </p><p>
+      In my presentation, I’ll talk you through the project, and describe our
+      solution to this challenging problem.  I’ll recall some of the design
+      decisions we made early on, and comment on what we got right.  More
+      interestingly, I’ll remember fondly what we got wrong and what we’ve
+      learned along the way.
+      </p><p>
+      I’ll look in detail at our home-grown NoSQL document store, and the
+      block-based storage service that supports it.  I’ll discuss the very high
+      performance and availability targets we set for ourselves, and describe
+      how we approached them.  And I’ll speculate about the problems we still
+      need to solve.
+
+bruce_merry:
+    name: Bruce Merry
+    company: SKA South Africa
+    role: Senior Developer
+    twitter:
+    github: bmerry
+    country:
+    year: 2017
+    bio: >
+      I am a senior developer at SKA South Africa, building software for the
+      MeerKAT radio telescope. My background is in compute science and GPU
+      computing.
+    title: >
+      Experiences building a custom Mesos framework
+    abstract: >
+      I'll describe my experiences with building a custom framework (scheduler)
+      for Mesos, which will be used to manage the Science Data Processor for the
+      MeerKAT telescope. I'll start with a brief overview of the Mesos
+      architecture, explain some of the problems that we didn't feel could be
+      solved by Marathon, and talk about what was easy and what wasn't.
+
+cobus_bernard:
+    name: Cobus Bernard
+    company: HealthQ Technologies
+    role:
+    twitter: cobusbernard
+    github: cobusbernard
+    country:
+    year: 2017
+    bio: >
+      Cobus used to call himself a developer, then he decided that a decade of
+      dealing with having code flung over the wall at the ops people was enough.
+      He now focuses on infrastructure and deployment automation, and managing
+      systems at HealthQ Technologies in Stellenbosch. As an advocate of DevOps
+      principles, he’s building a community around DevOps in Cape Town, having
+      founded and helped organise both the Cape Town DevOps meetup group in
+      2015, and DevOpsDays Cape Town in 2016.
+    title: >
+      Rubbing DevOps on a Brownfield Project: Practical, Incremental Steps
+    abstract: >
+      Most talks show you the ugly start (A), followed by some hand waving, and
+      then jump straight to the agile, paradigm-shifting docker unicorn where
+      all the devs are smiling (Z). Steps B-Y are missing. In this talk, I will
+      cover the changes made to make building, deploying, and monitoring code
+      easier - step by step. We went through our first 10x user increase in
+      November 2016 and are preparing for the next 10x in early 2017. This talk
+      will focus on managing DNS, configurations for multiple environments and
+      automating infrastructure with Terraform on AWS.
+
+william_stewart:
+    name: William Stewart
+    company: Superbalist
+    role: Site Reliability Team Lead
+    twitter: zoidbergwill
+    github: zoidbergwill
+    country: South Africa
+    year: 2017
+    bio: >
+      Site Reliability Team Lead at Superbalist.com
+    title: >
+      A Journey into Kubernetes, and how it helps us
+    abstract: >
+      Over the last 14 months we've got rid of more than 20 servers and made a
+      lot of progress consolidating how our projects are deployed. We're running
+      almost everything in Kubernetes in production.
+      </p><p>
+      We've got a bunch of war stories about signal propagation, Docker falling
+      over, all nodes becoming unschedulable for services, running stateful
+      stuff like Kafka and Elastic Search in Kubernetes, and with moving local
+      development from Vagrant and Virtualbox to Minikube on xhyve and KVM.
+
+matthew_clark:
+    name: Matthew Clark
+    company: BBC
+    role: Lead Technical Architect
+    twitter: matthew1000
+    github:
+    country: England
+    year: 2017
+    landing_page: false
+    bio: >
+      Matthew Clark is a lead technical architect at the BBC. He’s been responsible
+      for the design and delivery of some of the BBC’s biggest online projects. This
+      includes coverage of huge global events, including the Olympic Games and US
+      Elections. He lives in Manchester, England.
+    title: >
+      Huge web platforms made with tiny parts: how the BBC uses microservices to power its websites and apps
+    abstract: >
+      The BBC’s websites and mobile apps are used by hundreds of millions of people
+      each week. News, video, entertainment and much more is offered in dozens of
+      languages to users around the world. But this breadth of content and audience
+      size has meant some big scaling challenges. To solve this, the BBC has
+      embraced microservices: small, easy-to-understand systems that can easily
+      scale and combine to create powerful solutions.
+      </p><p>
+      In this talk, Matthew will describe how the BBC has designed and built its
+      microservices architecture. Principles such as simplicity and sharing, combined
+      with technology such as Node.JS and the cloud, have created a compelling
+      approach: microservices that are quick and easy to make, fast and reliable, and
+      globally scalable. The talk will look at how the BBC architects and runs its
+      microservices, including the lessons learned, and what the future holds next.
+
+tyler_mcmullen_2017:
+    name: Tyler McMullen
+    company: Fastly
+    role: CTO
+    twitter: tbmcmullen
+    github: tyler
+    country: USA
+    landing_page: false
+    year: 2017
+    bio: >
+      Tyler McMullen is CTO at Fastly, where he’s responsible for the
+      system architecture and leads the company’s technology vision.
+      As part of the founding team, Tyler built the first versions of
+      Fastly’s Instant Purging system, API, and Real-time Analytics.
+      Before Fastly, Tyler worked on text analysis and recommendations
+      at Scribd. A self-described technology curmudgeon, he has
+      experience in everything from web design to kernel development,
+      and loathes all of it. Especially distributed systems.
+    title: >
+      Building a Skyscraper with Legos: The Anatomy of a Distributed System
+    abstract: >
+      Much has been written and said about distributed systems of many different
+      sizes, scales, and complexities. Most of the time though, what we talk about
+      are algorithms and techniques: generalities. Gossip, failure detection, and
+      leader election are discussed as if they’re a magical salve that can be
+      rubbed onto a project to make it distributed. But the practical realities of
+      distributed systems are far from straightforward.
+      </p><p>
+      In this talk, I will take a new approach, talking through the components and
+      design of a real system. The system we’ll discuss is built to perform very high
+      volumes of health checks, done across a cluster of machines for reliability and
+      scalability. It’s complex enough that we need to worry about things like gossip,
+      failure detection, leader election, logical clocks, and distributed k/v
+      components. We’ll walk through each of the major components, see how they are
+      practically built, and learn about the pain and compromises that each bring.
 
 jamie_hewland:
     name: Jamie Hewland
