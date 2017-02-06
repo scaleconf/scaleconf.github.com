@@ -19,12 +19,15 @@
 <body>
 
     {% assign sections = site.data.config.homepage_sections %}
+    {% assign navigation = site.data.config.navigation %}
 
     <div id="appbar">
       <div style="float:right">
         <ul>
           <li><a href="/">home</a></li>
+          {% if navigation.submit %}
           <li><a href="/submit-talk">submit talk</a></li>
+          {% endif %}
           <li><a href="/speakers">speakers</a></li>
           <li><a href="/sponsors">sponsors</a></li>
           <li><a href="/about">history</a></li>

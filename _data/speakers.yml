@@ -16,7 +16,7 @@
 adrian_cole:
     name: Adrian Cole
     company: Pivotal
-    role:
+    role: Engineer
     twitter: adrianfcole
     github: adriancole
     country:
@@ -235,7 +235,7 @@ bruce_merry:
 cobus_bernard:
     name: Cobus Bernard
     company: HealthQ Technologies
-    role:
+    role: DevOps Engineer
     twitter: cobusbernard
     github: cobusbernard
     country:

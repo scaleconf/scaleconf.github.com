@@ -12,9 +12,11 @@ years:
   - 2013
 
 homepage_sections:
-  upcoming_conference: true
+  upcoming_conference: false
   tickets_sell: true
   tickets_notify: false
   current_speakers: true
   previous_speakers: false
   sponsors: true
+navigation:
+  submit: false
