@@ -56,36 +56,6 @@ title: Home
 </div>
 {% endif %}
 
-<!-- Tickets - Buy -->
-
-{% if sections.tickets_sell %}
-<div class="row" style="background:#d2eef5; padding: 0px 0 30px;">
-  <div class="col-md-offset-3 col-md-6 text-center">
-    <h2>Tickets on Sale</h2>
-    <div class='text-center'>
-      {% include quicket-frame.html %}
-    </div>
-  </div>
-</div>
-{% endif %}
-
-<!-- Tickets - Notify -->
-
-{% if sections.tickets_notify %}
-<div class="row" style="background:#f0f0f0; padding: 0px 0 10px; margin-top:-1px;">
-  <div class="col-md-offset-3 col-md-6 text-center section">
-    <h2>Tickets</h2>
-    <p class="big">
-      Register on our mailing list to be notified when tickets go on sale, and for other updates about ScaleConf.
-    </p>
-    <div class='text-center'>
-      {% include mailing-list-signup.html %}
-    </div>
-  </div>
-</div>
-{% endif %}
-
-
 <!-- This Years Speakers -->
 
 {% if sections.current_speakers %}
@@ -112,6 +82,35 @@ title: Home
     </div>
     <div class="row text-center">
       <a href="/speakers" role="button" class="btn btn-primary">Past speakers</a>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- Tickets - Buy -->
+
+{% if sections.tickets_sell %}
+<div class="row" style="background:#d2eef5; padding: 0px 0 30px;">
+  <div class="col-md-offset-3 col-md-6 text-center">
+    <h2>Tickets on Sale</h2>
+    <div class='text-center'>
+      {% include quicket-frame.html %}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- Tickets - Notify -->
+
+{% if sections.tickets_notify %}
+<div class="row" style="background:#f0f0f0; padding: 0px 0 10px; margin-top:-1px;">
+  <div class="col-md-offset-3 col-md-6 text-center section">
+    <h2>Tickets</h2>
+    <p class="big">
+      Register on our mailing list to be notified when tickets go on sale, and for other updates about ScaleConf.
+    </p>
+    <div class='text-center'>
+      {% include mailing-list-signup.html %}
     </div>
   </div>
 </div>
