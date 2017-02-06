@@ -53,7 +53,7 @@ abhishek_gahlot:
     company: HackerRank
     role: Software Engineer
     github: abhishekgahlot
-    twitter: _abhishekgahlot"
+    twitter: _abhishekgahlot
     country:
     year: 2017_disabled
     bio: >
@@ -82,7 +82,7 @@ nina_schiff:
       worked on the container part of Facebook's deployment system. She's
       originally from Cape Town, went to UCT and did her time at Amazon EC2
       before making the move to the US. Her claim to fame is taking down
-      Facebook(and Instagram, Oculus and Messenger) for 30min. Good times.
+      Facebook (and Instagram, Oculus and Messenger) for 30min. Good times.
     title: >
       Networking for the next billion
     abstract: >
@@ -137,7 +137,7 @@ robert_fall:
     role:
     twitter:
     github:
-    country:
+    country: South Africa
     year: 2017
     bio: >
       I've worked with technologies ranging from .NET to Ruby & Rails and most
@@ -236,8 +236,8 @@ cobus_bernard:
     name: Cobus Bernard
     company: HealthQ Technologies
     role:
-    twitter:
-    github:
+    twitter: cobusbernard
+    github: cobusbernard
     country:
     year: 2017
     bio: >
@@ -265,7 +265,7 @@ william_stewart:
     company: Superbalist
     role: Site Reliability Team Lead
     twitter: zoidbergwill
-    github:
+    github: zoidbergwill
     country: South Africa
     year: 2017
     bio: >
