@@ -131,10 +131,10 @@ david_newman:
       mitigation. With the second half of the talk covering our container-based
       single instance WordPress hosting platform for VIP Clients.
 
-robert_fall:
-    name: Robert Fall
+robert_herbst:
+    name: Robert Herbst
     company: Allan Gray
-    role:
+    role: Platform Engineer
     twitter:
     github:
     country: South Africa
