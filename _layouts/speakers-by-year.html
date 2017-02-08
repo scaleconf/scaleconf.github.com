@@ -90,12 +90,12 @@ layout: base
     </div>
     <div class="row nested-row">
       <div class="col-md-offset-2 col-md-8">
-        <p>The title of the talk is <i>"{{ speaker.title }}"</i>.</p>
+        <p>The title of the talk is <i>"{{ speaker.title | strip }}"</i>.</p>
       </div>
     </div>
     <div class="row nested-row">
       <div class="col-md-offset-2 col-md-8" style="background:#eee; padding:15px;">
-        <p>{{ speaker.abstract}}</p>
+        <p>{{ speaker.abstract }}</p>
       </div>
     </div>
     {% if speaker.video %}
