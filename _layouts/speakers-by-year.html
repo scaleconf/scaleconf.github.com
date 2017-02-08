@@ -53,15 +53,15 @@ layout: base
 {% for speaker in page_speakers %}
 
 <div class="row" id="{{speaker.name | slugify }}">
-  <div class="col-md-offset-3 col-md-6 section">
+  <div class="col-md-offset-2 col-md-8 section">
     <div class="row text-center">
       <h2>{{ speaker.name }}</h2>
     </div>
     <div class="row">
-      <div class="col-md-offset-3 col-md-6">
+      <div class="col-md-offset-2 col-md-8">
         <div class="row nested-row">
-          <div class="col-md-4">
-            <img src='/img/speakers/{{speaker.name | slugify | replace: '-', '_'}}.large.jpg' style='display:inline-block; vertical-align:top; margin-right:10px; border-radius:40px; height:80px;'/>
+          <div class="col-md-3">
+            <img src='/img/speakers/{{speaker.name | slugify | replace: '-', '_'}}.large.jpg' style='display:inline-block; vertical-align:top; margin-right:10px; border-radius:40px; height:100px;'/>
           </div>
           <div class="col-md-8">
             <p>
@@ -85,17 +85,13 @@ layout: base
     </div>
     <div class="row nested-row">
       <div class="col-md-offset-2 col-md-8">
-        <p> {{ speaker.bio }} </p>
-      </div>
-    </div>
-    <div class="row nested-row">
-      <div class="col-md-offset-2 col-md-8">
-        <p>The title of the talk is <i>"{{ speaker.title | strip }}"</i>.</p>
+        <p><strong>{{ speaker.title | strip }}</strong></p>
+        <p>{{ speaker.abstract }}</p>
       </div>
     </div>
     <div class="row nested-row">
       <div class="col-md-offset-2 col-md-8" style="background:#eee; padding:15px;">
-        <p>{{ speaker.abstract }}</p>
+        <p>{{ speaker.bio }}</p>
       </div>
     </div>
     {% if speaker.video %}
