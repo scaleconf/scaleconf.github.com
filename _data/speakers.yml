@@ -1897,6 +1897,37 @@ krzysztof_debski:
         all the instancesi we run.  If you want to create or upgrade your service
         to scale it is the best place to start.
 
+mike_jones_2017:
+    name: Mike Jones
+    company: Picsa
+    role: CTO
+    country: SA
+    quote: I started out with nothing and I still have most of it left
+    twitter: imsickofmaps
+    github: imsickofmaps
+    year: 2017
+    bio: >
+      Mike is the CTO of Picsa, a company in Cape Town working with employers to
+      protect and improve the financial well‑being of their employees through
+      innovative and impactful financial products. He's still making his own coffee
+      (but is less likely to shout "MARKETING" randomly at conferences these days).
+      Born and raised in London, but now resident in Cape Town with his growing
+      family, he appreciates all that the city has to offer as an awesome place to
+      build a socially valuable business.
+    title: Just Enough Scale To Survive
+    abstract: >
+      Sometimes we can make such a big deal of picking the tools and systems we use to
+      solve the problems we perceive we have (or will have in the mythical future
+      where we're successful). We'll explore some situations of colossal over
+      complication, radical underestimation, and sanity inducing decision making
+      around the problem of building for Just Enough Scale.
+      </p><p>
+      Using previous consulting projects, personal business ventures and the current
+      work being undertaken at Picsa, Mike will provide some real world advice for not
+      getting fired while making plenty of mistakes."
+    slides:
+    video: 
+
 mike_jones:
     name: Mike Jones
     company: Western Cape Labs
