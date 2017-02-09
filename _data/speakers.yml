@@ -333,22 +333,18 @@ tyler_mcmullen_2017:
       experience in everything from web design to kernel development,
       and loathes all of it. Especially distributed systems.
     title: >
-      Building a Skyscraper with Legos: The Anatomy of a Distributed System
+      Edge Compute: The First 5000 Years
     abstract: >
-      Much has been written and said about distributed systems of many different
-      sizes, scales, and complexities. Most of the time though, what we talk about
-      are algorithms and techniques: generalities. Gossip, failure detection, and
-      leader election are discussed as if they’re a magical salve that can be
-      rubbed onto a project to make it distributed. But the practical realities of
-      distributed systems are far from straightforward.
-      </p><p>
-      In this talk, I will take a new approach, talking through the components and
-      design of a real system. The system we’ll discuss is built to perform very high
-      volumes of health checks, done across a cluster of machines for reliability and
-      scalability. It’s complex enough that we need to worry about things like gossip,
-      failure detection, leader election, logical clocks, and distributed k/v
-      components. We’ll walk through each of the major components, see how they are
-      practically built, and learn about the pain and compromises that each bring.
+      Edge compute — the idea of executing logic close to users, rather than in
+      a central system — is at the stone age of its history. What we consider
+      cutting edge today is only the beginning; with new products like Amazon
+      Lambda, the idea of pushing logic to the edge of the network has started
+      to become more mainstream. However, the big innovations are yet to come.
+      What would it take to build complete, complex applications at the edge?
+      What new, state-of-the-art tools and concepts would we need? We will
+      discuss where the edge is heading over the next several years, some ideas
+      for what it could look like, and how it could fundamentally change the way
+      you build applications.
 
 jamie_hewland:
     name: Jamie Hewland
