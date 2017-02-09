@@ -61,12 +61,13 @@ abhishek_gahlot:
     title: >
       Better Autocomplete
     abstract: >
-      How we added a better live autocomplete on Hackerrank Codepair Realtime
-      Collaborative Editor. It uses websocket, cython, nodejs, tcp optimization
-      and geographical nearby location which provides low latency completion to
-      users coding in web browsers. It provides autocompletion of many languages
-      and performs very well for thousands of users. It has separate daemon for
-      multiple languages using socket to connect to each other.
+      Code Completion is a vital feature of popular IDE’s. Our challenge was to
+      integrate it with our web based IDE on HackerRank and CodePair with lowest
+      possible latency. This session will walk you through the journey of how we
+      started, our roadblocks and to the final system which scaled to 50M requests a
+      month supporting 10+ programming languages on a user base ranging across the
+      globe. It will help you to understand the challenges of writing a low latency
+      web app and the approaches to tackle the known issues.
 
 nina_schiff:
     name: Nina Schiff
@@ -1926,7 +1927,7 @@ mike_jones_2017:
       work being undertaken at Picsa, Mike will provide some real world advice for not
       getting fired while making plenty of mistakes."
     slides:
-    video: 
+    video:
 
 mike_jones:
     name: Mike Jones
