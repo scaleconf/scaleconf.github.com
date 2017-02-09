@@ -79,10 +79,10 @@ nina_schiff:
     year: 2017
     bio: >
       Nina is a software engineer at Facebook. She currently works on the
-      software powering Facebook's custom network switches. Before that she
-      worked on the container part of Facebook's deployment system. She's
-      originally from Cape Town, went to UCT and did her time at Amazon EC2
-      before making the move to the US. Her claim to fame is taking down
+      control plane of Facebook's custom network switches. Before that she spent
+      time playing with containers as part of Facebook's deployment system.
+      She's originally from Cape Town, went to UCT and did her time at Amazon
+      EC2 before making the move to the US. Her claim to fame is taking down
       Facebook (and Instagram, Oculus and Messenger) for 30min. Good times.
     title: >
       Networking for the next billion
