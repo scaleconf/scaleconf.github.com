@@ -101,6 +101,22 @@ title: Home
 </div>
 {% endif %}
 
+<!-- Tickets - Waiting List -->
+
+{% if sections.tickets_waitinglist %}
+<div class="row" style="background:#f0f0f0; padding: 0px 0 10px; margin-top:-1px;">
+  <div class="col-md-offset-3 col-md-6 text-center section">
+    <h2>Tickets are Sold Out</h2>
+    <p class="big">
+      Add your name to the waiting list, and we'll notify you if tickets become available.
+    </p>
+    <div class='text-center'>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYeNol6suU_tSTP-VRxqq3I658NGcUWWpq0NV0LgAG6H06Dw/viewform?c=0&w=1" role="button" class="btn btn-primary">Add to Waiting List</a>
+    </div>
+  </div>
+</div>
+{% endif %}
+
 <!-- Tickets - Notify -->
 
 {% if sections.tickets_notify %}
