@@ -34,6 +34,9 @@
           {% if sections.tickets_sell %}
           <li><a href="/purchase" style="background:#418290; border-radius:2px; padding:11px; ">buy tickets</a></li>
           {% endif %}
+          {% if sections.tickets_soldout %}
+          <li style="background:#fff; border-radius:2px; padding:11px; color: #d44">SOLD OUT</li>
+          {% endif %}
         </ul>
       </div>
       <a href="/index.html">
