@@ -10,9 +10,9 @@
           event: Opening
           description: A quick welcome and introduction to the conference before we get going
         - time: 9:30 am
-          speaker: david_newman
-        - time: 10:25 am
           speaker: mike_jones_2017
+        - time: 10:25 am
+          speaker: david_newman
         - time: 11:30 am
           speaker: abhishek_gahlot
         - time: 12:15 pm
