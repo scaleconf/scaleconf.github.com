@@ -33,7 +33,7 @@
                         <img src="/img/layout/bullet.png" />
                         <span class="speaker">
                             {% if event.speaker != 'TBC' %}
-                            <a href="/speakers/{{ event.speaker }}.html">
+                            <a href="/speakers#{{ site.data.speakers[event.speaker].name | slugify }}">
                                 {{ site.data.speakers[event.speaker].name }}
                             </a>
                             {% else %}
