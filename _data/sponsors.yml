@@ -141,6 +141,21 @@ sponsors:
       <p>
       For more information, visit <a href='http://www.flickswitch.co.za/'>
       flickswitch.co.za</a>.
+  - name: fastly
+    active: true
+    active_rank: 3
+    website_text: >
+      Fastly is the only content delivery network that gives businesses complete
+      control over how they serve content, unprecedented access to real-time
+      performance analytics, and the ability to cache frequently changing content at
+      the edge.
+      <p></p>
+      Our secure, global network allows enterprises to increase revenue and
+      improve customer experiences across their websites and mobile applications while
+      maintaining fast, consistent, and reliable performance. Fastly powers popular
+      online destinations including Twitter, the Guardian, GOV.UK, Fast Company,
+      GitHub, Pinterest, and Shazam. Learn more at <a href="http://fastly.com">Fastly.com</a>
+      and follow us at <a href='https://twitter.com/fastly/'>@fastly</a>.
   - name: google
     active: true
     active_rank: 1
@@ -219,26 +234,26 @@ sponsors:
     active: true
     active_rank: 2
     website_text: >
-      JUMO believes that technology provides the opportunity to connect everyone, 
+      JUMO believes that technology provides the opportunity to connect everyone,
       everywhere with great choices.
       </p>
       <p>
-      We use only behavioural data from mobile usage to create financial identities 
-      for SMME’s. Our customers can then access a world of choice where Banks compete 
-      to provide the best savings product or working capital to grow their business. 
-      For 80% of our customers, the JUMO platform is providing their first interaction 
+      We use only behavioural data from mobile usage to create financial identities
+      for SMME’s. Our customers can then access a world of choice where Banks compete
+      to provide the best savings product or working capital to grow their business.
+      For 80% of our customers, the JUMO platform is providing their first interaction
       with a Bank.
       </p>
       <p>
-      <a href="http://www.jumo.world/">JUMO</a> has grown from a team of 7 to 250, 
-      rolling out our products across Kenya, Tanzania, Zambia, Uganda, Rwanda and 
-      Ghana with our partners, Airtel, Tigo and MTN. We use data to understand what 
-      financial opportunities people need and then we put the power of that choice 
+      <a href="http://www.jumo.world/">JUMO</a> has grown from a team of 7 to 250,
+      rolling out our products across Kenya, Tanzania, Zambia, Uganda, Rwanda and
+      Ghana with our partners, Airtel, Tigo and MTN. We use data to understand what
+      financial opportunities people need and then we put the power of that choice
       in the palm of their hands.
       </p>
       <p>
-      JUMO’s proprietary platform lets more people in more places access the benefits 
-      of digital financial services. We love mobile money and we are working hard to 
+      JUMO’s proprietary platform lets more people in more places access the benefits
+      of digital financial services. We love mobile money and we are working hard to
       each people who have not had these choices before.
       </p>
   - name: key_connections
