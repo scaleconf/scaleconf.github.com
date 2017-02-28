@@ -87,21 +87,20 @@ nina_schiff:
     title: >
       Networking for the next billion
     abstract: >
-      Facebook’s usage has grown to the point where it faces a unique problem - there
-      simply aren’t that many Internet-connected people left who aren’t already using
-      FB. This means that in order to continue the company’s mission of connecting the
-      world, we have to focus on how to bring the remaining 60% of the world onto the
-      Internet. This requires shifts in thinking, innovation in technology and above
-      all else, finding a way to scale this technology so that we can provide as much
-      to as many with the lowest cost. In this talk I’ll discuss how Facebook is using
-      a multifaceted approach to this problem. From terrestrial projects like
-      Terragraph and Ares, which focus on providing efficient, fast, cheap and
-      scalable WiFi for dense urban areas, to UAVs and satellites, like the Aquila
-      project, aimed at connecting rural communities not already reached by cellular
-      networks. And finally, to Facebook’s Fabric network topology and custom FBOSS
-      switches which help us to grow our networking capabilities along with our user
-      base. In this talk I will discuss how these projects have pushed the boundaries
-      of networking and the lessons learnt along the way.
+      Facebook’s user-base is quickly approaching the total number of users
+      connected to the Internet. Which means that in order to continue the
+      company’s mission of connecting the world, we have to focus on connectivity
+      itself. Finding a way to bring the remaining 60% of the world onto the
+      Internet. This requires shifts in thinking, innovation in technology and
+      above all else, finding a way to scale this technology so that we can
+      provide as much to as many with the lowest cost. In this talk I’ll discuss
+      how Facebook is using a multifaceted approach to this problem. From
+      terrestrial projects like Terragraph and ARIES, which focus on providing
+      efficient, fast, cheap and scalable wireless Internet for dense urban areas,
+      to UAVs and satellites, like the Aquila project, aimed at connecting rural
+      communities not already reached by cellular networks. This talk will discuss
+      how these projects have pushed the boundaries of networking in both hardware
+      and software, as well as the lessons learnt along the way. Also lasers.
 
 david_newman:
     name: David Newman
