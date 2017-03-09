@@ -11,17 +11,29 @@
           description: A quick welcome and introduction to the conference before we get going
         - time: 9:30 am
           speaker: mike_jones_2017
+        - time: 10:15 am - 10:25 am
+          event: Break
+          description: A quick changeover & pee-break
         - time: 10:25 am
           speaker: david_newman
+        - time: 11:10 am - 11:30 am
+          event: Break
+          description: Mid-morning tea & coffee with scones and biscuits
         - time: 11:30 am
           speaker: abhishek_gahlot
-        - time: 12:15 pm
+        - time: 12:15 pm - 1:45 pm
           event: Lunch
           description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
         - time: 1:45 pm
           speaker: william_stewart
+        - time: 2:30 pm - 2:45 pm
+          event: Break
+          description: Afternoon tea & coffee with biscuits
         - time: 2:45 pm
           speaker: cobus_bernard
+        - time: 3:30 pm - 3:50 pm
+          event: Break
+          description: A quick changeover & pee-break
         - time: 3:50 pm
           speaker: tyler_mcmullen_2017
     - day: Thursday evening, 9th March
@@ -39,17 +51,29 @@
           description: Tea and coffee will be served
         - time: 9:15 am
           speaker: matthew_clark
+        - time: 10:00 am - 10:10 am
+          event: Break
+          description: A quick changeover & pee-break
         - time: 10:10 am
           speaker: bruce_merry
+        - time: 10:55 am - 11:25 am
+          event: Break
+          description: Mid-morning tea & coffee with scones and biscuits
         - time: 11:25 am
           speaker: adrian_cole
-        - time: 12:15 pm
+        - time: 12:15 pm - 1:30 pm
           event: Lunch
           description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
         - time: 1:30 pm
           speaker: izak_marais
+        - time: 2:15 pm - 2:30 pm
+          event: Break
+          description: A quick changeover & pee-break
         - time: 2:30 pm
           speaker: robert_herbst
+        - time: 3:15 pm - 3:40 pm
+          event: Break
+          description: Afternoon tea & coffee with biscuits
         - time: 3:40 pm
           speaker: nina_schiff
     - day: Friday evening, 10th March
