@@ -3,7 +3,7 @@ quicket_productid: 13990
 
 waiting_list_url: https://docs.google.com/forms/d/1WOB3UD0XMfljzwqoqvqIw36xnuDbPs0RcjZDG5_L_4o/viewform
 
-current_year: 2017
+current_year: 2018
 years:
   - 2017
   - 2016
@@ -12,14 +12,14 @@ years:
   - 2013
 
 homepage_sections:
-  upcoming_conference: false
+  upcoming_conference: true 
   tickets_sell: false
-  tickets_soldout: true
-  tickets_waitinglist: true
-  tickets_notify: false
-  current_speakers: true
-  previous_speakers: false
-  sponsors: true
+  tickets_soldout: false
+  tickets_waitinglist: false
+  tickets_notify: true
+  current_speakers: false
+  previous_speakers: true
+  sponsors: false
 navigation:
   submit: false
-  schedule: true
+  schedule: false

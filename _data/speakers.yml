@@ -187,6 +187,7 @@ izak_marais:
     github:
     country: South Africa
     year: 2017
+    landing_page: false
     bio: >
       Izak Marais is a software engineer at Vastech. Currently he works on the
       distributed system described in the talk. His previous work at Vastech
@@ -291,7 +292,7 @@ matthew_clark:
     github:
     country: England
     year: 2017
-    landing_page: false
+    landing_page: true 
     bio: >
       Matthew Clark is a lead technical architect at the BBC. He’s been responsible
       for the design and delivery of some of the BBC’s biggest online projects. This
@@ -402,7 +403,6 @@ michael_needham:
     twitter: smneedham
     github: smneedham
     country: South Africa
-    landing_page: true
     year: 2016
     bio: >
       In this role Michael is supporting internal teams and directly working
@@ -765,7 +765,6 @@ tyler_mcmullen:
     twitter: tbmcmullen
     github: tyler
     country: USA
-    landing_page: true
     year: 2016
     bio: >
         Tyler McMullen is CTO at Fastly, where he’s responsible for the
@@ -1328,6 +1327,7 @@ maggie_zhou:
     country: USA
     twitter: zmagg
     year: 2015
+    landing_page: true
     bio: >
         Maggie works on the Core Platform team at Etsy where she builds infrastructure to manage scaling
         challenges in data storage and the web stack. She reads books, rides bicycles, and drinks
@@ -1502,7 +1502,6 @@ aslam_khan:
     name: Aslam Khan
     role: Software Developer
     twitter: aslamkhn
-    landing_page: true
     year: 2014
     bio: >
         Aslam is an African software developer, by birth, by choice
@@ -1963,6 +1962,7 @@ miles_ward:
     quote: A decade of experience building global-scale analysis infrastructures
     twitter: milesward
     github: milesward
+    landing_page: true
     year: 2013
     bio: >
         Miles is a three-time technology startup entrepreneur with a decade of experience
