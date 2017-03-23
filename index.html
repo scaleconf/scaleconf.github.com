@@ -16,7 +16,7 @@ title: Home
       using modern technologies and philosophies.
     </p>
     <p class="big" style="color:#204e5e">
-      8-9 March 2018<br/>
+      {{ site.data.config.dates }}<br/>
       Kirstenbosch Botanical Gardens<br/>
       Cape Town, South Africa
     </p>
@@ -35,7 +35,7 @@ title: Home
       <div class="col-md-4">
         <h3>Info</h3>
         <ul class='info-list'>
-          <li>8th-9th March 2017</li>
+          <li>{{ site.data.config.dates }}</li>
           <li>Kirstenbosch Botanical Gardens, Cape Town, South Africa</li>
         </ul>
       </div>
@@ -60,7 +60,7 @@ title: Home
 <!-- This Years Speakers -->
 
 {% if sections.current_speakers %}
-{% assign current_speakers = site.data.speakers | where:"year", "2017" %}
+{% assign current_speakers = site.data.speakers | where:"year", site.data.current_year %}
 <div class="row">
   <div class="col-md-offset-3 col-md-6 section">
     <div class="row text-center">
