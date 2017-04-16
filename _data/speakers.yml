@@ -47,6 +47,7 @@ adrian_cole:
       When you leave, you'll at least know something about distributed
       tracing, and hopefully be on your way to blaming things for causing
       latency!
+    video: 0VxbDbCSoDM
 
 abhishek_gahlot:
     name: Abhishek Gahlot
@@ -68,6 +69,7 @@ abhishek_gahlot:
       month supporting 10+ programming languages on a user base ranging across the
       globe. It will help you to understand the challenges of writing a low latency
       web app and the approaches to tackle the known issues.
+    video: r8cZ2HL2NfI
 
 nina_schiff:
     name: Nina Schiff
@@ -102,6 +104,7 @@ nina_schiff:
       This talk will discuss how these projects have pushed the boundaries of
       networking in both hardware and software, as well as the lessons learnt
       along the way. Also lasers.
+    video: xCZOGZf_Pnc
 
 david_newman:
     name: David Newman
@@ -131,6 +134,7 @@ david_newman:
       caching, images, etc., as well as some focus on code deployment and DDoS
       mitigation. With the second half of the talk covering our container-based
       single instance WordPress hosting platform for VIP Clients.
+    video: cs0DcY80spw
 
 robert_herbst:
     name: Robert Herbst
@@ -178,6 +182,7 @@ robert_herbst:
       cultural talk with examples of how technologies can be used to change
       culture. I won't be talking about scaling container clusters but rather
       about how container clusters might be used to enable innovation at scale.
+    video: YUzBSYr48w8
 
 izak_marais:
     name: Izak Marais
@@ -233,6 +238,7 @@ bruce_merry:
       MeerKAT telescope. I'll start with a brief overview of the Mesos
       architecture, explain some of the problems that we didn't feel could be
       solved by Marathon, and talk about what was easy and what wasn't.
+    video: OIFhC_q6Jqw
 
 cobus_bernard:
     name: Cobus Bernard
@@ -261,6 +267,7 @@ cobus_bernard:
       November 2016 and are preparing for the next 10x in early 2017. This talk
       will focus on managing DNS, configurations for multiple environments and
       automating infrastructure with Terraform on AWS.
+    video: Blmi2mMQ4tY
 
 william_stewart:
     name: William Stewart
@@ -283,6 +290,7 @@ william_stewart:
       over, all nodes becoming unschedulable for services, running stateful
       stuff like Kafka and Elastic Search in Kubernetes, and with moving local
       development from Vagrant and Virtualbox to Minikube on xhyve and KVM.
+    video: 3PvYGbNKdMQ
 
 matthew_clark:
     name: Matthew Clark
@@ -292,7 +300,7 @@ matthew_clark:
     github:
     country: England
     year: 2017
-    landing_page: true 
+    landing_page: true
     bio: >
       Matthew Clark is a lead technical architect at the BBC. He’s been responsible
       for the design and delivery of some of the BBC’s biggest online projects. This
@@ -314,6 +322,7 @@ matthew_clark:
       approach: microservices that are quick and easy to make, fast and reliable, and
       globally scalable. The talk will look at how the BBC architects and runs its
       microservices, including the lessons learned, and what the future holds next.
+    video: ZIzpTSd_y9U
 
 tyler_mcmullen_2017:
     name: Tyler McMullen
@@ -346,6 +355,7 @@ tyler_mcmullen_2017:
       discuss where the edge is heading over the next several years, some ideas
       for what it could look like, and how it could fundamentally change the way
       you build applications.
+    video: 9KDPNj8oy3k
 
 jamie_hewland:
     name: Jamie Hewland
@@ -1922,7 +1932,7 @@ mike_jones_2017:
       work being undertaken at Picsa, Mike will provide some real world advice for not
       getting fired while making plenty of mistakes.
     slides:
-    video:
+    video: QV3i_-_mscI
 
 mike_jones:
     name: Mike Jones
