@@ -47,7 +47,7 @@ adrian_cole:
       When you leave, you'll at least know something about distributed
       tracing, and hopefully be on your way to blaming things for causing
       latency!
-    video:
+    video: 0VxbDbCSoDM
 
 abhishek_gahlot:
     name: Abhishek Gahlot
@@ -104,7 +104,7 @@ nina_schiff:
       This talk will discuss how these projects have pushed the boundaries of
       networking in both hardware and software, as well as the lessons learnt
       along the way. Also lasers.
-    video:
+    video: xCZOGZf_Pnc
 
 david_newman:
     name: David Newman
@@ -238,7 +238,7 @@ bruce_merry:
       MeerKAT telescope. I'll start with a brief overview of the Mesos
       architecture, explain some of the problems that we didn't feel could be
       solved by Marathon, and talk about what was easy and what wasn't.
-    video:
+    video: OIFhC_q6Jqw
 
 cobus_bernard:
     name: Cobus Bernard
@@ -290,7 +290,7 @@ william_stewart:
       over, all nodes becoming unschedulable for services, running stateful
       stuff like Kafka and Elastic Search in Kubernetes, and with moving local
       development from Vagrant and Virtualbox to Minikube on xhyve and KVM.
-    video:
+    video: 3PvYGbNKdMQ
 
 matthew_clark:
     name: Matthew Clark
@@ -355,7 +355,7 @@ tyler_mcmullen_2017:
       discuss where the edge is heading over the next several years, some ideas
       for what it could look like, and how it could fundamentally change the way
       you build applications.
-    video:
+    video: 9KDPNj8oy3k
 
 jamie_hewland:
     name: Jamie Hewland
