@@ -21,8 +21,6 @@ sponsors:
       solutions to improve the health and wellbeing of people living in poverty.
       Our programmes have reached over 50 million people across 15 countries in
       sub-Saharan Africa
-  - name: '2go'
-      will then download the 2go application and you can begin chatting!
   - name: allan_gray
     active: true
     active_rank: 3
@@ -98,8 +96,8 @@ sponsors:
       vacancies, please go to the <a
       href='http://www.adccpt.co.za/?page_id=19'>Job opportunities</a> page.
   - name: elasticsearch
-      active: false
-      active_rank: 2
+    active: false
+    active_rank: 2
     website_text: >
       Elasticsearch is on a mission to make massive amounts of data usable for
       businesses everywhere by delivering the world's most advanced search and
@@ -123,8 +121,8 @@ sponsors:
       real-time, and interconnected services for the 1.2 billion people who visit
       Facebook every month.
   - name: flickswitch
-      active: false
-      active_rank: 2
+    active: false
+    active_rank: 2
     website_text: >
       Flickswitch lets you take control of your enterprise SIM cards. Managing large
       numbers of device and M2M SIMs does not need to be painful. Flickswitch gives
