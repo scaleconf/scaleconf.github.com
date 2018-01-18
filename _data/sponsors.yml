@@ -1,6 +1,8 @@
 # 2014: ["praekelt", "2go", "amazon", "elasticsearch", "facebook", "google", "hetzner", "key_connections", "mxit", "oracle", "rackspace", "rsaweb", "microsoft"]
 # 2015: ["takealot", "google", "rsaweb", "hetzner", "oracle", "2go", "ventureburn", "amazon", "key_connections"]
-# 2016: ["takealot", "google", "rsaweb", "hetzner", "oracle", "offerzen"]
+# 2016: ["takealot", "google", "rsaweb", "hetzner", "oracle", "offerzen", "amazon"]
+# 2017: ["takealot", "google", "oracle", "offerzen", "allan_gray", "fastly", "jumo", "amazon", "impact_radius"]
+# 2018" ["takealot", "amazon", "allan_gray", "offerzen"]
 
 sponsors:
   - name: ventureburn
@@ -20,19 +22,6 @@ sponsors:
       Our programmes have reached over 50 million people across 15 countries in
       sub-Saharan Africa
   - name: '2go'
-    website_text: >
-      2go is a mobile messenger that allows you to communicate for free with your
-      friends. It is a network of millions of people where you can setup your
-      profile, meet new people, talk to friends, share files and pictures!
-      </p>
-      <p>
-      2go allows you to communicate with your friends for free. 2go does require a
-      network connection which your mobile operator charges you a small amount
-      for, but this costs much less than it would cost to send an SMS.
-      </p>
-      <p>
-      With your mobile phone, visit <a href='http://wap.2go.im'>wap.2go.im</a>
-      where you will need to fill in a very simple registration form. Your phone
       will then download the 2go application and you can begin chatting!
   - name: allan_gray
     active: true
@@ -109,6 +98,8 @@ sponsors:
       vacancies, please go to the <a
       href='http://www.adccpt.co.za/?page_id=19'>Job opportunities</a> page.
   - name: elasticsearch
+      active: false
+      active_rank: 2
     website_text: >
       Elasticsearch is on a mission to make massive amounts of data usable for
       businesses everywhere by delivering the world's most advanced search and
@@ -132,6 +123,8 @@ sponsors:
       real-time, and interconnected services for the 1.2 billion people who visit
       Facebook every month.
   - name: flickswitch
+      active: false
+      active_rank: 2
     website_text: >
       Flickswitch lets you take control of your enterprise SIM cards. Managing large
       numbers of device and M2M SIMs does not need to be painful. Flickswitch gives
@@ -142,7 +135,7 @@ sponsors:
       For more information, visit <a href='http://www.flickswitch.co.za/'>
       flickswitch.co.za</a>.
   - name: fastly
-    active: true
+    active: false
     active_rank: 3
     website_text: >
       Fastly is the only content delivery network that gives businesses complete
@@ -157,7 +150,7 @@ sponsors:
       GitHub, Pinterest, and Shazam. Learn more at <a href="http://fastly.com">Fastly.com</a>
       and follow us at <a href='https://twitter.com/fastly/'>@fastly</a>.
   - name: google
-    active: true
+    active: false
     active_rank: 1
     website_text: >
       Google's innovative search technologies connect millions of people around
@@ -175,6 +168,8 @@ sponsors:
       developers.google.com</a>, and follow us on
       <a href='https://plus.google.com/+GoogleDevelopers'>Google+</a>.
   - name: hetzner
+    active: false
+    active_rank: 2
     website_text: >
       At Hetzner South Africa we are passionate about web hosting – it's our
       core business and it's what we do best. By consistently delivering
@@ -193,7 +188,7 @@ sponsors:
       trust.
   - name: impact_radius
     second_logo: forensiq
-    active: true
+    active: false
     active_rank: 3
     website_text: >
       Impact Radius' digital marketing platform enables significant improvement in the
@@ -231,7 +226,7 @@ sponsors:
       <a href='http://www.impactradius.com'>www.impactradius.com</a> |
       <a href='http://www.forensiq.com'>www.forensiq.com</a>
   - name: jumo
-    active: true
+    active: false
     active_rank: 2
     website_text: >
       JUMO believes that technology provides the opportunity to connect everyone,
@@ -257,6 +252,8 @@ sponsors:
       each people who have not had these choices before.
       </p>
   - name: key_connections
+    active: false
+    active_rank: 2
     website_text: >
       Key Connections is  a technology recruitment company that specialises in
       placing developers throughout South Africa. We're not like other “tech
@@ -285,7 +282,7 @@ sponsors:
       <p>
       Sign up today at <a href='https://www.offerzen.com/'>www.offerzen.com</a>
   - name: oracle
-    active: true
+    active: false
     active_rank: 3
     website_text: >
       <b>Oracle Cloud Development Centre - Cape Town</b>
@@ -313,9 +310,9 @@ sponsors:
       from providing extensive training and professional development to ensuring our
       employees enjoy excellent benefits and opportunities, from a flexible working
       environment to health and medical benefits.
-  - name: rackspace
-    website_text: ""
   - name: rsaweb
+    active: false
+    active_rank: 2
     website_text: >
       Since being established in 2001, RSAWEB has grown rapidly, gaining
       extensive industry experience while continuously improving on, and
@@ -347,19 +344,19 @@ sponsors:
     active: true
     active_rank: 2
     website_text: >
-      <b><a href='http://www.takealot.com'>takealot.com</a>'s mission is to be the most customer-centric online shopping
-      destination in Africa. Our company is built around the simple concept that
-      the customer comes first.</b>
+      <b><a href='http://www.takealot.com'>takealot.com</a>'s mission is to be
+      the most customer-centric online shopping destination in Africa. Our
+      company is built around the simple concept that the customer comes first.</b>
       </p>
       <p>
-      We recognise that our success hinges on our
-      ability to delight our customers with superior customer service. All of
-      our focus is dedicated to improving the customer experience, from the
-      moment you arrive on our website and place your order to the moment it
-      arrives at your door and any occasional hiccups that may occur during and
-      after delivery (We strive to be perfect but things do happen…). By
-      aligning ourselves to this philosophy, we believe takealot.com will be the
-      number one shopping destination across Africa.
+      We recognise that our success hinges on our ability to delight our
+      customers with superior customer service. All of our focus is dedicated
+      to improving the customer experience, from the moment you arrive on our
+      website and place your order to the moment it arrives at your door and
+      any occasional hiccups that may occur during and after delivery (We strive
+      to be perfect but things do happen…). By aligning ourselves to this
+      philosophy, we believe takealot.com will be the number one shopping
+      destination across Africa.
   - name: microsoft
     website_text: >
       <b>
@@ -425,21 +422,3 @@ sponsors:
       </p>
       <p>
       To learn more about Microsoft Azure visit our website - <a href='http://aka.ms/azuresa'>aka.ms/azuresa</a>
-  - name: wonderland
-    website_text: >
-      <b>
-      A design focused, creative studio with offices in Cape Town and London
-      </b>
-      </p>
-      <p>
-      We are innovative thinkers with a lust for the extraordinary. Wonderland Collective
-      was established with a vision of helping brands to execute on their ideas. Great
-      ideas are a good starting point, but impeccable execution on those ideas is what
-      brings them to life. We approach projects with a passion that takes us on a creative
-      journey with the brands we work with. Above all, we care.
-      </p>
-      <p>
-      During our discovery sessions we aim to understand what platforms best brings your ideas
-      to life, whether it be through branding, illustration, digital or experiential. We have
-      managed significant and complex projects, working internationally with clients in London,
-      Canada, Netherlands, Germany and Australia or locally in South Africa.
