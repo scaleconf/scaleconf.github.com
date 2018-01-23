@@ -2,7 +2,7 @@
 # 2015: ["takealot", "google", "rsaweb", "hetzner", "oracle", "2go", "ventureburn", "amazon", "key_connections"]
 # 2016: ["takealot", "google", "rsaweb", "hetzner", "oracle", "offerzen", "amazon"]
 # 2017: ["takealot", "google", "oracle", "offerzen", "allan_gray", "fastly", "jumo", "amazon", "impact_radius"]
-# 2018" ["takealot", "amazon", "allan_gray", "offerzen"]
+# 2018" ["takealot", "amazon", "allan_gray", "offerzen", "impact_radius"]
 
 sponsors:
   - name: ventureburn
@@ -186,8 +186,8 @@ sponsors:
       trust.
   - name: impact_radius
     second_logo: forensiq
-    active: false
-    active_rank: 3
+    active: true
+    active_rank: 4
     website_text: >
       Impact Radius' digital marketing platform enables significant improvement in the
       return on global advertising spend for brands and agencies. The company provides
