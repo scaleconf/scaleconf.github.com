@@ -186,7 +186,7 @@ sponsors:
       trust.
   - name: impact_radius
     second_logo: forensiq
-    active: false
+    active: true
     active_rank: 3
     website_text: >
       Impact Radius' digital marketing platform enables significant improvement in the
