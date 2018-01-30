@@ -148,7 +148,7 @@ sponsors:
       GitHub, Pinterest, and Shazam. Learn more at <a href="http://fastly.com">Fastly.com</a>
       and follow us at <a href='https://twitter.com/fastly/'>@fastly</a>.
   - name: google
-    active: false
+    active: true
     active_rank: 1
     website_text: >
       Google's innovative search technologies connect millions of people around

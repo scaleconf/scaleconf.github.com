@@ -13,6 +13,54 @@
     #
     # abstract: >
 
+mary_racter:
+    name: Mary Racter
+    company: Praekelt
+    role: Security Engineer
+    twitter: mracter
+    github:
+    country: South Africa
+    year: 2018
+    bio: >
+      Born and bred on dirty tricks. Security Engineer at Praekelt.org, a non-profit foundation focused on building digital solutions to improving quality of life in the majority world. Worked at MWR InfoSecurity as a penetration tester until moving on to Praekelt.org to connect information security with strengthening human rights in the digital age. Once ate an entire pack of lemon creams for supper.
+    title: >
+      Automation Patterns for Scalable Secret Management
+    abstract: >
+      So you’ve scaled your app up to 1000 instances. Do they all share the same credentials for access to stateful resources? Then the attack surface for your stateful resources just got scaled up too. Automated secret management lets you focus on scaling up your app, not your risk of data compromise.
+    video:
+
+cooper_lees:
+    name: Cooper Lees
+    company: Facebook
+    role: Production Engineer
+    twitter: cooperlees
+    github: cooperlees
+    country: USA
+    year: 2018
+    bio: >
+      I’m an Aussie who’s been at Facebook for almost 5 years. Previous to Facebook I worked for Juniper Networks via contact all over APAC, and was once a UNIX Systems admin @ the Australian Nuclear Science and Technology Organization. I love modern computing technology, of late IPv6 and Python 3. I have helped with the efforts of pushing both to Facebook and associate companies.
+    title: >
+      The time for Python 3 is NOW!
+    abstract: >
+      Run a lot of Python at your company? You running old, slow, unloved Python <=2.7.14? You shouldn’t be! Come and see why! With tips on moving and examples including the Instagram Backend code. You should leave this talk inspired to move all your projects straight to Python 3.7, No Looking Back!
+    video:
+
+aslam_khan:
+    name: Aslam Khan
+    company: Samushonga, Khan and Baker
+    role:
+    twitter: aslamkhn
+    github:
+    country: South Africa
+    year: 2018
+    bio: >
+      Aslam is an African technologist and strategist. He consults to large enterprises looking to shift gears, and to startups that are off the runway trying the same. He spends his time with his friends at Samushonga, Khan and Baker where they sharpen enterprise strategy and execute on its implementation; focusing on people to lines of code and the weird stuff in between. After all, what is the value of a strategy that can’t be delivered?
+    title: >
+      Scale the Right Stuff Right
+    abstract: >
+      Two things happen over time: we need to adapt to changes, and complexity increases. Contrast that with the urgent plea of “We need to scale”. The problem is obvious. Do it wrong, and we scale the problem. The answer lies in key decisions on where to start, then what to do, how to do it and why.
+    video:
+
 adrian_cole:
     name: Adrian Cole
     company: Pivotal
@@ -1508,7 +1556,7 @@ simbarashe_nyatsa:
         RESTful services, performance gotchas, single code base for designers and developers
         and its effect on building a portable client and scalable server code.
 
-aslam_khan:
+aslam_khan_2014:
     name: Aslam Khan
     role: Software Developer
     twitter: aslamkhn
