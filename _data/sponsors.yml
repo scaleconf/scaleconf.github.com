@@ -148,8 +148,8 @@ sponsors:
       GitHub, Pinterest, and Shazam. Learn more at <a href="http://fastly.com">Fastly.com</a>
       and follow us at <a href='https://twitter.com/fastly/'>@fastly</a>.
   - name: google
-    active: true
-    active_rank: 1
+    active: false
+    active_rank: 2
     website_text: >
       Google's innovative search technologies connect millions of people around
       the world with information every day. Founded in 1998 by Stanford Ph.D.

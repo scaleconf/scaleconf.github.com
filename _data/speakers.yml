@@ -61,6 +61,51 @@ aslam_khan:
       Two things happen over time: we need to adapt to changes, and complexity increases. Contrast that with the urgent plea of “We need to scale”. The problem is obvious. Do it wrong, and we scale the problem. The answer lies in key decisions on where to start, then what to do, how to do it and why.
     video:
 
+michael_widenius:
+    name: Michael "Monty" Widenius
+    company: MariaDB
+    role: CTO
+    twitter: montywi
+    github:
+    country: Finland
+    year: 2018
+    bio: >
+      Monty started working on precursors to MySQL in 1981, released MySQL in 1995 and has been developing MySQL and its fork MariaDB ever since. Currently the CTO of MariaDB Corporation, he’s still a highly active developer, and loves nothing more than intense technical discussions.
+    title: >
+      MariaDB Solutions for Handling Big Data
+    abstract: >
+      MariaDB is an open source DBMS used by organisations running some of the largest and most heavily-used databases in the world. This talk covers some of the innovations MariaDB, with its active community of contributors, has been making in supporting large-scale systems.
+
+dominic_white:
+    name: Dominic White
+    company: SensePost
+    role: CTO
+    twitter: singe
+    github: singe
+    country: South Africa
+    year: 2018
+    bio: >
+      Dominic is SensePost's CTO and has been hacking/securing stuff for 12 years.
+    title: >
+      Hacking and Defending Systems at Scale
+    abstract: >
+      During the last 18 years of hacking systems and networks, hacking could be described as "looking for the one place somebody screwed up". This is premised on the idea that scale aids an attacker, because even a low incidence of security screw ups, turns into ample fodder at scale. Modern tools were going to save us. If we could deploy infrastructure as code, applying patches is as simple as rebuilding our Docker/Packer image, or updating one line in our Chef recipe. Containerisation means we can have security boundaries around our microservices, so a compromise of one, doesn't lead to a compromise of the whole application. And large infrastructure providers means best in the world security teams that can lock down their infrastructure. In this talk, we'd like to discuss the common security flaws we see in large networks (with some anecdotes from our own experiences) and ways of designing networks and systems to avoid them (also with some anecdotes).
+
+marc_peiser:
+    name: Marc Peiser
+    company: SensePost
+    role: IT Manager
+    twitter: marcpeiser
+    github: marcpeiser
+    country: South Africa
+    year: 2018
+    bio: >
+      Marc is SensePost's IT manager and has had to build a network that is constantly attacked from the inside. Previously, he was the primary system engineer at CloudAfrica.
+    title: >
+      Hacking and Defending Systems at Scale
+    abstract: >
+      During the last 18 years of hacking systems and networks, hacking could be described as "looking for the one place somebody screwed up". This is premised on the idea that scale aids an attacker, because even a low incidence of security screw ups, turns into ample fodder at scale. Modern tools were going to save us. If we could deploy infrastructure as code, applying patches is as simple as rebuilding our Docker/Packer image, or updating one line in our Chef recipe. Containerisation means we can have security boundaries around our microservices, so a compromise of one, doesn't lead to a compromise of the whole application. And large infrastructure providers means best in the world security teams that can lock down their infrastructure. In this talk, we'd like to discuss the common security flaws we see in large networks (with some anecdotes from our own experiences) and ways of designing networks and systems to avoid them (also with some anecdotes).
+
 adrian_cole:
     name: Adrian Cole
     company: Pivotal
