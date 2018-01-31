@@ -1,5 +1,5 @@
 
-quicket_productid: 13990
+quicket_productid: 34637
 
 waiting_list_url: https://docs.google.com/forms/d/1WOB3UD0XMfljzwqoqvqIw36xnuDbPs0RcjZDG5_L_4o/viewform
 
@@ -16,14 +16,14 @@ years:
 dates: 8-9 March 2018
 
 homepage_sections:
-  upcoming_conference: true
-  tickets_sell: false
+  upcoming_conference: false
+  tickets_sell: true
   tickets_soldout: false
   tickets_waitinglist: false
-  tickets_notify: true
-  current_speakers: false
-  previous_speakers: true
-  sponsors: false
+  tickets_notify: false
+  current_speakers: true
+  previous_speakers: false
+  sponsors: true
 navigation:
   submit: false
   schedule: false

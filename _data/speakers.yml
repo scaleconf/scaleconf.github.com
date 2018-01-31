@@ -6,12 +6,153 @@
     # twitter:
     # github:
     # country:
-    # year: 2017
+    # year: 2018
     # bio: >
     #
     # title: >
     #
     # abstract: >
+
+mary_racter:
+    name: Mary Racter
+    company: Praekelt
+    role: Security Engineer
+    twitter: mracter
+    github:
+    country: South Africa
+    year: 2018
+    bio: >
+      Born and bred on dirty tricks. Security Engineer at Praekelt.org, a non-profit foundation focused on building digital solutions to improving quality of life in the majority world. Worked at MWR InfoSecurity as a penetration tester until moving on to Praekelt.org to connect information security with strengthening human rights in the digital age. Once ate an entire pack of lemon creams for supper.
+    title: >
+      Automation Patterns for Scalable Secret Management
+    abstract: >
+      So you’ve scaled your app up to 1000 instances. Do they all share the same credentials for access to stateful resources? Then the attack surface for your stateful resources just got scaled up too. Automated secret management lets you focus on scaling up your app, not your risk of data compromise.
+    video:
+
+cooper_lees:
+    name: Cooper Lees
+    company: Facebook
+    role: Production Engineer
+    twitter: cooperlees
+    github: cooperlees
+    country: USA
+    year: 2018
+    bio: >
+      I’m an Aussie who’s been at Facebook for almost 5 years. Previous to Facebook I worked for Juniper Networks via contact all over APAC, and was once a UNIX Systems admin @ the Australian Nuclear Science and Technology Organization. I love modern computing technology, of late IPv6 and Python 3. I have helped with the efforts of pushing both to Facebook and associate companies.
+    title: >
+      The time for Python 3 is NOW!
+    abstract: >
+      Run a lot of Python at your company? You running old, slow, unloved Python <=2.7.14? You shouldn’t be! Come and see why! With tips on moving and examples including the Instagram Backend code. You should leave this talk inspired to move all your projects straight to Python 3.7, No Looking Back!
+    video:
+
+aslam_khan:
+    name: Aslam Khan
+    company: Samushonga, Khan and Baker
+    role:
+    twitter: aslamkhn
+    github:
+    country: South Africa
+    year: 2018
+    bio: >
+      Aslam is an African technologist and strategist. He consults to large enterprises looking to shift gears, and to startups that are off the runway trying the same. He spends his time with his friends at Samushonga, Khan and Baker where they sharpen enterprise strategy and execute on its implementation; focusing on people to lines of code and the weird stuff in between. After all, what is the value of a strategy that can’t be delivered?
+    title: >
+      Scale the Right Stuff Right
+    abstract: >
+      Two things happen over time: we need to adapt to changes, and complexity increases. Contrast that with the urgent plea of “We need to scale”. The problem is obvious. Do it wrong, and we scale the problem. The answer lies in key decisions on where to start, then what to do, how to do it and why.
+    video:
+
+michael_widenius:
+    name: Michael "Monty" Widenius
+    company: MariaDB
+    role: CTO
+    twitter: montywi
+    github:
+    country: Finland
+    year: 2018
+    bio: >
+      Monty started working on precursors to MySQL in 1981, released MySQL in 1995 and has been developing MySQL and its fork MariaDB ever since. Currently the CTO of MariaDB Corporation, he’s still a highly active developer, and loves nothing more than intense technical discussions.
+    title: >
+      MariaDB Solutions for Handling Big Data
+    abstract: >
+      MariaDB is an open source DBMS used by organisations running some of the largest and most heavily-used databases in the world. This talk covers some of the innovations MariaDB, with its active community of contributors, has been making in supporting large-scale systems.
+
+dominic_white:
+    name: Dominic White
+    company: SensePost
+    role: CTO
+    twitter: singe
+    github: singe
+    country: South Africa
+    year: 2018
+    bio: >
+      Dominic is SensePost's CTO and has been hacking/securing stuff for 12 years.
+    title: >
+      Hacking and Defending Systems at Scale
+    abstract: >
+      During the last 18 years of hacking systems and networks, hacking could be described as "looking for the one place somebody screwed up". This is premised on the idea that scale aids an attacker, because even a low incidence of security screw ups, turns into ample fodder at scale. Modern tools were going to save us. If we could deploy infrastructure as code, applying patches is as simple as rebuilding our Docker/Packer image, or updating one line in our Chef recipe. Containerisation means we can have security boundaries around our microservices, so a compromise of one, doesn't lead to a compromise of the whole application. And large infrastructure providers means best in the world security teams that can lock down their infrastructure. In this talk, we'd like to discuss the common security flaws we see in large networks (with some anecdotes from our own experiences) and ways of designing networks and systems to avoid them (also with some anecdotes).
+
+marc_peiser:
+    name: Marc Peiser
+    company: SensePost
+    role: IT Manager
+    twitter: marcpeiser
+    github: marcpeiser
+    country: South Africa
+    year: 2018
+    bio: >
+      Marc is SensePost's IT manager and has had to build a network that is constantly attacked from the inside. Previously, he was the primary system engineer at CloudAfrica.
+    title: >
+      Hacking and Defending Systems at Scale
+    abstract: >
+      During the last 18 years of hacking systems and networks, hacking could be described as "looking for the one place somebody screwed up". This is premised on the idea that scale aids an attacker, because even a low incidence of security screw ups, turns into ample fodder at scale. Modern tools were going to save us. If we could deploy infrastructure as code, applying patches is as simple as rebuilding our Docker/Packer image, or updating one line in our Chef recipe. Containerisation means we can have security boundaries around our microservices, so a compromise of one, doesn't lead to a compromise of the whole application. And large infrastructure providers means best in the world security teams that can lock down their infrastructure. In this talk, we'd like to discuss the common security flaws we see in large networks (with some anecdotes from our own experiences) and ways of designing networks and systems to avoid them (also with some anecdotes).
+
+david_townshend:
+    name: David Townshend
+    company: Allan Gray
+    role: Software Engineer
+    twitter:
+    github:
+    country: South Africa
+    year: 2018
+    bio: >
+      I am a Civil Engineer turned Software Engineer and I’ve been writing code since the 90s. Having spent 10 years slowly transitioning my career from designing water pipelines to integration pipelines, I now lead the SRE team at Allan gray, focusing on how to get software into production reliably and efficiently. I have twin 3 year old daughters who live in an energy state somewhere just above that of nuclear fission, so I look forward to Monday mornings when I can get some time off at work to recover.
+    title: >
+      Monolith to Microservices
+    abstract: >
+      The story of how Allan Gray moved from traditional .Net monolith to polyglot linux-based microservices, with a cast including Kubernetes, Gitlab, Grafana/Prometheus, Continuous Delivery, and Trunk-based development. And a few choice words on databases.
+    video:
+
+kent_beck:
+    name: Kent Beck
+    company: Facebook
+    role:
+    twitter: kentbeck
+    github:
+    country: USA
+    year: 2018
+    bio: >
+      Kent Beck has spent the past seven years at Facebook teaching the engineers that scale the service. Before that he pioneered applying patterns to software development, co-wrote the JUnit testing framework, re-discovered Test-Driven Development, and created Extreme Programming. He is also the first signatory of the Agile Manifesto (alphabetically).
+    title: >
+      Timing Scaling
+    abstract: >
+      Prepare for scale too soon and you slow the experimentation needed to find a compelling product. Too late and you risk not scaling at all. What does scaling look like in different phases of the life of a product? How do you know when it’s time to shift gears?
+    video:
+
+felipe_hoffa:
+    name: Felipe Hoffa
+    company: Google
+    role:
+    twitter: felipehoffa
+    github:
+    country: USA
+    year: 2018
+    bio: >
+      In 2011 Felipe Hoffa moved from Chile to San Francisco to join Google as a Software Engineer. Since 2013 he’s been a Developer Advocate on big data - to inspire developers around the world to leverage the Google Cloud Platform tools to analyze and understand their data in ways they could never before. You can find him in several YouTube videos, blog posts, and conferences around the world.
+    title: >
+      What can we learn from 1.2 billion GitHub events and 42 TB of code?
+    abstract: >
+      Anyone can easily analyze the more than five years of GitHub metadata and 42+ terabytes of open source code. We’ll leverage this data to understand the community and code related to any language or project.
+    video:
 
 adrian_cole:
     name: Adrian Cole
@@ -1508,7 +1649,7 @@ simbarashe_nyatsa:
         RESTful services, performance gotchas, single code base for designers and developers
         and its effect on building a portable client and scalable server code.
 
-aslam_khan:
+aslam_khan_2014:
     name: Aslam Khan
     role: Software Developer
     twitter: aslamkhn
