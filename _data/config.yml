@@ -16,7 +16,7 @@ years:
 dates: 8-9 March 2018
 
 homepage_sections:
-  upcoming_conference: true
+  upcoming_conference: false
   tickets_sell: true
   tickets_soldout: false
   tickets_waitinglist: false
