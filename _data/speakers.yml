@@ -154,6 +154,21 @@ felipe_hoffa:
       Anyone can easily analyze the more than five years of GitHub metadata and 42+ terabytes of open source code. We’ll leverage this data to understand the community and code related to any language or project.
     video:
 
+dominic_parry:
+    name: Dominic Parry
+    company: Simply Financial Services
+    role: CTO
+    twitter: domparry
+    github:
+    country: South Africa
+    year: 2018
+    bio: >
+      I have 14 years of experience in the IT industry, that span across Development, Architecture, IT strategy and Consulting, Sales, and Programme management. After years of big budget IT projects for many Telecommunications companies, and consulting and sales roles for IBM, I am now CTO of an Insuretech startup called Simply (www.simply.co.za). I hope to remind people that a successful technical career can include fun.
+    title: >
+      I used to be an architect
+    abstract: >
+      A personal journey from computer science, through architecture, consulting, sales and programme management, to startup CTO.
+
 adrian_cole:
     name: Adrian Cole
     company: Pivotal
