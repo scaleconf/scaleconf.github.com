@@ -2,7 +2,7 @@
 # 2015: ["takealot", "google", "rsaweb", "hetzner", "oracle", "2go", "ventureburn", "amazon", "key_connections"]
 # 2016: ["takealot", "google", "rsaweb", "hetzner", "oracle", "offerzen", "amazon"]
 # 2017: ["takealot", "google", "oracle", "offerzen", "allan_gray", "fastly", "jumo", "amazon", "impact_radius"]
-# 2018" ["takealot", "amazon", "allan_gray", "offerzen", impact_radius, oracle]
+# 2018" ["takealot", "amazon", "allan_gray", "offerzen", impact_radius, oracle, google]
 
 sponsors:
   - name: ventureburn
@@ -148,7 +148,7 @@ sponsors:
       GitHub, Pinterest, and Shazam. Learn more at <a href="http://fastly.com">Fastly.com</a>
       and follow us at <a href='https://twitter.com/fastly/'>@fastly</a>.
   - name: google
-    active: false
+    active: true
     active_rank: 2
     website_text: >
       Google's innovative search technologies connect millions of people around
