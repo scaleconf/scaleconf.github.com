@@ -169,6 +169,21 @@ dominic_parry:
     abstract: >
       A personal journey from computer science, through architecture, consulting, sales and programme management, to startup CTO.
 
+bradley_whittington:
+    name: Bradley Whittington
+    company: Superbalist
+    role: CTO
+    twitter: darb
+    github:
+    country: South Africa
+    year: 2018
+    bio: >
+      Brad's nerdy little eyes lit up as a kid when he was shown a graphing calculator. He owned his own C64 joystick to use at school to play Boulder Dash™. These fundamental skills, and an ability to use good words, have fed to his ascension into the Chief Technical Officer position at Superbalist.com. He's worked across a few fields including internet dating, and the best WhatsApp before WhatsApp - Mxit.
+    title: >
+      Getting Superbalist.com through Black Friday
+    abstract: >
+      Stepping through evolution of our systems and team structures to support the annual anomaly of Black Friday.
+
 adrian_cole:
     name: Adrian Cole
     company: Pivotal
