@@ -50,7 +50,7 @@ aslam_khan:
     company: Samushonga, Khan and Baker
     role:
     twitter: aslamkhn
-    github:
+    github: aslamkhn
     country: South Africa
     year: 2018
     bio: >
@@ -127,7 +127,7 @@ kent_beck:
     company: Facebook
     role:
     twitter: kentbeck
-    github:
+    github: KentBeck
     country: USA
     year: 2018
     bio: >
@@ -141,9 +141,9 @@ kent_beck:
 felipe_hoffa:
     name: Felipe Hoffa
     company: Google
-    role:
+    role: Developer Advocate
     twitter: felipehoffa
-    github:
+    github: fhoffa
     country: USA
     year: 2018
     bio: >
@@ -174,7 +174,7 @@ bradley_whittington:
     company: Superbalist
     role: CTO
     twitter: darb
-    github:
+    github: BradWhittington
     country: South Africa
     year: 2018
     bio: >
