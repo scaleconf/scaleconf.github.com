@@ -184,6 +184,21 @@ bradley_whittington:
     abstract: >
       Stepping through evolution of our systems and team structures to support the annual anomaly of Black Friday.
 
+andrew_betts:
+    name: Andrew Betts
+    company: Fastly
+    role: Principal Developer Advocate
+    twitter: triblondon
+    github: triblondon
+    country: UK
+    year: 2018
+    bio: >
+      Andrew is a web developer and principal developer advocate for Fastly, working with developers across the world to help make the web faster, more secure, more reliable and easier to work with. He founded a web consultancy which was ultimately acquired by the Financial Times, led the team that created the FT’s pioneering HTML5 web app, and founded the FT’s Labs division. He is also an elected member of the W3C Technical Architecture Group, a committee of nine people who guide the development of the World Wide Web.
+    title: >
+      Honing Headers for Highly Hardened Highspeed Hypertext
+    abstract: >
+      The web is growing up and getting faster and more secure. Making that the default is hard to achieve when you have to be backwards compatible, and some of the stuff we built 10 years ago is now a serious security liability. The answer: headers. Lots of headers.
+
 adrian_cole:
     name: Adrian Cole
     company: Pivotal
