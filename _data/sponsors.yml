@@ -2,7 +2,7 @@
 # 2015: ["takealot", "google", "rsaweb", "hetzner", "oracle", "2go", "ventureburn", "amazon", "key_connections"]
 # 2016: ["takealot", "google", "rsaweb", "hetzner", "oracle", "offerzen", "amazon"]
 # 2017: ["takealot", "google", "oracle", "offerzen", "allan_gray", "fastly", "jumo", "amazon", "impact_radius"]
-# 2018" ["takealot", "amazon", "allan_gray", "offerzen", "impact_radius", "oracle", "google", "luno"]
+# 2018" ["takealot", "amazon", "allan_gray", "offerzen", "impact_radius", "oracle", "google", "luno", "smyte"]
 
 sponsors:
   - name: allan_gray
@@ -256,7 +256,7 @@ sponsors:
     active: true
     active_rank: 1
     website_text: >
-      At Luno, we believe that decentralised digital currencies like Bitcoin and Ethereum will fundamentally change how the world views and uses money: cheaper, faster and safer transactions; more privacy and freedom; a significantly better user experience; and ultimately, more equality through giving everyone in the world access to the same financial system, no matter who they are or where they are from.
+      At <a href='https://www.luno.com/'>Luno</a>, we believe that decentralised digital currencies like Bitcoin and Ethereum will fundamentally change how the world views and uses money: cheaper, faster and safer transactions; more privacy and freedom; a significantly better user experience; and ultimately, more equality through giving everyone in the world access to the same financial system, no matter who they are or where they are from.
       </p>
       <p>
       Today we are one of the world’s leading digital currency companies with a team of over 60 technology and finance experts, operating across several countries and continents. Our products and services make it safe and easy for people and businesses to store, buy, use and learn about digital currencies like Bitcoin and Ethereum.
@@ -407,6 +407,11 @@ sponsors:
       rsaweb.co.za</a>, or follow us on Twitter
       <a href='https://twitter.com/RSAWEB'>@RSAWEB</a>, and like us on Facebook
       at <a href="https://www.facebook.com/RSAWEB">www.facebook.com/RSAWEB</a>
+  - name: smyte
+    active: true
+    active_rank: 4
+    website_text:
+       <a href='https://www.smyte.com/'>Smyte</a> combats fraud, spam, and other abuse using customizable rules and machine learning models trained by event data and content signals. The platform is configurable via a SQL-like language and adaptable to the technology stack and unique behavior of users.
   - name: takealot
     active: true
     active_rank: 2
