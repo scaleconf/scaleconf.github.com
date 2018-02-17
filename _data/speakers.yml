@@ -199,6 +199,21 @@ andrew_betts:
     abstract: >
       The web is growing up and getting faster and more secure. Making that the default is hard to achieve when you have to be backwards compatible, and some of the stuff we built 10 years ago is now a serious security liability. The answer: headers. Lots of headers.
 
+michael_hopcroft:
+    name: Michael Hopcroft
+    company: Microsoft
+    role: Distinguished Engineer
+    twitter: mikehopcroft
+    github: MikeHopcroft
+    country: US
+    year: 2018
+    bio: >
+      Michael Hopcroft grew up in a college town where he would ride his bike to the physics department stockroom to buy transistors and scavenge used equipment. He wrote video games for Atari in high school, but chose to pursue his interest in electrical engineering in college. After graduating from Cornell with a B.S. he went on to earn a Masters and PhD in computational geometry and computer vision. He has held a number of jobs from summer intern at a chip fab and Hewlett Packard, to researcher at Xerox PARC and software engineer at Silicon Graphics. For the past twenty years he has worked at Microsoft on projects ranging from Office to Windows to Visual Studio to Bing. He almost always prefers spending weeks writing a program to perform simple tasks that would otherwise take a few minutes.
+    title: >
+      How Bing uses Bloom Filters for Search
+    abstract: >
+       Sometimes complex problems have simple solutions that buck conventional wisdom. The BitFunnel algorithm, which powers the Bing search engine, uses Bloom filters to process queries. With a small team and a blank page, we built a system to search billions of documents. This is our story.
+
 adrian_cole:
     name: Adrian Cole
     company: Pivotal
