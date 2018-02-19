@@ -26,4 +26,4 @@ homepage_sections:
   sponsors: true
 navigation:
   submit: false
-  schedule: false
+  schedule: true

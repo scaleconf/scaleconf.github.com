@@ -61,8 +61,8 @@ aslam_khan:
       Two things happen over time: we need to adapt to changes, and complexity increases. Contrast that with the urgent plea of “We need to scale”. The problem is obvious. Do it wrong, and we scale the problem. The answer lies in key decisions on where to start, then what to do, how to do it and why.
     video:
 
-michael_widenius:
-    name: Michael "Monty" Widenius
+monty_widenius:
+    name: Monty Widenius
     company: MariaDB
     role: CTO
     twitter: montywi
@@ -105,6 +105,13 @@ marc_peiser:
       Hacking and Defending Systems at Scale
     abstract: >
       During the last 18 years of hacking systems and networks, hacking could be described as "looking for the one place somebody screwed up". This is premised on the idea that scale aids an attacker, because even a low incidence of security screw ups, turns into ample fodder at scale. Modern tools were going to save us. If we could deploy infrastructure as code, applying patches is as simple as rebuilding our Docker/Packer image, or updating one line in our Chef recipe. Containerisation means we can have security boundaries around our microservices, so a compromise of one, doesn't lead to a compromise of the whole application. And large infrastructure providers means best in the world security teams that can lock down their infrastructure. In this talk, we'd like to discuss the common security flaws we see in large networks (with some anecdotes from our own experiences) and ways of designing networks and systems to avoid them (also with some anecdotes).
+
+dominic_and_marc:
+    name: Dominic White and Marc Peiser
+    title: Hacking and Defending Systems at Scale
+    abstract: >
+        During the last 18 years of hacking systems and networks, hacking could be described as "looking for the one place somebody screwed up". This is premised on the idea that scale aids an attacker, because even a low incidence of security screw ups, turns into ample fodder at scale. Modern tools were going to save us. If we could deploy infrastructure as code, applying patches is as simple as rebuilding our Docker/Packer image, or updating one line in our Chef recipe. Containerisation means we can have security boundaries around our microservices, so a compromise of one, doesn't lead to a compromise of the whole application. And large infrastructure providers means best in the world security teams that can lock down their infrastructure. In this talk, we'd like to discuss the common security flaws we see in large networks (with some anecdotes from our own experiences) and ways of designing networks and systems to avoid them (also with some anecdotes).
+    video:
 
 david_townshend:
     name: David Townshend
