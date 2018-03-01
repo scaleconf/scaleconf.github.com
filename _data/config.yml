@@ -19,7 +19,7 @@ homepage_sections:
   upcoming_conference: false
   tickets_sell: false
   tickets_soldout: true
-  tickets_waitinglist: true
+  tickets_waitinglist: false
   tickets_notify: false
   current_speakers: true
   previous_speakers: false
