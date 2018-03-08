@@ -206,6 +206,19 @@ andrew_betts:
     abstract: >
       The web is growing up and getting faster and more secure. Making that the default is hard to achieve when you have to be backwards compatible, and some of the stuff we built 10 years ago is now a serious security liability. The answer: headers. Lots of headers.
 
+anton_eicher:
+    name: Anton Eicher
+    company: Oracle
+    role: Engineer
+    country: ZA
+    year: 2018
+    bio: >
+      Anton has been playing with computers since his dad bought him a C64 back in the 80's. His favourite game was Bombjack. He studied at UCT, and did some internships at Nvidia and Amazon circa 2006-2008, where he helped to build this fun cloud thing called EC2. He joined EC2 full time in 2010, and played with their computers until last year, when he moved to Oracle to help them build their public cloud.
+    title: >
+      Fleet Diagnostics at Scale
+    abstract: >
+      You've built an enormous fleet consisting of tens of thousands of hosts. How do you know when things break? Metrics are great, log scanning is great, but what about detecting complex host hardware issues, software bugs or networking problems? We've created a fleet diagnostics framework that does that for us, and I'd like to share some of the learnings with you.
+
 adrian_cole:
     name: Adrian Cole
     company: Pivotal
