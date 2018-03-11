@@ -6,7 +6,8 @@
     # twitter:
     # github:
     # country:
-    # year: 2018
+    # year: 2019
+    # landing_page: true
     # bio: >
     #
     # title: >
@@ -20,6 +21,7 @@ mary_racter:
     twitter: mracter
     github:
     country: South Africa
+    landing_page: true
     year: 2018
     bio: >
       Born and bred on dirty tricks. Security Engineer at Praekelt.org, a non-profit foundation focused on building digital solutions to improving quality of life in the majority world. Worked at MWR InfoSecurity as a penetration tester until moving on to Praekelt.org to connect information security with strengthening human rights in the digital age. Once ate an entire pack of lemon creams for supper.
@@ -36,6 +38,7 @@ cooper_lees:
     twitter: cooperlees
     github: cooperlees
     country: USA
+    landing_page: true
     year: 2018
     bio: >
       I’m an Aussie who’s been at Facebook for almost 5 years. Previous to Facebook I worked for Juniper Networks via contact all over APAC, and was once a UNIX Systems admin @ the Australian Nuclear Science and Technology Organization. I love modern computing technology, of late IPv6 and Python 3. I have helped with the efforts of pushing both to Facebook and associate companies.
@@ -52,6 +55,7 @@ aslam_khan:
     twitter: aslamkhn
     github: aslamkhn
     country: South Africa
+    landing_page: true
     year: 2018
     bio: >
       Aslam is an African technologist and strategist. He consults to large enterprises looking to shift gears, and to startups that are off the runway trying the same. He spends his time with his friends at Samushonga, Khan and Baker where they sharpen enterprise strategy and execute on its implementation; focusing on people to lines of code and the weird stuff in between. After all, what is the value of a strategy that can’t be delivered?
@@ -68,6 +72,7 @@ monty_widenius:
     twitter: montywi
     github:
     country: Finland
+    landing_page: true
     year: 2018
     bio: >
       Monty started working on precursors to MySQL in 1981, released MySQL in 1995 and has been developing MySQL and its fork MariaDB ever since. Currently the CTO of MariaDB Corporation, he’s still a highly active developer, and loves nothing more than intense technical discussions.
@@ -136,6 +141,7 @@ kent_beck:
     twitter: kentbeck
     github: KentBeck
     country: USA
+    landing_page: true
     year: 2018
     bio: >
       Kent Beck has spent the past seven years at Facebook teaching the engineers that scale the service. Before that he pioneered applying patterns to software development, co-wrote the JUnit testing framework, re-discovered Test-Driven Development, and created Extreme Programming. He is also the first signatory of the Agile Manifesto (alphabetically).
@@ -152,6 +158,7 @@ felipe_hoffa:
     twitter: felipehoffa
     github: fhoffa
     country: USA
+    landing_page: true
     year: 2018
     bio: >
       In 2011 Felipe Hoffa moved from Chile to San Francisco to join Google as a Software Engineer. Since 2013 he’s been a Developer Advocate on big data - to inspire developers around the world to leverage the Google Cloud Platform tools to analyze and understand their data in ways they could never before. You can find him in several YouTube videos, blog posts, and conferences around the world.
@@ -506,7 +513,7 @@ matthew_clark:
     github:
     country: England
     year: 2017
-    landing_page: true
+    landing_page: false
     bio: >
       Matthew Clark is a lead technical architect at the BBC. He’s been responsible
       for the design and delivery of some of the BBC’s biggest online projects. This
@@ -665,7 +672,7 @@ dewald_viljoen:
     twitter: dewald_v
     github: DewaldV
     country: South Africa
-    landing_page: true
+    landing_page: false
     year: 2016
     bio: >
       Dewald is a software developer and ThoughtWorker from Johannesburg.
@@ -746,7 +753,7 @@ philip_norman:
     twitter: philipnrmn
     github: philipnrmn
     country: Germany
-    landing_page: true
+    landing_page: false
     year: 2016
     bio: >
       Originally from London, Philip Norman now works out of Hamburg
@@ -838,7 +845,7 @@ bethany_macri:
     twitter: BethanyMacri
     github: bmacri
     country: USA
-    landing_page: true
+    landing_page: false
     year: 2016
     bio: >
       Bethany Macri is a Software Engineer on Etsy's Core Platform team.
@@ -1543,7 +1550,7 @@ maggie_zhou:
     country: USA
     twitter: zmagg
     year: 2015
-    landing_page: true
+    landing_page: false
     bio: >
         Maggie works on the Core Platform team at Etsy where she builds infrastructure to manage scaling
         challenges in data storage and the web stack. She reads books, rides bicycles, and drinks
@@ -2178,7 +2185,7 @@ miles_ward:
     quote: A decade of experience building global-scale analysis infrastructures
     twitter: milesward
     github: milesward
-    landing_page: true
+    landing_page: false
     year: 2013
     bio: >
         Miles is a three-time technology startup entrepreneur with a decade of experience
