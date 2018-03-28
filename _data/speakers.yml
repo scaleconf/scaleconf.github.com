@@ -29,7 +29,7 @@ mary_racter:
       Automation Patterns for Scalable Secret Management
     abstract: >
       So you’ve scaled your app up to 1000 instances. Do they all share the same credentials for access to stateful resources? Then the attack surface for your stateful resources just got scaled up too. Automated secret management lets you focus on scaling up your app, not your risk of data compromise.
-    video:
+    video: f4N9A6adB80
 
 cooper_lees:
     name: Cooper Lees
@@ -46,7 +46,7 @@ cooper_lees:
       The time for Python 3 is NOW!
     abstract: >
       Run a lot of Python at your company? You running old, slow, unloved Python <=2.7.14? You shouldn’t be! Come and see why! With tips on moving and examples including the Instagram Backend code. You should leave this talk inspired to move all your projects straight to Python 3.7, No Looking Back!
-    video:
+    video: WwxINpKICGM
 
 aslam_khan:
     name: Aslam Khan
@@ -63,7 +63,7 @@ aslam_khan:
       Scale the Right Stuff Right
     abstract: >
       Two things happen over time: we need to adapt to changes, and complexity increases. Contrast that with the urgent plea of “We need to scale”. The problem is obvious. Do it wrong, and we scale the problem. The answer lies in key decisions on where to start, then what to do, how to do it and why.
-    video:
+    video: i9V9AyhmaNs
 
 monty_widenius:
     name: Monty Widenius
@@ -80,6 +80,7 @@ monty_widenius:
       MariaDB Solutions for Handling Big Data
     abstract: >
       MariaDB is an open source DBMS used by organisations running some of the largest and most heavily-used databases in the world. This talk covers some of the innovations MariaDB, with its active community of contributors, has been making in supporting large-scale systems.
+    video: K9SqBuA8CV0
 
 dominic_white:
     name: Dominic White
@@ -95,6 +96,7 @@ dominic_white:
       Hacking and Defending Systems at Scale
     abstract: >
       During the last 18 years of hacking systems and networks, hacking could be described as "looking for the one place somebody screwed up". This is premised on the idea that scale aids an attacker, because even a low incidence of security screw ups, turns into ample fodder at scale. Modern tools were going to save us. If we could deploy infrastructure as code, applying patches is as simple as rebuilding our Docker/Packer image, or updating one line in our Chef recipe. Containerisation means we can have security boundaries around our microservices, so a compromise of one, doesn't lead to a compromise of the whole application. And large infrastructure providers means best in the world security teams that can lock down their infrastructure. In this talk, we'd like to discuss the common security flaws we see in large networks (with some anecdotes from our own experiences) and ways of designing networks and systems to avoid them (also with some anecdotes).
+    video: wyX1TFnEAbk
 
 marc_peiser:
     name: Marc Peiser
@@ -110,13 +112,14 @@ marc_peiser:
       Hacking and Defending Systems at Scale
     abstract: >
       During the last 18 years of hacking systems and networks, hacking could be described as "looking for the one place somebody screwed up". This is premised on the idea that scale aids an attacker, because even a low incidence of security screw ups, turns into ample fodder at scale. Modern tools were going to save us. If we could deploy infrastructure as code, applying patches is as simple as rebuilding our Docker/Packer image, or updating one line in our Chef recipe. Containerisation means we can have security boundaries around our microservices, so a compromise of one, doesn't lead to a compromise of the whole application. And large infrastructure providers means best in the world security teams that can lock down their infrastructure. In this talk, we'd like to discuss the common security flaws we see in large networks (with some anecdotes from our own experiences) and ways of designing networks and systems to avoid them (also with some anecdotes).
+    video: wyX1TFnEAbk
 
 dominic_and_marc:
     name: Dominic White and Marc Peiser
     title: Hacking and Defending Systems at Scale
     abstract: >
         During the last 18 years of hacking systems and networks, hacking could be described as "looking for the one place somebody screwed up". This is premised on the idea that scale aids an attacker, because even a low incidence of security screw ups, turns into ample fodder at scale. Modern tools were going to save us. If we could deploy infrastructure as code, applying patches is as simple as rebuilding our Docker/Packer image, or updating one line in our Chef recipe. Containerisation means we can have security boundaries around our microservices, so a compromise of one, doesn't lead to a compromise of the whole application. And large infrastructure providers means best in the world security teams that can lock down their infrastructure. In this talk, we'd like to discuss the common security flaws we see in large networks (with some anecdotes from our own experiences) and ways of designing networks and systems to avoid them (also with some anecdotes).
-    video:
+    video: wyX1TFnEAbk
 
 david_townshend:
     name: David Townshend
@@ -132,7 +135,7 @@ david_townshend:
       Monolith to Microservices
     abstract: >
       The story of how Allan Gray moved from traditional .Net monolith to polyglot linux-based microservices, with a cast including Kubernetes, Gitlab, Grafana/Prometheus, Continuous Delivery, and Trunk-based development. And a few choice words on databases.
-    video:
+    video: pWi24aAFi4o
 
 kent_beck:
     name: Kent Beck
@@ -149,7 +152,7 @@ kent_beck:
       Timing Scaling
     abstract: >
       Prepare for scale too soon and you slow the experimentation needed to find a compelling product. Too late and you risk not scaling at all. What does scaling look like in different phases of the life of a product? How do you know when it’s time to shift gears?
-    video:
+    video: 6yKkHrs4K50
 
 felipe_hoffa:
     name: Felipe Hoffa
@@ -166,7 +169,7 @@ felipe_hoffa:
       What can we learn from 1.2 billion GitHub events and 42 TB of code?
     abstract: >
       Anyone can easily analyze the more than five years of GitHub metadata and 42+ terabytes of open source code. We’ll leverage this data to understand the community and code related to any language or project.
-    video:
+    video: EMsFyELK00s
 
 dominic_parry:
     name: Dominic Parry
@@ -182,6 +185,7 @@ dominic_parry:
       I used to be an architect
     abstract: >
       A personal journey from computer science, through architecture, consulting, sales and programme management, to startup CTO.
+    video: xPp4QAdqQ0g
 
 bradley_whittington:
     name: Bradley Whittington
@@ -197,6 +201,7 @@ bradley_whittington:
       Getting Superbalist.com through Black Friday
     abstract: >
       Stepping through evolution of our systems and team structures to support the annual anomaly of Black Friday.
+    video: syDY6HCZgRo
 
 andrew_betts:
     name: Andrew Betts
@@ -212,6 +217,7 @@ andrew_betts:
       Honing Headers for Highly Hardened Highspeed Hypertext
     abstract: >
       The web is growing up and getting faster and more secure. Making that the default is hard to achieve when you have to be backwards compatible, and some of the stuff we built 10 years ago is now a serious security liability. The answer: headers. Lots of headers.
+    video: tNeuReNIfwA
 
 anton_eicher:
     name: Anton Eicher
@@ -225,6 +231,7 @@ anton_eicher:
       Fleet Diagnostics at Scale
     abstract: >
       You've built an enormous fleet consisting of tens of thousands of hosts. How do you know when things break? Metrics are great, log scanning is great, but what about detecting complex host hardware issues, software bugs or networking problems? We've created a fleet diagnostics framework that does that for us, and I'd like to share some of the learnings with you.
+    video: -0XpPrPinSc
 
 adrian_cole:
     name: Adrian Cole
