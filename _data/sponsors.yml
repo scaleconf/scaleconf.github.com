@@ -341,13 +341,13 @@ sponsors:
     active: true
     active_rank: 3
     website_text: >
-      The best way to find your next tech job.
+      The best way to find your next tech job
       </p>
       <p>
       OfferZen is a tech marketplace that connects 800+ companies to the top 10% of Software Developers, UI/UX Designers, Data Scientists and Product Managers. We flip the traditional recruitment model, so instead of candidates applying for jobs, companies reach out to them directly. We’re changing the way software professionals find work in South Africa, and working hard to help improve the tech ecosystem along the way. It’s free for candidates - in fact you get R5000 if you take a job through us.
       </p>
       <p>
-      Sign up today at <a href='https://www.offerzen.com/'>www.offerzen.com</a>.
+      Sign up today at <a href='https://www.offerzen.com/?utm_source=Events&utm_medium=Conference&utm_campaign=WebsiteClick&utm_content=07.03.ScaleConf2019'>www.offerzen.com</a>
       </p>
   - name: oracle
     active: false
