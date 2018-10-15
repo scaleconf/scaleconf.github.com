@@ -3,10 +3,11 @@
 # 2016: ["takealot", "google", "rsaweb", "hetzner", "oracle", "offerzen", "amazon"]
 # 2017: ["takealot", "google", "oracle", "offerzen", "allan_gray", "fastly", "jumo", "amazon", "impact_radius"]
 # 2018" ["takealot", "amazon", "allan_gray", "offerzen", "impact_radius", "oracle", "google", "luno", "smyte"]
+# 2019" ["impact_radius", "estalea", "elastic, offerzen"]
 
 sponsors:
   - name: allan_gray
-    active: true
+    active: false
     active_rank: 3
     website_text: >
       <b>Who are we?</b>
@@ -36,7 +37,7 @@ sponsors:
       We use Agile best practices and frameworks such as Scrum, TDD, Continuous
       Integration etc.
   - name: amazon
-    active: true
+    active: false
     active_rank: 1
     website_text: >
       Amazon has a thriving technical centre in Cape Town! This is the centre
@@ -79,6 +80,11 @@ sponsors:
       passionate about cloud computing. If you are interested in any of these
       vacancies, please go to the <a
       href='http://www.adccpt.co.za/?page_id=19'>Job opportunities</a> page.
+  - name: elastic
+    active: true
+    active_rank: 1
+    website_text: >
+      Elastic is the world’s leading software provider for making structured and unstructured data usable in real time for use cases like search, logging, security, and analytics. Founded in 2012 by the people behind the Elasticsearch, Kibana, Beats, and Logstash open source projects, the Elastic Stack, X-Pack, and Elastic Cloud have had more than 100 million cumulative downloads to date. Elastic is backed by Benchmark Capital, Index Ventures, and NEA with headquarters in Amsterdam and Mountain View, California, and offices and employees around the world. To learn more, visit <a href='http://elastic.co'>www.elastic.co</a>.
   - name: elasticsearch
     active: false
     active_rank: 2
@@ -132,7 +138,7 @@ sponsors:
       GitHub, Pinterest, and Shazam. Learn more at <a href="http://fastly.com">Fastly.com</a>
       and follow us at <a href='https://twitter.com/fastly/'>@fastly</a>.
   - name: google
-    active: true
+    active: false
     active_rank: 2
     website_text: >
       Google's innovative search technologies connect millions of people around
@@ -169,8 +175,8 @@ sponsors:
       from us and it remains our ongoing commitment to earn and retain their
       trust.
   - name: impact_radius
-    second_logo: forensiq
-    active: true
+    second_logo: estalea
+    active: false
     active_rank: 4
     website_text: >
       Impact Radius' digital marketing platform enables significant improvement in the
@@ -206,7 +212,7 @@ sponsors:
       </p>
       <p>
       <a href='http://www.impactradius.com'>www.impactradius.com</a> |
-      <a href='http://www.forensiq.com'>www.forensiq.com</a>
+      <a href='http://www.estalea.com'>www.estalea.com</a>
   - name: jumo
     active: false
     active_rank: 2
@@ -253,7 +259,7 @@ sponsors:
       We have clients looking for developers across all major programming languages.
       <a href='http://jobs.keyconnections.co.za/keyconnections/Search/Results/All/1'>Check out some of our recent jobs.</a>
   - name: luno
-    active: true
+    active: false
     active_rank: 1
     website_text: >
       At <a href='https://www.luno.com/'>Luno</a>, we believe that decentralised digital currencies like Bitcoin and Ethereum will fundamentally change how the world views and uses money: cheaper, faster and safer transactions; more privacy and freedom; a significantly better user experience; and ultimately, more equality through giving everyone in the world access to the same financial system, no matter who they are or where they are from.
@@ -265,6 +271,8 @@ sponsors:
       Our vision is to empower billions of people by bringing digital currencies like Bitcoin and Ethereum to everyone, everywhere.
       </p>
   - name: microsoft
+    active: false
+    active_rank: 1
     website_text: >
       <b>
       Tech Startups - Avoid Sleepless Nights with Microsoft BizSpark
@@ -333,15 +341,16 @@ sponsors:
     active: true
     active_rank: 3
     website_text: >
-      More than 250 South African tech companies use OfferZen to hire software
-      developers. OfferZen flips the recruitment model around for developers.
-      Instead of applying for jobs, companies apply to you with upfront salary.
-      It’s free for devs - in fact you get R5000 if you take a job through us.
+      The best way to find your next tech job
       </p>
       <p>
-      Sign up today at <a href='https://www.offerzen.com/'>www.offerzen.com</a>
+      OfferZen is a tech marketplace that connects 800+ companies to the top 10% of Software Developers, UI/UX Designers, Data Scientists and Product Managers. We flip the traditional recruitment model, so instead of candidates applying for jobs, companies reach out to them directly. We’re changing the way software professionals find work in South Africa, and working hard to help improve the tech ecosystem along the way. It’s free for candidates - in fact you get R5000 if you take a job through us.
+      </p>
+      <p>
+      Sign up today at <a href='https://www.offerzen.com/?utm_source=Events&utm_medium=Conference&utm_campaign=WebsiteClick&utm_content=07.03.ScaleConf2019'>www.offerzen.com</a>
+      </p>
   - name: oracle
-    active: true
+    active: false
     active_rank: 3
     website_text: >
       <b>Oracle Cloud Development Centre - Cape Town</b>
@@ -408,12 +417,12 @@ sponsors:
       <a href='https://twitter.com/RSAWEB'>@RSAWEB</a>, and like us on Facebook
       at <a href="https://www.facebook.com/RSAWEB">www.facebook.com/RSAWEB</a>
   - name: smyte
-    active: true
+    active: false
     active_rank: 4
     website_text:
        <a href='https://www.smyte.com/'>Smyte</a> combats fraud, spam, and other abuse using customizable rules and machine learning models trained by event data and content signals. The platform is configurable via a SQL-like language and adaptable to the technology stack and unique behavior of users.
   - name: takealot
-    active: true
+    active: false
     active_rank: 2
     website_text: >
       <b><a href='http://www.takealot.com'>takealot.com</a>'s mission is to be
@@ -430,6 +439,8 @@ sponsors:
       philosophy, we believe takealot.com will be the number one shopping
       destination across Africa.
   - name: ventureburn
+    active: false
+    active_rank: 4
     website_text: >
       Ventureburn is focused on telling the world's startup news and tech
       entrepreneurs' stories from the emerging market sector, covering
