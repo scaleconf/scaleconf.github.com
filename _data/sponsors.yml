@@ -3,7 +3,7 @@
 # 2016: ["takealot", "google", "rsaweb", "hetzner", "oracle", "offerzen", "amazon"]
 # 2017: ["takealot", "google", "oracle", "offerzen", "allan_gray", "fastly", "jumo", "amazon", "impact_radius"]
 # 2018" ["takealot", "amazon", "allan_gray", "offerzen", "impact_radius", "oracle", "google", "luno", "smyte"]
-# 2019" ["impact_radius", "estalea", "elastic, offerzen"]
+# 2019" ["impact_radius", "estalea", "elastic, offerzen, microsoft"]
 
 sponsors:
   - name: allan_gray
@@ -271,72 +271,27 @@ sponsors:
       Our vision is to empower billions of people by bringing digital currencies like Bitcoin and Ethereum to everyone, everywhere.
       </p>
   - name: microsoft
-    active: false
+    active: true
     active_rank: 1
     website_text: >
-      <b>
-      Tech Startups - Avoid Sleepless Nights with Microsoft BizSpark
-      </b>
-      </p>
       <p>
-      At Microsoft we're big on business and being proudly South African. For decades
-      we've focused on becoming a strategic partner to the growth of this country by
-      championing sustainable development through technology. In the early days our
-      goal was to put a computer on every desk. Today we aim to change the lives of
-      millions by developing products and solutions that people love and businesses
-      need.
+      Microsoft South Africa’s mission is to empower every person and organisation
+      on the planet to achieve more. The breadth and depth of our mission unlocks
+      unprecedented opportunity as technology transforms every industry and has
+      the power to make a difference in the lives of everyone.  Our mission is
+      grounded in both the world in which we live and the future we strive to
+      create and speaks to our new worldview which is rooted in the intelligent
+      edge and intelligent cloud.  The intelligent edge is the interface between
+      the cloud and the real world.  It is the layer of mobile devices we use to
+      access the data in the cloud, speeding up the processing power of the
+      internet of things, helping this new world to react faster to changing
+      conditions, and become more efficient. Our Business applications,
+      Applications and Infrastructure, and Data and Artificial Intelligence (AI)
+      solutions, are designed to help accomplish effective digital transformation,
+      by empowering employees, engaging customers, optimising operations and
+      transforming products. Through gaming, Modern Life, and Modern Workplace
+      we are driving quality engagement to create empowered experiences.
       </p>
-      <p>
-      We firmly believe that access to education and opportunity is the foundation
-      upon which great nations are built. That's why we have invested in South Africa
-      by continually supporting its rapidly emerging SME sector. Individuals who are
-      brave enough to nurture their own creative ideas into platforms for job creation
-      and economic growth should be celebrated. They are the engines that keep our
-      country's economy ticking.
-      </p>
-      <p>
-      With this in mind, we'd like to introduce Microsoft BizSpark.
-      </p>
-      <p>
-      It is important to recognise the role technology startups play as significant
-      contributors to the small enterprise mix. In just a few years businesses of this
-      nature have revolutionised the way the world works by introducing services and
-      platforms that simply did not exist before.
-      </p>
-      <p>
-      To help drive this message forward Microsoft South Africa has initiated the
-      BizSpark programme, a supportive forum that aims to drive the founding and
-      growth of up to 600 technology start ups over the next three years.
-      </p>
-      <p>
-      With assistance from the Jobs Fund we are partnering with South Africa's most
-      inspiring technology SMEs to help facilitate their growth and development. It's
-      a 360° view that centres on you, the startup. BizSpark provides technology,
-      support and a community that is focused on how you work, how you view the world
-      and how you are getting out there to change it.
-      </p>
-      <p>
-      BizSpark offers a comprehensive array of the latest products that are aimed at facilitating growth. Participation gives members the equivalent of an MSDN subscription at no cost. This includes get access to over 900 products such as Windows Azure, Visual Studio, Windows Server and Windows 8. Everything you need to succeed, without the price tag.
-      The tools are just one aspect of the BizSpark approach. Members are also afforded access to Microsoft's Azure cloud platform - eradicating the restrictive costs often associated with hosting servers and purchasing storage capacity as a small business.
-      It's a package designed with technology start-ups in mind. Licensing and hosting fees can be difficult to honour when you're starting out. Microsoft would like to give you the tools needed to build a business without the sleepless nights.
-      Application to the Microsoft BizSpark programme is open to anyone, provided your business complies with certain expectations:
-      </p>
-      <p>
-      <ul>
-        <li>You must be actively engaged in development of a software- based product or service at the core of your current(or intended) business.  </li>
-        <li>The software must add significant and primary functionality to the integrated Microsoft software. You need to own the software you're developing, i.e. you cannot be licensing it.  </li>
-        <li>Your business must be privately held and have been in business for less than five years.  </li>
-        <li>You need to be bringing in less than R5 million in annual revenue. </li>
-      </ul>
-      </p>
-      <p>
-      We know that it's tough out there, but we're with you every step of the way.
-      </p>
-      <p>
-      To find out more visit the BizSpark Portal at <a href='http://www.bizsparksa.co.za'>www.bizsparksa.co.za</a>
-      </p>
-      <p>
-      To learn more about Microsoft Azure visit our website - <a href='http://aka.ms/azuresa'>aka.ms/azuresa</a>
   - name: offerzen
     active: true
     active_rank: 3
@@ -344,7 +299,13 @@ sponsors:
       The best way to find your next tech job
       </p>
       <p>
-      OfferZen is a tech marketplace that connects 800+ companies to the top 10% of Software Developers, UI/UX Designers, Data Scientists and Product Managers. We flip the traditional recruitment model, so instead of candidates applying for jobs, companies reach out to them directly. We’re changing the way software professionals find work in South Africa, and working hard to help improve the tech ecosystem along the way. It’s free for candidates - in fact you get R5000 if you take a job through us.
+      OfferZen is a tech marketplace that connects 800+ companies to the top 10%
+      of Software Developers, UI/UX Designers, Data Scientists and Product
+      Managers. We flip the traditional recruitment model, so instead of
+      candidates applying for jobs, companies reach out to them directly. We’re
+      changing the way software professionals find work in South Africa, and
+      working hard to help improve the tech ecosystem along the way. It’s free
+      for candidates - in fact you get R5000 if you take a job through us.
       </p>
       <p>
       Sign up today at <a href='https://www.offerzen.com/?utm_source=Events&utm_medium=Conference&utm_campaign=WebsiteClick&utm_content=07.03.ScaleConf2019'>www.offerzen.com</a>
