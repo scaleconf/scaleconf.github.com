@@ -84,7 +84,14 @@ sponsors:
     active: true
     active_rank: 1
     website_text: >
-      Elastic is the world’s leading software provider for making structured and unstructured data usable in real time for use cases like search, logging, security, and analytics. Founded in 2012 by the people behind the Elasticsearch, Kibana, Beats, and Logstash open source projects, the Elastic Stack, X-Pack, and Elastic Cloud have had more than 100 million cumulative downloads to date. Elastic is backed by Benchmark Capital, Index Ventures, and NEA with headquarters in Amsterdam and Mountain View, California, and offices and employees around the world. To learn more, visit <a href='http://elastic.co'>www.elastic.co</a>.
+      Elastic is the world’s leading software provider for making structured and 
+      unstructured data usable in real time for use cases like search, logging, 
+      security, and analytics. Founded in 2012 by the people behind the Elasticsearch, 
+      Kibana, Beats, and Logstash open source projects, the Elastic Stack, X-Pack, 
+      and Elastic Cloud have had more than 100 million cumulative downloads to date. 
+      Elastic is backed by Benchmark Capital, Index Ventures, and NEA with headquarters 
+      in Amsterdam and Mountain View, California, and offices and employees around the 
+      world. To learn more, visit <a href='http://elastic.co'>www.elastic.co</a>.
   - name: elasticsearch
     active: false
     active_rank: 2
@@ -179,18 +186,23 @@ sponsors:
     active_rank: 4
     website_text: >
       Impact is a marketing technology company helping brands grow by optimizing
-      their paid marketing and media spend. The Impact platform was designed to
-      respond to marketers' demands for simplicity, transparency, performance,
-      and confidence to drive growth through marketing. Impact's platform is the
-      first native integration of leading solutions to stop ad fraud, enable more
-      confident decisions through media measurement, attribution, and mix
-      optimization, and create new performance partnerships, including with
+      their paid marketing and media spend.
+      </p>
+      <p>
+      The Impact platform was designed to respond to marketers' demands for simplicity, 
+      transparency, performance, and confidence to drive growth through marketing. 
+      Impact's platform is the first native integration of leading solutions to stop 
+      ad fraud, enable more confident decisions through media measurement, attribution, 
+      and mix optimization, and create new performance partnerships, including with
       influencers and strategic partners.
       </p>
       <p>
       Founded in Santa Barbara, CA in 2008, Impact has grown to over 375 employees
       and ten offices globally including Cape Town, across the United States,
-      Europe, and Asia. To learn more, visit <a href='http://www.impact.com'>www.impact.com</a>.
+      Europe, and Asia.
+      </p>
+      <p>
+      To learn more, visit <a href='http://www.impact.com'>www.impact.com</a>.
       </p>
   - name: jumo
     active: false
