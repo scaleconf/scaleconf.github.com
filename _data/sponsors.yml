@@ -3,7 +3,7 @@
 # 2016: ["takealot", "google", "rsaweb", "hetzner", "oracle", "offerzen", "amazon"]
 # 2017: ["takealot", "google", "oracle", "offerzen", "allan_gray", "fastly", "jumo", "amazon", "impact_radius"]
 # 2018" ["takealot", "amazon", "allan_gray", "offerzen", "impact_radius", "oracle", "google", "luno", "smyte"]
-# 2019" ["impact_radius", "estalea", "elastic, offerzen, microsoft"]
+# 2019" ["impact", "estalea", "elastic, offerzen, microsoft"]
 
 sponsors:
   - name: allan_gray
@@ -174,45 +174,24 @@ sponsors:
       create. We recognise that our customers expect reliability and good value
       from us and it remains our ongoing commitment to earn and retain their
       trust.
-  - name: impact_radius
-    second_logo: estalea
-    active: false
+  - name: impact
+    active: true
     active_rank: 4
     website_text: >
-      Impact Radius' digital marketing platform enables significant improvement in the
-      return on global advertising spend for brands and agencies. The company provides
-      a fully-integrated suite of products for media attribution, performance
-      marketing, tag management and mobile analytics. Impact Radius provides a
-      singular view into the consumer journey, tracks cross-channel marketing efforts,
-      and delivers Big Data insights that drive revenue growth.
+      Impact is a marketing technology company helping brands grow by optimizing
+      their paid marketing and media spend. The Impact platform was designed to
+      respond to marketers' demands for simplicity, transparency, performance,
+      and confidence to drive growth through marketing. Impact's platform is the
+      first native integration of leading solutions to stop ad fraud, enable more
+      confident decisions through media measurement, attribution, and mix
+      optimization, and create new performance partnerships, including with
+      influencers and strategic partners.
       </p>
       <p>
-      Impact Radius was founded in 2008 by a team of Internet marketing and technology
-      experts who previously founded Commission Junction, Savings.com and LeadPoint.
+      Founded in Santa Barbara, CA in 2008, Impact has grown to over 375 employees
+      and ten offices globally including Cape Town, across the United States,
+      Europe, and Asia. To learn more, visit <a href='http://www.impact.com'>www.impact.com</a>.
       </p>
-      <p>
-      From the beginning, we disrupted the industry by moving away from the affiliate
-      network model, instead introducing a SaaS technology platform for performance
-      marketing professionals.
-      </p>
-      <p>
-      We then set our sights on omnichannel marketing analytics, building the most
-      comprehensive digital marketing platform with multi-channel insights,
-      attribution modeling, tag management and automated workflows. We remain
-      committed to best-in-class technology, transparent data you can trust, and
-      unceasing innovation that delivers next-generation solutions to digital
-      marketers around the world.
-      </p>
-      <p>
-      We are actively growing our Cape Town team and we get excited about
-      people who are passionate about technology. Please visit
-      <a href="www.impactradius.com/careers-2/">our careers page</a>
-      to learn more, or get in touch with Regardt
-      (<a href="mailto:regardt@impactradius.com">regardt@impactradius.com</a>)
-      </p>
-      <p>
-      <a href='http://www.impactradius.com'>www.impactradius.com</a> |
-      <a href='http://www.estalea.com'>www.estalea.com</a>
   - name: jumo
     active: false
     active_rank: 2
