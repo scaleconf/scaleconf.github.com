@@ -377,9 +377,9 @@ sponsors:
     active: true
     active_rank: 2
     website_text: >
-      <a href='https://www.takealot.com/'>Takealot.com</a> had expanded to become
-      <b>The Takealot Group</b> – a young, fast growing group of South Africa’s
-      leading e-commerce companies: <a href='https://www.takealot.com/'>Takealot.com</a>,
+      <a style="font-weight:bold" href='https://www.takealot.com/'>The Takealot Group</a>
+      – a young, fast growing group of South Africa’s leading e-commerce companies: 
+      <a href='https://www.takealot.com/'>Takealot.com</a>,
       <a href='https://superbalist.com/?ref=home'>Superbalist.com</a> and
       <a href='https://www.mrdfood.com/'>Mr D Food</a>.
       </p>
