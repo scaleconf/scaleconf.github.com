@@ -3,7 +3,7 @@
 # 2016: ["takealot", "google", "rsaweb", "hetzner", "oracle", "offerzen", "amazon"]
 # 2017: ["takealot", "google", "oracle", "offerzen", "allan_gray", "fastly", "jumo", "amazon", "impact_radius"]
 # 2018" ["takealot", "amazon", "allan_gray", "offerzen", "impact_radius", "oracle", "google", "luno", "smyte"]
-# 2019" ["impact", "estalea", "elastic, offerzen, microsoft"]
+# 2019" ["impact", "estalea", "elastic", "offerzen", "microsoft", "takealot"]
 
 sponsors:
   - name: allan_gray
@@ -374,22 +374,36 @@ sponsors:
     website_text:
        <a href='https://www.smyte.com/'>Smyte</a> combats fraud, spam, and other abuse using customizable rules and machine learning models trained by event data and content signals. The platform is configurable via a SQL-like language and adaptable to the technology stack and unique behavior of users.
   - name: takealot
-    active: false
+    active: true
     active_rank: 2
     website_text: >
-      <b><a href='http://www.takealot.com'>takealot.com</a>'s mission is to be
-      the most customer-centric online shopping destination in Africa. Our
-      company is built around the simple concept that the customer comes first.</b>
+      <a href='https://www.takealot.com/'>Takealot.com</a> had expanded to become
+      <b>The Takealot Group</b> – a young, fast growing group of South Africa’s
+      leading e-commerce companies: <a href='https://www.takealot.com/'>Takealot.com</a>,
+      <a href='https://superbalist.com/?ref=home'>Superbalist.com</a> and
+      <a href='https://www.mrdfood.com/'>Mr D Food</a>.
       </p>
       <p>
-      We recognise that our success hinges on our ability to delight our
-      customers with superior customer service. All of our focus is dedicated
-      to improving the customer experience, from the moment you arrive on our
-      website and place your order to the moment it arrives at your door and
-      any occasional hiccups that may occur during and after delivery (We strive
-      to be perfect but things do happen…). By aligning ourselves to this
-      philosophy, we believe takealot.com will be the number one shopping
-      destination across Africa.
+      We offer a dynamic working environment with great people and a promise that
+      you won’t be bored, as long as you’re up for a challenge and want to
+      contribute to something great.
+      </p>
+      <p>
+      We work hard, have fun, take ownership, and are always open to direct
+      feedback and new ideas for where we can improve. Our teams are smart,
+      entrepreneurial, solutions-orientated and completely customer-centric.
+      </p>
+      <p>
+      Everyone works together with the shared ambition of building the Takealot
+      Group into the leading e-commerce company in Africa. We’re short on ego
+      and high on output, doers as well as thinkers and we LOVE what we do.
+      </p>
+      <p>
+      Our Engineers are involved in the full software life cycle, from design
+      and development to ownership and maintenance. Our fast-paced, agile
+      deployment cycle means we can iterate quickly and deploy improvements for
+      our customers every day.
+      </p>
   - name: ventureburn
     active: false
     active_rank: 4
