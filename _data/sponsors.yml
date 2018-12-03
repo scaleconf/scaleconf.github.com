@@ -7,14 +7,14 @@
 
 sponsors:
   - name: allan_gray
-    active: false
+    active: true
     active_rank: 3
     website_text: >
       <b>Who are we?</b>
       </p>
       <p>
-      We are first and foremost a financial service company, but we also see
-      ourselves as leading technologists.
+      We are first and foremost a financial service company, but we also see ourselves 
+      as leading technologists.
       </p>
       <p>
       <b>What do we do?</b>
@@ -26,16 +26,13 @@ sponsors:
       <b>What tech do we use?</b>
       </p>
       <p>
-      Our environment contains a diverse range of technologies. The backend language
-      of choice at the moment is Scala and we are evaluating our front-end stack.
-      We are redoing our architecture and aiming to build Microservices hosted on
-      containers and exposing REST-like APIs.
-      We have traditionally been a .NET development shop however we have decided to
-      adopt a more open stack.
-      We generally look for full-stack developers who are tech agnostic and would
-      prefer to use the right tool for the job.
-      We use Agile best practices and frameworks such as Scrum, TDD, Continuous
-      Integration etc.
+      Our environment contains a diverse range of technologies. Our backends consists 
+      of APIs written in Scala and Golang with our frontends developed in React. We make 
+      use of a Microservices architecture that can enable continuous deployment through 
+      the likes of Gitlab, Docker and Kubernetes. It is less about the tools and rather 
+      the people who help craft and develop these infrastructures of tomorrow, so we 
+      generally look for Full Stack developers and testers that are tech agnostic and 
+      can utilise the right tool for the job.
   - name: amazon
     active: false
     active_rank: 1
