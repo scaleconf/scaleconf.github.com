@@ -3,7 +3,7 @@
 # 2016: ["takealot", "google", "rsaweb", "hetzner", "oracle", "offerzen", "amazon"]
 # 2017: ["takealot", "google", "oracle", "offerzen", "allan_gray", "fastly", "jumo", "amazon", "impact_radius"]
 # 2018" ["takealot", "amazon", "allan_gray", "offerzen", "impact_radius", "oracle", "google", "luno", "smyte"]
-# 2019" ["impact", "estalea", "elastic", "offerzen", "microsoft", "takealot"]
+# 2019" ["impact", "estalea", "elastic", "offerzen", "microsoft", "takealot", "dimensiondata"]
 
 sponsors:
   - name: allan_gray
@@ -100,6 +100,27 @@ sponsors:
       Elasticsearch, Logstash, and Kibana - has become one of the most popular
       and rapidly growing open source solutions in the market. To learn more,
       visit <a href='http://elasticsearch.com'>elasticsearch.com</a>.
+  - name: dimensiondata
+    active: true
+    active_rank: 2
+    website_text: >
+       Dimension Data is a global systems integrator and managed services provider for Hybrid 
+       IT. Founded in 1983, Dimension Data is now a USD 8 billion global leader in designing, 
+       optimising, and managing today’s evolving technology environments. This enables its 
+       clients to leverage data in the digital age, turn it into information, and extract 
+       insights. It also allows clients to build more valuable relationships with their own 
+       customers, embrace the new ways people want to work, and navigate a landscape of ever-
+       changing security threats. Headquartered in Johannesburg, with 28,000 employees across 
+       47 countries, Dimension Data brings together the world’s best technology provided by 
+       market leaders and niche innovators. The company provides the service support that its 
+       clients need for their businesses – from consulting, technical, and support services, to 
+       a fully-managed service. Dimension Data serves organisations from multiple industries. Its 
+       long-term partnerships with the leading technology companies give these clients access to 
+       the world’s best technological knowledge and resources, along with the global platforms and 
+       processes to help them be more effective and efficient. As a proud member of the NTT family, 
+       Dimension Data invests heavily in innovation, which has led to over 100 prestigious industry 
+       awards for its commitment to driving excellence and innovation. Visit us at 
+       <a href='http://www2.dimensiondata.com'>http://www2.dimensiondata.com</a>.
   - name: facebook
     active: false
     website_text: >
