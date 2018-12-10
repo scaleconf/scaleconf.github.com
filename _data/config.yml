@@ -27,5 +27,5 @@ homepage_sections:
   previous_speakers: true
   sponsors: true
 navigation:
-  submit: true
+  submit: false
   schedule: false
