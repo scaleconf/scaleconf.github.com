@@ -14,6 +14,23 @@
     #
     # abstract: >
 
+dale_humby_2019:
+    name: Dale Humby
+    company: Nomanini
+    role: Cofounder and CTO
+    twitter: dalehumby
+    github:
+    country: South Africa
+    landing_page: true
+    year: 2019
+    bio: >
+      Dale is a cofounder and CTO of Nomanini, a Cape Town based fintech whose mission is to provide safe, secure payment and banking services to communities in Africa's most remote villages. He's passionate about product development and the various agile methodologies that enables teams to perform at their peak.
+    title: >
+      Scale Fail Scale: A start-up's story of surviving death
+    abstract: >
+      By 2015 Nomanini was growing nicely with thousands of merchants spread across Africa. But when our largest client went bankrupt we lost 80% of our transaction volume, almost sinking us with them. This is a story of suddenly not being at scale, of layoffs and pivots, rewrites, and finally growth.
+    video:
+
 mary_racter:
     name: Mary Racter
     company: Praekelt.org
@@ -139,7 +156,7 @@ david_townshend:
 
 kent_beck:
     name: Kent Beck
-    company: 
+    company:
     role:
     twitter: kentbeck
     github: KentBeck
