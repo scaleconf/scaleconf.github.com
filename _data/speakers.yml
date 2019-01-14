@@ -31,6 +31,23 @@ dale_humby_2019:
       By 2015 Nomanini was growing nicely with thousands of merchants spread across Africa. But when our largest client went bankrupt we lost 80% of our transaction volume, almost sinking us with them. This is a story of suddenly not being at scale, of layoffs and pivots, rewrites, and finally growth.
     video:
 
+simon_ratcliffe_2019:
+    name: Simon Ratcliffe
+    company: SARAO
+    role: Barefoot Astronomer
+    twitter:
+    github:
+    country: South Africa
+    landing_page: true
+    year: 2019
+    bio: >
+      Simon started out life as an astronomer, used to be an engineer, and is now trying to avoid managerial tasks. Currently in charge of scientific computing for the MeerKAT radio telescope (www.ska.ac.za), he spends a significant amount of his coding time trying to avoid writing C, and the rest of the time trying to use sys._getframe() in ways that annoy his colleagues.
+    title: >
+       A Sky Full of Stars
+    abstract: >
+      Hundreds of billions of galaxies each with hundreds of billions of stars; how do you create a machine to help make sense of it all? This is the story of building MeerKAT - the most powerful radio telescope in the world. This is a follow on Simon's [ScaleConf 2013 talk](https://scaleconf.org/speakers/2013) which set out the plans for delivering MeerKAT, and how they planned to address the scale challenges.
+    video:
+
 mary_racter:
     name: Mary Racter
     company: Praekelt.org
