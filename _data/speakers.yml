@@ -65,6 +65,30 @@ helge_reikeras:
       This talk is about how we can enable data science teams to focus all their time and effort at what they’re good at — namely data science. We’ll discuss tools and processes for scaling the data science workflow in a cost-effective manner with tools such as Docker, Kubernetes, Spark and Luigi.
     video:
 
+kees_snijders:
+    name: Kees Snijders
+    company: Flickswitch
+    role: Managing Director
+    twitter: ksnijders
+    github:
+    country: South Africa
+    landing_page: true
+    year: 2019
+    bio: >
+      Kees was born to Dutch immigrants in Johannesburg in 1972, completed his schooling and university (UJ) in SA. Left SA to join a post-grad program in the US in 1995, completed an MSc at Syracuse University. He started working as a programmer at Cambridge Technology Partners based in Boston in 1997, he transferred to their UK operation in 1998. He left to join Deutsche Bank in 1999. Returned to SA and got into Telco in 2002, he spent 5 years working for a Vodacom Service Provider and left to found Flickswitch in 2007. He got married, fathered 4 kids and survived cancer along the way. He is currently living in Cape Town, South Africa. In his spare time he enjoys playing chess, running and drinking wine.
+    title: >
+      Mobile connectivity at scale, on Prepaid
+    abstract: >
+      Flickswitch started in 2007, we have built our business around prepaid mobile connectivity in South Africa and now Africa. We saw an opportunity to build services aimed at the mushrooming IoT world on top of Telco prepaid infrastructure. We pioneered structured prepaid at scale and effectively uncovered a new niche. The initial stack was built on LAMP and catered to SA customers on one network only. We got to product-market-fit somewhere in 2009, with gradual linear growth from 2009-2015. Then we decided to expand into Africa… In the last 3 years we have come a long way and want to share some learnings of scaling
+    video:
+
+kees_and_wayne:
+    name: Kees Snijders and Wayne Pringle-Wood
+    title: Mobile connectivity at scale, on Prepaid
+    abstract: >
+        Flickswitch started in 2007, we have built our business around prepaid mobile connectivity in South Africa and now Africa. We saw an opportunity to build services aimed at the mushrooming IoT world on top of Telco prepaid infrastructure. We pioneered structured prepaid at scale and effectively uncovered a new niche. The initial stack was built on LAMP and catered to SA customers on one network only. We got to product-market-fit somewhere in 2009, with gradual linear growth from 2009-2015. Then we decided to expand into Africa… In the last 3 years we have come a long way and want to share some learnings of scaling
+    video: 
+
 mary_racter:
     name: Mary Racter
     company: Praekelt.org
