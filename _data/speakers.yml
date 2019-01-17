@@ -48,6 +48,23 @@ simon_ratcliffe_2019:
       Hundreds of billions of galaxies each with hundreds of billions of stars; how do you create a machine to help make sense of it all? This is the story of building MeerKAT - the most powerful radio telescope in the world. This is a follow on Simon's [ScaleConf 2013 talk](https://scaleconf.org/speakers/2013) which set out the plans for delivering MeerKAT, and how they planned to address the scale challenges.
     video:
 
+helge_reikeras:
+    name: Helge Reikerås
+    company: Offerzen
+    role: Data Scientist
+    twitter: hreikeras
+    github: helger
+    country: South Africa
+    landing_page: true
+    year: 2019
+    bio: >
+      Helge Reikerås is an experienced data scientist with a demonstrated history of working in the computer software industry. He sees data science and machine learning becoming significant components to making great software products in the years ahead. He's currently a data scientist at Offerzen working on improving core features of the platform such as candidate recommendations for companies with machine learning and AI.
+    title: >
+      Kick-Ass Tools and Processes for Scalable Data Science
+    abstract: >
+      This talk is about how we can enable data science teams to focus all their time and effort at what they’re good at — namely data science. We’ll discuss tools and processes for scaling the data science workflow in a cost-effective manner with tools such as Docker, Kubernetes, Spark and Luigi.
+    video:
+
 mary_racter:
     name: Mary Racter
     company: Praekelt.org
