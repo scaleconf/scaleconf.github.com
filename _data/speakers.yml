@@ -92,7 +92,7 @@ kees_and_wayne:
 gianlucca_arbezzano:
     name: Gianlucca Arbezzano
     company: InfluxData
-    role: SRE
+    role: Site Reliability Engineer
     twitter: gianarb
     github:
     country: Ireland
@@ -104,6 +104,47 @@ gianlucca_arbezzano:
       Debug like a pro on Kubernetes
     abstract: >
       Golang applications are perfect to be run inside a container. You can build a single binary, a tiny Docker image and you can ship them on your Kubernetes cluster. A successful production environment requires stability and simplicity, it needs to be easy to troubleshoot and operators need to be able to get all the information developers will need to fix a bug. During this talk, Gianluca will share what influxData is doing to allow developers and system administrator to work together, understanding problems running live at scale on Kubernetes and how to escalate them down to Software Engineer using logs, delve, gdb, core dumps, and traces to replicate and fix issues.
+    video:
+
+jamie_hewland_2019:
+    name: Jamie Hewland
+    company: Praekelt.org
+    role: Site Reliability Engineer
+    twitter: jayhewland
+    github:
+    country: South Africa
+    landing_page: true
+    year: 2019
+    bio: >
+      Jamie is a Site Reliability Engineer (SRE) at Praekelt.org and works a lot with containers, CI/CD processes, and cloud infrastructure. Jamie is also Praekelt.org’s Tech Ambassador and has spoken at several tech conferences including ScaleConf and KubeCon. He writes and edits technical content for the company’s <a href='https://medium.com/mobileforgood'>MobileForGood</a> blog. His blog posts have been read by thousands of people and explore topics around container technologies as well as tech issues relevant to the ICT4D community.
+    title: >
+      Reaching Millions of Girls with Girl Effect
+    abstract: >
+      How do you reach 25 million girls globally who don’t share a common language or background? To scale Girl Effect’s platform and achieve this, we tailored many copies of our site. In 3 years we reworked our CMS and pulled parts into microservices as our infrastructure evolved to support the platform.
+    video:
+
+codie_roelf:
+    name: Codie Roelf
+    company: Praekelt.org
+    role: Software Engineer
+    twitter: ItsCodieee
+    github:
+    country: South Africa
+    landing_page: true
+    year: 2019
+    bio: >
+      JCodie is a software engineer at Praekelt.org. She is passionate about Bollywood movies, Celine Dion and uplifting the lives of womxn through tech. She is a co-founder of Django Girls Cape Town and Code Like Her. You’re most likely to see her wearing some form of Fedora.
+    title: >
+      Reaching Millions of Girls with Girl Effect
+    abstract: >
+      How do you reach 25 million girls globally who don’t share a common language or background? To scale Girl Effect’s platform and achieve this, we tailored many copies of our site. In 3 years we reworked our CMS and pulled parts into microservices as our infrastructure evolved to support the platform.
+    video:
+
+jamie_and_codie:
+    name: Jamie Hewland and Codie Roelf
+    title: Reaching Millions of Girls with Girl Effect
+    abstract: >
+        How do you reach 25 million girls globally who don’t share a common language or background? To scale Girl Effect’s platform and achieve this, we tailored many copies of our site. In 3 years we reworked our CMS and pulled parts into microservices as our infrastructure evolved to support the platform.
     video:
 
 mary_racter:
