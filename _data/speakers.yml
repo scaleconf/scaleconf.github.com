@@ -79,15 +79,32 @@ kees_snijders:
     title: >
       Mobile connectivity at scale, on Prepaid
     abstract: >
-      Flickswitch started in 2007, we have built our business around prepaid mobile connectivity in South Africa and now Africa. We saw an opportunity to build services aimed at the mushrooming IoT world on top of Telco prepaid infrastructure. We pioneered structured prepaid at scale and effectively uncovered a new niche. The initial stack was built on LAMP and catered to SA customers on one network only. We got to product-market-fit somewhere in 2009, with gradual linear growth from 2009-2015. Then we decided to expand into Africa… In the last 3 years we have come a long way and want to share some learnings of scaling
+      Flickswitch started in 2007, we have built our business around prepaid mobile connectivity in South Africa and now Africa. We saw an opportunity to build services aimed at the mushrooming IoT world on top of Telco prepaid infrastructure. We pioneered structured prepaid at scale and effectively uncovered a new niche. The initial stack was built on LAMP and catered to SA customers on one network only. We got to product-market-fit somewhere in 2009, with gradual linear growth from 2009-2015. Then we decided to expand into Africa… In the last 3 years we have come a long way and want to share some learnings of scaling.
     video:
 
 kees_and_wayne:
     name: Kees Snijders and Wayne Pringle-Wood
     title: Mobile connectivity at scale, on Prepaid
     abstract: >
-        Flickswitch started in 2007, we have built our business around prepaid mobile connectivity in South Africa and now Africa. We saw an opportunity to build services aimed at the mushrooming IoT world on top of Telco prepaid infrastructure. We pioneered structured prepaid at scale and effectively uncovered a new niche. The initial stack was built on LAMP and catered to SA customers on one network only. We got to product-market-fit somewhere in 2009, with gradual linear growth from 2009-2015. Then we decided to expand into Africa… In the last 3 years we have come a long way and want to share some learnings of scaling
-    video: 
+        Flickswitch started in 2007, we have built our business around prepaid mobile connectivity in South Africa and now Africa. We saw an opportunity to build services aimed at the mushrooming IoT world on top of Telco prepaid infrastructure. We pioneered structured prepaid at scale and effectively uncovered a new niche. The initial stack was built on LAMP and catered to SA customers on one network only. We got to product-market-fit somewhere in 2009, with gradual linear growth from 2009-2015. Then we decided to expand into Africa… In the last 3 years we have come a long way and want to share some learnings of scaling.
+    video:
+
+gianlucca_arbezzano:
+    name: Gianlucca Arbezzano
+    company: InfluxData
+    role: SRE
+    twitter: gianarb
+    github:
+    country: Ireland
+    landing_page: true
+    year: 2019
+    bio: >
+      Gianluca Arbezzano is an SRE at InfluxData. He is a big Open Source contributor for several projects including and not limited to OpenTracing, Docker, and InfluxDB. He is also a Docker Captain and a CNCF Ambassador. He is passionate about troubleshooting applications at scale, observability, and distributed systems. He is familiar with several programming languages, such as Javascript and Golang and is an active speaker and writer, sharing his experiences and knowledge on projects that he is contributing to.
+    title: >
+      Debug like a pro on Kubernetes
+    abstract: >
+      Golang applications are perfect to be run inside a container. You can build a single binary, a tiny Docker image and you can ship them on your Kubernetes cluster. A successful production environment requires stability and simplicity, it needs to be easy to troubleshoot and operators need to be able to get all the information developers will need to fix a bug. During this talk, Gianluca will share what influxData is doing to allow developers and system administrator to work together, understanding problems running live at scale on Kubernetes and how to escalate them down to Software Engineer using logs, delve, gdb, core dumps, and traces to replicate and fix issues.
+    video:
 
 mary_racter:
     name: Mary Racter
