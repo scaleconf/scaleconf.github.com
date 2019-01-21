@@ -100,6 +100,11 @@ sponsors:
       Elasticsearch, Logstash, and Kibana - has become one of the most popular
       and rapidly growing open source solutions in the market. To learn more,
       visit <a href='http://elasticsearch.com'>elasticsearch.com</a>.
+  - name: estalea
+    active: true
+    active_rank: 4
+    website_text: >
+      Estalea’s mission is to create additional technology upstarts and grow them into prosperous, enduring companies. Using our proven model of business acceleration, we furnish the capital, technology, executive and financial expertise, product development, and marketing tools needed to ensure that each of our operating companies thrives in its given marketplace. From compelling and successful web properties to game-changing convergent technologies, we are building tomorrow’s technology leaders today.
   - name: dimensiondata
     active: true
     active_rank: 2
@@ -272,7 +277,7 @@ sponsors:
     active_rank: 3
     website_text: >
       Luno’s main mission is to upgrade the world to a better financial system.
-      We make it safe and easy to <b>buy, store and learn</b> about cryptocurrencies 
+      We make it safe and easy to <b>buy, store and learn</b> about cryptocurrencies
       like Bitcoin and Ethereum.
       </p>
       <p>
