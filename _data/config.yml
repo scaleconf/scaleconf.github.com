@@ -19,7 +19,7 @@ dates: 7 & 8 March 2019
 
 homepage_sections:
   upcoming_conference: false
-  tickets_sell: false
+  tickets_sell: true
   tickets_soldout: false
   tickets_waitinglist: false
   tickets_notify: true
