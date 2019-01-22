@@ -1,7 +1,7 @@
 
 quicket_productid: 34636
 
-waiting_list_url: https://docs.google.com/forms/u/2/d/e/1FAIpQLSewoGGAeOHqaM_s874fuah49QUEkbjFh8OBNXqPDlis0qVWuw/viewform
+waiting_list_url: https://docs.google.com/forms/d/e/1FAIpQLSewoGGAeOHqaM_s874fuah49QUEkbjFh8OBNXqPDlis0qVWuw/viewform?usp=sf_link
 
 current_year: 2019
 
@@ -23,8 +23,8 @@ homepage_sections:
   tickets_soldout: false
   tickets_waitinglist: false
   tickets_notify: true
-  current_speakers: false
-  previous_speakers: true
+  current_speakers: true
+  previous_speakers: false
   sponsors: true
 navigation:
   submit: false

@@ -14,6 +14,139 @@
     #
     # abstract: >
 
+dale_humby_2019:
+    name: Dale Humby
+    company: Nomanini
+    role: Cofounder and CTO
+    twitter: dalehumby
+    github:
+    country: South Africa
+    landing_page: true
+    year: 2019
+    bio: >
+      Dale is a cofounder and CTO of Nomanini, a Cape Town based fintech whose mission is to provide safe, secure payment and banking services to communities in Africa's most remote villages. He's passionate about product development and the various agile methodologies that enables teams to perform at their peak.
+    title: >
+      Scale Fail Scale: A start-up's story of surviving death
+    abstract: >
+      By 2015 Nomanini was growing nicely with thousands of merchants spread across Africa. But when our largest client went bankrupt we lost 80% of our transaction volume, almost sinking us with them. This is a story of suddenly not being at scale, of layoffs and pivots, rewrites, and finally growth.
+    video:
+
+simon_ratcliffe_2019:
+    name: Simon Ratcliffe
+    company: SARAO
+    role: Barefoot Astronomer
+    twitter:
+    github:
+    country: South Africa
+    landing_page: true
+    year: 2019
+    bio: >
+      Simon started out life as an astronomer, used to be an engineer, and is now trying to avoid managerial tasks. Currently in charge of scientific computing for the MeerKAT radio telescope (<a href='http://www.ska.ac.za'>ska.ac.za</a>), he spends a significant amount of his coding time trying to avoid writing C, and the rest of the time trying to use <code>sys._getframe()</code> in ways that annoy his colleagues.
+    title: >
+       A Sky Full of Stars
+    abstract: >
+      Hundreds of billions of galaxies each with hundreds of billions of stars; how do you create a machine to help make sense of it all? This is the story of building MeerKAT - the most powerful radio telescope in the world. This is a follow on Simon's <a href='https://scaleconf.org/speakers/2013'>ScaleConf 2013 talk</a> which set out the plans for delivering MeerKAT, and how they planned to address the scale challenges.
+    video:
+
+helge_reikeras:
+    name: Helge Reikeras
+    company: OfferZen
+    role: Data Scientist
+    twitter: hreikeras
+    github: helger
+    country: South Africa
+    landing_page: true
+    year: 2019
+    bio: >
+      Helge Reikerås is an experienced data scientist with a demonstrated history of working in the computer software industry. He sees data science and machine learning becoming significant components to making great software products in the years ahead. He's currently a data scientist at Offerzen working on improving core features of the platform such as candidate recommendations for companies with machine learning and AI.
+    title: >
+      Kick-Ass Tools and Processes for Scalable Data Science
+    abstract: >
+      This talk is about how we can enable data science teams to focus all their time and effort at what they’re good at — namely data science. We’ll discuss tools and processes for scaling the data science workflow in a cost-effective manner with tools such as Docker, Kubernetes, Spark and Luigi.
+    video:
+
+kees_snijders:
+    name: Kees Snijders
+    company: Flickswitch
+    role: Managing Director
+    twitter: ksnijders
+    github:
+    country: South Africa
+    landing_page: true
+    year: 2019
+    bio: >
+      Kees was born to Dutch immigrants in Johannesburg in 1972, completed his schooling and university (UJ) in SA. Left SA to join a post-grad program in the US in 1995, completed an MSc at Syracuse University. He started working as a programmer at Cambridge Technology Partners based in Boston in 1997, he transferred to their UK operation in 1998. He left to join Deutsche Bank in 1999. Returned to SA and got into Telco in 2002, he spent 5 years working for a Vodacom Service Provider and left to found Flickswitch in 2007. He got married, fathered 4 kids and survived cancer along the way. He is currently living in Cape Town, South Africa. In his spare time he enjoys playing chess, running and drinking wine.
+    title: >
+      Mobile connectivity at scale, on Prepaid
+    abstract: >
+      Flickswitch started in 2007, we have built our business around prepaid mobile connectivity in South Africa and now Africa. We saw an opportunity to build services aimed at the mushrooming IoT world on top of Telco prepaid infrastructure. We pioneered structured prepaid at scale and effectively uncovered a new niche. The initial stack was built on LAMP and catered to SA customers on one network only. We got to product-market-fit somewhere in 2009, with gradual linear growth from 2009-2015. Then we decided to expand into Africa… In the last 3 years we have come a long way and want to share some learnings of scaling.
+    video:
+
+kees_and_wayne:
+    name: Kees Snijders and Wayne Pringle-Wood
+    title: Mobile connectivity at scale, on Prepaid
+    abstract: >
+        Flickswitch started in 2007, we have built our business around prepaid mobile connectivity in South Africa and now Africa. We saw an opportunity to build services aimed at the mushrooming IoT world on top of Telco prepaid infrastructure. We pioneered structured prepaid at scale and effectively uncovered a new niche. The initial stack was built on LAMP and catered to SA customers on one network only. We got to product-market-fit somewhere in 2009, with gradual linear growth from 2009-2015. Then we decided to expand into Africa… In the last 3 years we have come a long way and want to share some learnings of scaling.
+    video:
+
+gianlucca_arbezzano:
+    name: Gianlucca Arbezzano
+    company: InfluxData
+    role: Site Reliability Engineer
+    twitter: gianarb
+    github:
+    country: Ireland
+    landing_page: true
+    year: 2019
+    bio: >
+      Gianluca Arbezzano is an SRE at InfluxData. He is a big Open Source contributor for several projects including and not limited to OpenTracing, Docker, and InfluxDB. He is also a Docker Captain and a CNCF Ambassador. He is passionate about troubleshooting applications at scale, observability, and distributed systems. He is familiar with several programming languages, such as Javascript and Golang and is an active speaker and writer, sharing his experiences and knowledge on projects that he is contributing to.
+    title: >
+      Debug like a pro on Kubernetes
+    abstract: >
+      Golang applications are perfect to be run inside a container. You can build a single binary, a tiny Docker image and you can ship them on your Kubernetes cluster. A successful production environment requires stability and simplicity, it needs to be easy to troubleshoot and operators need to be able to get all the information developers will need to fix a bug. During this talk, Gianluca will share what influxData is doing to allow developers and system administrator to work together, understanding problems running live at scale on Kubernetes and how to escalate them down to Software Engineer using logs, delve, gdb, core dumps, and traces to replicate and fix issues.
+    video:
+
+jamie_hewland_2019:
+    name: Jamie Hewland
+    company: Praekelt.org
+    role: Site Reliability Engineer
+    twitter: jayhewland
+    github:
+    country: South Africa
+    landing_page: true
+    year: 2019
+    bio: >
+      Jamie is a Site Reliability Engineer (SRE) at Praekelt.org and works a lot with containers, CI/CD processes, and cloud infrastructure. Jamie is also Praekelt.org’s Tech Ambassador and has spoken at several tech conferences including ScaleConf and KubeCon. He writes and edits technical content for the company’s <a href='https://medium.com/mobileforgood'>MobileForGood</a> blog. His blog posts have been read by thousands of people and explore topics around container technologies as well as tech issues relevant to the ICT4D community.
+    title: >
+      Reaching Millions of Girls with Girl Effect
+    abstract: >
+      How do you reach 25 million girls globally who don’t share a common language or background? To scale Girl Effect’s platform and achieve this, we tailored many copies of our site. In 3 years we reworked our CMS and pulled parts into microservices as our infrastructure evolved to support the platform.
+    video:
+
+codie_roelf:
+    name: Codie Roelf
+    company: Praekelt.org
+    role: Software Engineer
+    twitter: ItsCodieee
+    github:
+    country: South Africa
+    landing_page: true
+    year: 2019
+    bio: >
+      JCodie is a software engineer at Praekelt.org. She is passionate about Bollywood movies, Celine Dion and uplifting the lives of womxn through tech. She is a co-founder of Django Girls Cape Town and Code Like Her. You’re most likely to see her wearing some form of Fedora.
+    title: >
+      Reaching Millions of Girls with Girl Effect
+    abstract: >
+      How do you reach 25 million girls globally who don’t share a common language or background? To scale Girl Effect’s platform and achieve this, we tailored many copies of our site. In 3 years we reworked our CMS and pulled parts into microservices as our infrastructure evolved to support the platform.
+    video:
+
+jamie_and_codie:
+    name: Jamie Hewland and Codie Roelf
+    title: Reaching Millions of Girls with Girl Effect
+    abstract: >
+        How do you reach 25 million girls globally who don’t share a common language or background? To scale Girl Effect’s platform and achieve this, we tailored many copies of our site. In 3 years we reworked our CMS and pulled parts into microservices as our infrastructure evolved to support the platform.
+    video:
+
 mary_racter:
     name: Mary Racter
     company: Praekelt.org
@@ -139,7 +272,7 @@ david_townshend:
 
 kent_beck:
     name: Kent Beck
-    company: 
+    company:
     role:
     twitter: kentbeck
     github: KentBeck
@@ -2333,9 +2466,9 @@ simon_ratcliffe:
     bio: >
         Simon started out life as an astronomer, used to be an engineer, and is now
         trying to avoid managerial tasks. Currently in charge of scientific
-        computing for the MeerKAT radio telescope (www.ska.ac.za), he spends a
+        computing for the MeerKAT radio telescope (<a href='http://www.ska.ac.za'>ska.ac.za</a>), he spends a
         significant amount of his coding time trying to avoid writing C, and
-        the rest of the time trying to use sys._getframe() in ways that annoy
+        the rest of the time trying to use <code>sys._getframe()</code> in ways that annoy
         his colleagues.
     title: Scale at the Square Kilometer Array
     abstract: >

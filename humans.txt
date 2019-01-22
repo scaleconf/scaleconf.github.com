@@ -1,11 +1,11 @@
 /* TEAM - Email us at: info@scaleconf.org */
     Jonathan Hitchcock    @vhata
     Duncan Phillips       @nuknad
-    Jennifer Poole        @fireenjn
     Marije Pierson        @marijep
-    Mike Jones            @imsickofmaps    
+    Mike Jones            @imsickofmaps
 
 /* THANKS */
+    Jennifer Poole        @fireenjn
     Shaun O'Connell       @ndorfin
     Russell Cloran        @rcloran
     Stefano Rivera        @stefanorivera
