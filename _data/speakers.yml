@@ -120,7 +120,7 @@ gianlucca_arbezzano:
     title: >
       Debug like a pro on Kubernetes
     abstract: >
-      Golang applications are perfect to be run inside a container. You can build a single binary, a tiny Docker image and you can ship them on your Kubernetes cluster. A successful production environment requires stability and simplicity, it needs to be easy to troubleshoot and operators need to be able to get all the information developers will need to fix a bug. During this talk, Gianluca will share what influxData is doing to allow developers and system administrator to work together, understanding problems running live at scale on Kubernetes and how to escalate them down to Software Engineer using logs, delve, gdb, core dumps, and traces to replicate and fix issues.
+      Golang applications are perfect to be run inside a container. You can build a single binary, a tiny Docker image and you can ship them on your Kubernetes cluster. A successful production environment requires stability and simplicity, it needs to be easy to troubleshoot and operators need to be able to get all the information developers will need to fix a bug. During this talk, Gianluca will share what influxData is doing to allow developers and system administrator to work together, understanding problems running live at scale on Kubernetes and how to escalate them down to Software Engineer using logs, delve, gdb, core dumps, and traces to replicate and fix issues. Gianluca has written a number of blog posts related to his talk: <a href='https://gianarb.it/blog/infrastructure-as-real-code'>Infrastructure as (real) code</a>, <a href='https://gianarb.it/blog/high-cardinality-database'>You need an high cardinality database</a>, <a href='https://gianarb.it/blog/chaos-engineer'>Chaos Engineering</a>, <a href='https://gianarb.it/blog/prometheus-openmetrics-expositon-format'>OpenMetrics and the future of the prometheus exposition format</a>, <a href='https://gianarb.it/blog/faq-distributed-tracing'>FAQ: Distributed tracing</a> and <a href='https://gianarb.it/blog/logs-metrics-traces-aggregation'>Logs, metrics and traces are equally useless</a>.
     video:
 
 jamie_hewland_2019:
@@ -179,6 +179,23 @@ oliver_szimmetat:
       Securing the Continuous Delivery System at Scale
     abstract: >
       While software projects move towards continuous delivery, attacks on the infrastructure and on shared components are on the rise. Dependencies become more complex and often result in thousands of vulnerabilities. This talk shows how to effectively mitigate threats as part of the engineering process.
+    video:
+
+tim_wade:
+    name: Tim Wade
+    company: Dimension Data
+    role: Senior Director of Technology and Architecture Consulting
+    twitter:
+    github:
+    country: UK
+    landing_page: true
+    year: 2019
+    bio: >
+      Tim Wade, a technologist who has a passion for cloud engineering and architecture, working at great companies like Nokia and Dimension Data; now the Senior Director of Technology and Architecture Consulting at Dimension Data Group, based in the UK office. Tim was one of the great minds behind the Dimension Data - Tour de France partnership to digitize a 100+ year old bicycle race, bringing cloud, big data and analytics to a live digital fan experience.
+    title: >
+      Scaling live transactional data at the Tour de France
+    abstract: >
+      How do you receive, aggregate and process thousands of live data points gathered from 22 teams of racers taking part in a 3500km bicycle race over 23 days? And then present that data live to an audience of over 7 million people as it happens? Enter the digitization of the Tour de France race data.
     video:
 
 mary_racter:
