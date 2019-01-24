@@ -88,19 +88,6 @@ title: Home
 </div>
 {% endif %}
 
-<!-- Tickets - Buy -->
-
-{% if sections.tickets_sell %}
-<div class="row" style="background:#d2eef5; padding: 0px 0 30px;">
-  <div class="col-md-offset-3 col-md-6 text-center">
-    <h2>Tickets on Sale</h2>
-    <div class='text-center'>
-      {% include quicket-frame.html %}
-    </div>
-  </div>
-</div>
-{% endif %}
-
 <!-- Tickets - Waiting List -->
 
 {% if sections.tickets_waitinglist %}
@@ -112,6 +99,19 @@ title: Home
     </p>
     <div class='text-center'>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSewoGGAeOHqaM_s874fuah49QUEkbjFh8OBNXqPDlis0qVWuw/viewform" role="button" class="btn btn-primary">Add to Waiting List</a>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- Tickets - Buy -->
+
+{% if sections.tickets_sell %}
+<div class="row" style="background:#d2eef5; padding: 0px 0 30px;">
+  <div class="col-md-offset-3 col-md-6 text-center">
+    <h2>Tickets on Sale</h2>
+    <div class='text-center'>
+      {% include quicket-frame.html %}
     </div>
   </div>
 </div>
