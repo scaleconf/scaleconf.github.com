@@ -82,6 +82,23 @@ kees_snijders:
       Flickswitch started in 2007, we have built our business around prepaid mobile connectivity in South Africa and now Africa. We saw an opportunity to build services aimed at the mushrooming IoT world on top of Telco prepaid infrastructure. We pioneered structured prepaid at scale and effectively uncovered a new niche. The initial stack was built on LAMP and catered to SA customers on one network only. We got to product-market-fit somewhere in 2009, with gradual linear growth from 2009-2015. Then we decided to expand into Africa… In the last 3 years we have come a long way and want to share some learnings of scaling.
     video:
 
+wayne_pringle_wood:
+    name: Wayne Pringle-Wood
+    company: Flickswitch
+    role: Head of Engineering
+    twitter: pringlewood
+    github:
+    country: South Africa
+    landing_page: true
+    year: 2019
+    bio: >
+      Wayne grew up in Zim, completed his schooling in SA, completed a BCom Infotech at Curtin University, Australia. His career has included stints at Lufthansa, Direct Axis, Mxit and Kagiso Media. He is a multifaceted person, who can write code, manage projects and people. He has a passion for building digital products that provide value. He has been helping organisations build better software on the foundations of agile and lean principles. He is married and currently living in Cape Town. In his spare time, he enjoys snowboarding, motorbiking and fishing.
+    title: >
+      Mobile connectivity at scale, on Prepaid
+    abstract: >
+      Flickswitch started in 2007, we have built our business around prepaid mobile connectivity in South Africa and now Africa. We saw an opportunity to build services aimed at the mushrooming IoT world on top of Telco prepaid infrastructure. We pioneered structured prepaid at scale and effectively uncovered a new niche. The initial stack was built on LAMP and catered to SA customers on one network only. We got to product-market-fit somewhere in 2009, with gradual linear growth from 2009-2015. Then we decided to expand into Africa… In the last 3 years we have come a long way and want to share some learnings of scaling.
+    video:
+
 kees_and_wayne:
     name: Kees Snijders and Wayne Pringle-Wood
     title: Mobile connectivity at scale, on Prepaid
@@ -145,6 +162,23 @@ jamie_and_codie:
     title: Reaching Millions of Girls with Girl Effect
     abstract: >
         How do you reach 25 million girls globally who don’t share a common language or background? To scale Girl Effect’s platform and achieve this, we tailored many copies of our site. In 3 years we reworked our CMS and pulled parts into microservices as our infrastructure evolved to support the platform.
+    video:
+
+oliver_szimmetat:
+    name: Oliver Szimmetat
+    company: UBER
+    role: Cloud Security Engineering Manager
+    twitter:
+    github:
+    country: USA
+    landing_page: true
+    year: 2019
+    bio: >
+      Born and raised in Hamburg, Germany, I currently live in Seattle, Washington, USA, where I recently joined UBER as a Cloud Security Engineering Manager. Prior to that, I spent 18 years at Microsoft, where I worked in various engineering and engineering management roles contributing to Windows client security (developing and releasing security updates), anti-piracy, cloud security best practices, security testing (Windows and Office), and continuous integration/delivery for all the company’s commercial online services. In my spare time I also volunteer to deliver (security) engineering training to schools and start-up companies in Ethiopia, Kenya, and Tanzania.
+    title: >
+      Securing the Continuous Delivery System at Scale
+    abstract: >
+      While software projects move towards continuous delivery, attacks on the infrastructure and on shared components are on the rise. Dependencies become more complex and often result in thousands of vulnerabilities. This talk shows how to effectively mitigate threats as part of the engineering process.
     video:
 
 mary_racter:
