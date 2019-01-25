@@ -198,6 +198,23 @@ tim_wade:
       How do you receive, aggregate and process thousands of live data points gathered from 22 teams of racers taking part in a 3500km bicycle race over 23 days? And then present that data live to an audience of over 7 million people as it happens? Enter the digitization of the Tour de France race data.
     video:
 
+rory_preddy:
+    name: Rory Preddy
+    company: Microsoft
+    role: Audience Developer
+    twitter: rorypreddy
+    github:
+    country: South Africa
+    landing_page: true
+    year: 2019
+    bio: >
+      Rory has worked in many of the blue chip companies in Johannesburg. A Developer since 2001, he is lucky enough to work full time in R&D which gives him an unparalleled insight into industry movement. He is a chairman of the Jozi-JUG and AWS-Jozi and is a passionate technology Evangelist.
+    title: >
+      Programming for Accessibility
+    abstract: >
+       Have you ever heard “You have to be this tall to operate a mobile phone?”. Programming for diversity serves as an unquestionable indicator that your software embraces and cares about your users’ safety and comfort. Join me on a thought-provoking look at how you can program for accessibility.
+    video:
+
 mary_racter:
     name: Mary Racter
     company: Praekelt.org
