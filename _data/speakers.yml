@@ -164,23 +164,6 @@ jamie_and_codie:
         How do you reach 25 million girls globally who don’t share a common language or background? To scale Girl Effect’s platform and achieve this, we tailored many copies of our site. In 3 years we reworked our CMS and pulled parts into microservices as our infrastructure evolved to support the platform.
     video:
 
-oliver_szimmetat:
-    name: Oliver Szimmetat
-    company: UBER
-    role: Cloud Security Engineering Manager
-    twitter:
-    github:
-    country: USA
-    landing_page: true
-    year: 2019
-    bio: >
-      Born and raised in Hamburg, Germany, I currently live in Seattle, Washington, USA, where I recently joined UBER as a Cloud Security Engineering Manager. Prior to that, I spent 18 years at Microsoft, where I worked in various engineering and engineering management roles contributing to Windows client security (developing and releasing security updates), anti-piracy, cloud security best practices, security testing (Windows and Office), and continuous integration/delivery for all the company’s commercial online services. In my spare time I also volunteer to deliver (security) engineering training to schools and start-up companies in Ethiopia, Kenya, and Tanzania.
-    title: >
-      Securing the Continuous Delivery System at Scale
-    abstract: >
-      While software projects move towards continuous delivery, attacks on the infrastructure and on shared components are on the rise. Dependencies become more complex and often result in thousands of vulnerabilities. This talk shows how to effectively mitigate threats as part of the engineering process.
-    video:
-
 tim_wade:
     name: Tim Wade
     company: Dimension Data
