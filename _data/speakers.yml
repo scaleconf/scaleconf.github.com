@@ -198,6 +198,23 @@ rory_preddy:
        Have you ever heard “You have to be this tall to operate a mobile phone?”. Programming for diversity serves as an unquestionable indicator that your software embraces and cares about your users’ safety and comfort. Join me on a thought-provoking look at how you can program for accessibility.
     video:
 
+grace_chang:
+    name: Grace Chang
+    company:
+    role: Senior Engineer
+    twitter: greyschale
+    github:
+    country: UK
+    landing_page: true
+    year: 2019
+    bio: >
+      Senior Engineer in London, with a past life as an on-call tech lead. Paints with code by day, paints for real by night. Enthusiast of fun coding and coding puns. Lover of lagomorphs, gifs, and gifs of lagomorphs.
+    title: >
+      Code Fasting
+    abstract: >
+       If you had to give up one thing about coding, what would it be? How would it change your habits and development patterns? For a month, I tried coding without using Stack Overflow. What happened next will <i>shock</i> you!
+    video:
+
 mary_racter:
     name: Mary Racter
     company: Praekelt.org
