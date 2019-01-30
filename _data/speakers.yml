@@ -215,6 +215,23 @@ grace_chang:
        If you had to give up one thing about coding, what would it be? How would it change your habits and development patterns? For a month, I tried coding without using Stack Overflow. What happened next will <i>shock</i> you!
     video:
 
+bernardt_duvenhage:
+    name: Bernardt Duvenhage
+    company: Praekelt Consulting
+    role: Feersum Engine NLP & Machine Learning Lead
+    twitter: bernardt_d
+    github:
+    country: South African
+    landing_page: true
+    year: 2019
+    bio: >
+      Feersum Engine NLP & Machine Learning Lead at Praekelt Consulting, PhD Bernardt Duvenhage received his Ph.D. in Computer Science from the University of Pretoria, South Africa in 2015. Bernardt is also a Google Cloud Certified Professional Data Engineer. In 2017 he joined Praekelt’s Feersum Engine Team as the lead developer of the natural language processing and understanding (NLP & NLU) capability. Before Praekelt he was a principal researcher and a research group leader of image processing at the Council for Scientific and Industrial Research in Pretoria. His research interests include natural language understanding, computer vision and field robotics.
+    title: >
+      Building a scalable cloud NLU service for creating chatbots and doing text analysis
+    abstract: >
+       From data science to scalable cloud instance, the talk will show how (and why) we’ve built our own natural language understanding service. The service is containerised and built on Python, PyTorch and C++, OpenAPI with Connexion (Flask) to simplify development, and gunicorn plus nginx for scale.
+    video:
+
 mary_racter:
     name: Mary Racter
     company: Praekelt.org
