@@ -232,6 +232,23 @@ bernardt_duvenhage:
        From data science to scalable cloud instance, the talk will show how (and why) we’ve built our own natural language understanding service. The service is containerised and built on Python, PyTorch and C++, OpenAPI with Connexion (Flask) to simplify development, and gunicorn plus nginx for scale.
     video:
 
+ben_dechrai:
+    name: Ben Dechrai
+    company: Auth0
+    role: Developer Evangelist
+    twitter: bendechrai
+    github:
+    country: Australia
+    landing_page: true
+    year: 2019
+    bio: >
+      Ben Dechrai is a technologist, presenter, community builder, and hard-core privacy advocate. When he’s not on stage, or sharing his ideas and views on security, identity, and privacy, he loves to hear about other people’s passions and interests, technology related and otherwise. It’s because of this that he has been known to run a number of community events, from conferences and meetups, to end-of-year parties and comedy shows. He now works for Auth0 to support developers in making the web a safer place.
+    title: >
+      Web Application Security: Winning When The Odds Are Against You
+    abstract: >
+       We’ve heard of cross-site scripting attacks, SQL injection, and CSRFs, but we rely on frameworks to abstract them away. Yet, understanding them can help our perspective on security. Come along and watch some of the OWASP top ten vulnerabilities in action, and ways to defend against them!
+    video:
+
 mary_racter:
     name: Mary Racter
     company: Praekelt.org
