@@ -249,6 +249,23 @@ ben_dechrai:
        We’ve heard of cross-site scripting attacks, SQL injection, and CSRFs, but we rely on frameworks to abstract them away. Yet, understanding them can help our perspective on security. Come along and watch some of the OWASP top ten vulnerabilities in action, and ways to defend against them!
     video:
 
+heidi_waterhouse:
+    name: Heidi Waterhouse
+    company: LaunchDarkly
+    role: Developer Advocate
+    twitter: wiredferret
+    github:
+    country: USA
+    landing_page: true
+    year: 2019
+    bio: >
+      Heidi is a developer advocate with LaunchDarkly. She delights in working at the intersection of usability, risk reduction, and cutting-edge technology. One of her favourite hobbies is talking to developers about things they already knew but had never thought of that way before. She sews all her conference dresses so that she’s sure there is a pocket for the mic.
+    title: >
+      Tinkertoys, microservices, and feature management: How to build for the future
+    abstract: >
+       Lots of us aren’t developing tidy, discrete features that are easy to manage. How do you plan to move from a tangle of interconnected features to something that you can test and deploy each part of? Join us for an overview on the conceptual basis of designing for feature management.
+    video:
+
 mary_racter:
     name: Mary Racter
     company: Praekelt.org
