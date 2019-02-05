@@ -106,8 +106,8 @@ kees_and_wayne:
         Flickswitch started in 2007, we have built our business around prepaid mobile connectivity in South Africa and now Africa. We saw an opportunity to build services aimed at the mushrooming IoT world on top of Telco prepaid infrastructure. We pioneered structured prepaid at scale and effectively uncovered a new niche. The initial stack was built on LAMP and catered to SA customers on one network only. We got to product-market-fit somewhere in 2009, with gradual linear growth from 2009-2015. Then we decided to expand into Africa… In the last 3 years we have come a long way and want to share some learnings of scaling.
     video:
 
-gianlucca_arbezzano:
-    name: Gianlucca Arbezzano
+gianluca_arbezzano:
+    name: Gianluca Arbezzano
     company: InfluxData
     role: Site Reliability Engineer
     twitter: gianarb
