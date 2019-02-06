@@ -1,3 +1,90 @@
+2019:
+  dates: March 7-8 2019
+  programme:
+    - day: Thursday, 7th March 2019
+      schedule:
+        - time: 8:00 am
+          event: Registration
+          description: Tea and coffee will be served
+        - time: 9:15 am
+          event: Opening
+          description: A quick welcome and introduction to the conference before we get going
+        - time: 9:30 am
+          speaker: TBC
+        - time: 10:15 am
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 10:25 am
+          speaker: TBC
+        - time: 11:10 am
+          event: Break
+          description: Mid-morning tea & coffee with scones and biscuits
+        - time: 11:30 am
+          speaker: TBC
+        - time: 12:15 pm
+          event: Lunch
+          description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
+        - time: 1:45 pm
+          speaker: TBC
+        - time: 2:30 pm
+          event: Break
+          description: Afternoon tea & coffee with biscuits
+        - time: 2:45 pm
+          speaker: TBC
+        - time: 3:30 pm
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 3:50 pm
+          speaker: TBC
+    - day: Thursday evening, 7th March
+      schedule:
+        - time: 5:30 pm - 10:00 pm
+          event: Party
+          description: >
+            Join us for food and drinks at <a href="http://forries.co.za/">Foresters Arms</a>, sponsored by
+            <a href="/sponsors/amazon.html">Amazon</a>. This will be a chance
+            to socialise and network with the speakers, organisers, and fellow conference attendees.
+    - day: Friday, 8th March 2019
+      schedule:
+        - time: 8:30 am
+          event: Arrival
+          description: Tea and coffee will be served
+        - time: 9:15 am
+          speaker: TBC
+        - time: 10:00 am
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 10:10 am
+          speaker: TBC
+        - time: 10:55 am
+          event: Break
+          description: Mid-morning tea & coffee with scones and biscuits
+        - time: 11:25 am
+          speaker: TBC
+        - time: 12:15 pm
+          event: Lunch
+          description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
+        - time: 1:30 pm
+          speaker: TBC
+        - time: 2:15 pm
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 2:30 pm
+          speaker: TBC
+        - time: 3:15 pm
+          event: Break
+          description: Afternoon tea & coffee with biscuits
+        - time: 3:40 pm
+          speaker: TBC
+    - day: Friday evening, 8th March
+      schedule:
+        - time: 5:00 pm - 7:00 pm
+          event: Drinks
+          description: >
+              Join us at the post-conference party at Moyo at Kirstenbosch, for drinks sponsored
+              by <a href="http://www2.dimensiondata.com">Dimension Data</a>. This will be a chance
+              to socialise and network with the speakers, organisers, and fellow conference attendees.
+
 2018:
   dates: March 8-9 2018
   programme:
