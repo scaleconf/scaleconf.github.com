@@ -16,6 +16,8 @@
           description: A quick changeover & pee-break
         - time: 10:25 am
           speaker: kees_and_wayne
+          speaker1: kees_snijders
+          speaker2: wayne_pringle_wood
         - time: 11:10 am
           event: Break
           description: Mid-morning tea & coffee with scones and biscuits
@@ -51,6 +53,8 @@
           description: Tea and coffee will be served
         - time: 9:15 am
           speaker: jamie_and_codie
+          speaker1: jamie_hewland
+          speaker2: codie_roelf
         - time: 10:00 am
           event: Break
           description: A quick changeover & pee-break
