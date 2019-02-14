@@ -10,32 +10,32 @@
           event: Opening
           description: A quick welcome and introduction to the conference before we get going
         - time: 9:30 am
-          speaker: TBC
+          speaker: dale_humby
         - time: 10:15 am
           event: Break
           description: A quick changeover & pee-break
         - time: 10:25 am
-          speaker: TBC
+          speaker: kees_and_wayne
         - time: 11:10 am
           event: Break
           description: Mid-morning tea & coffee with scones and biscuits
         - time: 11:30 am
-          speaker: TBC
+          speaker: heidi_waterhouse
         - time: 12:15 pm
           event: Lunch
           description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
         - time: 1:45 pm
-          speaker: TBC
+          speaker: rory_preddy
         - time: 2:30 pm
           event: Break
           description: Afternoon tea & coffee with biscuits
         - time: 2:45 pm
-          speaker: TBC
+          speaker: ben_dechrai
         - time: 3:30 pm
           event: Break
           description: A quick changeover & pee-break
         - time: 3:50 pm
-          speaker: TBC
+          speaker: tim_wade
     - day: Thursday evening, 7th March
       schedule:
         - time: 5:30 pm - 10:00 pm
@@ -50,40 +50,40 @@
           event: Arrival
           description: Tea and coffee will be served
         - time: 9:15 am
-          speaker: TBC
+          speaker: jamie_and_codie
         - time: 10:00 am
           event: Break
           description: A quick changeover & pee-break
         - time: 10:10 am
-          speaker: TBC
+          speaker: helge_reikeras
         - time: 10:55 am
           event: Break
           description: Mid-morning tea & coffee with scones and biscuits
         - time: 11:25 am
-          speaker: TBC
+          speaker: gianluca_arbezzano
         - time: 12:15 pm
           event: Lunch
           description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
         - time: 1:30 pm
-          speaker: TBC
+          speaker: simon_ratcliffe_2019
         - time: 2:15 pm
           event: Break
           description: A quick changeover & pee-break
         - time: 2:30 pm
-          speaker: TBC
+          speaker: bernardt_duvenhage
         - time: 3:15 pm
           event: Break
           description: Afternoon tea & coffee with biscuits
         - time: 3:40 pm
-          speaker: TBC
-    - day: Friday evening, 8th March
-      schedule:
-        - time: 5:00 pm - 7:00 pm
-          event: Drinks
-          description: >
-              Join us at the post-conference party at Moyo at Kirstenbosch, for drinks sponsored
-              by <a href="http://www2.dimensiondata.com">Dimension Data</a>. This will be a chance
-              to socialise and network with the speakers, organisers, and fellow conference attendees.
+          speaker: grace_chang
+#    - day: Friday evening, 8th March
+#      schedule:
+#        - time: 5:00 pm - 7:00 pm
+#          event: Drinks
+#          description: >
+#              Join us at the post-conference party at Moyo at Kirstenbosch, for drinks sponsored
+#              by <a href="http://www2.dimensiondata.com">Dimension Data</a>. This will be a chance
+#              to socialise and network with the speakers, organisers, and fellow conference attendees.
 
 2018:
   dates: March 8-9 2018
