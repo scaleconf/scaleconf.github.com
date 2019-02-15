@@ -32,7 +32,15 @@
                     <td style="width:15%">
                         <img src="/img/layout/bullet.png" />
                         <span class="speaker">
-                            {% if event.speaker != 'TBC' %}
+                            {% if event.speaker1 != nil %}
+                            <a href="/speakers#{{ site.data.speakers[event.speaker1].name | slugify}}">
+                                {{ site.data.speakers[event.speaker1].name }}
+                            </a>
+                            and
+                            <a href="/speakers#{{ site.data.speakers[event.speaker2].name | slugify}}">
+                                {{ site.data.speakers[event.speaker2].name }}
+                            </a>
+                            {% elsif event.speaker != 'TBC' %}
                             <a href="/speakers#{{ site.data.speakers[event.speaker].name | slugify }}">
                                 {{ site.data.speakers[event.speaker].name }}
                             </a>
