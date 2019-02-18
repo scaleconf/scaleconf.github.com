@@ -10,7 +10,7 @@
           event: Opening
           description: A quick welcome and introduction to the conference before we get going
         - time: 9:30 am
-          speaker: dale_humby
+          speaker: dale_humby_2019
         - time: 10:15 am
           event: Break
           description: A quick changeover & pee-break
@@ -40,10 +40,10 @@
           speaker: tim_wade
     - day: Thursday evening, 7th March
       schedule:
-        - time: 5:30 pm - 10:00 pm
+        - time: 5:30 - 10:00 pm
           event: Party
           description: >
-            Join us for food and drinks at <a href="http://forries.co.za/">Foresters Arms</a>, sponsored by
+            Join us for pizza and drinks at <a href="http://forries.co.za/">Foresters Arms</a>, sponsored by
             <a href="/sponsors/amazon.html">Amazon</a>. This will be a chance
             to socialise and network with the speakers, organisers, and fellow conference attendees.
     - day: Friday, 8th March 2019
@@ -82,10 +82,10 @@
           speaker: grace_chang
     - day: Friday evening, 8th March
       schedule:
-        - time: 5:00 pm - 7:00 pm
+        - time: 5:00 - 7:00 pm
           event: Drinks
           description: >
-              Join us for post-conference drinks at Moyo at Kirstenbosch. This will be a chance
+              Join us for post-conference drinks at Moyo, Kirstenbosch. This will be a chance
               to socialise and network with the speakers, organisers, and fellow conference attendees.
 
 2018:
