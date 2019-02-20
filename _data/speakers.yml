@@ -210,9 +210,9 @@ grace_chang:
     bio: >
       Senior Engineer in London, with a past life as an on-call tech lead. Paints with code by day, paints for real by night. Enthusiast of fun coding and coding puns. Lover of lagomorphs, gifs, and gifs of lagomorphs.
     title: >
-      Code Fasting
+      Scaling Silos: Distributing Knowledge
     abstract: >
-       If you had to give up one thing about coding, what would it be? How would it change your habits and development patterns? For a month, I tried coding without using Stack Overflow. What happened next will <i>shock</i> you!
+       In a distributed cloud world, we are frequently talking about how to scale our systems so that they are reliable, resilient, and fault-tolerant. But these concepts don't just apply to the computational aspect. A somewhat unconventional experiment of trying to work for a month without using StackOverflow showed that we can actually reuse the concepts we are already familiar with and apply them to the way we share knowledge within our teams.
     video:
 
 bernardt_duvenhage:
