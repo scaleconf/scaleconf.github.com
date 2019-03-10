@@ -3,9 +3,10 @@ quicket_productid: 34636
 
 waiting_list_url: https://docs.google.com/forms/d/e/1FAIpQLSewoGGAeOHqaM_s874fuah49QUEkbjFh8OBNXqPDlis0qVWuw/viewform?usp=sf_link
 
-current_year: 2019
+current_year: 2020
 
 years:
+  - 2020
   - 2019
   - 2018
   - 2017
@@ -15,17 +16,17 @@ years:
   - 2013
   - 2012
 
-dates: 7 & 8 March 2019
+dates: 2020 dates to be confirmed
 
 homepage_sections:
   upcoming_conference: false
   tickets_sell: false
-  tickets_soldout: true
-  tickets_waitinglist: true
-  tickets_notify: false
-  current_speakers: true
-  previous_speakers: false
+  tickets_soldout: false
+  tickets_waitinglist: false
+  tickets_notify: true
+  current_speakers: false
+  previous_speakers: true
   sponsors: true
 navigation:
   submit: false
-  schedule: true
+  schedule: false
