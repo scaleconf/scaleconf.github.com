@@ -72,7 +72,7 @@ kees_snijders:
     twitter: ksnijders
     github:
     country: South Africa
-    landing_page: true
+    landing_page: false
     year: 2019
     bio: >
       Kees was born to Dutch immigrants in Johannesburg in 1972, completed his schooling and university (UJ) in SA. Left SA to join a post-grad program in the US in 1995, completed an MSc at Syracuse University. He started working as a programmer at Cambridge Technology Partners based in Boston in 1997, he transferred to their UK operation in 1998. He left to join Deutsche Bank in 1999. Returned to SA and got into Telco in 2002, he spent 5 years working for a Vodacom Service Provider and left to found Flickswitch in 2007. He got married, fathered 4 kids and survived cancer along the way. He is currently living in Cape Town, South Africa. In his spare time he enjoys playing chess, running and drinking wine.
@@ -89,7 +89,7 @@ wayne_pringle_wood:
     twitter: pringlewood
     github:
     country: South Africa
-    landing_page: true
+    landing_page: false
     year: 2019
     bio: >
       Wayne grew up in Zim, completed his schooling in SA, completed a BCom Infotech at Curtin University, Australia. His career has included stints at Lufthansa, Direct Axis, Mxit and Kagiso Media. He is a multifaceted person, who can write code, manage projects and people. He has a passion for building digital products that provide value. He has been helping organisations build better software on the foundations of agile and lean principles. He is married and currently living in Cape Town. In his spare time, he enjoys snowboarding, motorbiking and fishing.
@@ -130,7 +130,7 @@ jamie_hewland_2019:
     twitter: jayhewland
     github:
     country: South Africa
-    landing_page: true
+    landing_page: false
     year: 2019
     bio: >
       Jamie is a Site Reliability Engineer (SRE) at Praekelt.org and works a lot with containers, CI/CD processes, and cloud infrastructure. Jamie is also Praekelt.org’s Tech Ambassador and has spoken at several tech conferences including ScaleConf and KubeCon. He writes and edits technical content for the company’s <a href='https://medium.com/mobileforgood'>MobileForGood</a> blog. His blog posts have been read by thousands of people and explore topics around container technologies as well as tech issues relevant to the ICT4D community.
@@ -147,7 +147,7 @@ codie_roelf:
     twitter: ItsCodieee
     github:
     country: South Africa
-    landing_page: true
+    landing_page: false
     year: 2019
     bio: >
       JCodie is a software engineer at Praekelt.org. She is passionate about Bollywood movies, Celine Dion and uplifting the lives of womxn through tech. She is a co-founder of Django Girls Cape Town and Code Like Her. You’re most likely to see her wearing some form of Fedora.
@@ -171,7 +171,7 @@ tim_wade:
     twitter: TimWadeData
     github:
     country: UK
-    landing_page: true
+    landing_page: false
     year: 2019
     bio: >
       Tim Wade, a technologist who has a passion for cloud engineering and architecture, working at great companies like Nokia and Dimension Data; now the Senior Director of Technology and Architecture Consulting at Dimension Data Group, based in the UK office. Tim was one of the great minds behind the Dimension Data - Tour de France partnership to digitize a 100+ year old bicycle race, bringing cloud, big data and analytics to a live digital fan experience.
@@ -188,7 +188,7 @@ rory_preddy:
     twitter: rorypreddy
     github:
     country: South Africa
-    landing_page: true
+    landing_page: false
     year: 2019
     bio: >
       Prior to joining Microsoft, Rory worked for a number of South Africa’s large companies as an Integration Architect. Rory’s focus for the last 7 years has been on research and development (R&D) with a focus on cloud research, consulting and training. Working in research has allowed him unparalleled insights into industry movements, trends, and news. Rory is extremely passionate about the programming community and has been critical helping them create a South African flavoured digital disruption strategy. Rory is an organiser of the Kotlin and Java developer user groups and has led the Johannesburg AWS user group for 2 years. When not captivating the crowd with his presentations as a technical speaker, he can be found in the front row with a distinguished laugh, infectious enough to break the awkward silence in any audience. His expertise includes PaaS and Java, and he holds an honours degree in Computer Science. Married with two children, Rory tries to spend most of his free time with his family and two hyperactive Schnauzers.
@@ -205,7 +205,7 @@ grace_chang:
     twitter: greyschale
     github:
     country: UK
-    landing_page: true
+    landing_page: false
     year: 2019
     bio: >
       Senior Engineer in London, with a past life as an on-call tech lead. Paints with code by day, paints for real by night. Enthusiast of fun coding and coding puns. Lover of lagomorphs, gifs, and gifs of lagomorphs.
@@ -222,7 +222,7 @@ bernardt_duvenhage:
     twitter: bernardt_d
     github:
     country: South Africa
-    landing_page: true
+    landing_page: false
     year: 2019
     bio: >
       Bernardt Duvenhage received his Ph.D. in Computer Science from the University of Pretoria, South Africa in 2015. Bernardt is also a Google Cloud Certified Professional Data Engineer. In 2017 he joined Praekelt’s Feersum Engine Team as the lead developer of the natural language processing and understanding (NLP & NLU) capability. Before Praekelt he was a principal researcher and a research group leader of image processing at the Council for Scientific and Industrial Research in Pretoria. His research interests include natural language understanding, computer vision and field robotics.
@@ -273,7 +273,7 @@ mary_racter:
     twitter: mracter
     github:
     country: South Africa
-    landing_page: true
+    landing_page: false
     year: 2018
     bio: >
       Born and bred on dirty tricks. Security Engineer at Praekelt.org, a non-profit foundation focused on building digital solutions to improving quality of life in the majority world. Worked at MWR InfoSecurity as a penetration tester until moving on to Praekelt.org to connect information security with strengthening human rights in the digital age. Once ate an entire pack of lemon creams for supper.
@@ -290,7 +290,7 @@ cooper_lees:
     twitter: cooperlees
     github: cooperlees
     country: USA
-    landing_page: true
+    landing_page: false
     year: 2018
     bio: >
       I’m an Aussie who’s been at Facebook for almost 5 years. Previous to Facebook I worked for Juniper Networks via contact all over APAC, and was once a UNIX Systems admin @ the Australian Nuclear Science and Technology Organization. I love modern computing technology, of late IPv6 and Python 3. I have helped with the efforts of pushing both to Facebook and associate companies.
@@ -307,7 +307,7 @@ aslam_khan:
     twitter: aslamkhn
     github: aslamkhn
     country: South Africa
-    landing_page: true
+    landing_page: false
     year: 2018
     bio: >
       Aslam is an African technologist and strategist. He consults to large enterprises looking to shift gears, and to startups that are off the runway trying the same. He spends his time with his friends at Samushonga, Khan and Baker where they sharpen enterprise strategy and execute on its implementation; focusing on people to lines of code and the weird stuff in between. After all, what is the value of a strategy that can’t be delivered?
@@ -324,7 +324,7 @@ monty_widenius:
     twitter: montywi
     github:
     country: Finland
-    landing_page: true
+    landing_page: false
     year: 2018
     bio: >
       Monty started working on precursors to MySQL in 1981, released MySQL in 1995 and has been developing MySQL and its fork MariaDB ever since. Currently the CTO of MariaDB Corporation, he’s still a highly active developer, and loves nothing more than intense technical discussions.
@@ -396,7 +396,7 @@ kent_beck:
     twitter: kentbeck
     github: KentBeck
     country: USA
-    landing_page: true
+    landing_page: false
     year: 2018
     bio: >
       Kent Beck has spent the past seven years at Facebook teaching the engineers that scale the service. Before that he pioneered applying patterns to software development, co-wrote the JUnit testing framework, re-discovered Test-Driven Development, and created Extreme Programming. He is also the first signatory of the Agile Manifesto (alphabetically).
@@ -413,7 +413,7 @@ felipe_hoffa:
     twitter: felipehoffa
     github: fhoffa
     country: USA
-    landing_page: true
+    landing_page: false
     year: 2018
     bio: >
       In 2011 Felipe Hoffa moved from Chile to San Francisco to join Google as a Software Engineer. Since 2013 he’s been a Developer Advocate on big data - to inspire developers around the world to leverage the Google Cloud Platform tools to analyze and understand their data in ways they could never before. You can find him in several YouTube videos, blog posts, and conferences around the world.
