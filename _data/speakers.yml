@@ -29,7 +29,7 @@ dale_humby_2019:
       Scale Fail Scale: A start-up's story of surviving death
     abstract: >
       By 2015 Nomanini was growing nicely with thousands of merchants spread across Africa. But when our largest client went bankrupt we lost 80% of our transaction volume, almost sinking us with them. This is a story of suddenly not being at scale, of layoffs and pivots, rewrites, and finally growth.
-    video:
+    video: wBOgXqaINJ0
 
 simon_ratcliffe_2019:
     name: Simon Ratcliffe
@@ -46,7 +46,7 @@ simon_ratcliffe_2019:
        A Sky Full of Stars
     abstract: >
       Hundreds of billions of galaxies each with hundreds of billions of stars; how do you create a machine to help make sense of it all? This is the story of building MeerKAT - the most powerful radio telescope in the world. This is a follow on Simon's <a href='https://scaleconf.org/speakers/2013'>ScaleConf 2013 talk</a> which set out the plans for delivering MeerKAT, and how they planned to address the scale challenges.
-    video:
+    video: MHq3vun4KlI
 
 helge_reikeras:
     name: Helge Reikeras
@@ -63,7 +63,7 @@ helge_reikeras:
       Kick-Ass Tools and Processes for Scalable Data Science
     abstract: >
       This talk is about how we can enable data science teams to focus all their time and effort at what they’re good at — namely data science. We’ll discuss tools and processes for scaling the data science workflow in a cost-effective manner with tools such as Docker, Kubernetes, Spark and Luigi.
-    video:
+    video: MDo1gcrJp5k
 
 kees_snijders:
     name: Kees Snijders
@@ -80,7 +80,7 @@ kees_snijders:
       Mobile connectivity at scale, on Prepaid
     abstract: >
       Flickswitch started in 2007, we have built our business around prepaid mobile connectivity in South Africa and now Africa. We saw an opportunity to build services aimed at the mushrooming IoT world on top of Telco prepaid infrastructure. We pioneered structured prepaid at scale and effectively uncovered a new niche. The initial stack was built on LAMP and catered to SA customers on one network only. We got to product-market-fit somewhere in 2009, with gradual linear growth from 2009-2015. Then we decided to expand into Africa… In the last 3 years we have come a long way and want to share some learnings of scaling.
-    video:
+    video: GDc6DDe1YXQ
 
 wayne_pringle_wood:
     name: Wayne Pringle-Wood
@@ -97,14 +97,14 @@ wayne_pringle_wood:
       Mobile connectivity at scale, on Prepaid
     abstract: >
       Flickswitch started in 2007, we have built our business around prepaid mobile connectivity in South Africa and now Africa. We saw an opportunity to build services aimed at the mushrooming IoT world on top of Telco prepaid infrastructure. We pioneered structured prepaid at scale and effectively uncovered a new niche. The initial stack was built on LAMP and catered to SA customers on one network only. We got to product-market-fit somewhere in 2009, with gradual linear growth from 2009-2015. Then we decided to expand into Africa… In the last 3 years we have come a long way and want to share some learnings of scaling.
-    video:
+    video: GDc6DDe1YXQ
 
 kees_and_wayne:
     name: Kees Snijders and Wayne Pringle-Wood
     title: Mobile connectivity at scale, on Prepaid
     abstract: >
         Flickswitch started in 2007, we have built our business around prepaid mobile connectivity in South Africa and now Africa. We saw an opportunity to build services aimed at the mushrooming IoT world on top of Telco prepaid infrastructure. We pioneered structured prepaid at scale and effectively uncovered a new niche. The initial stack was built on LAMP and catered to SA customers on one network only. We got to product-market-fit somewhere in 2009, with gradual linear growth from 2009-2015. Then we decided to expand into Africa… In the last 3 years we have come a long way and want to share some learnings of scaling.
-    video:
+    video: GDc6DDe1YXQ
 
 gianluca_arbezzano:
     name: Gianluca Arbezzano
@@ -121,7 +121,7 @@ gianluca_arbezzano:
       Debug like a pro on Kubernetes
     abstract: >
       Golang applications are perfect to be run inside a container. You can build a single binary, a tiny Docker image and you can ship them on your Kubernetes cluster. A successful production environment requires stability and simplicity, it needs to be easy to troubleshoot and operators need to be able to get all the information developers will need to fix a bug. During this talk, Gianluca will share what influxData is doing to allow developers and system administrator to work together, understanding problems running live at scale on Kubernetes and how to escalate them down to Software Engineer using logs, delve, gdb, core dumps, and traces to replicate and fix issues. Gianluca has written a number of blog posts related to his talk: <a href='https://gianarb.it/blog/infrastructure-as-real-code'>Infrastructure as (real) code</a>, <a href='https://gianarb.it/blog/high-cardinality-database'>You need an high cardinality database</a>, <a href='https://gianarb.it/blog/chaos-engineer'>Chaos Engineering</a>, <a href='https://gianarb.it/blog/prometheus-openmetrics-expositon-format'>OpenMetrics and the future of the prometheus exposition format</a>, <a href='https://gianarb.it/blog/faq-distributed-tracing'>FAQ: Distributed tracing</a> and <a href='https://gianarb.it/blog/logs-metrics-traces-aggregation'>Logs, metrics and traces are equally useless</a>.
-    video:
+    video: lcHUYwp5rQY
 
 jamie_hewland_2019:
     name: Jamie Hewland
@@ -138,7 +138,7 @@ jamie_hewland_2019:
       Reaching Millions of Girls with Girl Effect
     abstract: >
       How do you reach 25 million girls globally who don’t share a common language or background? To scale Girl Effect’s platform and achieve this, we tailored many copies of our site. In 3 years we reworked our CMS and pulled parts into microservices as our infrastructure evolved to support the platform.
-    video:
+    video: liwBVtrdfgw
 
 codie_roelf:
     name: Codie Roelf
@@ -155,14 +155,14 @@ codie_roelf:
       Reaching Millions of Girls with Girl Effect
     abstract: >
       How do you reach 25 million girls globally who don’t share a common language or background? To scale Girl Effect’s platform and achieve this, we tailored many copies of our site. In 3 years we reworked our CMS and pulled parts into microservices as our infrastructure evolved to support the platform.
-    video:
+    video: liwBVtrdfgw
 
 jamie_and_codie:
     name: Jamie Hewland and Codie Roelf
     title: Reaching Millions of Girls with Girl Effect
     abstract: >
         How do you reach 25 million girls globally who don’t share a common language or background? To scale Girl Effect’s platform and achieve this, we tailored many copies of our site. In 3 years we reworked our CMS and pulled parts into microservices as our infrastructure evolved to support the platform.
-    video:
+    video: liwBVtrdfgw
 
 tim_wade:
     name: Tim Wade
@@ -179,7 +179,7 @@ tim_wade:
       Scaling live transactional data at the Tour de France
     abstract: >
       How do you receive, aggregate and process thousands of live data points gathered from 22 teams of racers taking part in a 3500km bicycle race over 23 days? And then present that data live to an audience of over 7 million people as it happens? Enter the digitization of the Tour de France race data.
-    video:
+    video: f1jhkhHPcIg
 
 rory_preddy:
     name: Rory Preddy
@@ -196,7 +196,7 @@ rory_preddy:
       Programming for Accessibility
     abstract: >
        Have you ever heard “You have to be this tall to operate a mobile phone?”. Programming for diversity serves as an unquestionable indicator that your software embraces and cares about your users’ safety and comfort. Join me on a thought-provoking look at how you can program for accessibility.
-    video:
+    video: q9UHPYCL1yE
 
 grace_chang:
     name: Grace Chang
@@ -213,7 +213,7 @@ grace_chang:
       Scaling Silos: Distributing Knowledge
     abstract: >
        In a distributed cloud world, we are frequently talking about how to scale our systems so that they are reliable, resilient, and fault-tolerant. But these concepts don't just apply to the computational aspect. A somewhat unconventional experiment of trying to work for a month without using StackOverflow showed that we can actually reuse the concepts we are already familiar with and apply them to the way we share knowledge within our teams.
-    video:
+    video: hnZqL9-ZvFQ
 
 bernardt_duvenhage:
     name: Bernardt Duvenhage
@@ -230,7 +230,7 @@ bernardt_duvenhage:
       Natural Language Understanding at Scale
     abstract: >
        From data science to scalable cloud instance, the talk will show how (and why) we’ve built our own natural language understanding service. The service is containerised and built on Python, PyTorch and C++, OpenAPI with Connexion (Flask) to simplify development, and gunicorn plus nginx for scale.
-    video:
+    video: p2aGvCcICoY
 
 ben_dechrai:
     name: Ben Dechrai
@@ -247,7 +247,7 @@ ben_dechrai:
       Web Application Security: Winning When The Odds Are Against You
     abstract: >
        We’ve heard of cross-site scripting attacks, SQL injection, and CSRFs, but we rely on frameworks to abstract them away. Yet, understanding them can help our perspective on security. Come along and watch some of the OWASP top ten vulnerabilities in action, and ways to defend against them!
-    video:
+    video: 9jw_NGhhrWk
 
 heidi_waterhouse:
     name: Heidi Waterhouse
@@ -264,7 +264,7 @@ heidi_waterhouse:
       Tinkertoys, microservices, and feature management: How to build for the future
     abstract: >
        Lots of us aren’t developing tidy, discrete features that are easy to manage. How do you plan to move from a tangle of interconnected features to something that you can test and deploy each part of? Join us for an overview on the conceptual basis of designing for feature management.
-    video:
+    video: 0tjJEzWQc8g
 
 mary_racter:
     name: Mary Racter
