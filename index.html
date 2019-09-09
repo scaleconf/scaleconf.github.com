@@ -175,14 +175,14 @@ title: Home
 <div class="row">
   <div class="col-md-offset-3 col-md-6 text-center section">
     <div class="row">
-      <h2>Sponsors for 2020</h2>
+      <h2>Sponsors for 2019</h2>
       <p class="big">
-        We would like to thank our generous sponsors.
+        We would like to thank our generous sponsors, without which this conference would not happen.
       </p>
     </div>
     <div class="row">
       {% for sponsor in landing_page_sponsors %}
-      <div class="col-md-4" style="height:150px; overflow-y:hidden">
+      <div class="col-md-6" style="height:150px; overflow-y:hidden">
         <img src='/img/sponsors/{{ sponsor.name | slugify | replace: '-', '_' }}.large.png' style='display:inline-block; vertical-align:top; width:90%;'/>
       </div>
       {% endfor %}
