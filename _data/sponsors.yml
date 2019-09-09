@@ -4,11 +4,12 @@
 # 2017: ["takealot", "google", "oracle", "offerzen", "allan_gray", "fastly", "jumo", "amazon", "impact_radius"]
 # 2018" ["takealot", "amazon", "allan_gray", "offerzen", "impact_radius", "oracle", "google", "luno", "smyte"]
 # 2019" ["impact", "estalea", "elastic", "offerzen", "microsoft", "takealot", "dimensiondata", "luno", "amazon", "allan_gray", "equal_experts", "aruba"]
+# 2020" ["elastic, luno"]
 
 sponsors:
   - name: allan_gray
-    active: true
-    active_rank: 3
+    active: false
+    active_rank:
     website_text: >
       <b>Who are we?</b>
       </p>
@@ -34,7 +35,7 @@ sponsors:
       generally look for Full Stack developers and testers that are tech agnostic and
       can utilise the right tool for the job.
   - name: amazon
-    active: true
+    active: false
     active_rank: 1
     website_text: >
       Amazon has a thriving technical centre in Cape Town! This is the centre
@@ -68,7 +69,7 @@ sponsors:
       <a href='http://www.adccpt.com/index.html%3Fpage_id=394.html'>here</a>.
       </p>
   - name: aruba
-    active: true
+    active: false
     active_rank: 2
     website_text: >
       Aruba, a Hewlett Packard Enterprise company and global leader in networking
@@ -84,7 +85,7 @@ sponsors:
       our systems to meet a >100x surge in demand during the next 12-18 months.
        </p>
   - name: dimensiondata
-    active: true
+    active: false
     active_rank: 2
     website_text: >
        Dimension Data is a global systems integrator and managed services provider for Hybrid
@@ -116,19 +117,8 @@ sponsors:
       Elastic is backed by Benchmark Capital, Index Ventures, and NEA with headquarters
       in Amsterdam and Mountain View, California, and offices and employees around the
       world. To learn more, visit <a href='http://elastic.co'>www.elastic.co</a>.
-  - name: elasticsearch
-    active: false
-    active_rank: 2
-    website_text: >
-      Elasticsearch is on a mission to make massive amounts of data usable for
-      businesses everywhere by delivering the world's most advanced search and
-      analytics engine available. With a laser focus on achieving the best user
-      experience imaginable, the Elasticsearch ELK stack - comprised of
-      Elasticsearch, Logstash, and Kibana - has become one of the most popular
-      and rapidly growing open source solutions in the market. To learn more,
-      visit <a href='http://elasticsearch.com'>elasticsearch.com</a>.
   - name: equal_experts
-    active: true
+    active: false
     active_rank: 3
     website_text: >
       At Equal Experts we help organisations achieve great things – processing
@@ -155,7 +145,7 @@ sponsors:
       or get in touch at <a href="mailto:helloSA@equalexperts.com">helloSA@equalexperts.com</a>.
       </p>
   - name: estalea
-    active: true
+    active: false
     active_rank: 4
     website_text: >
       Estalea’s mission is to create additional technology upstarts and grow them into prosperous, enduring companies. Using our proven model of business acceleration, we furnish the capital, technology, executive and financial expertise, product development, and marketing tools needed to ensure that each of our operating companies thrives in its given marketplace. From compelling and successful web properties to game-changing convergent technologies, we are building tomorrow’s technology leaders today.
@@ -238,7 +228,7 @@ sponsors:
       from us and it remains our ongoing commitment to earn and retain their
       trust.
   - name: impact
-    active: true
+    active: false
     active_rank: 4
     website_text: >
       Impact is a marketing technology company helping brands grow by optimizing
@@ -286,28 +276,9 @@ sponsors:
       of digital financial services. We love mobile money and we are working hard to
       each people who have not had these choices before.
       </p>
-  - name: key_connections
-    active: false
-    active_rank: 2
-    website_text: >
-      Key Connections is  a technology recruitment company that specialises in
-      placing developers throughout South Africa. We're not like other “tech
-      recruiters” who don't know the difference between "Java" and "JavaScript"!
-      </p>
-      <p>
-      We work with technology focused companies that treat their developers well, and
-      build cool stuff. We have placed developers in starts ups, SME's and some of the
-      world's largest tech companies.
-      </p>
-      <p>
-      If you're looking to recruit a team of developers we'd love to hear from you.
-      </p>
-      <p>
-      We have clients looking for developers across all major programming languages.
-      <a href='http://jobs.keyconnections.co.za/keyconnections/Search/Results/All/1'>Check out some of our recent jobs.</a>
   - name: luno
     active: true
-    active_rank: 3
+    active_rank: 1
     website_text: >
       Luno’s main mission is to upgrade the world to a better financial system.
       We make it safe and easy to <b>buy, store and learn</b> about cryptocurrencies
@@ -333,7 +304,7 @@ sponsors:
       Be part of the change: <a href='https://www.luno.com/'>www.luno.com</a>
       </p>
   - name: microsoft
-    active: true
+    active: false
     active_rank: 1
     website_text: >
       <p>
@@ -355,7 +326,7 @@ sponsors:
       we are driving quality engagement to create empowered experiences.
       </p>
   - name: offerzen
-    active: true
+    active: false
     active_rank: 3
     website_text: >
       The best way to find your next tech job
@@ -439,13 +410,8 @@ sponsors:
       rsaweb.co.za</a>, or follow us on Twitter
       <a href='https://twitter.com/RSAWEB'>@RSAWEB</a>, and like us on Facebook
       at <a href="https://www.facebook.com/RSAWEB">www.facebook.com/RSAWEB</a>
-  - name: smyte
-    active: false
-    active_rank: 4
-    website_text:
-       <a href='https://www.smyte.com/'>Smyte</a> combats fraud, spam, and other abuse using customizable rules and machine learning models trained by event data and content signals. The platform is configurable via a SQL-like language and adaptable to the technology stack and unique behavior of users.
   - name: takealot
-    active: true
+    active: false
     active_rank: 2
     website_text: >
       <a style="font-weight:bold" href='https://www.takealot.com/'>The Takealot Group</a>
@@ -475,13 +441,3 @@ sponsors:
       deployment cycle means we can iterate quickly and deploy improvements for
       our customers every day.
       </p>
-  - name: ventureburn
-    active: false
-    active_rank: 4
-    website_text: >
-      Ventureburn is focused on telling the world's startup news and tech
-      entrepreneurs' stories from the emerging market sector, covering
-      everything from innovative new businesses and developments in
-      ecommerce to helpful tips for starter entrepreneurs. For more
-      information visit <a href='http://www.ventureburn.com'>www.ventureburn.com</a>,
-      and follow us on twitter <a href='https://twitter.com/Ventureburn'>@Ventureburn</a>.
