@@ -1,7 +1,7 @@
 
 /*
   scaleconf colours:
-    dark_green #204e5e
+    Maroon #661222
 */
 
 /* common */
@@ -75,7 +75,7 @@ div.nested-row {
 /* landing page */
 
 div#appbar {
-  background: #204e5e;
+  background: #f9f9f9;
   padding: 10px;
 }
 
@@ -93,7 +93,7 @@ div#appbar ul > li {
 
 div#appbar ul > li > a, div#appbar ul > li > a:visited{
   text-decoration: none;
-  color: #fff;
+  color: #4a4c4c;
 }
 
 div#appbar ul > li > a:hover {
