@@ -69,7 +69,7 @@ sponsors:
       <a href='http://www.adccpt.com/index.html%3Fpage_id=394.html'>here</a>.
       </p>
   - name: aruba
-    active: false
+    active: true
     active_rank: 2
     website_text: >
       Aruba, a Hewlett Packard Enterprise company and global leader in networking
@@ -82,7 +82,7 @@ sponsors:
       Today, our product is the fastest growing in the Aruba portfolio and our Cape
       Town-based team is recognised as being at the leading edge of design thinking
       and execution. We are growing our team, building new products, and scaling
-      our systems to meet a >100x surge in demand during the next 12-18 months.
+      our systems to meet a >20x surge in demand during the next 12-18 months.
        </p>
   - name: dimensiondata
     active: false
