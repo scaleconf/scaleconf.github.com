@@ -3,6 +3,7 @@
     Duncan Phillips       @nuknad
     Marije Pierson        @marijep
     Mike Jones            @imsickofmaps
+    Calvin Brizzi         @clvnb
 
 /* THANKS */
     Jennifer Poole        @fireenjn
