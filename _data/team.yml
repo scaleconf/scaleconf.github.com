@@ -29,3 +29,10 @@ members:
     bio: >
       Heckler, speaker, organiser. Fails to Get Stuff Done often but tries to
       make up for it with eventual consistency, hugs and high-fives.
+  - name: Calvin Brizzi
+    title: Infrastructure Engineer
+    company: Memrise
+    twitter: clvnb
+    bio: >
+      Serial conference volunteer, loves building tools so others can build
+      stuff faster.
