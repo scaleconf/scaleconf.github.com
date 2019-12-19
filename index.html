@@ -183,7 +183,7 @@ title: Home
     <div class="row">
       {% for sponsor in landing_page_sponsors %}
       <div class="col-md-6" style="height:200px; overflow-y:hidden">
-        <img src='/img/sponsors/{{ sponsor.name | slugify | replace: '-', '_' }}.large.png' style='display:inline-block; vertical-align:top; width:90%;'/>
+        <img src='/img/sponsors/{{ sponsor.name | slugify | replace: '-', '_' }}.large.png' style='display:inline-block; vertical-align:top; width:90%; height:100%; object-fit:scale-down;'/>
       </div>
       {% endfor %}
     </div>
