@@ -1,3 +1,88 @@
+2020:
+  dates: March 5-6 2020
+  programme:
+    - day: Thursday, 5th March 2020
+      schedule:
+        - time: 8:00 am
+          event: Registration
+          description: Tea and coffee will be served
+        - time: 9:15 am
+          event: Opening
+          description: A quick welcome and introduction to the conference before we get going
+        - time: 9:30 am
+          speaker:
+        - time: 10:15 am
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 10:25 am
+          speaker:
+        - time: 11:10 am
+          event: Break
+          description: Mid-morning tea & coffee with scones and biscuits
+        - time: 11:30 am
+          speaker:
+        - time: 12:15 pm
+          event: Lunch
+          description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
+        - time: 1:45 pm
+          speaker:
+        - time: 2:30 pm
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 2:45 pm
+          speaker:
+        - time: 3:30 pm
+          event: Break
+          description: Afternoon tea & coffee with biscuits
+        - time: 3:50 pm
+          speaker:
+    - day: Thursday evening, 5th March
+      schedule:
+        - time: 5:30 - 10:00 pm
+          event: Party
+          description: >
+            Join us for pizza and drinks at <a href="http://forries.co.za/">Foresters Arms</a>. This will be a chance
+            to socialise and network with the speakers, organisers, and fellow conference attendees.
+    - day: Friday, 6th March 2020
+      schedule:
+        - time: 8:30 am
+          event: Arrival
+          description: Tea and coffee will be served
+        - time: 9:15 am
+          speaker:
+        - time: 10:00 am
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 10:10 am
+          speaker:
+        - time: 10:55 am
+          event: Break
+          description: Mid-morning tea & coffee with scones and biscuits
+        - time: 11:25 am
+          speaker:
+        - time: 12:15 pm
+          event: Lunch
+          description: A picnic lunch provided by Moyo and some time to chill in the Botanical Gardens
+        - time: 1:30 pm
+          speaker:
+        - time: 2:15 pm
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 2:30 pm
+          speaker:
+        - time: 3:15 pm
+          event: Break
+          description: Afternoon tea & coffee with biscuits
+        - time: 3:40 pm
+          speaker:
+    - day: Friday evening, 6th March
+      schedule:
+        - time: 5:00 - 7:00 pm
+          event: Drinks
+          description: >
+              Join us for post-conference drinks at Moyo, Kirstenbosch. This will be a chance
+              to socialise and network with the speakers, organisers, and fellow conference attendees.
+
 2019:
   dates: March 7-8 2019
   programme:
