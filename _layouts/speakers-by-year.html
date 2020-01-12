@@ -38,10 +38,14 @@ layout: base
   <div class="col-md-offset-4 col-md-4 text-center section">
     <p class="big">
       We're still selecting speakers for this year, please check back later to
-      see the lineup. If you would like to speak
+      see the lineup.
+
+    {% if site.data.config.navigation.submit %}
+      If you would like to speak
     </p>
     <p class="big">
       <a href="/submit-talk" role="button" class="btn btn-primary">Submit a talk</a>
+    {% endif %}
     </p>
     <p>
       You can browse previous speakers using the links above.
