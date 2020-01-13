@@ -6,13 +6,48 @@
     # twitter:
     # github:
     # country:
-    # year: 2019
     # landing_page: true
+    # year: 2020
     # bio: >
     #
     # title: >
     #
     # abstract: >
+    # video:
+
+rayna_leibbrandt:
+    name: Rayna Leibbrandt Tsimitakopoulos
+    company: DirectAxis
+    role: Solutions Architect
+    twitter:
+    github:
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Rayna started studying Computer Science at Stellenbosch University when she was 17 and hasn’t been far from a computer since. She loves anything to do with integration architectures e.g. microservices, but also has fun doing martech, cloud, devops, digital and streaming data implementations. Rayna has 2 kids and a husband and lives in Fish Hoek, so her free time is spent sitting on the beach, getting sand-blasted by the South Easter.
+    title: >
+      DirectAxis journey to Event-driven Microservices
+    abstract: >
+      DirectAxis has spent the past few years re-architecting a monolith - first into RESTful microservices and now into event-driven microservices using Kafka. We’ve learned some interesting lessons about patterns, technology and culture, that we would like to share with other technologists.
+    # video:
+
+bruce_merry_2020:
+    name: Bruce Merry
+    company: South African Radio Astronomical Observatory
+    role: Senior Software Developer
+    twitter:
+    github: bmerry
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Bruce is a senior software developer at SARAO (South African Radio Astronomical Observatory), working on software underlying the MeerKAT radio telescope, including high-performance networking, orchestration (presented at ScaleConf 2017) and GPU computing.
+    title: >
+      Networking challenges in the MeerKAT radio telescope
+    abstract: >
+      MeerKAT is the one of the most powerful radio telescope in the world, generating over 2 Tb/s of raw data. Moving data around for processing poses unique challenges both in software and in network tuning. Come to hear about unexpected limitations in switches, NICs and software stacks.
+    # video:
 
 dale_humby_2019:
     name: Dale Humby
@@ -21,7 +56,6 @@ dale_humby_2019:
     twitter: dalehumby
     github:
     country: South Africa
-    landing_page: true
     year: 2019
     bio: >
       Dale is a cofounder and CTO of Nomanini, a Cape Town based fintech whose mission is to provide safe, secure payment and banking services to communities in Africa's most remote villages. He's passionate about product development and the various agile methodologies that enables teams to perform at their peak.
@@ -38,7 +72,6 @@ simon_ratcliffe_2019:
     twitter:
     github:
     country: South Africa
-    landing_page: true
     year: 2019
     bio: >
       Simon started out life as an astronomer, used to be an engineer, and is now trying to avoid managerial tasks. Currently in charge of scientific computing for the MeerKAT radio telescope (<a href='http://www.ska.ac.za'>ska.ac.za</a>), he spends a significant amount of his coding time trying to avoid writing C, and the rest of the time trying to use <code>sys._getframe()</code> in ways that annoy his colleagues.
@@ -55,7 +88,6 @@ helge_reikeras:
     twitter: hreikeras
     github: helger
     country: South Africa
-    landing_page: true
     year: 2019
     bio: >
       Helge Reikerås is an experienced data scientist with a demonstrated history of working in the computer software industry. He sees data science and machine learning becoming significant components to making great software products in the years ahead. He's currently a data scientist at Offerzen working on improving core features of the platform such as candidate recommendations for companies with machine learning and AI.
@@ -72,7 +104,6 @@ kees_snijders:
     twitter: ksnijders
     github:
     country: South Africa
-    landing_page: false
     year: 2019
     bio: >
       Kees was born to Dutch immigrants in Johannesburg in 1972, completed his schooling and university (UJ) in SA. Left SA to join a post-grad program in the US in 1995, completed an MSc at Syracuse University. He started working as a programmer at Cambridge Technology Partners based in Boston in 1997, he transferred to their UK operation in 1998. He left to join Deutsche Bank in 1999. Returned to SA and got into Telco in 2002, he spent 5 years working for a Vodacom Service Provider and left to found Flickswitch in 2007. He got married, fathered 4 kids and survived cancer along the way. He is currently living in Cape Town, South Africa. In his spare time he enjoys playing chess, running and drinking wine.
@@ -89,7 +120,6 @@ wayne_pringle_wood:
     twitter: pringlewood
     github:
     country: South Africa
-    landing_page: false
     year: 2019
     bio: >
       Wayne grew up in Zim, completed his schooling in SA, completed a BCom Infotech at Curtin University, Australia. His career has included stints at Lufthansa, Direct Axis, Mxit and Kagiso Media. He is a multifaceted person, who can write code, manage projects and people. He has a passion for building digital products that provide value. He has been helping organisations build better software on the foundations of agile and lean principles. He is married and currently living in Cape Town. In his spare time, he enjoys snowboarding, motorbiking and fishing.
@@ -113,7 +143,6 @@ gianluca_arbezzano:
     twitter: gianarb
     github:
     country: Ireland
-    landing_page: true
     year: 2019
     bio: >
       Gianluca Arbezzano is an SRE at InfluxData. He is a big Open Source contributor for several projects including and not limited to OpenTracing, Docker, and InfluxDB. He is also a Docker Captain and a CNCF Ambassador. He is passionate about troubleshooting applications at scale, observability, and distributed systems. He is familiar with several programming languages, such as Javascript and Golang and is an active speaker and writer, sharing his experiences and knowledge on projects that he is contributing to.
@@ -130,7 +159,6 @@ jamie_hewland_2019:
     twitter: jayhewland
     github:
     country: South Africa
-    landing_page: false
     year: 2019
     bio: >
       Jamie is a Site Reliability Engineer (SRE) at Praekelt.org and works a lot with containers, CI/CD processes, and cloud infrastructure. Jamie is also Praekelt.org’s Tech Ambassador and has spoken at several tech conferences including ScaleConf and KubeCon. He writes and edits technical content for the company’s <a href='https://medium.com/mobileforgood'>MobileForGood</a> blog. His blog posts have been read by thousands of people and explore topics around container technologies as well as tech issues relevant to the ICT4D community.
@@ -147,7 +175,6 @@ codie_roelf:
     twitter: ItsCodieee
     github:
     country: South Africa
-    landing_page: false
     year: 2019
     bio: >
       JCodie is a software engineer at Praekelt.org. She is passionate about Bollywood movies, Celine Dion and uplifting the lives of womxn through tech. She is a co-founder of Django Girls Cape Town and Code Like Her. You’re most likely to see her wearing some form of Fedora.
@@ -171,7 +198,6 @@ tim_wade:
     twitter: TimWadeData
     github:
     country: UK
-    landing_page: false
     year: 2019
     bio: >
       Tim Wade, a technologist who has a passion for cloud engineering and architecture, working at great companies like Nokia and Dimension Data; now the Senior Director of Technology and Architecture Consulting at Dimension Data Group, based in the UK office. Tim was one of the great minds behind the Dimension Data - Tour de France partnership to digitize a 100+ year old bicycle race, bringing cloud, big data and analytics to a live digital fan experience.
@@ -188,7 +214,6 @@ rory_preddy:
     twitter: rorypreddy
     github:
     country: South Africa
-    landing_page: false
     year: 2019
     bio: >
       Prior to joining Microsoft, Rory worked for a number of South Africa’s large companies as an Integration Architect. Rory’s focus for the last 7 years has been on research and development (R&D) with a focus on cloud research, consulting and training. Working in research has allowed him unparalleled insights into industry movements, trends, and news. Rory is extremely passionate about the programming community and has been critical helping them create a South African flavoured digital disruption strategy. Rory is an organiser of the Kotlin and Java developer user groups and has led the Johannesburg AWS user group for 2 years. When not captivating the crowd with his presentations as a technical speaker, he can be found in the front row with a distinguished laugh, infectious enough to break the awkward silence in any audience. His expertise includes PaaS and Java, and he holds an honours degree in Computer Science. Married with two children, Rory tries to spend most of his free time with his family and two hyperactive Schnauzers.
@@ -205,7 +230,6 @@ grace_chang:
     twitter: greyschale
     github:
     country: UK
-    landing_page: false
     year: 2019
     bio: >
       Senior Engineer in London, with a past life as an on-call tech lead. Paints with code by day, paints for real by night. Enthusiast of fun coding and coding puns. Lover of lagomorphs, gifs, and gifs of lagomorphs.
@@ -222,7 +246,6 @@ bernardt_duvenhage:
     twitter: bernardt_d
     github:
     country: South Africa
-    landing_page: false
     year: 2019
     bio: >
       Bernardt Duvenhage received his Ph.D. in Computer Science from the University of Pretoria, South Africa in 2015. Bernardt is also a Google Cloud Certified Professional Data Engineer. In 2017 he joined Praekelt’s Feersum Engine Team as the lead developer of the natural language processing and understanding (NLP & NLU) capability. Before Praekelt he was a principal researcher and a research group leader of image processing at the Council for Scientific and Industrial Research in Pretoria. His research interests include natural language understanding, computer vision and field robotics.
@@ -239,7 +262,6 @@ ben_dechrai:
     twitter: bendechrai
     github:
     country: Australia
-    landing_page: true
     year: 2019
     bio: >
       Ben Dechrai is a technologist, presenter, community builder, and hard-core privacy advocate. When he’s not on stage, or sharing his ideas and views on security, identity, and privacy, he loves to hear about other people’s passions and interests, technology related and otherwise. It’s because of this that he has been known to run a number of community events, from conferences and meetups, to end-of-year parties and comedy shows. He now works for Auth0 to support developers in making the web a safer place.
@@ -256,7 +278,6 @@ heidi_waterhouse:
     twitter: wiredferret
     github:
     country: USA
-    landing_page: true
     year: 2019
     bio: >
       Heidi is a developer advocate with LaunchDarkly. She delights in working at the intersection of usability, risk reduction, and cutting-edge technology. One of her favourite hobbies is talking to developers about things they already knew but had never thought of that way before. She sews all her conference dresses so that she’s sure there is a pocket for the mic.
@@ -273,7 +294,6 @@ mary_racter:
     twitter: mracter
     github:
     country: South Africa
-    landing_page: false
     year: 2018
     bio: >
       Born and bred on dirty tricks. Security Engineer at Praekelt.org, a non-profit foundation focused on building digital solutions to improving quality of life in the majority world. Worked at MWR InfoSecurity as a penetration tester until moving on to Praekelt.org to connect information security with strengthening human rights in the digital age. Once ate an entire pack of lemon creams for supper.
@@ -290,7 +310,6 @@ cooper_lees:
     twitter: cooperlees
     github: cooperlees
     country: USA
-    landing_page: false
     year: 2018
     bio: >
       I’m an Aussie who’s been at Facebook for almost 5 years. Previous to Facebook I worked for Juniper Networks via contact all over APAC, and was once a UNIX Systems admin @ the Australian Nuclear Science and Technology Organization. I love modern computing technology, of late IPv6 and Python 3. I have helped with the efforts of pushing both to Facebook and associate companies.
@@ -307,7 +326,6 @@ aslam_khan:
     twitter: aslamkhn
     github: aslamkhn
     country: South Africa
-    landing_page: false
     year: 2018
     bio: >
       Aslam is an African technologist and strategist. He consults to large enterprises looking to shift gears, and to startups that are off the runway trying the same. He spends his time with his friends at Samushonga, Khan and Baker where they sharpen enterprise strategy and execute on its implementation; focusing on people to lines of code and the weird stuff in between. After all, what is the value of a strategy that can’t be delivered?
@@ -324,7 +342,6 @@ monty_widenius:
     twitter: montywi
     github:
     country: Finland
-    landing_page: false
     year: 2018
     bio: >
       Monty started working on precursors to MySQL in 1981, released MySQL in 1995 and has been developing MySQL and its fork MariaDB ever since. Currently the CTO of MariaDB Corporation, he’s still a highly active developer, and loves nothing more than intense technical discussions.
