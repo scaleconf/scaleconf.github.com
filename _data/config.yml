@@ -24,8 +24,8 @@ homepage_sections:
   tickets_soldout: false
   tickets_waitinglist: false
   tickets_notify: true
-  current_speakers: false
-  previous_speakers: true
+  current_speakers: true
+  previous_speakers: false
   sponsors: true
 navigation:
   submit: false
