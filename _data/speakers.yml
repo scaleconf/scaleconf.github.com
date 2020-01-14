@@ -66,6 +66,23 @@ tanaka_mutakwa:
       The more skilled our software engineers become the more fulfilled they will be with their careers. Building a learning culture or environment which software engineers are constantly levelling up puts any company in a better place to handle any scaling challenges it faces over time.
     video:
 
+juan_urrego:
+    name: Juan Urrego
+    company: Travelstart
+    role: Principal Full Stack Software Engineer and DataOps Team Lead
+    twitter: juancho8809
+    github: juancho088
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Juan is a software and solution architect with masters degree in Software Engineering and 9+ years of professional experience. For a couple of years, he was a University lecturer where he discovered the importance of education and professional experience to create real innovative and disruptive solutions. Juan has thorough hands-on experience designing, analysing, modelling, and developing enterprise software. He has entrepreneur experience in IT solutions, custom development. With high interest in AI and machine learning.
+    title: >
+      Scaling Your Data: Data Democratisation and DataOps
+    abstract: >
+      Valliappa Lakshmanan says: “Ask someone a question in Google and you are likely to receive a link to a BigQuery view or query rather than the actual answer”. That’s what we are doing at Travelstart! I’ll present our DataOps approach and a way to create a culture of DIY, avoiding the BI bottleneck.
+    video:
+
 dale_humby_2019:
     name: Dale Humby
     company: Nomanini
