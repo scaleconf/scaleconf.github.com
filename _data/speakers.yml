@@ -49,6 +49,23 @@ bruce_merry_2020:
       MeerKAT is the one of the most powerful radio telescope in the world, generating over 2 Tb/s of raw data. Moving data around for processing poses unique challenges both in software and in network tuning. Come to hear about unexpected limitations in switches, NICs and software stacks.
     video:
 
+tanaka_mutakwa:
+    name: Tanaka Mutakwa
+    company: Names & Faces
+    role: VP of Engineering
+    twitter: GeneralMutakwa
+    github: General9
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Tanaka is the VP of Engineering at Names & Faces. His role is to make everyone in the engineering organisation successful by influencing architectural decisions, establishing best practises, setting work cadences and cultural norms and overcoming the issues that get in the way of the team’s success.
+    title: >
+      Scaling People: Levelling up software engineers
+    abstract: >
+      The more skilled our software engineers become the more fulfilled they will be with their careers. Building a learning culture or environment which software engineers are constantly levelling up puts any company in a better place to handle any scaling challenges it faces over time.
+    video:
+
 dale_humby_2019:
     name: Dale Humby
     company: Nomanini
