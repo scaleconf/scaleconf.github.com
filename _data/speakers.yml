@@ -15,6 +15,23 @@
     # abstract: >
     # video:
 
+corver_roos:
+    name: Corver Roos
+    company: Luno
+    role: Principal Backend Engineer
+    twitter:
+    github: corverroos
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Corver Roos has an Electronic Engineering degree from Stellenbosch university and after a short foray teaching English in Taiwan, he found his true calling, rejecting code reviews. He cut his teeth building high performance distributed systems for the telecoms industry. He then moved to the Netherlands to head up a team building a music distribution and big data platform. He is currently back in Cape Town working for Luno as a principal backend engineer. Here he has been building teams, processes and technology to help Luno navigate its hyper scaling growth.
+    title: >
+      Scaling teams with event driven architecture
+    abstract: >
+      This talk follows Luno’s journey of adopting an event driven architecture as part of our micro service platform. It delves into the problems we faced, the solutions we implemented and the bumps along the way.
+    video:
+
 rayna_leibbrandt:
     name: Rayna Leibbrandt Tsimitakopoulos
     company: DirectAxis
