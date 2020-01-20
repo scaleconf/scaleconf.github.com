@@ -15,6 +15,58 @@
     # abstract: >
     # video:
 
+aslam_khan_2020:
+    name: Aslam Khan
+    company:
+    role:
+    twitter:
+    github: aslamkhn
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Aslam is an African software developer, by birth and by choice. A couple of decades later and he is convinced that design is hard, very, very hard. The same with scalability - it throws us into extreme states, way off balance, struggling to find the supply to meet the demand. These days Aslam tries to bind strategy and code with the shortest and tautest of strings, finding the least that we can do to fulfil a strategic intent. You can read his blog at <a href='https://f3yourmind.net/'>
+      f3yourmind.net</a>.
+    title: >
+      Scaling Down
+    abstract: >
+      Many teams have a scaling problem that is relative to their business or industry, which is a long way off from the massively scaled companies such as Facebook and co. Many of these teams are inadvertently over-engineering for their needs. We need to learn to scale down right, simple as possible.
+    video:
+
+andrew_newdigate:
+    name: Andrew Newdigate
+    company: Gitlab Inc.
+    role: Distinguished Engineer
+    twitter: suprememoocow
+    github: suprememoocow
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Andrew is a Distinguished Engineer in the Infrastructure team at GitLab, where he helps keep GitLab.com available, observable and scaling. Before GitLab, he cofounded the developer community site Gitter in 2012, and was CTO there until Gitter's acquisition by GitLab in 2017. After living in London in the UK for 17 years, he recently relocated back to his hometown of Cape Town in South Africa.
+    title: >
+      Dealing with Metrics at Scale at GitLab
+    abstract: >
+      Good observability is critical to managing complex systems at scale; having quality metrics is key to this. But as system grow, the number of metrics they produce rapidly increases. Dashboards and alerts can become difficult to maintain and lead to technical debt. This talk describes the strategy we’re using at GitLab to tackle this.
+    video:
+
+lyndsay_prewer:
+    name: Lyndsay Prewer
+    company: Equal Experts
+    role: Agile Delivery Consultant
+    twitter: lyndsp
+    github: lyndsp
+    country: UK
+    landing_page: true
+    year: 2020
+    bio: >
+      I'm an Agile Delivery Consultant with over twenty years experience of helping individuals, teams and organisations improve their software delivery. I’m currently working with Equal Experts, leading six platform teams that operate and evolve a large scale Platform-as-a-Service, for the UK Government.
+    title: >
+      Embracing collaborative chaos - running Game Days on large platforms
+    abstract: >
+      Chaos Engineering reduces the impact of component failure. Game Days are one practice within this field, whereby controlled failures are used to learn and improve system and team response. We will describe how to run a Game Day, using our experience of doing this across 60 teams, 1000 microservices.
+    video:
+
 corver_roos:
     name: Corver Roos
     company: Luno
@@ -51,7 +103,7 @@ rayna_leibbrandt:
 
 bruce_merry_2020:
     name: Bruce Merry
-    company: South African Radio Astronomical Observatory
+    company: SARAO
     role: Senior Software Developer
     twitter:
     github: bmerry
