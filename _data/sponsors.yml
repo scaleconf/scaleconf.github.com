@@ -4,7 +4,7 @@
 # 2017: ["takealot", "google", "oracle", "offerzen", "allan_gray", "fastly", "jumo", "amazon", "impact_radius"]
 # 2018: ["takealot", "amazon", "allan_gray", "offerzen", "impact_radius", "oracle", "google", "luno", "smyte"]
 # 2019: ["impact", "estalea", "elastic", "offerzen", "microsoft", "takealot", "dimensiondata", "luno", "amazon", "allan_gray", "equal_experts", "aruba"]
-# 2020: ["capitec", "elastic", "luno", "estalea", "impact"]
+# 2020: ["capitec", "elastic", "luno", "estalea", "impact", "offerzen"]
 
 sponsors:
   - name: allan_gray
@@ -350,23 +350,15 @@ sponsors:
       we are driving quality engagement to create empowered experiences.
       </p>
   - name: offerzen
-    active: false
+    active: true
     active_rank: 3
     website_text: >
-      The best way to find your next tech job
-      </p>
-      <p>
-      OfferZen is a tech marketplace that connects 800+ companies to the top 10%
-      of Software Developers, UI/UX Designers, Data Scientists and Product
-      Managers. We flip the traditional recruitment model, so instead of
-      candidates applying for jobs, companies reach out to them directly. We’re
-      changing the way software professionals find work in South Africa, and
-      working hard to help improve the tech ecosystem along the way. It’s free
-      for candidates - in fact you get R5000 if you take a job through us.
-      </p>
-      <p>
-      Sign up today at <a href='https://www.offerzen.com/?utm_source=Events&utm_medium=Conference&utm_campaign=WebsiteClick&utm_content=07.03.ScaleConf2019'>www.offerzen.com</a>
-      </p>
+      OfferZen is an online tech marketplace that connects South Africa's top
+      tech talent with over 1000 companies who are working to grow their teams.
+      We flip the normal recruitment process on its head because companies reach
+      out to candidates who are actively looking for new opportunities. Our
+      mission is to help people unlock their potential by helping them build
+      awesome software. For more information, visit <a href='https://www.offerzen.com/?utm_source=events&utm_medium=sponsoredConference&utm_campaign=ScaleConf&utm_term=websiteSearch'>www.offerzen.com</a>.
   - name: oracle
     active: false
     active_rank: 3
