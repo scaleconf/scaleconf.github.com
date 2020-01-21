@@ -15,6 +15,23 @@
     # abstract: >
     # video:
 
+jessica_tai:
+    name: Jessica Tai
+    company: Airbnb
+    role: Infrastructure Engineer
+    twitter: jessicamtai
+    github:
+    country: US
+    landing_page: true
+    year: 2020
+    bio: >
+      Jessica has worked at Airbnb for over 5 years, starting as a full-stack engineer on the guest and host booking flow and is now an infrastructure engineer on the Core Services team. She leads the read path design patterns in Airbnb's evolution of its service-oriented architecture (SOA) and was the tech lead designing and creating the user data service, which critically integrates with all business verticals. She often pair-programs with her Corgi dog while he observes from her lap. In addition to technical work, Jessica is the Vice President of the women in tech group and active in improving the interview process. Prior to Airbnb, Jessica received her Master’s of Computer Science at Stanford and her Bachelor’s degree from UCLA.
+    title: >
+      How to Tame Your Microservices: Evolving Airbnb’s Architecture
+    abstract: >
+      Airbnb had a successful migration to microservices, but managing hundreds of services made new challenges. The dependency graph is too complicated impacting scalability, reliability and velocity. Learn how we are evolving our read path service architecture to continue scaling our business.
+    video:
+
 aslam_khan_2020:
     name: Aslam Khan
     company:
