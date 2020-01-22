@@ -67,6 +67,47 @@ andrew_newdigate:
       Good observability is critical to managing complex systems at scale; having quality metrics is key to this. But as system grow, the number of metrics they produce rapidly increases. Dashboards and alerts can become difficult to maintain and lead to technical debt. This talk describes the strategy we’re using at GitLab to tackle this.
     video:
 
+paco_mendes:
+    name: Paco Mendes
+    company: SPAN Digital
+    role: Principal Engineer
+    twitter:
+    github: pacomendes
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Paco is a Principal Engineer at SPANDigital where he has worked on a broad range of system architectures for various clients in Silicon Valley. He holds a BSc in Electrical Engineering and MSc in Software Engineering.
+    title: >
+      Refactoring Massive Codebases
+    abstract: >
+      Refactoring massive codebases is risky and hard but essential to ensure that large system architectures can continue to evolve and support further innovation. This talk presents some of the key challenges, strategies and data-driven techniques that can be applied to refactor massive codebases.
+    video:
+
+alberto_venturini:
+    name: Alberto Venturini
+    company: SPAN Digital
+    role: Senior Engineer
+    twitter:
+    github: albertoventurini
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Alberto is a Senior Engineer at SPAN Digital. He previously worked at AWS, as well as startup companies and universities. He holds an MSc and a BSc in Software Engineering.
+    title: >
+      Refactoring Massive Codebases
+    abstract: >
+      Refactoring massive codebases is risky and hard but essential to ensure that large system architectures can continue to evolve and support further innovation. This talk presents some of the key challenges, strategies and data-driven techniques that can be applied to refactor massive codebases.
+    video:
+
+paco_and_alberto:
+    name: Paco Mendes and Alberto Venturini
+    title: Refactoring Massive Codebases
+    abstract: >
+      Refactoring massive codebases is risky and hard but essential to ensure that large system architectures can continue to evolve and support further innovation. This talk presents some of the key challenges, strategies and data-driven techniques that can be applied to refactor massive codebases.
+    video:
+
 lyndsay_prewer:
     name: Lyndsay Prewer
     company: Equal Experts
