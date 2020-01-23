@@ -67,6 +67,23 @@ andrew_newdigate:
       Good observability is critical to managing complex systems at scale; having quality metrics is key to this. But as system grow, the number of metrics they produce rapidly increases. Dashboards and alerts can become difficult to maintain and lead to technical debt. This talk describes the strategy we’re using at GitLab to tackle this.
     video:
 
+andrew_newdigate:
+    name: Josh Yudaken
+    company: Twitter
+    role: Software Engineer
+    twitter: qix
+    github: qix
+    country: US
+    landing_page: true
+    year: 2020
+    bio: >
+      Josh was the co-founder and CTO of Smyte, an anti-abuse (spam, fraud, etc) startup that was acquired by Twitter two years ago. He's been at Twitter since then, Facebook previously, and started SnapBill back in 2011 from Cape Town. Constantly striving for developer productivity, he's skeptical of all the current programming languages. Probably all of the future ones too.
+    title: >
+      Scale: the benefits of not having any
+    abstract: >
+      Why do small teams seem to move faster than large ones? This talk will discuss the distinct advantages of being small, the pitfalls of scaling up, and how large software companies can remain agile against all odds.
+    video:
+
 paco_mendes:
     name: Paco Mendes
     company: SPAN Digital
