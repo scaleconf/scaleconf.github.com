@@ -6,13 +6,226 @@
     # twitter:
     # github:
     # country:
-    # year: 2019
     # landing_page: true
+    # year: 2020
     # bio: >
     #
     # title: >
     #
     # abstract: >
+    # video:
+
+jessica_tai:
+    name: Jessica Tai
+    company: Airbnb
+    role: Infrastructure Engineer
+    twitter: jessicamtai
+    github:
+    country: US
+    landing_page: true
+    year: 2020
+    bio: >
+      Jessica has worked at Airbnb for over 5 years, starting as a full-stack engineer on the guest and host booking flow and is now an infrastructure engineer on the Core Services team. She leads the read path design patterns in Airbnb's evolution of its service-oriented architecture (SOA) and was the tech lead designing and creating the user data service, which critically integrates with all business verticals. She often pair-programs with her Corgi dog while he observes from her lap. In addition to technical work, Jessica is the Vice President of the women in tech group and active in improving the interview process. Prior to Airbnb, Jessica received her Master’s of Computer Science at Stanford and her Bachelor’s degree from UCLA.
+    title: >
+      How to Tame Your Microservices: Evolving Airbnb’s Architecture
+    abstract: >
+      Airbnb had a successful migration to microservices, but managing hundreds of services made new challenges. The dependency graph is too complicated impacting scalability, reliability and velocity. Learn how we are evolving our read path service architecture to continue scaling our business.
+    video:
+
+aslam_khan_2020:
+    name: Aslam Khan
+    company:
+    role:
+    twitter:
+    github: aslamkhn
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Aslam is an African software developer, by birth and by choice. A couple of decades later and he is convinced that design is hard, very, very hard. The same with scalability - it throws us into extreme states, way off balance, struggling to find the supply to meet the demand. These days Aslam tries to bind strategy and code with the shortest and tautest of strings, finding the least that we can do to fulfil a strategic intent. You can read his blog at <a href='https://f3yourmind.net/'>
+      f3yourmind.net</a>.
+    title: >
+      Scaling Down
+    abstract: >
+      Many teams have a scaling problem that is relative to their business or industry, which is a long way off from the massively scaled companies such as Facebook and co. Many of these teams are inadvertently over-engineering for their needs. We need to learn to scale down right, simple as possible.
+    video:
+
+andrew_newdigate:
+    name: Andrew Newdigate
+    company: Gitlab Inc.
+    role: Distinguished Engineer
+    twitter: suprememoocow
+    github: suprememoocow
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Andrew is a Distinguished Engineer in the Infrastructure team at GitLab, where he helps keep GitLab.com available, observable and scaling. Before GitLab, he cofounded the developer community site Gitter in 2012, and was CTO there until Gitter's acquisition by GitLab in 2017. After living in London in the UK for 17 years, he recently relocated back to his hometown of Cape Town in South Africa.
+    title: >
+      Dealing with Metrics at Scale at GitLab
+    abstract: >
+      Good observability is critical to managing complex systems at scale; having quality metrics is key to this. But as system grow, the number of metrics they produce rapidly increases. Dashboards and alerts can become difficult to maintain and lead to technical debt. This talk describes the strategy we’re using at GitLab to tackle this.
+    video:
+
+josh_yudaken:
+    name: Josh Yudaken
+    company: Twitter
+    role: Software Engineer
+    twitter: qix
+    github: qix
+    country: US
+    landing_page: true
+    year: 2020
+    bio: >
+      Josh was the co-founder and CTO of Smyte, an anti-abuse (spam, fraud, etc) startup that was acquired by Twitter two years ago. He's been at Twitter since then, Facebook previously, and started SnapBill back in 2011 from Cape Town. Constantly striving for developer productivity, he's skeptical of all the current programming languages. Probably all of the future ones too.
+    title: >
+      Scale: the benefits of not having any
+    abstract: >
+      Why do small teams seem to move faster than large ones? This talk will discuss the distinct advantages of being small, the pitfalls of scaling up, and how large software companies can remain agile against all odds.
+    video:
+
+paco_mendes:
+    name: Paco Mendes
+    company: SPAN Digital
+    role: Principal Engineer
+    twitter:
+    github: pacomendes
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Paco is a Principal Engineer at SPANDigital where he has worked on a broad range of system architectures for various clients in Silicon Valley. He holds a BSc in Electrical Engineering and MSc in Software Engineering.
+    title: >
+      Refactoring Massive Codebases
+    abstract: >
+      Refactoring massive codebases is risky and hard but essential to ensure that large system architectures can continue to evolve and support further innovation. This talk presents some of the key challenges, strategies and data-driven techniques that can be applied to refactor massive codebases.
+    video:
+
+alberto_venturini:
+    name: Alberto Venturini
+    company: SPAN Digital
+    role: Senior Engineer
+    twitter:
+    github: albertoventurini
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Alberto is a Senior Engineer at SPAN Digital. He previously worked at AWS, as well as startup companies and universities. He holds an MSc and a BSc in Software Engineering.
+    title: >
+      Refactoring Massive Codebases
+    abstract: >
+      Refactoring massive codebases is risky and hard but essential to ensure that large system architectures can continue to evolve and support further innovation. This talk presents some of the key challenges, strategies and data-driven techniques that can be applied to refactor massive codebases.
+    video:
+
+paco_and_alberto:
+    name: Paco Mendes and Alberto Venturini
+    title: Refactoring Massive Codebases
+    abstract: >
+      Refactoring massive codebases is risky and hard but essential to ensure that large system architectures can continue to evolve and support further innovation. This talk presents some of the key challenges, strategies and data-driven techniques that can be applied to refactor massive codebases.
+    video:
+
+lyndsay_prewer:
+    name: Lyndsay Prewer
+    company: Equal Experts
+    role: Agile Delivery Consultant
+    twitter: lyndsp
+    github: lyndsp
+    country: UK
+    landing_page: true
+    year: 2020
+    bio: >
+      I'm an Agile Delivery Consultant with over twenty years experience of helping individuals, teams and organisations improve their software delivery. I’m currently working with Equal Experts, leading six platform teams that operate and evolve a large scale Platform-as-a-Service, for the UK Government.
+    title: >
+      Embracing collaborative chaos - running Game Days on large platforms
+    abstract: >
+      Chaos Engineering reduces the impact of component failure. Game Days are one practice within this field, whereby controlled failures are used to learn and improve system and team response. We will describe how to run a Game Day, using our experience of doing this across 60 teams, 1000 microservices.
+    video:
+
+corver_roos:
+    name: Corver Roos
+    company: Luno
+    role: Principal Backend Engineer
+    twitter:
+    github: corverroos
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Corver Roos has an Electronic Engineering degree from Stellenbosch university and after a short foray teaching English in Taiwan, he found his true calling, rejecting code reviews. He cut his teeth building high performance distributed systems for the telecoms industry. He then moved to the Netherlands to head up a team building a music distribution and big data platform. He is currently back in Cape Town working for Luno as a principal backend engineer. Here he has been building teams, processes and technology to help Luno navigate its hyper scaling growth.
+    title: >
+      Scaling teams with event driven architecture
+    abstract: >
+      This talk follows Luno’s journey of adopting an event driven architecture as part of our micro service platform. It delves into the problems we faced, the solutions we implemented and the bumps along the way.
+    video:
+
+rayna_leibbrandt:
+    name: Rayna Leibbrandt Tsimitakopoulos
+    company: DirectAxis
+    role: Solutions Architect
+    twitter:
+    github:
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Rayna started studying Computer Science at Stellenbosch University when she was 17 and hasn’t been far from a computer since. She loves anything to do with integration architectures e.g. microservices, but also has fun doing martech, cloud, devops, digital and streaming data implementations. Rayna has 2 kids and a husband and lives in Fish Hoek, so her free time is spent sitting on the beach, getting sand-blasted by the South Easter.
+    title: >
+      DirectAxis journey to Event-driven Microservices
+    abstract: >
+      DirectAxis has spent the past few years re-architecting a monolith - first into RESTful microservices and now into event-driven microservices using Kafka. We’ve learned some interesting lessons about patterns, technology and culture, that we would like to share with other technologists.
+    video:
+
+bruce_merry_2020:
+    name: Bruce Merry
+    company: SARAO
+    role: Senior Software Developer
+    twitter:
+    github: bmerry
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Bruce is a senior software developer at SARAO (South African Radio Astronomical Observatory), working on software underlying the MeerKAT radio telescope, including high-performance networking, orchestration (presented at ScaleConf 2017) and GPU computing.
+    title: >
+      Networking challenges in the MeerKAT radio telescope
+    abstract: >
+      MeerKAT is the one of the most powerful radio telescope in the world, generating over 2 Tb/s of raw data. Moving data around for processing poses unique challenges both in software and in network tuning. Come to hear about unexpected limitations in switches, NICs and software stacks.
+    video:
+
+tanaka_mutakwa:
+    name: Tanaka Mutakwa
+    company: Names & Faces
+    role: VP of Engineering
+    twitter: GeneralMutakwa
+    github: General9
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Tanaka is the VP of Engineering at Names & Faces. His role is to make everyone in the engineering organisation successful by influencing architectural decisions, establishing best practises, setting work cadences and cultural norms and overcoming the issues that get in the way of the team’s success.
+    title: >
+      Scaling People: Levelling up software engineers
+    abstract: >
+      The more skilled our software engineers become the more fulfilled they will be with their careers. Building a learning culture or environment which software engineers are constantly levelling up puts any company in a better place to handle any scaling challenges it faces over time.
+    video:
+
+juan_urrego:
+    name: Juan Urrego
+    company: Travelstart
+    role: Principal Full Stack Software Engineer and DataOps Team Lead
+    twitter: juancho8809
+    github: juancho088
+    country: South Africa
+    landing_page: true
+    year: 2020
+    bio: >
+      Juan is a software and solution architect with masters degree in Software Engineering and 9+ years of professional experience. For a couple of years, he was a University lecturer where he discovered the importance of education and professional experience to create real innovative and disruptive solutions. Juan has thorough hands-on experience designing, analysing, modelling, and developing enterprise software. He has entrepreneur experience in IT solutions, custom development. With high interest in AI and machine learning.
+    title: >
+      Scaling Your Data: Data Democratisation and DataOps
+    abstract: >
+      Valliappa Lakshmanan says: “Ask someone a question in Google and you are likely to receive a link to a BigQuery view or query rather than the actual answer”. That’s what we are doing at Travelstart! I’ll present our DataOps approach and a way to create a culture of DIY, avoiding the BI bottleneck.
+    video:
 
 dale_humby_2019:
     name: Dale Humby
@@ -21,7 +234,6 @@ dale_humby_2019:
     twitter: dalehumby
     github:
     country: South Africa
-    landing_page: true
     year: 2019
     bio: >
       Dale is a cofounder and CTO of Nomanini, a Cape Town based fintech whose mission is to provide safe, secure payment and banking services to communities in Africa's most remote villages. He's passionate about product development and the various agile methodologies that enables teams to perform at their peak.
@@ -38,7 +250,6 @@ simon_ratcliffe_2019:
     twitter:
     github:
     country: South Africa
-    landing_page: true
     year: 2019
     bio: >
       Simon started out life as an astronomer, used to be an engineer, and is now trying to avoid managerial tasks. Currently in charge of scientific computing for the MeerKAT radio telescope (<a href='http://www.ska.ac.za'>ska.ac.za</a>), he spends a significant amount of his coding time trying to avoid writing C, and the rest of the time trying to use <code>sys._getframe()</code> in ways that annoy his colleagues.
@@ -55,7 +266,6 @@ helge_reikeras:
     twitter: hreikeras
     github: helger
     country: South Africa
-    landing_page: true
     year: 2019
     bio: >
       Helge Reikerås is an experienced data scientist with a demonstrated history of working in the computer software industry. He sees data science and machine learning becoming significant components to making great software products in the years ahead. He's currently a data scientist at Offerzen working on improving core features of the platform such as candidate recommendations for companies with machine learning and AI.
@@ -72,7 +282,6 @@ kees_snijders:
     twitter: ksnijders
     github:
     country: South Africa
-    landing_page: false
     year: 2019
     bio: >
       Kees was born to Dutch immigrants in Johannesburg in 1972, completed his schooling and university (UJ) in SA. Left SA to join a post-grad program in the US in 1995, completed an MSc at Syracuse University. He started working as a programmer at Cambridge Technology Partners based in Boston in 1997, he transferred to their UK operation in 1998. He left to join Deutsche Bank in 1999. Returned to SA and got into Telco in 2002, he spent 5 years working for a Vodacom Service Provider and left to found Flickswitch in 2007. He got married, fathered 4 kids and survived cancer along the way. He is currently living in Cape Town, South Africa. In his spare time he enjoys playing chess, running and drinking wine.
@@ -89,7 +298,6 @@ wayne_pringle_wood:
     twitter: pringlewood
     github:
     country: South Africa
-    landing_page: false
     year: 2019
     bio: >
       Wayne grew up in Zim, completed his schooling in SA, completed a BCom Infotech at Curtin University, Australia. His career has included stints at Lufthansa, Direct Axis, Mxit and Kagiso Media. He is a multifaceted person, who can write code, manage projects and people. He has a passion for building digital products that provide value. He has been helping organisations build better software on the foundations of agile and lean principles. He is married and currently living in Cape Town. In his spare time, he enjoys snowboarding, motorbiking and fishing.
@@ -113,7 +321,6 @@ gianluca_arbezzano:
     twitter: gianarb
     github:
     country: Ireland
-    landing_page: true
     year: 2019
     bio: >
       Gianluca Arbezzano is an SRE at InfluxData. He is a big Open Source contributor for several projects including and not limited to OpenTracing, Docker, and InfluxDB. He is also a Docker Captain and a CNCF Ambassador. He is passionate about troubleshooting applications at scale, observability, and distributed systems. He is familiar with several programming languages, such as Javascript and Golang and is an active speaker and writer, sharing his experiences and knowledge on projects that he is contributing to.
@@ -130,7 +337,6 @@ jamie_hewland_2019:
     twitter: jayhewland
     github:
     country: South Africa
-    landing_page: false
     year: 2019
     bio: >
       Jamie is a Site Reliability Engineer (SRE) at Praekelt.org and works a lot with containers, CI/CD processes, and cloud infrastructure. Jamie is also Praekelt.org’s Tech Ambassador and has spoken at several tech conferences including ScaleConf and KubeCon. He writes and edits technical content for the company’s <a href='https://medium.com/mobileforgood'>MobileForGood</a> blog. His blog posts have been read by thousands of people and explore topics around container technologies as well as tech issues relevant to the ICT4D community.
@@ -147,7 +353,6 @@ codie_roelf:
     twitter: ItsCodieee
     github:
     country: South Africa
-    landing_page: false
     year: 2019
     bio: >
       JCodie is a software engineer at Praekelt.org. She is passionate about Bollywood movies, Celine Dion and uplifting the lives of womxn through tech. She is a co-founder of Django Girls Cape Town and Code Like Her. You’re most likely to see her wearing some form of Fedora.
@@ -171,7 +376,6 @@ tim_wade:
     twitter: TimWadeData
     github:
     country: UK
-    landing_page: false
     year: 2019
     bio: >
       Tim Wade, a technologist who has a passion for cloud engineering and architecture, working at great companies like Nokia and Dimension Data; now the Senior Director of Technology and Architecture Consulting at Dimension Data Group, based in the UK office. Tim was one of the great minds behind the Dimension Data - Tour de France partnership to digitize a 100+ year old bicycle race, bringing cloud, big data and analytics to a live digital fan experience.
@@ -188,7 +392,6 @@ rory_preddy:
     twitter: rorypreddy
     github:
     country: South Africa
-    landing_page: false
     year: 2019
     bio: >
       Prior to joining Microsoft, Rory worked for a number of South Africa’s large companies as an Integration Architect. Rory’s focus for the last 7 years has been on research and development (R&D) with a focus on cloud research, consulting and training. Working in research has allowed him unparalleled insights into industry movements, trends, and news. Rory is extremely passionate about the programming community and has been critical helping them create a South African flavoured digital disruption strategy. Rory is an organiser of the Kotlin and Java developer user groups and has led the Johannesburg AWS user group for 2 years. When not captivating the crowd with his presentations as a technical speaker, he can be found in the front row with a distinguished laugh, infectious enough to break the awkward silence in any audience. His expertise includes PaaS and Java, and he holds an honours degree in Computer Science. Married with two children, Rory tries to spend most of his free time with his family and two hyperactive Schnauzers.
@@ -205,7 +408,6 @@ grace_chang:
     twitter: greyschale
     github:
     country: UK
-    landing_page: false
     year: 2019
     bio: >
       Senior Engineer in London, with a past life as an on-call tech lead. Paints with code by day, paints for real by night. Enthusiast of fun coding and coding puns. Lover of lagomorphs, gifs, and gifs of lagomorphs.
@@ -222,7 +424,6 @@ bernardt_duvenhage:
     twitter: bernardt_d
     github:
     country: South Africa
-    landing_page: false
     year: 2019
     bio: >
       Bernardt Duvenhage received his Ph.D. in Computer Science from the University of Pretoria, South Africa in 2015. Bernardt is also a Google Cloud Certified Professional Data Engineer. In 2017 he joined Praekelt’s Feersum Engine Team as the lead developer of the natural language processing and understanding (NLP & NLU) capability. Before Praekelt he was a principal researcher and a research group leader of image processing at the Council for Scientific and Industrial Research in Pretoria. His research interests include natural language understanding, computer vision and field robotics.
@@ -239,7 +440,6 @@ ben_dechrai:
     twitter: bendechrai
     github:
     country: Australia
-    landing_page: true
     year: 2019
     bio: >
       Ben Dechrai is a technologist, presenter, community builder, and hard-core privacy advocate. When he’s not on stage, or sharing his ideas and views on security, identity, and privacy, he loves to hear about other people’s passions and interests, technology related and otherwise. It’s because of this that he has been known to run a number of community events, from conferences and meetups, to end-of-year parties and comedy shows. He now works for Auth0 to support developers in making the web a safer place.
@@ -256,7 +456,6 @@ heidi_waterhouse:
     twitter: wiredferret
     github:
     country: USA
-    landing_page: true
     year: 2019
     bio: >
       Heidi is a developer advocate with LaunchDarkly. She delights in working at the intersection of usability, risk reduction, and cutting-edge technology. One of her favourite hobbies is talking to developers about things they already knew but had never thought of that way before. She sews all her conference dresses so that she’s sure there is a pocket for the mic.
@@ -273,7 +472,6 @@ mary_racter:
     twitter: mracter
     github:
     country: South Africa
-    landing_page: false
     year: 2018
     bio: >
       Born and bred on dirty tricks. Security Engineer at Praekelt.org, a non-profit foundation focused on building digital solutions to improving quality of life in the majority world. Worked at MWR InfoSecurity as a penetration tester until moving on to Praekelt.org to connect information security with strengthening human rights in the digital age. Once ate an entire pack of lemon creams for supper.
@@ -290,7 +488,6 @@ cooper_lees:
     twitter: cooperlees
     github: cooperlees
     country: USA
-    landing_page: false
     year: 2018
     bio: >
       I’m an Aussie who’s been at Facebook for almost 5 years. Previous to Facebook I worked for Juniper Networks via contact all over APAC, and was once a UNIX Systems admin @ the Australian Nuclear Science and Technology Organization. I love modern computing technology, of late IPv6 and Python 3. I have helped with the efforts of pushing both to Facebook and associate companies.
@@ -307,7 +504,6 @@ aslam_khan:
     twitter: aslamkhn
     github: aslamkhn
     country: South Africa
-    landing_page: false
     year: 2018
     bio: >
       Aslam is an African technologist and strategist. He consults to large enterprises looking to shift gears, and to startups that are off the runway trying the same. He spends his time with his friends at Samushonga, Khan and Baker where they sharpen enterprise strategy and execute on its implementation; focusing on people to lines of code and the weird stuff in between. After all, what is the value of a strategy that can’t be delivered?
@@ -324,7 +520,6 @@ monty_widenius:
     twitter: montywi
     github:
     country: Finland
-    landing_page: false
     year: 2018
     bio: >
       Monty started working on precursors to MySQL in 1981, released MySQL in 1995 and has been developing MySQL and its fork MariaDB ever since. Currently the CTO of MariaDB Corporation, he’s still a highly active developer, and loves nothing more than intense technical discussions.
@@ -2661,3 +2856,145 @@ peter_lockhart:
         without funding and with no sleep: what we've done well (and done
         badly); what we've learnt and what we still need to learn.
     video: oNSfK0jDU3w
+
+jonathan_hitchcock:
+    name: Jonathan Hitchcock
+    company: Yola
+    role: Operations Lead
+    twitter: vhata
+    country: SA
+    year: 2012
+    bio: >
+      Jonathan is the Operations Team Leader at Yola.com. During his time there, he has helped scale the site to where it is now, currently hosting around ten million sites. Involved in the world of startups, DevOps and scalability, he wants to help seed the culture here in Cape Town, and hopes that ScaleConf will aid that.
+    title: Clearly I Have Made Some Bad Decisions
+    abstract: >
+      Too often in the organization of this conference we have heard "but I don't have scalability issues".
+      </p>
+      <p>
+      This talk discusses what scalability issues actually are, and details why we all inevitably have them. Avoiding them, or delaying solutions until they are unavoidable, leads to making many bad "temporary" decisions that cannot be fixed further down the line.
+      </p>
+      <p>
+      I will discuss the methodologies and best practices that are required in order to be scalable, and describe the common mistakes they will temper, and why they should be implemented immediately. Finally, I will briefly touch on how to deal with rectifying the bad decisions that we all inevitably make, no matter how forward-thinking we are.
+      </p>
+
+craig_raw:
+    name: Craig Raw
+    company: Quirk
+    role: Founding CTO
+    twitter: craigraw
+    country: SA
+    year: 2012
+    bio: >
+      Craig is the founding CTO of Quirk, one of Africa's largest digital agencies. A programmer since before he can properly remember, Craig believes strongly in using technology to educate, create jobs and improve lives. As such, he's created and supported numerous pieces of widely used web-related software over the years, from the online reputation management tool BrandsEye to the open source Firefox extension SearchStatus.
+    title: Webscaling Tips
+    abstract: >
+      A collection of some of my learnings from a decade of building and hosting websites and web applications for one of Africa's largest digital agencies. It will cover areas such as languages, persistence, infrastructure architecture and scaling your team.
+
+zach_holman:
+    name: Zach Holman
+    company: Github
+    role: Github Employee of the month
+    twitter: holman
+    country: US
+    year: 2012
+    bio: >
+      Zach works at GitHub. When he's not doing that, he's blogging, hacking on open source, and filming screencasts that are anything but "traditional" screencasts. He attracted national media fame and glory when he built Facelette, a ridiculous three-hour experiment, and lost all of it again after admitting he sometimes stays home on Friday nights and replies to support emails.
+    title: Scaling GitHub
+    abstract: >
+      A month after launching, GitHub hosted one thousand repositories. Three years later, we host over three million. In the same time we've gone from one thousand users to over a million.
+      </p>
+      <p>
+      This type of scaling presents some interesting technical challenges. I'll dig into our development workflow and how we address concepts like scaling, deployment, code review, and testing.
+      </p>
+      <p>
+      It also presents some interesting business challenges, too. How you grow your company from three employees, how you work in teams, and how you split your app up into services all help ensure that you'll be able to react to your product's growth.
+      </p>
+
+miles_ward:
+    name: Miles Ward
+    company: Amazon Web Services
+    role: Technology Solutions Architect
+    twitter: milesward
+    country: US
+    year: 2012
+    bio: >
+      Miles Ward is a three-time technology startup entrepreneur with a decade of experience building global-scale analysis infrastructures. Miles has been at Amazon Web Services since 2010 and is responsible for designing and developing AWS Solution Architectures relating to big data and social analytics, multi-tiered storage, HA and DR approaches for RDBMS systems, and cost optimization using Spot.  Miles recently published the AWS SQL Server on EC2 white paper, is a patent holder and consummate geek.
+    title: Scaling using Amazon Web Services
+    abstract: >
+
+bryn_divey:
+    name: Bryn Divey
+    company: Nimbula
+    role: Engineer
+    twitter: bryndivey
+    country: SA
+    year: 2012
+    bio: >
+      Bryn Divey has worked in several Cape Town startups, and has spent the last three years at Nimbula building a cloud operating system. He spends his days building distributed, self-healing software which can cope with scale, and in his spare time he repeatedly tries to learn Haskell.
+    title: Nimbula's bIC - lessons learned and challenges faced
+    abstract: >
+      bIC is Nimbula's resilient distributed init system that reacts to scale.  This talk will cover the evolution of the tool, the problems it had to overcome, and the lessons learned from developing it.
+
+deon_erasmus:
+    name: Deon Erasmus
+    company: Breakpoint Solutions
+    role: Infrastructure specialist
+    twitter: bisybackson
+    country: SA
+    year: 2012
+    bio: >
+      Deon designs and builds infrastructure, and has extensive experience in deploying and integrating bespoke platforms into all kinds of environments. Largely focused on networking, firewalls, storage and virtualisation, he sometimes pretends to know stuff about Oracle, Solaris and Linux. He holds an Asterisk certification issued by Digium themselves, but intensely dislikes telephony and being telephoned. Lately he has been dabbling in application delivery networking voodoo and cultivating tasty vegetables for own consumption.
+    title: Highly available infrastructure on the cheap
+    abstract: >
+      Sometimes, hosting your new web or mobile app in the cloud may not be an option, and you'll be faced with the challenge of building your own infrastructure and hosting it somewhere. Being a startup, chances are you are short on cash, already wearing several hats, and inexperienced with the hard stuff. How do you go about designing, sizing, specifying, procuring, implementing, deploying and monitoring the infrastructure for your new app, with a limited budget, and without compromising its ability to scale when your new service takes off? Practical advice, proven configurations and common pitfalls are covered in this talk.
+
+ashley_peters:
+    name: Ashley Peters
+    company: 2go
+    role: Founder
+    twitter: 2gomessenger
+    country: SA
+    year: 2012
+    bio: >
+      Ashley co-founded 2go while studying at university. Since then he has helped grow and scale one of Africa's most popular social networks. His time is spent scaling the company and technology behind 2go. Ashley is passionate about creating things, breaking things and connecting with people.
+    title: Scaling a mobile social network
+    abstract: >
+      2go has developed a hugely successful mobile social network around its 2go Messenger; a network that has grown to 15 million users across Africa in just a few years. If rapid infrastructure scaling doesn't present enough challenges, doing so in an emerging market only makes it more interesting. Ashley will share techniques used and lessons learned during 2go's growth and what is planned for the future.
+
+simon_dehaan:
+    name: Simon de Haan
+    company: Praekelt Foundation
+    role: Chief Engineer
+    twitter: smn
+    country: SA
+    year: 2012
+    bio: >
+      Growing up in the Middle East left an indelible impression on Simon and sparked a passionate interest in community development, entrepreneurship and technology. After completing a B.Eng in Media Technology in the Netherlands Simon worked for several prominent digital agencies before being appointed CTO of a promising internet startup in Amsterdam. In 2009 Simon moved to South Africa to focus on community development work through the use of technology to improve lives of the less privileged.
+    title: Learning to Fail
+    abstract: >
+      Building applications for scale in emerging markets such as Africa, while terribly exciting, can be an incredibly uncomfortable exercise. Not only from a perspective of the technical challenges but just as much from a team perspective. One of the keys to staying sane is admitting that we all write terrible code, dreadfully hacky workarounds and resort to incredibly poor solutions all the time. I'll be talking about our experience in failure at Praekelt and how that adds value to what we do and the impact we aim to have.
+
+wesley_lynch:
+    name: Wesley Lynch
+    company: Realmdigital
+    role: Founder and CEO
+    twitter: wesleylynch
+    country: SA
+    year: 2012
+    bio: >
+      Driven by a passion for software and problem solving, Wesley Lynch founded Realmdigital in 1999. Wesley, a technology entrepreneur, has over a decade of experience in the financial, business and software development industries; gained both locally and during his time in the UK.  He is deeply involved in producing innovative technology solutions for African and international businesses and regularly shares his knowledge and experience through participation in various industry events.
+    title: Software Architecture and building E-Commerce Websites
+    abstract: >
+
+mark_phillips:
+    name: Mark Phillips
+    company: Basho Technologies
+    role: Community Manager
+    twitter: pharkmillups
+    country:
+    year: 2012
+    bio: >
+      Mark is the Community Manager at Basho Technologies, the company that leads development on software like Riak, Webmachine, and Rebar.  Mark is passionate about open source software, community building, and Hall &amp; Oates. He's also dedicated to bringing scalable, distributed systems to the masses.
+    title:
+    abstract: >
+      Distributed systems aren't limited to the world of computing. Companies and communities, for example, are also distributed networks of resources. In this talk, we'll take a high-level look at computers, companies, and communities as distributed systems and examine why maintaining their health is crucial if they are to scale.
