@@ -15,6 +15,23 @@
     # abstract: >
     # video:
 
+carla_souza:
+    name: Carla Souza
+    company: Facebook
+    role: Production Engineer
+    twitter: carlaas
+    github: carlasouza
+    country: US
+    landing_page: true
+    year: 2020
+    bio: >
+      Carla is a Production Engineer at Facebook currently based in Seattle. She is part of the Async Tier team that empowers Facebook's engineers with an API for asynchronous computing.
+With over 10 years of experience, Carla was one of the earlier speakers of DevopsDays. On her free time, she enjoys e-sports, baking and snowboarding.
+    title: >
+      Asynchronous Computing @ FB: Driving efficiency & developer productivity at Facebook scale
+    abstract: >
+      A lot of work happens behind the scenes that requires time and processing that should not block real-time actions in our products. Things like notifications, events' invites and video rendering may entail long waits or requires a large amount of processing power. This talk details how Facebook handles asynchronous processing at large scale, and the challenges that come with maintaining the reliability of a large multi-tenant system constantly growing in demand.
+
 jessica_tai:
     name: Jessica Tai
     company: Airbnb
@@ -3017,3 +3034,4 @@ mark_phillips:
     title:
     abstract: >
       Distributed systems aren't limited to the world of computing. Companies and communities, for example, are also distributed networks of resources. In this talk, we'll take a high-level look at computers, companies, and communities as distributed systems and examine why maintaining their health is crucial if they are to scale.
+
