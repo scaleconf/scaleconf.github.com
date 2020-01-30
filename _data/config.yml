@@ -1,7 +1,7 @@
 
 quicket_productid: 93661
 
-waiting_list_url: https://docs.google.com/forms/d/e/1FAIpQLScAWgntnTMymturXENFXTkhyBMedwGqkv4v1_g4kz1yiyd0mw/viewform?usp=sf_link
+waiting_list_url: https://forms.gle/4rGwksKU8HSUhFEM7
 
 current_year: 2020
 
@@ -20,10 +20,10 @@ dates: 5 & 6 March 2020
 
 homepage_sections:
   upcoming_conference: false
-  tickets_sell: true
-  tickets_soldout: false
-  tickets_waitinglist: false
-  tickets_notify: true
+  tickets_sell: false
+  tickets_soldout: true
+  tickets_waitinglist: true
+  tickets_notify: false
   current_speakers: true
   previous_speakers: false
   sponsors: true
