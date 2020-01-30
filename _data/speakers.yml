@@ -125,6 +125,25 @@ paco_and_alberto:
       Refactoring massive codebases is risky and hard but essential to ensure that large system architectures can continue to evolve and support further innovation. This talk presents some of the key challenges, strategies and data-driven techniques that can be applied to refactor massive codebases.
     video:
 
+
+
+carla_souza:
+    name: Carla Souza
+    company: Facebook
+    role: Production Engineer
+    twitter: carlaas
+    github: carlasouza
+    country: US
+    landing_page: true
+    year: 2020
+    bio: >
+      Carla Souza is a Production Engineer at Facebook where works in an asynchronous job scheduler that powers Facebook. She spends her time optimizing, improving and scaling this large distributed system that impacts the lives of over 2 billion people. Prior to Facebook, Carla worked as System Engineers for Spotify where managed its internal Puppet codebase and infrastructure.
+    title: >
+      Asynchronous Computing @ FB: Driving efficiency & developer productivity at Facebook scale
+    abstract: >
+      A lot of work happens behind the scenes that takes time that should not block real-time actions in our products.I’ll detail how Facebook handles large scale asynchronous processing, and the challenges that come with keeping the reliability of a large multi-tenant system constantly growing in demand.
+    video:
+
 lyndsay_prewer:
     name: Lyndsay Prewer
     company: Equal Experts
