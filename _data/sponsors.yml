@@ -4,7 +4,7 @@
 # 2017: ["takealot", "google", "oracle", "offerzen", "allan_gray", "fastly", "jumo", "amazon", "impact_radius"]
 # 2018: ["takealot", "amazon", "allan_gray", "offerzen", "impact_radius", "oracle", "google", "luno", "smyte"]
 # 2019: ["impact", "estalea", "elastic", "offerzen", "microsoft", "takealot", "dimensiondata", "luno", "amazon", "allan_gray", "equal_experts", "aruba"]
-# 2020: ["capitec", "elastic", "luno", "estalea", "impact", "offerzen", "takealot", "travelstart"]
+# 2020: ["capitec", "elastic", "luno", "estalea", "impact", "offerzen", "takealot", "travelstart", "google"]
 
 sponsors:
   - name: allan_gray
@@ -215,7 +215,7 @@ sponsors:
       GitHub, Pinterest, and Shazam. Learn more at <a href="http://fastly.com">Fastly.com</a>
       and follow us at <a href='https://twitter.com/fastly/'>@fastly</a>.
   - name: google
-    active: false
+    active: true
     active_rank: 2
     website_text: >
       Google's innovative search technologies connect millions of people around
@@ -231,7 +231,7 @@ sponsors:
       <p>
       For more information, visit <a href='http://developers.google.com'>
       developers.google.com</a>, and follow us on
-      <a href='https://plus.google.com/+GoogleDevelopers'>Google+</a>.
+      <a href='https://twitter.com/googledevs'>twitter.com/googledevs</a>.
   - name: hetzner
     active: false
     active_rank: 2
