@@ -207,7 +207,7 @@ bruce_merry_2020:
     title: >
       Networking challenges in the MeerKAT radio telescope
     abstract: >
-      MeerKAT is the one of the most powerful radio telescope in the world, generating over 2 Tb/s of raw data. Moving data around for processing poses unique challenges both in software and in network tuning. Come to hear about unexpected limitations in switches, NICs and software stacks.
+      MeerKAT is the one of the most powerful radio telescopes in the world, generating over 2 Tb/s of raw data. Moving data around for processing poses unique challenges both in software and in network tuning. Come to hear about unexpected limitations in switches, NICs and software stacks.
     video:
 
 tanaka_mutakwa:
