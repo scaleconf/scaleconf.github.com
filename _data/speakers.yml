@@ -203,7 +203,7 @@ bruce_merry_2020:
     landing_page: true
     year: 2020
     bio: >
-      Bruce is a senior software developer at SARAO (South African Radio Astronomical Observatory), working on software underlying the MeerKAT radio telescope, including high-performance networking, orchestration (presented at ScaleConf 2017) and GPU computing.
+      Bruce is a senior software developer at SARAO (South African Radio Astronomy Observatory), working on software underlying the MeerKAT radio telescope, including high-performance networking, orchestration (presented at ScaleConf 2017) and GPU computing.
     title: >
       Networking challenges in the MeerKAT radio telescope
     abstract: >
@@ -3015,4 +3015,3 @@ mark_phillips:
     title:
     abstract: >
       Distributed systems aren't limited to the world of computing. Companies and communities, for example, are also distributed networks of resources. In this talk, we'll take a high-level look at computers, companies, and communities as distributed systems and examine why maintaining their health is crucial if they are to scale.
-
