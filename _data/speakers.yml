@@ -244,6 +244,25 @@ juan_urrego:
       Valliappa Lakshmanan says: “Ask someone a question in Google and you are likely to receive a link to a BigQuery view or query rather than the actual answer”. That’s what we are doing at Travelstart! I’ll present our DataOps approach and a way to create a culture of DIY, avoiding the BI bottleneck.
     video:
 
+dan_wells:
+    name: Dan Wells
+    company: wellwellwell
+    role: Co-Founder EskomSePush
+    twitter: c4talyst
+    github: c4talyst
+    country: SA
+    landing_page: true
+    year: 2020
+    bio: >
+      My day job is CTO Superbalist: focused on strategy, scale, reliability, platform, growth, and people. My side-hustle is EskomSePush (ESP): focused on breaking things, exercising my engineering skills, experiments, and having fun. It's incredible to have a platform which connects me to 3.2M users.
+    title: >
+      The EskomSePush Journey
+    abstract: >
+      <a href='https://twitter.com/hermaritz'>
+      Herman Maritz</a> and myself launched <a href='https://sepush.co.za'>
+      EskomSePush</a> in 2015, to monitor and alert on the waning national power provider in South Africa. We built a brand to keep light-hearted around this dark situation, and tried to make South Africans smile instead. We've experienced various scaling issues throughout our journey, and have come up with some interesting (lazy) ways ways to handle them, while still remaining a 2-person team without any funding. I'll talk through our journey, some highlights & lowlights, and some of the ways we handled our scaling challenges.
+    video:
+
 dale_humby_2019:
     name: Dale Humby
     company: Nomanini
