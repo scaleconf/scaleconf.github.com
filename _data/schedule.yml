@@ -67,13 +67,18 @@
         - time: 2:15 pm
           event: Break
           description: A quick changeover & pee-break
-        - time: 2:30 pm
+        - time: 2:25 pm
           speaker: paco_and_alberto
-        - time: 3:15 pm
+        - time: 3:10 pm
           event: Break
           description: Afternoon tea & coffee break
-        - time: 3:40 pm
+        - time: 3:30 pm
           speaker: lyndsay_prewer
+        - time: 4:15 pm
+          event: Break
+          description: A quick changeover & pee-break
+        - time: 4:25 pm
+          speaker: dan_wells
     - day: Friday evening, 6th March
       schedule:
         - time: 5:00 - 7:00 pm
