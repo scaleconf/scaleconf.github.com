@@ -39,7 +39,7 @@ aslam_khan_2020:
     twitter:
     github: aslamkhn
     country: South Africa
-    landing_page: true
+    landing_page: false
     year: 2020
     bio: >
       Aslam is an African software developer, by birth and by choice. A couple of decades later and he is convinced that design is hard, very, very hard. The same with scalability - it throws us into extreme states, way off balance, struggling to find the supply to meet the demand. These days Aslam tries to bind strategy and code with the shortest and tautest of strings, finding the least that we can do to fulfil a strategic intent. You can read his blog at <a href='https://f3yourmind.net/'>
@@ -149,7 +149,7 @@ lyndsay_prewer:
     twitter: lyndsp
     github: lyndsp
     country: UK
-    landing_page: true
+    landing_page: false
     year: 2020
     bio: >
       I'm an Agile Delivery Consultant with over twenty years experience of helping individuals, teams and organisations improve their software delivery. I’m currently working with Equal Experts, leading six platform teams that operate and evolve a large scale Platform-as-a-Service, for the UK Government.
@@ -166,7 +166,7 @@ corver_roos:
     twitter:
     github: corverroos
     country: South Africa
-    landing_page: true
+    landing_page: false
     year: 2020
     bio: >
       Corver Roos has an Electronic Engineering degree from Stellenbosch university and after a short foray teaching English in Taiwan, he found his true calling, rejecting code reviews. He cut his teeth building high performance distributed systems for the telecoms industry. He then moved to the Netherlands to head up a team building a music distribution and big data platform. He is currently back in Cape Town working for Luno as a principal backend engineer. Here he has been building teams, processes and technology to help Luno navigate its hyper scaling growth.
@@ -183,7 +183,7 @@ rayna_leibbrandt:
     twitter:
     github:
     country: South Africa
-    landing_page: true
+    landing_page: false
     year: 2020
     bio: >
       Rayna started studying Computer Science at Stellenbosch University when she was 17 and hasn’t been far from a computer since. She loves anything to do with integration architectures e.g. microservices, but also has fun doing martech, cloud, devops, digital and streaming data implementations. Rayna has 2 kids and a husband and lives in Fish Hoek, so her free time is spent sitting on the beach, getting sand-blasted by the South Easter.
@@ -200,7 +200,7 @@ bruce_merry_2020:
     twitter:
     github: bmerry
     country: South Africa
-    landing_page: true
+    landing_page: false
     year: 2020
     bio: >
       Bruce is a senior software developer at SARAO (South African Radio Astronomy Observatory), working on software underlying the MeerKAT radio telescope, including high-performance networking, orchestration (presented at ScaleConf 2017) and GPU computing.
