@@ -16,17 +16,17 @@ years:
   - 2013
   - 2012
 
-dates: 5 & 6 March 2020
+dates: 2021 dates to be confirmed
 
 homepage_sections:
   upcoming_conference: false
   tickets_sell: false
-  tickets_soldout: true
-  tickets_waitinglist: true
-  tickets_notify: false
-  current_speakers: true
-  previous_speakers: false
+  tickets_soldout: false
+  tickets_waitinglist: false
+  tickets_notify: true
+  current_speakers: false
+  previous_speakers: true
   sponsors: true
 navigation:
   submit: false
-  schedule: true
+  schedule: false
