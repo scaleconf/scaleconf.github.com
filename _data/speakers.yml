@@ -191,7 +191,7 @@ rayna_leibbrandt:
       DirectAxis journey to Event-driven Microservices
     abstract: >
       DirectAxis has spent the past few years re-architecting a monolith - first into RESTful microservices and now into event-driven microservices using Kafka. We’ve learned some interesting lessons about patterns, technology and culture, that we would like to share with other technologists.
-    video:
+    video: vab02lBfaWc
 
 bruce_merry_2020:
     name: Bruce Merry
