@@ -30,7 +30,7 @@ jessica_tai:
       How to Tame Your Microservices: Evolving Airbnb’s Architecture
     abstract: >
       Airbnb had a successful migration to microservices, but managing hundreds of services made new challenges. The dependency graph is too complicated impacting scalability, reliability and velocity. Learn how we are evolving our read path service architecture to continue scaling our business.
-    video:
+    video: 4Qiba4isie4
 
 aslam_khan_2020:
     name: Aslam Khan
@@ -65,7 +65,7 @@ andrew_newdigate:
       Dealing with Metrics at Scale at GitLab
     abstract: >
       Good observability is critical to managing complex systems at scale; having quality metrics is key to this. But as system grow, the number of metrics they produce rapidly increases. Dashboards and alerts can become difficult to maintain and lead to technical debt. This talk describes the strategy we’re using at GitLab to tackle this.
-    video:
+    video: 2zL9DymXi1E
 
 josh_yudaken:
     name: Josh Yudaken
@@ -99,7 +99,7 @@ paco_mendes:
       Refactoring Massive Codebases
     abstract: >
       Refactoring massive codebases is risky and hard but essential to ensure that large system architectures can continue to evolve and support further innovation. This talk presents some of the key challenges, strategies and data-driven techniques that can be applied to refactor massive codebases.
-    video:
+    video: juwd6tBBzj0
 
 alberto_venturini:
     name: Alberto Venturini
@@ -116,14 +116,14 @@ alberto_venturini:
       Refactoring Massive Codebases
     abstract: >
       Refactoring massive codebases is risky and hard but essential to ensure that large system architectures can continue to evolve and support further innovation. This talk presents some of the key challenges, strategies and data-driven techniques that can be applied to refactor massive codebases.
-    video:
+    video: juwd6tBBzj0
 
 paco_and_alberto:
     name: Paco Mendes and Alberto Venturini
     title: Refactoring Massive Codebases
     abstract: >
       Refactoring massive codebases is risky and hard but essential to ensure that large system architectures can continue to evolve and support further innovation. This talk presents some of the key challenges, strategies and data-driven techniques that can be applied to refactor massive codebases.
-    video:
+    video: juwd6tBBzj0
 
 carla_souza:
     name: Carla Souza
@@ -157,7 +157,7 @@ lyndsay_prewer:
       Embracing collaborative chaos - running Game Days on large platforms
     abstract: >
       Chaos Engineering reduces the impact of component failure. Game Days are one practice within this field, whereby controlled failures are used to learn and improve system and team response. We will describe how to run a Game Day, using our experience of doing this across 60 teams, 1000 microservices.
-    video:
+    video: XLRkCAqftb4
 
 corver_roos:
     name: Corver Roos
@@ -174,7 +174,7 @@ corver_roos:
       Scaling teams with event driven architecture
     abstract: >
       This talk follows Luno’s journey of adopting an event driven architecture as part of our micro service platform. It delves into the problems we faced, the solutions we implemented and the bumps along the way.
-    video:
+    video: jmR6GZnp-XU
 
 rayna_leibbrandt:
     name: Rayna Leibbrandt Tsimitakopoulos
@@ -191,7 +191,7 @@ rayna_leibbrandt:
       DirectAxis journey to Event-driven Microservices
     abstract: >
       DirectAxis has spent the past few years re-architecting a monolith - first into RESTful microservices and now into event-driven microservices using Kafka. We’ve learned some interesting lessons about patterns, technology and culture, that we would like to share with other technologists.
-    video:
+    video: vab02lBfaWc
 
 bruce_merry_2020:
     name: Bruce Merry
@@ -208,7 +208,7 @@ bruce_merry_2020:
       Networking challenges in the MeerKAT radio telescope
     abstract: >
       MeerKAT is the one of the most powerful radio telescopes in the world, generating over 2 Tb/s of raw data. Moving data around for processing poses unique challenges both in software and in network tuning. Come to hear about unexpected limitations in switches, NICs and software stacks.
-    video:
+    video: eV23ubeWHfc
 
 tanaka_mutakwa:
     name: Tanaka Mutakwa
@@ -225,7 +225,7 @@ tanaka_mutakwa:
       Scaling People: Levelling up software engineers
     abstract: >
       The more skilled our software engineers become the more fulfilled they will be with their careers. Building a learning culture or environment which software engineers are constantly levelling up puts any company in a better place to handle any scaling challenges it faces over time.
-    video:
+    video: HeuDmbZTAHg
 
 juan_urrego:
     name: Juan Urrego
@@ -242,7 +242,7 @@ juan_urrego:
       Scaling Your Data: Data Democratisation and DataOps
     abstract: >
       Valliappa Lakshmanan says: “Ask someone a question in Google and you are likely to receive a link to a BigQuery view or query rather than the actual answer”. That’s what we are doing at Travelstart! I’ll present our DataOps approach and a way to create a culture of DIY, avoiding the BI bottleneck.
-    video:
+    video: U6FEgN2m8u8
 
 dan_wells:
     name: Dan Wells
@@ -260,8 +260,8 @@ dan_wells:
     abstract: >
       <a href='https://twitter.com/hermaritz'>
       Herman Maritz</a> and myself launched <a href='https://sepush.co.za'>
-      EskomSePush</a> in 2015, to monitor and alert on the waning national power provider in South Africa. We built a brand to keep light-hearted around this dark situation, and tried to make South Africans smile instead. We've experienced various scaling issues throughout our journey, and have come up with some interesting (lazy) ways ways to handle them, while still remaining a 2-person team without any funding. I'll talk through our journey, some highlights & lowlights, and some of the ways we handled our scaling challenges.
-    video:
+      EskomSePush</a> in 2015, to monitor and alert on the waning national power provider in South Africa. We built a brand to keep light-hearted around this dark situation, and tried to make South Africans smile instead. We've experienced various scaling issues throughout our journey, and have come up with some interesting (lazy) ways to handle them, while still remaining a 2-person team without any funding. I'll talk through our journey, some highlights & lowlights, and some of the ways we handled our scaling challenges.
+    video: MZHDN1k8EtY
 
 dale_humby_2019:
     name: Dale Humby
