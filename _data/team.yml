@@ -1,7 +1,7 @@
 members:
   - name: Duncan Phillips
-    title: DevOps Engineer
-    company: Takealot
+    title: Director of Engineering
+    company: Aerobotics
     twitter: nuknad
     bio: >
       Duncan automates infrastructure so humans don't need to, and then builds
@@ -17,7 +17,7 @@ members:
       supports these things.
   - name: Marije Pierson
     title: Operations
-    company: AppointmentGuru
+    company: LearnCube
     twitter: marijep
     bio: >
       Experience in operations, organising, consulting, managing, conferencing,
