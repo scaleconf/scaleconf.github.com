@@ -3,7 +3,7 @@
     Duncan Phillips       @nuknad
     Marije Pierson        @marijep
     Mike Jones            @imsickofmaps
-    Calvin Brizzi         @clvnb
+
 
 /* THANKS */
     Jennifer Poole        @fireenjn
@@ -11,6 +11,7 @@
     Russell Cloran        @rcloran
     Stefano Rivera        @stefanorivera
     Vanessa Berger        @van_berger
+    Calvin Brizzi         @clvnb
 
 /* SITE */
     Language:English

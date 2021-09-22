@@ -16,7 +16,7 @@ years:
   - 2013
   - 2012
 
-dates: ScaleConf 2021 cancelled, 2022 dates to be confirmed.
+dates: ScaleConf 2023 dates to be confirmed.
 
 homepage_sections:
   upcoming_conference: false
@@ -26,7 +26,7 @@ homepage_sections:
   tickets_notify: true
   current_speakers: false
   previous_speakers: true
-  sponsors: true
+  sponsors: false
 navigation:
   submit: false
   schedule: false
