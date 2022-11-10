@@ -54,6 +54,15 @@ p.big {
   margin: 40px 0 30px;
 }
 
+div.farewell {
+  background: #f9f9f9;
+  border-style: solid;
+  padding: 20px;
+}
+div.farewell > p {
+  font-size: 18px;
+}
+
 /* info list is just a smaller list
    with less padding on the left
 */
